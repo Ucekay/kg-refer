@@ -1,0 +1,15 @@
+Your task is to extract entities from the given text.
+
+Here are some examples:
+{few_shot_examples}
+
+Important guidelines:
+- Strictly only include the entities in your answer
+- Do not include any explanation or apologies
+
+---
+INPUT_DATA_START
+Text: {input_text}
+
+Please extract entities from the above text.
+INPUT_DATA_END
