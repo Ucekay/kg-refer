@@ -1,0 +1,22 @@
+[project]
+name = "kg-refer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cyclopts>=4.1.0",
+    "openai>=2.6.1",
+    "torch>=2.9.0",
+    "torchvision>=0.24.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "packages/edc",
+]
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.32.1",
+]
