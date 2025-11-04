@@ -82,24 +82,20 @@ def get_embedding_sts(
     return embedding
 
 
-def is_model_openai(model_name: str) -> bool:
-    return "gpt" in model_name.lower()
-
-
 def parse_raw_entities(raw_entities: str):
     parsed_entities = []
     try:
         left_bracket_index = raw_entities.index("[")
         right_bracket_index = raw_entities.rindex("]") + 1
         try:
-            parsed_entities = ast.literal_eval(
+            parsed_entities: List[str] = ast.literal_eval(
                 raw_entities[left_bracket_index : right_bracket_index + 1]
             )
         except Exception as e:
-            logger.debug(f"Failed to parse entities from {raw_entities}: {e}")
+            logging.debug(f"Failed to parse entities from {raw_entities}: {e}")
     except ValueError:
-        logger.debug(f"No brackets found in entities string: {raw_entities}")
-    logger.debug(f"Entities {raw_entities} parsed as {parsed_entities}")
+        logging.debug(f"No brackets found in entities string: {raw_entities}")
+    logging.debug(f"Entities {raw_entities} parsed as {parsed_entities}")
     return parsed_entities
 
 
@@ -108,28 +104,28 @@ def parse_raw_triplets(raw_triplets: str) -> List[List[str]]:
     matched_bracket_pairs = []
 
     collected_triplets = []
-    for c_index, c in enumerate(raw_triplets):
+    for c_idx, c in enumerate(raw_triplets):
         if c == "[":
-            unmatched_left_bracket_indices.append(c_index)
-        elif c == "]":
+            unmatched_left_bracket_indices.append(c_idx)
+        if c == "]":
             if len(unmatched_left_bracket_indices) == 0:
                 continue
-            matched_left_bracket_index = unmatched_left_bracket_indices.pop()
-            matched_bracket_pairs.append((matched_left_bracket_index, c_index))
+            matched_left_bracket_idx = unmatched_left_bracket_indices.pop()
+            matched_bracket_pairs.append((matched_left_bracket_idx, c_idx))
 
     for l, r in matched_bracket_pairs:
-        bracket_str = raw_triplets[l : r + 1]
+        bracketed_str = raw_triplets[l : r + 1]
         try:
-            parsed_triplet = ast.literal_eval(bracket_str)
+            parsed_triplet: List[str] = ast.literal_eval(bracketed_str)
             if len(parsed_triplet) == 3 and all(
-                isinstance(item, str) for item in parsed_triplet
+                isinstance(t, str) for t in parsed_triplet
             ):
                 if all([e != "" and e != "_" for e in parsed_triplet]):
                     collected_triplets.append(parsed_triplet)
             elif not all([type(x) == type(parsed_triplet[0]) for x in parsed_triplet]):
-                for e_index, e in enumerate(parsed_triplet):
+                for e_idx, e in enumerate(parsed_triplet):
                     if isinstance(e, list):
-                        parsed_triplet[e_index] = ",".join(e)
+                        parsed_triplet[e_idx] = ", ".join(e)
                 collected_triplets.append(parsed_triplet)
         except Exception as e:
             pass
@@ -139,7 +135,7 @@ def parse_raw_triplets(raw_triplets: str) -> List[List[str]]:
 
 def parse_relation_definition(raw_definitions: str):
     descriptions = raw_definitions.split("\n")
-    relation_definition_dict = {}
+    relation_definition_dict: dict[str, str] = {}
 
     for description in descriptions:
         if ":" not in description:
@@ -155,9 +151,13 @@ def parse_relation_definition(raw_definitions: str):
         relation_definition_dict[relation] = relation_description
 
     logger.debug(
-        f"Relation definitions {raw_definitions} parsed as {relation_definition_dict}"
+        f"Relation Definitions {raw_definitions} parsed as {relation_definition_dict}"
     )
     return relation_definition_dict
+
+
+def is_model_openai(model_name: str) -> bool:
+    return "gpt" in model_name.lower()
 
 
 def generate_completion_transformers(
@@ -208,7 +208,7 @@ def openai_chat_completion(
     history,
     temperature: float = 0.0,
     max_tokens: int = 512,
-):
+) -> str:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     input, instructions = _convert_to_responses_format(system_prompt, history)
@@ -233,7 +233,7 @@ def openai_chat_completion(
             time.sleep(1)
 
         # レスポンス処理
-    result = response.output_text
+    result: str = response.output_text
     logging.debug(
         f"Model: {model}\nInput: {input}\nInstructions: {instructions}\nResult: {result}"
     )
