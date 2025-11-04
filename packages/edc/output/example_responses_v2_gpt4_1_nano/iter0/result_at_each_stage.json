@@ -1,0 +1,33 @@
+[
+    {
+        "index": 0,
+        "input_text": "John Doe is a student at National University of Singapore.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "John_Doe",
+                "occupation",
+                "student"
+            ],
+            [
+                "John_Doe",
+                "attends",
+                "National_University_of_Singapore"
+            ]
+        ],
+        "schema_definition": {
+            "occupation": "The subject entity has the role or job specified by the object entity.",
+            "attends": "The subject entity is enrolled in or regularly goes to the institution specified by the object entity."
+        },
+        "canonicalization_candidates": "[{'contains settlement': np.float32(0.7585002), 'start time': np.float32(0.752829), 'located in the administrative territorial entity': np.float32(0.7455559), 'contains administrative territorial entity': np.float32(0.74387586), 'date of birth': np.float32(0.7419803)}, {'student': np.float32(0.8707493), 'located in the administrative territorial entity': np.float32(0.73452103), 'country': np.float32(0.7198068), 'contains settlement': np.float32(0.7043729), 'contains administrative territorial entity': np.float32(0.69462967)}]",
+        "schema_canonicalizaiton": [
+            null,
+            [
+                "John_Doe",
+                "student",
+                "National_University_of_Singapore"
+            ]
+        ]
+    }
+]
