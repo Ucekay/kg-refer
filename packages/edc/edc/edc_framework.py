@@ -1,3 +1,4 @@
+import asyncio
 import copy
 import csv
 import json
@@ -5,12 +6,11 @@ import logging
 import pathlib
 import random
 from importlib import reload
-from typing import List, Literal, Optional, TypedDict, Union
+from typing import List, Optional, TypedDict
 
 import torch
 from mpmath.libmp.backend import os
 from sentence_transformers import SentenceTransformer
-from torch.fx.experimental.symbolic_shapes import canonicalize_bool_expr
 from tqdm import tqdm
 from transformers import (
     AutoModelForCausalLM,
@@ -19,7 +19,6 @@ from transformers import (
     PreTrainedTokenizerFast,
 )
 
-from edc import schema_canonicalizer
 from edc.entity_extractor import LocalEntityExtractor, OpenAIEntityExtractor
 from edc.extractor import LocalExtractor, OpenAIExtractor
 from edc.schema_canonicalizer import SchemaCanonicalizer
@@ -103,14 +102,25 @@ class EDC:
         ] = {}
 
         self.loaded_sts_model_dict: dict[str, SentenceTransformer] = {}
+
+        # Parallel processing configuration
+        self.enable_parallel_processing = config.enable_parallel_processing
+        self.max_concurrent_requests = config.max_concurrent_requests
+        self.max_requests_per_second = config.max_requests_per_second
+        # request_timeout removed - no timeout for parallel processing
+
         logging.basicConfig(level=getattr(logging, config.log_level.upper()))
 
         logger.info(f"Model used: {self.needed_model_set}")
+        if self.enable_parallel_processing:
+            logger.info(
+                f"Parallel processing enabled: {self.max_concurrent_requests} concurrent, {self.max_requests_per_second} req/s"
+            )
 
     def oie(
         self,
         input_text_list: List[str],
-        previous_extractex_triplets_list: Optional[List[List[str]]] = None,
+        previous_extractex_triplets_list: Optional[List[List[List[str]]]] = None,
         free_model: bool = False,
     ):
         oie_model = None
@@ -182,6 +192,83 @@ class EDC:
 
         return oie_triplets_list, entity_hint_list, relation_hint_list
 
+    async def oie_async(
+        self,
+        input_text_list: List[str],
+        previous_extractex_triplets_list: Optional[List[List[List[str]]]] = None,
+        free_model: bool = False,
+    ):
+        """Async version of oie for parallel processing."""
+        if not llm_utils.is_model_openai(self.oie_llm_name):
+            logger.warning("Parallel processing is only supported for OpenAI models")
+            # Fall back to synchronous processing for local models
+            return self.oie(
+                input_text_list, previous_extractex_triplets_list, free_model
+            )
+
+        extractor = OpenAIExtractor(self.oie_llm_name)
+        oie_triplets_list = []
+        entity_hint_list = None
+        relation_hint_list = None
+
+        if previous_extractex_triplets_list is not None:
+            logger.info("Running Refined OIE in parallel...")
+            oie_refinement_prompt_template_str = open(
+                self.r_oie_prompt_template_file_path, encoding="utf-8"
+            ).read()
+            oie_refinement_few_shot_example_str = open(
+                self.r_oie_few_shot_example_file_path, encoding="utf-8"
+            ).read()
+
+            logger.info("Putting together the refinement hint...")
+            (
+                entity_hint_list,
+                relation_hint_list,
+            ) = await self.construct_refinement_hint_async(
+                input_text_list, previous_extractex_triplets_list, free_model=free_model
+            )
+
+            assert len(previous_extractex_triplets_list) == len(input_text_list)
+
+            # Process in parallel
+            print(
+                f"Processing {len(input_text_list)} texts in parallel (refined OIE)..."
+            )
+            oie_triplets_list = await extractor.extract_batch_async(
+                input_text_list=input_text_list,
+                few_shot_examples_str=oie_refinement_few_shot_example_str,
+                prompt_template_str=oie_refinement_prompt_template_str,
+                entities_hints=entity_hint_list,
+                relations_hints=relation_hint_list,
+                max_concurrent=getattr(self, "max_concurrent_requests", 100),
+                max_requests_per_second=getattr(self, "max_requests_per_second", 600),
+            )
+            print("Refined OIE parallel processing completed!")
+        else:
+            entity_hint_list = ["" for _ in input_text_list]
+            relation_hint_list = ["" for _ in input_text_list]
+            logger.info("Running OIE in parallel...")
+            oie_few_shot_example_str = open(
+                self.oie_few_shot_example_file_path, encoding="utf-8"
+            ).read()
+            oie_prompt_template_str = open(
+                self.oie_prompt_template_file_path, encoding="utf-8"
+            ).read()
+
+            # Process in parallel
+            print(f"Processing {len(input_text_list)} texts in parallel...")
+            oie_triplets_list = await extractor.extract_batch_async(
+                input_text_list=input_text_list,
+                few_shot_examples_str=oie_few_shot_example_str,
+                prompt_template_str=oie_prompt_template_str,
+                max_concurrent=getattr(self, "max_concurrent_requests", 100),
+                max_requests_per_second=getattr(self, "max_requests_per_second", 600),
+            )
+            print("OIE parallel processing completed!")
+
+        logger.info("OIE finished.")
+        return oie_triplets_list, entity_hint_list, relation_hint_list
+
     def load_hf_model(
         self, model_name: str
     ) -> tuple[PreTrainedModel, PreTrainedTokenizerFast]:
@@ -218,7 +305,7 @@ class EDC:
     def schema_definition(
         self,
         input_text_list: List[str],
-        oie_triplets_list: List[List[str]],
+        oie_triplets_list: List[List[List[str]]],
         free_model=False,
     ):
         assert len(input_text_list) == len(oie_triplets_list)
@@ -257,6 +344,52 @@ class EDC:
             logger.info(f"Freeing model {self.sd_llm_name} as it is no longer needed.")
             llm_utils.free_model(sd_model, sd_tokenizer)
             del self.loaded_hf_model_dict[self.sd_llm_name]
+        return schema_definition_dict_list
+
+    async def schema_definition_async(
+        self,
+        input_text_list: List[str],
+        oie_triplets_list: List[List[List[str]]],
+        free_model=False,
+    ):
+        """Async version of schema_definition for parallel processing."""
+        assert len(input_text_list) == len(oie_triplets_list)
+
+        if not llm_utils.is_model_openai(self.sd_llm_name):
+            logger.warning("Parallel processing is only supported for OpenAI models")
+            # Fall back to synchronous processing for local models
+            return self.schema_definition(
+                input_text_list, oie_triplets_list, free_model
+            )
+
+        schema_definer = OpenAISchemaDefiner(self.sd_llm_name)
+
+        schema_definition_few_shot_examples_str = open(
+            self.sd_few_shot_example_file_path, encoding="utf-8"
+        ).read()
+        schema_definition_prompt_template_str = open(
+            self.sd_prompt_template_file_path, encoding="utf-8"
+        ).read()
+
+        logger.info("Running Schema Definition in parallel...")
+        print(f"Processing {len(input_text_list)} schema definitions in parallel...")
+
+        # Process in parallel
+        schema_definition_dict_list = await schema_definer.define_schema_batch_async(
+            input_text_list=input_text_list,
+            extracted_triplets_lists=oie_triplets_list,
+            few_shot_examples_str=schema_definition_few_shot_examples_str,
+            prompt_template_str=schema_definition_prompt_template_str,
+            max_concurrent=getattr(self, "max_concurrent_requests", 100),
+            max_requests_per_second=getattr(self, "max_requests_per_second", 600),
+        )
+        print("Schema definition parallel processing completed!")
+
+        for idx, schema_definition_dict in enumerate(schema_definition_dict_list):
+            logger.debug(
+                f"{input_text_list[idx]}, {oie_triplets_list[idx]}\n -> {schema_definition_dict}\n"
+            )
+        logger.info("Schema Definition finished.")
         return schema_definition_dict_list
 
     def schema_canonicalization(
@@ -333,6 +466,128 @@ class EDC:
             if not llm_utils.is_model_openai(self.sc_llm_name):
                 llm_utils.free_model(sc_verify_model, sc_verify_tokenizer)
                 del self.loaded_hf_model_dict[self.sc_llm_name]
+
+        return canonicalize_triplets_list, canon_candidate_dict_per_entity_list
+
+    async def schema_canonicalization_async(
+        self,
+        input_text_list: List[str],
+        oie_triplets_list: List[List[str]],
+        schema_definition_dict_list: List[dict],
+        batch_size: int = 10,
+        free_model=False,
+    ):
+        """Async version of schema_canonicalization for parallel processing."""
+        assert len(input_text_list) == len(oie_triplets_list) and len(
+            input_text_list
+        ) == len(schema_definition_dict_list)
+        logger.info("Running Schema Canonicalization in parallel...")
+
+        sc_verify_prompt_template_str = open(
+            self.sc_prompt_template_file_path, encoding="utf-8"
+        ).read()
+
+        sc_embedder = self.load_sts_model(self.sc_embedder_name)
+
+        if not llm_utils.is_model_openai(self.sc_llm_name):
+            logger.warning("Parallel processing is only supported for OpenAI models")
+            # Fall back to synchronous processing for local models
+            return self.schema_canonicalization(
+                input_text_list,
+                oie_triplets_list,
+                schema_definition_dict_list,
+                free_model,
+            )
+
+        schema_canonicalizer = SchemaCanonicalizer(
+            self.schema, sc_embedder, verify_openai_model=self.sc_llm_name
+        )
+
+        # Flatten all triplets for batch processing
+        verification_data = []
+        text_triplet_mapping = []  # Map verification_data index back to (text_idx, triplet_idx)
+
+        for text_idx, (input_text, oie_triplets, sd_dict) in enumerate(
+            zip(input_text_list, oie_triplets_list, schema_definition_dict_list)
+        ):
+            for triplet_idx, oie_triplet in enumerate(oie_triplets):
+                open_relation = oie_triplet[1]
+
+                verification_info = {
+                    "input_text": input_text,
+                    "triplet": oie_triplet,
+                    "relation_definition": sd_dict.get(open_relation, ""),
+                    "prompt_template": sc_verify_prompt_template_str,
+                    "candidates": {},
+                    "candidates_dict": {},
+                    "already_canonical": open_relation in self.schema,
+                    "no_candidates": False,
+                }
+
+                # Check if already canonical
+                if verification_info["already_canonical"]:
+                    verification_data.append(verification_info)
+                    text_triplet_mapping.append((text_idx, triplet_idx))
+                    continue
+
+                # Get candidates if not already canonical
+                if open_relation in sd_dict and len(self.schema) > 0:
+                    candidate_relations, candidate_scores = (
+                        schema_canonicalizer.retrieve_similar_relations(
+                            sd_dict[open_relation]
+                        )
+                    )
+                    if candidate_relations:
+                        verification_info["candidates"] = {
+                            rel: self.schema[rel] for rel in candidate_relations
+                        }
+                        verification_info["candidates_dict"] = dict(
+                            zip(candidate_relations, candidate_scores)
+                        )
+                    else:
+                        verification_info["no_candidates"] = True
+
+                verification_data.append(verification_info)
+                text_triplet_mapping.append((text_idx, triplet_idx))
+
+        print(f"Processing {len(verification_data)} triplets in parallel...")
+
+        # Process all triplets in parallel batches
+        batch_results = await schema_canonicalizer.canonicalize_triplets_batch_async(
+            verification_data=verification_data,
+            batch_size=batch_size,
+            max_concurrent=getattr(self, "max_concurrent_requests", 100),
+            max_requests_per_second=getattr(self, "max_requests_per_second", 600),
+            enrich=self.enrich_chema,
+        )
+
+        print("Schema canonicalization parallel processing completed!")
+
+        # Reconstruct results in original structure
+        canonicalize_triplets_list = [[] for _ in input_text_list]
+        canon_candidate_dict_per_entity_list = [[] for _ in input_text_list]
+
+        for result_idx, (canonicalized_triplet, candidates_dict) in enumerate(
+            batch_results
+        ):
+            text_idx, triplet_idx = text_triplet_mapping[result_idx]
+            canonicalize_triplets_list[text_idx].append(canonicalized_triplet)
+            canon_candidate_dict_per_entity_list[text_idx].append(candidates_dict)
+
+        # Debug logging for first few results
+        for idx in range(min(3, len(input_text_list))):
+            logger.debug(
+                f"{input_text_list[idx]}, {oie_triplets_list[idx]} ->\n {canonicalize_triplets_list[idx]}"
+            )
+
+        logger.info("Schema Canonicalization finished.")
+
+        if free_model:
+            logger.info(
+                f"Freeing embedder model {self.sc_embedder_name} as it is no longer needed."
+            )
+            llm_utils.free_model(sc_embedder)
+            del self.loaded_sts_model_dict[self.sc_embedder_name]
 
         return canonicalize_triplets_list, canon_candidate_dict_per_entity_list
 
@@ -472,6 +727,176 @@ class EDC:
             del self.loaded_hf_model_dict[self.ee_llm_name]
         return entity_hint_list, relation_hint_list
 
+    async def construct_refinement_hint_async(
+        self,
+        input_text_list: List[str],
+        extracted_triplets_list: List[List[List[str]]],
+        include_relation_example="self",
+        relation_top_k=10,
+        free_model=False,
+    ):
+        """Async version of construct_refinement_hint for parallel processing."""
+        entity_extraction_few_shot_example_str = open(
+            self.ee_few_shot_example_file_path, encoding="utf-8"
+        ).read()
+        entity_extraction_prompt_template_str = open(
+            self.ee_prompt_template_file_path, encoding="utf-8"
+        ).read()
+
+        entity_merging_prompt_template_str = open(
+            self.em_prompt_template_file_path, encoding="utf-8"
+        ).read()
+
+        entity_hint_list = []
+        relation_hint_list = []
+
+        if not llm_utils.is_model_openai(self.ee_llm_name):
+            logger.warning("Parallel processing is only supported for OpenAI models")
+            # Fall back to synchronous processing for local models
+            return self.construct_refinement_hint(
+                input_text_list,
+                extracted_triplets_list,
+                include_relation_example,
+                relation_top_k,
+                free_model,
+            )
+
+        entity_extractor = OpenAIEntityExtractor(self.ee_llm_name)
+        sr_embedding_model = self.load_sts_model(self.sr_embedder_name)
+        schema_retriever = SchemaRetriever(
+            self.schema, sr_embedding_model, None, finetuned_e5mistral=False
+        )
+
+        relation_example_dict: dict[str, List[RelationExample]] = {}
+        if include_relation_example == "self":
+            for idx in range(len(input_text_list)):
+                input_text_str = input_text_list[idx]
+                ectracted_triplets = extracted_triplets_list[idx]
+                for triplet in ectracted_triplets:
+                    relation = triplet[1]
+                    if relation not in relation_example_dict:
+                        relation_example_dict[relation] = [
+                            {"text": input_text_str, "triplet": triplet}
+                        ]
+                    else:
+                        relation_example_dict[relation].append(
+                            {"text": input_text_str, "triplet": triplet}
+                        )
+        else:
+            # Todo: allow to pass gold examples of relations
+            pass
+
+        # Extract entities in parallel (optimization 1: parallelize independent entity extraction)
+        print(f"Extracting entities from {len(input_text_list)} texts in parallel...")
+        extracted_entities_list = await entity_extractor.extract_entities_batch_async(
+            input_text_list=input_text_list,
+            few_shot_examples_str=entity_extraction_few_shot_example_str,
+            prompt_template_str=entity_extraction_prompt_template_str,
+            max_concurrent=getattr(self, "max_concurrent_requests", 100),
+            max_requests_per_second=getattr(self, "max_requests_per_second", 600),
+        )
+        print("Entity extraction parallel processing completed!")
+
+        # Prepare data for batch entity merging (maintaining original sequential logic structure)
+        input_texts_for_merge = []
+        previous_entities_list = []
+        extracted_entities_list_for_merge = []
+        previous_relations_list = []  # Store for later use
+
+        for idx in range(len(input_text_list)):
+            input_text_str = input_text_list[idx]
+            extracted_triplets = extracted_triplets_list[idx]
+
+            previous_relations = set()
+            previous_entities = set()
+
+            for triplet in extracted_triplets:
+                previous_relations.add(triplet[1])
+                previous_entities.add(triplet[0])
+                previous_entities.add(triplet[2])
+
+            previous_entities = list(previous_entities)
+            previous_relations = list(previous_relations)
+
+            # Store data exactly as original sequential logic would prepare
+            input_texts_for_merge.append(input_text_str)
+            previous_entities_list.append(previous_entities)
+            extracted_entities_list_for_merge.append(extracted_entities_list[idx])
+            previous_relations_list.append(previous_relations)
+
+        # True parallel entity merging (replacing slow sequential calls)
+        print(f"Merging entities for {len(input_text_list)} texts in parallel...")
+        merged_entities_list = await entity_extractor.merge_entities_batch_async(
+            input_text_list=input_texts_for_merge,
+            entity_list_1_list=previous_entities_list,
+            entity_list_2_list=extracted_entities_list_for_merge,
+            prompt_template_str=entity_merging_prompt_template_str,
+            max_concurrent=getattr(self, "max_concurrent_requests", 100),
+            max_requests_per_second=getattr(self, "max_requests_per_second", 600),
+        )
+        print("Entity merging parallel processing completed!")
+
+        # Continue with relation hints and schema retrieval (maintaining original logic)
+        for idx in tqdm(range(len(input_text_list))):
+            input_text_str = input_text_list[idx]
+            extracted_triplets = extracted_triplets_list[idx]
+
+            # Use stored data from preparation phase (maintains exact same logic)
+            previous_relations = previous_relations_list[idx]
+
+            # Use merged entities from parallel processing (maintains result consistency)
+            entity_hint_list.append(str(merged_entities_list[idx]))
+
+            hint_relations = previous_relations
+
+            retrieved_relations = schema_retriever.retrieve_relevant_relations(
+                input_text_str
+            )
+
+            counter = 0
+
+            for relation in retrieved_relations:
+                if counter >= relation_top_k:
+                    break
+                else:
+                    if relation not in hint_relations:
+                        hint_relations.append(relation)
+
+            candidate_relation_str = ""
+            for relation_idx, relation in enumerate(hint_relations):
+                if relation not in self.schema:
+                    continue
+
+                relation_definition = self.schema[relation]
+
+                candidate_relation_str += (
+                    f"{relation_idx + 1}. {relation}: {relation_definition}\n"
+                )
+                if include_relation_example == "self":
+                    if relation not in relation_example_dict:
+                        pass
+                    else:
+                        selected_example = None
+                        if len(relation_example_dict[relation]) != 0:
+                            selected_example = random.choice(
+                                relation_example_dict[relation]
+                            )
+
+                        if selected_example is not None:
+                            candidate_relation_str += f"""For example, {selected_example["triplet"]} can be extracted from "{selected_example["text"]}"\n"""
+                        else:
+                            pass
+
+            relation_hint_list.append(candidate_relation_str)
+
+        if free_model:
+            logger.info(
+                f"Freeing model {self.sr_embedder_name, self.ee_llm_name} as it is no longer needed."
+            )
+            llm_utils.free_model(sr_embedding_model)
+            del self.loaded_sts_model_dict[self.sr_embedder_name]
+        return entity_hint_list, relation_hint_list
+
     def extract_kg(
         self, input_text_list: List[str], output_dir: str, refinement_iterations=0
     ):
@@ -532,6 +957,158 @@ class EDC:
                     and iteration == refinement_iterations,
                 )
             )
+
+            non_null_triplets_list = [
+                [triplet for triplet in triplets if triplet is not None]
+                for triplets in canon_triplets_list
+            ]
+
+            triplets_from_last_iteration = non_null_triplets_list
+
+            assert len(oie_triplets_list) == len(sd_dict_list) and len(
+                canon_triplets_list
+            ) == len(sd_dict_list)
+
+            json_results_list = []
+            for idx in range(len(oie_triplets_list)):
+                result_json = {
+                    "index": idx,
+                    "input_text": input_text_list[idx],
+                    "entity_hint": entity_hint_list[idx],
+                    "relation_hint": relation_hint_list[idx],
+                    "oie": oie_triplets_list[idx],
+                    "schema_definition": sd_dict_list[idx],
+                    "canonicalization_candidates": str(canon_candidate_dict_list[idx]),
+                    "schema_canonicalizaiton": canon_triplets_list[idx],
+                }
+                json_results_list.append(result_json)
+            restult_at_each_stage_file = open(
+                f"{iteration_result_dir}/result_at_each_stage.json", "w"
+            )
+            json.dump(
+                json_results_list,
+                restult_at_each_stage_file,
+                indent=4,
+            )
+
+            final_result_file = open(f"{iteration_result_dir}/canon_kg.txt", "w")
+            for idx, canon_triplets in enumerate(non_null_triplets_list):
+                final_result_file.write(str(canon_triplets))
+                if idx != len(canon_triplets_list) - 1:
+                    final_result_file.write("\n")
+                final_result_file.flush()
+
+        return canon_triplets_list
+
+    async def extract_kg_async(
+        self, input_text_list: List[str], output_dir: str, refinement_iterations=0
+    ):
+        """Async version of extract_kg for parallel processing."""
+        if os.path.exists(output_dir):
+            logger.warning(f"Output directory {output_dir} already exists.")
+            exit()
+        for iteration in range(refinement_iterations + 1):
+            pathlib.Path(f"{output_dir}/iter{iteration}").mkdir(
+                parents=True, exist_ok=True
+            )
+
+        logger.info("EDC starts running in parallel mode...")
+
+        required_model_dics = {
+            "oie": self.oie_llm_name,
+            "sd": self.sd_llm_name,
+            "sc_varify": self.sc_llm_name,
+            "sc_embedd": self.sc_embedder_name,
+            "ee": self.ee_llm_name,
+            "sr": self.sr_embedder_name,
+        }
+
+        triplets_from_last_iteration = None
+        for iteration in range(refinement_iterations + 1):
+            logger.info(f"Iteration {iteration}:")
+
+            iteration_result_dir = f"{output_dir}/iter{iteration}"
+
+            required_model_dict_current_iteration = copy.deepcopy(required_model_dics)
+
+            del required_model_dict_current_iteration["oie"]
+
+            # Use async OIE if parallel processing is enabled and model is OpenAI
+            if self.enable_parallel_processing and llm_utils.is_model_openai(
+                self.oie_llm_name
+            ):
+                (
+                    oie_triplets_list,
+                    entity_hint_list,
+                    relation_hint_list,
+                ) = await self.oie_async(
+                    input_text_list,
+                    free_model=self.oie_llm_name
+                    not in required_model_dict_current_iteration.values()
+                    and iteration == refinement_iterations,
+                    previous_extractex_triplets_list=triplets_from_last_iteration,
+                )
+            else:
+                oie_triplets_list, entity_hint_list, relation_hint_list = self.oie(
+                    input_text_list,
+                    free_model=self.oie_llm_name
+                    not in required_model_dict_current_iteration.values()
+                    and iteration == refinement_iterations,
+                    previous_extractex_triplets_list=triplets_from_last_iteration,
+                )
+
+            del required_model_dict_current_iteration["sd"]
+
+            # Use async schema definition if parallel processing is enabled and model is OpenAI
+            if self.enable_parallel_processing and llm_utils.is_model_openai(
+                self.sd_llm_name
+            ):
+                sd_dict_list = await self.schema_definition_async(
+                    input_text_list,
+                    oie_triplets_list,
+                    free_model=self.sd_llm_name
+                    not in required_model_dict_current_iteration.values()
+                    and iteration == refinement_iterations,
+                )
+            else:
+                sd_dict_list = self.schema_definition(
+                    input_text_list,
+                    oie_triplets_list,
+                    free_model=self.sd_llm_name
+                    not in required_model_dict_current_iteration.values()
+                    and iteration == refinement_iterations,
+                )
+
+            del required_model_dict_current_iteration["sc_varify"]
+            del required_model_dict_current_iteration["sc_embedd"]
+
+            # Use async schema canonicalization if parallel processing is enabled and model is OpenAI
+            if self.enable_parallel_processing and llm_utils.is_model_openai(
+                self.sc_llm_name
+            ):
+                (
+                    canon_triplets_list,
+                    canon_candidate_dict_list,
+                ) = await self.schema_canonicalization_async(
+                    input_text_list,
+                    oie_triplets_list,
+                    sd_dict_list,
+                    batch_size=getattr(self, "max_concurrent_requests", 5),
+                    free_model=self.sc_llm_name
+                    not in required_model_dict_current_iteration.values()
+                    and iteration == refinement_iterations,
+                )
+            else:
+                canon_triplets_list, canon_candidate_dict_list = (
+                    self.schema_canonicalization(
+                        input_text_list,
+                        oie_triplets_list,
+                        sd_dict_list,
+                        free_model=self.sc_llm_name
+                        not in required_model_dict_current_iteration.values()
+                        and iteration == refinement_iterations,
+                    )
+                )
 
             non_null_triplets_list = [
                 [triplet for triplet in triplets if triplet is not None]

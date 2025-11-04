@@ -1,9 +1,10 @@
 import ast
+import asyncio
 import gc
 import logging
 import os
 import time
-from typing import TYPE_CHECKING, List, Optional
+from typing import Any, Dict, List, Optional
 
 import torch
 from openai import OpenAI
@@ -289,3 +290,145 @@ def _split_prompt_content(content, system_prompt=None):
     else:
         # 分離できない場合は従来通り
         return content, system_prompt
+
+
+async def openai_chat_completion_async(
+    model: str,
+    system_prompt: Optional[str],
+    history: List[Dict[str, str]],
+    temperature: float = 0.0,
+    max_tokens: int = 512,
+) -> str:
+    """Async version of openai_chat_completion for parallel processing."""
+    from .parallel_llm_utils import get_global_processor
+
+    processor = get_global_processor()
+
+    # Convert to messages format for parallel processing
+    messages = []
+    if system_prompt:
+        messages.append({"role": "system", "content": system_prompt})
+    messages.extend(history)
+
+    result = await processor.generate_with_limits(
+        model=model, messages=messages, temperature=temperature, max_tokens=max_tokens
+    )
+
+    if result["success"]:
+        return result["data"]
+    else:
+        logger.error(
+            f"Async OpenAI request failed: {result.get('error', 'Unknown error')}"
+        )
+        raise Exception(
+            f"OpenAI API request failed: {result.get('error', 'Unknown error')}"
+        )
+
+
+async def openai_chat_completion_batch_async(
+    model: str,
+    system_prompts: List[Optional[str]],
+    histories: List[List[Dict[str, str]]],
+    temperature: float = 0.0,
+    max_tokens: int = 512,
+    max_concurrent: int = 5,
+    max_requests_per_second: int = 200,
+) -> List[str]:
+    """Batch async version of openai_chat_completion for parallel processing."""
+    from .parallel_llm_utils import get_global_processor
+
+    processor = get_global_processor(
+        max_concurrent=max_concurrent,
+        max_requests_per_second=max_requests_per_second,
+    )
+
+    # Prepare messages for each request
+    messages_list = []
+    for system_prompt, history in zip(system_prompts, histories):
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.extend(history)
+        messages_list.append(messages)
+
+    result = await processor.process_messages(
+        model=model,
+        messages_list=messages_list,
+        temperature=temperature,
+        max_tokens=max_tokens,
+    )
+
+    # Extract successful responses and handle failures
+    responses = []
+    successful_count = 0
+    failed_count = 0
+
+    for i, messages in enumerate(messages_list):
+        # Find corresponding result
+        found_result = None
+        for success_result in result["successful"]:
+            if success_result["messages"] == messages:
+                found_result = success_result
+                break
+
+        if found_result:
+            responses.append(found_result["data"])
+            successful_count += 1
+        else:
+            # Find error result
+            error_msg = "Unknown error"
+            for failed_result in result["failed"]:
+                if failed_result.get("messages") == messages:
+                    error_msg = failed_result.get("error", "Unknown error")
+                    break
+
+            logger.error(f"Request {i} failed: {error_msg}")
+            responses.append("")  # Empty string for failed requests
+            failed_count += 1
+
+    logger.info(
+        f"Batch processing completed: {successful_count} successful, {failed_count} failed"
+    )
+    return responses
+
+
+async def process_prompts_with_openai_async(
+    model: str,
+    prompts: List[str],
+    system_prompt: Optional[str] = None,
+    temperature: float = 0.0,
+    max_tokens: int = 512,
+    max_concurrent: int = 5,
+    max_requests_per_second: int = 200,
+) -> List[str]:
+    """Process a list of prompts with OpenAI in parallel."""
+    from .parallel_llm_utils import process_openai_requests_parallel
+
+    result = await process_openai_requests_parallel(
+        model=model,
+        prompts=prompts,
+        max_concurrent=max_concurrent,
+        max_requests_per_second=max_requests_per_second,
+        max_tokens=max_tokens,
+        temperature=temperature,
+        system_prompt=system_prompt,
+    )
+
+    # Extract responses in the same order as prompts
+    responses = ["" for _ in prompts]
+
+    # Map successful results back to their original positions (order is already maintained)
+    for i, success_result in enumerate(result["successful"]):
+        if success_result["success"]:
+            responses[i] = success_result["data"]
+        else:
+            responses[i] = ""  # Failed request - return empty string
+
+    # Log failed requests
+    for failed_result in result["failed"]:
+        prompt = failed_result.get("prompt", "Unknown prompt")
+        error = failed_result.get("error", "Unknown error")
+        logger.error(f"Failed request for prompt '{prompt[:50]}...': {error}")
+
+    logger.info(f"Processed {len(prompts)} prompts: {result['stats']}")
+    return responses

@@ -1,0 +1,4 @@
+John Doe is a student at National University of Singapore.
+Alice Smith works as a software engineer at Google in California.
+The University of Tokyo is located in Japan and was founded in 1877.
+Dr. Robert Johnson is a professor of computer science at MIT.

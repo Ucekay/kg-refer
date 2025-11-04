@@ -1,3 +1,4 @@
+import asyncio
 import logging
 import os
 import re
@@ -117,6 +118,92 @@ class OpenAISchemaDefiner(BaseSchemaDefiner):
                 f"Relations {missing_relations} are missing from the relation definition!"
             )
         return relation_definition_dict
+
+    async def define_schema_async(
+        self,
+        input_text_str: str,
+        extracted_triplets_list: List[str],
+        few_shot_examples_str: str,
+        prompt_template_str: str,
+    ) -> Dict[str, str]:
+        """Async version of define_schema for parallel processing."""
+        # Given a piece of text and a list of triplets extracted from it, define each of the relation present
+        relations_present = set()
+        for t in extracted_triplets_list:
+            relations_present.add(t[1])
+
+        filled_prompt = prompt_template_str.format_map(
+            {
+                "text": input_text_str,
+                "few_shot_examples": few_shot_examples_str,
+                "relations": relations_present,
+                "triples": extracted_triplets_list,
+            }
+        )
+        messages = [{"role": "user", "content": filled_prompt}]
+
+        completion = await llm_utils.openai_chat_completion_async(
+            self.model_name, None, messages
+        )
+
+        relation_definition_dict = llm_utils.parse_relation_definition(completion)
+
+        missing_relations = [
+            rel for rel in relations_present if rel not in relation_definition_dict
+        ]
+        if len(missing_relations) != 0:
+            logger.debug(
+                f"Relations {missing_relations} are missing from the relation definition!"
+            )
+        return relation_definition_dict
+
+    async def define_schema_batch_async(
+        self,
+        input_text_list: List[str],
+        extracted_triplets_lists: List[List[List[str]]],
+        few_shot_examples_str: str,
+        prompt_template_str: str,
+        max_concurrent: int = 5,
+        max_requests_per_second: int = 200,
+    ) -> List[Dict[str, str]]:
+        """Batch async version for processing multiple texts in parallel."""
+        # Prepare prompts for each input
+        prompts = []
+        for input_text_str, extracted_triplets_list in zip(
+            input_text_list, extracted_triplets_lists
+        ):
+            relations_present = set()
+            for t in extracted_triplets_list:
+                relations_present.add(t[1])
+
+            filled_prompt = prompt_template_str.format_map(
+                {
+                    "text": input_text_str,
+                    "few_shot_examples": few_shot_examples_str,
+                    "relations": relations_present,
+                    "triples": extracted_triplets_list,
+                }
+            )
+            prompts.append(filled_prompt)
+
+        # Process prompts in parallel
+        responses = await llm_utils.process_prompts_with_openai_async(
+            model=self.model_name,
+            prompts=prompts,
+            max_concurrent=max_concurrent,
+            max_requests_per_second=max_requests_per_second,
+        )
+
+        # Parse responses
+        results = []
+        for response in responses:
+            if response:  # Non-empty response
+                relation_definition_dict = llm_utils.parse_relation_definition(response)
+            else:  # Failed request
+                relation_definition_dict = {}
+            results.append(relation_definition_dict)
+
+        return results
 
 
 # Keep the old class for backward compatibility (deprecated)

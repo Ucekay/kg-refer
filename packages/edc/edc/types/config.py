@@ -43,10 +43,10 @@ class EDCConfig:
 
     # Refined Open Information Extraction
     refined_oie_prompt_template_file_path: str = (
-        "./packages/edc/prompt_templates/r_oie_template.txt"
+        "./packages/edc/prompt_templates/oie_template.txt"
     )
     refined_oie_few_shot_example_file_path: str = (
-        "./packages/edc/few_shot_examples/example/r_oie_few_shot_examples.txt"
+        "./packages/edc/few_shot_examples/example/oie_r_few_shot_examples.txt"
     )
 
     # Entity Extraction
@@ -65,12 +65,18 @@ class EDCConfig:
 
     # Input/Output
     input_text_file_path: str = "./packages/edc/datasets/example.txt"
-    target_schema_path: str = "./packages/edc/schema/example_schema.csv"
+    target_schema_path: str = "./packages/edc/schemas/example_schema.csv"
     output_dir: str = "./packages/edc/output/tmp"
 
     # Processing options
     refinement_iterations: int = 0
     enrich_schema: bool = False
+
+    # Parallel Processing (for OpenAI models)
+    enable_parallel_processing: bool = False
+    max_concurrent_requests: int = 5
+    max_requests_per_second: int = 200
+    # request_timeout: 削除 - 無制限
 
     # Logging
     log_level: Literal["debug", "info", "warning", "error", "critical"] = "info"
