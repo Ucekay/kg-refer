@@ -1,14 +1,14 @@
 [
     {
         "index": 0,
-        "input_text": "John Doe is a student at National University of Singapore.\n",
+        "input_text": "John Doe is a student at National University of Singapore.",
         "entity_hint": "",
         "relation_hint": "",
         "oie": [
             [
                 "John_Doe",
                 "occupation",
-                "Student"
+                "student"
             ],
             [
                 "John_Doe",

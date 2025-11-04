@@ -92,7 +92,7 @@ class SchemaCanonicalizer:
             )
             if relation_example_dict is not None:
                 choices += f"Example: '{relation_example_dict[candidate_relations[idx]]['triple']}' can be extracted from '{candidate_relations[idx]['sentence']}'\n"
-        choices += f"{chr(ord('@') + idx + 2)}. None of the above.\n"
+        choices += f"{chr(ord('@') + len(candidate_relations) + 1)}. None of the above.\n"
 
         verification_prompt = prompt_template_str.format_map(
             {
