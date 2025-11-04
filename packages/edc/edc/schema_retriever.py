@@ -58,7 +58,7 @@ class SchemaRetriever:
                 self.embedding_model,
                 self.embedding_tokenizer,
                 query_input_text,
-                "Retrievem descroption of relations that are present in the given text.",
+                "Retrieve descriptions of relations that are present in the given text.",
             )
         else:
             query_embedding = llm_utils.get_embedding_sts(

@@ -54,7 +54,7 @@ class LocalEntityExtractor(BaseEntityExtractor):
         entity_list_1: List[str],
         entity_list_2: List[str],
         prompt_template_str: str,
-    ) -> Any | list[Any]:
+    ) -> List[str]:
         filled_prompt = prompt_template_str.format_map(
             {
                 "input_text": input_text,
@@ -98,7 +98,7 @@ class OpenAIEntityExtractor(BaseEntityExtractor):
         entity_list_1: List[str],
         entity_list_2: List[str],
         prompt_template_str: str,
-    ) -> Any | list[Any]:
+    ) -> List[str]:
         filled_prompt = prompt_template_str.format_map(
             {
                 "input_text": input_text,

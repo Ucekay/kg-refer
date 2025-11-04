@@ -91,7 +91,7 @@ class OpenAISchemaDefiner(BaseSchemaDefiner):
         prompt_template_str: str,
     ) -> Dict[str, str]:
         # Given a piece of text and a list of triplets extracted from it, define each of the relation present
-        relations_present = set()
+        relations_present: set[str] = set()
         for t in extracted_triplets_list:
             relations_present.add(t[1])
 
