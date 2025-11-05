@@ -1,0 +1,5 @@
+Text: {text}
+Triples: {triples}
+Relations: {relations}
+
+Please provide descriptions for each relation listed above.
