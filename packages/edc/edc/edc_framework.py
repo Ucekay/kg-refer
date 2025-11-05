@@ -5,7 +5,7 @@ import logging
 import pathlib
 import random
 from importlib import reload
-from typing import List, Literal, Optional, TypedDict, Union
+from typing import Dict, List, Literal, Optional, Set, TypedDict, Union
 
 import torch
 from mpmath.libmp.backend import os
@@ -19,9 +19,13 @@ from transformers import (
     PreTrainedTokenizerFast,
 )
 
-from edc import schema_canonicalizer
-from edc.entity_extractor import LocalEntityExtractor, OpenAIEntityExtractor
-from edc.extractor import LocalExtractor, OpenAIExtractor
+from edc import entity_extractor, schema_canonicalizer
+from edc.entity_extractor import (
+    LocalEntityExtractor,
+    OpenAIAsyncEntityExtractor,
+    OpenAIEntityExtractor,
+)
+from edc.extractor import LocalExtractor, OpenAIAsyncExtractor, OpenAIExtractor
 from edc.schema_canonicalizer import SchemaCanonicalizer
 from edc.schema_definer import LocalSchemaDefiner, OpenAISchemaDefiner
 from edc.schema_retriever import SchemaRetriever
@@ -44,31 +48,49 @@ class EDC:
 
     def __init__(self, config: EDCConfig) -> None:
         self.oie_llm_name = config.oie_llm
-        self.oie_prompt_template_file_path = config.oie_prompt_template_file_path
+        self.oie_instructions_template_file_path = (
+            config.oie_instructions_template_file_path
+        )
+        self.oie_inpute_template_file_path = config.oie_input_template_file_path
         self.oie_few_shot_example_file_path = config.oie_few_shot_example_file_path
 
         self.sd_llm_name = config.sd_llm
-        self.sd_prompt_template_file_path = config.sd_prompt_template_file_path
+        self.sd_instructions_template_file_path = (
+            config.sd_instructions_template_file_path
+        )
+        self.sd_input_template_file_path = config.sd_input_template_file_path
         self.sd_few_shot_example_file_path = config.sd_few_shot_example_file_path
 
         self.sc_llm_name = config.sc_llm
         self.sc_embedder_name = config.sc_embedder
-        self.sc_prompt_template_file_path = config.sc_prompt_template_file_path
+        self.sc_instructions_template_file_path = (
+            config.sc_instructions_template_file_path
+        )
+        self.sc_input_template_file_path = config.sc_input_template_file_path
 
         self.sr_adapter_path = config.sr_adapter_path
         self.sr_embedder_name = config.sr_embedder
-        self.r_oie_prompt_template_file_path = (
-            config.refined_oie_prompt_template_file_path
+        self.r_oie_instructions_template_file_path = (
+            config.refined_oie_instructions_template_file_path
+        )
+        self.r_oie_input_template_file_path = (
+            config.refined_oie_input_template_file_path
         )
         self.r_oie_few_shot_example_file_path = (
             config.refined_oie_few_shot_example_file_path
         )
 
         self.ee_llm_name = config.ee_llm
-        self.ee_prompt_template_file_path = config.ee_prompt_template_file_path
+        self.ee_instructions_template_file_path = (
+            config.ee_instructions_template_file_path
+        )
+        self.ee_input_template_file_path = config.ee_input_template_file_path
         self.ee_few_shot_example_file_path = config.ee_few_shot_example_file_path
 
-        self.em_prompt_template_file_path = config.em_prompt_template_file_path
+        self.em_instructions_template_file_path = (
+            config.em_instructions_template_file_path
+        )
+        self.em_input_template_file_path = config.em_input_template_file_path
 
         self.initial_schema_path = config.target_schema_path
         self.enrich_schema = config.enrich_schema
@@ -117,14 +139,17 @@ class EDC:
         else:
             extractor = OpenAIExtractor(self.oie_llm_name)
 
-        oie_triplets_list = []
+        oie_triplets_list: List[List[List[str]]] = []
         entity_hint_list = None
         relation_hint_list = None
 
         if previous_extracted_triplets_list is not None:
             logger.info("Running Refined OIE...")
-            oie_refinement_prompt_template_str = open(
-                self.r_oie_prompt_template_file_path, encoding="utf-8"
+            oie_refinement_instructons_template_str = open(
+                self.r_oie_instructions_template_file_path, encoding="utf-8"
+            ).read()
+            oie_refinement_input_template_str = open(
+                self.r_oie_input_template_file_path, encoding="utf-8"
             ).read()
             oie_refinement_few_shot_examples_str = open(
                 self.r_oie_few_shot_example_file_path, encoding="utf-8"
@@ -143,7 +168,8 @@ class EDC:
                 refined_oie_triplets = extractor.extract(
                     input_text,
                     oie_refinement_few_shot_examples_str,
-                    oie_refinement_prompt_template_str,
+                    oie_refinement_instructons_template_str,
+                    oie_refinement_input_template_str,
                     entity_hint_str,
                     relation_hint_str,
                 )
@@ -155,15 +181,19 @@ class EDC:
             oie_few_shot_examples_str = open(
                 self.oie_few_shot_example_file_path, encoding="utf-8"
             ).read()
-            oie_prompt_template_str = open(
-                self.oie_prompt_template_file_path, encoding="utf-8"
+            oie_instuructions_template_str = open(
+                self.oie_instructions_template_file_path, encoding="utf-8"
+            ).read()
+            oie_input_template_str = open(
+                self.oie_inpute_template_file_path, encoding="utf-8"
             ).read()
 
             for input_text in tqdm(input_text_list):
                 oie_triplets = extractor.extract(
                     input_text,
                     oie_few_shot_examples_str,
-                    oie_prompt_template_str,
+                    oie_instuructions_template_str,
+                    oie_input_template_str,
                 )
                 oie_triplets_list.append(oie_triplets)
                 logger.debug(f"{input_text}\n -> {oie_triplets}\n")
@@ -204,7 +234,7 @@ class EDC:
             model = SentenceTransformer(
                 model_name,
                 trust_remote_code=True,
-                model_kwargs={"dtype": torch.bfloat16},
+                model_kwargs={"torch_dtype": torch.bfloat16},
             )
             self.loaded_sts_model_dict[model_name] = model
 
@@ -213,7 +243,7 @@ class EDC:
     def schema_definition(
         self,
         input_text_list: List[str],
-        oie_triplets_list: List[List[str]],
+        oie_triplets_list: List[List[List[str]]],
         free_model=False,
     ):
         assert len(input_text_list) == len(oie_triplets_list)
@@ -230,8 +260,11 @@ class EDC:
         schema_definition_few_shot_examples_str = open(
             self.sd_few_shot_example_file_path, encoding="utf-8"
         ).read()
-        schema_definition_prompt_template_str = open(
-            self.sd_prompt_template_file_path, encoding="utf-8"
+        schema_definition_instructions_template_str = open(
+            self.sd_instructions_template_file_path, encoding="utf-8"
+        ).read()
+        schema_definition_input_template_str = open(
+            self.sd_input_template_file_path, encoding="utf-8"
         ).read()
         schema_definition_dict_list = []
 
@@ -241,7 +274,8 @@ class EDC:
                 input_text_list[idx],
                 oie_triplets,
                 schema_definition_few_shot_examples_str,
-                schema_definition_prompt_template_str,
+                schema_definition_instructions_template_str,
+                schema_definition_input_template_str,
             )
             schema_definition_dict_list.append(schema_definition_dict)
             logger.debug(
@@ -258,17 +292,20 @@ class EDC:
     def schema_canonicalization(
         self,
         input_text_list: List[str],
-        oie_triplets_list: List[List[str]],
-        schema_definition_dict_list: List[dict],
+        oie_triplets_list: List[List[List[str]]],
+        schema_definition_dict_list: List[Dict[str, str]],
         free_model=False,
-    ) -> tuple[List[List[List[str]]], List[List[dict]]]:
+    ) -> tuple[List[List[List[str]]], List[List[Dict[str, str]]]]:
         assert len(input_text_list) == len(oie_triplets_list) and len(
             input_text_list
         ) == len(schema_definition_dict_list)
         logger.info("Running Schema Canonicalization...")
 
-        sc_verify_prompt_template_str = open(
-            self.sc_prompt_template_file_path, encoding="utf-8"
+        sc_verify_instructions_template_str = open(
+            self.sc_instructions_template_file_path, encoding="utf-8"
+        ).read()
+        sc_verify_input_template_str = open(
+            self.sc_input_template_file_path, encoding="utf-8"
         ).read()
 
         sc_embedder = self.load_sts_model(self.sc_embedder_name)
@@ -300,7 +337,8 @@ class EDC:
                         input_text,
                         oie_triplet,
                         sd_dict,
-                        sc_verify_prompt_template_str,
+                        sc_verify_instructions_template_str,
+                        sc_verify_input_template_str,
                         self.enrich_schema,
                     )
                 )
@@ -340,12 +378,18 @@ class EDC:
         entity_extraction_few_shot_examples_str = open(
             self.ee_few_shot_example_file_path, encoding="utf-8"
         ).read()
-        entity_extraction_prompt_template_str = open(
-            self.ee_prompt_template_file_path, encoding="utf-8"
+        entity_extraction_instructions_template_str = open(
+            self.ee_instructions_template_file_path, encoding="utf-8"
+        ).read()
+        entity_extraction_input_template_str = open(
+            self.ee_input_template_file_path, encoding="utf-8"
         ).read()
 
-        entity_merging_prompt_template_str = open(
-            self.em_prompt_template_file_path, encoding="utf-8"
+        entity_merging_instructions_template_str = open(
+            self.em_instructions_template_file_path, encoding="utf-8"
+        ).read()
+        entity_merging_input_template_str = open(
+            self.em_input_template_file_path, encoding="utf-8"
         ).read()
 
         entity_hint_list = []
@@ -389,30 +433,32 @@ class EDC:
             input_text_str = input_text_list[idx]
             extracted_triplets = extracted_triplets_list[idx]
 
-            previous_relations = set()
-            previous_entities = set()
+            previous_relations: Set[str] = set()
+            previous_entities: Set[str] = set()
 
             for triplet in extracted_triplets:
                 previous_entities.add(triplet[0])
                 previous_entities.add(triplet[2])
                 previous_relations.add(triplet[1])
-            previous_entities = list(previous_entities)
-            previous_relations = list(previous_relations)
+            previous_entitie_list = list(previous_entities)
+            previous_relation_list = list(previous_relations)
 
             extracted_entities = entity_extractor.extract_entities(
                 input_text_str,
                 entity_extraction_few_shot_examples_str,
-                entity_extraction_prompt_template_str,
+                entity_extraction_instructions_template_str,
+                entity_extraction_input_template_str,
             )
             merged_entities = entity_extractor.merge_entities(
                 input_text_str,
-                previous_entities,
+                previous_entitie_list,
                 extracted_entities,
-                entity_merging_prompt_template_str,
+                entity_merging_instructions_template_str,
+                entity_merging_input_template_str,
             )
             entity_hint_list.append(merged_entities)
 
-            hint_relations = previous_relations
+            hint_relations = previous_relation_list.copy()
 
             retrieved_relations = schema_retriever.retrieve_relevant_relations(
                 input_text_str
@@ -572,103 +618,220 @@ class EDC:
 
         return canon_triplets_list
 
-
-def extract_kg_parallel(
-    self, input_text_list: List[str], output_dir: str, refinement_iterations=0
-):
-    if os.path.exists(output_dir):
-        logger.error(f"Output directory {output_dir} already exists! Quitting.")
-        exit()
-    for iteration in range(refinement_iterations + 1):
-        pathlib.Path(f"{output_dir}/iter{iteration}").mkdir(parents=True, exist_ok=True)
-
-    logger.info("EDC starts running...")
-
-    canon_triplets_list = []
-    required_model_dict = {
-        "oie": self.oie_llm_name,
-        "sd": self.sd_llm_name,
-        "sc_embed": self.sc_embedder_name,
-        "sc_verify": self.sc_llm_name,
-        "ee": self.ee_llm_name,
-        "sr": self.sr_embedder_name,
-    }
-
-    triplets_from_last_iteration = None
-    for iteration in range(refinement_iterations + 1):
-        logger.info(f"Iteration {iteration}:")
-
-        iteration_result_dir = f"{output_dir}/iter{iteration}"
-
-        required_model_dict_current_iteration = copy.deepcopy(required_model_dict)
-
-        del required_model_dict_current_iteration["oie"]
-        oie_triplets_list, entity_hint_list, relation_hint_list = self.oie(
-            input_text_list,
-            free_model=self.oie_llm_name
-            not in required_model_dict_current_iteration.values()
-            and iteration == refinement_iterations,
-            previous_extracted_triplets_list=triplets_from_last_iteration,
+    async def oie_async(
+        self,
+        input_text_list: List[str],
+        previous_extracted_triplets_list: Optional[List[List[List[str]]]] = None,
+        free_model: bool = False,
+    ):
+        async_extractor = OpenAIAsyncExtractor(
+            self.oie_llm_name, max_concurrent=100, max_req_per_sec=600
         )
 
-        del required_model_dict_current_iteration["sd"]
-        sd_dict_list = self.schema_definition(
-            input_text_list,
-            oie_triplets_list,
-            free_model=self.sd_llm_name
-            not in required_model_dict_current_iteration.values()
-            and iteration == refinement_iterations,
+        oie_triplets_list = []
+        entity_hint_list = None
+        relation_hint_list = None
+
+        if previous_extracted_triplets_list is not None:
+            logger.info("Running Refined OIE...")
+            oie_refinement_instructons_template_str = open(
+                self.r_oie_instructions_template_file_path, encoding="utf-8"
+            ).read()
+            oie_refinement_input_template_str = open(
+                self.r_oie_input_template_file_path, encoding="utf-8"
+            ).read()
+            oie_refinement_few_shot_examples_str = open(
+                self.r_oie_few_shot_example_file_path, encoding="utf-8"
+            ).read()
+
+            logger.info("Putting together the refinement hint...")
+            # TODO: make this async
+
+        else:
+            entity_hint_list = ["" for _ in input_text_list]
+            relation_hint_list = ["" for _ in input_text_list]
+            logger.info("Running OIE...")
+            oie_few_shot_examples_str = open(
+                self.oie_few_shot_example_file_path, encoding="utf-8"
+            ).read()
+            oie_instuructions_template_str = open(
+                self.oie_instructions_template_file_path, encoding="utf-8"
+            ).read()
+            oie_input_template_str = open(
+                self.oie_inpute_template_file_path, encoding="utf-8"
+            ).read()
+
+            oie_triplets_list = await async_extractor.extract_async(
+                input_text_list,
+                oie_few_shot_examples_str,
+                oie_instuructions_template_str,
+                oie_input_template_str,
+            )
+
+            logger.info("OIE finished.")
+
+            return oie_triplets_list, entity_hint_list, relation_hint_list
+
+    async def construct_refinement_hint_async(
+        self,
+        input_text_list: List[str],
+        extracted_triplets_list: List[List[List[str]]],
+        include_relation_example="self",
+        relation_top_k=10,
+        free_model=False,
+    ):
+        entity_extraction_few_shot_example = open(
+            self.ee_few_shot_example_file_path, encoding="utf-8"
+        ).read()
+        entity_extraction_instruction_template = open(
+            self.ee_instructions_template_file_path, encoding="utf-8"
+        ).read()
+        entity_extraction_input_template = open(
+            self.ee_input_template_file_path, encoding="utf-8"
+        ).read()
+
+        entity_merging_instruction_template = open(
+            self.em_instructions_template_file_path, encoding="utf-8"
+        ).read()
+        entity_merging_input_template = open(
+            self.em_input_template_file_path, encoding="utf-8"
+        ).read()
+        entity_hint_list = []
+        relation_hint_list = []
+
+        async_entity_extractor = OpenAIAsyncEntityExtractor(
+            self.ee_llm_name, max_concurrent=100, max_req_per_sec=600
         )
 
-        del required_model_dict_current_iteration["sc_embed"]
-        del required_model_dict_current_iteration["sc_verify"]
-        canon_triplets_list, canon_candidate_dict_list = self.schema_canonicalization(
-            input_text_list,
-            oie_triplets_list,
-            sd_dict_list,
-            free_model=self.sc_llm_name
-            not in required_model_dict_current_iteration.values()
-            and iteration == refinement_iterations,
+        sr_embedding_model = self.load_sts_model(self.sr_embedder_name)
+        schema_retriever = SchemaRetriever(
+            self.schema, sr_embedding_model, None, finetuned_e5mistral=False
         )
 
-        non_null_triplets_list = [
-            [triplet for triplet in triplets if triplet is not None]
-            for triplets in canon_triplets_list
-        ]
+        relation_example_dict: dict[str, List[RelationExample]] = {}
+        if include_relation_example == "self":
+            for idx in range(len(input_text_list)):
+                input_text_str = input_text_list[idx]
+                extracted_triplets = extracted_triplets_list[idx]
+                for triplet in extracted_triplets:
+                    relation = triplet[1]
+                    if relation not in relation_example_dict:
+                        relation_example_dict[relation] = [
+                            {"text": input_text_str, "triplet": triplet}
+                        ]
+                    else:
+                        relation_example_dict[relation].append(
+                            {"text": input_text_str, "triplet": triplet}
+                        )
+        else:
+            pass
 
-        triplets_from_last_iteration = non_null_triplets_list
+        entity_hint_list = async_entity_extractor.extract_entity_hint_async()
 
-        assert len(oie_triplets_list) == len(sd_dict_list) and len(sd_dict_list) == len(
-            canon_triplets_list
-        )
+    async def extract_kg_async(
+        self, input_text_list: List[str], output_dir: str, refinement_iterations=0
+    ):
+        if os.path.exists(output_dir):
+            logger.error(f"Output directory {output_dir} already exists! Quitting.")
+            exit()
+        for iteration in range(refinement_iterations + 1):
+            pathlib.Path(f"{output_dir}/iter{iteration}").mkdir(
+                parents=True, exist_ok=True
+            )
 
-        json_results_list = []
-        for idx in range(len(oie_triplets_list)):
-            result_json = {
-                "index": idx,
-                "input_text": input_text_list[idx],
-                "entity_hint": entity_hint_list[idx],
-                "relation_hint": relation_hint_list[idx],
-                "oie": oie_triplets_list[idx],
-                "schema_definition": sd_dict_list[idx],
-                "canonicalization_candidates": str(canon_candidate_dict_list[idx]),
-                "schema_canonicalizaiton": canon_triplets_list[idx],
-            }
-            json_results_list.append(result_json)
-        result_at_each_stage_file = open(
-            f"{iteration_result_dir}/result_at_each_stage.json", "w"
-        )
-        json.dump(
-            json_results_list,
-            result_at_each_stage_file,
-            indent=4,
-        )
+        logger.info("EDC starts running...")
 
-        final_result_file = open(f"{iteration_result_dir}/canon_kg.txt", "w")
-        for idx, canon_triplets in enumerate(non_null_triplets_list):
-            final_result_file.write(str(canon_triplets))
-            if idx != len(canon_triplets_list) - 1:
-                final_result_file.write("\n")
-            final_result_file.flush()
+        canon_triplets_list = []
+        required_model_dict = {
+            "oie": self.oie_llm_name,
+            "sd": self.sd_llm_name,
+            "sc_embed": self.sc_embedder_name,
+            "sc_verify": self.sc_llm_name,
+            "ee": self.ee_llm_name,
+            "sr": self.sr_embedder_name,
+        }
 
-    return canon_triplets_list
+        triplets_from_last_iteration = None
+        for iteration in range(refinement_iterations + 1):
+            logger.info(f"Iteration {iteration}:")
+
+            iteration_result_dir = f"{output_dir}/iter{iteration}"
+
+            required_model_dict_current_iteration = copy.deepcopy(required_model_dict)
+
+            del required_model_dict_current_iteration["oie"]
+            (
+                oie_triplets_list,
+                entity_hint_list,
+                relation_hint_list,
+            ) = await self.oie_async(
+                input_text_list,
+                free_model=self.oie_llm_name
+                not in required_model_dict_current_iteration.values()
+                and iteration == refinement_iterations,
+                previous_extracted_triplets_list=triplets_from_last_iteration,
+            )
+
+            del required_model_dict_current_iteration["sd"]
+            sd_dict_list = self.schema_definition(
+                input_text_list,
+                oie_triplets_list,
+                free_model=self.sd_llm_name
+                not in required_model_dict_current_iteration.values()
+                and iteration == refinement_iterations,
+            )
+
+            del required_model_dict_current_iteration["sc_embed"]
+            del required_model_dict_current_iteration["sc_verify"]
+            canon_triplets_list, canon_candidate_dict_list = (
+                self.schema_canonicalization(
+                    input_text_list,
+                    oie_triplets_list,
+                    sd_dict_list,
+                    free_model=self.sc_llm_name
+                    not in required_model_dict_current_iteration.values()
+                    and iteration == refinement_iterations,
+                )
+            )
+
+            non_null_triplets_list = [
+                [triplet for triplet in triplets if triplet is not None]
+                for triplets in canon_triplets_list
+            ]
+
+            triplets_from_last_iteration = non_null_triplets_list
+
+            assert len(oie_triplets_list) == len(sd_dict_list) and len(
+                sd_dict_list
+            ) == len(canon_triplets_list)
+
+            json_results_list = []
+            for idx in range(len(oie_triplets_list)):
+                result_json = {
+                    "index": idx,
+                    "input_text": input_text_list[idx],
+                    "entity_hint": entity_hint_list[idx],
+                    "relation_hint": relation_hint_list[idx],
+                    "oie": oie_triplets_list[idx],
+                    "schema_definition": sd_dict_list[idx],
+                    "canonicalization_candidates": str(canon_candidate_dict_list[idx]),
+                    "schema_canonicalizaiton": canon_triplets_list[idx],
+                }
+                json_results_list.append(result_json)
+            result_at_each_stage_file = open(
+                f"{iteration_result_dir}/result_at_each_stage.json", "w"
+            )
+            json.dump(
+                json_results_list,
+                result_at_each_stage_file,
+                indent=4,
+            )
+
+            final_result_file = open(f"{iteration_result_dir}/canon_kg.txt", "w")
+            for idx, canon_triplets in enumerate(non_null_triplets_list):
+                final_result_file.write(str(canon_triplets))
+                if idx != len(canon_triplets_list) - 1:
+                    final_result_file.write("\n")
+                final_result_file.flush()
+
+        return canon_triplets_list

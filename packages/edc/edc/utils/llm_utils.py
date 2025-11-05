@@ -3,8 +3,9 @@ import gc
 import logging
 import os
 import time
-from typing import TYPE_CHECKING, List, Optional
+from typing import Dict, List, Optional
 
+import openai
 import torch
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
@@ -161,7 +162,7 @@ def is_model_openai(model_name: str) -> bool:
 
 
 def generate_completion_transformers(
-    input: list,
+    input: List[Dict[str, str]],
     model: "PreTrainedModel",
     tokenizer: PreTrainedTokenizerFast,
     max_new_tokens=256,
@@ -215,21 +216,26 @@ def openai_chat_completion(
 
     while response is None:
         try:
-            params = {
-                "model": model,
-                "instructions": instructions,
-                "input": input,
-                "temperature": temperature,
-                "max_output_tokens": max_tokens,
-            }
+            response = client.responses.create(
+                model=model,
+                instructions=instructions,
+                input=input,
+                temperature=temperature,
+                max_output_tokens=max_tokens,
+            )
 
-            response = client.responses.create(**params)
+        except openai.APIStatusError as e:
+            logging.warning(f"OpenAI API request failed with error: {e}. Retrying...")
+            time.sleep(60)
+        except openai.APIError as e:
+            logging.warning(f"OpenAI API request failed with error: {e}. Retrying...")
+            time.sleep(1)
         except Exception as e:
             logging.warning(f"OpenAI API request failed with error: {e}. Retrying...")
             time.sleep(1)
 
         # レスポンス処理
-    result: str = response.output_text
+    result = response.output_text
     logging.debug(
         f"Model: {model}\nInput: {input}\nInstructions: {instructions}\nResult: {result}"
     )
@@ -300,3 +306,16 @@ def _split_prompt_content(content, system_prompt=None):
     else:
         # 分離できない場合は従来通り
         return content, system_prompt
+
+
+def openai_responses_async(
+    model: str,
+    instructions: str,
+    input: str,
+    temperature: float = 0.0,
+    max_tokens: int = 512,
+) -> str:
+    """Async version of openai_chat_completion using the Responses API format (placeholder implementation)."""
+    # TODO: Implement proper async functionality
+    # For now, fallback to synchronous version
+    return openai_chat_completion(model, instructions, input, temperature, max_tokens)

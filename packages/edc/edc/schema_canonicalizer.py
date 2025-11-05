@@ -1,6 +1,6 @@
 import copy
 import logging
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -19,7 +19,7 @@ class SchemaCanonicalizer:
     # The class to handle the last stage: Schema Canonicalization
     def __init__(
         self,
-        target_schema_dict: dict,
+        target_schema_dict: Dict[str, str],
         embedder: SentenceTransformer,
         verify_model: Optional[PreTrainedModel] = None,
         verify_tokenizer: Optional[PreTrainedTokenizerFast] = None,
@@ -73,9 +73,9 @@ class SchemaCanonicalizer:
         input_text_str: str,
         query_triplet: List[str],
         query_relation_definition: str,
-        prompt_template_str: str,
-        candidate_relation_definition_dict: dict,
-        relation_example_dict: Optional[dict] = None,
+        instructions_template_str: str,
+        input_template_str: str,
+        candidate_relation_definition_dict: Dict[str, str],
     ):
         canonicalized_triplet = copy.deepcopy(query_triplet)
         choice_letters_list = []
@@ -90,13 +90,13 @@ class SchemaCanonicalizer:
             choices += (
                 f"{choice_letter}. '{rel}': {candidate_relation_descriptions[idx]}\n"
             )
-            if relation_example_dict is not None:
-                choices += f"Example: '{relation_example_dict[candidate_relations[idx]]['triple']}' can be extracted from '{candidate_relations[idx]['sentence']}'\n"
+
         choices += (
             f"{chr(ord('@') + len(candidate_relations) + 1)}. None of the above.\n"
         )
 
-        verification_prompt = prompt_template_str.format_map(
+        filled_instructions = instructions_template_str.format_map({})
+        filled_input = input_template_str.format_map(
             {
                 "input_text": input_text_str,
                 "query_triplet": query_triplet,
@@ -106,9 +106,13 @@ class SchemaCanonicalizer:
             }
         )
 
-        messages = [{"role": "user", "content": verification_prompt}]
+        messages = [
+            {"role": "system", "content": filled_instructions},
+            {"role": "user", "content": filled_input},
+        ]
 
-        input, instructions = llm_utils.convert_to_responses_format(verification_prompt)
+        # For compatibility with existing code that expects input, instructions
+        input, instructions = filled_input, filled_instructions
 
         if self.verifier_openai_model is None:
             # llm_utils.generate_completion_transformers([messages], self.model, self.tokenizer, device=self.device)
@@ -137,8 +141,9 @@ class SchemaCanonicalizer:
         self,
         input_text_str: str,
         open_triplet,
-        open_relation_definition_dict: dict,
-        verify_prompt_template: str,
+        open_relation_definition_dict: Dict[str, str],
+        verify_instructions_template: str,
+        verify_input_template: str,
         enrich=False,
     ):
         open_relation = open_triplet[1]
@@ -164,9 +169,9 @@ class SchemaCanonicalizer:
                     input_text_str,
                     open_triplet,
                     open_relation_definition_dict[open_relation],
-                    verify_prompt_template,
+                    verify_instructions_template,
+                    verify_input_template,
                     candidate_relations,
-                    None,
                 )
         else:
             canonicalized_triplet = None

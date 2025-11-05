@@ -1,3 +1,5 @@
+import asyncio
+
 from cyclopts import App
 
 from edc.edc_framework import EDC
@@ -17,11 +19,22 @@ def main(config: EDCConfig = EDCConfig()):
         config.input_text_file_path, "r", encoding="utf-8"
     ).readlines()
 
-    output_kg = edc.extract_kg(
-        input_text_list,
-        config.output_dir,
-        refinement_iterations=config.refinement_iterations,
-    )
+    if config.enable_parallel_requests:
+        # Use async extraction for parallel processing
+        output_kg = asyncio.run(
+            edc.extract_kg_async(
+                input_text_list,
+                config.output_dir,
+                refinement_iterations=config.refinement_iterations,
+            )
+        )
+    else:
+        # Use synchronous extraction
+        output_kg = edc.extract_kg(
+            input_text_list,
+            config.output_dir,
+            refinement_iterations=config.refinement_iterations,
+        )
 
 
 if __name__ == "__main__":
