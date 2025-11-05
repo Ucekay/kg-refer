@@ -11,4 +11,5 @@ uv run --env-file .env --package edc python packages/edc/main.py \
     --ee_few_shot_example_file_path ./packages/edc/few_shot_examples/rebel/ee_few_shot_examples.txt \
     --refined_oie_few_shot_example_file_path ./packages/edc/few_shot_examples/rebel/oie_few_shot_refine_examples.txt \
     --refinement_iterations 0 \
-    --output_dir ./packages/edc/output/rebel_test_100_responses_v2_gpt4_1_nano
+    --enable_parallel_requests \
+    --output_dir ./packages/edc/output/rebel_test_100_responses_v2_gpt4_1_nano_async
