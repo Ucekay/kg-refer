@@ -86,9 +86,12 @@ class OpenAIEntityExtractor(BaseEntityExtractor):
         filled_prompt = prompt_template_str.format_map(
             {"few_shot_examples": few_shot_examples_str, "input_text": input_text_str}
         )
-        messages = [{"role": "user", "content": filled_prompt}]
 
-        completion = llm_utils.openai_chat_completion(self.model_name, None, messages)
+        input, instructions = llm_utils.convert_to_responses_format(filled_prompt)
+
+        completion = llm_utils.openai_chat_completion(
+            self.model_name, instructions, input
+        )
         extracted_entities = llm_utils.parse_raw_entities(completion)
         return extracted_entities
 
@@ -106,8 +109,11 @@ class OpenAIEntityExtractor(BaseEntityExtractor):
                 "entity_list_2": entity_list_2,
             }
         )
-        messages = [{"role": "user", "content": filled_prompt}]
 
-        completion = llm_utils.openai_chat_completion(self.model_name, None, messages)
+        input, instructions = llm_utils.convert_to_responses_format(filled_prompt)
+
+        completion = llm_utils.openai_chat_completion(
+            self.model_name, instructions, input
+        )
         extracted_entities = llm_utils.parse_raw_entities(completion)
         return extracted_entities

@@ -92,7 +92,9 @@ class SchemaCanonicalizer:
             )
             if relation_example_dict is not None:
                 choices += f"Example: '{relation_example_dict[candidate_relations[idx]]['triple']}' can be extracted from '{candidate_relations[idx]['sentence']}'\n"
-        choices += f"{chr(ord('@') + len(candidate_relations) + 1)}. None of the above.\n"
+        choices += (
+            f"{chr(ord('@') + len(candidate_relations) + 1)}. None of the above.\n"
+        )
 
         verification_prompt = prompt_template_str.format_map(
             {
@@ -105,6 +107,9 @@ class SchemaCanonicalizer:
         )
 
         messages = [{"role": "user", "content": verification_prompt}]
+
+        input, instructions = llm_utils.convert_to_responses_format(verification_prompt)
+
         if self.verifier_openai_model is None:
             # llm_utils.generate_completion_transformers([messages], self.model, self.tokenizer, device=self.device)
             verification_result = llm_utils.generate_completion_transformers(
@@ -116,7 +121,7 @@ class SchemaCanonicalizer:
             )
         else:
             verification_result = llm_utils.openai_chat_completion(
-                self.verifier_openai_model, None, messages, max_tokens=50
+                self.verifier_openai_model, instructions, input, max_tokens=50
             )
 
         if verification_result[0] in choice_letters_list:

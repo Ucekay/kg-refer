@@ -204,7 +204,7 @@ class EDC:
             model = SentenceTransformer(
                 model_name,
                 trust_remote_code=True,
-                model_kwargs={"torch_dtype": torch.bfloat16},
+                model_kwargs={"dtype": torch.bfloat16},
             )
             self.loaded_sts_model_dict[model_name] = model
 
@@ -551,7 +551,9 @@ class EDC:
                 }
                 json_results_list.append(result_json)
             result_at_each_stage_file = open(
-                f"{iteration_result_dir}/result_at_each_stage.json", "w"
+                f"{iteration_result_dir}/result_at_each_stage.json",
+                "w",
+                encoding="utf-8",
             )
             json.dump(
                 json_results_list,
@@ -559,7 +561,9 @@ class EDC:
                 indent=4,
             )
 
-            final_result_file = open(f"{iteration_result_dir}/canon_kg.txt", "w")
+            final_result_file = open(
+                f"{iteration_result_dir}/canon_kg.txt", "w", encoding="utf-8"
+            )
             for idx, canon_triplets in enumerate(non_null_triplets_list):
                 final_result_file.write(str(canon_triplets))
                 if idx != len(canon_triplets_list) - 1:
@@ -567,3 +571,104 @@ class EDC:
                 final_result_file.flush()
 
         return canon_triplets_list
+
+
+def extract_kg_parallel(
+    self, input_text_list: List[str], output_dir: str, refinement_iterations=0
+):
+    if os.path.exists(output_dir):
+        logger.error(f"Output directory {output_dir} already exists! Quitting.")
+        exit()
+    for iteration in range(refinement_iterations + 1):
+        pathlib.Path(f"{output_dir}/iter{iteration}").mkdir(parents=True, exist_ok=True)
+
+    logger.info("EDC starts running...")
+
+    canon_triplets_list = []
+    required_model_dict = {
+        "oie": self.oie_llm_name,
+        "sd": self.sd_llm_name,
+        "sc_embed": self.sc_embedder_name,
+        "sc_verify": self.sc_llm_name,
+        "ee": self.ee_llm_name,
+        "sr": self.sr_embedder_name,
+    }
+
+    triplets_from_last_iteration = None
+    for iteration in range(refinement_iterations + 1):
+        logger.info(f"Iteration {iteration}:")
+
+        iteration_result_dir = f"{output_dir}/iter{iteration}"
+
+        required_model_dict_current_iteration = copy.deepcopy(required_model_dict)
+
+        del required_model_dict_current_iteration["oie"]
+        oie_triplets_list, entity_hint_list, relation_hint_list = self.oie(
+            input_text_list,
+            free_model=self.oie_llm_name
+            not in required_model_dict_current_iteration.values()
+            and iteration == refinement_iterations,
+            previous_extracted_triplets_list=triplets_from_last_iteration,
+        )
+
+        del required_model_dict_current_iteration["sd"]
+        sd_dict_list = self.schema_definition(
+            input_text_list,
+            oie_triplets_list,
+            free_model=self.sd_llm_name
+            not in required_model_dict_current_iteration.values()
+            and iteration == refinement_iterations,
+        )
+
+        del required_model_dict_current_iteration["sc_embed"]
+        del required_model_dict_current_iteration["sc_verify"]
+        canon_triplets_list, canon_candidate_dict_list = self.schema_canonicalization(
+            input_text_list,
+            oie_triplets_list,
+            sd_dict_list,
+            free_model=self.sc_llm_name
+            not in required_model_dict_current_iteration.values()
+            and iteration == refinement_iterations,
+        )
+
+        non_null_triplets_list = [
+            [triplet for triplet in triplets if triplet is not None]
+            for triplets in canon_triplets_list
+        ]
+
+        triplets_from_last_iteration = non_null_triplets_list
+
+        assert len(oie_triplets_list) == len(sd_dict_list) and len(sd_dict_list) == len(
+            canon_triplets_list
+        )
+
+        json_results_list = []
+        for idx in range(len(oie_triplets_list)):
+            result_json = {
+                "index": idx,
+                "input_text": input_text_list[idx],
+                "entity_hint": entity_hint_list[idx],
+                "relation_hint": relation_hint_list[idx],
+                "oie": oie_triplets_list[idx],
+                "schema_definition": sd_dict_list[idx],
+                "canonicalization_candidates": str(canon_candidate_dict_list[idx]),
+                "schema_canonicalizaiton": canon_triplets_list[idx],
+            }
+            json_results_list.append(result_json)
+        result_at_each_stage_file = open(
+            f"{iteration_result_dir}/result_at_each_stage.json", "w"
+        )
+        json.dump(
+            json_results_list,
+            result_at_each_stage_file,
+            indent=4,
+        )
+
+        final_result_file = open(f"{iteration_result_dir}/canon_kg.txt", "w")
+        for idx, canon_triplets in enumerate(non_null_triplets_list):
+            final_result_file.write(str(canon_triplets))
+            if idx != len(canon_triplets_list) - 1:
+                final_result_file.write("\n")
+            final_result_file.flush()
+
+    return canon_triplets_list

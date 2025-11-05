@@ -103,9 +103,10 @@ class OpenAISchemaDefiner(BaseSchemaDefiner):
                 "triples": extracted_triplets_list,
             }
         )
-        messages = [{"role": "user", "content": filled_prompt}]
-
-        completion = llm_utils.openai_chat_completion(self.model_name, None, messages)
+        input, instructions = llm_utils.convert_to_responses_format(filled_prompt)
+        completion = llm_utils.openai_chat_completion(
+            self.model_name, instructions, input
+        )
 
         relation_definition_dict = llm_utils.parse_relation_definition(completion)
 

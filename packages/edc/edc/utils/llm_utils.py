@@ -204,14 +204,12 @@ def generate_completion_transformers(
 
 def openai_chat_completion(
     model: str,
-    system_prompt: Optional[str],
-    history,
+    instructions: str,
+    input: str,
     temperature: float = 0.0,
     max_tokens: int = 512,
 ) -> str:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
-    input, instructions = _convert_to_responses_format(system_prompt, history)
 
     response = None
 
@@ -219,13 +217,11 @@ def openai_chat_completion(
         try:
             params = {
                 "model": model,
+                "instructions": instructions,
                 "input": input,
                 "temperature": temperature,
                 "max_output_tokens": max_tokens,
             }
-
-            if instructions:
-                params["instructions"] = instructions
 
             response = client.responses.create(**params)
         except Exception as e:
@@ -238,6 +234,21 @@ def openai_chat_completion(
         f"Model: {model}\nInput: {input}\nInstructions: {instructions}\nResult: {result}"
     )
     return result
+
+
+def convert_to_responses_format(prompt: str):
+    return _split_prompt(prompt)
+
+
+def _split_prompt(prompt: str):
+    """
+    INPUT_DATA_START/ENDで区切られたプロンプトをinstructionsとinputに分離
+    """
+
+    parts = prompt.split("INPUT_DATA_START")
+    instructions_part = parts[0].strip()
+    input_part = parts[1].replace("INPUT_DATA_END", "").strip()
+    return input_part, instructions_part
 
 
 def _convert_to_responses_format(system_prompt, history):

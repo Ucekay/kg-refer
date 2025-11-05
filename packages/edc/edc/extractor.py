@@ -79,8 +79,10 @@ class OpenAIExtractor(BaseExtractor):
             }
         )
 
-        messages = [{"role": "user", "content": filled_prompt}]
+        input, instructions = llm_utils.convert_to_responses_format(filled_prompt)
 
-        completion = llm_utils.openai_chat_completion(self.model_name, None, messages)
+        completion = llm_utils.openai_chat_completion(
+            self.model_name, instructions, input
+        )
         extracted_triplets_list = llm_utils.parse_raw_triplets(completion)
         return extracted_triplets_list
