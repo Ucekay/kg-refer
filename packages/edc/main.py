@@ -1,5 +1,6 @@
 import asyncio
 
+import torch.multiprocessing as multiprocessing
 from cyclopts import App
 
 from edc.edc_framework import EDC
@@ -21,6 +22,10 @@ def main(config: EDCConfig = EDCConfig()):
 
     if config.enable_parallel_requests:
         # Use async extraction for parallel processing
+        try:
+            multiprocessing.set_start_method("spawn")
+        except RuntimeError:
+            pass
         output_kg = asyncio.run(
             edc.extract_kg_async(
                 input_text_list,

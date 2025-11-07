@@ -306,16 +306,3 @@ def _split_prompt_content(content, system_prompt=None):
     else:
         # 分離できない場合は従来通り
         return content, system_prompt
-
-
-def openai_responses_async(
-    model: str,
-    instructions: str,
-    input: str,
-    temperature: float = 0.0,
-    max_tokens: int = 512,
-) -> str:
-    """Async version of openai_chat_completion using the Responses API format (placeholder implementation)."""
-    # TODO: Implement proper async functionality
-    # For now, fallback to synchronous version
-    return openai_chat_completion(model, instructions, input, temperature, max_tokens)

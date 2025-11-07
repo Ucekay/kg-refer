@@ -5,8 +5,9 @@ import logging
 import pathlib
 import random
 from importlib import reload
-from typing import Dict, List, Literal, Optional, Set, TypedDict, Union
+from typing import Dict, List, Literal, Optional, Set, Tuple, TypedDict, Union
 
+import numpy as np
 import torch
 from mpmath.libmp.backend import os
 from sentence_transformers import SentenceTransformer
@@ -27,9 +28,15 @@ from edc.entity_extractor import (
 )
 from edc.extractor import LocalExtractor, OpenAIAsyncExtractor, OpenAIExtractor
 from edc.schema_canonicalizer import SchemaCanonicalizer
-from edc.schema_definer import LocalSchemaDefiner, OpenAISchemaDefiner
+from edc.schema_definer import (
+    LocalSchemaDefiner,
+    OpenAIAsyncSchemaDefiner,
+    OpenAISchemaDefiner,
+)
 from edc.schema_retriever import SchemaRetriever
 
+# Import parallel processing utilities
+from .parallel_utils import extract_entities_and_relations_from_triplets
 from .types.config import EDCConfig
 from .utils import llm_utils
 
@@ -295,7 +302,7 @@ class EDC:
         oie_triplets_list: List[List[List[str]]],
         schema_definition_dict_list: List[Dict[str, str]],
         free_model=False,
-    ) -> tuple[List[List[List[str]]], List[List[Dict[str, str]]]]:
+    ) -> tuple[List[List[List[str] | None]], List[List[Dict[str, str]]]]:
         assert len(input_text_list) == len(oie_triplets_list) and len(
             input_text_list
         ) == len(schema_definition_dict_list)
@@ -323,12 +330,12 @@ class EDC:
                 self.schema, sc_embedder, verify_openai_model=self.sc_llm_name
             )
 
-        canonicalized_triplets_list = []
+        canonicalized_triplets_list: List[List[List[str] | None]] = []
         canon_candidate_dict_per_entry_list = []
 
         for idx, input_text in enumerate(tqdm(input_text_list)):
             oie_triplets = oie_triplets_list[idx]
-            canonicalized_triplets = []
+            canonicalized_triplets: List[List[str] | None] = []
             sd_dict = schema_definition_dict_list[idx]
             canon_candidate_dict_list = []
             for oie_triplet in oie_triplets:
@@ -510,6 +517,69 @@ class EDC:
             del self.loaded_hf_model_dict[self.ee_llm_name]
         return entity_hint_list, relation_hint_list
 
+    def _build_relation_hints_from_previous_data(
+        self,
+        input_text_list: List[str],
+        previous_entities_and_relations: List[Tuple[List[str], List[str]]],
+        relation_example_dict: dict[str, List[RelationExample]],
+        relation_top_k: int,
+        include_relation_example: str,
+    ) -> List[str]:
+        """previous_entities_and_relationsからリレーションヒントを構築（同期版）"""
+
+        sr_embedding_model = self.load_sts_model(self.sr_embedder_name)
+        schema_retriever = SchemaRetriever(
+            self.schema, sr_embedding_model, None, finetuned_e5mistral=False
+        )
+        relation_hint_list = []
+
+        for input_text_str, (previous_entities, previous_relations) in tqdm(
+            zip(input_text_list, previous_entities_and_relations),
+            desc="Building relation hints",
+        ):
+            hint_relations = previous_relations.copy()
+
+            retrieved_relations = schema_retriever.retrieve_relevant_relations(
+                input_text_str
+            )
+
+            counter = 0
+            for relation in retrieved_relations:
+                if counter >= relation_top_k:
+                    break
+                else:
+                    if relation not in hint_relations:
+                        hint_relations.append(relation)
+                        counter += 1
+
+            candidate_relation_str = ""
+            for relation_idx, relation in enumerate(hint_relations):
+                if relation not in self.schema:
+                    continue
+
+                relation_definition = self.schema[relation]
+                candidate_relation_str += (
+                    f"{relation_idx + 1}. {relation}: {relation_definition}\n"
+                )
+                if include_relation_example == "self":
+                    if relation not in relation_example_dict:
+                        pass
+                    else:
+                        selected_example = None
+                        if len(relation_example_dict[relation]) != 0:
+                            selected_example = random.choice(
+                                relation_example_dict[relation]
+                            )
+
+                        if selected_example is not None:
+                            candidate_relation_str += f"""For example, {selected_example["triplet"]} can be extracted from "{selected_example["text"]}"\n"""
+                        else:
+                            pass
+
+            relation_hint_list.append(candidate_relation_str)
+
+        return relation_hint_list
+
     def extract_kg(
         self, input_text_list: List[str], output_dir: str, refinement_iterations=0
     ):
@@ -645,7 +715,25 @@ class EDC:
             ).read()
 
             logger.info("Putting together the refinement hint...")
-            # TODO: make this async
+
+            (
+                entity_hint_list,
+                relation_hint_list,
+            ) = await self.construct_refinement_hint_async(
+                input_text_list,
+                previous_extracted_triplets_list,
+                free_model=free_model,
+            )
+
+            assert len(previous_extracted_triplets_list) == len(input_text_list)
+            oie_triplets_list = await async_extractor.extract_async(
+                input_text_list,
+                oie_refinement_few_shot_examples_str,
+                oie_refinement_instructons_template_str,
+                oie_refinement_input_template_str,
+                entity_hint_list,
+                relation_hint_list,
+            )
 
         else:
             entity_hint_list = ["" for _ in input_text_list]
@@ -670,7 +758,7 @@ class EDC:
 
             logger.info("OIE finished.")
 
-            return oie_triplets_list, entity_hint_list, relation_hint_list
+        return oie_triplets_list, entity_hint_list, relation_hint_list
 
     async def construct_refinement_hint_async(
         self,
@@ -703,11 +791,6 @@ class EDC:
             self.ee_llm_name, max_concurrent=100, max_req_per_sec=600
         )
 
-        sr_embedding_model = self.load_sts_model(self.sr_embedder_name)
-        schema_retriever = SchemaRetriever(
-            self.schema, sr_embedding_model, None, finetuned_e5mistral=False
-        )
-
         relation_example_dict: dict[str, List[RelationExample]] = {}
         if include_relation_example == "self":
             for idx in range(len(input_text_list)):
@@ -726,7 +809,71 @@ class EDC:
         else:
             pass
 
-        entity_hint_list = async_entity_extractor.extract_entity_hint_async()
+        previous_entities_and_relations = (
+            self._extract_all_entities_and_relations_from_triplets(
+                extracted_triplets_list
+            )
+        )
+
+        entity_hint_list = await async_entity_extractor.extract_entity_hint_list_async(
+            input_text_list,
+            previous_entities_and_relations,
+            entity_extraction_few_shot_example,
+            entity_extraction_instruction_template,
+            entity_extraction_input_template,
+            entity_merging_instruction_template,
+            entity_merging_input_template,
+        )
+
+        # Build relation hints using previous_entities_and_relations
+        logger.info("Building relation hints...")
+        relation_hint_list = self._build_relation_hints_from_previous_data(
+            input_text_list,
+            previous_entities_and_relations,
+            relation_example_dict=relation_example_dict,
+            relation_top_k=relation_top_k,
+            include_relation_example=include_relation_example,
+        )
+
+        if free_model:
+            logger.info(
+                f"Freeing model {self.sr_embedder_name, self.ee_llm_name} as it is no longer needed"
+            )
+            llm_utils.free_model(self.loaded_sts_model_dict[self.sr_embedder_name])
+            del self.loaded_sts_model_dict[self.sr_embedder_name]
+
+        return entity_hint_list, relation_hint_list
+
+    async def schema_definition_async(
+        self,
+        input_text_list: List[str],
+        oie_triplets_list: List[List[List[str]]],
+        free_model=False,
+    ):
+        assert len(input_text_list) == len(oie_triplets_list)
+
+        schema_definer = OpenAIAsyncSchemaDefiner(self.sd_llm_name)
+
+        schema_definition_few_shot_example = open(
+            self.sd_few_shot_example_file_path, encoding="utf-8"
+        ).read()
+        schema_definition_instruction_template = open(
+            self.sd_instructions_template_file_path, encoding="utf-8"
+        ).read()
+        schema_definition_input_template = open(
+            self.sd_input_template_file_path, encoding="utf-8"
+        ).read()
+
+        logging.info("Running Schema Definition...")
+        shcema_definition_dict_list = await schema_definer.define_schemas_async(
+            input_text_list,
+            oie_triplets_list,
+            schema_definition_few_shot_example,
+            schema_definition_instruction_template,
+            schema_definition_input_template,
+        )
+        logging.info("Schema Definition finished.")
+        return shcema_definition_dict_list
 
     async def extract_kg_async(
         self, input_text_list: List[str], output_dir: str, refinement_iterations=0
@@ -773,7 +920,7 @@ class EDC:
             )
 
             del required_model_dict_current_iteration["sd"]
-            sd_dict_list = self.schema_definition(
+            sd_dict_list = await self.schema_definition_async(
                 input_text_list,
                 oie_triplets_list,
                 free_model=self.sd_llm_name
@@ -835,3 +982,18 @@ class EDC:
                 final_result_file.flush()
 
         return canon_triplets_list
+
+    def _extract_all_entities_and_relations_from_triplets(
+        self, triplets_list: List[List[List[str]]]
+    ) -> List[Tuple[List[str], List[str]]]:
+        """Extract entities and relations from triplets using separate parallel processing module.
+
+        This method delegates to the parallel_utils module to avoid CUDA multiprocessing issues.
+
+        Args:
+            triplets_list: List of triplet lists, where each triplet is [entity, relation, entity]
+
+        Returns:
+            List of tuples containing (entities, relations) for each triplet list
+        """
+        return extract_entities_and_relations_from_triplets(triplets_list)
