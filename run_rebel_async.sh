@@ -1,5 +1,5 @@
 uv run --env-file .env --package edc python packages/edc/main.py \
-    --input_text_file_path ./packages/edc/datasets/rebel_test_100.txt \
+    --input_text_file_path ./packages/edc/datasets/rebel.txt \
     --target_schema_path ./packages/edc/schemas/rebel_schema.csv \
     --oie_llm gpt-4.1-nano \
     --oie_few_shot_example_file_path ./packages/edc/few_shot_examples/rebel/oie_few_shot_examples.txt \
@@ -10,6 +10,6 @@ uv run --env-file .env --package edc python packages/edc/main.py \
     --ee_llm gpt-4.1-nano \
     --ee_few_shot_example_file_path ./packages/edc/few_shot_examples/rebel/ee_few_shot_examples.txt \
     --refined_oie_few_shot_example_file_path ./packages/edc/few_shot_examples/rebel/oie_few_shot_refine_examples.txt \
-    --refinement_iterations 0 \
+    --refinement_iterations 1 \
     --enable_parallel_requests \
-    --output_dir ./packages/edc/output/rebel_test_100_responses_v2_gpt4_1_nano_async
+    --output_dir ./packages/edc/output/rebel
