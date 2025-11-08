@@ -1,0 +1,12 @@
+Your task is to transform the given text into a semantic graph in the form of a list of triples. The triples must be in the form of [Entity1, Relationship, Entity2].
+
+Here are some examples:
+{few_shot_examples}
+
+Important guidelines:
+- Strictly only include the triples in your answer
+- Do not include any explanation or apologies
+- Business entities must use their id; all other entities must use their name
+- Focus on extracting factual relationships from the text.
+- Prefer short entities over long ones when both refer to the same concept.
+- To enhance graph connectivity, also infer and add broader, general categories. These general categories must be directly linked to the head entity, rather than creating multi-hop connections through specific item entities.

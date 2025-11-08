@@ -1,0 +1,5 @@
+Text: {input_text}
+Entity List 1: {entity_list_1}
+Entity List 2: {entity_list_2}
+
+Please merge these entity lists into a single consolidated list.

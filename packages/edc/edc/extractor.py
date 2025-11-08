@@ -1,29 +1,14 @@
-from abc import ABC, abstractmethod
 from typing import List, Optional
 
-from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel
+from tqdm.asyncio import tqdm
+from transformers import PreTrainedModel
 from transformers.tokenization_utils_fast import PreTrainedTokenizerFast
 
 from edc.utils import llm_utils
+from edc.utils.async_utils import AsyncOpenAIProcessor
 
 
-class BaseExtractor(ABC):
-    """Base class for all extractors."""
-
-    @abstractmethod
-    def extract(
-        self,
-        input_text_str: str,
-        few_shot_examples_str: str,
-        prompt_template_str: str,
-        entities_hint: Optional[str] = None,
-        relations_hint: Optional[str] = None,
-    ) -> List[List[str]]:
-        """Extract triplets from input text using few-shot examples."""
-        pass
-
-
-class LocalExtractor(BaseExtractor):
+class LocalExtractor:
     """Extractor for local Hugging Face models."""
 
     def __init__(self, model: PreTrainedModel, tokenizer: PreTrainedTokenizerFast):
@@ -34,20 +19,28 @@ class LocalExtractor(BaseExtractor):
         self,
         input_text_str: str,
         few_shot_examples_str: str,
-        prompt_template_str: str,
+        instructions_template_str: str,
+        input_template_str: str,
         entities_hint: Optional[str] = None,
         relations_hint: Optional[str] = None,
     ) -> List[List[str]]:
-        filled_prompt = prompt_template_str.format_map(
+        filled_instructions = instructions_template_str.format_map(
             {
                 "few_shot_examples": few_shot_examples_str,
+            }
+        )
+        filled_input = input_template_str.format_map(
+            {
                 "input_text": input_text_str,
                 "entities_hint": entities_hint,
                 "relations_hint": relations_hint,
             }
         )
 
-        messages = [{"role": "user", "content": filled_prompt}]
+        messages = [
+            {"role": "system", "content": filled_instructions},
+            {"role": "user", "content": filled_input},
+        ]
 
         completion = llm_utils.generate_completion_transformers(
             messages, self.model, self.tokenizer, answer_prepend="Triplets: "
@@ -56,7 +49,7 @@ class LocalExtractor(BaseExtractor):
         return extracted_triplets_list
 
 
-class OpenAIExtractor(BaseExtractor):
+class OpenAIExtractor:
     """Extractor for OpenAI models."""
 
     def __init__(self, model_name: str):
@@ -66,21 +59,81 @@ class OpenAIExtractor(BaseExtractor):
         self,
         input_text_str: str,
         few_shot_examples_str: str,
-        prompt_template_str: str,
+        instructions_template_str: str,
+        input_template_str: str,
         entities_hint: Optional[str] = None,
         relations_hint: Optional[str] = None,
     ) -> List[List[str]]:
-        filled_prompt = prompt_template_str.format_map(
+        filled_instructions = instructions_template_str.format_map(
             {
                 "few_shot_examples": few_shot_examples_str,
+            }
+        )
+        filled_input = input_template_str.format_map(
+            {
                 "input_text": input_text_str,
                 "entities_hint": entities_hint,
                 "relations_hint": relations_hint,
             }
         )
 
-        messages = [{"role": "user", "content": filled_prompt}]
-
-        completion = llm_utils.openai_chat_completion(self.model_name, None, messages)
+        completion = llm_utils.openai_chat_completion(
+            self.model_name, filled_instructions, filled_input
+        )
         extracted_triplets_list = llm_utils.parse_raw_triplets(completion)
         return extracted_triplets_list
+
+
+class OpenAIAsyncExtractor:
+    def __init__(self, model_name: str, max_concurrent=200, max_req_per_sec=80) -> None:
+        self.model_name = model_name
+        self.max_concurrent = max_concurrent
+        self.max_req_per_sec = max_req_per_sec
+
+    async def extract_async(
+        self,
+        input_text_list: List[str],
+        few_shot_examples_str: str,
+        instructions_template_str: str,
+        input_template_str: str,
+        entities_hint_list: Optional[List[str]] = None,
+        relations_hint_list: Optional[List[str]] = None,
+    ) -> List[List[List[str]]]:
+        filled_instructions = instructions_template_str.format_map(
+            {
+                "few_shot_examples": few_shot_examples_str,
+            }
+        )
+        filled_input_list = [
+            input_template_str.format_map(
+                {
+                    "input_text": input_text,
+                    "entities_hint": entities_hint_list[i]
+                    if entities_hint_list
+                    else None,
+                    "relations_hint": relations_hint_list[i]
+                    if relations_hint_list
+                    else None,
+                }
+            )
+            for i, input_text in enumerate(input_text_list)
+        ]
+
+        async_openai_processor = AsyncOpenAIProcessor(
+            max_concurrent=self.max_concurrent,
+            max_req_per_sec=self.max_req_per_sec,
+        )
+
+        tasks = [
+            async_openai_processor.openai_responses_async(
+                self.model_name,
+                instructions=filled_instructions,
+                input=filled_input,
+            )
+            for filled_input in filled_input_list
+        ]
+        results = await tqdm.gather(*tasks, desc="Extracting triplets asynchronously")
+        extracted_triplets_lists = [
+            llm_utils.parse_raw_triplets(result) for result in results
+        ]
+        return extracted_triplets_lists

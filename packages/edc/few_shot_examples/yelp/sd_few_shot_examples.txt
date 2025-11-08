@@ -1,0 +1,44 @@
+Example 1:
+    Text: Fans of authentic Thai street food, particularly spicy curries and Pad Thai, who value quick service and affordable prices in a no-frills setting would enjoy "Bangkok Station" in Los Angeles.
+    Triplets: [["92", "located in", "Los Angeles"], ["92", "serves cuisine", "authentic Thai street food"], ["92", "serves cuisine", "Thai food"], ["92", "serves dish", "spicy curries"], ["92", "serves dish", "Pad Thai"], ["92", "serves dish", "Curry"], ["92", "has feature", "quick service"], ["92", "price range", "affordable prices"], ["92", "has atmosphere", "no-frills setting"], ["92", "has atmosphere", "Casual dining"], ["92", "suitable for", "Quick meal"], ["92", "suitable for", "Budget dining"], ["92", "appeals to", "Thai food lovers"]
+    Relations: ["located in", "serves cuisine", "serves dish", "has feature", "price range", "has atmosphere", "suitable for", "appeals to"]]
+    Answer:
+        located in: The subject entity is physically situated in or found in the location specified by the object entity.
+        serves cuisine: The subject entity offers or provides the type of cuisine specified by the object entity.
+        serves dish: The subject entity offers or provides the specific dish specified by the object entity.
+        has feature: The subject entity possesses or is characterized by the feature specified by the object entity.
+        price range: The subject entity operates within or offers the pricing level specified by the object entity.
+        has atmosphere: The subject entity provides or is characterized by the ambiance or environment specified by the object entity.
+        suitable for: The subject entity is appropriate for or fits the purpose or occasion specified by the object entity.
+        appeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.
+
+Example 2:
+    Text: Diners seeking an upscale seafood experience, especially raw oysters and lobster, along with inventive cocktails and an elegant, waterfront view, would find "The Pearl Oyster Bar" in Seattle ideal for special occasions.
+    Triplets:[["8542", "located in", "Seattle"], ["8542", "serves cuisine", "seafood"], ["8542", "is a", "Seafood restaurant"], ["8542", "serves dish", "raw oysters"], ["8542", "serves dish", "oysters"], ["8542", "serves dish", "lobster"], ["8542", "serves drink", "inventive cocktails"], ["8542", "serves drink", "cocktails"], ["8542", "has atmosphere", "upscale"], ["8542", "has atmosphere", "elegant"], ["8542", "has feature", "waterfront view"], ["8542", "has feature", "waterfront dining"], ["8542", "suitable for", "special occasions"], ["8542", "suitable for", "Fine dining"], ["8542", "suitable for", "Scenic views"], ["8542", "price range", "Expensive"], ["8542", "appeals to", "Seafood lovers"]]
+    Relations: ["located in", "serves cuisine", "is a", "serves dish", "serves drink", "has atmosphere", "has feature", "suitable for", "price range", "appeals to"]
+    Answer:
+        located in: The subject entity is physically situated in or found in the location specified by the object entity.
+        serves cuisine: The subject entity offers or provides the type of cuisine specified by the object entity.
+        is a: The subject entity is classified as or belongs to the category specified by the object entity.
+        serves dish: The subject entity offers or provides the specific dish specified by the object entity.
+        serves drink: The subject entity offers or provides the beverage or drink specified by the object entity.
+        has atmosphere: The subject entity provides or is characterized by the ambiance or environment specified by the object entity.
+        has feature: The subject entity possesses or is characterized by the feature specified by the object entity.
+        suitable for: The subject entity is appropriate for or fits the purpose or occasion specified by the object entity.
+        price range: The subject entity operates within or offers the pricing level specified by the object entity.
+        appeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.
+
+Example 3:
+    Text: Brunch enthusiasts who prioritize creative eggs benedict variations, bottomless mimosas, and a vibrant, bustling atmosphere, even if it means a weekend wait, would love "Morning Glory Cafe" in Denver.
+    Triplets: [["2497", "located in", "Denver"], ["2497", "serves meal type", "brunch"], ["2497", "is a", "Cafe"], ["2497", "is a", "Restaurant"], ["2497", "serves dish", "creative eggs benedict variations"], ["2497", "serves dish", "eggs benedict"], ["2497", "serves drink", "bottomless mimosas"], ["2497", "serves drink", "mimosas"], ["2497", "serves drink", "cocktails"], ["2497", "has atmosphere", "vibrant"], ["2497", "has atmosphere", "bustling"], ["2497", "has atmosphere", "Lively"], ["2497", "has atmosphere", "Casual dining"], ["2497", "has feature", "weekend wait"], ["2497", "suitable for", "Brunch"], ["2497", "suitable for", "Weekend dining"], ["2497", "appeals to", "Brunch enthusiasts"]]
+    Relations: ["located in", "serves meal type", "is a", "serves dish", "serves drink", "has atmosphere", "has feature", "suitable for", "appeals to"]
+    Answer:
+        located in: The subject entity is physically situated in or found in the location specified by the object entity.
+        serves meal type: The subject entity offers or provides the type of meal specified by the object entity.
+        is a: The subject entity is classified as or belongs to the category specified by the object entity.
+        serves dish: The subject entity offers or provides the specific dish specified by the object entity.
+        serves drink: The subject entity offers or provides the beverage or drink specified by the object entity.
+        has atmosphere: The subject entity provides or is characterized by the ambiance or environment specified by the object entity.
+        has feature: The subject entity possesses or is characterized by the feature specified by the object entity.
+        suitable for: The subject entity is appropriate for or fits the purpose or occasion specified by the object entity.
+        appeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.

@@ -1,0 +1,7 @@
+You will be given a text, a relational triplet extracted from it, and the definition of the relation in the triplet. Your task is to determine if there's a more appropriate relation to replace the current one.
+
+Important guidelines:
+- Analyze the context carefully
+- Consider the semantic meaning of the relation
+- Answer by providing only the letter of your choice
+- No explanations needed

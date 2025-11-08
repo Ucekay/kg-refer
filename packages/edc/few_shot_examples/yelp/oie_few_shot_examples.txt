@@ -1,0 +1,29 @@
+Example 1:
+    Item ID: 92
+    Text: Fans of authentic Thai street food, particularly spicy curries and Pad Thai, who value quick service and affordable prices in a no-frills setting would enjoy "Bangkok Station" in Los Angeles.
+    Triplets:[["92", "located in", "Los Angeles"], ["92", "serves cuisine", "authentic Thai street food"], ["92", "serves cuisine", "Thai food"], ["92", "serves dish", "spicy curries"], ["92", "serves dish", "Pad Thai"], ["92", "serves dish", "Curry"], ["92", "has feature", "quick service"], ["92", "price range", "affordable prices"], ["92", "has atmosphere", "no-frills setting"], ["92", "has atmosphere", "Casual dining"], ["92", "suitable for", "Quick meal"], ["92", "suitable for", "Budget dining"], ["92", "appeals to", "Thai food lovers"]]
+
+Example 2:
+    Item ID: 8542
+    Text: Diners seeking an upscale seafood experience, especially raw oysters and lobster, along with inventive cocktails and an elegant, waterfront view, would find "The Pearl Oyster Bar" in Seattle ideal for special occasions.
+    Triplets:[["8542", "located in", "Seattle"], ["8542", "serves cuisine", "seafood"], ["8542", "is a", "Seafood restaurant"], ["8542", "serves dish", "raw oysters"], ["8542", "serves dish", "oysters"], ["8542", "serves dish", "lobster"], ["8542", "serves drink", "inventive cocktails"], ["8542", "serves drink", "cocktails"], ["8542", "has atmosphere", "upscale"], ["8542", "has atmosphere", "elegant"], ["8542", "has feature", "waterfront view"], ["8542", "has feature", "waterfront dining"], ["8542", "suitable for", "special occasions"], ["8542", "suitable for", "Fine dining"], ["8542", "suitable for", "Scenic views"], ["8542", "price range", "Expensive"], ["8542", "appeals to", "Seafood lovers"]]
+
+Example 3:
+    Item ID: 2497
+    Text: Brunch enthusiasts who prioritize creative eggs benedict variations, bottomless mimosas, and a vibrant, bustling atmosphere, even if it means a weekend wait, would love "Morning Glory Cafe" in Denver.
+    Triplets: [["2497", "located in", "Denver"], ["2497", "serves meal type", "brunch"], ["2497", "is a", "Cafe"], ["2497", "is a", "Restaurant"], ["2497", "serves dish", "creative eggs benedict variations"], ["2497", "serves dish", "eggs benedict"], ["2497", "serves drink", "bottomless mimosas"], ["2497", "serves drink", "mimosas"], ["2497", "serves drink", "cocktails"], ["2497", "has atmosphere", "vibrant"], ["2497", "has atmosphere", "bustling"], ["2497", "has atmosphere", "Lively"], ["2497", "has atmosphere", "Casual dining"], ["2497", "has feature", "weekend wait"], ["2497", "suitable for", "Brunch"], ["2497", "suitable for", "Weekend dining"], ["2497", "appeals to", "Brunch enthusiasts"]]
+
+Example 4:
+    Item ID: 176
+    Text: Fans of traditional Irish pubs, hearty shepherd's pie, a wide selection of imported stouts, and a lively atmosphere with live folk music would enjoy "O'Malley's Pint" in Boston.
+    Triplets: [["176", "located in", "Boston"], ["176", "is a", "Irish pub"], ["176", "is a", "Pub"], ["176", "is a", "Bar"], ["176", "serves cuisine", "Irish food"], ["176", "serves dish", "hearty shepherd's pie"], ["176", "serves dish", "shepherd's pie"], ["176", "serves drink", "imported stouts"], ["176", "serves drink", "stouts"], ["176", "serves drink", "beer"], ["176", "has feature", "wide selection of imported stouts"], ["176", "has atmosphere", "lively"], ["176", "has feature", "live folk music"], ["176", "has feature", "live music"], ["176", "suitable for", "Live music"], ["176", "suitable for", "Casual dining"], ["176", "suitable for", "Irish pub fans"], ["176", "appeals to", "Beer lovers"]]
+
+Example 5:
+    Item ID: 7162
+    Text: Health-conscious individuals who prefer plant-based menus, fresh-pressed juices, and smoothie bowls in a bright, airy cafe setting would enjoy "Pure & Green" in Miami.
+    Triplets: [["7162", "located in", "Miami"], ["7162", "is a", "cafe"], ["7162", "is a", "Juice bar"], ["7162", "serves cuisine", "plant-based"], ["7162", "serves cuisine", "healthy food"], ["7162", "serves cuisine", "Vegan food"], ["7162", "serves cuisine", "Vegetarian food"], ["7162", "serves drink", "fresh-pressed juices"], ["7162", "serves drink", "juices"], ["7162", "serves drink", "smoothies"], ["7162", "serves drink", "healthy drinks"], ["7162", "serves dish", "smoothie bowls"], ["7162", "has atmosphere", "bright"], ["7162", "has atmosphere", "airy"], ["7162", "has atmosphere", "Casual dining"], ["7162", "suitable for", "health-conscious individuals"], ["7162", "suitable for", "Healthy eating"], ["7162", "suitable for", "Quick meal"], ["7162", "appeals to", "Vegans"], ["7162", "appeals to", "Vegetarians"]]
+
+Example: 6
+    Item ID: 12173
+    Text: Cocktail aficionados looking for an intimate, speakeasy-style bar with expert mixologists, a focus on classic whiskey drinks, and dim lighting would appreciate "The Alchemist"s Study" in Nashville.
+    Triplets: [["12173", "located in", "Nashville"], ["12173", "is a", "bar"], ["12173", "is a", "speakeasy-style bar"], ["12173", "is a", "Cocktail bar"], ["12173", "has atmosphere", "intimate"], ["12173", "has atmosphere", "dim lighting"], ["12173", "has atmosphere", "speakeasy-style"], ["12173", "has atmosphere", "Romantic"], ["12173", "has feature", "expert mixologists"], ["12173", "serves drink", "classic whiskey drinks"], ["12173", "serves drink", "whiskey drinks"], ["12173", "serves drink", "whiskey"], ["12173", "serves drink", "cocktails"], ["12173", "serves drink", "spirits"], ["12173", "serves drink", "alcohol"], ["12173", "appeals to", "Cocktail aficionados"], ["12173", "appeals to", "Whiskey lovers"], ["12173", "suitable for", "Date night"], ["12173", "suitable for", "Drinks"]]

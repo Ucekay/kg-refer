@@ -1,0 +1,9 @@
+Your task is to extract entities from the given text.
+
+Here are some examples:
+{few_shot_examples}
+
+Important guidelines:
+- - Extract all relevant entities, including Named Entities as well as descriptive attributes, features, and categories.
+- Strictly only include the entities in your answer
+- Do not include any explanation or apologies

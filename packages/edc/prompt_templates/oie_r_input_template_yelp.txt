@@ -1,0 +1,5 @@
+Text: {input_text}
+Entity Hints: {entities_hint}
+Relation Hints: {relations_hint}
+
+Triplets:
