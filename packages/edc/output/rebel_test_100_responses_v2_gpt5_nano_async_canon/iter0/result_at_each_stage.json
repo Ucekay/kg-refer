@@ -1,0 +1,838 @@
+[
+    {
+        "index": 0,
+        "input_text": "Spodnje Ho\u010de () is a settlement in and the administrative centre of the Municipality of Ho\u010de\u2013Slivnica in northeastern Slovenia.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Spodnje Ho\u010de",
+                "located in the administrative territorial entity",
+                "Municipality of Ho\u010de\u2013Slivnica"
+            ],
+            [
+                "Spodnje Ho\u010de",
+                "location",
+                "settlement"
+            ],
+            [
+                "Spodnje Ho\u010de",
+                "located in the administrative territorial entity",
+                "Municipality of Ho\u010de\u2013Slivnica"
+            ],
+            [
+                "Municipality of Ho\u010de\u2013Slivnica",
+                "contains settlement",
+                "Spodnje Ho\u010de"
+            ],
+            [
+                "Municipality of Ho\u010de\u2013Slivnica",
+                "country",
+                "Slovenia"
+            ],
+            [
+                "Slovenia",
+                "contains administrative territorial entity",
+                "Municipality of Ho\u010de\u2013Slivnica"
+            ]
+        ],
+        "schema_definition": {
+            "type of place": "The subject entity is a type or category of location described by the object entity (e.g., settlement, city, village).",
+            "contains settlement": "The subject entity includes or encompasses the specific settlement named in the object entity as a part of its area or jurisdiction.",
+            "country": "The subject entity is located in the country specified by the object entity.",
+            "contains administrative territorial entity": "The subject entity contains or comprises the administrative territorial entity specified by the object entity.",
+            "located in the administrative territorial entity": "The subject entity is situated within or governed by the administrative territorial entity specified by the object entity.",
+            "administrative centre of": "The subject entity serves as the administrative center or capital for the administrative entity specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'contains settlement': np.float32(0.80469555), 'located in the administrative territorial entity': np.float32(0.7962712), 'narrative location': np.float32(0.7948072), 'location': np.float32(0.7935337), 'place served by transport hub': np.float32(0.78750104)}, {'capital': np.float32(0.8339153), 'contains administrative territorial entity': np.float32(0.8220375), 'capital of': np.float32(0.8205893), 'located in the administrative territorial entity': np.float32(0.81856644), 'executive body': np.float32(0.8046739)}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Spodnje Ho\u010de",
+                "located in the administrative territorial entity",
+                "Municipality of Ho\u010de\u2013Slivnica"
+            ],
+            [
+                "Spodnje Ho\u010de",
+                "location",
+                "settlement"
+            ],
+            [
+                "Spodnje Ho\u010de",
+                "located in the administrative territorial entity",
+                "Municipality of Ho\u010de\u2013Slivnica"
+            ],
+            [
+                "Municipality of Ho\u010de\u2013Slivnica",
+                "contains settlement",
+                "Spodnje Ho\u010de"
+            ],
+            [
+                "Municipality of Ho\u010de\u2013Slivnica",
+                "country",
+                "Slovenia"
+            ],
+            [
+                "Slovenia",
+                "contains administrative territorial entity",
+                "Municipality of Ho\u010de\u2013Slivnica"
+            ]
+        ]
+    },
+    {
+        "index": 1,
+        "input_text": "Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Herbert Blankenhorn",
+                "date of birth",
+                "15 December 1904"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "place of birth",
+                "M\u00fclhausen"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "date of death",
+                "10 August 1991"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "place of death",
+                "Badenweiler"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "country of citizenship",
+                "Germany"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "occupation",
+                "diplomat"
+            ]
+        ],
+        "schema_definition": {
+            "date of birth": "The subject entity was born on the date specified by the object entity.",
+            "place of birth": "The subject entity was born in the location specified by the object entity.",
+            "date of death": "The subject entity died on the date specified by the object entity.",
+            "country of citizenship": "The subject entity holds citizenship of the country specified by the object entity.",
+            "place of death": "The subject entity died in the location specified by the object entity.",
+            "profession": "The subject entity is professionally identified as the category specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {'heritage designation': np.float32(0.8610442), 'field of this occupation': np.float32(0.84964645), 'occupation': np.float32(0.84621286), 'field of work': np.float32(0.82496834), 'is a list of': np.float32(0.82487947)}]",
+        "schema_canonicalizaiton": [
+            [
+                "Herbert Blankenhorn",
+                "date of birth",
+                "15 December 1904"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "place of birth",
+                "M\u00fclhausen"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "date of death",
+                "10 August 1991"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "place of death",
+                "Badenweiler"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "country of citizenship",
+                "Germany"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "occupation",
+                "diplomat"
+            ]
+        ]
+    },
+    {
+        "index": 2,
+        "input_text": "Operation Dragon Strike was a NATO counter-insurgent mission in Kandahar province, Afghanistan, against Taliban forces, which started on September 15, 2010.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Operation Dragon Strike",
+                "instance of",
+                "NATO counter-insurgent mission"
+            ],
+            [
+                "Operation Dragon Strike",
+                "location",
+                "Kandahar province"
+            ],
+            [
+                "Kandahar province",
+                "country",
+                "Afghanistan"
+            ],
+            [
+                "Operation Dragon Strike",
+                "target",
+                "Taliban forces"
+            ],
+            [
+                "Operation Dragon Strike",
+                "start time",
+                "September 15, 2010"
+            ]
+        ],
+        "schema_definition": {
+            "location": "The subject entity is located in the place specified by the object entity.",
+            "start time": "The subject entity began or started on the date or time specified by the object entity.",
+            "type of mission": "The subject entity is a specific kind or category of mission as defined by the object entity.",
+            "country": "The subject entity is located in or associated with the country specified by the object entity.",
+            "opposed by": "The subject entity is opposed or acted against by the person or group specified by the object entity."
+        },
+        "canonicalization_candidates": "[{'heritage designation': np.float32(0.8270665), 'facet of': np.float32(0.8107116), 'subclass of': np.float32(0.80953306), 'instance of': np.float32(0.79702365), 'main subject': np.float32(0.78955543)}, {}, {}, {'target': np.float32(0.82260025), 'different from': np.float32(0.7669128), 'named after': np.float32(0.75764513), 'facet of': np.float32(0.75466466), 'depicts': np.float32(0.75453484)}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Operation Dragon Strike",
+                "instance of",
+                "NATO counter-insurgent mission"
+            ],
+            [
+                "Operation Dragon Strike",
+                "location",
+                "Kandahar province"
+            ],
+            [
+                "Kandahar province",
+                "country",
+                "Afghanistan"
+            ],
+            [
+                "Operation Dragon Strike",
+                "target",
+                "Taliban forces"
+            ],
+            [
+                "Operation Dragon Strike",
+                "start time",
+                "September 15, 2010"
+            ]
+        ]
+    },
+    {
+        "index": 3,
+        "input_text": "Saleem Safi (Urdu, ) is a Pakistani journalist, columnist, defence analyst and current affairs TV talk show anchorperson.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Saleem Safi",
+                "country of citizenship",
+                "Pakistan"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "journalist"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "columnist"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "defence analyst"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "current affairs TV talk show anchorperson"
+            ],
+            [
+                "Urdu",
+                "language used",
+                "Pakistan"
+            ]
+        ],
+        "schema_definition": {
+            "country of citizenship": "The subject entity holds citizenship of the country specified by the object entity.",
+            "language used": "The subject entity uses the language specified by the object entity.",
+            "occupation": "The subject entity is engaged in or affiliated with the profession specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Saleem Safi",
+                "country of citizenship",
+                "Pakistan"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "journalist"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "columnist"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "defence analyst"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "current affairs TV talk show anchorperson"
+            ],
+            [
+                "Urdu",
+                "language used",
+                "Pakistan"
+            ]
+        ]
+    },
+    {
+        "index": 4,
+        "input_text": "Los Trancos Creek (meaning \"barriers\" or \"cattle guards\" from the Spanish \"Las Trancas\") is a creek that flows northerly from Monte Bello Ridge on the northeast slope of the Santa Cruz Mountains to its confluence with San Francisquito Creek at Stanford University in California, United States.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Los Trancos Creek",
+                "meaning",
+                "barriers or cattle guards from Spanish Las Trancas"
+            ],
+            [
+                "Los Trancos Creek",
+                "type of geographical feature",
+                "creek"
+            ],
+            [
+                "Los Trancos Creek",
+                "direction of flow",
+                "northerly"
+            ],
+            [
+                "Los Trancos Creek",
+                "start point",
+                "Monte Bello Ridge"
+            ],
+            [
+                "Monte Bello Ridge",
+                "location",
+                "Santa Cruz Mountains"
+            ],
+            [
+                "Monte Bello Ridge",
+                "part of",
+                "Santa Cruz Mountains"
+            ],
+            [
+                "Santa Cruz Mountains",
+                "location",
+                "California"
+            ],
+            [
+                "Santa Cruz Mountains",
+                "country",
+                "United States"
+            ],
+            [
+                "Los Trancos Creek",
+                "mouth of the watercourse",
+                "San Francisquito Creek"
+            ],
+            [
+                "San Francisquito Creek",
+                "mouth of the watercourse",
+                "Los Trancos Creek"
+            ],
+            [
+                "San Francisquito Creek",
+                "location",
+                "Stanford University in California, United States"
+            ],
+            [
+                "Stanford University",
+                "location",
+                "California"
+            ],
+            [
+                "California",
+                "country",
+                "United States"
+            ]
+        ],
+        "schema_definition": {
+            "location": "The subject entity is located in or at the place specified by the object entity.",
+            "type of geographical feature": "The subject entity is a named geographical feature of the type specified by the object entity.",
+            "direction of flow": "The subject entity moves or flows in the direction specified by the object entity.",
+            "country": "The subject entity is located in or associated with the country specified by the object entity.",
+            "confluence with": "The subject entity merges with or joins the other specified entity at a confluence or meeting point.",
+            "mouth of the watercourse": "The subject entity ends or discharges into the other specified watercourse at its mouth.",
+            "located in": "The subject entity is situated within the place specified by the object entity.",
+            "part of": "The subject entity is a component or member of the broader entity specified by the object entity.",
+            "source": "The subject entity originates from or has its source at the location specified by the object entity.",
+            "meaning": "The subject entity has the meaning or translation provided by the object entity."
+        },
+        "canonicalization_candidates": "[{'said to be the same as': np.float32(0.81931293), 'heritage designation': np.float32(0.8185327), 'target': np.float32(0.8122041), 'depicts': np.float32(0.8071165), 'instance of': np.float32(0.80705357)}, {'located on terrain feature': np.float32(0.8191807), 'named after': np.float32(0.8034661), 'located in the administrative territorial entity': np.float32(0.79620534), 'mouth of the watercourse': np.float32(0.7956375), 'basin country': np.float32(0.79384685)}, {'target': np.float32(0.79304147), 'start point': np.float32(0.7875447), 'main subject': np.float32(0.7759113), 'director': np.float32(0.77385616), 'mouth of the watercourse': np.float32(0.7665976)}, {'start point': np.float32(0.8577473), 'location of formation': np.float32(0.8360063), 'country of origin': np.float32(0.8314062), 'location': np.float32(0.8302294), 'place of birth': np.float32(0.82343817)}, {'location': np.float32(0.92283857), 'residence': np.float32(0.88602954), 'occupant': np.float32(0.86743206), 'located in the administrative territorial entity': np.float32(0.8652108), 'located in present-day administrative territorial entity': np.float32(0.86193377)}, {}, {}, {}, {}, {'mouth of the watercourse': np.float32(0.7743313), 'connecting line': np.float32(0.7170078), 'terminus': np.float32(0.71612644), 'partially coincident with': np.float32(0.7138214), 'contains': np.float32(0.71113735)}, {}, {'location': np.float32(0.92283857), 'residence': np.float32(0.88602954), 'occupant': np.float32(0.86743206), 'located in the administrative territorial entity': np.float32(0.8652108), 'located in present-day administrative territorial entity': np.float32(0.86193377)}, {}]",
+        "schema_canonicalizaiton": [
+            null,
+            null,
+            null,
+            [
+                "Los Trancos Creek",
+                "start point",
+                "Monte Bello Ridge"
+            ],
+            [
+                "Monte Bello Ridge",
+                "location",
+                "Santa Cruz Mountains"
+            ],
+            [
+                "Monte Bello Ridge",
+                "part of",
+                "Santa Cruz Mountains"
+            ],
+            [
+                "Santa Cruz Mountains",
+                "location",
+                "California"
+            ],
+            [
+                "Santa Cruz Mountains",
+                "country",
+                "United States"
+            ],
+            [
+                "Los Trancos Creek",
+                "mouth of the watercourse",
+                "San Francisquito Creek"
+            ],
+            [
+                "San Francisquito Creek",
+                "mouth of the watercourse",
+                "Los Trancos Creek"
+            ],
+            [
+                "San Francisquito Creek",
+                "location",
+                "Stanford University in California, United States"
+            ],
+            [
+                "Stanford University",
+                "location",
+                "California"
+            ],
+            [
+                "California",
+                "country",
+                "United States"
+            ]
+        ]
+    },
+    {
+        "index": 5,
+        "input_text": "Peter Sainthill (8 July 1593 \u2001E12 August 1648) of Bradninch in Devon, England, was twice elected a Member of Parliament for Tiverton in Devon, in the Short Parliament 1640 and in the Long Parliament in November 1640.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Peter Sainthill",
+                "date of birth",
+                "8 July 1593"
+            ],
+            [
+                "Peter Sainthill",
+                "date of death",
+                "12 August 1648"
+            ],
+            [
+                "Peter Sainthill",
+                "member of",
+                "Short Parliament"
+            ],
+            [
+                "Short Parliament",
+                "inception",
+                "November 1640"
+            ],
+            [
+                "Peter Sainthill",
+                "member of",
+                "Member of Parliament for Tiverton in Devon"
+            ],
+            [
+                "Tiverton in Devon",
+                "located in the administrative territorial entity",
+                "Devon"
+            ],
+            [
+                "Devon",
+                "located in the administrative territorial entity",
+                "England"
+            ]
+        ],
+        "schema_definition": {
+            "date of birth": "The subject entity was born on the date specified by the object entity.",
+            "member of": "The subject entity is a member or part of the group, organization, or body specified by the object entity.",
+            "position": "The subject entity held the stated role or office within the specified organization or context.",
+            "date of death": "The subject entity died on the date specified by the object entity.",
+            "located in": "The subject entity is situated within or located in the place specified by the object entity.",
+            "inception": "The subject entity began or was established in the time period or date specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {'position held': np.float32(0.8794514), 'officeholder': np.float32(0.8476548), 'office held by head of the organization': np.float32(0.8445517), 'office held by head of government': np.float32(0.81187457), 'member of': np.float32(0.8011445)}, {'location': np.float32(0.9148301), 'residence': np.float32(0.8782319), 'located in the administrative territorial entity': np.float32(0.8621273), 'located in present-day administrative territorial entity': np.float32(0.85824513), 'occupant': np.float32(0.8574536)}, {'location': np.float32(0.9148301), 'residence': np.float32(0.8782319), 'located in the administrative territorial entity': np.float32(0.8621273), 'located in present-day administrative territorial entity': np.float32(0.85824513), 'occupant': np.float32(0.8574536)}]",
+        "schema_canonicalizaiton": [
+            [
+                "Peter Sainthill",
+                "date of birth",
+                "8 July 1593"
+            ],
+            [
+                "Peter Sainthill",
+                "date of death",
+                "12 August 1648"
+            ],
+            [
+                "Peter Sainthill",
+                "member of",
+                "Short Parliament"
+            ],
+            [
+                "Short Parliament",
+                "inception",
+                "November 1640"
+            ],
+            [
+                "Peter Sainthill",
+                "member of",
+                "Member of Parliament for Tiverton in Devon"
+            ],
+            [
+                "Tiverton in Devon",
+                "located in the administrative territorial entity",
+                "Devon"
+            ],
+            [
+                "Devon",
+                "located in the administrative territorial entity",
+                "England"
+            ]
+        ]
+    },
+    {
+        "index": 6,
+        "input_text": "Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Romany Love",
+                "year of release",
+                "1931"
+            ],
+            [
+                "Romany Love",
+                "country",
+                "Britain"
+            ],
+            [
+                "Romany Love",
+                "genre",
+                "musical film"
+            ],
+            [
+                "Romany Love",
+                "director",
+                "Fred Paul"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Esmond Knight"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Florence McHugh"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Roy Travers"
+            ]
+        ],
+        "schema_definition": {
+            "year of release": "The subject entity was released in the year specified by the object entity.",
+            "country": "The subject entity is associated with or originates from the country specified by the object entity.",
+            "starring": "The subject entity features the person specified by the object entity as a star or main performer.",
+            "genre": "The subject entity belongs to the genre specified by the object entity.",
+            "director": "The subject entity was directed by the person specified by the object entity."
+        },
+        "canonicalization_candidates": "[{'publication date': np.float32(0.8774331), 'inception': np.float32(0.83992183), 'work period (start)': np.float32(0.82683235), 'publisher': np.float32(0.81677854), 'start time': np.float32(0.8063991)}, {}, {}, {}, {'cast member': np.float32(0.83765686), 'presenter': np.float32(0.80679536), 'main subject': np.float32(0.80124956), 'performer': np.float32(0.80076045), 'depicts': np.float32(0.7988801)}, {'cast member': np.float32(0.83765686), 'presenter': np.float32(0.80679536), 'main subject': np.float32(0.80124956), 'performer': np.float32(0.80076045), 'depicts': np.float32(0.7988801)}, {'cast member': np.float32(0.83765686), 'presenter': np.float32(0.80679536), 'main subject': np.float32(0.80124956), 'performer': np.float32(0.80076045), 'depicts': np.float32(0.7988801)}]",
+        "schema_canonicalizaiton": [
+            null,
+            [
+                "Romany Love",
+                "country",
+                "Britain"
+            ],
+            [
+                "Romany Love",
+                "genre",
+                "musical film"
+            ],
+            [
+                "Romany Love",
+                "director",
+                "Fred Paul"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Esmond Knight"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Florence McHugh"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Roy Travers"
+            ]
+        ]
+    },
+    {
+        "index": 7,
+        "input_text": "Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Monopoly Star Wars",
+                "based on",
+                "board game"
+            ],
+            [
+                "Monopoly Star Wars",
+                "part of",
+                "Monopoly"
+            ],
+            [
+                "Monopoly Star Wars",
+                "publication date",
+                "1997"
+            ],
+            [
+                "Monopoly Star Wars",
+                "interested in",
+                "Star Wars"
+            ],
+            [
+                "Star Wars",
+                "universe",
+                "fictional"
+            ]
+        ],
+        "schema_definition": {
+            "based on": "The subject entity is derived from or adapted from the object entity.",
+            "franchise": "The subject entity is part of the broader franchise specified by the object entity.",
+            "universe": "The subject entity is set within or related to the fictional universe specified by the object entity.",
+            "theme universe": "The subject entity is associated with the conceptual universe or thematic world specified by the object entity.",
+            "release year": "The subject entity was released or published in the year specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'media franchise': np.float32(0.8645614), 'part of the series': np.float32(0.84309477), 'subsidiary': np.float32(0.83676004), 'collection': np.float32(0.8301061), 'part of': np.float32(0.8250028)}, {'publication date': np.float32(0.9164771), 'publisher': np.float32(0.865419), 'inception': np.float32(0.8304761), 'work period (start)': np.float32(0.8231126), 'record label': np.float32(0.7940289)}, {'main subject': np.float32(0.8314892), 'interested in': np.float32(0.8273418), 'relative': np.float32(0.8270703), 'contains': np.float32(0.81438345), 'instance of': np.float32(0.81298184)}, {'narrative location': np.float32(0.8300973), 'characters': np.float32(0.8279586), 'media franchise': np.float32(0.8214299), 'present in work': np.float32(0.8208731), 'main subject': np.float32(0.80847347)}]",
+        "schema_canonicalizaiton": [
+            [
+                "Monopoly Star Wars",
+                "based on",
+                "board game"
+            ],
+            [
+                "Monopoly Star Wars",
+                "part of",
+                "Monopoly"
+            ],
+            [
+                "Monopoly Star Wars",
+                "publication date",
+                "1997"
+            ],
+            [
+                "Monopoly Star Wars",
+                "interested in",
+                "Star Wars"
+            ],
+            null
+        ]
+    },
+    {
+        "index": 8,
+        "input_text": "Josef Sch\u00e4ffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Josef Sch\u00e4ffer",
+                "date of birth",
+                "July 2, 1891"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "place of birth",
+                "Moravia"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "country of citizenship",
+                "Austrian"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "occupation",
+                "track and field athlete"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "participant in",
+                "1912 Summer Olympics"
+            ]
+        ],
+        "schema_definition": {
+            "date of birth": "The subject entity was born on the date specified by the object entity.",
+            "place of birth": "The subject entity was born in the location specified by the object entity.",
+            "occupation": "The subject entity is engaged in the professional role or job specified by the object entity.",
+            "competed in": "The subject entity took part in the event specified by the object entity.",
+            "nationality": "The subject entity is identified as belonging to the country or nation specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {'country of citizenship': np.float32(0.86406124), 'country of origin': np.float32(0.85346967), 'country': np.float32(0.84207535), 'historical region': np.float32(0.82258826), 'basin country': np.float32(0.82145596)}, {}, {'participant in': np.float32(0.9388403), 'participant': np.float32(0.9345839), 'significant event': np.float32(0.874897), 'has cause': np.float32(0.8336914), 'conflict': np.float32(0.81785005)}]",
+        "schema_canonicalizaiton": [
+            [
+                "Josef Sch\u00e4ffer",
+                "date of birth",
+                "July 2, 1891"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "place of birth",
+                "Moravia"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "country of citizenship",
+                "Austrian"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "occupation",
+                "track and field athlete"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "participant in",
+                "1912 Summer Olympics"
+            ]
+        ]
+    },
+    {
+        "index": 9,
+        "input_text": "Tekla Teresa \u0141ubie\u0144ska (born 6 June 1767 in Warsaw, died 15 August 1810 in Krak\u00f3w) \u2001Ewas a Polish playwright, poet and translator.\n",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "date of birth",
+                "6 June 1767"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "place of birth",
+                "Warsaw"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "date of death",
+                "15 August 1810"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "place of death",
+                "Krak\u00f3w"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "playwright"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "poet"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "translator"
+            ]
+        ],
+        "schema_definition": {
+            "date of birth": "The subject entity was born on the date specified by the object entity.",
+            "place of birth": "The subject entity was born in the location specified by the object entity.",
+            "occupation": "The subject entity is employed in or is known for the role or profession specified by the object entity.",
+            "date of death": "The subject entity died on the date specified by the object entity.",
+            "place of death": "The subject entity died in the location specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "date of birth",
+                "6 June 1767"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "place of birth",
+                "Warsaw"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "date of death",
+                "15 August 1810"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "place of death",
+                "Krak\u00f3w"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "playwright"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "poet"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "translator"
+            ]
+        ]
+    }
+]
