@@ -1,7 +1,7 @@
 Example 1:
     Item ID: 92
     Text: Fans of authentic Thai street food, particularly spicy curries and Pad Thai, who value quick service and affordable prices in a no-frills setting would enjoy "Bangkok Station" in Los Angeles.
-    Triplets:[["92", "located in", "Los Angeles"], ["92", "serves cuisine", "authentic Thai street food"], ["92", "serves cuisine", "Thai food"], ["92", "serves dish", "spicy curries"], ["92", "serves dish", "Pad Thai"], ["92", "serves dish", "Curry"], ["92", "has feature", "quick service"], ["92", "price range", "affordable prices"], ["92", "has atmosphere", "no-frills setting"], ["92", "has atmosphere", "Casual dining"], ["92", "suitable for", "Quick meal"], ["92", "suitable for", "Budget dining"], ["92", "appeals to", "Thai food lovers"]
+    Triplets:[["92", "located in", "Los Angeles"], ["92", "serves cuisine", "authentic Thai street food"], ["92", "serves cuisine", "Thai food"], ["92", "serves dish", "spicy curries"], ["92", "serves dish", "Pad Thai"], ["92", "serves dish", "Curry"], ["92", "has feature", "quick service"], ["92", "price range", "affordable prices"], ["92", "has atmosphere", "no-frills setting"], ["92", "has atmosphere", "Casual dining"], ["92", "suitable for", "Quick meal"], ["92", "suitable for", "Budget dining"], ["92", "appeals to", "Thai food lovers"]]
 
 Example 2:
     Item ID: 8542
