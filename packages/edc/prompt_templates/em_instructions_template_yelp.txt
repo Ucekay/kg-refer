@@ -1,0 +1,7 @@
+Your task is to merge two lists of entities into one single list. Make sure there is no redundant or duplicate entities in your answer.
+
+Important guidelines:
+- Remove duplicates while preserving unique entities
+- Maintain consistency in entity naming
+- Strictly only include the merged entities in your answer
+- Do not include any explanation or apologies

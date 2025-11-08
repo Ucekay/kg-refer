@@ -1,0 +1,852 @@
+[
+    {
+        "index": 0,
+        "input_text": "Spodnje Ho\u010de () is a settlement in and the administrative centre of the Municipality of Ho\u010de\u2013Slivnica in northeastern Slovenia.\n",
+        "entity_hint": [
+            "Municipality of Ho\u010de\u2013Slivnica",
+            "Slovenia",
+            "Spodnje Ho\u010de",
+            "Ho\u010de\u2013Slivnica",
+            "settlement"
+        ],
+        "relation_hint": "1. contains administrative territorial entity: The subject entity contains the administrative territorial entity specified by the object entity.\nFor example, ['Slovenia', 'contains administrative territorial entity', 'Municipality of Ho\u010de\u2013Slivnica'] can be extracted from \"Spodnje Ho\u010de () is a settlement in and the administrative centre of the Municipality of Ho\u010de\u2013Slivnica in northeastern Slovenia.\n\"\n2. contains settlement: The subject entity contains the settlement specified by the object entity.\nFor example, ['Municipality of Ho\u010de\u2013Slivnica', 'contains settlement', 'Spodnje Ho\u010de'] can be extracted from \"Spodnje Ho\u010de () is a settlement in and the administrative centre of the Municipality of Ho\u010de\u2013Slivnica in northeastern Slovenia.\n\"\n3. country: The subject entity is located in the country specified by the object entity.\nFor example, ['Santa Cruz Mountains', 'country', 'United States'] can be extracted from \"Los Trancos Creek (meaning \"barriers\" or \"cattle guards\" from the Spanish \"Las Trancas\") is a creek that flows northerly from Monte Bello Ridge on the northeast slope of the Santa Cruz Mountains to its confluence with San Francisquito Creek at Stanford University in California, United States.\n\"\n4. located in the administrative territorial entity: The subject entity is located in the administrative territorial entity specified by the object entity.\nFor example, ['Tiverton in Devon', 'located in the administrative territorial entity', 'Devon'] can be extracted from \"Peter Sainthill (8 July 1593 \u2001E12 August 1648) of Bradninch in Devon, England, was twice elected a Member of Parliament for Tiverton in Devon, in the Short Parliament 1640 and in the Long Parliament in November 1640.\n\"\n5. location: The subject entity is located in the place specified by the object entity.\nFor example, ['Operation Dragon Strike', 'location', 'Kandahar province'] can be extracted from \"Operation Dragon Strike was a NATO counter-insurgent mission in Kandahar province, Afghanistan, against Taliban forces, which started on September 15, 2010.\n\"\n6. located in present-day administrative territorial entity: The subject entity is located in the present-day administrative territorial entity specified by the object entity.\n7. residence: The subject entity resides in the location specified by the object entity.\n8. capital: The subject entity is the capital city of the country specified by the object entity.\n9. basin country: The subject entity is part of the basin country specified by the object entity.\n10. capital of: The object entity is the capital city of the subject entity.\n",
+        "oie": [
+            [
+                "Spodnje Ho\u010de",
+                "contains administrative territorial entity",
+                "Municipality of Ho\u010de\u2013Slivnica"
+            ],
+            [
+                "Spodnje Ho\u010de",
+                "contains settlement",
+                "Spodnje Ho\u010de"
+            ],
+            [
+                "Municipality of Ho\u010de\u2013Slivnica",
+                "country",
+                "Slovenia"
+            ]
+        ],
+        "schema_definition": {
+            "contains administrative territorial entity": "The subject entity contains or is a part of the administrative territorial entity specified by the object entity.",
+            "contains settlement": "The subject entity contains or includes the settlement specified by the object entity.",
+            "country": "The subject entity is located in the country specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Spodnje Ho\u010de",
+                "contains administrative territorial entity",
+                "Municipality of Ho\u010de\u2013Slivnica"
+            ],
+            [
+                "Spodnje Ho\u010de",
+                "contains settlement",
+                "Spodnje Ho\u010de"
+            ],
+            [
+                "Municipality of Ho\u010de\u2013Slivnica",
+                "country",
+                "Slovenia"
+            ]
+        ]
+    },
+    {
+        "index": 1,
+        "input_text": "Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n",
+        "entity_hint": [
+            "Herbert Blankenhorn",
+            "M\u00fclhausen",
+            "Badenweiler",
+            "Germany",
+            "10 August 1991",
+            "15 December 1904"
+        ],
+        "relation_hint": "1. country of citizenship: The subject entity holds the citizenship of the country specified by the object entity.\nFor example, ['Herbert Blankenhorn', 'country of citizenship', 'Germany'] can be extracted from \"Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n\"\n2. date of birth: The subject entity was born on the date specified by the object entity.\nFor example, ['Herbert Blankenhorn', 'date of birth', '15 December 1904'] can be extracted from \"Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n\"\n3. date of death: The subject entity died on the date specified by the object entity.\nFor example, ['Tekla Teresa \u0141ubie\u0144ska', 'date of death', '15 August 1810'] can be extracted from \"Tekla Teresa \u0141ubie\u0144ska (born 6 June 1767 in Warsaw, died 15 August 1810 in Krak\u00f3w) \u2001Ewas a Polish playwright, poet and translator.\n\"\n4. occupation: The subject entity works in the occupation specified by the object entity.\nFor example, ['Saleem Safi', 'occupation', 'defence analyst'] can be extracted from \"Saleem Safi (Urdu, ) is a Pakistani journalist, columnist, defence analyst and current affairs TV talk show anchorperson.\n\"\n5. place of birth: The subject entity was born in the location specified by the object entity.\nFor example, ['Herbert Blankenhorn', 'place of birth', 'M\u00fclhausen'] can be extracted from \"Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n\"\n6. place of death: The subject entity died in the location specified by the object entity.\nFor example, ['Herbert Blankenhorn', 'place of death', 'Badenweiler'] can be extracted from \"Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n\"\n7. diplomatic relation: The subject entity has a diplomatic relationship with the entity specified by the object entity.\n8. country of origin: The subject entity originates from the country specified by the object entity.\n9. historical region: The subject entity is associated with or belongs to the historical region specified by the object entity.\n10. head of state: The subject entity is the head of state of the entity specified by the object entity.\n11. father: The subject entity is the father of the object entity.\n",
+        "oie": [
+            [
+                "Herbert Blankenhorn",
+                "country of citizenship",
+                "Germany"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "date of birth",
+                "15 December 1904"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "place of birth",
+                "M\u00fclhausen"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "date of death",
+                "10 August 1991"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "place of death",
+                "Badenweiler"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "occupation",
+                "diplomat"
+            ]
+        ],
+        "schema_definition": {
+            "date of birth": "The subject entity was born on the date specified by the object entity.",
+            "place of birth": "The subject entity was born in the location specified by the object entity.",
+            "occupation": "The subject entity is professionally engaged in the field or role specified by the object entity.",
+            "date of death": "The subject entity died on the date specified by the object entity.",
+            "country of citizenship": "The subject entity holds citizenship of the country specified by the object entity.",
+            "place of death": "The subject entity died in the location specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Herbert Blankenhorn",
+                "country of citizenship",
+                "Germany"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "date of birth",
+                "15 December 1904"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "place of birth",
+                "M\u00fclhausen"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "date of death",
+                "10 August 1991"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "place of death",
+                "Badenweiler"
+            ],
+            [
+                "Herbert Blankenhorn",
+                "occupation",
+                "diplomat"
+            ]
+        ]
+    },
+    {
+        "index": 2,
+        "input_text": "Operation Dragon Strike was a NATO counter-insurgent mission in Kandahar province, Afghanistan, against Taliban forces, which started on September 15, 2010.\n",
+        "entity_hint": [
+            "Afghanistan",
+            "Kandahar province",
+            "NATO counter-insurgent mission",
+            "Operation Dragon Strike",
+            "September 15, 2010",
+            "Taliban forces",
+            "NATO",
+            "Kandahar",
+            "Taliban"
+        ],
+        "relation_hint": "1. country: The subject entity is located in the country specified by the object entity.\nFor example, ['California', 'country', 'United States'] can be extracted from \"Los Trancos Creek (meaning \"barriers\" or \"cattle guards\" from the Spanish \"Las Trancas\") is a creek that flows northerly from Monte Bello Ridge on the northeast slope of the Santa Cruz Mountains to its confluence with San Francisquito Creek at Stanford University in California, United States.\n\"\n2. instance of: The subject entity is an instance or example of the type specified by the object entity.\nFor example, ['Operation Dragon Strike', 'instance of', 'NATO counter-insurgent mission'] can be extracted from \"Operation Dragon Strike was a NATO counter-insurgent mission in Kandahar province, Afghanistan, against Taliban forces, which started on September 15, 2010.\n\"\n3. location: The subject entity is located in the place specified by the object entity.\nFor example, ['Santa Cruz Mountains', 'location', 'California'] can be extracted from \"Los Trancos Creek (meaning \"barriers\" or \"cattle guards\" from the Spanish \"Las Trancas\") is a creek that flows northerly from Monte Bello Ridge on the northeast slope of the Santa Cruz Mountains to its confluence with San Francisquito Creek at Stanford University in California, United States.\n\"\n4. start time: The subject entity began at the time specified by the object entity.\nFor example, ['Operation Dragon Strike', 'start time', 'September 15, 2010'] can be extracted from \"Operation Dragon Strike was a NATO counter-insurgent mission in Kandahar province, Afghanistan, against Taliban forces, which started on September 15, 2010.\n\"\n5. target: The subject entity is the target of the action or event specified by the object entity.\nFor example, ['Operation Dragon Strike', 'target', 'Taliban forces'] can be extracted from \"Operation Dragon Strike was a NATO counter-insurgent mission in Kandahar province, Afghanistan, against Taliban forces, which started on September 15, 2010.\n\"\n6. conflict: The subject entity was involved in the conflict specified by the object entity.\n7. military branch: The subject entity belongs to the military branch specified by the object entity.\n8. country of origin: The subject entity originates from the country specified by the object entity.\n9. basin country: The subject entity is part of the basin country specified by the object entity.\n10. relative: The subject entity is related to the entity specified by the object entity.\n11. point in time: The object entity specifies a specific point in time the subject entity took place in.\n12. subsidiary: The subject entity is a subsidiary or part of the entity specified by the object entity.\n",
+        "oie": [
+            [
+                "Operation Dragon Strike",
+                "instance of",
+                "NATO counter-insurgent mission"
+            ],
+            [
+                "Operation Dragon Strike",
+                "location",
+                "Kandahar province"
+            ],
+            [
+                "Kandahar province",
+                "country",
+                "Afghanistan"
+            ],
+            [
+                "Operation Dragon Strike",
+                "start time",
+                "September 15, 2010"
+            ],
+            [
+                "Operation Dragon Strike",
+                "target",
+                "Taliban forces"
+            ]
+        ],
+        "schema_definition": {
+            "start time": "The subject entity began or commenced on the date specified by the object entity.",
+            "location": "The subject entity is situated in or located within the place specified by the object entity.",
+            "country": "The subject entity is located in or associated with the country specified by the object entity.",
+            "instance of": "The subject entity is an instance or example of the category specified by the object entity.",
+            "target": "The subject entity is directed at or aimed at the object entity; the object entity is the entity that is the focus or objective of the subject."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Operation Dragon Strike",
+                "instance of",
+                "NATO counter-insurgent mission"
+            ],
+            [
+                "Operation Dragon Strike",
+                "location",
+                "Kandahar province"
+            ],
+            [
+                "Kandahar province",
+                "country",
+                "Afghanistan"
+            ],
+            [
+                "Operation Dragon Strike",
+                "start time",
+                "September 15, 2010"
+            ],
+            [
+                "Operation Dragon Strike",
+                "target",
+                "Taliban forces"
+            ]
+        ]
+    },
+    {
+        "index": 3,
+        "input_text": "Saleem Safi (Urdu, ) is a Pakistani journalist, columnist, defence analyst and current affairs TV talk show anchorperson.\n",
+        "entity_hint": [
+            "Pakistan",
+            "Saleem Safi",
+            "Urdu",
+            "columnist",
+            "current affairs TV talk show anchorperson",
+            "defence analyst",
+            "journalist"
+        ],
+        "relation_hint": "1. country of citizenship: The subject entity holds the citizenship of the country specified by the object entity.\nFor example, ['Josef Sch\u00e4ffer', 'country of citizenship', 'Austrian'] can be extracted from \"Josef Sch\u00e4ffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.\n\"\n2. language used: The subject entity uses the language specified by the object entity.\nFor example, ['Urdu', 'language used', 'Pakistan'] can be extracted from \"Saleem Safi (Urdu, ) is a Pakistani journalist, columnist, defence analyst and current affairs TV talk show anchorperson.\n\"\n3. occupation: The subject entity works in the occupation specified by the object entity.\nFor example, ['Josef Sch\u00e4ffer', 'occupation', 'track and field athlete'] can be extracted from \"Josef Sch\u00e4ffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.\n\"\n4. presenter: The subject entity was presented or hosted by the person specified by the object entity.\n5. relative: The subject entity is related to the entity specified by the object entity.\n6. field of this occupation: The subject entity works in the field specified by the object entity.\n7. is a list of: The subject entity is a member of the list or category specified by the object entity.\n8. sibling: The subject entity is a sibling of the entity specified by the object entity.\n9. subclass of: The subject entity is a subclass or specific type of the object entity.\n10. employer: The subject entity is employed by the entity specified by the object entity.\n11. member of: The subject entity is a member of the group or organization specified by the object entity.\nFor example, ['Peter Sainthill', 'member of', 'Short Parliament'] can be extracted from \"Peter Sainthill (8 July 1593 \u2001E12 August 1648) of Bradninch in Devon, England, was twice elected a Member of Parliament for Tiverton in Devon, in the Short Parliament 1640 and in the Long Parliament in November 1640.\n\"\n12. speaker: The subject entity delivered a speech or address as the person specified by the object entity.\n",
+        "oie": [
+            [
+                "Saleem Safi",
+                "country of citizenship",
+                "Pakistan"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "journalist"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "columnist"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "defence analyst"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "current affairs TV talk show anchorperson"
+            ],
+            [
+                "Urdu",
+                "language used",
+                "Saleem Safi"
+            ],
+            [
+                "Pakistan",
+                "language used",
+                "Urdu"
+            ]
+        ],
+        "schema_definition": {
+            "country of citizenship": "The subject entity possesses citizenship of the country specified by the object entity.",
+            "language used": "The subject entity uses the language specified by the object entity, or the language associated with the subject in relation to the object.",
+            "occupation": "The subject entity has the specified roles or professions as their occupations."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Saleem Safi",
+                "country of citizenship",
+                "Pakistan"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "journalist"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "columnist"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "defence analyst"
+            ],
+            [
+                "Saleem Safi",
+                "occupation",
+                "current affairs TV talk show anchorperson"
+            ],
+            [
+                "Urdu",
+                "language used",
+                "Saleem Safi"
+            ],
+            [
+                "Pakistan",
+                "language used",
+                "Urdu"
+            ]
+        ]
+    },
+    {
+        "index": 4,
+        "input_text": "Los Trancos Creek (meaning \"barriers\" or \"cattle guards\" from the Spanish \"Las Trancas\") is a creek that flows northerly from Monte Bello Ridge on the northeast slope of the Santa Cruz Mountains to its confluence with San Francisquito Creek at Stanford University in California, United States.\n",
+        "entity_hint": [
+            "California",
+            "Los Trancos Creek",
+            "Monte Bello Ridge",
+            "San Francisquito Creek",
+            "Santa Cruz Mountains",
+            "Stanford University",
+            "United States"
+        ],
+        "relation_hint": "1. country: The subject entity is located in the country specified by the object entity.\nFor example, ['Kandahar province', 'country', 'Afghanistan'] can be extracted from \"Operation Dragon Strike was a NATO counter-insurgent mission in Kandahar province, Afghanistan, against Taliban forces, which started on September 15, 2010.\n\"\n2. location: The subject entity is located in the place specified by the object entity.\nFor example, ['Spodnje Ho\u010de', 'location', 'settlement'] can be extracted from \"Spodnje Ho\u010de () is a settlement in and the administrative centre of the Municipality of Ho\u010de\u2013Slivnica in northeastern Slovenia.\n\"\n3. mouth of the watercourse: The subject entity is the point where the watercourse specified by the object entity flows into.\nFor example, ['San Francisquito Creek', 'mouth of the watercourse', 'Los Trancos Creek'] can be extracted from \"Los Trancos Creek (meaning \"barriers\" or \"cattle guards\" from the Spanish \"Las Trancas\") is a creek that flows northerly from Monte Bello Ridge on the northeast slope of the Santa Cruz Mountains to its confluence with San Francisquito Creek at Stanford University in California, United States.\n\"\n4. part of: The subject entity is a part of or belongs to the object entity.\nFor example, ['Monopoly Star Wars', 'part of', 'Monopoly'] can be extracted from \"Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.\n\"\n5. start point: The subject entity started from the location specified by the object entity.\nFor example, ['Los Trancos Creek', 'start point', 'Monte Bello Ridge'] can be extracted from \"Los Trancos Creek (meaning \"barriers\" or \"cattle guards\" from the Spanish \"Las Trancas\") is a creek that flows northerly from Monte Bello Ridge on the northeast slope of the Santa Cruz Mountains to its confluence with San Francisquito Creek at Stanford University in California, United States.\n\"\n6. located on terrain feature: The subject entity is located on the terrain feature specified by the object entity.\n7. mountain range: The subject entity belongs to the mountain range specified by the object entity.\n8. tributary: The subject entity is a tributary that flows into the watercourse specified by the object entity.\n9. located in or next to body of water: The subject entity is situated in or near the body of water specified by the object entity.\n10. located in the administrative territorial entity: The subject entity is located in the administrative territorial entity specified by the object entity.\nFor example, ['Spodnje Ho\u010de', 'located in the administrative territorial entity', 'Municipality of Ho\u010de\u2013Slivnica'] can be extracted from \"Spodnje Ho\u010de () is a settlement in and the administrative centre of the Municipality of Ho\u010de\u2013Slivnica in northeastern Slovenia.\n\"\n11. located in present-day administrative territorial entity: The subject entity is located in the present-day administrative territorial entity specified by the object entity.\n12. lakes on river: The subject entity is a collection of lakes that are located on the river specified by the object entity.\n",
+        "oie": [
+            [
+                "Los Trancos Creek",
+                "mouth of the watercourse",
+                "San Francisquito Creek"
+            ],
+            [
+                "Monte Bello Ridge",
+                "start point",
+                "Los Trancos Creek"
+            ],
+            [
+                "Monte Bello Ridge",
+                "located on terrain feature",
+                "Santa Cruz Mountains"
+            ],
+            [
+                "Los Trancos Creek",
+                "country",
+                "California"
+            ],
+            [
+                "San Francisquito Creek",
+                "tributary",
+                "Los Trancos Creek"
+            ],
+            [
+                "Santa Cruz Mountains",
+                "mountain range",
+                "United States"
+            ],
+            [
+                "Los Trancos Creek",
+                "start point",
+                "Monte Bello Ridge"
+            ]
+        ],
+        "schema_definition": {
+            "start point": "The subject entity originates from the object entity; the object is the point or feature where the subject begins.",
+            "mouth of the watercourse": "The subject entity ends at or merges with the object entity; the object is the watercourse into which the subject flows.",
+            "flows from": "The subject entity begins at or emanates from the object entity; the substance or water path moves from the object to the subject.",
+            "tributary of": "The subject entity is a smaller waterway that feeds into the larger waterway specified by the object.",
+            "mountain range": "The subject entity is a linear or grouped set of mountains that forms a geographic mountain range, within or associated with the object region.",
+            "located in": "The subject entity is situated within the geographical area specified by the object entity.",
+            "located on terrain feature": "The subject entity lies on or upon the specified natural landform or terrain feature."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {'location': np.float32(0.8969785), 'located in the administrative territorial entity': np.float32(0.88557494), 'located in present-day administrative territorial entity': np.float32(0.8839687), 'country': np.float32(0.87143826), 'residence': np.float32(0.8675735)}, {'tributary': np.float32(0.88769686), 'mouth of the watercourse': np.float32(0.8444535), 'located in or next to body of water': np.float32(0.7283181), 'basin country': np.float32(0.7281318), 'lakes on river': np.float32(0.7216361)}, {}, {'mouth of the watercourse': np.float32(0.77901113), 'start point': np.float32(0.76879245), 'tributary': np.float32(0.7436709), 'target': np.float32(0.7428715), 'terminus': np.float32(0.7366693)}]",
+        "schema_canonicalizaiton": [
+            [
+                "Los Trancos Creek",
+                "mouth of the watercourse",
+                "San Francisquito Creek"
+            ],
+            [
+                "Monte Bello Ridge",
+                "start point",
+                "Los Trancos Creek"
+            ],
+            [
+                "Monte Bello Ridge",
+                "located on terrain feature",
+                "Santa Cruz Mountains"
+            ],
+            [
+                "Los Trancos Creek",
+                "country",
+                "California"
+            ],
+            [
+                "San Francisquito Creek",
+                "tributary",
+                "Los Trancos Creek"
+            ],
+            [
+                "Santa Cruz Mountains",
+                "mountain range",
+                "United States"
+            ],
+            [
+                "Los Trancos Creek",
+                "start point",
+                "Monte Bello Ridge"
+            ]
+        ]
+    },
+    {
+        "index": 5,
+        "input_text": "Peter Sainthill (8 July 1593 \u2001E12 August 1648) of Bradninch in Devon, England, was twice elected a Member of Parliament for Tiverton in Devon, in the Short Parliament 1640 and in the Long Parliament in November 1640.\n",
+        "entity_hint": [
+            "12 August 1648",
+            "8 July 1593",
+            "Devon",
+            "England",
+            "Member of Parliament for Tiverton in Devon",
+            "November 1640",
+            "Peter Sainthill",
+            "Short Parliament",
+            "Tiverton in Devon",
+            "Bradninch",
+            "Tiverton",
+            "Long Parliament"
+        ],
+        "relation_hint": "1. date of birth: The subject entity was born on the date specified by the object entity.\nFor example, ['Herbert Blankenhorn', 'date of birth', '15 December 1904'] can be extracted from \"Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n\"\n2. date of death: The subject entity died on the date specified by the object entity.\nFor example, ['Herbert Blankenhorn', 'date of death', '10 August 1991'] can be extracted from \"Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n\"\n3. inception: The subject entity was established or began in the year specified by the object entity.\nFor example, ['Short Parliament', 'inception', 'November 1640'] can be extracted from \"Peter Sainthill (8 July 1593 \u2001E12 August 1648) of Bradninch in Devon, England, was twice elected a Member of Parliament for Tiverton in Devon, in the Short Parliament 1640 and in the Long Parliament in November 1640.\n\"\n4. located in the administrative territorial entity: The subject entity is located in the administrative territorial entity specified by the object entity.\nFor example, ['Tiverton in Devon', 'located in the administrative territorial entity', 'Devon'] can be extracted from \"Peter Sainthill (8 July 1593 \u2001E12 August 1648) of Bradninch in Devon, England, was twice elected a Member of Parliament for Tiverton in Devon, in the Short Parliament 1640 and in the Long Parliament in November 1640.\n\"\n5. member of: The subject entity is a member of the group or organization specified by the object entity.\nFor example, ['Peter Sainthill', 'member of', 'Member of Parliament for Tiverton in Devon'] can be extracted from \"Peter Sainthill (8 July 1593 \u2001E12 August 1648) of Bradninch in Devon, England, was twice elected a Member of Parliament for Tiverton in Devon, in the Short Parliament 1640 and in the Long Parliament in November 1640.\n\"\n6. member of political party: The subject entity is a member of the political party specified by the object entity.\n7. sibling: The subject entity is a sibling of the entity specified by the object entity.\n8. family: The subject entity belongs to the family specified by the object entity.\n9. head of government: The subject entity is the leader or head of government of the entity specified by the object entity.\n10. historical region: The subject entity is associated with or belongs to the historical region specified by the object entity.\n11. officeholder: The subject entity is the officeholder of the position specified by the object entity.\n12. legislative body: The subject entity is the legislative body of the jurisdiction specified by the object entity.\n13. head of state: The subject entity is the head of state of the entity specified by the object entity.\n14. relative: The subject entity is related to the entity specified by the object entity.\n15. is a list of: The subject entity is a member of the list or category specified by the object entity.\n",
+        "oie": [
+            [
+                "Peter Sainthill",
+                "date of birth",
+                "8 July 1593"
+            ],
+            [
+                "Peter Sainthill",
+                "date of death",
+                "12 August 1648"
+            ],
+            [
+                "Peter Sainthill",
+                "located in the administrative territorial entity",
+                "Bradninch"
+            ],
+            [
+                "Bradninch",
+                "located in the administrative territorial entity",
+                "Devon"
+            ],
+            [
+                "Bradninch",
+                "located in the administrative territorial entity",
+                "England"
+            ],
+            [
+                "Peter Sainthill",
+                "member of",
+                "Member of Parliament for Tiverton in Devon"
+            ],
+            [
+                "Peter Sainthill",
+                "inception",
+                "November 1640"
+            ]
+        ],
+        "schema_definition": {
+            "date of birth": "The subject entity was born on the date specified by the object entity.",
+            "member of": "The subject entity is a member of the group or organization specified by the object entity.",
+            "date of death": "The subject entity died on the date specified by the object entity.",
+            "located in the administrative territorial entity": "The subject entity is situated within the administrative territorial entity specified by the object entity.",
+            "inception": "The subject entity came into existence or began in the time specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Peter Sainthill",
+                "date of birth",
+                "8 July 1593"
+            ],
+            [
+                "Peter Sainthill",
+                "date of death",
+                "12 August 1648"
+            ],
+            [
+                "Peter Sainthill",
+                "located in the administrative territorial entity",
+                "Bradninch"
+            ],
+            [
+                "Bradninch",
+                "located in the administrative territorial entity",
+                "Devon"
+            ],
+            [
+                "Bradninch",
+                "located in the administrative territorial entity",
+                "England"
+            ],
+            [
+                "Peter Sainthill",
+                "member of",
+                "Member of Parliament for Tiverton in Devon"
+            ],
+            [
+                "Peter Sainthill",
+                "inception",
+                "November 1640"
+            ]
+        ]
+    },
+    {
+        "index": 6,
+        "input_text": "Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.\n",
+        "entity_hint": [
+            "Britain",
+            "Esmond Knight",
+            "Florence McHugh",
+            "Fred Paul",
+            "Romany Love",
+            "Roy Travers",
+            "musical film",
+            "1931",
+            "British"
+        ],
+        "relation_hint": "1. cast member: The subject entity includes the person specified by the object entity as a member of its cast.\nFor example, ['Romany Love', 'cast member', 'Florence McHugh'] can be extracted from \"Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.\n\"\n2. country: The subject entity is located in the country specified by the object entity.\nFor example, ['Municipality of Ho\u010de\u2013Slivnica', 'country', 'Slovenia'] can be extracted from \"Spodnje Ho\u010de () is a settlement in and the administrative centre of the Municipality of Ho\u010de\u2013Slivnica in northeastern Slovenia.\n\"\n3. director: The subject entity was directed by the person or entity specified by the object entity.\nFor example, ['Romany Love', 'director', 'Fred Paul'] can be extracted from \"Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.\n\"\n4. genre: The subject entity belongs to the genre specified by the object entity.\nFor example, ['Romany Love', 'genre', 'musical film'] can be extracted from \"Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.\n\"\n5. composer: The subject entity's music was composed by the person specified by the object entity.\n6. voice type: The subject entity has the voice type specified by the object entity.\n7. present in work: The subject entity is present or featured in the work specified by the object entity.\n8. performer: The subject entity was performed or created by the person or entity specified by the object entity.\n9. relative: The subject entity is related to the entity specified by the object entity.\n10. depicts: The subject entity portrays or represents the entity specified by the object entity.\n11. characters: The object entity includes the subject entity as one of its characters.\n",
+        "oie": [
+            [
+                "Romany Love",
+                "director",
+                "Fred Paul"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Esmond Knight"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Florence McHugh"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Roy Travers"
+            ],
+            [
+                "Romany Love",
+                "country",
+                "Britain"
+            ],
+            [
+                "Romany Love",
+                "genre",
+                "musical film"
+            ],
+            [
+                "Romany Love",
+                "year of release",
+                "1931"
+            ]
+        ],
+        "schema_definition": {
+            "cast member": "The subject entity includes the specified person as a member of its cast.",
+            "year of release": "The subject entity was released in the year specified by the object entity.",
+            "country": "The subject entity is associated with or originates from the country specified by the object entity.",
+            "genre": "The subject entity belongs to the genre specified by the object entity.",
+            "director": "The subject entity was directed by the person or entity specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {'publication date': np.float32(0.8774331), 'inception': np.float32(0.83992183), 'work period (start)': np.float32(0.82683235), 'publisher': np.float32(0.81677854), 'start time': np.float32(0.8063991)}]",
+        "schema_canonicalizaiton": [
+            [
+                "Romany Love",
+                "director",
+                "Fred Paul"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Esmond Knight"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Florence McHugh"
+            ],
+            [
+                "Romany Love",
+                "cast member",
+                "Roy Travers"
+            ],
+            [
+                "Romany Love",
+                "country",
+                "Britain"
+            ],
+            [
+                "Romany Love",
+                "genre",
+                "musical film"
+            ],
+            null
+        ]
+    },
+    {
+        "index": 7,
+        "input_text": "Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.\n",
+        "entity_hint": [
+            "1997",
+            "Monopoly",
+            "Monopoly Star Wars",
+            "Star Wars",
+            "board game"
+        ],
+        "relation_hint": "1. based on: The subject entity is based on or inspired by the entity specified by the object entity.\nFor example, ['Monopoly Star Wars', 'based on', 'board game'] can be extracted from \"Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.\n\"\n2. interested in: The subject entity has an interest in or is associated with the topic specified by the object entity.\nFor example, ['Monopoly Star Wars', 'interested in', 'Star Wars'] can be extracted from \"Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.\n\"\n3. part of: The subject entity is a part of or belongs to the object entity.\nFor example, ['Monte Bello Ridge', 'part of', 'Santa Cruz Mountains'] can be extracted from \"Los Trancos Creek (meaning \"barriers\" or \"cattle guards\" from the Spanish \"Las Trancas\") is a creek that flows northerly from Monte Bello Ridge on the northeast slope of the Santa Cruz Mountains to its confluence with San Francisquito Creek at Stanford University in California, United States.\n\"\n4. publication date: The subject entity was published or released on the date specified by the object entity.\nFor example, ['Monopoly Star Wars', 'publication date', '1997'] can be extracted from \"Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.\n\"\n5. media franchise: The subject entity is a part of the media franchise specified by the object entity.\n6. game mechanics: The subject entity features the game mechanics specified by the object entity.\n7. part of the series: The subject entity is a part of the series specified by the object entity.\n8. game mode: The subject entity features the game mode specified by the object entity.\n9. characters: The object entity includes the subject entity as one of its characters.\n10. owned by: The subject entity is owned by the entity specified by the object entity.\n11. production company: The subject entity was produced or created by the company specified by the object entity.\n12. present in work: The subject entity is present or featured in the work specified by the object entity.\n13. relative: The subject entity is related to the entity specified by the object entity.\n",
+        "oie": [
+            [
+                "Monopoly Star Wars",
+                "based on",
+                "board game"
+            ],
+            [
+                "Monopoly Star Wars",
+                "publication date",
+                "1997"
+            ],
+            [
+                "Monopoly Star Wars",
+                "interested in",
+                "Star Wars"
+            ],
+            [
+                "Monopoly Star Wars",
+                "media franchise",
+                "Star Wars"
+            ]
+        ],
+        "schema_definition": {
+            "publication date": "The subject entity was published or released on the date specified by the object entity.",
+            "media franchise": "The subject entity is part of the media franchise specified by the object entity.",
+            "interested in": "The subject entity has an interest or connection regarding the object entity.",
+            "based on": "The subject entity is derived from or built upon the concept or source specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Monopoly Star Wars",
+                "based on",
+                "board game"
+            ],
+            [
+                "Monopoly Star Wars",
+                "publication date",
+                "1997"
+            ],
+            [
+                "Monopoly Star Wars",
+                "interested in",
+                "Star Wars"
+            ],
+            [
+                "Monopoly Star Wars",
+                "media franchise",
+                "Star Wars"
+            ]
+        ]
+    },
+    {
+        "index": 8,
+        "input_text": "Josef Sch\u00e4ffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.\n",
+        "entity_hint": [
+            "1912 Summer Olympics",
+            "Austrian",
+            "Josef Sch\u00e4ffer",
+            "July 2, 1891",
+            "Moravia",
+            "track and field athlete"
+        ],
+        "relation_hint": "1. country of citizenship: The subject entity holds the citizenship of the country specified by the object entity.\nFor example, ['Saleem Safi', 'country of citizenship', 'Pakistan'] can be extracted from \"Saleem Safi (Urdu, ) is a Pakistani journalist, columnist, defence analyst and current affairs TV talk show anchorperson.\n\"\n2. date of birth: The subject entity was born on the date specified by the object entity.\nFor example, ['Herbert Blankenhorn', 'date of birth', '15 December 1904'] can be extracted from \"Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n\"\n3. occupation: The subject entity works in the occupation specified by the object entity.\nFor example, ['Saleem Safi', 'occupation', 'journalist'] can be extracted from \"Saleem Safi (Urdu, ) is a Pakistani journalist, columnist, defence analyst and current affairs TV talk show anchorperson.\n\"\n4. participant in: The subject entity took part in the event specified by the object entity.\nFor example, ['Josef Sch\u00e4ffer', 'participant in', '1912 Summer Olympics'] can be extracted from \"Josef Sch\u00e4ffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.\n\"\n5. place of birth: The subject entity was born in the location specified by the object entity.\nFor example, ['Tekla Teresa \u0141ubie\u0144ska', 'place of birth', 'Warsaw'] can be extracted from \"Tekla Teresa \u0141ubie\u0144ska (born 6 June 1767 in Warsaw, died 15 August 1810 in Krak\u00f3w) \u2001Ewas a Polish playwright, poet and translator.\n\"\n6. sports discipline competed in: The subject entity competes in the sports discipline specified by the object entity.\n7. sport: The subject entity is associated with the sport specified by the object entity.\n8. country for sport: The subject entity represents the country specified by the object entity in the sport mentioned.\n9. country of origin: The subject entity originates from the country specified by the object entity.\n10. member of sports team: The subject entity is a member of the sports team specified by the object entity.\n11. father: The subject entity is the father of the object entity.\n12. competition class: The subject entity competes in the competition class specified by the object entity.\n",
+        "oie": [
+            [
+                "Josef Sch\u00e4ffer",
+                "date of birth",
+                "July 2, 1891"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "place of birth",
+                "Moravia"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "country of citizenship",
+                "Austria"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "occupation",
+                "track and field athlete"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "participant in",
+                "1912 Summer Olympics"
+            ]
+        ],
+        "schema_definition": {
+            "date of birth": "The subject entity was born on the date specified by the object entity.",
+            "place of birth": "The subject entity was born in the location specified by the object entity.",
+            "participant in": "The subject entity took part in the event or activity specified by the object entity.",
+            "occupation": "The subject entity is or works in the job or professional role specified by the object entity.",
+            "country of citizenship": "The subject entity is a citizen of the country specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "Josef Sch\u00e4ffer",
+                "date of birth",
+                "July 2, 1891"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "place of birth",
+                "Moravia"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "country of citizenship",
+                "Austria"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "occupation",
+                "track and field athlete"
+            ],
+            [
+                "Josef Sch\u00e4ffer",
+                "participant in",
+                "1912 Summer Olympics"
+            ]
+        ]
+    },
+    {
+        "index": 9,
+        "input_text": "Tekla Teresa \u0141ubie\u0144ska (born 6 June 1767 in Warsaw, died 15 August 1810 in Krak\u00f3w) \u2001Ewas a Polish playwright, poet and translator.\n",
+        "entity_hint": [
+            "Tekla Teresa \u0141ubie\u0144ska",
+            "Warsaw",
+            "Krak\u00f3w",
+            "6 June 1767",
+            "15 August 1810",
+            "playwright",
+            "poet",
+            "translator",
+            "Polish"
+        ],
+        "relation_hint": "1. date of birth: The subject entity was born on the date specified by the object entity.\nFor example, ['Tekla Teresa \u0141ubie\u0144ska', 'date of birth', '6 June 1767'] can be extracted from \"Tekla Teresa \u0141ubie\u0144ska (born 6 June 1767 in Warsaw, died 15 August 1810 in Krak\u00f3w) \u2001Ewas a Polish playwright, poet and translator.\n\"\n2. date of death: The subject entity died on the date specified by the object entity.\nFor example, ['Tekla Teresa \u0141ubie\u0144ska', 'date of death', '15 August 1810'] can be extracted from \"Tekla Teresa \u0141ubie\u0144ska (born 6 June 1767 in Warsaw, died 15 August 1810 in Krak\u00f3w) \u2001Ewas a Polish playwright, poet and translator.\n\"\n3. occupation: The subject entity works in the occupation specified by the object entity.\nFor example, ['Josef Sch\u00e4ffer', 'occupation', 'track and field athlete'] can be extracted from \"Josef Sch\u00e4ffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.\n\"\n4. place of birth: The subject entity was born in the location specified by the object entity.\nFor example, ['Herbert Blankenhorn', 'place of birth', 'M\u00fclhausen'] can be extracted from \"Herbert Blankenhorn (15 December 1904 in M\u00fclhausen\u00a0\u2001E10 August 1991 in Badenweiler) was a German diplomat.\n\"\n5. place of death: The subject entity died in the location specified by the object entity.\nFor example, ['Tekla Teresa \u0141ubie\u0144ska', 'place of death', 'Krak\u00f3w'] can be extracted from \"Tekla Teresa \u0141ubie\u0144ska (born 6 June 1767 in Warsaw, died 15 August 1810 in Krak\u00f3w) \u2001Ewas a Polish playwright, poet and translator.\n\"\n6. librettist: The subject entity's book or libretto was written by the person or entity specified by the object entity.\n7. screenwriter: The subject entity was written by the person or entity specified by the object entity.\n8. author: The subject entity was authored or created by the person specified by the object entity.\n9. lyrics by: The subject entity's lyrics were written by the person specified by the object entity.\n10. writing language: The subject entity was written in the language specified by the object entity.\n11. historical region: The subject entity is associated with or belongs to the historical region specified by the object entity.\n",
+        "oie": [
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "date of birth",
+                "6 June 1767"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "place of birth",
+                "Warsaw"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "date of death",
+                "15 August 1810"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "place of death",
+                "Krak\u00f3w"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "playwright"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "poet"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "translator"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "country of citizenship",
+                "Polish"
+            ]
+        ],
+        "schema_definition": {
+            "date of birth": "The subject entity was born on the date specified by the object entity.",
+            "place of birth": "The subject entity was born in the location specified by the object entity.",
+            "occupation": "The subject entity has the specified role or profession as one of its occupations.",
+            "date of death": "The subject entity died on the date specified by the object entity.",
+            "place of death": "The subject entity died in the location specified by the object entity.",
+            "nationality": "The subject entity is associated with the nationality specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}, {'ethnic group': np.float32(0.87797153), 'country of citizenship': np.float32(0.87604296), 'country of origin': np.float32(0.867651), 'historical region': np.float32(0.8428698), 'relative': np.float32(0.8410232)}]",
+        "schema_canonicalizaiton": [
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "date of birth",
+                "6 June 1767"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "place of birth",
+                "Warsaw"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "date of death",
+                "15 August 1810"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "place of death",
+                "Krak\u00f3w"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "playwright"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "poet"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "occupation",
+                "translator"
+            ],
+            [
+                "Tekla Teresa \u0141ubie\u0144ska",
+                "country of citizenship",
+                "Polish"
+            ]
+        ]
+    }
+]

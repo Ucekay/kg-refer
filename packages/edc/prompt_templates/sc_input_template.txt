@@ -1,0 +1,8 @@
+Text: {input_text}
+Triplet: {query_triplet}
+Relation Definition: '{query_relation}': '{query_relation_definition}'
+
+Choices:
+{choices}
+
+Which choice is most appropriate?

@@ -3,8 +3,9 @@ import gc
 import logging
 import os
 import time
-from typing import TYPE_CHECKING, List, Optional
+from typing import Dict, List, Optional
 
+import openai
 import torch
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
@@ -161,7 +162,7 @@ def is_model_openai(model_name: str) -> bool:
 
 
 def generate_completion_transformers(
-    input: list,
+    input: List[Dict[str, str]],
     model: "PreTrainedModel",
     tokenizer: PreTrainedTokenizerFast,
     max_new_tokens=256,
@@ -204,40 +205,56 @@ def generate_completion_transformers(
 
 def openai_chat_completion(
     model: str,
-    system_prompt: Optional[str],
-    history,
+    instructions: str,
+    input: str,
     temperature: float = 0.0,
     max_tokens: int = 512,
 ) -> str:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    input, instructions = _convert_to_responses_format(system_prompt, history)
-
     response = None
 
     while response is None:
         try:
-            params = {
-                "model": model,
-                "input": input,
-                "temperature": temperature,
-                "max_output_tokens": max_tokens,
-            }
+            response = client.responses.create(
+                model=model,
+                instructions=instructions,
+                input=input,
+                temperature=temperature,
+                max_output_tokens=max_tokens,
+            )
 
-            if instructions:
-                params["instructions"] = instructions
-
-            response = client.responses.create(**params)
+        except openai.APIStatusError as e:
+            logging.warning(f"OpenAI API request failed with error: {e}. Retrying...")
+            time.sleep(60)
+        except openai.APIError as e:
+            logging.warning(f"OpenAI API request failed with error: {e}. Retrying...")
+            time.sleep(1)
         except Exception as e:
             logging.warning(f"OpenAI API request failed with error: {e}. Retrying...")
             time.sleep(1)
 
         # レスポンス処理
-    result: str = response.output_text
+    result = response.output_text
     logging.debug(
         f"Model: {model}\nInput: {input}\nInstructions: {instructions}\nResult: {result}"
     )
     return result
+
+
+def convert_to_responses_format(prompt: str):
+    return _split_prompt(prompt)
+
+
+def _split_prompt(prompt: str):
+    """
+    INPUT_DATA_START/ENDで区切られたプロンプトをinstructionsとinputに分離
+    """
+
+    parts = prompt.split("INPUT_DATA_START")
+    instructions_part = parts[0].strip()
+    input_part = parts[1].replace("INPUT_DATA_END", "").strip()
+    return input_part, instructions_part
 
 
 def _convert_to_responses_format(system_prompt, history):
