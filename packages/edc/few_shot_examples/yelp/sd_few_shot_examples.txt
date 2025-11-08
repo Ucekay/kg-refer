@@ -55,3 +55,30 @@ Example 4:
         caters to: The subject entity serves or provides services to the group or type specified by the object entity.
         appeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.
         is a: The subject entity is classified as or belongs to the category specified by the object entity.
+
+Example 5:
+    Item ID: 9181
+    Text: Shoppers looking for rare vintage finds, antique furniture, and unique collectibles, who enjoy a treasure-hunting atmosphere, would appreciate Yesterday's Charm in Middletown.
+    Triplets: [['9181', 'located in', 'Middletown'], ['9181', 'sells', 'rare vintage finds'], ['9181', 'sells', 'antique furniture'], ['9181', 'sells', 'unique collectibles'], ['9181', 'sells', 'Vintage items'], ['9181', 'sells', 'Antiques'], ['9181', 'sells', 'Furniture'], ['9181', 'sells', 'Collectibles'], ['9181', 'has atmosphere', 'treasure-hunting atmosphere'], ['9181', 'appeals to', 'Shoppers'], ['9181', 'appeals to', 'Antique collectors'], ['9181', 'appeals to', 'Vintage enthusiasts'], ['9181', 'appeals to', 'Collectors'], ['9181', 'is a', 'Vintage store'], ['9181', 'is a', 'Antique shop'], ['9181', 'is a', 'Collectibles store']]
+    Relations: ['located in', 'sells', 'has atmosphere', 'appeals to', 'is a']
+    Answer:
+        located in: The subject entity is physically situated in or found in the location specified by the object entity.
+        sells: The subject entity offers for sale or provides the product or item specified by the object entity.
+        has atmosphere: The subject entity provides or is characterized by the ambiance or environment specified by the object entity.
+        appeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.
+        is a: The subject entity is classified as or belongs to the category specified by the object entity.
+
+Example: 6
+    Item ID: 2561
+    Text: Travelers who prefer cozy accommodations, personalized service, homemade breakfast, and a quiet, romantic atmosphere would enjoy The Willow Creek Inn Bed & Breakfast in Maplewood.
+    Triplets: [["2561", "located in", "Maplewood"], ["2561", "is a", "Bed & Breakfast"], ["2561", "is a", "Accommodation"], ["2561", "has feature", "cozy accommodations"], ["2561", "has feature", "personalized service"], ["2561", "serves dish", "homemade breakfast"], ["2561", "serves meal type", "Breakfast"], ["2561", "has atmosphere", "Quiet"], ["2561", "has atmosphere", "Romantic"], ["2561", "has atmosphere", "Cozy"], ["2561", "appeals to", "Travelers"], ["2561", "appeals to", "Couples"], ["2561", "suitable for", "Romantic getaway"], ["2561", "suitable for", "Quiet retreat"]]
+    Relations: ["located in", "is a", "has feature", "serves dish", "serves meal type", "has atmosphere", "appeals to", "suitable for"]
+    Answer:
+        located in: The subject entity is physically situated in or found in the location specified by the object entity.
+        is a: The subject entity is classified as or belongs to the category specified by the object entity.
+        has feature: The subject entity possesses or is characterized by the feature specified by the object entity.
+        serves dish: The subject entity offers or provides the specific dish specified by the object entity.
+        serves meal type: The subject entity offers or provides the type of meal specified by the object entity.
+        has atmosphere: The subject entity provides or is characterized by the ambiance or environment specified by the object entity.
+        appeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.
+        suitable for: The subject entity is appropriate for or fits the purpose or occasion specified by the object entity.
