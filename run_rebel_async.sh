@@ -12,4 +12,4 @@ uv run --env-file .env --package edc python packages/edc/main.py \
     --refined_oie_few_shot_example_file_path ./packages/edc/few_shot_examples/rebel/oie_few_shot_refine_examples.txt \
     --refinement_iterations 1 \
     --enable_parallel_requests \
-    --output_dir ./packages/edc/output/rebel
+    --output_dir ./packages/edc/output/rebel_2
