@@ -23,6 +23,7 @@ class LocalExtractor:
         input_template_str: str,
         entities_hint: Optional[str] = None,
         relations_hint: Optional[str] = None,
+        item_id: Optional[int] = None,
     ) -> List[List[str]]:
         filled_instructions = instructions_template_str.format_map(
             {
@@ -34,6 +35,7 @@ class LocalExtractor:
                 "input_text": input_text_str,
                 "entities_hint": entities_hint,
                 "relations_hint": relations_hint,
+                "item_id": item_id if item_id is not None else "",
             }
         )
 
@@ -63,6 +65,7 @@ class OpenAIExtractor:
         input_template_str: str,
         entities_hint: Optional[str] = None,
         relations_hint: Optional[str] = None,
+        item_id: Optional[int] = None,
     ) -> List[List[str]]:
         filled_instructions = instructions_template_str.format_map(
             {
@@ -74,6 +77,7 @@ class OpenAIExtractor:
                 "input_text": input_text_str,
                 "entities_hint": entities_hint,
                 "relations_hint": relations_hint,
+                "item_id": item_id if item_id is not None else "",
             }
         )
 
@@ -98,6 +102,7 @@ class OpenAIAsyncExtractor:
         input_template_str: str,
         entities_hint_list: Optional[List[str]] = None,
         relations_hint_list: Optional[List[str]] = None,
+        input_ids_list: Optional[List] = None,
     ) -> List[List[List[str]]]:
         filled_instructions = instructions_template_str.format_map(
             {
@@ -114,6 +119,7 @@ class OpenAIAsyncExtractor:
                     "relations_hint": relations_hint_list[i]
                     if relations_hint_list
                     else None,
+                    "item_id": input_ids_list[i] if input_ids_list else "",
                 }
             )
             for i, input_text in enumerate(input_text_list)

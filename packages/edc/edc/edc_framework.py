@@ -136,6 +136,7 @@ class EDC:
         input_text_list: List[str],
         previous_extracted_triplets_list: Optional[List[List[List[str]]]] = None,
         free_model: bool = False,
+        input_ids_list: Optional[List] = None,
     ):
         oie_model = None
         oie_tokenizer = None
@@ -172,6 +173,8 @@ class EDC:
                 input_text = input_text_list[idx]
                 entity_hint_str = entity_hint_list[idx]
                 relation_hint_str = relation_hint_list[idx]
+                item_id = input_ids_list[idx] if input_ids_list else None
+
                 refined_oie_triplets = extractor.extract(
                     input_text,
                     oie_refinement_few_shot_examples_str,
@@ -179,6 +182,7 @@ class EDC:
                     oie_refinement_input_template_str,
                     entity_hint_str,
                     relation_hint_str,
+                    item_id=item_id,
                 )
                 oie_triplets_list.append(refined_oie_triplets)
         else:
@@ -195,12 +199,15 @@ class EDC:
                 self.oie_inpute_template_file_path, encoding="utf-8"
             ).read()
 
-            for input_text in tqdm(input_text_list):
+            for idx, input_text in enumerate(tqdm(input_text_list)):
+                item_id = input_ids_list[idx] if input_ids_list else None
+
                 oie_triplets = extractor.extract(
                     input_text,
                     oie_few_shot_examples_str,
                     oie_instuructions_template_str,
                     oie_input_template_str,
+                    item_id=item_id,
                 )
                 oie_triplets_list.append(oie_triplets)
                 logger.debug(f"{input_text}\n -> {oie_triplets}\n")
@@ -581,7 +588,11 @@ class EDC:
         return relation_hint_list
 
     def extract_kg(
-        self, input_text_list: List[str], output_dir: str, refinement_iterations=0
+        self,
+        input_text_list: List[str],
+        output_dir: str,
+        refinement_iterations=0,
+        input_ids_list: Optional[List] = None,
     ):
         if os.path.exists(output_dir):
             logger.error(f"Output directory {output_dir} already exists! Quitting.")
@@ -618,6 +629,7 @@ class EDC:
                 not in required_model_dict_current_iteration.values()
                 and iteration == refinement_iterations,
                 previous_extracted_triplets_list=triplets_from_last_iteration,
+                input_ids_list=input_ids_list,
             )
 
             del required_model_dict_current_iteration["sd"]
@@ -655,8 +667,12 @@ class EDC:
 
             json_results_list = []
             for idx in range(len(oie_triplets_list)):
+                # Use input ID if available, otherwise use index
+                item_id = input_ids_list[idx] if input_ids_list else idx
+
                 result_json = {
                     "index": idx,
+                    "item_id": item_id,
                     "input_text": input_text_list[idx],
                     "entity_hint": entity_hint_list[idx],
                     "relation_hint": relation_hint_list[idx],
@@ -677,14 +693,24 @@ class EDC:
                 indent=4,
             )
 
-            final_result_file = open(
-                f"{iteration_result_dir}/canon_kg.txt", "w", encoding="utf-8"
-            )
+            # Create JSON output with IID and structured triplets
+            json_kg_results = []
             for idx, canon_triplets in enumerate(non_null_triplets_list):
-                final_result_file.write(str(canon_triplets))
-                if idx != len(canon_triplets_list) - 1:
-                    final_result_file.write("\n")
-                final_result_file.flush()
+                # Use input ID if available, otherwise use index
+                item_id = input_ids_list[idx] if input_ids_list else idx
+
+                result_entry = {
+                    "iid": item_id,
+                    "triplets": canon_triplets,  # Already structured as List[List[str]]
+                }
+                json_kg_results.append(result_entry)
+
+            # Write JSON output
+            final_result_file = open(
+                f"{iteration_result_dir}/canon_kg.json", "w", encoding="utf-8"
+            )
+            json.dump(json_kg_results, final_result_file, indent=2, ensure_ascii=False)
+            final_result_file.flush()
 
         return canon_triplets_list
 
@@ -693,6 +719,7 @@ class EDC:
         input_text_list: List[str],
         previous_extracted_triplets_list: Optional[List[List[List[str]]]] = None,
         free_model: bool = False,
+        input_ids_list: Optional[List] = None,
     ):
         async_extractor = OpenAIAsyncExtractor(
             self.oie_llm_name, max_concurrent=100, max_req_per_sec=600
@@ -733,6 +760,7 @@ class EDC:
                 oie_refinement_input_template_str,
                 entity_hint_list,
                 relation_hint_list,
+                input_ids_list=input_ids_list,
             )
 
         else:
@@ -754,6 +782,7 @@ class EDC:
                 oie_few_shot_examples_str,
                 oie_instuructions_template_str,
                 oie_input_template_str,
+                input_ids_list=input_ids_list,
             )
 
             logger.info("OIE finished.")
@@ -950,7 +979,11 @@ class EDC:
         return canonicalized_triplets_list, canon_candidate_dict_per_entry_list
 
     async def extract_kg_async(
-        self, input_text_list: List[str], output_dir: str, refinement_iterations=0
+        self,
+        input_text_list: List[str],
+        output_dir: str,
+        refinement_iterations=0,
+        input_ids_list: Optional[List] = None,
     ):
         if os.path.exists(output_dir):
             logger.error(f"Output directory {output_dir} already exists! Quitting.")
@@ -991,6 +1024,7 @@ class EDC:
                 not in required_model_dict_current_iteration.values()
                 and iteration == refinement_iterations,
                 previous_extracted_triplets_list=triplets_from_last_iteration,
+                input_ids_list=input_ids_list,
             )
 
             del required_model_dict_current_iteration["sd"]
@@ -1029,8 +1063,12 @@ class EDC:
 
             json_results_list = []
             for idx in range(len(oie_triplets_list)):
+                # Use input ID if available, otherwise use index
+                item_id = input_ids_list[idx] if input_ids_list else idx
+
                 result_json = {
                     "index": idx,
+                    "item_id": item_id,
                     "input_text": input_text_list[idx],
                     "entity_hint": entity_hint_list[idx],
                     "relation_hint": relation_hint_list[idx],
@@ -1049,12 +1087,22 @@ class EDC:
                 indent=4,
             )
 
-            final_result_file = open(f"{iteration_result_dir}/canon_kg.txt", "w")
+            # Create JSON output with IID and structured triplets
+            json_kg_results = []
             for idx, canon_triplets in enumerate(non_null_triplets_list):
-                final_result_file.write(str(canon_triplets))
-                if idx != len(canon_triplets_list) - 1:
-                    final_result_file.write("\n")
-                final_result_file.flush()
+                # Use input ID if available, otherwise use index
+                item_id = input_ids_list[idx] if input_ids_list else idx
+
+                result_entry = {
+                    "iid": item_id,
+                    "triplets": canon_triplets,  # Already structured as List[List[str]]
+                }
+                json_kg_results.append(result_entry)
+
+            # Write JSON output
+            final_result_file = open(f"{iteration_result_dir}/canon_kg.json", "w")
+            json.dump(json_kg_results, final_result_file, indent=2, ensure_ascii=False)
+            final_result_file.flush()
 
         return canon_triplets_list
 

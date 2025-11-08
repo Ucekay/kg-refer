@@ -208,7 +208,7 @@ def openai_chat_completion(
     instructions: str,
     input: str,
     temperature: float = 0.0,
-    max_tokens: int = 512,
+    max_tokens: int = 1024,
 ) -> str:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
