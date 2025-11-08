@@ -5,4 +5,3 @@ Important guidelines:
 - Maintain consistency in entity naming
 - Strictly only include the merged entities in your answer
 - Do not include any explanation or apologies
-- Extract all relevant entities, including Named Entities as well as descriptive attributes, features, and categories.
