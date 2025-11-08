@@ -1,0 +1,627 @@
+[
+  {
+    "iid": 5,
+    "triplets": [
+      [
+        "5",
+        "located in",
+        "Indianapolis"
+      ],
+      [
+        "5",
+        "serves cuisine",
+        "craft beer"
+      ],
+      [
+        "5",
+        "serves cuisine",
+        "diverse food options"
+      ],
+      [
+        "5",
+        "has atmosphere",
+        "laid-back"
+      ],
+      [
+        "5",
+        "suitable for",
+        "Friends"
+      ],
+      [
+        "5",
+        "appeals to",
+        "Vegetarians"
+      ],
+      [
+        "5",
+        "appeals to",
+        "Dog owners"
+      ],
+      [
+        "5",
+        "is a",
+        "Brewpub"
+      ],
+      [
+        "5",
+        "is a",
+        "Restaurant"
+      ],
+      [
+        "5",
+        "is a",
+        "Bar"
+      ]
+    ]
+  },
+  {
+    "iid": 7,
+    "triplets": [
+      [
+        "7",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "7",
+        "is a",
+        "Baseball"
+      ],
+      [
+        "7",
+        "has feature",
+        "variety of food options"
+      ],
+      [
+        "7",
+        "has atmosphere",
+        "good facilities"
+      ],
+      [
+        "7",
+        "price range",
+        "reasonable ticket prices"
+      ],
+      [
+        "7",
+        "has atmosphere",
+        "lively"
+      ],
+      [
+        "7",
+        "has atmosphere",
+        "friendly crowds"
+      ],
+      [
+        "7",
+        "suitable for",
+        "Baseball fans"
+      ],
+      [
+        "7",
+        "suitable for",
+        "Sports fans"
+      ],
+      [
+        "7",
+        "is a",
+        "Sports stadium"
+      ]
+    ]
+  },
+  {
+    "iid": 8,
+    "triplets": [
+      [
+        "8",
+        "located in",
+        "New Orleans"
+      ],
+      [
+        "8",
+        "serves cuisine",
+        "brunch"
+      ],
+      [
+        "8",
+        "serves cuisine",
+        "fried chicken and waffles"
+      ],
+      [
+        "8",
+        "serves cuisine",
+        "cane syrup"
+      ],
+      [
+        "8",
+        "serves cuisine",
+        "gravy"
+      ],
+      [
+        "8",
+        "serves cuisine",
+        "oysters"
+      ],
+      [
+        "8",
+        "serves cuisine",
+        "liver pate"
+      ],
+      [
+        "8",
+        "serves cuisine",
+        "German pizza"
+      ],
+      [
+        "8",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "8",
+        "has feature",
+        "good drinks"
+      ],
+      [
+        "8",
+        "appeals to",
+        "Brunch lovers"
+      ],
+      [
+        "8",
+        "appeals to",
+        "Seafood lovers"
+      ],
+      [
+        "8",
+        "appeals to",
+        "Pate enthusiasts"
+      ],
+      [
+        "8",
+        "appeals to",
+        "German cuisine fans"
+      ],
+      [
+        "8",
+        "is a",
+        "Restaurant"
+      ],
+      [
+        "8",
+        "is a",
+        "Brunch restaurant"
+      ],
+      [
+        "8",
+        "is a",
+        "Seafood restaurant"
+      ],
+      [
+        "8",
+        "is a",
+        "German restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 0,
+    "triplets": [
+      [
+        "0",
+        "serves cuisine",
+        "Mexican cuisine"
+      ],
+      [
+        "0",
+        "serves cuisine",
+        "Sonoran hot dogs"
+      ],
+      [
+        "0",
+        "has feature",
+        "salsa bar"
+      ],
+      [
+        "0",
+        "has atmosphere",
+        "vibrant"
+      ],
+      [
+        "0",
+        "located in",
+        "Tucson"
+      ],
+      [
+        "0",
+        "has feature",
+        "near college campus"
+      ],
+      [
+        "0",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "0",
+        "price range",
+        "affordable prices"
+      ],
+      [
+        "0",
+        "appeals to",
+        "Fans of Sonoran hot dogs"
+      ],
+      [
+        "0",
+        "appeals to",
+        "Fans of Mexican cuisine"
+      ],
+      [
+        "0",
+        "appeals to",
+        "Casual dining fans"
+      ]
+    ]
+  },
+  {
+    "iid": 1,
+    "triplets": [
+      [
+        "1",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "1",
+        "serves cuisine",
+        "coffee"
+      ],
+      [
+        "1",
+        "serves cuisine",
+        "bagels"
+      ],
+      [
+        "1",
+        "has atmosphere",
+        "spacious"
+      ],
+      [
+        "1",
+        "has feature",
+        "dog-friendly"
+      ],
+      [
+        "1",
+        "has feature",
+        "outdoor seating"
+      ],
+      [
+        "1",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "1",
+        "suitable for",
+        "studying"
+      ],
+      [
+        "1",
+        "suitable for",
+        "working"
+      ],
+      [
+        "1",
+        "appeals to",
+        "Cafe lovers"
+      ],
+      [
+        "1",
+        "appeals to",
+        "Coffee enthusiasts"
+      ],
+      [
+        "1",
+        "appeals to",
+        "Dog-friendly places"
+      ],
+      [
+        "1",
+        "is a",
+        "Cafe"
+      ],
+      [
+        "1",
+        "is a",
+        "Coffee shop"
+      ]
+    ]
+  },
+  {
+    "iid": 2,
+    "triplets": [
+      [
+        "2",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "2",
+        "serves",
+        "interactive comedy shows"
+      ],
+      [
+        "2",
+        "has atmosphere",
+        "intimate"
+      ],
+      [
+        "2",
+        "appeals to",
+        "Fans of interactive comedy shows"
+      ],
+      [
+        "2",
+        "has feature",
+        "being part of the performance"
+      ],
+      [
+        "2",
+        "has feature",
+        "reasonably priced shows"
+      ],
+      [
+        "2",
+        "has feature",
+        "entertaining shows"
+      ],
+      [
+        "2",
+        "is a",
+        "Comedy shows"
+      ],
+      [
+        "2",
+        "is a",
+        "Entertainment"
+      ]
+    ]
+  },
+  {
+    "iid": 6,
+    "triplets": [
+      [
+        "6",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "6",
+        "is a",
+        "Cooperative"
+      ],
+      [
+        "6",
+        "serves",
+        "Grocery store"
+      ],
+      [
+        "6",
+        "serves cuisine",
+        "locally grown produce"
+      ],
+      [
+        "6",
+        "serves cuisine",
+        "natural foods"
+      ],
+      [
+        "6",
+        "serves cuisine",
+        "preservative-free foods"
+      ],
+      [
+        "6",
+        "has feature",
+        "community connections"
+      ],
+      [
+        "6",
+        "has feature",
+        "fair prices"
+      ],
+      [
+        "6",
+        "suitable for",
+        "Individuals who value community connections"
+      ],
+      [
+        "6",
+        "suitable for",
+        "Locally grown produce lovers"
+      ],
+      [
+        "6",
+        "suitable for",
+        "Natural food enthusiasts"
+      ],
+      [
+        "6",
+        "suitable for",
+        "Fair price seekers"
+      ],
+      [
+        "6",
+        "suitable for",
+        "Contributors through work hours"
+      ]
+    ]
+  },
+  {
+    "iid": 9,
+    "triplets": [
+      [
+        "9",
+        "located in",
+        "New Orleans"
+      ],
+      [
+        "9",
+        "serves cuisine",
+        "Cajun/Creole"
+      ],
+      [
+        "9",
+        "serves cuisine",
+        "American"
+      ],
+      [
+        "9",
+        "is a",
+        "Restaurant"
+      ],
+      [
+        "9",
+        "serves cuisine",
+        "duck gumbo"
+      ],
+      [
+        "9",
+        "serves cuisine",
+        "shrimp clemenceau"
+      ],
+      [
+        "9",
+        "has feature",
+        "decently priced food"
+      ],
+      [
+        "9",
+        "has atmosphere",
+        "friendly"
+      ],
+      [
+        "9",
+        "has feature",
+        "unique twists on traditional dishes"
+      ],
+      [
+        "9",
+        "appeals to",
+        "Fans of Cajun/Creole cuisine"
+      ],
+      [
+        "9",
+        "appeals to",
+        "Fans of American cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 3,
+    "triplets": [
+      [
+        "3",
+        "located in",
+        "Unknown"
+      ],
+      [
+        "3",
+        "serves cuisine",
+        "delicatessen"
+      ],
+      [
+        "3",
+        "serves cuisine",
+        "variety of menu options"
+      ],
+      [
+        "3",
+        "has feature",
+        "efficient service"
+      ],
+      [
+        "3",
+        "serves",
+        "fresh food"
+      ],
+      [
+        "3",
+        "serves",
+        "delicious food"
+      ],
+      [
+        "3",
+        "suitable for",
+        "Those who prefer their usual order"
+      ],
+      [
+        "3",
+        "suitable for",
+        "Those who like to try new dishes"
+      ]
+    ]
+  },
+  {
+    "iid": 4,
+    "triplets": [
+      [
+        "4",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "4",
+        "serves cuisine",
+        "Thai cuisine"
+      ],
+      [
+        "4",
+        "has atmosphere",
+        "laid-back"
+      ],
+      [
+        "4",
+        "serves cuisine",
+        "duck green curry"
+      ],
+      [
+        "4",
+        "serves",
+        "fried rice"
+      ],
+      [
+        "4",
+        "serves cuisine",
+        "Pad Thai"
+      ],
+      [
+        "4",
+        "has feature",
+        "BYO wine"
+      ],
+      [
+        "4",
+        "suitable for",
+        "casual evening"
+      ],
+      [
+        "4",
+        "located in",
+        "Rittenhouse"
+      ],
+      [
+        "4",
+        "is a",
+        "Thai restaurant"
+      ],
+      [
+        "4",
+        "is a",
+        "Casual dining"
+      ]
+    ]
+  }
+]
