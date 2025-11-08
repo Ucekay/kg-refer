@@ -1,0 +1,4 @@
+Item ID: {item_id}
+Text: {input_text}
+
+Triplets:
