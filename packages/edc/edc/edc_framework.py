@@ -27,7 +27,7 @@ from edc.entity_extractor import (
     OpenAIEntityExtractor,
 )
 from edc.extractor import LocalExtractor, OpenAIAsyncExtractor, OpenAIExtractor
-from edc.schema_canonicalizer import SchemaCanonicalizer
+from edc.schema_canonicalizer import OpenAIAsyncSchemaCanonicalizer, SchemaCanonicalizer
 from edc.schema_definer import (
     LocalSchemaDefiner,
     OpenAIAsyncSchemaDefiner,
@@ -875,6 +875,80 @@ class EDC:
         logging.info("Schema Definition finished.")
         return shcema_definition_dict_list
 
+    async def schema_canonicalization_async(
+        self,
+        input_text_list: List[str],
+        oie_triplets_list: List[List[List[str]]],
+        schema_definition_dict_list: List[Dict[str, str]],
+        free_model=False,
+    ):
+        assert len(input_text_list) == len(oie_triplets_list) and len(
+            input_text_list
+        ) == len(schema_definition_dict_list)
+        logger.info("Running Schema Canonicalization...")
+
+        sc_verify_instrctions_template = open(
+            self.sc_instructions_template_file_path, encoding="utf-8"
+        ).read()
+        sc_verify_input_template = open(
+            self.sc_input_template_file_path, encoding="utf-8"
+        ).read()
+
+        sc_embedder = self.load_sts_model(self.sc_embedder_name)
+
+        async_schema_canonicalizer = OpenAIAsyncSchemaCanonicalizer(
+            self.schema, sc_embedder, verify_model_name=self.sc_llm_name
+        )
+
+        canonicalized_triplets_list: List[List[List[str] | None]] = []
+        canon_candidate_dict_per_entry_list = []
+
+        # (
+        #     canonicalized_triplets_list,
+        #     canon_candidate_dict_per_entry_list,
+        # ) = await async_schema_canonicalizer.canonicalize_all_async(
+        #     input_text_list,
+        #     oie_triplets_list,
+        #     schema_definition_dict_list,
+        #     sc_verify_instrctions_template,
+        #     sc_verify_input_template,
+        #     self.enrich_schema,
+        # )
+
+        for idx, input_text in enumerate(tqdm(input_text_list)):
+            oie_triplets = oie_triplets_list[idx]
+            sd_dict = schema_definition_dict_list[idx]
+            (
+                canonicalized_triplets,
+                canon_candidate_dict_list,
+            ) = await async_schema_canonicalizer.canonicalize_async(
+                input_text,
+                oie_triplets,
+                sd_dict,
+                sc_verify_instrctions_template,
+                sc_verify_input_template,
+                self.enrich_schema,
+            )
+
+            canonicalized_triplets_list.append(canonicalized_triplets)
+            canon_candidate_dict_per_entry_list.append(canon_candidate_dict_list)
+            logger.debug(
+                f"{input_text}\n, {oie_triplets} ->\n {canonicalized_triplets}"
+            )
+            logger.debug(
+                f"Retrieved candidate relations {canon_candidate_dict_list[-1] if canon_candidate_dict_list else {}}"
+            )
+        logger.info("Schema Canonicalization finished.")
+
+        if free_model:
+            logger.info(
+                f"Freeing model {self.sc_embedder_name, self.sc_llm_name} as it is no longer needed"
+            )
+            llm_utils.free_model(sc_embedder)
+            del self.loaded_sts_model_dict[self.sc_embedder_name]
+
+        return canonicalized_triplets_list, canon_candidate_dict_per_entry_list
+
     async def extract_kg_async(
         self, input_text_list: List[str], output_dir: str, refinement_iterations=0
     ):
@@ -930,15 +1004,16 @@ class EDC:
 
             del required_model_dict_current_iteration["sc_embed"]
             del required_model_dict_current_iteration["sc_verify"]
-            canon_triplets_list, canon_candidate_dict_list = (
-                self.schema_canonicalization(
-                    input_text_list,
-                    oie_triplets_list,
-                    sd_dict_list,
-                    free_model=self.sc_llm_name
-                    not in required_model_dict_current_iteration.values()
-                    and iteration == refinement_iterations,
-                )
+            (
+                canon_triplets_list,
+                canon_candidate_dict_list,
+            ) = await self.schema_canonicalization_async(
+                input_text_list,
+                oie_triplets_list,
+                sd_dict_list,
+                free_model=self.sc_llm_name
+                not in required_model_dict_current_iteration.values()
+                and iteration == refinement_iterations,
             )
 
             non_null_triplets_list = [

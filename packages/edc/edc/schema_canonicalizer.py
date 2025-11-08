@@ -1,6 +1,7 @@
+import asyncio
 import copy
 import logging
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -157,8 +158,8 @@ class SchemaCanonicalizer:
             # )
             return open_triplet, {}
 
-        candidate_relations = []
-        candidate_scores = []
+        candidate_relations: Dict[str, str] = {}
+        candidate_scores: List[float] = []
 
         if len(self.schema_dict) != 0:
             if open_relation not in open_relation_definition_dict:
@@ -198,204 +199,285 @@ class SchemaCanonicalizer:
         return canonicalized_triplet, dict(zip(candidate_relations, candidate_scores))
 
 
-# class OpenAIAsyncSchemaCanonicalizer:
-#     def __init__(
-#         self,
-#         target_schema_dict: Dict[str, str],
-#         embedder: SentenceTransformer,
-#         verify_model_name: str,
-#         max_concurrent: int = 200,
-#         max_req_per_sec: int = 80,
-#     ) -> None:
-#         self.verify_model_name = verify_model_name
-#         self.schema_dict = target_schema_dict
+class OpenAIAsyncSchemaCanonicalizer:
+    def __init__(
+        self,
+        target_schema_dict: Dict[str, str],
+        embedder: SentenceTransformer,
+        verify_model_name: str,
+        max_concurrent: int = 200,
+        max_req_per_sec: int = 80,
+    ) -> None:
+        self.verify_model_name = verify_model_name
+        self.schema_dict = target_schema_dict
 
-#         self.embedder = embedder
+        self.embedder = embedder
 
-#         # Embed the target schema
-#         self.schema_embedding_dict = {}
+        # Embed the target schema
+        self.schema_embedding_dict = {}
 
-#         self.max_concurrent = max_concurrent
-#         self.max_req_per_sec = max_req_per_sec
+        self.max_concurrent = max_concurrent
+        self.max_req_per_sec = max_req_per_sec
 
-#         print("Embedding target schema...")
-#         for relation, relation_definition in tqdm(target_schema_dict.items()):
-#             embedding = self.embedder.encode(relation_definition)
-#             self.schema_embedding_dict[relation] = embedding
+        print("Embedding target schema...")
+        for relation, relation_definition in tqdm(target_schema_dict.items()):
+            embedding = self.embedder.encode(relation_definition)
+            self.schema_embedding_dict[relation] = embedding
 
-#     def retrieve_similar_relations(self, query_relation_definition: str, top_k=5):
-#         target_relation_list = list(self.schema_embedding_dict.keys())
-#         target_relation_embedding_list = list(self.schema_embedding_dict.values())
-#         if "sts_query" in self.embedder.prompts:
-#             query_embedding = self.embedder.encode(
-#                 query_relation_definition, prompt_name="sts_query"
-#             )
-#         else:
-#             query_embedding = self.embedder.encode(query_relation_definition)
+    def retrieve_similar_relations(self, query_relation_definition: str, top_k=5):
+        target_relation_list = list(self.schema_embedding_dict.keys())
+        target_relation_embedding_list = list(self.schema_embedding_dict.values())
+        if "sts_query" in self.embedder.prompts:
+            query_embedding = self.embedder.encode(
+                query_relation_definition, prompt_name="sts_query"
+            )
+        else:
+            query_embedding = self.embedder.encode(query_relation_definition)
 
-#         scores = (
-#             np.array([query_embedding]) @ np.array(target_relation_embedding_list).T
-#         )
+        scores = (
+            np.array([query_embedding]) @ np.array(target_relation_embedding_list).T
+        )
 
-#         scores = scores[0]
-#         highest_score_indices = np.argsort(-scores)
+        scores = scores[0]
+        highest_score_indices = np.argsort(-scores)
 
-#         return {
-#             target_relation_list[idx]: self.schema_dict[target_relation_list[idx]]
-#             for idx in highest_score_indices[:top_k]
-#         }, [scores[idx] for idx in highest_score_indices[:top_k]]
+        return {
+            target_relation_list[idx]: self.schema_dict[target_relation_list[idx]]
+            for idx in highest_score_indices[:top_k]
+        }, [scores[idx] for idx in highest_score_indices[:top_k]]
 
-#     async def llm_verify_async(
-#         self,
-#         input_text: str,
-#         query_triplet_list: List[List[str] | None],
-#         query_relation_definition_dict: Dict[str, str],
-#         instructions_template: str,
-#         input_template_str: str,
-#         candidate_relation_definition_dict_list: List[Dict[str, str]],
-#     ):
-#         async def process_single(
-#             query_triplet: List[str] | None,
-#             openai_async_processor: AsyncOpenAIProcessor,
-#             model_name: str,
-#             instructions: str,
-#             input: str,
-#             max_tokens: int,
-#         ):
-#             if query_triplet is None or query_triplet in self.schema_dict:
-#                 return query_triplet
+    async def llm_verify_async(
+        self,
+        input_text: str,
+        query_triplet_list: List[List[str]],
+        query_relation_definition_dict: Dict[str, str],
+        instructions_template: str,
+        input_template_str: str,
+        candidate_relation_definition_dict_list: List[Dict[str, str]],
+        enrich=False,
+    ):
+        async def process_single(
+            query_triplet: List[str],
+            candidate_relations: List[str],
+            choice_letters_list: List[str],
+            openai_async_processor: AsyncOpenAIProcessor,
+            model_name: str,
+            instructions: str,
+            input: str | None,
+            max_tokens: int,
+            enrich=False,
+        ):
+            if input is None:
+                if query_triplet[1] in self.schema_dict:
+                    return query_triplet
+                else:
+                    return None
+            else:
+                responses = await openai_async_processor.openai_responses_async(
+                    model_name,
+                    instructions,
+                    input,
+                    max_tokens=max_tokens,
+                )
+                if responses in choice_letters_list:
+                    query_triplet[1] = candidate_relations[
+                        choice_letters_list.index(responses)
+                    ]
+                    return query_triplet
+                else:
+                    return None
 
-#             else:
-#                 return await openai_async_processor.openai_responses_async(
-#                     model_name,
-#                     instructions,
-#                     input,
-#                     max_tokens=max_tokens,
-#                 )
+        filled_input_list: List[str | None] = []
+        choice_letters_list_list = []
+        candidate_relations_list = []
+        for i, query_triplet in enumerate(query_triplet_list):
+            if (
+                len(self.schema_dict) == 0
+                or query_triplet[1] in self.schema_dict
+                or query_triplet[1] not in query_relation_definition_dict
+            ):
+                query_relation_definition = None
+                filled_input = None
+                choice_letters_list = []
+                candidate_relations = []
 
-#         filled_input_list = []
-#         choice_letters_list_list = []
-#         candidate_relations_list = []
-#         for i, query_triplet in enumerate(query_triplet_list):
-#             if query_triplet is None:
-#                 query_relation_definition = None
-#                 filled_input = None
-#                 choice_letters_list = []
-#                 candidate_relations = []
+            else:
+                query_relation_definition = query_relation_definition_dict[
+                    query_triplet[1]
+                ]
+                candidate_relation_definition_dict = (
+                    candidate_relation_definition_dict_list[i]
+                )
 
-#             else:
-#                 query_relation_definition = query_relation_definition_dict[
-#                     query_triplet[1]
-#                 ]
-#                 candidate_relation_definition_dict = (
-#                     candidate_relation_definition_dict_list[i]
-#                 )
+                choice_letters_list = []
+                choices = ""
+                candidate_relations = list(candidate_relation_definition_dict.keys())
+                candidate_relation_descriptions = list(
+                    candidate_relation_definition_dict.values()
+                )
+                for j, rel in enumerate(candidate_relations):
+                    choice_letter = chr(ord("@") + j + 1)
+                    choice_letters_list.append(choice_letter)
+                    choices += f"{choice_letter}. '{rel}': {candidate_relation_descriptions[j]}\n"
 
-#                 choice_letters_list = []
-#                 choices = ""
-#                 candidate_relations = list(candidate_relation_definition_dict.keys())
-#                 candidate_relation_descriptions = list(
-#                     candidate_relation_definition_dict.values()
-#                 )
-#                 for j, rel in enumerate(candidate_relations):
-#                     choice_letter = chr(ord("@") + j + 1)
-#                     choice_letters_list.append(choice_letter)
-#                     choices += f"{choice_letter}. '{rel}': {candidate_relation_descriptions[j]}\n"
+                choices += f"{chr(ord('@') + len(candidate_relations) + 1)}. None of the above.\n"
 
-#                 choices += f"{chr(ord('@') + len(candidate_relations) + 1)}. None of the above.\n"
+                filled_input = input_template_str.format_map(
+                    {
+                        "input_text": input_text,
+                        "query_triplet": query_triplet,
+                        "query_relation": query_triplet[1],
+                        "query_relation_definition": query_relation_definition,
+                        "choices": choices,
+                    }
+                )
+            filled_input_list.append(filled_input)
+            choice_letters_list_list.append(choice_letters_list)
+            candidate_relations_list.append(candidate_relations)
 
-#                 filled_input = input_template_str.format_map(
-#                     {
-#                         "input_text": input_text,
-#                         "query_triplet": query_triplet,
-#                         "query_relation": query_triplet[1],
-#                         "query_relation_definition": query_relation_definition,
-#                         "choices": choices,
-#                     }
-#                 )
-#             filled_input_list.append(filled_input)
-#             choice_letters_list_list.append(choice_letters_list)
-#             candidate_relations_list.append(candidate_relations)
+        opneai_async_processor = AsyncOpenAIProcessor(
+            max_concurrent=self.max_concurrent, max_req_per_sec=self.max_req_per_sec
+        )
 
-#         opneai_async_processor = AsyncOpenAIProcessor(
-#             max_concurrent=self.max_concurrent, max_req_per_sec=self.max_req_per_sec
-#         )
+        tasks = [
+            process_single(
+                query_triplet,
+                candidate_relations,
+                choice_letters_list,
+                opneai_async_processor,
+                self.verify_model_name,
+                instructions_template,
+                filled_input,
+                max_tokens=50,
+                enrich=enrich,
+            )
+            for filled_input, query_triplet, candidate_relations, choice_letters_list in zip(
+                filled_input_list,
+                query_triplet_list,
+                candidate_relations_list,
+                choice_letters_list_list,
+            )
+        ]
 
-#         tasks = [
-#             process_single(
-#                 query_triplet,
-#                 opneai_async_processor,
-#                 self.verify_model_name,
-#                 instructions_template,
-#                 filled_input,
-#                 max_tokens=50,
-#             )
-#             for filled_input, query_triplet in zip(
-#                 filled_input_list, query_triplet_list
-#             )
-#         ]
+        results: List[List[str] | None] = await asyncio.gather(*tasks)
 
-#         results: List[str] = await tqdm_asyncio.gather(
-#             *tasks, desc="Verifying with LLM"
-#         )
+        return results
 
-#         # Process the results to canonicalize triplets
-#         canonicalized_triplets: List[List[str] | None] = []
-#         for i, result in enumerate(results):
-#             query_triplet = query_triplet_list[i]
-#             choice_letters_list = choice_letters_list_list[i]
-#             candidate_relations = candidate_relations_list[i]
+    async def canonicalize_async(
+        self,
+        input_text: str,
+        open_triplets: List[List[str]],
+        open_relation_definition_dict: Dict[str, str],
+        instructions_template: str,
+        input_template: str,
+        enrich=False,
+    ):
+        candidate_relation_definition_dict_list: List[Dict[str, str]] = []
+        candidate_relations_and_scores_dict_list = []
 
-#             canonicalized_triplet = copy.deepcopy(query_triplet)
+        # Track indices for different conditions
+        schema_existing_indices = []  # Relations already in schema_dict
+        empty_schema_or_missing_def_indices = []  # Empty schema or missing definitions
 
-#             if result and result[0] in choice_letters_list:
-#                 canonicalized_triplet[1] = candidate_relations[
-#                     choice_letters_list.index(result[0])
-#                 ]
-#                 canonicalized_triplets.append(canonicalized_triplet)
-#             else:
-#                 canonicalized_triplets.append(None)
+        for i, open_triplet in enumerate(open_triplets):
+            open_relation = open_triplet[1]
 
-#         return canonicalized_triplets
+            if open_relation in self.schema_dict:
+                schema_existing_indices.append(i)
+                candidate_relation_definition_dict_list.append({})
+                candidate_relations_and_scores_dict_list.append({})
+                continue
 
-#     async def canonicalize_async(
-#         self,
-#         input_text: str,
-#         open_triplets: List[List[str]],
-#         open_relation_definition_dict: Dict[str, str],
-#         instructions_template: str,
-#         input_template: str,
-#         enrich=False,
-#     ):
-#         canonicalized_triplets = []
-#         canon_condidate_dict_list = []
+            if (
+                len(self.schema_dict) == 0
+                or open_relation not in open_relation_definition_dict
+            ):
+                empty_schema_or_missing_def_indices.append(i)
+                candidate_relation_definition_dict_list.append({})
+                candidate_relations_and_scores_dict_list.append({})
+                continue
 
-#         condidate_relation_definition_dict_list = []
-#         condidate_scores_list = []
+            candidate_relation_definition_dict, candidate_scores = (
+                self.retrieve_similar_relations(
+                    open_relation_definition_dict[open_relation]
+                )
+            )
+            candidate_relation_definition_dict_list.append(
+                candidate_relation_definition_dict
+            )
+            candidate_relations_and_scores_dict_list.append(
+                dict(
+                    zip(
+                        candidate_relation_definition_dict.keys(),
+                        candidate_scores,
+                    )
+                )
+            )
 
-#         for i, open_triplet in enumerate(open_triplets):
-#             open_relation = open_triplet[1]
+        canonicalized_triplet_list = await self.llm_verify_async(
+            input_text,
+            open_triplets,
+            open_relation_definition_dict,
+            instructions_template,
+            input_template,
+            candidate_relation_definition_dict_list,
+            enrich=enrich,
+        )
 
-#             if open_relation in self.schema_dict:
+        for idx, triplet in enumerate(canonicalized_triplet_list):
+            if triplet is None:
+                if enrich:
+                    self.schema_dict[open_triplets[idx][1]] = (
+                        open_relation_definition_dict[open_triplets[idx][1]]
+                    )
+                    if "sts_query" in self.embedder.prompts:
+                        embedding = self.embedder.encode(
+                            open_relation_definition_dict[open_triplets[idx][1]],
+                            prompt_name="sts_query",
+                        )
+                    else:
+                        embedding = self.embedder.encode(
+                            open_relation_definition_dict[open_triplets[idx][1]]
+                        )
+                    self.schema_embedding_dict[open_triplets[idx][1]] = embedding
 
-#                 continue
+        return canonicalized_triplet_list, candidate_relations_and_scores_dict_list
 
-#             if (
-#                 len(self.schema_dict) == 0
-#                 or open_relation not in open_relation_definition_dict
-#             ):
+    async def canonicalize_all_async(
+        self,
+        input_text_list: List[str],
+        open_triplets_list: List[List[List[str]]],
+        open_relation_definition_dict_list: List[Dict[str, str]],
+        instructions_template: str,
+        input_template: str,
+        enrich=False,
+    ):
+        tasks = [
+            self.canonicalize_async(
+                input_text,
+                open_triplets,
+                open_relation_definition_dict,
+                instructions_template,
+                input_template,
+                enrich,
+            )
+            for input_text, open_triplets, open_relation_definition_dict in zip(
+                input_text_list,
+                open_triplets_list,
+                open_relation_definition_dict_list,
+            )
+        ]
+        results: List[
+            Tuple[List[List[str] | None], List[Dict[str, float]]]
+        ] = await tqdm_asyncio.gather(*tasks, desc="Canonicalizing all inputs")
 
-#                 continue
+        # Split results into separate lists
+        canonicalized_triplet_list_list = [result[0] for result in results]
+        candidate_relations_and_scores_dict_list_list = [
+            result[1] for result in results
+        ]
 
-#             candidate_relation_definition_dict, candidate_scores = (
-#                 self.retrieve_similar_relations(
-#                     open_relation_definition_dict[open_relation]
-#                 )
-#             )
-#             condidate_relation_definition_dict_list.append(
-#                 candidate_relation_definition_dict
-#             )
-#             condidate_scores_list.append(candidate_scores)
-
-#         canonicalized_triplet_list = await self.llm_verify_async(
-#             input_text,
+        return (
+            canonicalized_triplet_list_list,
+            candidate_relations_and_scores_dict_list_list,
+        )
