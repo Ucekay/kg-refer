@@ -35,8 +35,23 @@ Example 3:
     Relations: ["located in", "presents", "presents genre", "has atmosphere", "has feature", "appeals to"]
     Answer:
         located in: The subject entity is physically situated in or found in the location specified by the object entity.
-        presents: The subject entity offers or showcases the item or activity specified by the object entity.
-        presents genre: The subject entity is involved with or offers the genre specified by the object entity.
+        presents: The subject entity shows, performs, or offers the content specified by the object entity.
+        presents genre: The subject entity features or showcases works of the genre specified by the object entity.
         has atmosphere: The subject entity provides or is characterized by the ambiance or environment specified by the object entity.
         has feature: The subject entity possesses or is characterized by the feature specified by the object entity.
-        ppeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.
+        appeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.
+
+
+Example 4:
+    Item ID: 10003
+    Text: Pet owners who seek gentle, professional grooming services, natural products, and a stress-free environment for their dogs and cats would appreciate Paws & Whiskers Spa in Lakeside.
+    Triplets: [['10003', 'located in', 'Lakeside'], ['10003', 'offers', 'gentle grooming services'], ['10003', 'offers', 'professional grooming services'], ['10003', 'offers', 'Pet grooming'], ['10003', 'uses', 'natural products'], ['10003', 'has atmosphere', 'stress-free environment'], ['10003', 'caters to', 'dogs'], ['10003', 'caters to', 'cats'], ['10003', 'caters to', 'Pets'], ['10003', 'appeals to', 'Pet owners'], ['10003', 'is a', 'Pet spa']]
+    Relations: ['located in', 'offers', 'uses', 'has atmosphere', 'caters to', 'appeals to', 'is a']
+    Answer:
+        located in: The subject entity is physically situated in or found in the location specified by the object entity.
+        offers: The subject entity provides or makes available the service or product specified by the object entity.
+        uses: The subject entity utilizes or employs the item or product specified by the object entity.
+        has atmosphere: The subject entity provides or is characterized by the ambiance or environment specified by the object entity.
+        caters to: The subject entity serves or provides services to the group or type specified by the object entity.
+        appeals to: The subject entity attracts or is attractive to the group or type of people specified by the object entity.
+        is a: The subject entity is classified as or belongs to the category specified by the object entity.
