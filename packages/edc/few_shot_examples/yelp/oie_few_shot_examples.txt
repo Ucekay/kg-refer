@@ -19,9 +19,9 @@ Example 4:
     Triplets: [['10003', 'located in', 'Lakeside'], ['10003', 'offers', 'gentle grooming services'], ['10003', 'offers', 'professional grooming services'], ['10003', 'offers', 'Pet grooming'], ['10003', 'uses', 'natural products'], ['10003', 'has atmosphere', 'stress-free environment'], ['10003', 'caters to', 'dogs'], ['10003', 'caters to', 'cats'], ['10003', 'caters to', 'Pets'], ['10003', 'appeals to', 'Pet owners'], ['10003', 'is a', 'Pet spa']]
 
 Example 5:
-    Item ID: 7162
-    Text: Health-conscious individuals who prefer plant-based menus, fresh-pressed juices, and smoothie bowls in a bright, airy cafe setting would enjoy "Pure & Green" in Miami.
-    Triplets: [["7162", "located in", "Miami"], ["7162", "is a", "cafe"], ["7162", "is a", "Juice bar"], ["7162", "serves cuisine", "plant-based"], ["7162", "serves cuisine", "healthy food"], ["7162", "serves cuisine", "Vegan food"], ["7162", "serves cuisine", "Vegetarian food"], ["7162", "serves drink", "fresh-pressed juices"], ["7162", "serves drink", "juices"], ["7162", "serves drink", "smoothies"], ["7162", "serves drink", "healthy drinks"], ["7162", "serves dish", "smoothie bowls"], ["7162", "has atmosphere", "bright"], ["7162", "has atmosphere", "airy"], ["7162", "has atmosphere", "Casual dining"], ["7162", "suitable for", "health-conscious individuals"], ["7162", "suitable for", "Healthy eating"], ["7162", "suitable for", "Quick meal"], ["7162", "appeals to", "Vegans"], ["7162", "appeals to", "Vegetarians"]]
+    Item ID: 9181
+    Text: Shoppers looking for rare vintage finds, antique furniture, and unique collectibles, who enjoy a treasure-hunting atmosphere, would appreciate Yesterday's Charm in Middletown.
+    Triplets: [['9181', 'located in', 'Middletown'], ['9181', 'sells', 'rare vintage finds'], ['9181', 'sells', 'antique furniture'], ['9181', 'sells', 'unique collectibles'], ['9181', 'sells', 'Vintage items'], ['9181', 'sells', 'Antiques'], ['9181', 'sells', 'Furniture'], ['9181', 'sells', 'Collectibles'], ['9181', 'has atmosphere', 'treasure-hunting atmosphere'], ['9181', 'appeals to', 'Shoppers'], ['9181', 'appeals to', 'Antique collectors'], ['9181', 'appeals to', 'Vintage enthusiasts'], ['9181', 'appeals to', 'Collectors'], ['9181', 'is a', 'Vintage store'], ['9181', 'is a', 'Antique shop'], ['9181', 'is a', 'Collectibles store']]
 
 Example: 6
     Item ID: 2561
