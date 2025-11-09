@@ -56,7 +56,7 @@ class AsyncOpenAIProcessor:
                         input=input,
                         temperature=templature,
                         max_output_tokens=max_tokens,
-                        # reasoning={"effort": "minimal"},
+                        # reasoning={"effort": "minimal", "summary": None},
                     )
 
                 except openai.APIStatusError as e:
