@@ -41,7 +41,7 @@ class AsyncOpenAIProcessor:
         instructions: str,
         input: str,
         templature: float = 0.0,
-        max_tokens: int = 512,
+        max_tokens: int = 1024,
     ) -> str:
         async with self.semaphore:
             await self.rate_limiter.acquire()
@@ -56,6 +56,7 @@ class AsyncOpenAIProcessor:
                         input=input,
                         temperature=templature,
                         max_output_tokens=max_tokens,
+                        # reasoning={"effort": "minimal", "summary": None},
                     )
 
                 except openai.APIStatusError as e:

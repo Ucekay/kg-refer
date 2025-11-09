@@ -4,6 +4,7 @@ Here are some examples:
 {few_shot_examples}
 
 Important guidelines:
+- You must generate a description for every unique relation present in the provided list. Ensure no relation is missed.
 - The description needs to be general and can be used to describe relations between other entities as well
 - Pay attention to the order of subject and object entities
 - Strictly only provide the relation descriptions, no explanations or apologies

@@ -4,9 +4,15 @@ Here are some examples:
 {few_shot_examples}
 
 Important guidelines:
+- Use the most semantically accurate Relationship (predicate) to connect Entity1 and Entity2. You are not limited to the relationships used in the provided examples.
 - Strictly only include the triples in your answer
 - Do not include any explanation or apologies
 - Business entities must use their id; all other entities must use their name
 - Focus on extracting factual relationships from the text.
+- Avoid Redundancy: Keep tail entities (Entity2) concise. If the Relationship already implies the category, the tail entity should be simplified
 - Prefer short entities over long ones when both refer to the same concept.
-- To enhance graph connectivity, also infer and add broader, general categories. These general categories must be directly linked to the head entity, rather than creating multi-hop connections through specific item entities.
+- **GENERAL CATEGORY INFERENCE:**
+    - **Always infer and add broader, general categories for specific items mentioned.**
+    - For example: **"spicy curries"** requires the general category **"Curry"**. **"raw oysters"** requires **"oysters"**. **"craft beer"** requires **"Beer"**.
+    - These general categories must be directly linked to the head entity (e.g., [ID, Relationship, General Category]).
+    - Do not create multi-hop connections.

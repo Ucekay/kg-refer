@@ -182,18 +182,25 @@ class SchemaCanonicalizer:
         if canonicalized_triplet is None:
             # Cannot be canonicalized
             if enrich:
-                self.schema_dict[open_relation] = open_relation_definition_dict[
-                    open_relation
-                ]
+                # Use definition if available, otherwise use relation name as definition
+                if open_relation in open_relation_definition_dict:
+                    relation_definition = open_relation_definition_dict[open_relation]
+                else:
+                    relation_definition = (
+                        open_relation  # Fallback: use relation name as definition
+                    )
+
+                self.schema_dict[open_relation] = relation_definition
+
+                # Generate embedding for the relation definition
                 if "sts_query" in self.embedder.prompts:
                     embedding = self.embedder.encode(
-                        open_relation_definition_dict[open_relation],
+                        relation_definition,
                         prompt_name="sts_query",
                     )
                 else:
-                    embedding = self.embedder.encode(
-                        open_relation_definition_dict[open_relation]
-                    )
+                    embedding = self.embedder.encode(relation_definition)
+
                 self.schema_embedding_dict[open_relation] = embedding
                 canonicalized_triplet = open_triplet
         return canonicalized_triplet, dict(zip(candidate_relations, candidate_scores))
@@ -427,19 +434,35 @@ class OpenAIAsyncSchemaCanonicalizer:
         for idx, triplet in enumerate(canonicalized_triplet_list):
             if triplet is None:
                 if enrich:
-                    self.schema_dict[open_triplets[idx][1]] = (
-                        open_relation_definition_dict[open_triplets[idx][1]]
-                    )
+                    # Add relation to schema even if not in definition dict
+                    relation_name = open_triplets[idx][1]
+
+                    # Use definition if available, otherwise use relation name as definition
+                    if relation_name in open_relation_definition_dict:
+                        relation_definition = open_relation_definition_dict[
+                            relation_name
+                        ]
+                    else:
+                        logger.warning(
+                            f"Enriching schema with relation '{relation_name}' without definition."
+                        )
+                        relation_definition = (
+                            relation_name  # Fallback: use relation name as definition
+                        )
+
+                    self.schema_dict[relation_name] = relation_definition
+
+                    # Generate embedding for the relation definition
                     if "sts_query" in self.embedder.prompts:
                         embedding = self.embedder.encode(
-                            open_relation_definition_dict[open_triplets[idx][1]],
+                            relation_definition,
                             prompt_name="sts_query",
                         )
                     else:
-                        embedding = self.embedder.encode(
-                            open_relation_definition_dict[open_triplets[idx][1]]
-                        )
-                    self.schema_embedding_dict[open_triplets[idx][1]] = embedding
+                        embedding = self.embedder.encode(relation_definition)
+
+                    self.schema_embedding_dict[relation_name] = embedding
+                    canonicalized_triplet_list[idx] = open_triplets[idx]
 
         return canonicalized_triplet_list, candidate_relations_and_scores_dict_list
 
