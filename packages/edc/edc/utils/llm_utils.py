@@ -140,6 +140,10 @@ def parse_relation_definition(raw_definitions: str):
 
     for description in descriptions:
         if ":" not in description:
+            if description.strip():  # Log non-empty lines without colons
+                logger.warning(
+                    f"Line without colon in relation definition: '{description}'"
+                )
             continue
         index_of_colon = description.index(":")
         relation = description[:index_of_colon].strip()
@@ -151,7 +155,7 @@ def parse_relation_definition(raw_definitions: str):
 
         relation_definition_dict[relation] = relation_description
 
-    logger.debug(
+    logger.info(
         f"Relation Definitions {raw_definitions} parsed as {relation_definition_dict}"
     )
     return relation_definition_dict
@@ -208,7 +212,7 @@ def openai_chat_completion(
     instructions: str,
     input: str,
     temperature: float = 0.0,
-    max_tokens: int = 512,
+    max_tokens: int = 1024,
 ) -> str:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
