@@ -1,0 +1,1390 @@
+[
+    {
+        "index": 0,
+        "item_id": 5,
+        "input_text": "Fans of craft beer, diverse food options, and a laid-back atmosphere with friends, including vegetarians and dog owners, would enjoy Broad Ripple Brewpub in Indianapolis.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "5",
+                "located in",
+                "Indianapolis"
+            ],
+            [
+                "5",
+                "serves",
+                "craft beer"
+            ],
+            [
+                "5",
+                "offers",
+                "diverse food options"
+            ],
+            [
+                "5",
+                "has atmosphere",
+                "laid-back"
+            ],
+            [
+                "5",
+                "suitable for",
+                "Friends"
+            ],
+            [
+                "5",
+                "appeals to",
+                "Fans of craft beer"
+            ],
+            [
+                "5",
+                "appeals to",
+                "Food lovers"
+            ],
+            [
+                "5",
+                "appeals to",
+                "Casual atmosphere lovers"
+            ],
+            [
+                "5",
+                "caters to",
+                "Vegetarians"
+            ],
+            [
+                "5",
+                "caters to",
+                "Dog owners"
+            ],
+            [
+                "5",
+                "is a",
+                "Brewpub"
+            ],
+            [
+                "5",
+                "is a",
+                "Restaurant"
+            ]
+        ],
+        "schema_definition": {
+            "has atmosphere": "The subject entity provides or is characterized by the ambiance or environment specified by the object entity.",
+            "serves": "The subject entity offers or provides the type of product, service, or content specified by the object entity.",
+            "located in": "The subject entity is physically situated in or found within the location specified by the object entity.",
+            "is a": "The subject entity belongs to or is classified as the category or type specified by the object entity.",
+            "offers": "The subject entity makes available or provides the specified product, service, or content.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "caters to": "The subject entity provides services or accommodations suitable for the needs or preferences of the group or type specified by the object entity.",
+            "suitable for": "The subject entity is appropriate for or fits the purpose, occasion, or group specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "5",
+                "located in",
+                "Indianapolis"
+            ],
+            [
+                "5",
+                "serves",
+                "craft beer"
+            ],
+            [
+                "5",
+                "offers",
+                "diverse food options"
+            ],
+            [
+                "5",
+                "has atmosphere",
+                "laid-back"
+            ],
+            [
+                "5",
+                "suitable for",
+                "Friends"
+            ],
+            [
+                "5",
+                "appeals to",
+                "Fans of craft beer"
+            ],
+            [
+                "5",
+                "appeals to",
+                "Food lovers"
+            ],
+            [
+                "5",
+                "appeals to",
+                "Casual atmosphere lovers"
+            ],
+            [
+                "5",
+                "caters to",
+                "Vegetarians"
+            ],
+            [
+                "5",
+                "caters to",
+                "Dog owners"
+            ],
+            [
+                "5",
+                "is a",
+                "Brewpub"
+            ],
+            [
+                "5",
+                "is a",
+                "Restaurant"
+            ]
+        ]
+    },
+    {
+        "index": 1,
+        "item_id": 7,
+        "input_text": "Baseball fans of all ages who enjoy a variety of food options, good facilities, reasonable ticket prices, and a lively atmosphere with friendly crowds would enjoy visiting Citizens Bank Park in Philadelphia.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "7",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "7",
+                "serves",
+                "Baseball fans"
+            ],
+            [
+                "7",
+                "has feature",
+                "variety of food options"
+            ],
+            [
+                "7",
+                "has atmosphere",
+                "good facilities"
+            ],
+            [
+                "7",
+                "suitable for",
+                "reasonable ticket prices"
+            ],
+            [
+                "7",
+                "has atmosphere",
+                "lively atmosphere"
+            ],
+            [
+                "7",
+                "has atmosphere",
+                "friendly crowds"
+            ],
+            [
+                "7",
+                "is a",
+                "Sports stadium"
+            ],
+            [
+                "7",
+                "is a",
+                "Entertainment venue"
+            ]
+        ],
+        "schema_definition": {
+            "has atmosphere": "The subject entity provides or is characterized by the ambiance or environment specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the specific attribute or characteristic specified by the object entity.",
+            "serves": "The subject entity offers or provides the service, activity, or experience specified by the object entity.",
+            "located in": "The subject entity is physically situated in or found within the location specified by the object entity.",
+            "category": "The subject entity is classified as or belongs to the category or type specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {'is a': np.float32(0.8544384), 'has atmosphere': np.float32(0.8117467), 'located in': np.float32(0.7890434), 'suitable for': np.float32(0.7710386), 'appeals to': np.float32(0.7619192)}, {'is a': np.float32(0.8544384), 'has atmosphere': np.float32(0.8117467), 'located in': np.float32(0.7890434), 'suitable for': np.float32(0.7710386), 'appeals to': np.float32(0.7619192)}, {'is a': np.float32(0.8544384), 'has atmosphere': np.float32(0.8117467), 'located in': np.float32(0.7890434), 'suitable for': np.float32(0.7710386), 'appeals to': np.float32(0.7619192)}, {}, {'is a': np.float32(0.8544384), 'has atmosphere': np.float32(0.8117467), 'located in': np.float32(0.7890434), 'suitable for': np.float32(0.7710386), 'appeals to': np.float32(0.7619192)}, {'is a': np.float32(1.000412), 'located in': np.float32(0.80796343), 'suitable for': np.float32(0.8031495), 'has atmosphere': np.float32(0.7664772), 'appeals to': np.float32(0.76229334)}, {'is a': np.float32(1.000412), 'located in': np.float32(0.80796343), 'suitable for': np.float32(0.8031495), 'has atmosphere': np.float32(0.7664772), 'appeals to': np.float32(0.76229334)}]",
+        "schema_canonicalizaiton": [
+            [
+                "7",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "7",
+                "serves",
+                "Baseball fans"
+            ],
+            [
+                "7",
+                "has feature",
+                "variety of food options"
+            ],
+            [
+                "7",
+                "has atmosphere",
+                "good facilities"
+            ],
+            [
+                "7",
+                "suitable for",
+                "reasonable ticket prices"
+            ],
+            [
+                "7",
+                "has atmosphere",
+                "lively atmosphere"
+            ],
+            [
+                "7",
+                "has atmosphere",
+                "friendly crowds"
+            ],
+            [
+                "7",
+                "is a",
+                "Sports stadium"
+            ],
+            [
+                "7",
+                "is a",
+                "Entertainment venue"
+            ]
+        ]
+    },
+    {
+        "index": 2,
+        "item_id": 8,
+        "input_text": "Users who enjoy delicious brunch options, fried chicken and waffles, cane syrup and gravy, oysters, liver pate, German pizza, and a cozy ambiance with good drinks would appreciate Luke's offerings in New Orleans.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "8",
+                "located in",
+                "New Orleans"
+            ],
+            [
+                "8",
+                "serves",
+                "brunch"
+            ],
+            [
+                "8",
+                "serves",
+                "fried chicken and waffles"
+            ],
+            [
+                "8",
+                "serves",
+                "cane syrup"
+            ],
+            [
+                "8",
+                "offers",
+                "gravy"
+            ],
+            [
+                "8",
+                "serves",
+                "oysters"
+            ],
+            [
+                "8",
+                "serves",
+                "liver pate"
+            ],
+            [
+                "8",
+                "serves",
+                "German pizza"
+            ],
+            [
+                "8",
+                "has atmosphere",
+                "cozy ambiance"
+            ],
+            [
+                "8",
+                "has feature",
+                "good drinks"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Users who enjoy brunch"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Fans of fried chicken and waffles"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Lovers of oysters"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Lovers of liver pate"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Fans of German pizza"
+            ]
+        ],
+        "schema_definition": {
+            "has atmosphere": "The subject entity provides or is characterized by the ambiance or environment specified by the object entity.",
+            "serves cuisine": "The subject entity offers or provides the type of cuisine specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "serves condiment": "The subject entity offers or provides the condiment specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "serves dish": "The subject entity offers or provides the specific dish specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'serves': np.float32(0.82827663), 'offers': np.float32(0.7966306), 'has atmosphere': np.float32(0.76163673), 'caters to': np.float32(0.7593833), 'is a': np.float32(0.72288793)}, {'serves': np.float32(0.8453355), 'offers': np.float32(0.831046), 'has atmosphere': np.float32(0.7616532), 'caters to': np.float32(0.7477006), 'has feature': np.float32(0.730528)}, {'serves': np.float32(0.83273876), 'offers': np.float32(0.81808734), 'has atmosphere': np.float32(0.7611333), 'caters to': np.float32(0.7347182), 'suitable for': np.float32(0.71996063)}, {'serves': np.float32(0.83273876), 'offers': np.float32(0.81808734), 'has atmosphere': np.float32(0.7611333), 'caters to': np.float32(0.7347182), 'suitable for': np.float32(0.71996063)}, {'serves': np.float32(0.8453355), 'offers': np.float32(0.831046), 'has atmosphere': np.float32(0.7616532), 'caters to': np.float32(0.7477006), 'has feature': np.float32(0.730528)}, {'serves': np.float32(0.8453355), 'offers': np.float32(0.831046), 'has atmosphere': np.float32(0.7616532), 'caters to': np.float32(0.7477006), 'has feature': np.float32(0.730528)}, {'serves': np.float32(0.82827663), 'offers': np.float32(0.7966306), 'has atmosphere': np.float32(0.76163673), 'caters to': np.float32(0.7593833), 'is a': np.float32(0.72288793)}, {}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "8",
+                "located in",
+                "New Orleans"
+            ],
+            [
+                "8",
+                "serves",
+                "brunch"
+            ],
+            [
+                "8",
+                "serves",
+                "fried chicken and waffles"
+            ],
+            [
+                "8",
+                "serves",
+                "cane syrup"
+            ],
+            [
+                "8",
+                "offers",
+                "gravy"
+            ],
+            [
+                "8",
+                "serves",
+                "oysters"
+            ],
+            [
+                "8",
+                "serves",
+                "liver pate"
+            ],
+            [
+                "8",
+                "serves",
+                "German pizza"
+            ],
+            [
+                "8",
+                "has atmosphere",
+                "cozy ambiance"
+            ],
+            [
+                "8",
+                "has feature",
+                "good drinks"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Users who enjoy brunch"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Fans of fried chicken and waffles"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Lovers of oysters"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Lovers of liver pate"
+            ],
+            [
+                "8",
+                "appeals to",
+                "Fans of German pizza"
+            ]
+        ]
+    },
+    {
+        "index": 3,
+        "item_id": 0,
+        "input_text": "Fans of Sonoran hot dogs, Mexican cuisine, and casual dining with affordable prices would enjoy BK Tacos in Tucson. Customers who appreciate a salsa bar for customizing their meals and a vibrant atmosphere near a college campus would also find it appealing.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "0",
+                "located in",
+                "Tucson"
+            ],
+            [
+                "0",
+                "is a",
+                "Mexican cuisine"
+            ],
+            [
+                "0",
+                "serves",
+                "Sonoran hot dogs"
+            ],
+            [
+                "0",
+                "has atmosphere",
+                "vibrant"
+            ],
+            [
+                "0",
+                "has feature",
+                "salsa bar"
+            ],
+            [
+                "0",
+                "has feature",
+                "customizing meals"
+            ],
+            [
+                "0",
+                "has atmosphere",
+                "casual dining"
+            ],
+            [
+                "0",
+                "offers",
+                "affordable prices"
+            ],
+            [
+                "0",
+                "appeals to",
+                "Fans of Sonoran hot dogs"
+            ],
+            [
+                "0",
+                "appeals to",
+                "Fans of Mexican cuisine"
+            ],
+            [
+                "0",
+                "appeals to",
+                "Casual dining lovers"
+            ],
+            [
+                "0",
+                "suitable for",
+                "Quick meal"
+            ],
+            [
+                "0",
+                "suitable for",
+                "Budget dining"
+            ],
+            [
+                "0",
+                "located in",
+                "college campus"
+            ]
+        ],
+        "schema_definition": {
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "serves cuisine": "The subject entity offers or provides the type of cuisine specified by the object entity.",
+            "serves dish": "The subject entity offers or provides the specific dish specified by the object entity.",
+            "has atmosphere": "The subject entity provides or is characterized by the ambiance or environment specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "located near": "The subject entity is geographically close to or in proximity to the location specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "price range": "The subject entity operates within or offers the pricing level specified by the object entity.",
+            "suitable for": "The subject entity is appropriate for or fits the purpose or occasion specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'serves': np.float32(0.82827663), 'offers': np.float32(0.7966306), 'has atmosphere': np.float32(0.76163673), 'caters to': np.float32(0.7593833), 'is a': np.float32(0.72288793)}, {'serves': np.float32(0.8453355), 'offers': np.float32(0.831046), 'has atmosphere': np.float32(0.7616532), 'caters to': np.float32(0.7477006), 'has feature': np.float32(0.730528)}, {}, {}, {}, {}, {'serves': np.float32(0.8095625), 'offers': np.float32(0.7824736), 'is a': np.float32(0.7536046), 'has atmosphere': np.float32(0.75246525), 'located in': np.float32(0.74337757)}, {}, {}, {}, {}, {}, {'located in': np.float32(0.90146327), 'is a': np.float32(0.77278286), 'has feature': np.float32(0.7668365), 'has atmosphere': np.float32(0.7654284), 'suitable for': np.float32(0.7437645)}]",
+        "schema_canonicalizaiton": [
+            [
+                "0",
+                "located in",
+                "Tucson"
+            ],
+            [
+                "0",
+                "is a",
+                "Mexican cuisine"
+            ],
+            [
+                "0",
+                "serves",
+                "Sonoran hot dogs"
+            ],
+            [
+                "0",
+                "has atmosphere",
+                "vibrant"
+            ],
+            [
+                "0",
+                "has feature",
+                "salsa bar"
+            ],
+            [
+                "0",
+                "has feature",
+                "customizing meals"
+            ],
+            [
+                "0",
+                "has atmosphere",
+                "casual dining"
+            ],
+            [
+                "0",
+                "offers",
+                "affordable prices"
+            ],
+            [
+                "0",
+                "appeals to",
+                "Fans of Sonoran hot dogs"
+            ],
+            [
+                "0",
+                "appeals to",
+                "Fans of Mexican cuisine"
+            ],
+            [
+                "0",
+                "appeals to",
+                "Casual dining lovers"
+            ],
+            [
+                "0",
+                "suitable for",
+                "Quick meal"
+            ],
+            [
+                "0",
+                "suitable for",
+                "Budget dining"
+            ],
+            [
+                "0",
+                "located in",
+                "college campus"
+            ]
+        ]
+    },
+    {
+        "index": 4,
+        "item_id": 1,
+        "input_text": "Users who enjoy cozy cafes with good coffee, food options including bagels, and a spacious environment for studying or working, along with dog-friendly and outdoor seating, would appreciate Good Karma Cafe in Philadelphia.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "1",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "1",
+                "serves",
+                "coffee"
+            ],
+            [
+                "1",
+                "serves",
+                "food options"
+            ],
+            [
+                "1",
+                "serves",
+                "bagels"
+            ],
+            [
+                "1",
+                "has feature",
+                "cozy cafes"
+            ],
+            [
+                "1",
+                "has feature",
+                "spacious environment"
+            ],
+            [
+                "1",
+                "has feature",
+                "dog-friendly"
+            ],
+            [
+                "1",
+                "has feature",
+                "outdoor seating"
+            ],
+            [
+                "1",
+                "suitable for",
+                "studying"
+            ],
+            [
+                "1",
+                "suitable for",
+                "working"
+            ],
+            [
+                "1",
+                "appeals to",
+                "Users who enjoy cozy cafes"
+            ],
+            [
+                "1",
+                "appeals to",
+                "Coffee lovers"
+            ],
+            [
+                "1",
+                "appeals to",
+                "Food enthusiasts"
+            ],
+            [
+                "1",
+                "appeals to",
+                "Dog owners"
+            ],
+            [
+                "1",
+                "is a",
+                "Cafe"
+            ],
+            [
+                "1",
+                "is a",
+                "Coffee shop"
+            ]
+        ],
+        "schema_definition": {
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "serves": "The subject entity provides or offers the product, service, or item specified by the object entity.",
+            "located in": "The subject entity is physically situated in or found within the location specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "category": "The subject entity belongs to or is classified under the category specified by the object entity.",
+            "suitable for": "The subject entity is appropriate for or fits the purpose, activity, or occasion specified by the object entity.",
+            "serves dish": "The subject entity offers or provides the specific dish specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {'serves': np.float32(0.8453355), 'offers': np.float32(0.831046), 'has atmosphere': np.float32(0.7616532), 'caters to': np.float32(0.7477006), 'has feature': np.float32(0.730528)}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {'is a': np.float32(0.9883166), 'has feature': np.float32(0.8451712), 'located in': np.float32(0.8111656), 'suitable for': np.float32(0.79595494), 'has atmosphere': np.float32(0.7582058)}, {'is a': np.float32(0.9883166), 'has feature': np.float32(0.8451712), 'located in': np.float32(0.8111656), 'suitable for': np.float32(0.79595494), 'has atmosphere': np.float32(0.7582058)}]",
+        "schema_canonicalizaiton": [
+            [
+                "1",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "1",
+                "serves",
+                "coffee"
+            ],
+            [
+                "1",
+                "serves",
+                "food options"
+            ],
+            [
+                "1",
+                "serves",
+                "bagels"
+            ],
+            [
+                "1",
+                "has feature",
+                "cozy cafes"
+            ],
+            [
+                "1",
+                "has feature",
+                "spacious environment"
+            ],
+            [
+                "1",
+                "has feature",
+                "dog-friendly"
+            ],
+            [
+                "1",
+                "has feature",
+                "outdoor seating"
+            ],
+            [
+                "1",
+                "suitable for",
+                "studying"
+            ],
+            [
+                "1",
+                "suitable for",
+                "working"
+            ],
+            [
+                "1",
+                "appeals to",
+                "Users who enjoy cozy cafes"
+            ],
+            [
+                "1",
+                "appeals to",
+                "Coffee lovers"
+            ],
+            [
+                "1",
+                "appeals to",
+                "Food enthusiasts"
+            ],
+            [
+                "1",
+                "appeals to",
+                "Dog owners"
+            ],
+            [
+                "1",
+                "is a",
+                "Cafe"
+            ],
+            [
+                "1",
+                "is a",
+                "Coffee shop"
+            ]
+        ]
+    },
+    {
+        "index": 5,
+        "item_id": 2,
+        "input_text": "Fans of interactive comedy shows in an intimate setting, who enjoy being part of the performance and appreciate shows that are reasonably priced and entertaining, would enjoy The N Crowd in Philadelphia.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "2",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "2",
+                "caters to",
+                "interactive comedy shows"
+            ],
+            [
+                "2",
+                "has atmosphere",
+                "intimate setting"
+            ],
+            [
+                "2",
+                "appeals to",
+                "Fans of interactive comedy shows"
+            ],
+            [
+                "2",
+                "has feature",
+                "being part of the performance"
+            ],
+            [
+                "2",
+                "has feature",
+                "entertaining shows"
+            ],
+            [
+                "2",
+                "price range",
+                "reasonably priced"
+            ]
+        ],
+        "schema_definition": {
+            "has setting": "The subject entity possesses or is characterized by the environment or context specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the attribute or characteristic specified by the object entity.",
+            "serves genre": "The subject entity offers or provides content or experiences belonging to the specified category or type.",
+            "located in": "The subject entity is physically situated in or found within the location specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "price range": "The subject entity operates within or offers the pricing level specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'serves': np.float32(0.88884014), 'offers': np.float32(0.88101995), 'caters to': np.float32(0.7907096), 'has atmosphere': np.float32(0.7802824), 'is a': np.float32(0.76816326)}, {'has atmosphere': np.float32(0.91543996), 'has feature': np.float32(0.8766657), 'located in': np.float32(0.84900945), 'is a': np.float32(0.8202715), 'suitable for': np.float32(0.78134125)}, {}, {}, {}, {'serves': np.float32(0.8095625), 'offers': np.float32(0.7824736), 'is a': np.float32(0.7536046), 'has atmosphere': np.float32(0.75246525), 'located in': np.float32(0.74337757)}]",
+        "schema_canonicalizaiton": [
+            [
+                "2",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "2",
+                "caters to",
+                "interactive comedy shows"
+            ],
+            [
+                "2",
+                "has atmosphere",
+                "intimate setting"
+            ],
+            [
+                "2",
+                "appeals to",
+                "Fans of interactive comedy shows"
+            ],
+            [
+                "2",
+                "has feature",
+                "being part of the performance"
+            ],
+            [
+                "2",
+                "has feature",
+                "entertaining shows"
+            ],
+            [
+                "2",
+                "price range",
+                "reasonably priced"
+            ]
+        ]
+    },
+    {
+        "index": 6,
+        "item_id": 6,
+        "input_text": "Individuals who value community connections, locally grown produce, natural and preservative-free foods, fair prices, and are willing to contribute through work hours would enjoy shopping at Weavers Way Co-Op in Philadelphia.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "6",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "6",
+                "is a",
+                "Cooperative"
+            ],
+            [
+                "6",
+                "serves",
+                "Community connections"
+            ],
+            [
+                "6",
+                "serves",
+                "Locally grown produce"
+            ],
+            [
+                "6",
+                "serves",
+                "Natural foods"
+            ],
+            [
+                "6",
+                "serves",
+                "Preservative-free foods"
+            ],
+            [
+                "6",
+                "has feature",
+                "Fair prices"
+            ],
+            [
+                "6",
+                "has feature",
+                "Work contribution"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals who value community connections"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals who value locally grown produce"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals who value natural foods"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals who value preservative-free foods"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals willing to contribute through work hours"
+            ]
+        ],
+        "schema_definition": {
+            "has feature": "The subject entity possesses or is characterized by the specific attribute or characteristic specified by the object entity.",
+            "serves": "The subject entity provides or offers the content, service, or benefit specified by the object entity.",
+            "located in": "The subject entity is physically situated in or found within the location specified by the object entity.",
+            "is a": "The subject entity belongs to or is classified as the category or type specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "6",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "6",
+                "is a",
+                "Cooperative"
+            ],
+            [
+                "6",
+                "serves",
+                "Community connections"
+            ],
+            [
+                "6",
+                "serves",
+                "Locally grown produce"
+            ],
+            [
+                "6",
+                "serves",
+                "Natural foods"
+            ],
+            [
+                "6",
+                "serves",
+                "Preservative-free foods"
+            ],
+            [
+                "6",
+                "has feature",
+                "Fair prices"
+            ],
+            [
+                "6",
+                "has feature",
+                "Work contribution"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals who value community connections"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals who value locally grown produce"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals who value natural foods"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals who value preservative-free foods"
+            ],
+            [
+                "6",
+                "appeals to",
+                "Individuals willing to contribute through work hours"
+            ]
+        ]
+    },
+    {
+        "index": 7,
+        "item_id": 9,
+        "input_text": "Fans of Cajun/Creole and American cuisine, looking for decently priced food in a friendly atmosphere, with unique twists on traditional dishes like duck gumbo and shrimp clemenceau, would enjoy The Governor in New Orleans.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "9",
+                "located in",
+                "New Orleans"
+            ],
+            [
+                "9",
+                "serves",
+                "Cajun/Creole"
+            ],
+            [
+                "9",
+                "serves",
+                "American"
+            ],
+            [
+                "9",
+                "serves",
+                "duck gumbo"
+            ],
+            [
+                "9",
+                "serves",
+                "shrimp clemenceau"
+            ],
+            [
+                "9",
+                "has feature",
+                "friendly atmosphere"
+            ],
+            [
+                "9",
+                "price range",
+                "decently priced"
+            ],
+            [
+                "9",
+                "appeals to",
+                "Fans of Cajun/Creole cuisine"
+            ],
+            [
+                "9",
+                "appeals to",
+                "Fans of American cuisine"
+            ],
+            [
+                "9",
+                "appeals to",
+                "Food lovers"
+            ],
+            [
+                "9",
+                "is a",
+                "Restaurant"
+            ]
+        ],
+        "schema_definition": {
+            "has category": "The subject entity belongs to or is classified under the category specified by the object entity.",
+            "serves cuisine": "The subject entity offers or provides the type of cuisine specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "located in": "The subject entity is physically situated in or found within the location specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "price range": "The subject entity operates within or offers the pricing level specified by the object entity.",
+            "serves dish": "The subject entity offers or provides the specific dish specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'serves': np.float32(0.82827663), 'offers': np.float32(0.7966306), 'has atmosphere': np.float32(0.76163673), 'caters to': np.float32(0.7593833), 'price range': np.float32(0.7539375)}, {'serves': np.float32(0.82827663), 'offers': np.float32(0.7966306), 'has atmosphere': np.float32(0.76163673), 'caters to': np.float32(0.7593833), 'price range': np.float32(0.7539375)}, {'serves': np.float32(0.8453355), 'offers': np.float32(0.831046), 'price range': np.float32(0.769686), 'has atmosphere': np.float32(0.7616532), 'caters to': np.float32(0.7477006)}, {'serves': np.float32(0.8453355), 'offers': np.float32(0.831046), 'price range': np.float32(0.769686), 'has atmosphere': np.float32(0.7616532), 'caters to': np.float32(0.7477006)}, {}, {}, {}, {}, {}, {'is a': np.float32(0.9883166), 'has feature': np.float32(0.8451716), 'located in': np.float32(0.8111656), 'suitable for': np.float32(0.79595494), 'price range': np.float32(0.7633928)}]",
+        "schema_canonicalizaiton": [
+            [
+                "9",
+                "located in",
+                "New Orleans"
+            ],
+            [
+                "9",
+                "serves",
+                "Cajun/Creole"
+            ],
+            [
+                "9",
+                "serves",
+                "American"
+            ],
+            [
+                "9",
+                "serves",
+                "duck gumbo"
+            ],
+            [
+                "9",
+                "serves",
+                "shrimp clemenceau"
+            ],
+            [
+                "9",
+                "has feature",
+                "friendly atmosphere"
+            ],
+            [
+                "9",
+                "price range",
+                "decently priced"
+            ],
+            [
+                "9",
+                "appeals to",
+                "Fans of Cajun/Creole cuisine"
+            ],
+            [
+                "9",
+                "appeals to",
+                "Fans of American cuisine"
+            ],
+            [
+                "9",
+                "appeals to",
+                "Food lovers"
+            ],
+            [
+                "9",
+                "is a",
+                "Restaurant"
+            ]
+        ]
+    },
+    {
+        "index": 8,
+        "item_id": 3,
+        "input_text": "Individuals who appreciate a wide variety of menu options, efficient service, and fresh, delicious food would enjoy The Coventry Deli. It is suitable for both those who prefer their usual order and those who like to try new dishes.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "3",
+                "located in",
+                "unspecified"
+            ],
+            [
+                "3",
+                "caters to",
+                "delicatessen"
+            ],
+            [
+                "3",
+                "serves",
+                "menu options"
+            ],
+            [
+                "3",
+                "has feature",
+                "efficient service"
+            ],
+            [
+                "3",
+                "serves",
+                "fresh food"
+            ],
+            [
+                "3",
+                "serves",
+                "delicious food"
+            ],
+            [
+                "3",
+                "suitable for",
+                "individuals who prefer their usual order"
+            ],
+            [
+                "3",
+                "suitable for",
+                "individuals who like to try new dishes"
+            ],
+            [
+                "3",
+                "is a",
+                "Food establishment"
+            ],
+            [
+                "3",
+                "is a",
+                "Deli"
+            ]
+        ],
+        "schema_definition": {
+            "serves food": "The subject entity provides or offers the type of food specified by the object entity.",
+            "serves cuisine": "The subject entity offers or provides the specific style or category of cuisine specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the feature or attribute specified by the object entity.",
+            "located in": "The subject entity is physically situated in or found within the location specified by the object entity.",
+            "category": "The subject entity belongs to or is classified under the category or classification specified by the object entity.",
+            "suitable for": "The subject entity is appropriate for or fits the needs, preferences, or purposes specified by the object entity.",
+            "serves dish": "The subject entity offers or provides the specific dish or item specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'serves': np.float32(0.80005836), 'offers': np.float32(0.7700486), 'has atmosphere': np.float32(0.753281), 'caters to': np.float32(0.7525674), 'price range': np.float32(0.7347397)}, {'serves': np.float32(0.8648194), 'offers': np.float32(0.84743285), 'price range': np.float32(0.77441144), 'has atmosphere': np.float32(0.7613863), 'caters to': np.float32(0.7546036)}, {}, {'serves': np.float32(0.86743504), 'offers': np.float32(0.83688927), 'price range': np.float32(0.77488923), 'has atmosphere': np.float32(0.77300835), 'caters to': np.float32(0.7683722)}, {'serves': np.float32(0.86743504), 'offers': np.float32(0.83688927), 'price range': np.float32(0.77488923), 'has atmosphere': np.float32(0.77300835), 'caters to': np.float32(0.7683722)}, {}, {}, {'is a': np.float32(0.98436797), 'has feature': np.float32(0.8398536), 'located in': np.float32(0.8036472), 'suitable for': np.float32(0.7938208), 'price range': np.float32(0.7605334)}, {'is a': np.float32(0.98436797), 'has feature': np.float32(0.8398536), 'located in': np.float32(0.8036472), 'suitable for': np.float32(0.7938208), 'price range': np.float32(0.7605334)}]",
+        "schema_canonicalizaiton": [
+            [
+                "3",
+                "located in",
+                "unspecified"
+            ],
+            [
+                "3",
+                "caters to",
+                "delicatessen"
+            ],
+            [
+                "3",
+                "serves",
+                "menu options"
+            ],
+            [
+                "3",
+                "has feature",
+                "efficient service"
+            ],
+            [
+                "3",
+                "serves",
+                "fresh food"
+            ],
+            [
+                "3",
+                "serves",
+                "delicious food"
+            ],
+            [
+                "3",
+                "suitable for",
+                "individuals who prefer their usual order"
+            ],
+            [
+                "3",
+                "suitable for",
+                "individuals who like to try new dishes"
+            ],
+            [
+                "3",
+                "is a",
+                "Food establishment"
+            ],
+            [
+                "3",
+                "is a",
+                "Deli"
+            ]
+        ]
+    },
+    {
+        "index": 9,
+        "item_id": 4,
+        "input_text": "Fans of flavorful Thai cuisine in a laid-back atmosphere, seeking good quality dishes like duck green curry fried rice and pad thai, would enjoy Jasmine Rice - Rittenhouse in Philadelphia. BYO wine option available for a casual evening out near Rittenhouse.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "4",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "4",
+                "serves",
+                "Thai cuisine"
+            ],
+            [
+                "4",
+                "has atmosphere",
+                "laid-back"
+            ],
+            [
+                "4",
+                "serves dish",
+                "duck green curry"
+            ],
+            [
+                "4",
+                "serves dish",
+                "fried rice"
+            ],
+            [
+                "4",
+                "serves dish",
+                "Pad Thai"
+            ],
+            [
+                "4",
+                "has feature",
+                "BYO wine"
+            ],
+            [
+                "4",
+                "suitable for",
+                "Casual evening"
+            ],
+            [
+                "4",
+                "located in",
+                "Rittenhouse"
+            ],
+            [
+                "4",
+                "is a",
+                "Thai restaurant"
+            ],
+            [
+                "4",
+                "is a",
+                "Casual dining"
+            ]
+        ],
+        "schema_definition": {
+            "has atmosphere": "The subject entity provides or is characterized by the ambiance or environment specified by the object entity.",
+            "serves cuisine": "The subject entity offers or provides the type of cuisine specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "category": "The subject entity is classified as or belongs to the category specified by the object entity.",
+            "near": "The subject entity is in close proximity to or adjacent to the location specified by the object entity.",
+            "suitable for": "The subject entity is appropriate for or fits the purpose or occasion specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'serves': np.float32(0.82827663), 'offers': np.float32(0.7966306), 'has atmosphere': np.float32(0.76163673), 'caters to': np.float32(0.7593833), 'price range': np.float32(0.7539375)}, {}, {}, {}, {}, {}, {}, {'located in': np.float32(0.89928484), 'has feature': np.float32(0.77085584), 'is a': np.float32(0.7699348), 'has atmosphere': np.float32(0.76907206), 'suitable for': np.float32(0.7544652)}, {'is a': np.float32(0.98625636), 'has feature': np.float32(0.847858), 'located in': np.float32(0.81203413), 'suitable for': np.float32(0.7989461), 'has atmosphere': np.float32(0.76260185)}, {'is a': np.float32(0.98625636), 'has feature': np.float32(0.847858), 'located in': np.float32(0.81203413), 'suitable for': np.float32(0.7989461), 'has atmosphere': np.float32(0.76260185)}]",
+        "schema_canonicalizaiton": [
+            [
+                "4",
+                "located in",
+                "Philadelphia"
+            ],
+            [
+                "4",
+                "serves",
+                "Thai cuisine"
+            ],
+            [
+                "4",
+                "has atmosphere",
+                "laid-back"
+            ],
+            [
+                "4",
+                "serves dish",
+                "duck green curry"
+            ],
+            [
+                "4",
+                "serves dish",
+                "fried rice"
+            ],
+            [
+                "4",
+                "serves dish",
+                "Pad Thai"
+            ],
+            [
+                "4",
+                "has feature",
+                "BYO wine"
+            ],
+            [
+                "4",
+                "suitable for",
+                "Casual evening"
+            ],
+            [
+                "4",
+                "located in",
+                "Rittenhouse"
+            ],
+            [
+                "4",
+                "is a",
+                "Thai restaurant"
+            ],
+            [
+                "4",
+                "is a",
+                "Casual dining"
+            ]
+        ]
+    }
+]

@@ -1,6 +1,7 @@
 located in,The subject entity is physically situated in or found in the location specified by the object entity.
 serves cuisine,The subject entity offers or provides the type of cuisine specified by the object entity.
 serves dish,The subject entity offers or provides the specific dish specified by the object entity.
+serves meal type,The subject entity offers or provides the type of meal specified by the object entity.
 has feature,The subject entity possesses or is characterized by the feature specified by the object entity.
 price range,The subject entity operates within or offers the pricing level specified by the object entity.
 has atmosphere,The subject entity provides or is characterized by the ambiance or environment specified by the object entity.
@@ -8,4 +9,9 @@ suitable for,The subject entity is appropriate for or fits the purpose or occasi
 appeals to,The subject entity attracts or is attractive to the group or type of people specified by the object entity.
 is a,The subject entity is classified as or belongs to the category specified by the object entity.
 serves drink,The subject entity offers or provides the beverage or drink specified by the object entity.
-serves meal type,The subject entity offers or provides the type of meal specified by the object entity.
+presents,"The subject entity shows, performs, or offers the content specified by the object entity."
+presents genre,The subject entity features or showcases works of the genre specified by the object entity.
+offers,The subject entity provides or makes available the service or product specified by the object entity.
+uses,The subject entity utilizes or employs the item or product specified by the object entity.
+caters to,The subject entity serves or provides services to the group or type specified by the object entity.
+sells,The subject entity offers for sale or provides the product or item specified by the object entity.

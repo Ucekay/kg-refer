@@ -9,18 +9,18 @@
       ],
       [
         "5",
-        "is a",
-        "Brewpub"
-      ],
-      [
-        "5",
-        "serves cuisine",
+        "offers",
         "craft beer"
       ],
       [
         "5",
-        "serves cuisine",
-        "food"
+        "offers",
+        "Beer"
+      ],
+      [
+        "5",
+        "offers",
+        "diverse food options"
       ],
       [
         "5",
@@ -29,23 +29,23 @@
       ],
       [
         "5",
-        "suitable for",
-        "Friends"
+        "has feature",
+        "with friends"
       ],
       [
         "5",
-        "suitable for",
+        "caters to",
         "Vegetarians"
       ],
       [
         "5",
-        "suitable for",
+        "caters to",
         "Dog owners"
       ],
       [
         "5",
-        "appeals to",
-        "Craft beer lovers"
+        "is a",
+        "Brewpub"
       ]
     ]
   },
@@ -53,54 +53,59 @@
     "iid": 7,
     "triplets": [
       [
-        "7",
+        7,
         "located in",
         "Philadelphia"
       ],
       [
-        "7",
-        "has atmosphere",
-        "baseball stadium"
-      ],
-      [
-        "7",
-        "is a",
-        "baseball park"
-      ],
-      [
-        "7",
-        "has atmosphere",
-        "lively"
-      ],
-      [
-        "7",
-        "has atmosphere",
-        "friendly crowds"
-      ],
-      [
-        "7",
-        "has feature",
+        7,
+        "serves cuisine",
         "variety of food options"
       ],
       [
-        "7",
+        7,
+        "has feature",
+        "good facilities"
+      ],
+      [
+        7,
         "price range",
         "reasonable ticket prices"
       ],
       [
-        "7",
+        7,
+        "has atmosphere",
+        "lively atmosphere"
+      ],
+      [
+        7,
+        "has atmosphere",
+        "friendly crowds"
+      ],
+      [
+        7,
         "appeals to",
-        "baseball fans"
+        "Baseball fans"
       ],
       [
-        "7",
-        "suitable for",
-        "Fans of baseball"
+        7,
+        "appeals to",
+        "Fans of sports"
       ],
       [
-        "7",
+        7,
         "suitable for",
-        "All ages"
+        "Sports events"
+      ],
+      [
+        7,
+        "is a",
+        "Ballpark"
+      ],
+      [
+        7,
+        "is a",
+        "Sports venue"
       ]
     ]
   },
@@ -108,64 +113,94 @@
     "iid": 8,
     "triplets": [
       [
-        "8",
-        "located in",
-        "New Orleans"
-      ],
-      [
-        "8",
-        "serves meal type",
+        8,
+        "serves cuisine",
         "brunch"
       ],
       [
-        "8",
+        8,
         "serves dish",
         "fried chicken and waffles"
       ],
       [
-        "8",
-        "serves ingredient",
-        "cane syrup"
+        8,
+        "serves dish",
+        "Cane syrup"
       ],
       [
-        "8",
+        8,
         "serves dish",
         "gravy"
       ],
       [
-        "8",
+        8,
         "serves dish",
         "oysters"
       ],
       [
-        "8",
+        8,
         "serves dish",
         "liver pate"
       ],
       [
-        "8",
+        8,
         "serves dish",
         "German pizza"
       ],
       [
-        "8",
+        8,
         "has atmosphere",
-        "cozy"
+        "cozy ambiance"
       ],
       [
-        "8",
-        "has feature",
+        8,
+        "serves drink",
         "good drinks"
       ],
       [
-        "8",
-        "is a",
-        "Restaurant"
+        8,
+        "located in",
+        "New Orleans"
       ],
       [
-        "8",
-        "appeals to",
-        "Users who enjoy brunch"
+        8,
+        "serves cuisine",
+        "Brunch"
+      ],
+      [
+        8,
+        "serves cuisine",
+        "Fried chicken"
+      ],
+      [
+        8,
+        "serves cuisine",
+        "Waffles"
+      ],
+      [
+        8,
+        "serves cuisine",
+        "Syrup"
+      ],
+      [
+        8,
+        "serves cuisine",
+        "Gravy"
+      ],
+      [
+        8,
+        "serves cuisine",
+        "Oysters"
+      ],
+      [
+        8,
+        "serves cuisine",
+        "Liver pate"
+      ],
+      [
+        8,
+        "serves cuisine",
+        "German pizza"
       ]
     ]
   },
@@ -180,22 +215,12 @@
       [
         "0",
         "serves cuisine",
-        "Sonoran hot dogs"
-      ],
-      [
-        "0",
-        "serves cuisine",
         "Mexican cuisine"
       ],
       [
         "0",
-        "has atmosphere",
-        "casual dining"
-      ],
-      [
-        "0",
-        "price range",
-        "affordable prices"
+        "serves dish",
+        "Sonoran hot dogs"
       ],
       [
         "0",
@@ -209,8 +234,23 @@
       ],
       [
         "0",
-        "located in",
-        "college campus"
+        "has feature",
+        "salsa bar"
+      ],
+      [
+        "0",
+        "has feature",
+        "customizing meals"
+      ],
+      [
+        "0",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "0",
+        "price range",
+        "affordable prices"
       ],
       [
         "0",
@@ -220,7 +260,27 @@
       [
         "0",
         "appeals to",
-        "Mexican cuisine lovers"
+        "Fans of Mexican cuisine"
+      ],
+      [
+        "0",
+        "appeals to",
+        "Casual dining lovers"
+      ],
+      [
+        "0",
+        "suitable for",
+        "Quick meal"
+      ],
+      [
+        "0",
+        "suitable for",
+        "Budget dining"
+      ],
+      [
+        "0",
+        "located in",
+        "college campus"
       ]
     ]
   },
@@ -239,53 +299,63 @@
       ],
       [
         "1",
-        "serves cuisine",
-        "coffee"
+        "offers",
+        "Coffee"
       ],
       [
         "1",
-        "serves cuisine",
-        "food"
+        "offers",
+        "Food options"
       ],
       [
         "1",
         "serves dish",
-        "bagels"
-      ],
-      [
-        "1",
-        "has atmosphere",
-        "cozy"
-      ],
-      [
-        "1",
-        "has atmosphere",
-        "spacious"
-      ],
-      [
-        "1",
-        "suitable for",
-        "studying"
-      ],
-      [
-        "1",
-        "suitable for",
-        "working"
+        "Bagels"
       ],
       [
         "1",
         "has feature",
-        "dog-friendly"
+        "Spacious environment"
       ],
       [
         "1",
         "has feature",
-        "outdoor seating"
+        "Outdoor seating"
+      ],
+      [
+        "1",
+        "has feature",
+        "Dog-friendly"
       ],
       [
         "1",
         "appeals to",
-        "Coffee enthusiasts"
+        "Users"
+      ],
+      [
+        "1",
+        "appeals to",
+        "Coffee lovers"
+      ],
+      [
+        "1",
+        "appeals to",
+        "Food lovers"
+      ],
+      [
+        "1",
+        "suitable for",
+        "Studying"
+      ],
+      [
+        "1",
+        "suitable for",
+        "Working"
+      ],
+      [
+        "1",
+        "is a",
+        "Cafe"
       ]
     ]
   },
@@ -299,28 +369,33 @@
       ],
       [
         "2",
-        "is a",
-        "The N Crowd"
+        "presents",
+        "interactive comedy shows"
       ],
       [
         "2",
-        "serves genre",
-        "interactive comedy"
+        "is a",
+        "Comedy"
       ],
       [
         "2",
         "has atmosphere",
-        "intimate"
-      ],
-      [
-        "2",
-        "appeals to",
-        "Fans of interactive comedy shows"
+        "intimate setting"
       ],
       [
         "2",
         "has feature",
-        "part of the performance"
+        "being part of the performance"
+      ],
+      [
+        "2",
+        "has feature",
+        "interactive shows"
+      ],
+      [
+        "2",
+        "has feature",
+        "entertaining shows"
       ],
       [
         "2",
@@ -329,8 +404,18 @@
       ],
       [
         "2",
-        "suitable for",
-        "entertaining"
+        "appeals to",
+        "Fans of comedy"
+      ],
+      [
+        "2",
+        "appeals to",
+        "Fans of interactive shows"
+      ],
+      [
+        "2",
+        "appeals to",
+        "Fans of intimate settings"
       ]
     ]
   },
@@ -338,49 +423,69 @@
     "iid": 6,
     "triplets": [
       [
-        "6",
+        6,
         "located in",
         "Philadelphia"
       ],
       [
-        "6",
+        6,
         "is a",
-        "Co-op"
+        "Cooperative"
       ],
       [
-        "6",
-        "suitable for",
-        "retail cooperative"
+        6,
+        "caters to",
+        "Community connections"
       ],
       [
-        "6",
-        "appeals to",
-        "Individuals who value community connections"
+        6,
+        "offers",
+        "Locally grown produce"
       ],
       [
-        "6",
-        "appeals to",
-        "Locally grown produce enthusiasts"
+        6,
+        "offers",
+        "Natural foods"
       ],
       [
-        "6",
-        "appeals to",
-        "People seeking natural and preservative-free foods"
+        6,
+        "offers",
+        "Preservative-free foods"
       ],
       [
-        "6",
+        6,
         "has feature",
-        "fair prices"
+        "Fair prices"
       ],
       [
-        "6",
+        6,
         "has feature",
-        "work hours contribution possible"
+        "Work contribution"
       ],
       [
-        "6",
+        6,
         "appeals to",
-        "Weavers Way Co-Op customers"
+        "Individuals valuing community"
+      ],
+      [
+        6,
+        "appeals to",
+        "People interested in local produce"
+      ],
+      [
+        6,
+        "appeals to",
+        "Consumers seeking natural foods"
+      ],
+      [
+        6,
+        "appeals to",
+        "Price-conscious shoppers"
+      ],
+      [
+        6,
+        "appeals to",
+        "Community contributors"
       ]
     ]
   },
@@ -395,22 +500,12 @@
       [
         "9",
         "serves cuisine",
-        "Cajun/Creole cuisine"
+        "Cajun/Creole"
       ],
       [
         "9",
         "serves cuisine",
-        "American cuisine"
-      ],
-      [
-        "9",
-        "has atmosphere",
-        "friendly"
-      ],
-      [
-        "9",
-        "price range",
-        "decently priced"
+        "American"
       ],
       [
         "9",
@@ -424,18 +519,28 @@
       ],
       [
         "9",
-        "is a",
-        "restaurant"
+        "has feature",
+        "friendly atmosphere"
+      ],
+      [
+        "9",
+        "price range",
+        "decently priced"
       ],
       [
         "9",
         "appeals to",
-        "Fans of Cajun/Creole and American cuisine"
+        "Fans of Cajun/Creole"
       ],
       [
         "9",
-        "suitable for",
-        "Casual dining"
+        "appeals to",
+        "Fans of American cuisine"
+      ],
+      [
+        "9",
+        "is a",
+        "Restaurant"
       ]
     ]
   },
@@ -443,54 +548,49 @@
     "iid": 3,
     "triplets": [
       [
-        "3",
+        3,
         "located in",
-        "The Coventry Deli"
+        "Unknown"
       ],
       [
-        "3",
-        "is a",
-        " deli"
-      ],
-      [
-        "3",
+        3,
         "serves cuisine",
-        "variety of menu options"
+        "Deli"
       ],
       [
-        "3",
-        "has feature",
-        "efficient service"
-      ],
-      [
-        "3",
+        3,
         "serves dish",
+        "menu options"
+      ],
+      [
+        3,
+        "has feature",
+        "wide variety"
+      ],
+      [
+        3,
+        "has feature",
+        "Efficient service"
+      ],
+      [
+        3,
+        "serves cuisine",
         "fresh food"
       ],
       [
-        "3",
-        "serves dish",
+        3,
+        "offers",
         "delicious food"
       ],
       [
-        "3",
+        3,
         "suitable for",
-        "people who prefer their usual order"
+        "People who prefer their usual order"
       ],
       [
-        "3",
+        3,
         "suitable for",
-        "people who like to try new dishes"
-      ],
-      [
-        "3",
-        "appeals to",
-        "menu variety lovers"
-      ],
-      [
-        "3",
-        "suitable for",
-        "Quick meal"
+        "People who like to try new dishes"
       ]
     ]
   },
@@ -498,49 +598,6019 @@
     "iid": 4,
     "triplets": [
       [
-        "4",
+        4,
         "located in",
         "Philadelphia"
       ],
       [
-        "4",
+        4,
         "serves cuisine",
-        "Thai cuisine"
+        "Thai"
       ],
       [
-        "4",
-        "has atmosphere",
-        "laid-back"
-      ],
-      [
-        "4",
+        4,
         "serves dish",
-        "duck green curry fried rice"
+        "duck green curry"
       ],
       [
-        "4",
+        4,
         "serves dish",
-        "pad thai"
+        "fried rice"
       ],
       [
-        "4",
+        4,
         "serves dish",
-        "pad thai"
+        "Pad Thai"
       ],
       [
-        "4",
+        4,
+        "has feature",
+        "laid-back atmosphere"
+      ],
+      [
+        4,
+        "has feature",
+        "casual dining"
+      ],
+      [
+        4,
         "has feature",
         "BYO wine"
       ],
       [
-        "4",
-        "has atmosphere",
-        "casual evening out"
+        4,
+        "price range",
+        "Good quality"
       ],
       [
-        "4",
-        "near",
-        "Rittenhouse"
+        4,
+        "suitable for",
+        "Casual evening"
+      ],
+      [
+        4,
+        "appeals to",
+        "Fans of flavorful Thai cuisine"
+      ],
+      [
+        4,
+        "is a",
+        "Thai cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 13,
+    "triplets": [
+      [
+        13,
+        "located in",
+        "Reno"
+      ],
+      [
+        13,
+        "offers",
+        "organic foods"
+      ],
+      [
+        13,
+        "is a",
+        "Grocery store"
+      ],
+      [
+        13,
+        "has feature",
+        "fresh foods"
+      ],
+      [
+        13,
+        "has feature",
+        "organic foods"
+      ],
+      [
+        13,
+        "has feature",
+        "diverse product selection"
+      ],
+      [
+        13,
+        "has feature",
+        "store layout"
+      ],
+      [
+        13,
+        "has feature",
+        "helpful staff"
+      ],
+      [
+        13,
+        "appeals to",
+        "Users who appreciate organic foods"
+      ],
+      [
+        13,
+        "appeals to",
+        "Users who appreciate diverse products"
+      ],
+      [
+        13,
+        "appeals to",
+        "Users who appreciate store design"
+      ],
+      [
+        13,
+        "appeals to",
+        "Users who appreciate helpful staff"
+      ]
+    ]
+  },
+  {
+    "iid": 10,
+    "triplets": [
+      [
+        "10",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "10",
+        "offers",
+        "pastries"
+      ],
+      [
+        "10",
+        "serves dish",
+        "cannoli"
+      ],
+      [
+        "10",
+        "serves dish",
+        "chocolate strawberry cakes"
+      ],
+      [
+        "10",
+        "serves dish",
+        "eclairs"
+      ],
+      [
+        "10",
+        "serves dish",
+        "bananas foster"
+      ],
+      [
+        "10",
+        "has atmosphere",
+        "casual bakery"
+      ],
+      [
+        "10",
+        "appeals to",
+        "Users who appreciate high-quality pastries"
+      ],
+      [
+        "10",
+        "is a",
+        "Pastries"
+      ]
+    ]
+  },
+  {
+    "iid": 11,
+    "triplets": [
+      [
+        11,
+        "located in",
+        "New Orleans"
+      ],
+      [
+        11,
+        "serves cuisine",
+        "Chicken"
+      ],
+      [
+        11,
+        "serves cuisine",
+        "Watermelon"
+      ],
+      [
+        11,
+        "serves dish",
+        "chicken wings"
+      ],
+      [
+        11,
+        "serves dish",
+        "wings"
+      ],
+      [
+        11,
+        "serves dish",
+        "Watermelon"
+      ],
+      [
+        11,
+        "has feature",
+        "variety of flavors"
+      ],
+      [
+        11,
+        "has feature",
+        "affordable combo meals"
+      ],
+      [
+        11,
+        "has atmosphere",
+        "casual setting"
+      ],
+      [
+        11,
+        "has atmosphere",
+        "community vibes"
+      ],
+      [
+        11,
+        "appeals to",
+        "chicken wings lovers"
+      ],
+      [
+        11,
+        "appeals to",
+        "Flavorful wings"
+      ],
+      [
+        11,
+        "price range",
+        "affordable"
+      ],
+      [
+        11,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        11,
+        "serves cuisine",
+        "American"
+      ]
+    ]
+  },
+  {
+    "iid": 14,
+    "triplets": [
+      [
+        14,
+        "located in",
+        "St. Petersburg"
+      ],
+      [
+        14,
+        "offers",
+        "Spices"
+      ],
+      [
+        14,
+        "offers",
+        "High-quality spices"
+      ],
+      [
+        14,
+        "caters to",
+        "Fresh spices"
+      ],
+      [
+        14,
+        "has feature",
+        "Knowledgeable staff"
+      ],
+      [
+        14,
+        "offers",
+        "Gift options"
+      ],
+      [
+        14,
+        "offers",
+        "Unique gift options"
+      ],
+      [
+        14,
+        "appeals to",
+        "Spice enthusiasts"
+      ],
+      [
+        14,
+        "appeals to",
+        "Foodies"
+      ],
+      [
+        14,
+        "appeals to",
+        "Gift shoppers"
+      ]
+    ]
+  },
+  {
+    "iid": 17,
+    "triplets": [
+      [
+        17,
+        "located in",
+        "Cherry Hill"
+      ],
+      [
+        17,
+        "serves cuisine",
+        "Cajun"
+      ],
+      [
+        17,
+        "serves cuisine",
+        "Creole"
+      ],
+      [
+        17,
+        "serves cuisine",
+        "Seafood"
+      ],
+      [
+        17,
+        "is a",
+        "Seafood restaurant"
+      ],
+      [
+        17,
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        17,
+        "has feature",
+        "good service"
+      ],
+      [
+        17,
+        "has feature",
+        "reasonable portion sizes"
+      ],
+      [
+        17,
+        "appeals to",
+        "Seafood enthusiasts"
+      ],
+      [
+        17,
+        "appeals to",
+        "Cajun cuisine lovers"
+      ],
+      [
+        17,
+        "appeals to",
+        "Creole cuisine lovers"
+      ],
+      [
+        17,
+        "appeals to",
+        "Cozy setting"
+      ]
+    ]
+  },
+  {
+    "iid": 15,
+    "triplets": [
+      [
+        15,
+        "located in",
+        "Unknown"
+      ],
+      [
+        15,
+        "serves cuisine",
+        "Food"
+      ],
+      [
+        15,
+        "serves dish",
+        "beef fat biscuits"
+      ],
+      [
+        15,
+        "serves dish",
+        "puffed pork chips"
+      ],
+      [
+        15,
+        "serves drink",
+        "creative cocktails"
+      ],
+      [
+        15,
+        "serves drink",
+        "cocktails"
+      ],
+      [
+        15,
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        15,
+        "has feature",
+        "attentive service"
+      ],
+      [
+        15,
+        "appeals to",
+        "Users who appreciate beautifully presented food"
+      ],
+      [
+        15,
+        "appeals to",
+        "Users who appreciate creative cocktails"
+      ],
+      [
+        15,
+        "appeals to",
+        "Users who enjoy cozy atmosphere"
+      ],
+      [
+        15,
+        "appeals to",
+        "Users who appreciate attentive service"
+      ],
+      [
+        15,
+        "serves dish",
+        "Creative dishes"
+      ],
+      [
+        15,
+        "is a",
+        "Food"
+      ],
+      [
+        15,
+        "is a",
+        "Beverages"
+      ]
+    ]
+  },
+  {
+    "iid": 16,
+    "triplets": [
+      [
+        "16",
+        "located in",
+        "New Orleans"
+      ],
+      [
+        "16",
+        "offers",
+        "Wine"
+      ],
+      [
+        "16",
+        "offers",
+        "Unique wine selections"
+      ],
+      [
+        "16",
+        "is a",
+        "Wine shop"
+      ],
+      [
+        "16",
+        "has feature",
+        "Live music"
+      ],
+      [
+        "16",
+        "has atmosphere",
+        "Cozy ambiance"
+      ],
+      [
+        "16",
+        "has feature",
+        "Outdoor seating"
+      ],
+      [
+        "16",
+        "offers",
+        "Varied menu"
+      ],
+      [
+        "16",
+        "appeals to",
+        "Wine lovers"
+      ],
+      [
+        "16",
+        "appeals to",
+        "Live music enthusiasts"
+      ],
+      [
+        "16",
+        "appeals to",
+        "People who appreciate cozy ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": 19,
+    "triplets": [
+      [
+        "19",
+        "located in",
+        "Haddon Township"
+      ],
+      [
+        "19",
+        "serves cuisine",
+        "diner breakfast"
+      ],
+      [
+        "19",
+        "serves dish",
+        "breakfast"
+      ],
+      [
+        "19",
+        "has feature",
+        "generous portions"
+      ],
+      [
+        "19",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "19",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "19",
+        "offers",
+        "varied menu"
+      ],
+      [
+        "19",
+        "suitable for",
+        "Solo diners"
+      ],
+      [
+        "19",
+        "suitable for",
+        "Groups"
+      ],
+      [
+        "19",
+        "appeals to",
+        "Fans of diner breakfast"
+      ],
+      [
+        "19",
+        "is a",
+        "Restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 12,
+    "triplets": [
+      [
+        "12",
+        "located in",
+        "Tampa"
+      ],
+      [
+        "12",
+        "serves cuisine",
+        "Latin American"
+      ],
+      [
+        "12",
+        "serves cuisine",
+        "Peruvian"
+      ],
+      [
+        "12",
+        "serves cuisine",
+        "fusion cuisine"
+      ],
+      [
+        "12",
+        "serves dish",
+        "seafood"
+      ],
+      [
+        "12",
+        "serves dish",
+        "pasta"
+      ],
+      [
+        "12",
+        "serves dish",
+        "Dishes"
+      ],
+      [
+        "12",
+        "serves drink",
+        "creative cocktails"
+      ],
+      [
+        "12",
+        "serves drink",
+        "margaritas"
+      ],
+      [
+        "12",
+        "serves drink",
+        "sangria"
+      ],
+      [
+        "12",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "12",
+        "has feature",
+        "diverse menu options"
+      ],
+      [
+        "12",
+        "appeals to",
+        "Users who enjoy Latin American cuisine"
+      ],
+      [
+        "12",
+        "appeals to",
+        "Users who enjoy Peruvian cuisine"
+      ],
+      [
+        "12",
+        "appeals to",
+        "Users who enjoy fusion cuisine"
+      ],
+      [
+        "12",
+        "appeals to",
+        "Users who enjoy cocktails"
+      ],
+      [
+        "12",
+        "appeals to",
+        "Users who prefer cozy ambiance"
+      ],
+      [
+        "12",
+        "appeals to",
+        "Users who enjoy seafood"
+      ],
+      [
+        "12",
+        "appeals to",
+        "Users who enjoy pasta"
+      ]
+    ]
+  },
+  {
+    "iid": 18,
+    "triplets": [
+      [
+        "18",
+        "located in",
+        "Ardmore"
+      ],
+      [
+        "18",
+        "located in",
+        "Bryn Mawr"
+      ],
+      [
+        "18",
+        "offers",
+        "beer"
+      ],
+      [
+        "18",
+        "offers",
+        "Funky beer"
+      ],
+      [
+        "18",
+        "offers",
+        "Flavorful beer"
+      ],
+      [
+        "18",
+        "offers",
+        "Beer"
+      ],
+      [
+        "18",
+        "has feature",
+        "knowledgeable staff"
+      ],
+      [
+        "18",
+        "has feature",
+        "generous food offerings"
+      ],
+      [
+        "18",
+        "has atmosphere",
+        "brewery environment"
+      ],
+      [
+        "18",
+        "appeals to",
+        "Beer lovers"
+      ],
+      [
+        "18",
+        "appeals to",
+        "Food lovers"
+      ],
+      [
+        "18",
+        "suitable for",
+        "Casual dining"
+      ],
+      [
+        "18",
+        "suitable for",
+        "Social gathering"
+      ]
+    ]
+  },
+  {
+    "iid": 23,
+    "triplets": [
+      [
+        23,
+        "located in",
+        "Mass. Ave"
+      ],
+      [
+        23,
+        "serves cuisine",
+        "good food"
+      ],
+      [
+        23,
+        "offers",
+        "Beer"
+      ],
+      [
+        23,
+        "has feature",
+        "variety of beer selection"
+      ],
+      [
+        23,
+        "has feature",
+        "watching sports"
+      ],
+      [
+        23,
+        "has atmosphere",
+        "friendly"
+      ],
+      [
+        23,
+        "has atmosphere",
+        "vibrant"
+      ],
+      [
+        23,
+        "appeals to",
+        "mixed"
+      ]
+    ]
+  },
+  {
+    "iid": 21,
+    "triplets": [
+      [
+        "21",
+        "located in",
+        "New Orleans"
+      ],
+      [
+        "21",
+        "serves cuisine",
+        "Barbecue"
+      ],
+      [
+        "21",
+        "is a",
+        "Barbecue restaurant"
+      ],
+      [
+        "21",
+        "serves dish",
+        "delicious options"
+      ],
+      [
+        "21",
+        "serves dish",
+        "varied options"
+      ],
+      [
+        "21",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "21",
+        "has feature",
+        "large portions"
+      ],
+      [
+        "21",
+        "has atmosphere",
+        "casual"
+      ],
+      [
+        "21",
+        "appeals to",
+        "Barbecue lovers"
+      ]
+    ]
+  },
+  {
+    "iid": 20,
+    "triplets": [
+      [
+        "20",
+        "located in",
+        "King of Prussia"
+      ],
+      [
+        "20",
+        "serves cuisine",
+        "Indian"
+      ],
+      [
+        "20",
+        "serves cuisine",
+        "Pakistani"
+      ],
+      [
+        "20",
+        "serves cuisine",
+        "Curry"
+      ],
+      [
+        "20",
+        "has feature",
+        "flavorful"
+      ],
+      [
+        "20",
+        "has feature",
+        "authentic"
+      ],
+      [
+        "20",
+        "has atmosphere",
+        "informal"
+      ],
+      [
+        "20",
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        "20",
+        "has feature",
+        "personalized recommendations"
+      ],
+      [
+        "20",
+        "suitable for",
+        "Fans of Indian cuisine"
+      ],
+      [
+        "20",
+        "suitable for",
+        "Fans of Pakistani cuisine"
+      ],
+      [
+        "20",
+        "has feature",
+        "Good food"
+      ]
+    ]
+  },
+  {
+    "iid": 25,
+    "triplets": [
+      [
+        25,
+        "located in",
+        "unspecified location"
+      ],
+      [
+        25,
+        "serves cuisine",
+        "burger"
+      ],
+      [
+        25,
+        "serves dish",
+        "high-quality burger"
+      ],
+      [
+        25,
+        "serves drink",
+        "whiskey"
+      ],
+      [
+        25,
+        "serves drink",
+        "whiskey drinks"
+      ],
+      [
+        25,
+        "caters to",
+        "attentive"
+      ],
+      [
+        25,
+        "has atmosphere",
+        "bar setting"
+      ],
+      [
+        25,
+        "has atmosphere",
+        "comfortable"
+      ],
+      [
+        25,
+        "has feature",
+        "Gluten-free options"
+      ],
+      [
+        25,
+        "has feature",
+        "fancier burger choices"
+      ],
+      [
+        25,
+        "is a",
+        "Bar"
+      ],
+      [
+        25,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        25,
+        "is a",
+        "Burger restaurant"
+      ],
+      [
+        25,
+        "is a",
+        "Whiskey bar"
+      ]
+    ]
+  },
+  {
+    "iid": 24,
+    "triplets": [
+      [
+        "24",
+        "located in",
+        "Unknown"
+      ],
+      [
+        "24",
+        "serves cuisine",
+        "Breakfast"
+      ],
+      [
+        "24",
+        "is a",
+        "Pancake House"
+      ],
+      [
+        "24",
+        "has feature",
+        "cozy atmosphere"
+      ],
+      [
+        "24",
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        "24",
+        "has feature",
+        "variety of breakfast options"
+      ],
+      [
+        "24",
+        "appeals to",
+        "Users"
+      ],
+      [
+        "24",
+        "appeals to",
+        "value for money"
+      ]
+    ]
+  },
+  {
+    "iid": 29,
+    "triplets": [
+      [
+        29,
+        "located in",
+        "Glenside"
+      ],
+      [
+        29,
+        "serves cuisine",
+        "breakfast"
+      ],
+      [
+        29,
+        "serves cuisine",
+        "brunch"
+      ],
+      [
+        29,
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        29,
+        "has feature",
+        "great food"
+      ],
+      [
+        29,
+        "has feature",
+        "retro diner atmosphere"
+      ],
+      [
+        29,
+        "price range",
+        "affordable prices"
+      ],
+      [
+        29,
+        "appeals to",
+        "Users"
+      ],
+      [
+        29,
+        "suitable for",
+        "Breakfast"
+      ],
+      [
+        29,
+        "suitable for",
+        "Brunch"
+      ],
+      [
+        29,
+        "is a",
+        "Diner"
+      ]
+    ]
+  },
+  {
+    "iid": 26,
+    "triplets": [
+      [
+        "26",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "26",
+        "serves cuisine",
+        "Burgers"
+      ],
+      [
+        "26",
+        "is a",
+        "Burger restaurant"
+      ],
+      [
+        "26",
+        "serves dish",
+        "creative burgers"
+      ],
+      [
+        "26",
+        "serves dish",
+        "customizable burgers"
+      ],
+      [
+        "26",
+        "uses",
+        "fresh ingredients"
+      ],
+      [
+        "26",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "26",
+        "has atmosphere",
+        "family-friendly"
+      ],
+      [
+        "26",
+        "has feature",
+        "BYOB option"
+      ],
+      [
+        "26",
+        "serves cuisine",
+        "Korean ssam-jang sauce"
+      ],
+      [
+        "26",
+        "offers",
+        "Unique flavors"
+      ],
+      [
+        "26",
+        "seeks",
+        "New burger experiences"
+      ],
+      [
+        "26",
+        "has feature",
+        "Exciting burger experiences"
+      ],
+      [
+        "26",
+        "has seating capacity",
+        "Limited seating"
+      ],
+      [
+        "26",
+        "caters to",
+        "quick"
+      ],
+      [
+        "26",
+        "caters to",
+        "friendly"
+      ]
+    ]
+  },
+  {
+    "iid": 27,
+    "triplets": [
+      [
+        27,
+        "appeals to",
+        "Users who value quality, thoroughness, and friendly customer service"
+      ],
+      [
+        27,
+        "located in",
+        "unspecified"
+      ],
+      [
+        27,
+        "offers",
+        "locks"
+      ],
+      [
+        27,
+        "offers",
+        "keys"
+      ],
+      [
+        27,
+        "has feature",
+        "friendly customer service"
+      ],
+      [
+        27,
+        "has feature",
+        "timely assistance"
+      ],
+      [
+        27,
+        "has feature",
+        "cost-effective solutions"
+      ],
+      [
+        27,
+        "appeals to",
+        "Users seeking quality"
+      ],
+      [
+        27,
+        "appeals to",
+        "Users seeking thoroughness"
+      ],
+      [
+        27,
+        "appeals to",
+        "Users seeking friendly customer service"
+      ],
+      [
+        27,
+        "appeals to",
+        "Users seeking cost-effective solutions"
+      ],
+      [
+        27,
+        "appeals to",
+        "Users seeking timely assistance"
+      ],
+      [
+        27,
+        "is a",
+        "Lock and Key Service"
+      ]
+    ]
+  },
+  {
+    "iid": 22,
+    "triplets": [
+      [
+        "22",
+        "located in",
+        "Tucson"
+      ],
+      [
+        "22",
+        "serves cuisine",
+        "French cuisine"
+      ],
+      [
+        "22",
+        "serves dish",
+        "breakfast options"
+      ],
+      [
+        "22",
+        "serves dish",
+        "crepes"
+      ],
+      [
+        "22",
+        "serves dish",
+        "soups"
+      ],
+      [
+        "22",
+        "serves drink",
+        "coffee"
+      ],
+      [
+        "22",
+        "has feature",
+        "delicious"
+      ],
+      [
+        "22",
+        "has feature",
+        "flavorful"
+      ],
+      [
+        "22",
+        "has feature",
+        "exceptional"
+      ],
+      [
+        "22",
+        "appeals to",
+        "Food lovers"
+      ],
+      [
+        "22",
+        "appeals to",
+        "French cuisine lovers"
+      ],
+      [
+        "22",
+        "is a",
+        "French cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 28,
+    "triplets": [
+      [
+        28,
+        "located in",
+        "Tucson"
+      ],
+      [
+        28,
+        "serves cuisine",
+        "Pizza"
+      ],
+      [
+        28,
+        "serves dish",
+        "Pizza"
+      ],
+      [
+        28,
+        "has feature",
+        "fresh ingredients"
+      ],
+      [
+        28,
+        "has feature",
+        "variety of toppings"
+      ],
+      [
+        28,
+        "has feature",
+        "vegan options"
+      ],
+      [
+        28,
+        "has feature",
+        "attentive service"
+      ],
+      [
+        28,
+        "appeals to",
+        "Pizza enthusiasts"
+      ],
+      [
+        28,
+        "appeals to",
+        "Vegan customers"
+      ],
+      [
+        28,
+        "is a",
+        "Pizzeria"
+      ]
+    ]
+  },
+  {
+    "iid": 30,
+    "triplets": [
+      [
+        30,
+        "located in",
+        "Unknown"
+      ],
+      [
+        30,
+        "serves cuisine",
+        "casual dining"
+      ],
+      [
+        30,
+        "has feature",
+        "good service"
+      ],
+      [
+        30,
+        "has feature",
+        "bar drinks"
+      ],
+      [
+        30,
+        "serves dish",
+        "bar drinks"
+      ],
+      [
+        30,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        30,
+        "is a",
+        "Bar"
+      ],
+      [
+        30,
+        "price range",
+        "Affordable"
+      ],
+      [
+        30,
+        "appeals to",
+        "Fans of casual dining"
+      ],
+      [
+        30,
+        "appeals to",
+        "Budget diners"
+      ]
+    ]
+  },
+  {
+    "iid": 31,
+    "triplets": [
+      [
+        "31",
+        "located in",
+        "Tampa"
+      ],
+      [
+        "31",
+        "serves cuisine",
+        "Mediterranean"
+      ],
+      [
+        "31",
+        "serves dish",
+        "gyros"
+      ],
+      [
+        "31",
+        "serves dish",
+        "shawarma"
+      ],
+      [
+        "31",
+        "serves cuisine",
+        "Mediterranean cuisine"
+      ],
+      [
+        "31",
+        "has feature",
+        "fresh food"
+      ],
+      [
+        "31",
+        "has feature",
+        "hot food"
+      ],
+      [
+        "31",
+        "has feature",
+        "plentiful food"
+      ],
+      [
+        "31",
+        "price range",
+        "affordable prices"
+      ],
+      [
+        "31",
+        "has feature",
+        "convenient location"
+      ],
+      [
+        "31",
+        "appeals to",
+        "Users who enjoy Mediterranean food"
+      ],
+      [
+        "31",
+        "is a",
+        "Restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 32,
+    "triplets": [
+      [
+        "32",
+        "located in",
+        "Newtown"
+      ],
+      [
+        "32",
+        "serves cuisine",
+        "Korean-inspired dishes"
+      ],
+      [
+        "32",
+        "serves dish",
+        "creative dishes"
+      ],
+      [
+        "32",
+        "serves dish",
+        "breakfast"
+      ],
+      [
+        "32",
+        "serves dish",
+        "lunch"
+      ],
+      [
+        "32",
+        "has feature",
+        "cozy atmosphere"
+      ],
+      [
+        "32",
+        "has feature",
+        "charming small-town appeal"
+      ],
+      [
+        "32",
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        "32",
+        "offers",
+        "made-to-order meals"
+      ],
+      [
+        "32",
+        "appeals to",
+        "Fans of fresh ingredients"
+      ],
+      [
+        "32",
+        "appeals to",
+        "Fans of cozy atmospheres"
+      ],
+      [
+        "32",
+        "appeals to",
+        "Fans of creative dishes"
+      ],
+      [
+        "32",
+        "is a",
+        "Restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 34,
+    "triplets": [
+      [
+        "34",
+        "located in",
+        "Unknown"
+      ],
+      [
+        "34",
+        "serves cuisine",
+        "delicious food"
+      ],
+      [
+        "34",
+        "has feature",
+        "great ambience"
+      ],
+      [
+        "34",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "34",
+        "has feature",
+        "extensive beer selection"
+      ],
+      [
+        "34",
+        "seeks",
+        "unique twists on classic dishes"
+      ],
+      [
+        "34",
+        "has feature",
+        "meeting owner for genuine conversation"
+      ],
+      [
+        "34",
+        "is a",
+        "Taproom"
+      ],
+      [
+        "34",
+        "appeals to",
+        "Fans of ambience"
+      ],
+      [
+        "34",
+        "appeals to",
+        "Fans of food"
+      ],
+      [
+        "34",
+        "appeals to",
+        "Fans of service"
+      ],
+      [
+        "34",
+        "appeals to",
+        "Beer lovers"
+      ],
+      [
+        "34",
+        "is a",
+        "Bar"
+      ],
+      [
+        "34",
+        "is a",
+        "Restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 33,
+    "triplets": [
+      [
+        "33",
+        "located in",
+        "Indianapolis"
+      ],
+      [
+        "33",
+        "serves cuisine",
+        "Mexican"
+      ],
+      [
+        "33",
+        "serves dish",
+        "tacos"
+      ],
+      [
+        "33",
+        "has feature",
+        "casual dining"
+      ],
+      [
+        "33",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "33",
+        "appeals to",
+        "Fans of flavorful Mexican food"
+      ],
+      [
+        "33",
+        "is a",
+        "Mexican cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 35,
+    "triplets": [
+      [
+        35,
+        "located in",
+        "New Orleans"
+      ],
+      [
+        35,
+        "has atmosphere",
+        "modern"
+      ],
+      [
+        35,
+        "has atmosphere",
+        "clean"
+      ],
+      [
+        35,
+        "has atmosphere",
+        "welcoming"
+      ],
+      [
+        35,
+        "offers",
+        "complimentary drinks"
+      ],
+      [
+        35,
+        "offers",
+        "mimosas"
+      ],
+      [
+        35,
+        "offers",
+        "champagne"
+      ],
+      [
+        35,
+        "offers",
+        "customer service"
+      ],
+      [
+        35,
+        "offers",
+        "nail services"
+      ],
+      [
+        35,
+        "has feature",
+        "flawless"
+      ],
+      [
+        35,
+        "has feature",
+        "last-minute appointments"
+      ],
+      [
+        35,
+        "has feature",
+        "efficient blowouts"
+      ],
+      [
+        35,
+        "appeals to",
+        "Users"
+      ],
+      [
+        35,
+        "is a",
+        "Beauty salon"
+      ],
+      [
+        35,
+        "is a",
+        "Nail salon"
+      ],
+      [
+        35,
+        "is a",
+        "Beauty service"
+      ]
+    ]
+  },
+  {
+    "iid": 36,
+    "triplets": [
+      [
+        36,
+        "located in",
+        "Tampa"
+      ],
+      [
+        36,
+        "offers",
+        "beer"
+      ],
+      [
+        36,
+        "is a",
+        "Brewery"
+      ],
+      [
+        36,
+        "has feature",
+        "brewery tours"
+      ],
+      [
+        36,
+        "has feature",
+        "free samples"
+      ],
+      [
+        36,
+        "has feature",
+        "informative guides"
+      ],
+      [
+        36,
+        "has feature",
+        "hands-on experience"
+      ],
+      [
+        36,
+        "appeals to",
+        "Beer enthusiasts"
+      ],
+      [
+        36,
+        "interested in",
+        "learning about the history"
+      ],
+      [
+        36,
+        "suitable for",
+        "learning about brewing process"
+      ],
+      [
+        36,
+        "is a",
+        "Brewery"
+      ],
+      [
+        36,
+        "is a",
+        "Beer"
+      ]
+    ]
+  },
+  {
+    "iid": 37,
+    "triplets": [
+      [
+        37,
+        "located in",
+        "Unknown"
+      ],
+      [
+        37,
+        "serves cuisine",
+        "Indian cuisine"
+      ],
+      [
+        37,
+        "serves cuisine",
+        "Indian food"
+      ],
+      [
+        37,
+        "has feature",
+        "friendly service"
+      ],
+      [
+        37,
+        "has feature",
+        "authentic flavors"
+      ],
+      [
+        37,
+        "has atmosphere",
+        "ethnic ambiance"
+      ],
+      [
+        37,
+        "suitable for",
+        "lunch buffet"
+      ],
+      [
+        37,
+        "offers",
+        "lunch buffet"
+      ],
+      [
+        37,
+        "serves dish",
+        "variety of dishes"
+      ],
+      [
+        37,
+        "serves dish",
+        "Dishes"
+      ],
+      [
+        37,
+        "is a",
+        "Restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 39,
+    "triplets": [
+      [
+        39,
+        "located in",
+        "Nashville"
+      ],
+      [
+        39,
+        "serves cuisine",
+        "Breakfast"
+      ],
+      [
+        39,
+        "serves cuisine",
+        "Brunch"
+      ],
+      [
+        39,
+        "has feature",
+        "variety of menu options"
+      ],
+      [
+        39,
+        "has feature",
+        "bakery items"
+      ],
+      [
+        39,
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        39,
+        "has feature",
+        "long wait times"
+      ],
+      [
+        39,
+        "offers",
+        "delicious food"
+      ],
+      [
+        39,
+        "offers",
+        "friendly service"
+      ],
+      [
+        39,
+        "serves dish",
+        "Bianca pizza"
+      ],
+      [
+        39,
+        "serves dish",
+        "spicy Bianca pizza"
+      ],
+      [
+        39,
+        "serves dish",
+        "homemade honey"
+      ],
+      [
+        39,
+        "appeals to",
+        "Users who enjoy breakfast and brunch"
+      ],
+      [
+        39,
+        "is a",
+        "Breakfast"
+      ],
+      [
+        39,
+        "is a",
+        "Brunch"
+      ],
+      [
+        39,
+        "is a",
+        "Bakery items"
+      ],
+      [
+        39,
+        "is a",
+        "Pizza"
+      ],
+      [
+        39,
+        "general category",
+        "Honey"
+      ]
+    ]
+  },
+  {
+    "iid": 41,
+    "triplets": [
+      [
+        "41",
+        "located in",
+        "St. Petersburg"
+      ],
+      [
+        "41",
+        "serves cuisine",
+        "organic food"
+      ],
+      [
+        "41",
+        "serves cuisine",
+        "gluten-free food"
+      ],
+      [
+        "41",
+        "serves cuisine",
+        "vegan food"
+      ],
+      [
+        "41",
+        "serves cuisine",
+        "health-conscious food"
+      ],
+      [
+        "41",
+        "offers",
+        "Specialty items"
+      ],
+      [
+        "41",
+        "has feature",
+        "cafe"
+      ],
+      [
+        "41",
+        "has feature",
+        "grocery section"
+      ]
+    ]
+  },
+  {
+    "iid": 45,
+    "triplets": [
+      [
+        "45",
+        "located in",
+        "Tampa"
+      ],
+      [
+        "45",
+        "offers",
+        "ice cream"
+      ],
+      [
+        "45",
+        "offers",
+        "soft serve"
+      ],
+      [
+        "45",
+        "offers",
+        "hard ice cream"
+      ],
+      [
+        "45",
+        "offers",
+        "variety of flavors"
+      ],
+      [
+        "45",
+        "has feature",
+        "affordable prices"
+      ],
+      [
+        "45",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "45",
+        "appeals to",
+        "Fans of nostalgic 50s/60s drive-up ice cream shops"
+      ],
+      [
+        "45",
+        "is a",
+        "Ice cream shop"
+      ]
+    ]
+  },
+  {
+    "iid": 46,
+    "triplets": [
+      [
+        "46",
+        "located in",
+        "Bala Cynwyd"
+      ],
+      [
+        "46",
+        "serves cuisine",
+        "vegetarian"
+      ],
+      [
+        "46",
+        "serves cuisine",
+        "vegan"
+      ],
+      [
+        "46",
+        "offers",
+        "fresh options"
+      ],
+      [
+        "46",
+        "offers",
+        "customizable options"
+      ],
+      [
+        "46",
+        "offers",
+        "convenient options"
+      ],
+      [
+        "46",
+        "has feature",
+        "vegetarian choices"
+      ],
+      [
+        "46",
+        "has feature",
+        "vegan choices"
+      ],
+      [
+        "46",
+        "appeals to",
+        "Health-conscious individuals"
+      ]
+    ]
+  },
+  {
+    "iid": 47,
+    "triplets": [
+      [
+        "47",
+        "located in",
+        "Tampa"
+      ],
+      [
+        "47",
+        "is a",
+        "Hotel & Casino"
+      ],
+      [
+        "47",
+        "offers",
+        "dining options"
+      ],
+      [
+        "47",
+        "offers",
+        "entertainment"
+      ],
+      [
+        "47",
+        "has feature",
+        "slot machines"
+      ],
+      [
+        "47",
+        "has feature",
+        "live music"
+      ],
+      [
+        "47",
+        "has feature",
+        "bars"
+      ],
+      [
+        "47",
+        "has feature",
+        "DJ events"
+      ],
+      [
+        "47",
+        "has feature",
+        "late-night options"
+      ],
+      [
+        "47",
+        "appeals to",
+        "Users who enjoy variety of dining options"
+      ],
+      [
+        "47",
+        "appeals to",
+        "Users who enjoy entertainment"
+      ],
+      [
+        "47",
+        "appeals to",
+        "Users who enjoy slot machines"
+      ],
+      [
+        "47",
+        "appeals to",
+        "Users who enjoy live music"
+      ],
+      [
+        "47",
+        "appeals to",
+        "Users who enjoy late-night options"
+      ]
+    ]
+  },
+  {
+    "iid": 40,
+    "triplets": [
+      [
+        "40",
+        "located in",
+        "Tampa"
+      ],
+      [
+        "40",
+        "is a",
+        "Wine bar"
+      ],
+      [
+        "40",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "40",
+        "has atmosphere",
+        "modern"
+      ],
+      [
+        "40",
+        "serves cuisine",
+        "diverse menu"
+      ],
+      [
+        "40",
+        "serves dish",
+        "cheese"
+      ],
+      [
+        "40",
+        "serves dish",
+        "meats"
+      ],
+      [
+        "40",
+        "has feature",
+        "excellent wine selection"
+      ],
+      [
+        "40",
+        "appeals to",
+        "Wine enthusiasts"
+      ],
+      [
+        "40",
+        "appeals to",
+        "Cheese lovers"
+      ],
+      [
+        "40",
+        "appeals to",
+        "Meat lovers"
+      ]
+    ]
+  },
+  {
+    "iid": 43,
+    "triplets": [
+      [
+        43,
+        "located in",
+        "Saint Louis"
+      ],
+      [
+        43,
+        "serves cuisine",
+        "fine dining"
+      ],
+      [
+        43,
+        "serves dish",
+        "wine pairings"
+      ],
+      [
+        43,
+        "has feature",
+        "customized dining experiences"
+      ],
+      [
+        43,
+        "appeals to",
+        "Food enthusiasts"
+      ],
+      [
+        43,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        43,
+        "interested in",
+        "Fine dining"
+      ],
+      [
+        43,
+        "interested in",
+        "Wine pairing"
+      ]
+    ]
+  },
+  {
+    "iid": 42,
+    "triplets": [
+      [
+        "42",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "42",
+        "serves cuisine",
+        "Italian food"
+      ],
+      [
+        "42",
+        "serves cuisine",
+        "South Philly Italian food"
+      ],
+      [
+        "42",
+        "serves dish",
+        "traditional Italian dishes"
+      ],
+      [
+        "42",
+        "has atmosphere",
+        "classic atmosphere"
+      ],
+      [
+        "42",
+        "appeals to",
+        "Users who appreciate Italian food"
+      ],
+      [
+        "42",
+        "appeals to",
+        "Users who appreciate South Philly Italian food"
+      ]
+    ]
+  },
+  {
+    "iid": 44,
+    "triplets": [
+      [
+        "44",
+        "located in",
+        "Hudson"
+      ],
+      [
+        "44",
+        "offers",
+        "beach bar experience"
+      ],
+      [
+        "44",
+        "has feature",
+        "sunsets"
+      ],
+      [
+        "44",
+        "has feature",
+        "live entertainment"
+      ],
+      [
+        "44",
+        "has feature",
+        "lively atmosphere"
+      ],
+      [
+        "44",
+        "has feature",
+        "scenic view"
+      ],
+      [
+        "44",
+        "appeals to",
+        "Users who enjoy watching sunsets"
+      ],
+      [
+        "44",
+        "appeals to",
+        "Users who enjoy live entertainment"
+      ],
+      [
+        "44",
+        "appeals to",
+        "Users who enjoy lively atmosphere"
+      ],
+      [
+        "44",
+        "appeals to",
+        "Users who enjoy scenic view"
+      ],
+      [
+        "44",
+        "suitable for",
+        "Families"
+      ],
+      [
+        "44",
+        "suitable for",
+        "Couples"
+      ],
+      [
+        "44",
+        "suitable for",
+        "Individuals"
+      ],
+      [
+        "44",
+        "is a",
+        "Beach bar"
+      ]
+    ]
+  },
+  {
+    "iid": 48,
+    "triplets": [
+      [
+        "48",
+        "located in",
+        "Wayne"
+      ],
+      [
+        "48",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "48",
+        "has feature",
+        "friendly"
+      ],
+      [
+        "48",
+        "serves drink",
+        "coffee"
+      ],
+      [
+        "48",
+        "serves dish",
+        "tasty treats"
+      ],
+      [
+        "48",
+        "serves meal type",
+        "breakfast"
+      ],
+      [
+        "48",
+        "serves meal type",
+        "lunch"
+      ],
+      [
+        "48",
+        "has feature",
+        "variety of coffee options"
+      ],
+      [
+        "48",
+        "has feature",
+        "selection of tasty treats"
+      ],
+      [
+        "48",
+        "appeals to",
+        "People who appreciate cozy atmosphere"
+      ],
+      [
+        "48",
+        "appeals to",
+        "People who appreciate friendly staff"
+      ],
+      [
+        "48",
+        "appeals to",
+        "People who enjoy coffee"
+      ],
+      [
+        "48",
+        "appeals to",
+        "People who enjoy breakfast"
+      ],
+      [
+        "48",
+        "appeals to",
+        "People who enjoy lunch"
+      ]
+    ]
+  },
+  {
+    "iid": 49,
+    "triplets": [
+      [
+        49,
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        49,
+        "serves cuisine",
+        "fresh and delicious food"
+      ],
+      [
+        49,
+        "serves cuisine",
+        "Vegan food"
+      ],
+      [
+        49,
+        "serves cuisine",
+        "Gluten-free food"
+      ],
+      [
+        49,
+        "serves drink",
+        "Fair trade coffee"
+      ],
+      [
+        49,
+        "has atmosphere",
+        "cool ambiance"
+      ],
+      [
+        49,
+        "has feature",
+        "comfy seating"
+      ],
+      [
+        49,
+        "is a",
+        "Coffee shop"
+      ],
+      [
+        49,
+        "has feature",
+        "socially responsible business"
+      ],
+      [
+        49,
+        "appeals to",
+        "Users who enjoy fresh and delicious food"
+      ],
+      [
+        49,
+        "appeals to",
+        "Vegan food lovers"
+      ],
+      [
+        49,
+        "appeals to",
+        "Gluten-free food lovers"
+      ],
+      [
+        49,
+        "appeals to",
+        "Coffee drinkers"
+      ],
+      [
+        49,
+        "appeals to",
+        "People who prefer socially responsible businesses"
+      ]
+    ]
+  },
+  {
+    "iid": 50,
+    "triplets": [
+      [
+        50,
+        "located in",
+        "Santa Barbara"
+      ],
+      [
+        50,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        50,
+        "has feature",
+        "cozy ambiance"
+      ],
+      [
+        50,
+        "has feature",
+        "homey ambiance"
+      ],
+      [
+        50,
+        "serves cuisine",
+        "good food"
+      ],
+      [
+        50,
+        "has feature",
+        "attentive service"
+      ],
+      [
+        50,
+        "serves dish",
+        "meat dishes"
+      ],
+      [
+        50,
+        "serves dish",
+        "variety of meat dishes"
+      ],
+      [
+        50,
+        "has feature",
+        "live music"
+      ],
+      [
+        50,
+        "has atmosphere",
+        "laid-back"
+      ],
+      [
+        50,
+        "has feature",
+        "rustic charm"
+      ],
+      [
+        50,
+        "appeals to",
+        "Users who enjoy cozy ambiance"
+      ],
+      [
+        50,
+        "appeals to",
+        "Users who enjoy good food"
+      ],
+      [
+        50,
+        "appeals to",
+        "Users who enjoy attentive service"
+      ],
+      [
+        50,
+        "appeals to",
+        "Users who enjoy variety of meat dishes"
+      ],
+      [
+        50,
+        "appeals to",
+        "Users who enjoy live music"
+      ],
+      [
+        50,
+        "appeals to",
+        "Users who enjoy laid-back atmosphere"
+      ],
+      [
+        50,
+        "appeals to",
+        "Users who enjoy rustic charm"
+      ]
+    ]
+  },
+  {
+    "iid": 51,
+    "triplets": [
+      [
+        51,
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        51,
+        "serves cuisine",
+        "vegetarian"
+      ],
+      [
+        51,
+        "serves cuisine",
+        "vegan"
+      ],
+      [
+        51,
+        "serves dish",
+        "plant-based burgers"
+      ],
+      [
+        51,
+        "serves dish",
+        "burgers"
+      ],
+      [
+        51,
+        "has feature",
+        "quick service"
+      ],
+      [
+        51,
+        "has atmosphere",
+        "bustling"
+      ],
+      [
+        51,
+        "appeals to",
+        "Vegetarian lovers"
+      ],
+      [
+        51,
+        "appeals to",
+        "Vegan lovers"
+      ],
+      [
+        51,
+        "suitable for",
+        "Quick meal"
+      ],
+      [
+        51,
+        "is a",
+        "Vegetarian restaurant"
+      ],
+      [
+        51,
+        "is a",
+        "Vegan restaurant"
+      ],
+      [
+        51,
+        "serves cuisine",
+        "Plant-based food"
+      ]
+    ]
+  },
+  {
+    "iid": 55,
+    "triplets": [
+      [
+        55,
+        "serves cuisine",
+        "grilled cheese sandwiches"
+      ],
+      [
+        55,
+        "has feature",
+        "delicious"
+      ],
+      [
+        55,
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        55,
+        "has feature",
+        "accommodating service"
+      ],
+      [
+        55,
+        "has feature",
+        "unique fountain drinks"
+      ],
+      [
+        55,
+        "has feature",
+        "without additives"
+      ],
+      [
+        55,
+        "appeals to",
+        "Cheese lovers"
+      ],
+      [
+        55,
+        "appeals to",
+        "Families with small children"
+      ],
+      [
+        55,
+        "appeals to",
+        "People who enjoy comfort food"
+      ],
+      [
+        55,
+        "located in",
+        "unspecified"
+      ]
+    ]
+  },
+  {
+    "iid": 38,
+    "triplets": [
+      [
+        38,
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        38,
+        "serves cuisine",
+        "Northern Italian"
+      ],
+      [
+        38,
+        "is a",
+        "Fine dining restaurant"
+      ],
+      [
+        38,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        38,
+        "has feature",
+        "intimate setting"
+      ],
+      [
+        38,
+        "has feature",
+        "exceptional service"
+      ],
+      [
+        38,
+        "appeals to",
+        "Fine dining enthusiasts"
+      ],
+      [
+        38,
+        "appeals to",
+        "Food connoisseurs"
+      ],
+      [
+        38,
+        "appeals to",
+        "Culinary experience seekers"
+      ],
+      [
+        38,
+        "suitable for",
+        "Special occasions"
+      ],
+      [
+        38,
+        "suitable for",
+        "Gourmet dining"
+      ]
+    ]
+  },
+  {
+    "iid": 52,
+    "triplets": [
+      [
+        "52",
+        "located in",
+        "Treasure Island"
+      ],
+      [
+        "52",
+        "serves cuisine",
+        "American seafood"
+      ],
+      [
+        "52",
+        "is a",
+        "Seafood restaurant"
+      ],
+      [
+        "52",
+        "has feature",
+        "Pet-friendly dining"
+      ],
+      [
+        "52",
+        "has feature",
+        "Outdoor seating"
+      ],
+      [
+        "52",
+        "has atmosphere",
+        "Casual"
+      ],
+      [
+        "52",
+        "has feature",
+        "Good service"
+      ],
+      [
+        "52",
+        "appeals to",
+        "Seafood lovers"
+      ],
+      [
+        "52",
+        "appeals to",
+        "Pet owners"
+      ],
+      [
+        "52",
+        "appeals to",
+        "Casual dining enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": 53,
+    "triplets": [
+      [
+        "53",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "53",
+        "serves cuisine",
+        "Asian fusion"
+      ],
+      [
+        "53",
+        "serves dish",
+        "noodle dishes"
+      ],
+      [
+        "53",
+        "serves dish",
+        "small plates"
+      ],
+      [
+        "53",
+        "has feature",
+        "high-quality ingredients"
+      ],
+      [
+        "53",
+        "has feature",
+        "flavorful broths"
+      ],
+      [
+        "53",
+        "has feature",
+        "generous meat portions"
+      ],
+      [
+        "53",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "53",
+        "serves cuisine",
+        "Fusion"
+      ],
+      [
+        "53",
+        "serves dish",
+        "Noodles"
+      ],
+      [
+        "53",
+        "suitable for",
+        "Groups"
+      ],
+      [
+        "53",
+        "suitable for",
+        "Solo diners"
+      ],
+      [
+        "53",
+        "has atmosphere",
+        "Tasty and satisfying meal"
+      ]
+    ]
+  },
+  {
+    "iid": 54,
+    "triplets": [
+      [
+        "54",
+        "located in",
+        "Reno"
+      ],
+      [
+        "54",
+        "offers",
+        "beers"
+      ],
+      [
+        "54",
+        "offers",
+        "wines"
+      ],
+      [
+        "54",
+        "serves cuisine",
+        "American traditional pub food"
+      ],
+      [
+        "54",
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        "54",
+        "has atmosphere",
+        "welcoming"
+      ],
+      [
+        "54",
+        "appeals to",
+        "Users"
+      ],
+      [
+        "54",
+        "seeks",
+        "beers"
+      ],
+      [
+        "54",
+        "interested in",
+        "wines"
+      ],
+      [
+        "54",
+        "seeks",
+        "American traditional pub food"
+      ]
+    ]
+  },
+  {
+    "iid": 56,
+    "triplets": [
+      [
+        "56",
+        "located in",
+        "Saint Louis"
+      ],
+      [
+        "56",
+        "serves cuisine",
+        "Spanish cuisine"
+      ],
+      [
+        "56",
+        "serves cuisine",
+        "Tapas"
+      ],
+      [
+        "56",
+        "serves dish",
+        "variety of dishes"
+      ],
+      [
+        "56",
+        "has atmosphere",
+        "lively atmosphere"
+      ],
+      [
+        "56",
+        "appeals to",
+        "Fans of Spanish cuisine"
+      ],
+      [
+        "56",
+        "appeals to",
+        "Tapas enthusiasts"
+      ],
+      [
+        "56",
+        "is a",
+        "Tapas Bar"
+      ],
+      [
+        "56",
+        "is a",
+        "Restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 57,
+    "triplets": [
+      [
+        "57",
+        "located in",
+        "Edmonton"
+      ],
+      [
+        "57",
+        "serves cuisine",
+        "Barbecue"
+      ],
+      [
+        "57",
+        "serves dish",
+        "flavorful dishes"
+      ],
+      [
+        "57",
+        "serves dish",
+        "unique dishes"
+      ],
+      [
+        "57",
+        "appeals to",
+        "Meat lovers"
+      ],
+      [
+        "57",
+        "appeals to",
+        "BBQ enthusiasts"
+      ],
+      [
+        "57",
+        "appeals to",
+        "Food lovers"
+      ]
+    ]
+  },
+  {
+    "iid": 60,
+    "triplets": [
+      [
+        60,
+        "located in",
+        "Fishers"
+      ],
+      [
+        60,
+        "serves cuisine",
+        "British"
+      ],
+      [
+        60,
+        "serves cuisine",
+        "American"
+      ],
+      [
+        60,
+        "serves dish",
+        "chicken wings"
+      ],
+      [
+        60,
+        "serves drink",
+        "beer"
+      ],
+      [
+        60,
+        "has feature",
+        "sports atmosphere"
+      ],
+      [
+        60,
+        "has feature",
+        "excellent service"
+      ],
+      [
+        60,
+        "offers",
+        "beer"
+      ],
+      [
+        60,
+        "serves dish",
+        "chicken wings"
+      ],
+      [
+        60,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        60,
+        "is a",
+        "Bar"
+      ],
+      [
+        60,
+        "general category",
+        "Sports bar"
+      ]
+    ]
+  },
+  {
+    "iid": 58,
+    "triplets": [
+      [
+        "58",
+        "located in",
+        "Clearwater"
+      ],
+      [
+        "58",
+        "serves cuisine",
+        "Vegetarian"
+      ],
+      [
+        "58",
+        "serves cuisine",
+        "Vegetarian food"
+      ],
+      [
+        "58",
+        "serves cuisine",
+        "Food for dietary restrictions"
+      ],
+      [
+        "58",
+        "serves cuisine",
+        "Food for special diets"
+      ],
+      [
+        "58",
+        "serves cuisine",
+        "Fresh ingredients"
+      ],
+      [
+        "58",
+        "serves dish",
+        "Vegetarian dishes"
+      ],
+      [
+        "58",
+        "serves dish",
+        "Dishes for dietary restrictions"
+      ],
+      [
+        "58",
+        "serves dish",
+        "Dishes with fresh ingredients"
+      ],
+      [
+        "58",
+        "has atmosphere",
+        "quaint"
+      ],
+      [
+        "58",
+        "has atmosphere",
+        "charming"
+      ],
+      [
+        "58",
+        "has feature",
+        "outdoor dining"
+      ],
+      [
+        "58",
+        "has feature",
+        "Outdoor seating"
+      ],
+      [
+        "58",
+        "has feature",
+        "Outdoor dining"
+      ],
+      [
+        "58",
+        "has feature",
+        "Nature-friendly environment"
+      ],
+      [
+        "58",
+        "has feature",
+        "Affordable prices"
+      ],
+      [
+        "58",
+        "appeals to",
+        "Vegetarians"
+      ],
+      [
+        "58",
+        "appeals to",
+        "People with dietary restrictions"
+      ],
+      [
+        "58",
+        "appeals to",
+        "Foodies"
+      ],
+      [
+        "58",
+        "appeals to",
+        "Nature enthusiasts"
+      ],
+      [
+        "58",
+        "suitable for",
+        "Outdoor dining"
+      ],
+      [
+        "58",
+        "suitable for",
+        "Casual dining"
+      ],
+      [
+        "58",
+        "suitable for",
+        "Budget dining"
+      ],
+      [
+        "58",
+        "suitable for",
+        "Relaxed atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": 59,
+    "triplets": [
+      [
+        "59",
+        "located in",
+        "Media"
+      ],
+      [
+        "59",
+        "serves cuisine",
+        "Italian"
+      ],
+      [
+        "59",
+        "serves cuisine",
+        "Italian cuisine"
+      ],
+      [
+        "59",
+        "has feature",
+        "fresh ingredients"
+      ],
+      [
+        "59",
+        "has feature",
+        "excellent service"
+      ],
+      [
+        "59",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "59",
+        "suitable for",
+        "Fans of Italian cuisine"
+      ],
+      [
+        "59",
+        "suitable for",
+        "Diners seeking unique twist"
+      ],
+      [
+        "59",
+        "suitable for",
+        "Diners seeking variety"
+      ],
+      [
+        "59",
+        "suitable for",
+        "Diners seeking professional service"
+      ],
+      [
+        "59",
+        "suitable for",
+        "Diners seeking vibrant dining experience"
+      ]
+    ]
+  },
+  {
+    "iid": 61,
+    "triplets": [
+      [
+        "61",
+        "located in",
+        "Unknown"
+      ],
+      [
+        "61",
+        "serves cuisine",
+        "American"
+      ],
+      [
+        "61",
+        "serves dish",
+        "Food"
+      ],
+      [
+        "61",
+        "has atmosphere",
+        "festive"
+      ],
+      [
+        "61",
+        "has feature",
+        "attention to detail in decor"
+      ],
+      [
+        "61",
+        "has feature",
+        "proactive staff"
+      ],
+      [
+        "61",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "61",
+        "has feature",
+        "diverse menu options"
+      ],
+      [
+        "61",
+        "appeals to",
+        "Fans of festive atmospheres"
+      ],
+      [
+        "61",
+        "appeals to",
+        "Food lovers"
+      ],
+      [
+        "61",
+        "appeals to",
+        "People who appreciate friendly service"
+      ],
+      [
+        "61",
+        "appeals to",
+        "People who appreciate diverse menu options"
+      ],
+      [
+        "61",
+        "appeals to",
+        "People who value attention to detail in decor"
+      ],
+      [
+        "61",
+        "appeals to",
+        "People with food allergies"
+      ]
+    ]
+  },
+  {
+    "iid": 65,
+    "triplets": [
+      [
+        "65",
+        "located in",
+        "Reno"
+      ],
+      [
+        "65",
+        "serves cuisine",
+        "Chinese"
+      ],
+      [
+        "65",
+        "serves cuisine",
+        "Asian fusion"
+      ],
+      [
+        "65",
+        "serves cuisine",
+        "sushi"
+      ],
+      [
+        "65",
+        "is a",
+        "Restaurant"
+      ],
+      [
+        "65",
+        "serves dish",
+        "sushi"
+      ],
+      [
+        "65",
+        "serves dish",
+        "Chinese food"
+      ],
+      [
+        "65",
+        "serves dish",
+        "AYCE sushi"
+      ],
+      [
+        "65",
+        "has feature",
+        "quality food"
+      ],
+      [
+        "65",
+        "has feature",
+        "good service"
+      ],
+      [
+        "65",
+        "has feature",
+        "varied menu"
+      ],
+      [
+        "65",
+        "appeals to",
+        "Fans of Chinese cuisine"
+      ],
+      [
+        "65",
+        "appeals to",
+        "Fans of Asian fusion"
+      ],
+      [
+        "65",
+        "appeals to",
+        "Fans of sushi"
+      ],
+      [
+        "65",
+        "suitable for",
+        "Sushi lovers"
+      ],
+      [
+        "65",
+        "suitable for",
+        "Chinese food lovers"
+      ]
+    ]
+  },
+  {
+    "iid": 62,
+    "triplets": [
+      [
+        "62",
+        "located in",
+        "Tucson"
+      ],
+      [
+        "62",
+        "serves cuisine",
+        "breakfast"
+      ],
+      [
+        "62",
+        "serves cuisine",
+        "brunch"
+      ],
+      [
+        "62",
+        "serves dish",
+        "doughssants"
+      ],
+      [
+        "62",
+        "serves dish",
+        "French toasts"
+      ],
+      [
+        "62",
+        "serves dish",
+        "French toast"
+      ],
+      [
+        "62",
+        "serves drink",
+        "mimosas"
+      ],
+      [
+        "62",
+        "serves drink",
+        "bloody marys"
+      ],
+      [
+        "62",
+        "has feature",
+        "cozy atmosphere"
+      ],
+      [
+        "62",
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        "62",
+        "has feature",
+        "variety of food"
+      ],
+      [
+        "62",
+        "suitable for",
+        "Lively culinary experience"
+      ],
+      [
+        "62",
+        "is a",
+        "Restaurant"
+      ],
+      [
+        "62",
+        "is a",
+        "Breakfast & Brunch"
+      ],
+      [
+        "62",
+        "general category",
+        "Culinary experience"
+      ]
+    ]
+  },
+  {
+    "iid": 64,
+    "triplets": [
+      [
+        "64",
+        "located in",
+        "Ballwin"
+      ],
+      [
+        "64",
+        "serves cuisine",
+        "Indian cuisine"
+      ],
+      [
+        "64",
+        "serves dish",
+        "buffet"
+      ],
+      [
+        "64",
+        "has feature",
+        "reasonably priced"
+      ],
+      [
+        "64",
+        "has feature",
+        "wide variety"
+      ],
+      [
+        "64",
+        "serves dish",
+        "flavorful dishes"
+      ],
+      [
+        "64",
+        "has feature",
+        "attentive service"
+      ],
+      [
+        "64",
+        "has atmosphere",
+        "welcoming environment"
+      ],
+      [
+        "64",
+        "appeals to",
+        "Fans of Indian cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 66,
+    "triplets": [
+      [
+        66,
+        "located in",
+        "St. Petersburg"
+      ],
+      [
+        66,
+        "serves cuisine",
+        "Tapas"
+      ],
+      [
+        66,
+        "serves dish",
+        "Tapas"
+      ],
+      [
+        66,
+        "has feature",
+        "Waterfront area"
+      ],
+      [
+        66,
+        "has atmosphere",
+        "Upscale"
+      ],
+      [
+        66,
+        "has atmosphere",
+        "Beautiful"
+      ],
+      [
+        66,
+        "has atmosphere",
+        "Romantic"
+      ],
+      [
+        66,
+        "serves drink",
+        "Cocktails"
+      ],
+      [
+        66,
+        "serves drink",
+        "Well-crafted cocktails"
+      ],
+      [
+        66,
+        "suitable for",
+        "Users who enjoy trendy waterfront areas"
+      ],
+      [
+        66,
+        "suitable for",
+        "Users who enjoy upscale bars"
+      ],
+      [
+        66,
+        "suitable for",
+        "Users who enjoy a variety of tapas"
+      ],
+      [
+        66,
+        "appeals to",
+        "Users seeking romantic settings"
+      ],
+      [
+        66,
+        "appeals to",
+        "Users seeking upscale nightlife"
+      ],
+      [
+        66,
+        "general category",
+        "Bar"
+      ],
+      [
+        66,
+        "general category",
+        "Restaurant"
+      ],
+      [
+        66,
+        "general category",
+        "Nightlife"
+      ]
+    ]
+  },
+  {
+    "iid": 69,
+    "triplets": [
+      [
+        69,
+        "located in",
+        "Devon"
+      ],
+      [
+        69,
+        "serves cuisine",
+        "Donuts"
+      ],
+      [
+        69,
+        "serves dish",
+        "tasty donuts"
+      ],
+      [
+        69,
+        "serves cuisine",
+        "Bagels"
+      ],
+      [
+        69,
+        "serves dish",
+        "flavorful bagels"
+      ],
+      [
+        69,
+        "serves cuisine",
+        "Breakfast sandwiches"
+      ],
+      [
+        69,
+        "serves dish",
+        "delicious breakfast sandwiches"
+      ],
+      [
+        69,
+        "has feature",
+        "newly popular location"
+      ],
+      [
+        69,
+        "has feature",
+        "understaffed location"
+      ],
+      [
+        69,
+        "appeals to",
+        "Foodies"
+      ],
+      [
+        69,
+        "appeals to",
+        "Donut lovers"
+      ],
+      [
+        69,
+        "appeals to",
+        "Bagel lovers"
+      ],
+      [
+        69,
+        "appeals to",
+        "Breakfast lovers"
+      ],
+      [
+        69,
+        "is a",
+        "Bakery"
+      ]
+    ]
+  },
+  {
+    "iid": 67,
+    "triplets": [
+      [
+        "67",
+        "located in",
+        "Dunedin"
+      ],
+      [
+        "67",
+        "serves cuisine",
+        "Hawaiian"
+      ],
+      [
+        "67",
+        "serves cuisine",
+        "Mexican"
+      ],
+      [
+        "67",
+        "serves cuisine",
+        "fusion"
+      ],
+      [
+        "67",
+        "serves dish",
+        "fresh Hawaiian"
+      ],
+      [
+        "67",
+        "serves dish",
+        "flavorful Hawaiian"
+      ],
+      [
+        "67",
+        "serves dish",
+        "fresh Mexican"
+      ],
+      [
+        "67",
+        "serves dish",
+        "flavorful Mexican"
+      ],
+      [
+        "67",
+        "is a",
+        "Cuisine"
+      ],
+      [
+        "67",
+        "has atmosphere",
+        "friendly"
+      ],
+      [
+        "67",
+        "has feature",
+        "great service"
+      ],
+      [
+        "67",
+        "has feature",
+        "live music"
+      ],
+      [
+        "67",
+        "has feature",
+        "outdoor seating"
+      ],
+      [
+        "67",
+        "appeals to",
+        "Fans of Hawaiian cuisine"
+      ],
+      [
+        "67",
+        "appeals to",
+        "Fans of Mexican cuisine"
+      ],
+      [
+        "67",
+        "appeals to",
+        "Fans of fusion cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 68,
+    "triplets": [
+      [
+        68,
+        "located in",
+        "unspecified"
+      ],
+      [
+        68,
+        "serves cuisine",
+        "American"
+      ],
+      [
+        68,
+        "serves cuisine",
+        "Dessert"
+      ],
+      [
+        68,
+        "serves dish",
+        "creme brulee"
+      ],
+      [
+        68,
+        "serves dish",
+        "mac and cheese skillet"
+      ],
+      [
+        68,
+        "serves dish",
+        "short rib grilled cheese"
+      ],
+      [
+        68,
+        "serves dish",
+        "Asian nachos"
+      ],
+      [
+        68,
+        "has feature",
+        "comfortable atmosphere"
+      ],
+      [
+        68,
+        "has feature",
+        "lively atmosphere"
+      ],
+      [
+        68,
+        "suitable for",
+        "Brunch"
+      ],
+      [
+        68,
+        "suitable for",
+        "Dinner"
+      ],
+      [
+        68,
+        "suitable for",
+        "Happy hour"
+      ],
+      [
+        68,
+        "suitable for",
+        "Celebrations"
+      ],
+      [
+        68,
+        "general category",
+        "Restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 71,
+    "triplets": [
+      [
+        "71",
+        "located in",
+        "Reno"
+      ],
+      [
+        "71",
+        "serves cuisine",
+        "Southern cuisine"
+      ],
+      [
+        "71",
+        "serves cuisine",
+        "soul food"
+      ],
+      [
+        "71",
+        "is a",
+        "Restaurant"
+      ],
+      [
+        "71",
+        "has feature",
+        "unique menu items"
+      ],
+      [
+        "71",
+        "has feature",
+        "generous portion sizes"
+      ],
+      [
+        "71",
+        "appeals to",
+        "Fans of Southern cuisine"
+      ],
+      [
+        "71",
+        "appeals to",
+        "Soul food enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": 63,
+    "triplets": [
+      [
+        63,
+        "serves cuisine",
+        "Latin American"
+      ],
+      [
+        63,
+        "serves cuisine",
+        "Caribbean"
+      ],
+      [
+        63,
+        "serves cuisine",
+        "Mexican"
+      ],
+      [
+        63,
+        "serves cuisine",
+        "Curry"
+      ],
+      [
+        63,
+        "serves dish",
+        "Smoked Salmon Frittata"
+      ],
+      [
+        63,
+        "serves dish",
+        "Tamal Corn Cakes"
+      ],
+      [
+        63,
+        "serves dish",
+        "Enchiladas de Pato"
+      ],
+      [
+        63,
+        "serves dish",
+        "Chimichurri Skirt Steak"
+      ],
+      [
+        63,
+        "serves dish",
+        "Signature cocktails"
+      ],
+      [
+        63,
+        "has feature",
+        "flavorful food"
+      ],
+      [
+        63,
+        "has feature",
+        "good drink options"
+      ],
+      [
+        63,
+        "general category",
+        "no-reservation policy"
+      ],
+      [
+        63,
+        "has issue",
+        "potential seating issues"
+      ]
+    ]
+  },
+  {
+    "iid": 70,
+    "triplets": [
+      [
+        70,
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        70,
+        "serves cuisine",
+        "Russian cuisine"
+      ],
+      [
+        70,
+        "serves dish",
+        "pirogies"
+      ],
+      [
+        70,
+        "serves dish",
+        "kielbasa"
+      ],
+      [
+        70,
+        "serves drink",
+        "beer"
+      ],
+      [
+        70,
+        "serves drink",
+        "craft beer"
+      ],
+      [
+        70,
+        "serves drink",
+        "unfiltered beer"
+      ],
+      [
+        70,
+        "serves drink",
+        "double IPA"
+      ],
+      [
+        70,
+        "serves drink",
+        "hoppy beer"
+      ],
+      [
+        70,
+        "serves drink",
+        "complex beer"
+      ],
+      [
+        70,
+        "has feature",
+        "variety of beers"
+      ],
+      [
+        70,
+        "has feature",
+        "unique beers"
+      ],
+      [
+        70,
+        "has feature",
+        "hoppy double IPAs"
+      ],
+      [
+        70,
+        "has feature",
+        "complex brews"
+      ],
+      [
+        70,
+        "is a",
+        "Brewery"
+      ],
+      [
+        70,
+        "general category",
+        "Craft Beer"
+      ],
+      [
+        70,
+        "is a",
+        "Russian cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 76,
+    "triplets": [
+      [
+        "76",
+        "located in",
+        "Indianapolis"
+      ],
+      [
+        "76",
+        "serves cuisine",
+        "Cajun/Creole food"
+      ],
+      [
+        "76",
+        "serves dish",
+        "large portions"
+      ],
+      [
+        "76",
+        "has feature",
+        "reasonable price"
+      ],
+      [
+        "76",
+        "has feature",
+        "cash-only payments"
+      ],
+      [
+        "76",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "76",
+        "appeals to",
+        "Users who enjoy large portions of Cajun/Creole food"
+      ],
+      [
+        "76",
+        "appeals to",
+        "Users who prefer reasonable prices"
+      ],
+      [
+        "76",
+        "appeals to",
+        "Users who do not mind cash-only payments"
+      ]
+    ]
+  },
+  {
+    "iid": 73,
+    "triplets": [
+      [
+        "73",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "73",
+        "offers",
+        "frozen yogurt"
+      ],
+      [
+        "73",
+        "offers",
+        "variety"
+      ],
+      [
+        "73",
+        "offers",
+        "variety"
+      ],
+      [
+        "73",
+        "has atmosphere",
+        "vibrant"
+      ],
+      [
+        "73",
+        "has atmosphere",
+        "welcoming"
+      ],
+      [
+        "73",
+        "suitable for",
+        "Fans of frozen yogurt"
+      ],
+      [
+        "73",
+        "has feature",
+        "fun atmosphere"
+      ],
+      [
+        "73",
+        "has feature",
+        "quality treats"
+      ],
+      [
+        "73",
+        "has feature",
+        "convenient location"
+      ],
+      [
+        "73",
+        "located in",
+        "South Street"
+      ]
+    ]
+  },
+  {
+    "iid": 72,
+    "triplets": [
+      [
+        "72",
+        "located in",
+        "Tucson"
+      ],
+      [
+        "72",
+        "serves cuisine",
+        "Mexican"
+      ],
+      [
+        "72",
+        "serves dish",
+        "carne asada"
+      ],
+      [
+        "72",
+        "serves dish",
+        "guacamole"
+      ],
+      [
+        "72",
+        "has feature",
+        "flavorful dishes"
+      ],
+      [
+        "72",
+        "has feature",
+        "made-at-the-table"
+      ],
+      [
+        "72",
+        "has feature",
+        "high-quality steaks"
+      ],
+      [
+        "72",
+        "is a",
+        "Steakhouse"
+      ],
+      [
+        "72",
+        "is a",
+        "Restaurant"
+      ],
+      [
+        "72",
+        "appeals to",
+        "Food enthusiasts"
+      ],
+      [
+        "72",
+        "interested in",
+        "High-quality steaks"
+      ],
+      [
+        "72",
+        "interested in",
+        "Mexican cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 74,
+    "triplets": [
+      [
+        "74",
+        "located in",
+        "Indianapolis"
+      ],
+      [
+        "74",
+        "serves cuisine",
+        "gourmet burgers"
+      ],
+      [
+        "74",
+        "is a",
+        "Burger restaurant"
+      ],
+      [
+        "74",
+        "has atmosphere",
+        "trendy"
+      ],
+      [
+        "74",
+        "has feature",
+        "quality ingredients"
+      ],
+      [
+        "74",
+        "offers",
+        "varied burger options"
+      ],
+      [
+        "74",
+        "offers",
+        "beers"
+      ],
+      [
+        "74",
+        "offers",
+        "cocktails"
+      ],
+      [
+        "74",
+        "appeals to",
+        "Fans of gourmet burgers"
+      ],
+      [
+        "74",
+        "general category",
+        "Burger"
+      ]
+    ]
+  },
+  {
+    "iid": 78,
+    "triplets": [
+      [
+        78,
+        "serves cuisine",
+        "family-friendly food"
+      ],
+      [
+        78,
+        "has feature",
+        "wide variety of food and drink options"
+      ],
+      [
+        78,
+        "serves drink",
+        "beer"
+      ],
+      [
+        78,
+        "serves drink",
+        "great beer selection"
+      ],
+      [
+        78,
+        "serves drink",
+        "craft beer"
+      ],
+      [
+        78,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        78,
+        "general category",
+        "Family-friendly"
+      ],
+      [
+        78,
+        "has feature",
+        "Beer"
+      ],
+      [
+        78,
+        "interested in",
+        "Craft Beer"
+      ],
+      [
+        78,
+        "interested in",
+        "Sports"
+      ],
+      [
+        78,
+        "has atmosphere",
+        "casual upscale"
+      ],
+      [
+        78,
+        "has feature",
+        "relaxing environment"
+      ],
+      [
+        78,
+        "has feature",
+        "watching game"
+      ],
+      [
+        78,
+        "has feature",
+        "live music"
+      ]
+    ]
+  },
+  {
+    "iid": 77,
+    "triplets": [
+      [
+        "77",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "77",
+        "is a",
+        "Hospital"
+      ],
+      [
+        "77",
+        "offers",
+        "Pediatric care"
+      ],
+      [
+        "77",
+        "has feature",
+        "dedicated staff"
+      ],
+      [
+        "77",
+        "has feature",
+        "warm staff"
+      ],
+      [
+        "77",
+        "has feature",
+        "clean facilities"
+      ],
+      [
+        "77",
+        "has feature",
+        "engaging amenities for children"
+      ],
+      [
+        "77",
+        "has feature",
+        "secure environment"
+      ],
+      [
+        "77",
+        "appeals to",
+        "Parents"
+      ],
+      [
+        "77",
+        "suitable for",
+        "Children"
+      ],
+      [
+        "77",
+        "is a",
+        "Pediatrics"
+      ]
+    ]
+  },
+  {
+    "iid": 80,
+    "triplets": [
+      [
+        "80",
+        "located in",
+        "Santa Barbara"
+      ],
+      [
+        "80",
+        "appeals to",
+        "Wine enthusiasts"
+      ],
+      [
+        "80",
+        "caters to",
+        "industry professionals"
+      ],
+      [
+        "80",
+        "caters to",
+        "families with young children"
+      ],
+      [
+        "80",
+        "appeals to",
+        "people seeking relaxing atmosphere"
+      ],
+      [
+        "80",
+        "has feature",
+        "stunning views"
+      ],
+      [
+        "80",
+        "has atmosphere",
+        "relaxing"
+      ]
+    ]
+  },
+  {
+    "iid": 79,
+    "triplets": [
+      [
+        79,
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        79,
+        "serves cuisine",
+        "American"
+      ],
+      [
+        79,
+        "serves dish",
+        "American cuisine"
+      ],
+      [
+        79,
+        "has atmosphere",
+        "laid-back setting"
+      ],
+      [
+        79,
+        "has atmosphere",
+        "Hip hop vibe"
+      ],
+      [
+        79,
+        "has feature",
+        "good service"
+      ],
+      [
+        79,
+        "appeals to",
+        "Food enthusiasts"
+      ],
+      [
+        79,
+        "appeals to",
+        "American cuisine lovers"
+      ],
+      [
+        79,
+        "suitable for",
+        "Casual dining"
+      ],
+      [
+        79,
+        "suitable for",
+        "Relaxed atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": 85,
+    "triplets": [
+      [
+        "85",
+        "located in",
+        "Saint Louis"
+      ],
+      [
+        "85",
+        "offers",
+        "gelato"
+      ],
+      [
+        "85",
+        "offers",
+        "coffee"
+      ],
+      [
+        "85",
+        "has feature",
+        "cozy atmosphere"
+      ],
+      [
+        "85",
+        "has feature",
+        "outdoor seating"
+      ],
+      [
+        "85",
+        "offers",
+        "variety of flavors"
+      ],
+      [
+        "85",
+        "appeals to",
+        "Fans of gelato"
+      ],
+      [
+        "85",
+        "appeals to",
+        "Coffee lovers"
+      ],
+      [
+        "85",
+        "appeals to",
+        "People seeking cozy atmosphere"
+      ],
+      [
+        "85",
+        "is a",
+        "Coffee shop"
+      ],
+      [
+        "85",
+        "offers",
+        "Ice cream"
+      ],
+      [
+        "85",
+        "offers",
+        "Beverages"
+      ]
+    ]
+  },
+  {
+    "iid": 81,
+    "triplets": [
+      [
+        "81",
+        "located in",
+        "Nashville"
+      ],
+      [
+        "81",
+        "serves cuisine",
+        "Pizza"
+      ],
+      [
+        "81",
+        "serves dish",
+        "variety of toppings"
+      ],
+      [
+        "81",
+        "serves dish",
+        "Sandwiches"
+      ],
+      [
+        "81",
+        "serves dish",
+        "Wings"
+      ],
+      [
+        "81",
+        "has feature",
+        "local delivery service"
+      ],
+      [
+        "81",
+        "has feature",
+        "prompt delivery"
+      ],
+      [
+        "81",
+        "appeals to",
+        "Pizza lovers"
+      ],
+      [
+        "81",
+        "appeals to",
+        "Sandwich lovers"
+      ],
+      [
+        "81",
+        "appeals to",
+        "Wings lovers"
+      ],
+      [
+        "81",
+        "is a",
+        "Pizza"
+      ],
+      [
+        "81",
+        "is a",
+        "Sandwiches"
+      ],
+      [
+        "81",
+        "has feature",
+        "Wings"
+      ]
+    ]
+  },
+  {
+    "iid": 82,
+    "triplets": [
+      [
+        82,
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        82,
+        "serves cuisine",
+        "Upscale dining"
+      ],
+      [
+        82,
+        "has feature",
+        "stunning views"
+      ],
+      [
+        82,
+        "serves drink",
+        "craft cocktails"
+      ],
+      [
+        82,
+        "has atmosphere",
+        "vibrant bar scene"
+      ],
+      [
+        82,
+        "has atmosphere",
+        "Swanky atmosphere"
+      ],
+      [
+        82,
+        "suitable for",
+        "Special occasions"
+      ],
+      [
+        82,
+        "suitable for",
+        "Corporate events"
+      ],
+      [
+        82,
+        "appeals to",
+        "Users who appreciate upscale dining"
+      ],
+      [
+        82,
+        "appeals to",
+        "Users who appreciate stunning views"
+      ],
+      [
+        82,
+        "appeals to",
+        "Users who appreciate craft cocktails"
+      ],
+      [
+        82,
+        "appeals to",
+        "Users who enjoy vibrant bar scene"
+      ],
+      [
+        82,
+        "general category",
+        "Restaurant"
+      ],
+      [
+        82,
+        "general category",
+        "Bar"
+      ],
+      [
+        82,
+        "serves cuisine",
+        "Food"
+      ],
+      [
+        82,
+        "serves drink",
+        "Beverages"
+      ]
+    ]
+  },
+  {
+    "iid": 75,
+    "triplets": [
+      [
+        75,
+        "located in",
+        "Saint Louis"
+      ],
+      [
+        75,
+        "offers",
+        "Frozen Custard"
+      ],
+      [
+        75,
+        "offers",
+        "Frozen Yogurt"
+      ],
+      [
+        75,
+        "is a",
+        "Ice Cream Shop"
+      ],
+      [
+        75,
+        "has feature",
+        "casual neighborhood setting"
+      ],
+      [
+        75,
+        "has feature",
+        "outdoor seating"
+      ],
+      [
+        75,
+        "has atmosphere",
+        "casual"
+      ],
+      [
+        75,
+        "suitable for",
+        "Fans of unique flavors"
+      ],
+      [
+        75,
+        "suitable for",
+        "Fans of mix-ins"
+      ],
+      [
+        75,
+        "suitable for",
+        "Health-conscious customers"
+      ],
+      [
+        75,
+        "appeals to",
+        "Fans of frozen desserts"
+      ],
+      [
+        75,
+        "appeals to",
+        "Health-conscious customers"
+      ],
+      [
+        75,
+        "offers",
+        "Frozen desserts"
+      ],
+      [
+        75,
+        "offers",
+        "Ice Cream"
+      ]
+    ]
+  },
+  {
+    "iid": 84,
+    "triplets": [
+      [
+        "84",
+        "located in",
+        "University City"
+      ],
+      [
+        "84",
+        "serves cuisine",
+        "Mexican"
+      ],
+      [
+        "84",
+        "serves dish",
+        "chicken soup"
+      ],
+      [
+        "84",
+        "serves dish",
+        "queso fundido"
+      ],
+      [
+        "84",
+        "has feature",
+        "festive atmosphere"
+      ],
+      [
+        "84",
+        "has feature",
+        "Spanish music"
+      ],
+      [
+        "84",
+        "has feature",
+        "attentive service"
+      ],
+      [
+        "84",
+        "appeals to",
+        "Fans of Mexican food"
+      ],
+      [
+        "84",
+        "appeals to",
+        "Fans of festive atmosphere"
+      ],
+      [
+        "84",
+        "appeals to",
+        "Fans of Spanish music"
+      ]
+    ]
+  },
+  {
+    "iid": 83,
+    "triplets": [
+      [
+        83,
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        83,
+        "serves cuisine",
+        "Mexican"
+      ],
+      [
+        83,
+        "serves cuisine",
+        "Tex-Mex"
+      ],
+      [
+        83,
+        "serves dish",
+        "brunch"
+      ],
+      [
+        83,
+        "serves drink",
+        "affordable drinks"
+      ],
+      [
+        83,
+        "serves drink",
+        "unlimited drinks"
+      ],
+      [
+        83,
+        "has atmosphere",
+        "lively"
+      ],
+      [
+        83,
+        "caters to",
+        "friendly"
+      ],
+      [
+        83,
+        "is a",
+        "Restaurant"
+      ],
+      [
+        83,
+        "has feature",
+        "casual dining"
+      ],
+      [
+        83,
+        "has feature",
+        "brunch options"
+      ],
+      [
+        83,
+        "has feature",
+        "affordable drinks"
+      ],
+      [
+        83,
+        "has feature",
+        "unlimited drinks"
+      ],
+      [
+        83,
+        "appeals to",
+        "Users who enjoy casual dining experiences"
+      ],
+      [
+        83,
+        "appeals to",
+        "Users who enjoy affordable drinks"
+      ],
+      [
+        83,
+        "appeals to",
+        "Users who enjoy brunch options"
+      ]
+    ]
+  },
+  {
+    "iid": 86,
+    "triplets": [
+      [
+        "86",
+        "located in",
+        "Tampa"
+      ],
+      [
+        "86",
+        "serves cuisine",
+        "sushi"
+      ],
+      [
+        "86",
+        "serves dish",
+        "Fish Wings"
+      ],
+      [
+        "86",
+        "serves dish",
+        "Salmon Skin hand rolls"
+      ],
+      [
+        "86",
+        "serves dish",
+        "sashimi"
+      ],
+      [
+        "86",
+        "serves dish",
+        "fish wings"
+      ],
+      [
+        "86",
+        "serves dish",
+        "salmon skin hand rolls"
+      ],
+      [
+        "86",
+        "has feature",
+        "friendly and interactive sushi chefs"
+      ],
+      [
+        "86",
+        "has feature",
+        "fresh sushi"
+      ],
+      [
+        "86",
+        "has feature",
+        "tasty sushi"
+      ],
+      [
+        "86",
+        "has feature",
+        "high-quality sashimi"
+      ],
+      [
+        "86",
+        "appeals to",
+        "Users who enjoy sushi"
+      ],
+      [
+        "86",
+        "appeals to",
+        "Sashimi lovers"
+      ],
+      [
+        "86",
+        "appeals to",
+        "Unique dish lovers"
+      ]
+    ]
+  },
+  {
+    "iid": 89,
+    "triplets": [
+      [
+        89,
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        89,
+        "serves cuisine",
+        "Burger"
+      ],
+      [
+        89,
+        "serves dish",
+        "Burger"
+      ],
+      [
+        89,
+        "has feature",
+        "customizable toppings"
+      ],
+      [
+        89,
+        "has atmosphere",
+        "casual setting"
+      ],
+      [
+        89,
+        "has feature",
+        "good service"
+      ],
+      [
+        89,
+        "has feature",
+        "speed"
+      ],
+      [
+        89,
+        "appeals to",
+        "Food enthusiasts"
+      ],
+      [
+        89,
+        "is a",
+        "Fast food"
+      ],
+      [
+        89,
+        "is a",
+        "Burger restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 91,
+    "triplets": [
+      [
+        "91",
+        "located in",
+        "Tampa Bay"
+      ],
+      [
+        "91",
+        "is a",
+        "Hotel"
+      ],
+      [
+        "91",
+        "is a",
+        "Airport hotel"
+      ],
+      [
+        "91",
+        "caters to",
+        "Business travelers"
+      ],
+      [
+        "91",
+        "caters to",
+        "Conference attendees"
+      ],
+      [
+        "91",
+        "caters to",
+        "Guests"
+      ],
+      [
+        "91",
+        "has feature",
+        "luxurious"
+      ],
+      [
+        "91",
+        "has feature",
+        "convenient"
+      ],
+      [
+        "91",
+        "has feature",
+        "Excellent service"
+      ],
+      [
+        "91",
+        "has feature",
+        "Amenities"
+      ],
+      [
+        "91",
+        "has feature",
+        "Dining options"
+      ]
+    ]
+  },
+  {
+    "iid": 90,
+    "triplets": [
+      [
+        "90",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "90",
+        "serves cuisine",
+        "pastries"
+      ],
+      [
+        "90",
+        "serves dish",
+        "cakes"
+      ],
+      [
+        "90",
+        "serves dish",
+        "cookies"
+      ],
+      [
+        "90",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "90",
+        "appeals to",
+        "Fans of pastries"
+      ],
+      [
+        "90",
+        "appeals to",
+        "Fans of cakes"
+      ],
+      [
+        "90",
+        "appeals to",
+        "Fans of cookies"
+      ],
+      [
+        "90",
+        "has feature",
+        "traditional bakery treats"
+      ],
+      [
+        "90",
+        "serves drink",
+        "Coffee"
+      ],
+      [
+        "90",
+        "has feature",
+        "Quality coffee"
+      ],
+      [
+        "90",
+        "has feature",
+        "Nostalgic experiences"
+      ],
+      [
+        "90",
+        "appeals to",
+        "People who appreciate traditional bakery treats"
+      ],
+      [
+        "90",
+        "appeals to",
+        "People who seek nostalgic experiences"
+      ]
+    ]
+  },
+  {
+    "iid": 87,
+    "triplets": [
+      [
+        87,
+        "located in",
+        "Tampa"
+      ],
+      [
+        87,
+        "has atmosphere",
+        "vibrant"
+      ],
+      [
+        87,
+        "has feature",
+        "art"
+      ],
+      [
+        87,
+        "has feature",
+        "skateboarding culture"
+      ],
+      [
+        87,
+        "serves cuisine",
+        "vegetarian food"
+      ],
+      [
+        87,
+        "serves cuisine",
+        "vegan food"
+      ],
+      [
+        87,
+        "has feature",
+        "full bar"
+      ],
+      [
+        87,
+        "serves drink",
+        "tasty drinks"
+      ],
+      [
+        87,
+        "serves dish",
+        "diverse menu"
+      ],
+      [
+        87,
+        "serves dish",
+        "well-prepared dishes"
+      ],
+      [
+        87,
+        "appeals to",
+        "Individuals"
+      ],
+      [
+        87,
+        "appeals to",
+        "Art lovers"
+      ],
+      [
+        87,
+        "appeals to",
+        "Skateboarding enthusiasts"
+      ],
+      [
+        87,
+        "appeals to",
+        "Vegetarian/vegan food lovers"
+      ]
+    ]
+  },
+  {
+    "iid": 95,
+    "triplets": [
+      [
+        "95",
+        "located in",
+        "Nashville"
+      ],
+      [
+        "95",
+        "serves cuisine",
+        "pancakes"
+      ],
+      [
+        "95",
+        "serves dish",
+        "pancakes"
+      ],
+      [
+        "95",
+        "has feature",
+        "variety of flavors"
+      ],
+      [
+        "95",
+        "has atmosphere",
+        "fast-paced"
+      ],
+      [
+        "95",
+        "appeals to",
+        "Users"
+      ],
+      [
+        "95",
+        "seeks",
+        "fast-paced dining experience"
+      ]
+    ]
+  },
+  {
+    "iid": 92,
+    "triplets": [
+      [
+        92,
+        "located in",
+        "Reno"
+      ],
+      [
+        92,
+        "offers",
+        "luxury hotels"
+      ],
+      [
+        92,
+        "offers",
+        "casinos"
+      ],
+      [
+        92,
+        "offers",
+        "spa services"
+      ],
+      [
+        92,
+        "offers",
+        "entertainment options"
+      ],
+      [
+        92,
+        "is a",
+        "Hotel"
+      ],
+      [
+        92,
+        "is a",
+        "Casino"
+      ],
+      [
+        92,
+        "is a",
+        "Spa"
+      ],
+      [
+        92,
+        "has feature",
+        "clean facilities"
+      ],
+      [
+        92,
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        92,
+        "has feature",
+        "diverse amenities"
+      ],
+      [
+        92,
+        "appeals to",
+        "Users who enjoy luxury hotels"
+      ],
+      [
+        92,
+        "appeals to",
+        "Users who enjoy casinos"
+      ],
+      [
+        92,
+        "appeals to",
+        "Users who enjoy spa services"
+      ],
+      [
+        92,
+        "appeals to",
+        "Users who enjoy entertainment options"
+      ],
+      [
+        92,
+        "offers",
+        "Luxury accommodations"
+      ],
+      [
+        92,
+        "caters to",
+        "Entertainment"
+      ]
+    ]
+  },
+  {
+    "iid": 88,
+    "triplets": [
+      [
+        "88",
+        "located in",
+        "Des Peres"
+      ],
+      [
+        "88",
+        "sells",
+        "deli items"
+      ],
+      [
+        "88",
+        "sells",
+        "grocery items"
+      ],
+      [
+        "88",
+        "sells",
+        "bakery items"
+      ],
+      [
+        "88",
+        "has feature",
+        "full-service restaurant"
+      ],
+      [
+        "88",
+        "has feature",
+        "wine department"
+      ],
+      [
+        "88",
+        "offers",
+        "unique shopping experience"
+      ],
+      [
+        "88",
+        "has feature",
+        "amenities"
+      ],
+      [
+        "88",
+        "has feature",
+        "in-store bank"
+      ],
+      [
+        "88",
+        "has feature",
+        "pharmacy"
+      ],
+      [
+        "88",
+        "appeals to",
+        "Users who enjoy diverse shopping"
+      ],
+      [
+        "88",
+        "sells",
+        "gooey butter cake"
+      ],
+      [
+        "88",
+        "is a",
+        "Grocery store"
+      ]
+    ]
+  },
+  {
+    "iid": 94,
+    "triplets": [
+      [
+        "94",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "94",
+        "serves cuisine",
+        "Italian food"
+      ],
+      [
+        "94",
+        "serves dish",
+        "authentic Italian food"
+      ],
+      [
+        "94",
+        "serves dish",
+        "family-style Italian food"
+      ],
+      [
+        "94",
+        "has feature",
+        "generous portions"
+      ],
+      [
+        "94",
+        "has feature",
+        "welcoming service"
+      ],
+      [
+        "94",
+        "has atmosphere",
+        "neighborhood vibe"
+      ],
+      [
+        "94",
+        "has atmosphere",
+        "relaxed atmosphere"
+      ],
+      [
+        "94",
+        "price range",
+        "reasonable prices"
+      ],
+      [
+        "94",
+        "appeals to",
+        "Fans of Italian food"
+      ],
+      [
+        "94",
+        "appeals to",
+        "BYOB enthusiasts"
+      ],
+      [
+        "94",
+        "is a",
+        "Italian restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 93,
+    "triplets": [
+      [
+        "93",
+        "offers",
+        "coffee"
+      ],
+      [
+        "93",
+        "offers",
+        "high-quality coffee"
+      ],
+      [
+        "93",
+        "has feature",
+        "rich flavors"
+      ],
+      [
+        "93",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "93",
+        "caters to",
+        "friendly"
+      ],
+      [
+        "93",
+        "is a",
+        "European-style cafe"
+      ],
+      [
+        "93",
+        "offers",
+        "pastries"
+      ],
+      [
+        "93",
+        "offers",
+        "variety of coffee options"
+      ],
+      [
+        "93",
+        "has feature",
+        "long lines"
+      ],
+      [
+        "93",
+        "has feature",
+        "limited seating"
+      ],
+      [
+        "93",
+        "appeals to",
+        "Coffee enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": 96,
+    "triplets": [
+      [
+        "96",
+        "located in",
+        "Saint Pete Beach"
+      ],
+      [
+        "96",
+        "serves cuisine",
+        "variety of food options"
+      ],
+      [
+        "96",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "96",
+        "has feature",
+        "efficient service"
+      ],
+      [
+        "96",
+        "price range",
+        "reasonable pricing"
+      ],
+      [
+        "96",
+        "has atmosphere",
+        "welcoming atmosphere"
+      ],
+      [
+        "96",
+        "has feature",
+        "entertainment"
+      ],
+      [
+        "96",
+        "appeals to",
+        "Users who enjoy a variety of food options"
+      ],
+      [
+        "96",
+        "appeals to",
+        "Users who prefer friendly service"
+      ],
+      [
+        "96",
+        "appeals to",
+        "Users who prefer efficient service"
+      ],
+      [
+        "96",
+        "appeals to",
+        "Users seeking reasonable prices"
+      ],
+      [
+        "96",
+        "appeals to",
+        "Users who enjoy entertainment"
+      ]
+    ]
+  },
+  {
+    "iid": 97,
+    "triplets": [
+      [
+        "97",
+        "located in",
+        "Unknown"
+      ],
+      [
+        "97",
+        "serves cuisine",
+        "Sandwiches"
+      ],
+      [
+        "97",
+        "serves dish",
+        "Hearty sandwiches"
+      ],
+      [
+        "97",
+        "serves dish",
+        "Sandwich"
+      ],
+      [
+        "97",
+        "serves dish",
+        "Pastrami"
+      ],
+      [
+        "97",
+        "serves dish",
+        "Catering"
+      ],
+      [
+        "97",
+        "has feature",
+        "generous portions"
+      ],
+      [
+        "97",
+        "has feature",
+        "variety of flavors"
+      ],
+      [
+        "97",
+        "has atmosphere",
+        "relaxed"
+      ],
+      [
+        "97",
+        "appeals to",
+        "Fans of hearty sandwiches"
+      ],
+      [
+        "97",
+        "appeals to",
+        "Fans of generous portions"
+      ],
+      [
+        "97",
+        "appeals to",
+        "Fans of variety of flavors"
+      ]
+    ]
+  },
+  {
+    "iid": 98,
+    "triplets": [
+      [
+        "98",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "98",
+        "serves cuisine",
+        "Japanese cuisine"
+      ],
+      [
+        "98",
+        "serves dish",
+        "ramen"
+      ],
+      [
+        "98",
+        "is a",
+        "Ramen restaurant"
+      ],
+      [
+        "98",
+        "has feature",
+        "spacious seating"
+      ],
+      [
+        "98",
+        "has feature",
+        "large portions"
+      ],
+      [
+        "98",
+        "has feature",
+        "fair prices"
+      ],
+      [
+        "98",
+        "appeals to",
+        "Fans of Japanese cuisine"
+      ],
+      [
+        "98",
+        "appeals to",
+        "Ramen enthusiasts"
+      ],
+      [
+        "98",
+        "appeals to",
+        "Families with kids"
+      ],
+      [
+        "98",
+        "appeals to",
+        "People seeking spacious seating"
+      ],
+      [
+        "98",
+        "appeals to",
+        "Individuals seeking fair prices"
+      ],
+      [
+        "98",
+        "appeals to",
+        "Individuals seeking large portions"
+      ]
+    ]
+  },
+  {
+    "iid": 102,
+    "triplets": [
+      [
+        "102",
+        "located in",
+        "Saint Louis"
+      ],
+      [
+        "102",
+        "serves cuisine",
+        "bread"
+      ],
+      [
+        "102",
+        "serves dish",
+        "freshly baked bread"
+      ],
+      [
+        "102",
+        "serves cuisine",
+        "Salads"
+      ],
+      [
+        "102",
+        "serves dish",
+        "tasty salads"
+      ],
+      [
+        "102",
+        "serves cuisine",
+        "Sandwiches"
+      ],
+      [
+        "102",
+        "serves dish",
+        "Sandwiches"
+      ],
+      [
+        "102",
+        "serves cuisine",
+        "Soups"
+      ],
+      [
+        "102",
+        "serves dish",
+        "Soups"
+      ],
+      [
+        "102",
+        "has atmosphere",
+        "cozy cafe atmosphere"
+      ],
+      [
+        "102",
+        "appeals to",
+        "Users who enjoy baked bread"
+      ],
+      [
+        "102",
+        "appeals to",
+        "Users who enjoy salads"
+      ],
+      [
+        "102",
+        "appeals to",
+        "Users who enjoy sandwiches"
+      ],
+      [
+        "102",
+        "appeals to",
+        "Users who enjoy soups"
       ]
     ]
   }
