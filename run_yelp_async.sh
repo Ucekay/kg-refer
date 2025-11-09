@@ -9,6 +9,7 @@
 
 uv run --env-file .env --package edc python packages/edc/main.py \
     --input-text-file-path ./data/yelp/item_profile.json \
+    --target-schema-path ./packages/edc/schemas/yelp_schema.csv \
     --oie-llm gpt-4.1-nano \
     --oie-input-template-file-path ./packages/edc/prompt_templates/oie_input_template_yelp.txt \
     --oie-instructions-template-file-path ./packages/edc/prompt_templates/oie_instructions_template_yelp.txt \

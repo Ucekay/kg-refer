@@ -8,7 +8,7 @@
 # - Async processing for parallel execution
 
 uv run --env-file .env --package edc python packages/edc/main.py \
-    --input-text-file-path ./data/yelp/item_profile_test_10.jsonl \
+    --input-text-file-path ./data/yelp/item_profile_test_100.jsonl \
     --oie-llm gpt-4.1-nano \
     --oie-input-template-file-path ./packages/edc/prompt_templates/oie_input_template_yelp.txt \
     --oie-instructions-template-file-path ./packages/edc/prompt_templates/oie_instructions_template_yelp.txt \
@@ -25,4 +25,4 @@ uv run --env-file .env --package edc python packages/edc/main.py \
     --refinement-iterations 0 \
     --enrich-schema \
     --enable-parallel-requests \
-    --output-dir ./packages/edc/output/yelp_test_with_schema_4.1 \
+    --output-dir ./packages/edc/output/yelp_test_with_schema_9 \
