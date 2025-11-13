@@ -48,6 +48,7 @@ ENTITY_EXPANSION_RULES = {
     # "Cajun/Creole": ["Cajun", "Creole"],
     # Add your expansion rules here:
     "Cajun/Creole": ["Cajun cuisine", "Creole cuisine"],
+    "Cajun/Creole cuisine": ["Cajun cuisine", "Creole cuisine"],
 }
 
 # Replacement rules for (relation, tail) combinations
@@ -85,6 +86,9 @@ RELATION_TAIL_REPLACEMENTS = [
     ("price range", "reasonable prices", "price range", "reasonable"),
     ("price range", "reasonable price", "price range", "reasonable"),
     ("serves", "Greek food", "serves", "Greek cuisine"),
+    ("serves", "restaurant", "is a", "restaurant"),
+    ("category", "restaurant", "is a", "restaurant"),
+    ("category", "cafe", "is a", "cafe"),
 ]
 
 # Tail-based relation unification rules
@@ -101,6 +105,7 @@ TAIL_RELATION_UNIFICATION_RULES = {
     "soups": "serves",
     "cozy": "has atmosphere",
     "restaurant": "is a",
+    "cafe": "is a",
 }
 
 
@@ -396,8 +401,11 @@ class KGCleaner:
             if len(relations) > 1
         }
 
-        self.stats["conflict_count"] = len(conflicts)
-        logger.info(f"Found {len(conflicts)} (h, t) pairs with multiple relations")
+        # Don't update stats here - will be updated after all iids are processed
+        if conflicts:
+            logger.debug(
+                f"Found {len(conflicts)} (h, t) pairs with multiple relations in this iid"
+            )
 
         return conflicts
 
@@ -491,6 +499,13 @@ class KGCleaner:
                     all_conflicts.update(conflicts)
 
             cleaned_data.append({"iid": iid, "triplets": triplets})
+
+        # Update conflict count after all iids are processed
+        if find_conflicts:
+            self.stats["conflict_count"] = len(all_conflicts)
+            logger.info(
+                f"Found {len(all_conflicts)} total (h, t) pairs with multiple relations"
+            )
 
         logger.info(f"Cleaning statistics: {self.stats}")
         return cleaned_data, all_conflicts

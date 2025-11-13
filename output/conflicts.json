@@ -1,626 +1,9 @@
 [
     {
-        "iid": "1",
-        "triplets": [
-            ["1", "is a", "cafe"],
-            ["1", "serves", "cafe"]
-        ]
-    },
-    {
-        "iid": "1000",
-        "triplets": [
-            ["1000", "category", "urgent care"],
-            ["1000", "serves", "urgent care"]
-        ]
-    },
-    {
-        "iid": "10003",
-        "triplets": [
-            ["10003", "serves", "breakfast"],
-            ["10003", "suitable for", "breakfast"]
-        ]
-    },
-    {
-        "iid": "10015",
-        "triplets": [
-            ["10015", "has feature", "big portions"],
-            ["10015", "serves", "big portions"]
-        ]
-    },
-    {
-        "iid": "10015",
-        "triplets": [
-            ["10015", "has feature", "sweet treats"],
-            ["10015", "serves", "sweet treats"]
-        ]
-    },
-    {
-        "iid": "10015",
-        "triplets": [
-            ["10015", "has feature", "unique dishes"],
-            ["10015", "serves", "unique dishes"]
-        ]
-    },
-    {
-        "iid": "10023",
-        "triplets": [
-            ["10023", "has atmosphere", "welcoming setting"],
-            ["10023", "located in", "welcoming setting"]
-        ]
-    },
-    {
-        "iid": "10029",
-        "triplets": [
-            ["10029", "category", "restaurant"],
-            ["10029", "serves", "restaurant"]
-        ]
-    },
-    {
-        "iid": "10034",
-        "triplets": [
-            ["10034", "has variety of", "drinks"],
-            ["10034", "serves", "drinks"]
-        ]
-    },
-    {
-        "iid": "10051",
-        "triplets": [
-            ["10051", "category", "pasta"],
-            ["10051", "serves", "pasta"]
-        ]
-    },
-    {
-        "iid": "10051",
-        "triplets": [
-            ["10051", "category", "pizza"],
-            ["10051", "serves", "pizza"]
-        ]
-    },
-    {
-        "iid": "10051",
-        "triplets": [
-            ["10051", "category", "pizza pasta"],
-            ["10051", "serves", "pizza pasta"]
-        ]
-    },
-    {
-        "iid": "10053",
-        "triplets": [
-            ["10053", "has menu feature", "bacon mac & cheese"],
-            ["10053", "serves", "bacon mac & cheese"]
-        ]
-    },
-    {
-        "iid": "10053",
-        "triplets": [
-            ["10053", "has menu feature", "beignets"],
-            ["10053", "serves", "beignets"]
-        ]
-    },
-    {
-        "iid": "10053",
-        "triplets": [
-            ["10053", "has menu feature", "catfish tacos"],
-            ["10053", "serves", "catfish tacos"]
-        ]
-    },
-    {
-        "iid": "10053",
-        "triplets": [
-            ["10053", "category", "comfort food"],
-            ["10053", "serves", "comfort food"]
-        ]
-    },
-    {
-        "iid": "10053",
-        "triplets": [
-            ["10053", "has menu feature", "eggs benedict"],
-            ["10053", "serves", "eggs benedict"]
-        ]
-    },
-    {
-        "iid": "10053",
-        "triplets": [
-            ["10053", "has menu feature", "french toast"],
-            ["10053", "serves", "french toast"]
-        ]
-    },
-    {
-        "iid": "10053",
-        "triplets": [
-            ["10053", "has menu feature", "meatloaf sandwich"],
-            ["10053", "serves", "meatloaf sandwich"]
-        ]
-    },
-    {
-        "iid": "10058",
-        "triplets": [
-            ["10058", "category", "pizza"],
-            ["10058", "serves", "pizza"]
-        ]
-    },
-    {
-        "iid": "10073",
-        "triplets": [
-            ["10073", "category", "frozen custard"],
-            ["10073", "serves", "frozen custard"]
-        ]
-    },
-    {
-        "iid": "10113",
-        "triplets": [
-            ["10113", "category", "cafe"],
-            ["10113", "is a", "cafe"]
-        ]
-    },
-    {
-        "iid": "10134",
-        "triplets": [
-            ["10134", "category", "asian fusion"],
-            ["10134", "serves", "asian fusion"]
-        ]
-    },
-    {
-        "iid": "10161",
-        "triplets": [
-            ["10161", "category", "Cajun/Creole cuisine"],
-            ["10161", "serves", "Cajun/Creole cuisine"]
-        ]
-    },
-    {
-        "iid": "10161",
-        "triplets": [
-            ["10161", "category", "breakfast"],
-            ["10161", "serves", "breakfast"]
-        ]
-    },
-    {
-        "iid": "10161",
-        "triplets": [
-            ["10161", "category", "brunch"],
-            ["10161", "serves", "brunch"]
-        ]
-    },
-    {
-        "iid": "10207",
-        "triplets": [
-            ["10207", "recommendation", "beer"],
-            ["10207", "serves", "beer"]
-        ]
-    },
-    {
-        "iid": "1023",
-        "triplets": [
-            ["1023", "has feature", "high-quality dishes"],
-            ["1023", "serves", "high-quality dishes"]
-        ]
-    },
-    {
-        "iid": "1027",
-        "triplets": [
-            ["1027", "has feature", "beach hut"],
-            ["1027", "serves", "beach hut"]
-        ]
-    },
-    {
-        "iid": "10324",
-        "triplets": [
-            ["10324", "has atmosphere", "scenic views"],
-            ["10324", "has feature", "scenic views"],
-            ["10324", "suitable for", "scenic views"]
-        ]
-    },
-    {
-        "iid": "1033",
-        "triplets": [
-            ["1033", "category", "Japanese cuisine"],
-            ["1033", "serves", "Japanese cuisine"]
-        ]
-    },
-    {
-        "iid": "1033",
-        "triplets": [
-            ["1033", "category", "asian fusion"],
-            ["1033", "serves", "asian fusion"]
-        ]
-    },
-    {
-        "iid": "10339",
-        "triplets": [
-            ["10339", "offers", "healthy food"],
-            ["10339", "serves", "healthy food"]
-        ]
-    },
-    {
-        "iid": "10353",
-        "triplets": [
-            ["10353", "has feature", "friendly service"],
-            ["10353", "has service", "friendly service"]
-        ]
-    },
-    {
-        "iid": "10353",
-        "triplets": [
-            ["10353", "has atmosphere", "great views"],
-            ["10353", "has feature", "great views"]
-        ]
-    },
-    {
-        "iid": "10353",
-        "triplets": [
-            ["10353", "has atmosphere", "waterfront setting"],
-            ["10353", "has feature", "waterfront setting"]
-        ]
-    },
-    {
-        "iid": "10363",
-        "triplets": [
-            ["10363", "offers", "beer"],
-            ["10363", "serves", "beer"]
-        ]
-    },
-    {
-        "iid": "10363",
-        "triplets": [
-            ["10363", "offers", "wine"],
-            ["10363", "serves", "wine"]
-        ]
-    },
-    {
-        "iid": "10407",
-        "triplets": [
-            ["10407", "category", "brunch"],
-            ["10407", "serves", "brunch"]
-        ]
-    },
-    {
-        "iid": "10407",
-        "triplets": [
-            ["10407", "category", "seafood"],
-            ["10407", "serves", "seafood"]
-        ]
-    },
-    {
-        "iid": "10407",
-        "triplets": [
-            ["10407", "category", "southern comfort food"],
-            ["10407", "serves", "southern comfort food"]
-        ]
-    },
-    {
-        "iid": "10438",
-        "triplets": [
-            ["10438", "category", "sushi restaurant"],
-            ["10438", "is a", "sushi restaurant"]
-        ]
-    },
-    {
-        "iid": "10500",
-        "triplets": [
-            ["10500", "category", "American dishes"],
-            ["10500", "serves", "American dishes"]
-        ]
-    },
-    {
-        "iid": "10500",
-        "triplets": [
-            ["10500", "category", "comfort food"],
-            ["10500", "serves", "comfort food"]
-        ]
-    },
-    {
-        "iid": "10523",
-        "triplets": [
-            ["10523", "caters to", "families"],
-            ["10523", "suitable for", "families"]
-        ]
-    },
-    {
-        "iid": "10553",
-        "triplets": [
-            ["10553", "has feature", "spices"],
-            ["10553", "offers", "spices"]
-        ]
-    },
-    {
-        "iid": "10557",
-        "triplets": [
-            ["10557", "category", "tea"],
-            ["10557", "serves", "tea"]
-        ]
-    },
-    {
-        "iid": "10559",
-        "triplets": [
-            ["10559", "offers", "popcorn"],
-            ["10559", "serves", "popcorn"]
-        ]
-    },
-    {
-        "iid": "10569",
-        "triplets": [
-            ["10569", "has atmosphere", "retro ambiance"],
-            ["10569", "has feature", "retro ambiance"]
-        ]
-    },
-    {
-        "iid": "10572",
-        "triplets": [
-            ["10572", "has feature", "reasonably priced meals"],
-            ["10572", "suitable for", "reasonably priced meals"]
-        ]
-    },
-    {
-        "iid": "1058",
-        "triplets": [
-            ["1058", "serves", "quick bite"],
-            ["1058", "suitable for", "quick bite"]
-        ]
-    },
-    {
-        "iid": "1059",
-        "triplets": [
-            ["1059", "has atmosphere", "noodle dishes"],
-            ["1059", "serves", "noodle dishes"]
-        ]
-    },
-    {
-        "iid": "10613",
-        "triplets": [
-            ["10613", "has feature", "Massaman curry"],
-            ["10613", "serves", "Massaman curry"]
-        ]
-    },
-    {
-        "iid": "10613",
-        "triplets": [
-            ["10613", "has feature", "curry"],
-            ["10613", "serves", "curry"]
-        ]
-    },
-    {
-        "iid": "10613",
-        "triplets": [
-            ["10613", "has feature", "pad thai"],
-            ["10613", "serves", "pad thai"]
-        ]
-    },
-    {
-        "iid": "10616",
-        "triplets": [
-            ["10616", "is a", "dinner theatre"],
-            ["10616", "serves", "dinner theatre"]
-        ]
-    },
-    {
-        "iid": "10620",
-        "triplets": [
-            ["10620", "cater to", "specialty foods"],
-            ["10620", "serves", "specialty foods"]
-        ]
-    },
-    {
-        "iid": "10625",
-        "triplets": [
-            ["10625", "offers", "breakfast"],
-            ["10625", "serves", "breakfast"]
-        ]
-    },
-    {
-        "iid": "10625",
-        "triplets": [
-            ["10625", "offers", "classic drinks"],
-            ["10625", "serves", "classic drinks"]
-        ]
-    },
-    {
-        "iid": "10637",
-        "triplets": [
-            ["10637", "category", "comfort food"],
-            ["10637", "serves", "comfort food"]
-        ]
-    },
-    {
         "iid": "10646",
         "triplets": [
             ["10646", "offers", "American cuisine"],
             ["10646", "serves", "American cuisine"]
-        ]
-    },
-    {
-        "iid": "10646",
-        "triplets": [
-            ["10646", "has cuisine influence", "French cuisine"],
-            ["10646", "offers", "French cuisine"]
-        ]
-    },
-    {
-        "iid": "10666",
-        "triplets": [
-            ["10666", "has atmosphere", "friendly staff"],
-            ["10666", "has staff", "friendly staff"]
-        ]
-    },
-    {
-        "iid": "10688",
-        "triplets": [
-            ["10688", "has feature", "Italian cookies"],
-            ["10688", "serves", "Italian cookies"]
-        ]
-    },
-    {
-        "iid": "10688",
-        "triplets": [
-            ["10688", "has feature", "sfogliatelle"],
-            ["10688", "serves", "sfogliatelle"]
-        ]
-    },
-    {
-        "iid": "10696",
-        "triplets": [
-            ["10696", "category", "diner food"],
-            ["10696", "serves", "diner food"]
-        ]
-    },
-    {
-        "iid": "10715",
-        "triplets": [
-            ["10715", "offers", "whiskey"],
-            ["10715", "serves", "whiskey"]
-        ]
-    },
-    {
-        "iid": "10716",
-        "triplets": [
-            ["10716", "category", "steak house"],
-            ["10716", "is a", "steak house"]
-        ]
-    },
-    {
-        "iid": "1077",
-        "triplets": [
-            ["1077", "offers", "baked goods"],
-            ["1077", "serves", "baked goods"]
-        ]
-    },
-    {
-        "iid": "10821",
-        "triplets": [
-            ["10821", "category", "fast food"],
-            ["10821", "serves", "fast food"]
-        ]
-    },
-    {
-        "iid": "10821",
-        "triplets": [
-            ["10821", "category", "healthy food"],
-            ["10821", "serves", "healthy food"]
-        ]
-    },
-    {
-        "iid": "1084",
-        "triplets": [
-            ["1084", "serves", "sweet treats"],
-            ["1084", "suitable for", "sweet treats"]
-        ]
-    },
-    {
-        "iid": "10853",
-        "triplets": [
-            ["10853", "has feature", "large portions"],
-            ["10853", "serves", "large portions"]
-        ]
-    },
-    {
-        "iid": "10897",
-        "triplets": [
-            ["10897", "offers", "drinks"],
-            ["10897", "serves", "drinks"]
-        ]
-    },
-    {
-        "iid": "10913",
-        "triplets": [
-            ["10913", "has feature", "atmosphere"],
-            ["10913", "has reputation", "atmosphere"]
-        ]
-    },
-    {
-        "iid": "10913",
-        "triplets": [
-            ["10913", "has feature", "pricing"],
-            ["10913", "has reputation", "pricing"]
-        ]
-    },
-    {
-        "iid": "10913",
-        "triplets": [
-            ["10913", "caters to", "regulars"],
-            ["10913", "suitable for", "regulars"]
-        ]
-    },
-    {
-        "iid": "10947",
-        "triplets": [
-            ["10947", "is a", "theater"],
-            ["10947", "serves", "theater"]
-        ]
-    },
-    {
-        "iid": "10951",
-        "triplets": [
-            ["10951", "has feature", "affordable parking"],
-            ["10951", "suitable for", "affordable parking"]
-        ]
-    },
-    {
-        "iid": "10951",
-        "triplets": [
-            ["10951", "has feature", "efficient parking"],
-            ["10951", "suitable for", "efficient parking"]
-        ]
-    },
-    {
-        "iid": "10954",
-        "triplets": [
-            ["10954", "has activity", "biking"],
-            ["10954", "has feature", "biking"]
-        ]
-    },
-    {
-        "iid": "10954",
-        "triplets": [
-            ["10954", "has activity", "fishing"],
-            ["10954", "has feature", "fishing"]
-        ]
-    },
-    {
-        "iid": "10954",
-        "triplets": [
-            ["10954", "has activity", "picnicking"],
-            ["10954", "has feature", "picnicking"]
-        ]
-    },
-    {
-        "iid": "10954",
-        "triplets": [
-            ["10954", "has activity", "walking"],
-            ["10954", "has feature", "walking"]
-        ]
-    },
-    {
-        "iid": "10993",
-        "triplets": [
-            ["10993", "has feature", "bubble tea"],
-            ["10993", "serves", "bubble tea"]
-        ]
-    },
-    {
-        "iid": "10993",
-        "triplets": [
-            ["10993", "has feature", "vegetarian options"],
-            ["10993", "serves", "vegetarian options"]
-        ]
-    },
-    {
-        "iid": "10995",
-        "triplets": [
-            ["10995", "has feature", "spices"],
-            ["10995", "offers", "spices"]
-        ]
-    },
-    {
-        "iid": "10997",
-        "triplets": [
-            ["10997", "appeals to", "Friends looking for a chill environment"],
-            ["10997", "suitable for", "Friends looking for a chill environment"]
-        ]
-    },
-    {
-        "iid": "10997",
-        "triplets": [
-            ["10997", "appeals to", "sports fans"],
-            ["10997", "suitable for", "sports fans"]
         ]
     },
     {
@@ -1121,13 +504,6 @@
         ]
     },
     {
-        "iid": "12208",
-        "triplets": [
-            ["12208", "category", "cafe"],
-            ["12208", "is a", "cafe"]
-        ]
-    },
-    {
         "iid": "12212",
         "triplets": [
             ["12212", "offers", "herbs"],
@@ -1450,13 +826,6 @@
         ]
     },
     {
-        "iid": "12581",
-        "triplets": [
-            ["12581", "category", "cafe"],
-            ["12581", "is a", "cafe"]
-        ]
-    },
-    {
         "iid": "12621",
         "triplets": [
             ["12621", "has variety of", "champagne"],
@@ -1587,8 +956,15 @@
     {
         "iid": "12876",
         "triplets": [
-            ["12876", "serves", "Cajun/Creole cuisine"],
-            ["12876", "specializes in", "Cajun/Creole cuisine"]
+            ["12876", "serves", "cajun cuisine"],
+            ["12876", "specializes in", "cajun cuisine"]
+        ]
+    },
+    {
+        "iid": "12876",
+        "triplets": [
+            ["12876", "serves", "creole cuisine"],
+            ["12876", "specializes in", "creole cuisine"]
         ]
     },
     {
@@ -2201,13 +1577,6 @@
         ]
     },
     {
-        "iid": "14024",
-        "triplets": [
-            ["14024", "category", "cafe"],
-            ["14024", "is a", "cafe"]
-        ]
-    },
-    {
         "iid": "14044",
         "triplets": [
             ["14044", "is a", "pizza"],
@@ -2586,13 +1955,6 @@
         ]
     },
     {
-        "iid": "1885",
-        "triplets": [
-            ["1885", "category", "cafe"],
-            ["1885", "is a", "cafe"]
-        ]
-    },
-    {
         "iid": "1886",
         "triplets": [
             ["1886", "offers", "pub fare"],
@@ -2873,13 +2235,6 @@
         ]
     },
     {
-        "iid": "2411",
-        "triplets": [
-            ["2411", "category", "cafe"],
-            ["2411", "serves", "cafe"]
-        ]
-    },
-    {
         "iid": "2483",
         "triplets": [
             ["2483", "category", "bar"],
@@ -3031,13 +2386,6 @@
         "triplets": [
             ["2697", "category", "ice cream"],
             ["2697", "serves", "ice cream"]
-        ]
-    },
-    {
-        "iid": "2698",
-        "triplets": [
-            ["2698", "category", "cafe"],
-            ["2698", "is a", "cafe"]
         ]
     },
     {
@@ -3241,13 +2589,6 @@
         "triplets": [
             ["3144", "offers", "hibachi"],
             ["3144", "serves", "hibachi"]
-        ]
-    },
-    {
-        "iid": "3145",
-        "triplets": [
-            ["3145", "category", "cafe"],
-            ["3145", "is a", "cafe"]
         ]
     },
     {
@@ -3458,13 +2799,6 @@
         "triplets": [
             ["3596", "has atmosphere", "casual dining"],
             ["3596", "suitable for", "casual dining"]
-        ]
-    },
-    {
-        "iid": "3619",
-        "triplets": [
-            ["3619", "category", "cafe"],
-            ["3619", "is a", "cafe"]
         ]
     },
     {
@@ -3853,13 +3187,6 @@
         ]
     },
     {
-        "iid": "4270",
-        "triplets": [
-            ["4270", "has feature", "cafe"],
-            ["4270", "is a", "cafe"]
-        ]
-    },
-    {
         "iid": "4315",
         "triplets": [
             ["4315", "appeals to", "crispy wings"],
@@ -3885,13 +3212,6 @@
         "triplets": [
             ["4331", "category", "Vietnamese cuisine"],
             ["4331", "serves", "Vietnamese cuisine"]
-        ]
-    },
-    {
-        "iid": "4355",
-        "triplets": [
-            ["4355", "category", "cafe"],
-            ["4355", "is a", "cafe"]
         ]
     },
     {
@@ -4011,13 +3331,6 @@
         "triplets": [
             ["4446", "has feature", "flavorful sauces"],
             ["4446", "serves", "flavorful sauces"]
-        ]
-    },
-    {
-        "iid": "445",
-        "triplets": [
-            ["445", "category", "cafe"],
-            ["445", "is a", "cafe"]
         ]
     },
     {
@@ -4420,13 +3733,6 @@
         ]
     },
     {
-        "iid": "4999",
-        "triplets": [
-            ["4999", "category", "cafe"],
-            ["4999", "is a", "cafe"]
-        ]
-    },
-    {
         "iid": "5012",
         "triplets": [
             ["5012", "offers", "book"],
@@ -4501,13 +3807,6 @@
         "triplets": [
             ["5190", "offers", "brunch"],
             ["5190", "serves", "brunch"]
-        ]
-    },
-    {
-        "iid": "5190",
-        "triplets": [
-            ["5190", "category", "cafe"],
-            ["5190", "is a", "cafe"]
         ]
     },
     {
@@ -5029,13 +4328,6 @@
         ]
     },
     {
-        "iid": "6326",
-        "triplets": [
-            ["6326", "is a", "cafe"],
-            ["6326", "serves", "cafe"]
-        ]
-    },
-    {
         "iid": "634",
         "triplets": [
             ["634", "has feature", "friendly service"],
@@ -5243,13 +4535,6 @@
         "triplets": [
             ["669", "category", "sandwiches"],
             ["669", "serves", "sandwiches"]
-        ]
-    },
-    {
-        "iid": "6690",
-        "triplets": [
-            ["6690", "category", "restaurant"],
-            ["6690", "serves", "restaurant"]
         ]
     },
     {
@@ -5572,13 +4857,6 @@
         "triplets": [
             ["7305", "has feature", "well-crafted dishes"],
             ["7305", "suitable for", "well-crafted dishes"]
-        ]
-    },
-    {
-        "iid": "7357",
-        "triplets": [
-            ["7357", "category", "cafe"],
-            ["7357", "presents", "cafe"]
         ]
     },
     {
@@ -6608,13 +5886,6 @@
         "triplets": [
             ["904", "offers", "Voodoo culture"],
             ["904", "specializes in", "Voodoo culture"]
-        ]
-    },
-    {
-        "iid": "9052",
-        "triplets": [
-            ["9052", "category", "cafe"],
-            ["9052", "is a", "cafe"]
         ]
     },
     {
