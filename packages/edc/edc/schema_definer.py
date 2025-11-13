@@ -136,7 +136,7 @@ class OpenAISchemaDefiner(BaseSchemaDefiner):
 
 
 class OpenAIAsyncSchemaDefiner:
-    def __init__(self, model_name: str, max_concurrent=200, max_req_per_sec=80) -> None:
+    def __init__(self, model_name: str, max_concurrent=20, max_req_per_sec=70) -> None:
         self.model_name = model_name
         self.max_concurrent = max_concurrent
         self.max_req_per_sec = max_req_per_sec
@@ -172,7 +172,7 @@ class OpenAIAsyncSchemaDefiner:
         )
 
         tasks = [
-            async_openai_processor.openai_responses_async(
+            async_openai_processor.get_parsed_definitions_async(
                 self.model_name,
                 filled_instructions,
                 filled_input,
@@ -180,12 +180,10 @@ class OpenAIAsyncSchemaDefiner:
             for filled_input in filled_input_list
         ]
 
-        results: List[str] = await tqdm.gather(
-            *tasks, desc="Defining schemas asynchronously"
-        )
+        results = await tqdm.gather(*tasks, desc="Defining schemas asynchronously")
 
         relation_definition_dict_list = [
-            llm_utils.parse_relation_definition(result) for result in results
+            llm_utils.parse_schema_relation_definitions(result) for result in results
         ]
 
         return relation_definition_dict_list

@@ -8,11 +8,29 @@ Important guidelines:
 - Strictly only include the triples in your answer
 - Do not include any explanation or apologies
 - Business entities must use their id; all other entities must use their name
-- Focus on extracting factual relationships from the text.
-- Avoid Redundancy: Keep tail entities (Entity2) concise. If the Relationship already implies the category, the tail entity should be simplified
-- Prefer short entities over long ones when both refer to the same concept.
-- **GENERAL CATEGORY INFERENCE:**
-    - **Always infer and add broader, general categories for specific items mentioned.**
-    - For example: **"spicy curries"** requires the general category **"Curry"**. **"raw oysters"** requires **"oysters"**. **"craft beer"** requires **"Beer"**.
-    - These general categories must be directly linked to the head entity (e.g., [ID, Relationship, General Category]).
-    - Do not create multi-hop connections.
+- Focus on extracting factual relationships from the text, and infer general relationships when appropriate.
+
+**CORE RULES:**
+
+1. **ENTITY1 (HEAD) MUST BE THE ITEM ID:**
+   - Entity1 (the subject/head of each triple) MUST ALWAYS be the Item ID (business/venue that appears in the text)
+   - DO NOT use "User", "Customer", "Guest", "Visitor", "Shopper", "Diner", or any user-related entities as Entity1
+   - Extract what the item IS, HAS, OFFERS, SERVES, or PROVIDES - NOT what users do or prefer
+   - Example: Use ["92", "serves", "Thai food"], NOT ["User", "likes", "Thai food"]
+
+2. **UNIQUE TAIL ENTITIES:**
+   - Each tail entity (Entity2) can appear ONLY ONCE per item
+   - If the same entity needs different relationships, choose the most meaningful one
+
+3. **ALWAYS ADD GENERAL CATEGORIES:**
+   - For every specific item, ALSO extract its base category
+   - "extensive beer selection" → extract BOTH "extensive beer selection" AND "beer"
+   - "delicious food" → extract BOTH "delicious food" AND "food"
+   - "spicy curries" → extract BOTH "spicy curries" AND "curry"
+   - "unique twists on classic dishes" → extract BOTH the phrase AND "dishes"
+   - These are different strings, so no uniqueness violation
+
+4. **KEEP GENERAL CATEGORIES SIMPLE:**
+   - Use base nouns: "beer", "food", "dishes", "curry"
+   - Use singular when possible: "dish" or common plural "dishes"
+   - This helps different items connect in the graph

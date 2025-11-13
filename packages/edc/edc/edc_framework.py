@@ -9,17 +9,6 @@ from typing import Dict, List, Literal, Optional, Set, Tuple, TypedDict, Union
 
 import numpy as np
 import torch
-from mpmath.libmp.backend import os
-from sentence_transformers import SentenceTransformer
-from torch.fx.experimental.symbolic_shapes import canonicalize_bool_expr
-from tqdm import tqdm
-from transformers import (
-    AutoModelForCausalLM,
-    AutoTokenizer,
-    PreTrainedModel,
-    PreTrainedTokenizerFast,
-)
-
 from edc import entity_extractor, schema_canonicalizer
 from edc.entity_extractor import (
     LocalEntityExtractor,
@@ -34,6 +23,16 @@ from edc.schema_definer import (
     OpenAISchemaDefiner,
 )
 from edc.schema_retriever import SchemaRetriever
+from mpmath.libmp.backend import os
+from sentence_transformers import SentenceTransformer
+from torch.fx.experimental.symbolic_shapes import canonicalize_bool_expr
+from tqdm import tqdm
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    PreTrainedModel,
+    PreTrainedTokenizerFast,
+)
 
 # Import parallel processing utilities
 from .parallel_utils import extract_entities_and_relations_from_triplets
@@ -777,7 +776,7 @@ class EDC:
                 self.oie_inpute_template_file_path, encoding="utf-8"
             ).read()
 
-            oie_triplets_list = await async_extractor.extract_async(
+            oie_triplets_list = await async_extractor.extract_with_schema_async(
                 input_text_list,
                 oie_few_shot_examples_str,
                 oie_instuructions_template_str,

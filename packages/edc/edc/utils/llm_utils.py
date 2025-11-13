@@ -8,6 +8,7 @@ from typing import Dict, List, Optional
 import openai
 import torch
 from openai import OpenAI
+from pydantic import BaseModel, Field
 from sentence_transformers import SentenceTransformer
 from torch.types import Tensor
 from transformers import (
@@ -15,6 +16,28 @@ from transformers import (
     PreTrainedModel,
     PreTrainedTokenizerFast,
 )
+
+
+class Triplet(BaseModel):
+    h: str = Field(description="Head entity of the triplet")
+    r: str = Field(description="Relation of the triplet")
+    t: str = Field(description="Tail entity of the triplet")
+
+
+class KnowledgeBase(BaseModel):
+    triplets: list[Triplet] = Field(description="List of extracted triplets")
+
+
+class RelationDefinition(BaseModel):
+    relation: str = Field(description="Name of the relation")
+    definition: str = Field(description="Definition of the relation")
+
+
+class RelationDefinitions(BaseModel):
+    definitions: list[RelationDefinition] = Field(
+        description="List of relation definitions"
+    )
+
 
 logger = logging.getLogger(__name__)
 
@@ -98,6 +121,46 @@ def parse_raw_entities(raw_entities: str):
         logging.debug(f"No brackets found in entities string: {raw_entities}")
     logging.debug(f"Entities {raw_entities} parsed as {parsed_entities}")
     return parsed_entities
+
+
+def parse_schema_triplets(schema_triplets: KnowledgeBase) -> List[List[str]]:
+    collected_triplets = []
+    for triplet in schema_triplets.triplets:
+        # Strip whitespace from all fields
+        h = triplet.h.strip() if triplet.h else ""
+        r = triplet.r.strip() if triplet.r else ""
+        t = triplet.t.strip() if triplet.t else ""
+
+        # Validate triplet has required fields and non-empty values
+        if h and r and t and h != "_" and r != "_" and t != "_":
+            collected_triplets.append([h, r, t])
+        else:
+            logger.debug(
+                f"Skipping invalid triplet: h={triplet.h}, r={triplet.r}, t={triplet.t}"
+            )
+
+    logger.debug(
+        f"Parsed {len(collected_triplets)} valid triplets from structured output"
+    )
+    return collected_triplets
+
+
+def parse_schema_relation_definitions(
+    schema_relation_definitions: RelationDefinitions,
+) -> dict[str, str]:
+    relation_definition_dict: dict[str, str] = {}
+
+    for rel_def in schema_relation_definitions.definitions:
+        relation = rel_def.relation.strip()
+        definition = rel_def.definition.strip()
+        if rel_def.relation == "Answer":
+            continue
+        relation_definition_dict[relation] = definition
+
+    logger.info(
+        f"Schema Relation Definitions {schema_relation_definitions} parsed as {relation_definition_dict}"
+    )
+    return relation_definition_dict
 
 
 def parse_raw_triplets(raw_triplets: str) -> List[List[str]]:

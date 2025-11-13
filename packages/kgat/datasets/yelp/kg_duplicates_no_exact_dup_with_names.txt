@@ -1,0 +1,6128 @@
+22 5 47 is a coffee
+22 12 47 serves coffee
+22 5 144 is a breakfast
+22 12 144 serves breakfast
+22 5 211 is a crepes
+22 12 211 serves crepes
+22 5 212 is a soups
+22 12 212 serves soups
+25 1 9 offers bar
+25 2 9 has atmosphere bar
+29 9 22 serves cuisine brunch
+29 12 22 serves brunch
+29 9 144 serves cuisine breakfast
+29 12 144 serves breakfast
+36 5 2 is a beer
+36 12 2 serves beer
+41 5 46 is a cafe
+41 6 46 has feature cafe
+43 5 134 is a wine
+43 12 134 serves wine
+48 1 321 offers tasty treats
+48 12 321 serves tasty treats
+49 5 330 is a Socially responsible business
+49 6 330 has feature Socially responsible business
+62 5 22 is a brunch
+62 12 22 serves brunch
+62 5 144 is a breakfast
+62 12 144 serves breakfast
+66 5 9 is a bar
+66 12 9 serves bar
+66 5 371 is a tapas
+66 12 371 serves tapas
+68 5 429 is a dessert
+68 12 429 serves dessert
+72 5 466 is a steak
+72 12 466 serves steak
+73 5 459 is a frozen yogurt
+73 12 459 serves frozen yogurt
+78 5 2 is a beer
+78 12 2 serves beer
+80 5 134 is a wine
+80 12 134 serves wine
+85 5 47 is a coffee
+85 12 47 serves coffee
+88 1 570 offers shopping experience
+88 5 570 is a shopping experience
+88 5 78 is a deli
+88 12 78 serves deli
+88 5 102 is a bakery
+88 12 102 serves bakery
+88 5 572 is a pharmacy
+88 6 572 has feature pharmacy
+97 3 591 caters to catering
+97 12 591 serves catering
+97 5 78 is a deli
+97 12 78 serves deli
+105 4 620 appeals to home decor
+105 5 620 is a home decor
+105 4 621 appeals to gifts
+105 5 621 is a gifts
+105 4 622 appeals to quirky items
+105 5 622 is a quirky items
+108 1 616 offers lunch specials
+108 5 616 is a lunch specials
+130 2 39 has atmosphere casual dining
+130 8 39 suitable for casual dining
+131 6 363 has feature small plates
+131 12 363 serves small plates
+140 2 39 has atmosphere casual dining
+140 5 39 is a casual dining
+142 1 780 offers visual experience
+142 6 780 has feature visual experience
+142 6 778 has feature HD Video Wall
+142 12 778 serves HD Video Wall
+150 5 2 is a beer
+150 12 2 serves beer
+150 5 134 is a wine
+150 12 134 serves wine
+150 5 299 is a cheese
+150 12 299 serves cheese
+152 5 31 is a fried chicken
+152 12 31 serves fried chicken
+152 5 47 is a coffee
+152 12 47 serves coffee
+152 5 417 is a donuts
+152 12 417 serves donuts
+162 5 143 is a diner
+162 12 143 serves diner
+175 2 968 has atmosphere leisurely dining
+175 8 968 suitable for leisurely dining
+175 4 967 appeals to Transitioning to vegetarian
+175 9 967 serves cuisine Transitioning to vegetarian
+194 6 718 has feature nightlife
+194 19 718 category nightlife
+211 2 29 has atmosphere cozy
+211 6 29 has feature cozy
+211 2 164 has atmosphere friendly
+211 6 164 has feature friendly
+218 6 146 has feature friendly service
+218 21 146 enjoys friendly service
+232 12 166 serves sports bar
+232 19 166 category sports bar
+240 12 1178 serves plant-based options
+240 20 1178 interests plant-based options
+245 5 1201 is a Museum
+245 19 1201 category Museum
+248 12 522 serves tex-mex
+248 19 522 category tex-mex
+253 12 1216 serves transportation
+253 19 1216 category transportation
+255 5 296 is a hotel
+255 19 296 category hotel
+264 12 34 serves pizza
+264 19 34 category pizza
+269 12 2 serves beer
+269 19 2 category beer
+269 12 134 serves wine
+269 19 134 category wine
+269 12 1287 serves liquor
+269 19 1287 category liquor
+275 12 144 serves breakfast
+275 19 144 category breakfast
+279 12 221 serves gyros
+279 19 221 category gyros
+280 12 34 serves pizza
+280 19 34 category pizza
+281 12 2 serves beer
+281 19 2 category beer
+285 1 1169 offers NY-style pizza
+285 12 1169 serves NY-style pizza
+285 12 1355 serves hand-tossed crusts
+285 21 1355 enjoys hand-tossed crusts
+287 1 1335 offers bourbon
+287 12 1335 serves bourbon
+287 1 1336 offers Rye
+287 12 1336 serves Rye
+297 1 1391 offers Vinyasa flow
+297 6 1391 has feature Vinyasa flow
+297 1 1400 offers teacher training
+297 19 1400 category teacher training
+310 12 429 serves dessert
+310 19 429 category dessert
+313 12 1037 serves salad
+313 19 1037 category salad
+325 12 34 serves pizza
+325 19 34 category pizza
+326 6 135 has feature live music
+326 12 135 serves live music
+328 12 1545 serves Post Office
+328 19 1545 category Post Office
+329 12 181 serves burger
+329 19 181 category burger
+336 19 1575 category party supplies
+336 24 1575 sells party supplies
+336 19 1576 category decorations
+336 24 1576 sells decorations
+342 12 901 serves tea
+342 19 901 category tea
+347 12 22 serves brunch
+347 25 22 serves meal type brunch
+347 12 144 serves breakfast
+347 25 144 serves meal type breakfast
+354 5 10 is a restaurant
+354 19 10 category restaurant
+367 12 397 serves sushi
+367 19 397 category sushi
+394 5 1743 is a hangout spot
+394 19 1743 category hangout spot
+410 1 10 offers restaurant
+410 19 10 category restaurant
+413 5 810 is a Japanese restaurant
+413 19 810 category Japanese restaurant
+415 12 275 serves ice cream
+415 19 275 category ice cream
+418 5 9 is a bar
+418 19 9 category bar
+418 5 10 is a restaurant
+418 19 10 category restaurant
+420 19 1817 category Philadelphia Phillies
+420 21 1817 enjoys Philadelphia Phillies
+428 12 275 serves ice cream
+428 19 275 category ice cream
+438 12 1356 serves frozen treats
+438 19 1356 category frozen treats
+438 12 1866 serves water ice
+438 19 1866 category water ice
+440 12 134 serves wine
+440 19 134 category wine
+440 12 299 serves cheese
+440 19 299 category cheese
+443 12 397 serves sushi
+443 19 397 category sushi
+457 12 348 serves sandwiches
+457 19 348 category sandwiches
+461 5 625 is a bookstore
+461 19 625 category bookstore
+461 19 627 category used books
+461 24 627 sells used books
+461 19 1933 category vinyl records
+461 24 1933 sells vinyl records
+466 6 1941 has feature pool
+466 12 1941 serves pool
+466 6 1942 has feature Sauna
+466 12 1942 serves Sauna
+467 5 930 is a sandwich
+467 12 930 serves sandwich
+471 12 296 serves hotel
+471 19 296 category hotel
+473 12 275 serves ice cream
+473 19 275 category ice cream
+477 12 2 serves beer
+477 19 2 category beer
+477 12 34 serves pizza
+477 19 34 category pizza
+477 12 134 serves wine
+477 19 134 category wine
+477 12 930 serves sandwich
+477 19 930 category sandwich
+477 12 1037 serves salad
+477 19 1037 category salad
+485 2 39 has atmosphere casual dining
+485 19 39 category casual dining
+486 12 830 serves gastropub
+486 19 830 category gastropub
+500 12 46 serves cafe
+500 19 46 category cafe
+501 12 47 serves coffee
+501 19 47 category coffee
+501 12 901 serves tea
+501 19 901 category tea
+504 6 2075 has feature outdoor environment
+504 21 2075 enjoys outdoor environment
+516 1 251 offers brewery tours
+516 20 251 interests brewery tours
+527 12 318 serves music
+527 23 318 presents genre music
+550 12 34 serves pizza
+550 19 34 category pizza
+561 12 144 serves breakfast
+561 19 144 category breakfast
+572 12 2271 serves fry bread
+572 19 2271 category fry bread
+585 19 2318 category clothing
+585 24 2318 sells clothing
+585 19 2319 category decor
+585 24 2319 sells decor
+588 3 4 caters to vegetarians
+588 4 4 appeals to vegetarians
+605 1 623 offers jewelry
+605 19 623 category jewelry
+605 1 2318 offers clothing
+605 19 2318 category clothing
+605 1 2392 offers accessories
+605 19 2392 category accessories
+621 12 34 serves pizza
+621 19 34 category pizza
+621 12 1037 serves salad
+621 19 1037 category salad
+629 5 46 is a cafe
+629 19 46 category cafe
+629 5 102 is a bakery
+629 19 102 category bakery
+650 8 39 suitable for casual dining
+650 19 39 category casual dining
+650 12 167 serves barbecue
+650 19 167 category barbecue
+653 12 397 serves sushi
+653 19 397 category sushi
+653 12 835 serves hibachi
+653 19 835 category hibachi
+654 5 9 is a bar
+654 19 9 category bar
+656 3 476 caters to craft beer enthusiasts
+656 4 476 appeals to craft beer enthusiasts
+656 3 2517 caters to Fans of cozy neighborhood spots
+656 4 2517 appeals to Fans of cozy neighborhood spots
+664 12 813 serves pho
+664 19 813 category pho
+664 12 1728 serves banh mi
+664 19 1728 category banh mi
+664 12 2529 serves spring rolls
+664 19 2529 category spring rolls
+679 12 1487 serves smoothies
+679 19 1487 category smoothies
+682 12 682 serves desserts
+682 19 682 category desserts
+683 12 260 serves buffet
+683 19 260 category buffet
+685 12 602 serves salads
+685 19 602 category salads
+696 12 9 serves bar
+696 19 9 category bar
+697 12 127 serves cocktails
+697 19 127 category cocktails
+710 12 371 serves tapas
+710 19 371 category tapas
+716 6 59 has feature reasonably priced
+716 7 59 price range reasonably priced
+717 5 295 is a casino
+717 19 295 category casino
+723 12 930 serves sandwich
+723 19 930 category sandwich
+742 12 2 serves beer
+742 19 2 category beer
+773 12 397 serves sushi
+773 19 397 category sushi
+777 5 2864 is a music venue
+777 19 2864 category music venue
+784 9 34 serves cuisine pizza
+784 12 34 serves pizza
+790 4 1945 appeals to fitness enthusiasts
+790 12 1945 serves fitness enthusiasts
+805 1 560 offers spa
+805 19 560 category spa
+805 1 2960 offers beauty services
+805 19 2960 category beauty services
+807 12 397 serves sushi
+807 19 397 category sushi
+807 12 664 serves bubble tea
+807 19 664 category bubble tea
+807 12 1846 serves poke
+807 19 1846 category poke
+809 5 102 is a bakery
+809 19 102 category bakery
+812 12 1848 serves bowls
+812 19 1848 category bowls
+812 12 1976 serves falafel
+812 19 1976 category falafel
+814 12 2985 serves car wash
+814 19 2985 category car wash
+816 1 711 offers delivery
+816 8 711 suitable for delivery
+816 1 2999 offers take-out
+816 8 2999 suitable for take-out
+819 9 521 serves cuisine Mexican
+819 39 521 has influence Mexican
+833 12 34 serves pizza
+833 19 34 category pizza
+844 1 1486 offers snacks
+844 12 1486 serves snacks
+849 5 46 is a cafe
+849 19 46 category cafe
+852 12 167 serves barbecue
+852 19 167 category barbecue
+852 12 1335 serves bourbon
+852 19 1335 category bourbon
+855 4 316 appeals to families
+855 8 316 suitable for families
+855 4 488 appeals to Parents
+855 8 488 suitable for Parents
+855 6 1202 has feature children's museum
+855 12 1202 serves children's museum
+869 1 1392 offers yoga
+869 19 1392 category yoga
+879 8 3193 suitable for Antique shopping
+879 19 3193 category Antique shopping
+882 5 333 is a coffee shop
+882 19 333 category coffee shop
+896 5 3226 is a Theatre
+896 19 3226 category Theatre
+897 1 34 offers pizza
+897 12 34 serves pizza
+914 5 9 is a bar
+914 19 9 category bar
+922 12 34 serves pizza
+922 19 34 category pizza
+922 12 495 serves wings
+922 19 495 category wings
+922 12 878 serves calzones
+922 19 878 category calzones
+927 12 134 serves wine
+927 19 134 category wine
+927 12 552 serves art
+927 19 552 category art
+927 12 2752 serves painting
+927 19 2752 category painting
+942 12 78 serves deli
+942 19 78 category deli
+950 6 3403 has feature charging stations
+950 8 3403 suitable for charging stations
+951 12 47 serves coffee
+951 19 47 category coffee
+951 12 3407 serves cream cheese
+951 19 3407 category cream cheese
+959 12 47 serves coffee
+959 19 47 category coffee
+959 12 901 serves tea
+959 19 901 category tea
+969 6 333 has feature coffee shop
+969 19 333 category coffee shop
+975 12 3478 serves Bike accessories
+975 19 3478 category Bike accessories
+979 12 397 serves sushi
+979 19 397 category sushi
+981 1 3490 offers variety of products
+981 35 3490 values variety of products
+981 12 3489 serves bargain deals
+981 35 3489 values bargain deals
+981 16 3491 has experience positive employee culture
+981 35 3491 values positive employee culture
+982 12 34 serves pizza
+982 19 34 category pizza
+982 12 154 serves pasta
+982 19 154 category pasta
+982 12 494 serves gelato
+982 19 494 category gelato
+982 12 602 serves salads
+982 19 602 category salads
+1000 19 3550 category urgent care
+1000 40 3550 specializes in urgent care
+1003 12 741 serves steakhouse
+1003 19 741 category steakhouse
+1008 5 93 is a grocery store
+1008 19 93 category grocery store
+1016 6 1986 has feature welcoming atmosphere
+1016 21 1986 enjoys welcoming atmosphere
+1019 12 46 serves cafe
+1019 19 46 category cafe
+1022 12 664 serves bubble tea
+1022 19 664 category bubble tea
+1028 12 397 serves sushi
+1028 19 397 category sushi
+1032 12 275 serves ice cream
+1032 19 275 category ice cream
+1037 12 34 serves pizza
+1037 19 34 category pizza
+1041 5 2164 is a park
+1041 19 2164 category park
+1043 12 47 serves coffee
+1043 19 47 category coffee
+1046 5 46 is a cafe
+1046 19 46 category cafe
+1049 6 3700 has feature beach
+1049 19 3700 category beach
+1050 5 3733 is a Cruise line
+1050 19 3733 category Cruise line
+1058 12 47 serves coffee
+1058 19 47 category coffee
+1058 12 930 serves sandwich
+1058 19 930 category sandwich
+1061 1 3744 offers hair services
+1061 12 3744 serves hair services
+1065 12 664 serves bubble tea
+1065 19 664 category bubble tea
+1068 12 22 serves brunch
+1068 19 22 category brunch
+1068 12 144 serves breakfast
+1068 19 144 category breakfast
+1072 12 34 serves pizza
+1072 19 34 category pizza
+1074 6 178 has feature friendly staff
+1074 35 178 values friendly staff
+1074 6 379 has feature excellent service
+1074 21 379 enjoys excellent service
+1074 6 1665 has feature spacious rooms
+1074 35 1665 values spacious rooms
+1074 6 3791 has feature comfort
+1074 21 3791 enjoys comfort
+1074 6 3792 has feature Complimentary breakfast
+1074 35 3792 values Complimentary breakfast
+1074 6 3793 has feature charming courtyard
+1074 35 3793 values charming courtyard
+1080 5 10 is a restaurant
+1080 19 10 category restaurant
+1082 12 3811 serves Bath products
+1082 19 3811 category Bath products
+1082 19 3360 category beauty products
+1082 24 3360 sells beauty products
+1084 5 46 is a cafe
+1084 19 46 category cafe
+1090 5 250 is a Beauty salon
+1090 19 250 category Beauty salon
+1092 6 381 has feature outdoor dining
+1092 8 381 suitable for outdoor dining
+1095 1 739 offers meat
+1095 12 739 serves meat
+1096 12 47 serves coffee
+1096 19 47 category coffee
+1102 6 740 has feature baked goods
+1102 12 740 serves baked goods
+1104 12 275 serves ice cream
+1104 19 275 category ice cream
+1104 12 3868 serves Shave Ice
+1104 19 3868 category Shave Ice
+1106 1 22 offers brunch
+1106 12 22 serves brunch
+1106 1 144 offers breakfast
+1106 12 144 serves breakfast
+1107 5 816 is a sandwich shop
+1107 19 816 category sandwich shop
+1110 12 9 serves bar
+1110 19 9 category bar
+1112 12 143 serves diner
+1112 19 143 category diner
+1113 6 125 has feature good service
+1113 35 125 values good service
+1113 6 136 has feature cozy ambiance
+1113 35 136 values cozy ambiance
+1113 6 528 has feature fresh sushi
+1113 35 528 values fresh sushi
+1134 12 239 serves tacos
+1134 19 239 category tacos
+1137 12 348 serves sandwiches
+1137 21 348 enjoys sandwiches
+1137 12 682 serves desserts
+1137 21 682 enjoys desserts
+1139 5 34 is a pizza
+1139 12 34 serves pizza
+1140 1 2318 offers clothing
+1140 19 2318 category clothing
+1140 1 3965 offers lingerie
+1140 19 3965 category lingerie
+1145 12 2 serves beer
+1145 19 2 category beer
+1145 12 34 serves pizza
+1145 19 34 category pizza
+1147 19 3190 category antiques
+1147 35 3190 values antiques
+1147 19 3978 category handmade items
+1147 35 3978 values handmade items
+1152 6 436 has feature happy hour
+1152 8 436 suitable for happy hour
+1159 5 1201 is a Museum
+1159 19 1201 category Museum
+1171 12 348 serves sandwiches
+1171 40 348 specializes in sandwiches
+1176 6 854 has feature diverse crowd
+1176 8 854 suitable for diverse crowd
+1187 4 19 appeals to Sports fans
+1187 8 19 suitable for Sports fans
+1187 4 45 appeals to Casual diners
+1187 8 45 suitable for Casual diners
+1187 4 148 appeals to groups
+1187 8 148 suitable for groups
+1193 5 2891 is a cinema
+1193 19 2891 category cinema
+1205 12 4161 serves homestyle cooking
+1205 19 4161 category homestyle cooking
+1216 12 682 serves desserts
+1216 19 682 category desserts
+1220 12 397 serves sushi
+1220 19 397 category sushi
+1220 12 595 serves ramen
+1220 19 595 category ramen
+1223 12 4194 serves massage
+1223 19 4194 category massage
+1227 1 1943 offers classes
+1227 19 1943 category classes
+1227 5 4200 is a Gun shop
+1227 19 4200 category Gun shop
+1227 19 2392 category accessories
+1227 24 2392 sells accessories
+1227 19 3716 category firearms
+1227 24 3716 sells firearms
+1227 19 4202 category ammunition
+1227 24 4202 sells ammunition
+1234 0 4227 located in home goods
+1234 19 4227 category home goods
+1254 2 39 has atmosphere casual dining
+1254 8 39 suitable for casual dining
+1263 12 664 serves bubble tea
+1263 13 664 serves drink bubble tea
+1264 2 39 has atmosphere casual dining
+1264 8 39 suitable for casual dining
+1267 5 2164 is a park
+1267 19 2164 category park
+1270 12 1037 serves salad
+1270 19 1037 category salad
+1281 19 4227 category home goods
+1281 24 4227 sells home goods
+1281 19 4348 category international products
+1281 24 4348 sells international products
+1286 0 3700 located in beach
+1286 2 3700 has atmosphere beach
+1291 12 143 serves diner
+1291 19 143 category diner
+1292 5 161 is a Brewery
+1292 19 161 category Brewery
+1311 12 34 serves pizza
+1311 19 34 category pizza
+1313 12 348 serves sandwiches
+1313 19 348 category sandwiches
+1316 12 22 serves brunch
+1316 19 22 category brunch
+1318 1 4435 offers Polish colors
+1318 11 4435 presents Polish colors
+1334 12 134 serves wine
+1334 19 134 category wine
+1335 12 298 serves wine bar
+1335 19 298 category wine bar
+1338 12 135 serves live music
+1338 47 135 offers activity type live music
+1349 12 104 serves chicken wings
+1349 19 104 category chicken wings
+1352 5 46 is a cafe
+1352 19 46 category cafe
+1354 5 161 is a Brewery
+1354 19 161 category Brewery
+1356 8 22 suitable for brunch
+1356 12 22 serves brunch
+1356 8 144 suitable for breakfast
+1356 12 144 serves breakfast
+1377 6 2369 has feature fun games
+1377 12 2369 serves fun games
+1378 0 509 located in neighborhood
+1378 2 509 has atmosphere neighborhood
+1392 12 2029 serves cocktail bar
+1392 19 2029 category cocktail bar
+1395 12 47 serves coffee
+1395 40 47 specializes in coffee
+1397 12 275 serves ice cream
+1397 19 275 category ice cream
+1402 12 275 serves ice cream
+1402 19 275 category ice cream
+1407 12 22 serves brunch
+1407 19 22 category brunch
+1409 6 178 has feature friendly staff
+1409 34 178 has staff friendly staff
+1415 2 39 has atmosphere casual dining
+1415 8 39 suitable for casual dining
+1418 12 47 serves coffee
+1418 19 47 category coffee
+1418 12 417 serves donuts
+1418 19 417 category donuts
+1423 12 1253 serves fries
+1423 19 1253 category fries
+1432 9 397 serves cuisine sushi
+1432 12 397 serves sushi
+1435 6 4717 has feature charming atmosphere
+1435 21 4717 enjoys charming atmosphere
+1442 2 164 has atmosphere friendly
+1442 34 164 has staff friendly
+1442 5 10 is a restaurant
+1442 19 10 category restaurant
+1443 12 47 serves coffee
+1443 19 47 category coffee
+1445 5 9 is a bar
+1445 19 9 category bar
+1450 12 2 serves beer
+1450 19 2 category beer
+1454 12 47 serves coffee
+1454 19 47 category coffee
+1459 12 2 serves beer
+1459 19 2 category beer
+1481 5 2164 is a park
+1481 6 2164 has feature park
+1483 11 4359 presents theater
+1483 19 4359 category theater
+1487 5 2864 is a music venue
+1487 19 2864 category music venue
+1490 12 2095 serves arepas
+1490 19 2095 category arepas
+1502 6 472 has feature quality ingredients
+1502 49 472 focus on quality ingredients
+1507 12 9 serves bar
+1507 19 9 category bar
+1510 12 901 serves tea
+1510 19 901 category tea
+1514 5 4023 is a Tour company
+1514 19 4023 category Tour company
+1517 12 47 serves coffee
+1517 19 47 category coffee
+1524 6 2 has feature beer
+1524 19 2 category beer
+1524 12 34 serves pizza
+1524 19 34 category pizza
+1525 4 4911 appeals to Thrifters
+1525 8 4911 suitable for Thrifters
+1525 4 4912 appeals to Budget shoppers
+1525 8 4912 suitable for Budget shoppers
+1525 4 4913 appeals to Casual shoppers
+1525 8 4913 suitable for Casual shoppers
+1525 19 2318 category clothing
+1525 24 2318 sells clothing
+1526 5 4923 is a Zoo
+1526 19 4923 category Zoo
+1545 12 127 serves cocktails
+1545 19 127 category cocktails
+1545 12 737 serves steaks
+1545 19 737 category steaks
+1545 12 1331 serves wines
+1545 19 1331 category wines
+1548 5 333 is a coffee shop
+1548 19 333 category coffee shop
+1549 12 263 serves bakery items
+1549 21 263 enjoys bakery items
+1557 1 5001 offers dairy products
+1557 12 5001 serves dairy products
+1557 19 5001 category dairy products
+1558 12 741 serves steakhouse
+1558 19 741 category steakhouse
+1567 5 10 is a restaurant
+1567 19 10 category restaurant
+1573 12 298 serves wine bar
+1573 19 298 category wine bar
+1573 12 718 serves nightlife
+1573 19 718 category nightlife
+1576 1 30 offers drinks
+1576 12 30 serves drinks
+1583 6 3533 has feature informative staff
+1583 35 3533 values informative staff
+1589 12 134 serves wine
+1589 19 134 category wine
+1590 12 102 serves bakery
+1590 19 102 category bakery
+1607 5 46 is a cafe
+1607 19 46 category cafe
+1615 1 144 offers breakfast
+1615 12 144 serves breakfast
+1615 1 192 offers burgers
+1615 12 192 serves burgers
+1616 12 102 serves bakery
+1616 19 102 category bakery
+1630 6 494 has feature gelato
+1630 12 494 serves gelato
+1651 12 307 serves fine dining
+1651 19 307 category fine dining
+1654 17 2797 uses locally-sourced ingredients
+1654 35 2797 values locally-sourced ingredients
+1654 17 5145 uses organic ingredients
+1654 35 5145 values organic ingredients
+1668 2 369 has atmosphere pub
+1668 19 369 category pub
+1672 19 31 category fried chicken
+1672 40 31 specializes in fried chicken
+1680 3 4 caters to vegetarians
+1680 4 4 appeals to vegetarians
+1680 3 5303 caters to Falafel lovers
+1680 4 5303 appeals to Falafel lovers
+1689 12 78 serves deli
+1689 19 78 category deli
+1689 12 102 serves bakery
+1689 19 102 category bakery
+1691 5 333 is a coffee shop
+1691 19 333 category coffee shop
+1699 12 34 serves pizza
+1699 19 34 category pizza
+1699 12 1037 serves salad
+1699 19 1037 category salad
+1699 12 5342 serves Microbrew
+1699 19 5342 category Microbrew
+1708 12 5356 serves Jersey style pizza
+1708 40 5356 specializes in Jersey style pizza
+1710 12 2667 serves cheesesteaks
+1710 40 2667 specializes in cheesesteaks
+1714 5 9 is a bar
+1714 19 9 category bar
+1716 2 78 has atmosphere deli
+1716 12 78 serves deli
+1716 19 78 category deli
+1719 1 5373 offers well-managed service
+1719 6 5373 has feature well-managed service
+1719 6 178 has feature friendly staff
+1719 34 178 has staff friendly staff
+1719 6 724 has feature variety of options
+1719 12 724 serves variety of options
+1720 12 620 serves home decor
+1720 19 620 category home decor
+1720 12 5387 serves furniture
+1720 19 5387 category furniture
+1727 12 348 serves sandwiches
+1727 19 348 category sandwiches
+1730 1 3800 offers nail services
+1730 12 3800 serves nail services
+1733 1 3072 offers nail care
+1733 12 3072 serves nail care
+1734 5 2864 is a music venue
+1734 19 2864 category music venue
+1735 5 830 is a gastropub
+1735 19 830 category gastropub
+1739 3 5 caters to dog owners
+1739 4 5 appeals to dog owners
+1739 3 895 caters to beer enthusiasts
+1739 4 895 appeals to beer enthusiasts
+1739 3 5425 caters to Trivia lovers
+1739 4 5425 appeals to Trivia lovers
+1739 12 2 serves beer
+1739 19 2 category beer
+1742 2 46 has atmosphere cafe
+1742 5 46 is a cafe
+1766 12 397 serves sushi
+1766 19 397 category sushi
+1767 2 5489 has atmosphere mediocre
+1767 12 5489 serves mediocre
+1776 5 46 is a cafe
+1776 19 46 category cafe
+1796 4 271 appeals to vegan
+1796 12 271 serves vegan
+1796 4 282 appeals to vegetarian
+1796 12 282 serves vegetarian
+1799 12 22 serves brunch
+1799 56 22 food options category brunch
+1803 10 1104 serves dish crab rangoons
+1803 12 1104 serves crab rangoons
+1803 10 5540 serves dish seaweed salad
+1803 12 5540 serves seaweed salad
+1809 12 22 serves brunch
+1809 19 22 category brunch
+1811 12 397 serves sushi
+1811 19 397 category sushi
+1835 12 34 serves pizza
+1835 19 34 category pizza
+1838 4 316 appeals to families
+1838 12 316 serves families
+1846 19 621 category gifts
+1846 24 621 sells gifts
+1846 19 623 category jewelry
+1846 24 623 sells jewelry
+1846 19 5624 category musical instruments
+1846 24 5624 sells musical instruments
+1850 5 2605 is a Shopping mall
+1850 19 2605 category Shopping mall
+1852 4 5654 appeals to age restrictions
+1852 6 5654 has feature age restrictions
+1853 2 605 has atmosphere dive bar
+1853 6 605 has feature dive bar
+1860 9 34 serves cuisine pizza
+1860 12 34 serves pizza
+1860 12 5665 serves cheesesteak
+1860 56 5665 food options category cheesesteak
+1868 12 34 serves pizza
+1868 19 34 category pizza
+1870 2 2283 has atmosphere irish pub
+1870 12 2283 serves irish pub
+1889 12 239 serves tacos
+1889 19 239 category tacos
+1896 12 34 serves pizza
+1896 19 34 category pizza
+1898 6 580 has feature reasonable prices
+1898 7 580 price range reasonable prices
+1898 12 3328 serves auto repair
+1898 19 3328 category auto repair
+1914 12 275 serves ice cream
+1914 19 275 category ice cream
+1921 12 46 serves cafe
+1921 19 46 category cafe
+1928 12 9 serves bar
+1928 64 9 has category bar
+1953 5 46 is a cafe
+1953 19 46 category cafe
+1953 12 47 serves coffee
+1953 19 47 category coffee
+1955 5 5842 is a Stadium
+1955 19 5842 category Stadium
+1956 12 167 serves barbecue
+1956 19 167 category barbecue
+1958 12 901 serves tea
+1958 19 901 category tea
+1959 4 2476 appeals to adventurous eaters
+1959 20 2476 interests adventurous eaters
+1978 6 381 has feature outdoor dining
+1978 8 381 suitable for outdoor dining
+1981 12 5898 serves parking
+1981 64 5898 has category parking
+1983 5 296 is a hotel
+1983 64 296 has category hotel
+1992 12 1055 serves hiking
+1992 19 1055 category hiking
+1995 12 134 serves wine
+1995 19 134 category wine
+2003 6 348 has feature sandwiches
+2003 12 348 serves sandwiches
+2003 6 2213 has feature salad bar
+2003 12 2213 serves salad bar
+2011 0 11 located in Philadelphia
+2011 12 11 serves Philadelphia
+2016 12 4359 serves theater
+2016 19 4359 category theater
+2018 4 5971 appeals to neighborhood charm
+2018 6 5971 has feature neighborhood charm
+2024 5 333 is a coffee shop
+2024 19 333 category coffee shop
+2037 5 161 is a Brewery
+2037 19 161 category Brewery
+2039 5 10 is a restaurant
+2039 19 10 category restaurant
+2042 19 2318 category clothing
+2042 24 2318 sells clothing
+2042 19 2392 category accessories
+2042 24 2392 sells accessories
+2051 12 6074 serves cosmetics
+2051 19 6074 category cosmetics
+2051 19 621 category gifts
+2051 24 621 sells gifts
+2073 3 316 caters to families
+2073 4 316 appeals to families
+2075 5 2164 is a park
+2075 19 2164 category park
+2084 5 93 is a grocery store
+2084 19 93 category grocery store
+2092 6 264 has feature long wait times
+2092 62 264 willing to wait for long wait times
+2098 6 1674 has feature unique flavors
+2098 35 1674 values unique flavors
+2098 6 2728 has feature creative flavors
+2098 35 2728 values creative flavors
+2098 7 40 price range affordable prices
+2098 35 40 values affordable prices
+2101 1 239 offers tacos
+2101 19 239 category tacos
+2105 12 34 serves pizza
+2105 19 34 category pizza
+2105 12 181 serves burger
+2105 19 181 category burger
+2110 9 6179 serves cuisine fondue
+2110 12 6179 serves fondue
+2123 6 178 has feature friendly staff
+2123 35 178 values friendly staff
+2126 12 167 serves barbecue
+2126 64 167 has category barbecue
+2130 12 6229 serves barber services
+2130 19 6229 category barber services
+2136 12 271 serves vegan
+2136 43 271 has selection of vegan
+2136 12 282 serves vegetarian
+2136 43 282 has selection of vegetarian
+2165 12 470 serves gourmet burgers
+2165 21 470 enjoys gourmet burgers
+2179 9 239 serves cuisine tacos
+2179 12 239 serves tacos
+2180 5 46 is a cafe
+2180 19 46 category cafe
+2185 5 46 is a cafe
+2185 19 46 category cafe
+2189 12 260 serves buffet
+2189 19 260 category buffet
+2191 5 4359 is a theater
+2191 19 4359 category theater
+2198 5 296 is a hotel
+2198 19 296 category hotel
+2199 5 10 is a restaurant
+2199 19 10 category restaurant
+2200 1 184 offers gluten-free options
+2200 19 184 category gluten-free options
+2203 12 466 serves steak
+2203 19 466 category steak
+2209 3 5 caters to dog owners
+2209 4 5 appeals to dog owners
+2209 5 2164 is a park
+2209 64 2164 has category park
+2221 12 47 serves coffee
+2221 19 47 category coffee
+2222 4 6425 appeals to Luxury travelers
+2222 8 6425 suitable for Luxury travelers
+2223 6 3700 has feature beach
+2223 19 3700 category beach
+2230 8 22 suitable for brunch
+2230 12 22 serves brunch
+2230 19 22 category brunch
+2230 8 144 suitable for breakfast
+2230 19 144 category breakfast
+2233 2 39 has atmosphere casual dining
+2233 8 39 suitable for casual dining
+2238 4 598 appeals to families with kids
+2238 8 598 suitable for families with kids
+2247 2 35 has atmosphere ambiance
+2247 65 35 has focus on ambiance
+2250 12 260 serves buffet
+2250 68 260 serves category buffet
+2262 6 125 has feature good service
+2262 35 125 values good service
+2262 12 2261 serves dim sum
+2262 35 2261 values dim sum
+2269 12 260 serves buffet
+2269 19 260 category buffet
+2270 12 260 serves buffet
+2270 19 260 category buffet
+2271 12 34 serves pizza
+2271 64 34 has category pizza
+2271 12 495 serves wings
+2271 64 495 has category wings
+2273 5 46 is a cafe
+2273 19 46 category cafe
+2274 12 1 serves craft beer
+2274 19 1 category craft beer
+2274 12 2 serves beer
+2274 19 2 category beer
+2274 12 6513 serves German beer
+2274 19 6513 category German beer
+2277 12 104 serves chicken wings
+2277 40 104 specializes in chicken wings
+2277 12 351 serves beverages
+2277 40 351 specializes in beverages
+2281 9 396 serves cuisine asian fusion
+2281 12 396 serves asian fusion
+2289 5 625 is a bookstore
+2289 19 625 category bookstore
+2290 9 396 serves cuisine asian fusion
+2290 12 396 serves asian fusion
+2292 12 560 serves spa
+2292 19 560 category spa
+2300 5 9 is a bar
+2300 19 9 category bar
+2307 12 623 serves jewelry
+2307 19 623 category jewelry
+2309 8 22 suitable for brunch
+2309 12 22 serves brunch
+2309 8 144 suitable for breakfast
+2309 12 144 serves breakfast
+2312 1 213 offers fresh ingredients
+2312 6 213 has feature fresh ingredients
+2313 5 2864 is a music venue
+2313 19 2864 category music venue
+2340 12 2494 serves teppanyaki
+2340 19 2494 category teppanyaki
+2344 12 801 serves dining experience
+2344 19 801 category dining experience
+2345 12 2261 serves dim sum
+2345 68 2261 serves category dim sum
+2346 5 2188 is a Hardware store
+2346 54 2188 type Hardware store
+2352 12 466 serves steak
+2352 68 466 serves category steak
+2352 12 739 serves meat
+2352 68 739 serves category meat
+2362 6 1260 has feature sauces
+2362 12 1260 serves sauces
+2368 12 6689 serves dance
+2368 47 6689 offers activity type dance
+2370 19 620 category home decor
+2370 24 620 sells home decor
+2370 19 621 category gifts
+2370 24 621 sells gifts
+2370 19 623 category jewelry
+2370 24 623 sells jewelry
+2370 19 2392 category accessories
+2370 24 2392 sells accessories
+2373 5 1202 is a children's museum
+2373 64 1202 has category children's museum
+2373 8 3147 suitable for children
+2373 12 3147 serves children
+2379 12 22 serves brunch
+2379 19 22 category brunch
+2381 12 78 serves deli
+2381 19 78 category deli
+2386 12 134 serves wine
+2386 19 134 category wine
+2395 11 6743 presents American historical landmarks
+2395 20 6743 interests American historical landmarks
+2396 5 10 is a restaurant
+2396 19 10 category restaurant
+2400 5 6748 is a Theatre company
+2400 19 6748 category Theatre company
+2403 2 39 has atmosphere casual dining
+2403 19 39 category casual dining
+2404 5 3361 is a Beauty store
+2404 19 3361 category Beauty store
+2415 12 34 serves pizza
+2415 19 34 category pizza
+2417 5 296 is a hotel
+2417 64 296 has category hotel
+2421 6 2339 has feature friendly customer service
+2421 35 2339 values friendly customer service
+2430 5 625 is a bookstore
+2430 19 625 category bookstore
+2445 1 22 offers brunch
+2445 12 22 serves brunch
+2454 12 2 serves beer
+2454 19 2 category beer
+2454 12 134 serves wine
+2454 19 134 category wine
+2464 12 348 serves sandwiches
+2464 19 348 category sandwiches
+2466 12 275 serves ice cream
+2466 64 275 has category ice cream
+2466 12 4033 serves mini golf
+2466 64 4033 has category mini golf
+2473 19 1717 category festival
+2473 20 1717 interests festival
+2473 19 1718 category Event
+2473 76 1718 general category Event
+2473 19 5058 category outdoor activity
+2473 20 5058 interests outdoor activity
+2491 5 298 is a wine bar
+2491 19 298 category wine bar
+2498 19 2318 category clothing
+2498 24 2318 sells clothing
+2500 12 95 serves pastries
+2500 68 95 serves category pastries
+2500 12 901 serves tea
+2500 68 901 serves category tea
+2502 19 621 category gifts
+2502 24 621 sells gifts
+2508 6 3398 has feature convenience
+2508 35 3398 values convenience
+2512 4 655 appeals to Young adults
+2512 8 655 suitable for Young adults
+2512 4 3941 appeals to casual hangouts
+2512 12 3941 serves casual hangouts
+2512 4 6827 appeals to social gatherings
+2512 12 6827 serves social gatherings
+2521 12 741 serves steakhouse
+2521 19 741 category steakhouse
+2529 12 134 serves wine
+2529 19 134 category wine
+2535 12 34 serves pizza
+2535 19 34 category pizza
+2536 2 39 has atmosphere casual dining
+2536 8 39 suitable for casual dining
+2536 6 135 has feature live music
+2536 8 135 suitable for live music
+2537 6 207 has feature quality
+2537 65 207 has focus on quality
+2537 12 1348 serves rolls
+2537 19 1348 category rolls
+2538 6 125 has feature good service
+2538 35 125 values good service
+2538 6 3398 has feature convenience
+2538 35 3398 values convenience
+2538 6 6053 has feature deals
+2538 35 6053 values deals
+2547 1 1513 offers meat options
+2547 43 1513 has selection of meat options
+2556 19 7090 category kitchen supplies
+2556 24 7090 sells kitchen supplies
+2579 12 181 serves burger
+2579 19 181 category burger
+2582 5 9 is a bar
+2582 64 9 has category bar
+2588 12 34 serves pizza
+2588 19 34 category pizza
+2590 5 2164 is a park
+2590 76 2164 general category park
+2590 5 2598 is a Recreation area
+2590 76 2598 general category Recreation area
+2590 6 1055 has feature hiking
+2590 12 1055 serves hiking
+2590 6 7147 has feature playground
+2590 12 7147 serves playground
+2594 12 167 serves barbecue
+2594 19 167 category barbecue
+2598 12 22 serves brunch
+2598 19 22 category brunch
+2616 19 620 category home decor
+2616 24 620 sells home decor
+2616 19 1486 category snacks
+2616 24 1486 sells snacks
+2616 19 2392 category accessories
+2616 24 2392 sells accessories
+2616 19 5387 category furniture
+2616 24 5387 sells furniture
+2633 12 34 serves pizza
+2633 19 34 category pizza
+2636 5 9 is a bar
+2636 19 9 category bar
+2652 12 740 serves baked goods
+2652 19 740 category baked goods
+2661 5 741 is a steakhouse
+2661 19 741 category steakhouse
+2663 1 563 offers Spa services
+2663 12 563 serves Spa services
+2663 1 3744 offers hair services
+2663 12 3744 serves hair services
+2673 5 7286 is a Amusement park ride
+2673 19 7286 category Amusement park ride
+2675 6 7281 has feature clever drinks
+2675 12 7281 serves clever drinks
+2675 6 7282 has feature quality bites
+2675 12 7282 serves quality bites
+2676 12 6230 serves Barber shop
+2676 19 6230 category Barber shop
+2678 12 740 serves baked goods
+2678 19 740 category baked goods
+2680 12 47 serves coffee
+2680 19 47 category coffee
+2689 12 1037 serves salad
+2689 19 1037 category salad
+2690 12 127 serves cocktails
+2690 78 127 has drink category cocktails
+2697 5 3298 is a ice cream parlor
+2697 19 3298 category ice cream parlor
+2698 12 144 serves breakfast
+2698 19 144 category breakfast
+2698 12 211 serves crepes
+2698 19 211 category crepes
+2699 12 429 serves dessert
+2699 19 429 category dessert
+2712 12 397 serves sushi
+2712 19 397 category sushi
+2712 12 901 serves tea
+2712 19 901 category tea
+2717 12 275 serves ice cream
+2717 19 275 category ice cream
+2726 5 1718 is a Event
+2726 12 1718 serves Event
+2727 12 930 serves sandwich
+2727 19 930 category sandwich
+2753 12 6706 serves gardening supplies
+2753 20 6706 interests gardening supplies
+2753 12 7439 serves Hydroponics
+2753 20 7439 interests Hydroponics
+2753 12 7440 serves Educational services
+2753 20 7440 interests Educational services
+2758 12 47 serves coffee
+2758 64 47 has category coffee
+2758 12 95 serves pastries
+2758 64 95 has category pastries
+2777 12 664 serves bubble tea
+2777 68 664 serves category bubble tea
+2777 12 1651 serves hot pot
+2777 68 1651 serves category hot pot
+2788 12 95 serves pastries
+2788 35 95 values pastries
+2789 12 429 serves dessert
+2789 19 429 category dessert
+2791 12 2 serves beer
+2791 68 2 serves category beer
+2796 12 7523 serves public space
+2796 19 7523 category public space
+2806 12 901 serves tea
+2806 19 901 category tea
+2827 12 34 serves pizza
+2827 19 34 category pizza
+2827 12 1253 serves fries
+2827 19 1253 category fries
+2828 12 34 serves pizza
+2828 19 34 category pizza
+2830 12 790 serves mead
+2830 19 790 category mead
+2831 12 102 serves bakery
+2831 19 102 category bakery
+2841 4 3018 appeals to Pirates
+2841 20 3018 interests Pirates
+2841 4 6011 appeals to Florida history
+2841 20 6011 interests Florida history
+2844 9 396 serves cuisine asian fusion
+2844 12 396 serves asian fusion
+2845 5 274 is a market
+2845 12 274 serves market
+2846 12 167 serves barbecue
+2846 19 167 category barbecue
+2851 12 47 serves coffee
+2851 19 47 category coffee
+2853 12 34 serves pizza
+2853 19 34 category pizza
+2860 2 39 has atmosphere casual dining
+2860 8 39 suitable for casual dining
+2863 12 348 serves sandwiches
+2863 19 348 category sandwiches
+2863 12 1728 serves banh mi
+2863 19 1728 category banh mi
+2872 12 885 serves menu
+2872 19 885 category menu
+2876 12 275 serves ice cream
+2876 19 275 category ice cream
+2883 12 901 serves tea
+2883 19 901 category tea
+2888 1 50 offers outdoor seating
+2888 6 50 has feature outdoor seating
+2899 5 1201 is a Museum
+2899 19 1201 category Museum
+2908 12 397 serves sushi
+2908 19 397 category sushi
+2914 6 7761 has feature historical sites
+2914 12 7761 serves historical sites
+2918 5 4248 is a Coffeehouse
+2918 19 4248 category Coffeehouse
+2931 6 92 has feature helpful staff
+2931 34 92 has staff helpful staff
+2932 12 22 serves brunch
+2932 68 22 serves category brunch
+2932 12 1349 serves specials
+2932 68 1349 serves category specials
+2938 8 144 suitable for breakfast
+2938 12 144 serves breakfast
+2948 12 2 serves beer
+2948 19 2 category beer
+2953 6 39 has feature casual dining
+2953 8 39 suitable for casual dining
+2953 6 2646 has feature outdoor activities
+2953 8 2646 suitable for outdoor activities
+2965 5 5893 is a airport
+2965 19 5893 category airport
+2968 12 22 serves brunch
+2968 19 22 category brunch
+2973 12 275 serves ice cream
+2973 19 275 category ice cream
+2980 5 741 is a steakhouse
+2980 19 741 category steakhouse
+2984 12 167 serves barbecue
+2984 19 167 category barbecue
+2988 5 560 is a spa
+2988 19 560 category spa
+2994 12 2 serves beer
+2994 19 2 category beer
+2994 12 34 serves pizza
+2994 19 34 category pizza
+2997 5 7915 is a Memorial
+2997 12 7915 serves Memorial
+3012 5 10 is a restaurant
+3012 19 10 category restaurant
+3021 12 275 serves ice cream
+3021 19 275 category ice cream
+3023 12 2 serves beer
+3023 19 2 category beer
+3023 12 1653 serves appetizers
+3023 19 1653 category appetizers
+3024 2 46 has atmosphere cafe
+3024 19 46 category cafe
+3030 12 47 serves coffee
+3030 19 47 category coffee
+3031 12 1875 serves hummus
+3031 19 1875 category hummus
+3033 12 2 serves beer
+3033 19 2 category beer
+3034 4 316 appeals to families
+3034 8 316 suitable for families
+3041 6 49 has feature spacious environment
+3041 35 49 values spacious environment
+3041 6 6408 has feature skilled stylists
+3041 35 6408 values skilled stylists
+3043 5 10 is a restaurant
+3043 19 10 category restaurant
+3047 12 375 serves bbq
+3047 19 375 category bbq
+3049 5 333 is a coffee shop
+3049 19 333 category coffee shop
+3051 5 1201 is a Museum
+3051 19 1201 category Museum
+3056 12 2 serves beer
+3056 64 2 has category beer
+3060 3 5 caters to dog owners
+3060 4 5 appeals to dog owners
+3062 5 46 is a cafe
+3062 19 46 category cafe
+3063 4 1064 appeals to tourists
+3063 8 1064 suitable for tourists
+3063 4 2203 appeals to history enthusiasts
+3063 8 2203 suitable for history enthusiasts
+3077 5 9 is a bar
+3077 19 9 category bar
+3084 3 4 caters to vegetarians
+3084 4 4 appeals to vegetarians
+3084 3 1181 caters to vegans
+3084 4 1181 appeals to vegans
+3087 6 8091 has feature tropical decor
+3087 12 8091 serves tropical decor
+3092 19 10 category restaurant
+3092 76 10 general category restaurant
+3116 5 717 is a lounge
+3116 6 717 has feature lounge
+3122 5 102 is a bakery
+3122 19 102 category bakery
+3126 12 369 serves pub
+3126 19 369 category pub
+3132 12 34 serves pizza
+3132 19 34 category pizza
+3134 12 239 serves tacos
+3134 19 239 category tacos
+3136 5 10 is a restaurant
+3136 19 10 category restaurant
+3145 8 22 suitable for brunch
+3145 12 22 serves brunch
+3145 12 46 serves cafe
+3145 19 46 category cafe
+3149 12 134 serves wine
+3149 19 134 category wine
+3152 8 504 suitable for special occasions
+3152 19 504 category special occasions
+3153 1 47 offers coffee
+3153 12 47 serves coffee
+3153 19 47 category coffee
+3165 5 8224 is a Meal delivery service
+3165 19 8224 category Meal delivery service
+3166 8 39 suitable for casual dining
+3166 19 39 category casual dining
+3168 1 1509 offers massages
+3168 19 1509 category massages
+3168 1 2718 offers Beauty treatments
+3168 19 2718 category Beauty treatments
+3168 5 560 is a spa
+3168 19 560 category spa
+3178 5 10 is a restaurant
+3178 19 10 category restaurant
+3187 5 102 is a bakery
+3187 76 102 general category bakery
+3187 5 333 is a coffee shop
+3187 76 333 general category coffee shop
+3187 12 8232 serves dairy-free options
+3187 40 8232 specializes in dairy-free options
+3187 12 8263 serves Gluten-free baked goods
+3187 40 8263 specializes in Gluten-free baked goods
+3194 2 39 has atmosphere casual dining
+3194 8 39 suitable for casual dining
+3197 5 369 is a pub
+3197 19 369 category pub
+3197 5 2864 is a music venue
+3197 19 2864 category music venue
+3202 1 8283 offers chef's board
+3202 19 8283 category chef's board
+3215 2 369 has atmosphere pub
+3215 19 369 category pub
+3221 12 47 serves coffee
+3221 19 47 category coffee
+3223 12 34 serves pizza
+3223 19 34 category pizza
+3224 6 341 has feature quick service
+3224 21 341 enjoys quick service
+3224 6 1835 has feature great customer service
+3224 35 1835 values great customer service
+3228 5 338 is a Vegetarian restaurant
+3228 19 338 category Vegetarian restaurant
+3244 5 3479 is a Bicycle shop
+3244 19 3479 category Bicycle shop
+3253 1 154 offers pasta
+3253 19 154 category pasta
+3256 12 2 serves beer
+3256 19 2 category beer
+3268 12 154 serves pasta
+3268 68 154 serves category pasta
+3274 5 10 is a restaurant
+3274 19 10 category restaurant
+3288 5 625 is a bookstore
+3288 19 625 category bookstore
+3288 12 1445 serves books
+3288 24 1445 sells books
+3289 4 1436 appeals to Halloween enthusiasts
+3289 12 1436 serves Halloween enthusiasts
+3294 9 397 serves cuisine sushi
+3294 12 397 serves sushi
+3299 6 8475 has feature Unconventional art
+3299 21 8475 enjoys Unconventional art
+3316 3 734 caters to sports enthusiasts
+3316 4 734 appeals to sports enthusiasts
+3316 3 905 caters to craft beer lovers
+3316 4 905 appeals to craft beer lovers
+3328 12 397 serves sushi
+3328 76 397 general category sushi
+3332 4 1389 appeals to art enthusiasts
+3332 12 1389 serves art enthusiasts
+3334 12 2 serves beer
+3334 19 2 category beer
+3334 12 34 serves pizza
+3334 19 34 category pizza
+3334 12 134 serves wine
+3334 19 134 category wine
+3334 12 351 serves beverages
+3334 19 351 category beverages
+3334 12 1037 serves salad
+3334 19 1037 category salad
+3334 12 8533 serves Fountain soda
+3334 19 8533 category Fountain soda
+3338 12 239 serves tacos
+3338 19 239 category tacos
+3340 12 154 serves pasta
+3340 19 154 category pasta
+3345 12 5387 serves furniture
+3345 19 5387 category furniture
+3345 12 8552 serves storage solutions
+3345 19 8552 category storage solutions
+3350 8 30 suitable for drinks
+3350 12 30 serves drinks
+3358 12 602 serves salads
+3358 19 602 category salads
+3358 12 1487 serves smoothies
+3358 19 1487 category smoothies
+3358 12 1849 serves juices
+3358 19 1849 category juices
+3359 5 10 is a restaurant
+3359 19 10 category restaurant
+3367 12 34 serves pizza
+3367 19 34 category pizza
+3369 1 8592 offers Pet services
+3369 19 8592 category Pet services
+3372 6 39 has feature casual dining
+3372 19 39 category casual dining
+3376 5 166 is a sports bar
+3376 19 166 category sports bar
+3378 5 296 is a hotel
+3378 19 296 category hotel
+3381 5 498 is a Pizza restaurant
+3381 19 498 category Pizza restaurant
+3407 1 8667 offers oyster sandwiches
+3407 12 8667 serves oyster sandwiches
+3424 12 22 serves brunch
+3424 19 22 category brunch
+3431 5 9 is a bar
+3431 19 9 category bar
+3433 5 46 is a cafe
+3433 19 46 category cafe
+3435 5 9 is a bar
+3435 19 9 category bar
+3438 12 2412 serves espresso
+3438 21 2412 enjoys espresso
+3442 5 3700 is a beach
+3442 12 3700 serves beach
+3445 12 260 serves buffet
+3445 19 260 category buffet
+3455 1 282 offers vegetarian
+3455 12 282 serves vegetarian
+3456 12 30 serves drinks
+3456 19 30 category drinks
+3459 12 397 serves sushi
+3459 19 397 category sushi
+3466 12 22 serves brunch
+3466 19 22 category brunch
+3467 12 2439 serves architecture
+3467 19 2439 category architecture
+3467 12 3228 serves performances
+3467 19 3228 category performances
+3474 12 22 serves brunch
+3474 19 22 category brunch
+3482 12 2 serves beer
+3482 19 2 category beer
+3482 12 34 serves pizza
+3482 19 34 category pizza
+3482 12 738 serves ribs
+3482 19 738 category ribs
+3483 12 93 serves grocery store
+3483 64 93 has category grocery store
+3500 12 144 serves breakfast
+3500 68 144 serves category breakfast
+3509 5 46 is a cafe
+3509 19 46 category cafe
+3515 5 10 is a restaurant
+3515 19 10 category restaurant
+3515 12 34 serves pizza
+3515 19 34 category pizza
+3515 12 167 serves barbecue
+3515 19 167 category barbecue
+3515 40 167 specializes in barbecue
+3529 5 9 is a bar
+3529 19 9 category bar
+3538 8 39 suitable for casual dining
+3538 19 39 category casual dining
+3539 12 348 serves sandwiches
+3539 20 348 interests sandwiches
+3539 12 3677 serves hot dogs
+3539 20 3677 interests hot dogs
+3555 6 8924 has feature Public parks
+3555 12 8924 serves Public parks
+3566 19 2318 category clothing
+3566 24 2318 sells clothing
+3566 19 2392 category accessories
+3566 24 2392 sells accessories
+3570 12 260 serves buffet
+3570 19 260 category buffet
+3571 12 397 serves sushi
+3571 19 397 category sushi
+3573 12 275 serves ice cream
+3573 19 275 category ice cream
+3584 1 8977 offers personal shopping experience
+3584 35 8977 values personal shopping experience
+3584 6 8976 has feature seasonal surprises
+3584 35 8976 values seasonal surprises
+3584 34 178 has staff friendly staff
+3584 35 178 values friendly staff
+3593 12 4033 serves mini golf
+3593 19 4033 category mini golf
+3595 12 9 serves bar
+3595 19 9 category bar
+3601 19 3360 category beauty products
+3601 24 3360 sells beauty products
+3601 19 6074 category cosmetics
+3601 20 6074 interests cosmetics
+3601 19 9000 category spa products
+3601 24 9000 sells spa products
+3613 12 9014 serves art supplies
+3613 64 9014 has category art supplies
+3613 12 9015 serves printing services
+3613 64 9015 has category printing services
+3613 12 9016 serves framing
+3613 64 9016 has category framing
+3619 5 46 is a cafe
+3619 19 46 category cafe
+3625 12 397 serves sushi
+3625 19 397 category sushi
+3634 5 46 is a cafe
+3634 19 46 category cafe
+3645 8 22 suitable for brunch
+3645 12 22 serves brunch
+3645 8 144 suitable for breakfast
+3645 12 144 serves breakfast
+3650 12 791 serves cider
+3650 19 791 category cider
+3652 5 4359 is a theater
+3652 19 4359 category theater
+3656 12 397 serves sushi
+3656 19 397 category sushi
+3665 5 10 is a restaurant
+3665 19 10 category restaurant
+3669 12 47 serves coffee
+3669 19 47 category coffee
+3675 6 8902 has feature beachside dining
+3675 8 8902 suitable for beachside dining
+3683 12 397 serves sushi
+3683 64 397 has category sushi
+3695 5 161 is a Brewery
+3695 19 161 category Brewery
+3705 12 459 serves frozen yogurt
+3705 19 459 category frozen yogurt
+3709 12 134 serves wine
+3709 19 134 category wine
+3712 12 144 serves breakfast
+3712 19 144 category breakfast
+3717 5 5893 is a airport
+3717 19 5893 category airport
+3722 1 3942 offers bowling
+3722 12 3942 serves bowling
+3724 12 364 serves noodles
+3724 19 364 category noodles
+3724 12 2333 serves dumplings
+3724 19 2333 category dumplings
+3726 5 625 is a bookstore
+3726 19 625 category bookstore
+3734 12 167 serves barbecue
+3734 68 167 serves category barbecue
+3734 12 466 serves steak
+3734 68 466 serves category steak
+3741 12 212 serves soups
+3741 19 212 category soups
+3751 12 34 serves pizza
+3751 68 34 serves category pizza
+3753 6 1470 has feature local products
+3753 49 1470 focus on local products
+3755 12 494 serves gelato
+3755 19 494 category gelato
+3769 12 1825 serves spirits
+3769 68 1825 serves category spirits
+3771 12 134 serves wine
+3771 64 134 has category wine
+3794 12 2 serves beer
+3794 19 2 category beer
+3794 12 181 serves burger
+3794 19 181 category burger
+3794 12 429 serves dessert
+3794 19 429 category dessert
+3841 6 2935 has feature variety of ingredients
+3841 35 2935 values variety of ingredients
+3841 6 9374 has feature quick cooking
+3841 35 9374 values quick cooking
+3841 6 9375 has feature well-ventilated environment
+3841 21 9375 enjoys well-ventilated environment
+3842 6 712 has feature takeout
+3842 8 712 suitable for takeout
+3842 19 351 category beverages
+3842 24 351 sells beverages
+3845 24 739 sells meat
+3845 35 739 values meat
+3845 24 2926 sells deli items
+3845 35 2926 values deli items
+3848 12 46 serves cafe
+3848 19 46 category cafe
+3849 6 932 has feature high-quality
+3849 63 932 features high-quality
+3849 6 4502 has feature crispy
+3849 65 4502 has focus on crispy
+3849 6 4503 has feature well-seasoned
+3849 49 4503 focus on well-seasoned
+3856 12 134 serves wine
+3856 19 134 category wine
+3862 12 2 serves beer
+3862 19 2 category beer
+3862 12 167 serves barbecue
+3862 19 167 category barbecue
+3867 12 34 serves pizza
+3867 68 34 serves category pizza
+3869 5 46 is a cafe
+3869 19 46 category cafe
+3877 12 26 serves oysters
+3877 19 26 category oysters
+3877 12 397 serves sushi
+3877 19 397 category sushi
+3877 12 697 serves fish
+3877 19 697 category fish
+3879 6 5076 has feature slower service
+3879 26 5076 willing to overlook slower service
+3879 12 429 serves dessert
+3879 19 429 category dessert
+3909 2 39 has atmosphere casual dining
+3909 8 39 suitable for casual dining
+3917 12 459 serves frozen yogurt
+3917 19 459 category frozen yogurt
+3921 19 93 category grocery store
+3921 76 93 general category grocery store
+3923 5 5893 is a airport
+3923 19 5893 category airport
+3937 12 30 serves drinks
+3937 24 30 sells drinks
+3937 12 682 serves desserts
+3937 24 682 sells desserts
+3946 5 102 is a bakery
+3946 19 102 category bakery
+3949 5 3070 is a butcher shop
+3949 19 3070 category butcher shop
+3949 12 739 serves meat
+3949 19 739 category meat
+3954 5 9573 is a Water park
+3954 19 9573 category Water park
+3959 12 397 serves sushi
+3959 19 397 category sushi
+3971 5 93 is a grocery store
+3971 19 93 category grocery store
+3974 12 47 serves coffee
+3974 19 47 category coffee
+3982 12 3677 serves hot dogs
+3982 19 3677 category hot dogs
+3994 12 144 serves breakfast
+3994 19 144 category breakfast
+3994 12 225 serves lunch
+3994 19 225 category lunch
+3996 8 144 suitable for breakfast
+3996 12 144 serves breakfast
+4001 6 4547 has feature waterfront dining
+4001 8 4547 suitable for waterfront dining
+4001 12 697 serves fish
+4001 19 697 category fish
+4011 12 260 serves buffet
+4011 35 260 values buffet
+4020 12 901 serves tea
+4020 19 901 category tea
+4022 11 2443 presents historical landmarks
+4022 20 2443 interests historical landmarks
+4036 12 459 serves frozen yogurt
+4036 19 459 category frozen yogurt
+4052 12 9740 serves jewelry repair
+4052 19 9740 category jewelry repair
+4052 12 9741 serves watch repair
+4052 19 9741 category watch repair
+4066 12 34 serves pizza
+4066 19 34 category pizza
+4073 12 397 serves sushi
+4073 19 397 category sushi
+4086 12 167 serves barbecue
+4086 19 167 category barbecue
+4089 1 3744 offers hair services
+4089 12 3744 serves hair services
+4096 9 34 serves cuisine pizza
+4096 12 34 serves pizza
+4096 9 181 serves cuisine burger
+4096 12 181 serves burger
+4100 12 39 serves casual dining
+4100 19 39 category casual dining
+4100 12 6383 serves crepe
+4100 19 6383 category crepe
+4105 1 39 offers casual dining
+4105 8 39 suitable for casual dining
+4113 12 9 serves bar
+4113 76 9 general category bar
+4118 0 11 located in Philadelphia
+4118 6 11 has feature Philadelphia
+4141 19 3811 category Bath products
+4141 92 3811 has broad range Bath products
+4141 19 3894 category skincare
+4141 92 3894 has broad range skincare
+4141 19 9906 category Haircare
+4141 92 9906 has broad range Haircare
+4145 65 9916 has focus on honoring first responders
+4145 73 9916 promotes honoring first responders
+4145 65 9917 has focus on honoring veterans
+4145 73 9917 promotes honoring veterans
+4147 9 181 serves cuisine burger
+4147 12 181 serves burger
+4149 1 9937 offers track tours
+4149 6 9937 has feature track tours
+4149 6 9938 has feature merchandise
+4149 24 9938 sells merchandise
+4166 12 397 serves sushi
+4166 19 397 category sushi
+4166 12 466 serves steak
+4166 19 466 category steak
+4184 5 3031 is a Nail salon
+4184 64 3031 has category Nail salon
+4188 9 9997 serves cuisine Chaozhou
+4188 63 9997 features Chaozhou
+4191 12 595 serves ramen
+4191 19 595 category ramen
+4203 1 739 offers meat
+4203 12 739 serves meat
+4214 12 348 serves sandwiches
+4214 19 348 category sandwiches
+4224 2 39 has atmosphere casual dining
+4224 8 39 suitable for casual dining
+4224 12 2 serves beer
+4224 68 2 serves category beer
+4224 12 192 serves burgers
+4224 68 192 serves category burgers
+4244 12 34 serves pizza
+4244 19 34 category pizza
+4257 12 9 serves bar
+4257 19 9 category bar
+4257 12 166 serves sports bar
+4257 19 166 category sports bar
+4258 12 192 serves burgers
+4258 63 192 features burgers
+4263 12 34 serves pizza
+4263 64 34 has category pizza
+4264 5 166 is a sports bar
+4264 19 166 category sports bar
+4265 12 7526 serves spicy flavors
+4265 19 7526 category spicy flavors
+4270 12 333 serves coffee shop
+4270 19 333 category coffee shop
+4276 12 10150 serves geek culture
+4276 19 10150 category geek culture
+4281 12 397 serves sushi
+4281 19 397 category sushi
+4285 12 364 serves noodles
+4285 19 364 category noodles
+4285 12 595 serves ramen
+4285 19 595 category ramen
+4285 12 3524 serves broth
+4285 19 3524 category broth
+4290 2 39 has atmosphere casual dining
+4290 8 39 suitable for casual dining
+4291 12 34 serves pizza
+4291 19 34 category pizza
+4292 12 682 serves desserts
+4292 68 682 serves category desserts
+4296 5 297 is a entertainment venue
+4296 19 297 category entertainment venue
+4298 12 275 serves ice cream
+4298 19 275 category ice cream
+4300 12 83 serves curry
+4300 64 83 has category curry
+4304 12 466 serves steak
+4304 19 466 category steak
+4308 12 46 serves cafe
+4308 19 46 category cafe
+4310 12 9682 serves boba
+4310 19 9682 category boba
+4315 12 127 serves cocktails
+4315 19 127 category cocktails
+4315 12 363 serves small plates
+4315 19 363 category small plates
+4315 12 495 serves wings
+4315 19 495 category wings
+4315 12 2333 serves dumplings
+4315 19 2333 category dumplings
+4320 12 239 serves tacos
+4320 19 239 category tacos
+4325 6 146 has feature friendly service
+4325 35 146 values friendly service
+4340 19 621 category gifts
+4340 24 621 sells gifts
+4340 19 623 category jewelry
+4340 24 623 sells jewelry
+4355 12 34 serves pizza
+4355 14 34 has menu variety pizza
+4362 2 592 has atmosphere relaxed
+4362 63 592 features relaxed
+4362 5 46 is a cafe
+4362 19 46 category cafe
+4363 12 601 serves bread
+4363 68 601 serves category bread
+4364 6 375 has feature bbq
+4364 12 375 serves bbq
+4371 0 11 located in Philadelphia
+4371 59 11 has service Philadelphia
+4376 12 275 serves ice cream
+4376 19 275 category ice cream
+4379 12 34 serves pizza
+4379 19 34 category pizza
+4380 12 34 serves pizza
+4380 19 34 category pizza
+4380 12 930 serves sandwich
+4380 19 930 category sandwich
+4380 12 3167 serves milkshake
+4380 19 3167 category milkshake
+4385 12 167 serves barbecue
+4385 19 167 category barbecue
+4385 12 300 serves meats
+4385 19 300 category meats
+4385 12 348 serves sandwiches
+4385 19 348 category sandwiches
+4385 12 1071 serves sides
+4385 19 1071 category sides
+4385 12 1260 serves sauces
+4385 19 1260 category sauces
+4386 12 2 serves beer
+4386 19 2 category beer
+4386 12 78 serves deli
+4386 19 78 category deli
+4386 12 930 serves sandwich
+4386 19 930 category sandwich
+4399 4 316 appeals to families
+4399 8 316 suitable for families
+4400 2 39 has atmosphere casual dining
+4400 8 39 suitable for casual dining
+4404 12 22 serves brunch
+4404 68 22 serves category brunch
+4404 12 192 serves burgers
+4404 68 192 serves category burgers
+4409 6 341 has feature quick service
+4409 12 341 serves quick service
+4433 5 10 is a restaurant
+4433 19 10 category restaurant
+4453 1 680 offers vegetarian options
+4453 20 680 interests vegetarian options
+4456 12 46 serves cafe
+4456 19 46 category cafe
+4459 12 47 serves coffee
+4459 19 47 category coffee
+4459 12 144 serves breakfast
+4459 19 144 category breakfast
+4461 12 2 serves beer
+4461 19 2 category beer
+4465 12 363 serves small plates
+4465 19 363 category small plates
+4474 19 8080 category condiments
+4474 24 8080 sells condiments
+4476 4 829 appeals to Fans of live music
+4476 8 829 suitable for Fans of live music
+4476 4 10483 appeals to Festive atmospheres
+4476 8 10483 suitable for Festive atmospheres
+4479 12 275 serves ice cream
+4479 64 275 has category ice cream
+4484 5 2164 is a park
+4484 19 2164 category park
+4487 5 296 is a hotel
+4487 64 296 has category hotel
+4509 11 4359 presents theater
+4509 23 4359 presents genre theater
+4511 1 1074 offers arcade games
+4511 47 1074 offers activity type arcade games
+4511 1 3942 offers bowling
+4511 47 3942 offers activity type bowling
+4511 1 10539 offers billiards
+4511 47 10539 offers activity type billiards
+4515 12 397 serves sushi
+4515 19 397 category sushi
+4521 12 5319 serves pralines
+4521 79 5319 reputation pralines
+4530 8 10567 suitable for those who appreciate
+4530 20 10567 interests those who appreciate
+4530 12 34 serves pizza
+4530 19 34 category pizza
+4537 12 4359 serves theater
+4537 19 4359 category theater
+4552 5 333 is a coffee shop
+4552 19 333 category coffee shop
+4570 5 10326 is a aquarium
+4570 12 10326 serves aquarium
+4570 12 10631 serves Sea life
+4570 92 10631 has broad range Sea life
+4587 5 9 is a bar
+4587 76 9 general category bar
+4596 2 29 has atmosphere cozy
+4596 6 29 has feature cozy
+4596 6 39 has feature casual dining
+4596 8 39 suitable for casual dining
+4608 5 296 is a hotel
+4608 19 296 category hotel
+4613 12 34 serves pizza
+4613 19 34 category pizza
+4617 12 2507 serves entrees
+4617 68 2507 serves category entrees
+4617 12 5159 serves flatbread
+4617 68 5159 serves category flatbread
+4633 5 333 is a coffee shop
+4633 19 333 category coffee shop
+4646 12 2098 serves grill
+4646 19 2098 category grill
+4663 5 9 is a bar
+4663 19 9 category bar
+4683 12 34 serves pizza
+4683 19 34 category pizza
+4688 12 740 serves baked goods
+4688 68 740 serves category baked goods
+4693 12 901 serves tea
+4693 19 901 category tea
+4706 12 213 serves fresh ingredients
+4706 49 213 focus on fresh ingredients
+4708 5 46 is a cafe
+4708 19 46 category cafe
+4710 12 127 serves cocktails
+4710 64 127 has category cocktails
+4710 12 371 serves tapas
+4710 64 371 has category tapas
+4715 12 167 serves barbecue
+4715 19 167 category barbecue
+4717 56 270 food options category gluten-free
+4717 81 270 has food options gluten-free
+4717 56 271 food options category vegan
+4717 81 271 has food options vegan
+4730 9 396 serves cuisine asian fusion
+4730 12 396 serves asian fusion
+4735 12 1486 serves snacks
+4735 19 1486 category snacks
+4735 12 10889 serves cooking supplies
+4735 19 10889 category cooking supplies
+4738 12 95 serves pastries
+4738 68 95 serves category pastries
+4738 12 417 serves donuts
+4738 68 417 serves category donuts
+4743 12 1348 serves rolls
+4743 43 1348 has selection of rolls
+4747 5 10 is a restaurant
+4747 64 10 has category restaurant
+4747 6 35 has feature ambiance
+4747 91 35 prioritizes ambiance
+4756 12 22 serves brunch
+4756 68 22 serves category brunch
+4756 12 144 serves breakfast
+4756 68 144 serves category breakfast
+4763 5 10 is a restaurant
+4763 19 10 category restaurant
+4785 5 4490 is a dog park
+4785 76 4490 general category dog park
+4790 12 397 serves sushi
+4790 19 397 category sushi
+4794 12 34 serves pizza
+4794 19 34 category pizza
+4799 6 752 has feature good value
+4799 7 752 price range good value
+4800 12 10979 serves main courses
+4800 19 10979 category main courses
+4805 19 621 category gifts
+4805 24 621 sells gifts
+4809 12 682 serves desserts
+4809 19 682 category desserts
+4810 5 93 is a grocery store
+4810 19 93 category grocery store
+4816 5 10 is a restaurant
+4816 19 10 category restaurant
+4816 5 120 is a Gift shop
+4816 19 120 category Gift shop
+4818 12 47 serves coffee
+4818 19 47 category coffee
+4826 5 10 is a restaurant
+4826 19 10 category restaurant
+4840 2 39 has atmosphere casual dining
+4840 19 39 category casual dining
+4840 5 10 is a restaurant
+4840 19 10 category restaurant
+4843 12 351 serves beverages
+4843 19 351 category beverages
+4857 5 250 is a Beauty salon
+4857 19 250 category Beauty salon
+4859 6 1717 has feature festival
+4859 19 1717 category festival
+4860 1 11071 offers massage services
+4860 6 11071 has feature massage services
+4865 12 830 serves gastropub
+4865 19 830 category gastropub
+4867 1 710 offers group dining
+4867 8 710 suitable for group dining
+4867 6 39 has feature casual dining
+4867 8 39 suitable for casual dining
+4869 19 10 category restaurant
+4869 64 10 has category restaurant
+4870 12 2 serves beer
+4870 19 2 category beer
+4870 12 5709 serves pub fare
+4870 19 5709 category pub fare
+4877 12 2 serves beer
+4877 19 2 category beer
+4878 6 30 has feature drinks
+4878 12 30 serves drinks
+4879 12 102 serves bakery
+4879 19 102 category bakery
+4884 12 95 serves pastries
+4884 92 95 has broad range pastries
+4884 12 97 serves cakes
+4884 92 97 has broad range cakes
+4884 12 682 serves desserts
+4884 92 682 has broad range desserts
+4893 12 144 serves breakfast
+4893 68 144 serves category breakfast
+4904 5 4359 is a theater
+4904 19 4359 category theater
+4907 1 134 offers wine
+4907 12 134 serves wine
+4907 1 244 offers mimosas
+4907 12 244 serves mimosas
+4918 5 10 is a restaurant
+4918 64 10 has category restaurant
+4919 5 2164 is a park
+4919 19 2164 category park
+4921 5 9 is a bar
+4921 19 9 category bar
+4930 12 1308 serves family-owned restaurant
+4930 19 1308 category family-owned restaurant
+4940 6 1989 has feature fusion
+4940 12 1989 serves fusion
+4944 12 930 serves sandwich
+4944 19 930 category sandwich
+4958 4 4901 appeals to families with children
+4958 8 4901 suitable for families with children
+4961 12 102 serves bakery
+4961 19 102 category bakery
+4973 6 39 has feature casual dining
+4973 8 39 suitable for casual dining
+4976 5 46 is a cafe
+4976 19 46 category cafe
+4979 12 351 serves beverages
+4979 19 351 category beverages
+4980 12 429 serves dessert
+4980 68 429 serves category dessert
+4982 12 397 serves sushi
+4982 19 397 category sushi
+4998 10 222 serves dish shawarma
+4998 12 222 serves shawarma
+4998 10 1976 serves dish falafel
+4998 12 1976 serves falafel
+4999 5 46 is a cafe
+4999 19 46 category cafe
+5000 5 46 is a cafe
+5000 19 46 category cafe
+5007 5 166 is a sports bar
+5007 19 166 category sports bar
+5013 2 196 has atmosphere family-friendly
+5013 4 196 appeals to family-friendly
+5041 4 361 appeals to pet owners
+5041 12 361 serves pet owners
+5041 4 1625 appeals to hikers
+5041 12 1625 serves hikers
+5049 12 34 serves pizza
+5049 19 34 category pizza
+5053 12 2 serves beer
+5053 19 2 category beer
+5055 12 134 serves wine
+5055 19 134 category wine
+5055 12 363 serves small plates
+5055 19 363 category small plates
+5057 12 47 serves coffee
+5057 19 47 category coffee
+5075 5 4248 is a Coffeehouse
+5075 19 4248 category Coffeehouse
+5079 24 11477 sells pasta accessories
+5079 43 11477 has selection of pasta accessories
+5079 24 11478 sells imported products
+5079 43 11478 has selection of imported products
+5080 19 10 category restaurant
+5080 76 10 general category restaurant
+5087 12 34 serves pizza
+5087 19 34 category pizza
+5101 7 580 price range reasonable prices
+5101 77 580 value reasonable prices
+5105 12 34 serves pizza
+5105 19 34 category pizza
+5112 4 367 appeals to Group diners
+5112 8 367 suitable for Group diners
+5115 6 39 has feature casual dining
+5115 8 39 suitable for casual dining
+5115 12 34 serves pizza
+5115 19 34 category pizza
+5116 12 9 serves bar
+5116 19 9 category bar
+5124 12 47 serves coffee
+5124 19 47 category coffee
+5128 9 741 serves cuisine steakhouse
+5128 12 741 serves steakhouse
+5128 9 2510 serves cuisine barbeque
+5128 12 2510 serves barbeque
+5134 12 275 serves ice cream
+5134 19 275 category ice cream
+5142 64 595 has category ramen
+5142 84 595 serves genre ramen
+5147 12 39 serves casual dining
+5147 19 39 category casual dining
+5152 5 741 is a steakhouse
+5152 19 741 category steakhouse
+5154 12 2 serves beer
+5154 19 2 category beer
+5160 5 7118 is a Bar & Restaurant
+5160 19 7118 category Bar & Restaurant
+5165 12 34 serves pizza
+5165 19 34 category pizza
+5167 12 221 serves gyros
+5167 19 221 category gyros
+5176 6 263 has feature bakery items
+5176 24 263 sells bakery items
+5176 6 300 has feature meats
+5176 24 300 sells meats
+5178 12 351 serves beverages
+5178 19 351 category beverages
+5186 6 135 has feature live music
+5186 47 135 offers activity type live music
+5186 6 1015 has feature karaoke
+5186 47 1015 offers activity type karaoke
+5188 12 9 serves bar
+5188 19 9 category bar
+5190 12 22 serves brunch
+5190 64 22 has category brunch
+5190 12 930 serves sandwich
+5190 64 930 has category sandwich
+5191 12 134 serves wine
+5191 19 134 category wine
+5193 5 10 is a restaurant
+5193 19 10 category restaurant
+5198 19 8592 category Pet services
+5198 61 8592 has service option Pet services
+5205 12 47 serves coffee
+5205 21 47 enjoys coffee
+5205 12 1958 serves refreshing drinks
+5205 21 1958 enjoys refreshing drinks
+5207 4 316 appeals to families
+5207 12 316 serves families
+5207 4 1063 appeals to nature lovers
+5207 12 1063 serves nature lovers
+5228 19 640 category Cajun/Creole
+5228 84 640 serves genre Cajun/Creole
+5230 1 295 offers casino
+5230 5 295 is a casino
+5230 76 295 general category casino
+5230 2 880 has atmosphere spacious
+5230 6 880 has feature spacious
+5231 12 275 serves ice cream
+5231 19 275 category ice cream
+5238 1 34 offers pizza
+5238 12 34 serves pizza
+5240 12 348 serves sandwiches
+5240 68 348 serves category sandwiches
+5240 12 466 serves steak
+5240 68 466 serves category steak
+5243 12 2960 serves beauty services
+5243 19 2960 category beauty services
+5249 6 4731 has feature butterflies
+5249 12 4731 serves butterflies
+5249 6 4984 has feature gardens
+5249 12 4984 serves gardens
+5251 12 2959 serves cake
+5251 19 2959 category cake
+5261 6 11749 has feature Greek mythology
+5261 20 11749 interests Greek mythology
+5262 12 417 serves donuts
+5262 19 417 category donuts
+5263 12 102 serves bakery
+5263 19 102 category bakery
+5269 12 3496 serves group activities
+5269 50 3496 provides group activities
+5280 12 46 serves cafe
+5280 19 46 category cafe
+5280 12 2646 serves outdoor activities
+5280 19 2646 category outdoor activities
+5280 12 3587 serves biking
+5280 19 3587 category biking
+5284 12 5233 serves sporting goods
+5284 19 5233 category sporting goods
+5284 12 10876 serves outdoor gear
+5284 19 10876 category outdoor gear
+5294 3 4 caters to vegetarians
+5294 4 4 appeals to vegetarians
+5297 12 135 serves live music
+5297 19 135 category live music
+5297 12 167 serves barbecue
+5297 19 167 category barbecue
+5301 12 197 serves BYOB
+5301 19 197 category BYOB
+5301 12 260 serves buffet
+5301 19 260 category buffet
+5306 12 34 serves pizza
+5306 76 34 general category pizza
+5313 12 2 serves beer
+5313 64 2 has category beer
+5315 12 95 serves pastries
+5315 92 95 has broad range pastries
+5324 5 102 is a bakery
+5324 19 102 category bakery
+5331 1 107 offers variety of flavors
+5331 6 107 has feature variety of flavors
+5331 1 462 offers toppings
+5331 6 462 has feature toppings
+5335 12 34 serves pizza
+5335 19 34 category pizza
+5336 12 901 serves tea
+5336 19 901 category tea
+5336 12 11884 serves tea ware
+5336 19 11884 category tea ware
+5336 12 11885 serves tea blends
+5336 19 11885 category tea blends
+5344 1 9275 offers Loyalty programs
+5344 90 9275 interested in Loyalty programs
+5350 4 1062 appeals to outdoor enthusiasts
+5350 12 1062 serves outdoor enthusiasts
+5350 4 1520 appeals to shoppers
+5350 12 1520 serves shoppers
+5350 4 2545 appeals to athletes
+5350 12 2545 serves athletes
+5369 12 397 serves sushi
+5369 19 397 category sushi
+5370 5 560 is a spa
+5370 76 560 general category spa
+5372 5 11951 is a Historical Society
+5372 19 11951 category Historical Society
+5377 1 184 offers gluten-free options
+5377 6 184 has feature gluten-free options
+5377 1 214 offers variety of toppings
+5377 6 214 has feature variety of toppings
+5378 8 1055 suitable for hiking
+5378 12 1055 serves hiking
+5387 12 260 serves buffet
+5387 19 260 category buffet
+5394 12 34 serves pizza
+5394 42 34 category of pizza
+5395 5 46 is a cafe
+5395 19 46 category cafe
+5400 1 4194 offers massage
+5400 12 4194 serves massage
+5403 5 5893 is a airport
+5403 19 5893 category airport
+5407 6 2004 has feature welcoming staff
+5407 35 2004 values welcoming staff
+5413 12 466 serves steak
+5413 21 466 enjoys steak
+5414 19 620 category home decor
+5414 24 620 sells home decor
+5414 19 2609 category candies
+5414 24 2609 sells candies
+5414 19 5387 category furniture
+5414 24 5387 sells furniture
+5415 12 2611 serves organic products
+5415 19 2611 category organic products
+5416 12 2929 serves bar and grill
+5416 76 2929 general category bar and grill
+5416 12 12016 serves Mozzarella sticks
+5416 43 12016 has selection of Mozzarella sticks
+5447 5 10 is a restaurant
+5447 19 10 category restaurant
+5449 5 741 is a steakhouse
+5449 19 741 category steakhouse
+5456 1 4194 offers massage
+5456 12 4194 serves massage
+5462 12 167 serves barbecue
+5462 19 167 category barbecue
+5470 12 429 serves dessert
+5470 19 429 category dessert
+5481 12 1036 serves soup
+5481 68 1036 serves category soup
+5493 2 125 has atmosphere good service
+5493 6 125 has feature good service
+5493 9 396 serves cuisine asian fusion
+5493 12 396 serves asian fusion
+5493 9 397 serves cuisine sushi
+5493 12 397 serves sushi
+5503 6 381 has feature outdoor dining
+5503 8 381 suitable for outdoor dining
+5507 6 12169 has feature artisan drinks
+5507 12 12169 serves artisan drinks
+5510 2 39 has atmosphere casual dining
+5510 19 39 category casual dining
+5515 12 397 serves sushi
+5515 84 397 serves genre sushi
+5519 12 7189 serves premium drinks
+5519 19 7189 category premium drinks
+5526 12 397 serves sushi
+5526 19 397 category sushi
+5526 12 835 serves hibachi
+5526 19 835 category hibachi
+5526 12 1348 serves rolls
+5526 19 1348 category rolls
+5526 12 2969 serves udon
+5526 19 2969 category udon
+5529 12 34 serves pizza
+5529 19 34 category pizza
+5530 1 803 offers dining
+5530 8 803 suitable for dining
+5532 9 397 serves cuisine sushi
+5532 12 397 serves sushi
+5534 12 2 serves beer
+5534 19 2 category beer
+5539 6 125 has feature good service
+5539 35 125 values good service
+5539 6 381 has feature outdoor dining
+5539 21 381 enjoys outdoor dining
+5539 6 9988 has feature well-made drinks
+5539 21 9988 enjoys well-made drinks
+5544 5 9 is a bar
+5544 19 9 category bar
+5561 12 296 serves hotel
+5561 19 296 category hotel
+5565 1 1640 offers relaxation
+5565 8 1640 suitable for relaxation
+5572 12 275 serves ice cream
+5572 19 275 category ice cream
+5578 8 3942 suitable for bowling
+5578 12 3942 serves bowling
+5581 1 1 offers craft beer
+5581 24 1 sells craft beer
+5581 1 134 offers wine
+5581 24 134 sells wine
+5581 1 1287 offers liquor
+5581 24 1287 sells liquor
+5590 40 12292 specializes in Emergency care
+5590 50 12292 provides Emergency care
+5595 19 12303 category gothic architecture
+5595 20 12303 interests gothic architecture
+5603 1 2333 offers dumplings
+5603 12 2333 serves dumplings
+5607 1 4194 offers massage
+5607 19 4194 category massage
+5611 12 1 serves craft beer
+5611 21 1 enjoys craft beer
+5626 6 47 has feature coffee
+5626 12 47 serves coffee
+5626 6 12352 has feature fruit salad
+5626 12 12352 serves fruit salad
+5627 5 9 is a bar
+5627 76 9 general category bar
+5631 12 2985 serves car wash
+5631 19 2985 category car wash
+5631 12 12356 serves Quicklube
+5631 19 12356 category Quicklube
+5635 12 144 serves breakfast
+5635 40 144 specializes in breakfast
+5635 12 225 serves lunch
+5635 40 225 specializes in lunch
+5639 12 275 serves ice cream
+5639 19 275 category ice cream
+5642 19 623 category jewelry
+5642 24 623 sells jewelry
+5653 12 192 serves burgers
+5653 35 192 values burgers
+5653 12 12407 serves Meatball Parmesan
+5653 35 12407 values Meatball Parmesan
+5668 5 161 is a Brewery
+5668 19 161 category Brewery
+5670 6 3721 has feature drive-in theater
+5670 19 3721 category drive-in theater
+5673 12 901 serves tea
+5673 64 901 has category tea
+5673 12 12446 serves Cheese foam
+5673 64 12446 has category Cheese foam
+5680 12 127 serves cocktails
+5680 19 127 category cocktails
+5680 12 239 serves tacos
+5680 19 239 category tacos
+5683 2 554 has atmosphere full bar
+5683 12 554 serves full bar
+5689 12 855 serves nightlife venue
+5689 19 855 category nightlife venue
+5703 9 34 serves cuisine pizza
+5703 12 34 serves pizza
+5705 12 3932 serves elegant dining
+5705 19 3932 category elegant dining
+5713 12 47 serves coffee
+5713 19 47 category coffee
+5724 6 501 has feature craft cocktails
+5724 12 501 serves craft cocktails
+5727 12 2 serves beer
+5727 68 2 serves category beer
+5729 12 34 serves pizza
+5729 19 34 category pizza
+5729 12 495 serves wings
+5729 19 495 category wings
+5733 12 3606 serves meat products
+5733 19 3606 category meat products
+5735 5 93 is a grocery store
+5735 19 93 category grocery store
+5736 12 47 serves coffee
+5736 24 47 sells coffee
+5736 12 740 serves baked goods
+5736 24 740 sells baked goods
+5736 12 12528 serves latte
+5736 24 12528 sells latte
+5751 6 616 has feature lunch specials
+5751 12 616 serves lunch specials
+5753 12 22 serves brunch
+5753 19 22 category brunch
+5753 12 144 serves breakfast
+5753 19 144 category breakfast
+5762 19 10 category restaurant
+5762 64 10 has category restaurant
+5767 6 740 has feature baked goods
+5767 12 740 serves baked goods
+5768 5 10326 is a aquarium
+5768 12 10326 serves aquarium
+5790 6 632 has feature community events
+5790 12 632 serves community events
+5800 0 3907 located in beachside
+5800 2 3907 has atmosphere beachside
+5803 5 144 is a breakfast
+5803 12 144 serves breakfast
+5806 5 9 is a bar
+5806 19 9 category bar
+5817 6 2 has feature beer
+5817 12 2 serves beer
+5836 12 143 serves diner
+5836 19 143 category diner
+5843 1 12679 offers Mineral baths
+5843 21 12679 enjoys Mineral baths
+5843 1 12680 offers aromatherapy
+5843 21 12680 enjoys aromatherapy
+5868 5 296 is a hotel
+5868 19 296 category hotel
+5871 6 474 has feature beers
+5871 12 474 serves beers
+5873 12 1335 serves bourbon
+5873 19 1335 category bourbon
+5877 5 46 is a cafe
+5877 19 46 category cafe
+5882 8 22 suitable for brunch
+5882 12 22 serves brunch
+5886 12 34 serves pizza
+5886 19 34 category pizza
+5896 12 127 serves cocktails
+5896 19 127 category cocktails
+5896 12 167 serves barbecue
+5896 19 167 category barbecue
+5896 12 791 serves cider
+5896 19 791 category cider
+5906 5 2165 is a Historical site
+5906 19 2165 category Historical site
+5907 5 161 is a Brewery
+5907 19 161 category Brewery
+5920 3 5 caters to dog owners
+5920 4 5 appeals to dog owners
+5920 3 895 caters to beer enthusiasts
+5920 4 895 appeals to beer enthusiasts
+5929 12 2 serves beer
+5929 21 2 enjoys beer
+5929 12 34 serves pizza
+5929 21 34 enjoys pizza
+5929 12 348 serves sandwiches
+5929 35 348 values sandwiches
+5937 12 2333 serves dumplings
+5937 19 2333 category dumplings
+5937 12 12812 serves General Tso's
+5937 19 12812 category General Tso's
+5938 12 9 serves bar
+5938 19 9 category bar
+5944 6 80 has feature efficient service
+5944 77 80 value efficient service
+5944 6 178 has feature friendly staff
+5944 35 178 values friendly staff
+5944 6 659 has feature fast service
+5944 77 659 value fast service
+5944 6 926 has feature convenient locations
+5944 35 926 values convenient locations
+5944 6 3891 has feature professional staff
+5944 35 3891 values professional staff
+5944 6 4045 has feature comfortable waiting areas
+5944 21 4045 enjoys comfortable waiting areas
+5944 6 12825 has feature good warranties
+5944 35 12825 values good warranties
+5944 7 40 price range affordable prices
+5944 35 40 values affordable prices
+5944 12 12824 serves electronics repair
+5944 19 12824 category electronics repair
+5948 5 10 is a restaurant
+5948 19 10 category restaurant
+5951 12 601 serves bread
+5951 40 601 specializes in bread
+5953 12 3360 serves beauty products
+5953 19 3360 category beauty products
+5953 12 3894 serves skincare
+5953 19 3894 category skincare
+5958 2 166 has atmosphere sports bar
+5958 19 166 category sports bar
+5964 5 10 is a restaurant
+5964 19 10 category restaurant
+5969 5 102 is a bakery
+5969 19 102 category bakery
+5970 12 6179 serves fondue
+5970 19 6179 category fondue
+5974 1 151 offers margaritas
+5974 12 151 serves margaritas
+5974 2 39 has atmosphere casual dining
+5974 19 39 category casual dining
+5976 12 143 serves diner
+5976 19 143 category diner
+5984 9 34 serves cuisine pizza
+5984 12 34 serves pizza
+5984 9 930 serves cuisine sandwich
+5984 12 930 serves sandwich
+5986 12 12116 serves ice cream sandwiches
+5986 19 12116 category ice cream sandwiches
+5987 2 39 has atmosphere casual dining
+5987 8 39 suitable for casual dining
+5988 5 333 is a coffee shop
+5988 19 333 category coffee shop
+5989 6 213 has feature fresh ingredients
+5989 35 213 values fresh ingredients
+5989 6 12878 has feature generous service
+5989 35 12878 values generous service
+5991 8 1861 suitable for late-night dining
+5991 12 1861 serves late-night dining
+6006 12 34 serves pizza
+6006 19 34 category pizza
+6007 12 134 serves wine
+6007 68 134 serves category wine
+6018 12 78 serves deli
+6018 19 78 category deli
+6027 12 167 serves barbecue
+6027 19 167 category barbecue
+6029 12 275 serves ice cream
+6029 19 275 category ice cream
+6032 5 93 is a grocery store
+6032 19 93 category grocery store
+6032 6 1691 has feature fresh produce
+6032 12 1691 serves fresh produce
+6035 6 146 has feature friendly service
+6035 47 146 offers activity type friendly service
+6042 12 2 serves beer
+6042 19 2 category beer
+6046 12 47 serves coffee
+6046 19 47 category coffee
+6050 12 369 serves pub
+6050 19 369 category pub
+6059 1 12968 offers Pottery painting
+6059 29 12968 has activity Pottery painting
+6060 12 1487 serves smoothies
+6060 19 1487 category smoothies
+6060 12 4084 serves acai bowls
+6060 19 4084 category acai bowls
+6065 12 682 serves desserts
+6065 19 682 category desserts
+6065 12 1822 serves frozen desserts
+6065 19 1822 category frozen desserts
+6078 1 144 offers breakfast
+6078 8 144 suitable for breakfast
+6078 1 225 offers lunch
+6078 8 225 suitable for lunch
+6078 6 170 has feature large portions
+6078 12 170 serves large portions
+6079 12 134 serves wine
+6079 64 134 has category wine
+6079 12 1825 serves spirits
+6079 64 1825 has category spirits
+6082 12 397 serves sushi
+6082 35 397 values sushi
+6083 0 5371 located in beachfront
+6083 2 5371 has atmosphere beachfront
+6092 12 397 serves sushi
+6092 84 397 serves genre sushi
+6099 12 2 serves beer
+6099 19 2 category beer
+6104 12 144 serves breakfast
+6104 40 144 specializes in breakfast
+6104 12 5097 serves bacon
+6104 40 5097 specializes in bacon
+6106 5 2891 is a cinema
+6106 12 2891 serves cinema
+6112 12 34 serves pizza
+6112 19 34 category pizza
+6113 6 1433 has feature immersive experiences
+6113 12 1433 serves immersive experiences
+6131 12 34 serves pizza
+6131 64 34 has category pizza
+6137 12 47 serves coffee
+6137 64 47 has category coffee
+6151 5 102 is a bakery
+6151 64 102 has category bakery
+6158 12 522 serves tex-mex
+6158 19 522 category tex-mex
+6165 4 4901 appeals to families with children
+6165 8 4901 suitable for families with children
+6174 6 500 has feature upscale dining
+6174 8 500 suitable for upscale dining
+6183 5 296 is a hotel
+6183 19 296 category hotel
+6186 6 13132 has feature hearty fare
+6186 12 13132 serves hearty fare
+6195 12 2736 serves Farmers' Market
+6195 19 2736 category Farmers' Market
+6201 5 9 is a bar
+6201 19 9 category bar
+6203 1 245 offers champagne
+6203 12 245 serves champagne
+6203 19 10 category restaurant
+6203 76 10 general category restaurant
+6210 12 152 serves sangria
+6210 13 152 serves drink sangria
+6222 6 682 has feature desserts
+6222 12 682 serves desserts
+6223 2 1000 has atmosphere romantic
+6223 6 1000 has feature romantic
+6225 2 9 has atmosphere bar
+6225 19 9 category bar
+6228 12 144 serves breakfast
+6228 68 144 serves category breakfast
+6233 12 2 serves beer
+6233 64 2 has category beer
+6235 2 411 has atmosphere upscale
+6235 7 411 price range upscale
+6237 12 47 serves coffee
+6237 19 47 category coffee
+6243 6 9221 has feature greasy spoon
+6243 19 9221 category greasy spoon
+6247 19 620 category home decor
+6247 24 620 sells home decor
+6247 19 13241 category trinkets
+6247 24 13241 sells trinkets
+6247 19 13242 category art toys
+6247 24 13242 sells art toys
+6261 5 46 is a cafe
+6261 64 46 has category cafe
+6266 5 977 is a bistro
+6266 19 977 category bistro
+6266 5 2864 is a music venue
+6266 19 2864 category music venue
+6270 12 12515 serves pretzels
+6270 19 12515 category pretzels
+6315 2 39 has atmosphere casual dining
+6315 8 39 suitable for casual dining
+6316 4 81 appeals to individuals
+6316 8 81 suitable for individuals
+6316 4 148 appeals to groups
+6316 8 148 suitable for groups
+6316 4 316 appeals to families
+6316 8 316 suitable for families
+6321 5 166 is a sports bar
+6321 64 166 has category sports bar
+6321 6 4082 has feature TV screens
+6321 24 4082 sells TV screens
+6322 12 9938 serves merchandise
+6322 43 9938 has selection of merchandise
+6326 5 46 is a cafe
+6326 19 46 category cafe
+6330 1 3800 offers nail services
+6330 19 3800 category nail services
+6334 12 167 serves barbecue
+6334 19 167 category barbecue
+6359 5 46 is a cafe
+6359 19 46 category cafe
+6359 12 664 serves bubble tea
+6359 19 664 category bubble tea
+6359 12 13429 serves Taiwanese snack
+6359 19 13429 category Taiwanese snack
+6375 3 392 caters to Diners
+6375 4 392 appeals to Diners
+6375 3 1050 caters to Dog lovers
+6375 4 1050 appeals to Dog lovers
+6377 12 275 serves ice cream
+6377 19 275 category ice cream
+6379 2 166 has atmosphere sports bar
+6379 19 166 category sports bar
+6384 5 9 is a bar
+6384 76 9 general category bar
+6384 5 10 is a restaurant
+6384 76 10 general category restaurant
+6391 12 166 serves sports bar
+6391 19 166 category sports bar
+6398 12 34 serves pizza
+6398 19 34 category pizza
+6400 4 2621 appeals to Music lovers
+6400 8 2621 suitable for Music lovers
+6400 12 318 serves music
+6400 84 318 serves genre music
+6410 6 13500 has feature Belgian beer
+6410 19 13500 category Belgian beer
+6410 12 2 serves beer
+6410 19 2 category beer
+6417 12 397 serves sushi
+6417 64 397 has category sushi
+6421 5 296 is a hotel
+6421 19 296 category hotel
+6422 5 10 is a restaurant
+6422 19 10 category restaurant
+6428 5 3031 is a Nail salon
+6428 19 3031 category Nail salon
+6433 6 118 has feature knowledgeable staff
+6433 35 118 values knowledgeable staff
+6433 12 13368 serves Honda vehicles
+6433 92 13368 has broad range Honda vehicles
+6434 6 379 has feature excellent service
+6434 35 379 values excellent service
+6438 12 163 serves sports
+6438 19 163 category sports
+6439 6 1769 has feature delicious toppings
+6439 12 1769 serves delicious toppings
+6439 12 34 serves pizza
+6439 19 34 category pizza
+6443 12 930 serves sandwich
+6443 19 930 category sandwich
+6448 12 192 serves burgers
+6448 56 192 food options category burgers
+6452 12 397 serves sushi
+6452 43 397 has selection of sushi
+6455 12 397 serves sushi
+6455 19 397 category sushi
+6467 0 13584 located in up-and-coming area
+6467 2 13584 has atmosphere up-and-coming area
+6474 5 732 is a lodge
+6474 19 732 category lodge
+6476 19 2318 category clothing
+6476 24 2318 sells clothing
+6476 19 5387 category furniture
+6476 24 5387 sells furniture
+6480 4 6449 appeals to Arts enthusiasts
+6480 8 6449 suitable for Arts enthusiasts
+6506 24 1825 sells spirits
+6506 35 1825 values spirits
+6506 24 7250 sells vinegars
+6506 35 7250 values vinegars
+6509 6 80 has feature efficient service
+6509 79 80 reputation efficient service
+6509 12 144 serves breakfast
+6509 19 144 category breakfast
+6512 12 299 serves cheese
+6512 19 299 category cheese
+6516 2 39 has atmosphere casual dining
+6516 8 39 suitable for casual dining
+6518 6 135 has feature live music
+6518 8 135 suitable for live music
+6528 12 34 serves pizza
+6528 19 34 category pizza
+6529 5 333 is a coffee shop
+6529 19 333 category coffee shop
+6530 5 9 is a bar
+6530 19 9 category bar
+6562 12 34 serves pizza
+6562 19 34 category pizza
+6562 12 270 serves gluten-free
+6562 19 270 category gluten-free
+6562 12 271 serves vegan
+6562 19 271 category vegan
+6572 12 2 serves beer
+6572 19 2 category beer
+6588 1 9856 offers massage therapy
+6588 19 9856 category massage therapy
+6589 5 10 is a restaurant
+6589 19 10 category restaurant
+6592 0 274 located in market
+6592 5 274 is a market
+6594 12 22 serves brunch
+6594 21 22 enjoys brunch
+6594 12 47 serves coffee
+6594 21 47 enjoys coffee
+6594 12 144 serves breakfast
+6594 21 144 enjoys breakfast
+6606 12 3360 serves beauty products
+6606 20 3360 interests beauty products
+6609 12 127 serves cocktails
+6609 68 127 serves category cocktails
+6612 1 2 offers beer
+6612 19 2 category beer
+6613 5 46 is a cafe
+6613 19 46 category cafe
+6617 1 216 offers vegan options
+6617 19 216 category vegan options
+6618 12 47 serves coffee
+6618 63 47 features coffee
+6619 6 2952 has feature french fries
+6619 12 2952 serves french fries
+6631 12 1348 serves rolls
+6631 43 1348 has selection of rolls
+6631 12 13514 serves nigiri
+6631 43 13514 has selection of nigiri
+6637 12 34 serves pizza
+6637 19 34 category pizza
+6637 12 495 serves wings
+6637 19 495 category wings
+6637 12 930 serves sandwich
+6637 19 930 category sandwich
+6641 12 3328 serves auto repair
+6641 19 3328 category auto repair
+6642 12 127 serves cocktails
+6642 19 127 category cocktails
+6648 12 106 serves chicken
+6648 19 106 category chicken
+6651 12 9 serves bar
+6651 19 9 category bar
+6655 1 4194 offers massage
+6655 12 4194 serves massage
+6655 1 13271 offers facial
+6655 12 13271 serves facial
+6656 12 1487 serves smoothies
+6656 19 1487 category smoothies
+6657 5 46 is a cafe
+6657 19 46 category cafe
+6657 5 102 is a bakery
+6657 19 102 category bakery
+6658 1 348 offers sandwiches
+6658 19 348 category sandwiches
+6658 12 2909 serves pierogies
+6658 19 2909 category pierogies
+6673 19 620 category home decor
+6673 24 620 sells home decor
+6678 12 745 serves salsa
+6678 19 745 category salsa
+6680 1 623 offers jewelry
+6680 12 623 serves jewelry
+6680 1 7123 offers souvenirs
+6680 12 7123 serves souvenirs
+6680 1 8477 offers artwork
+6680 12 8477 serves artwork
+6683 19 12 category baseball
+6683 67 12 has attraction baseball
+6684 6 712 has feature takeout
+6684 8 712 suitable for takeout
+6684 12 738 serves ribs
+6684 21 738 enjoys ribs
+6684 12 3057 serves brisket
+6684 35 3057 values brisket
+6685 12 459 serves frozen yogurt
+6685 19 459 category frozen yogurt
+6695 5 13897 is a Observation Deck
+6695 19 13897 category Observation Deck
+6718 5 10 is a restaurant
+6718 19 10 category restaurant
+6723 12 522 serves tex-mex
+6723 21 522 enjoys tex-mex
+6727 5 102 is a bakery
+6727 19 102 category bakery
+6733 12 298 serves wine bar
+6733 19 298 category wine bar
+6748 12 466 serves steak
+6748 19 466 category steak
+6751 12 22 serves brunch
+6751 68 22 serves category brunch
+6751 12 144 serves breakfast
+6751 68 144 serves category breakfast
+6758 12 417 serves donuts
+6758 19 417 category donuts
+6764 1 621 offers gifts
+6764 8 621 suitable for gifts
+6771 12 275 serves ice cream
+6771 19 275 category ice cream
+6771 12 682 serves desserts
+6771 19 682 category desserts
+6773 5 625 is a bookstore
+6773 76 625 general category bookstore
+6779 12 47 serves coffee
+6779 19 47 category coffee
+6784 6 554 has feature full bar
+6784 61 554 has service option full bar
+6784 12 9505 serves homemade pasta
+6784 21 9505 enjoys homemade pasta
+6787 5 78 is a deli
+6787 64 78 has category deli
+6792 1 184 offers gluten-free options
+6792 21 184 enjoys gluten-free options
+6793 1 1055 offers hiking
+6793 29 1055 has activity hiking
+6793 1 8389 offers kayaking
+6793 29 8389 has activity kayaking
+6796 6 14058 has feature game viewings
+6796 12 14058 serves game viewings
+6817 12 348 serves sandwiches
+6817 19 348 category sandwiches
+6832 12 239 serves tacos
+6832 19 239 category tacos
+6836 12 144 serves breakfast
+6836 19 144 category breakfast
+6838 6 164 has feature friendly
+6838 34 164 has staff friendly
+6847 12 397 serves sushi
+6847 19 397 category sushi
+6848 4 361 appeals to pet owners
+6848 12 361 serves pet owners
+6848 4 1625 appeals to hikers
+6848 12 1625 serves hikers
+6848 4 6931 appeals to Photographers
+6848 12 6931 serves Photographers
+6850 4 148 appeals to groups
+6850 8 148 suitable for groups
+6850 4 316 appeals to families
+6850 8 316 suitable for families
+6850 4 10628 appeals to Adventure seekers
+6850 8 10628 suitable for Adventure seekers
+6850 4 14133 appeals to Thrill enthusiasts
+6850 8 14133 suitable for Thrill enthusiasts
+6850 6 14130 has feature indoor skydiving
+6850 12 14130 serves indoor skydiving
+6850 6 14132 has feature Skydiving
+6850 19 14132 category Skydiving
+6852 6 13587 has feature carefully crafted drinks
+6852 35 13587 values carefully crafted drinks
+6856 12 682 serves desserts
+6856 68 682 serves category desserts
+6858 5 369 is a pub
+6858 19 369 category pub
+6863 5 9 is a bar
+6863 19 9 category bar
+6870 12 34 serves pizza
+6870 68 34 serves category pizza
+6874 19 9521 category Asian ingredients
+6874 24 9521 sells Asian ingredients
+6882 12 47 serves coffee
+6882 76 47 general category coffee
+6889 6 112 has feature affordable
+6889 7 112 price range affordable
+6889 12 239 serves tacos
+6889 19 239 category tacos
+6890 6 14204 has feature animal-themed experiences
+6890 12 14204 serves animal-themed experiences
+6901 5 9 is a bar
+6901 19 9 category bar
+6903 1 417 offers donuts
+6903 12 417 serves donuts
+6904 4 223 appeals to convenient location
+6904 6 223 has feature convenient location
+6904 4 4254 appeals to classy ambiance
+6904 6 4254 has feature classy ambiance
+6907 8 5634 suitable for Car owners
+6907 107 5634 targets Car owners
+6908 12 3167 serves milkshake
+6908 19 3167 category milkshake
+6909 19 14260 category roastery
+6909 101 14260 open to roastery
+6910 12 78 serves deli
+6910 19 78 category deli
+6915 12 348 serves sandwiches
+6915 65 348 has focus on sandwiches
+6915 12 1939 serves quick bites
+6915 68 1939 serves category quick bites
+6920 19 351 category beverages
+6920 24 351 sells beverages
+6920 19 620 category home decor
+6920 24 620 sells home decor
+6920 19 5387 category furniture
+6920 24 5387 sells furniture
+6922 8 144 suitable for breakfast
+6922 12 144 serves breakfast
+6922 8 435 suitable for dinner
+6922 12 435 serves dinner
+6926 12 1487 serves smoothies
+6926 19 1487 category smoothies
+6929 24 1468 sells grocery items
+6929 64 1468 has category grocery items
+6933 5 1440 is a Amusement park
+6933 19 1440 category Amusement park
+6940 12 2261 serves dim sum
+6940 19 2261 category dim sum
+6948 12 8257 serves salt and pepper chicken wings
+6948 79 8257 reputation salt and pepper chicken wings
+6948 12 14326 serves wonton noodle soup
+6948 79 14326 reputation wonton noodle soup
+6948 12 14327 serves roast duck
+6948 79 14327 reputation roast duck
+6950 2 830 has atmosphere gastropub
+6950 19 830 category gastropub
+6956 12 8151 serves tomato pies
+6956 40 8151 specializes in tomato pies
+6970 12 144 serves breakfast
+6970 68 144 serves category breakfast
+6971 12 397 serves sushi
+6971 19 397 category sushi
+6972 12 466 serves steak
+6972 21 466 enjoys steak
+6974 2 479 has atmosphere relaxing
+6974 8 479 suitable for relaxing
+6977 12 494 serves gelato
+6977 19 494 category gelato
+6981 5 3031 is a Nail salon
+6981 19 3031 category Nail salon
+6986 12 2 serves beer
+6986 68 2 serves category beer
+6986 12 127 serves cocktails
+6986 68 127 serves category cocktails
+6986 12 182 serves whiskey
+6986 68 182 serves category whiskey
+6986 12 239 serves tacos
+6986 68 239 serves category tacos
+6990 12 2 serves beer
+6990 19 2 category beer
+7009 12 664 serves bubble tea
+7009 19 664 category bubble tea
+7025 12 682 serves desserts
+7025 19 682 category desserts
+7026 12 397 serves sushi
+7026 19 397 category sushi
+7031 12 397 serves sushi
+7031 19 397 category sushi
+7049 12 3297 serves chocolate
+7049 19 3297 category chocolate
+7056 12 1260 serves sauces
+7056 19 1260 category sauces
+7057 1 2370 offers Jenga
+7057 29 2370 has activity Jenga
+7057 1 3942 offers bowling
+7057 29 3942 has activity bowling
+7057 1 14450 offers bocce
+7057 29 14450 has activity bocce
+7064 5 6922 is a virtual reality
+7064 12 6922 serves virtual reality
+7064 5 14458 is a Interactive art
+7064 12 14458 serves Interactive art
+7065 12 167 serves barbecue
+7065 19 167 category barbecue
+7067 5 3101 is a speakeasy
+7067 6 3101 has feature speakeasy
+7067 12 22 serves brunch
+7067 64 22 has category brunch
+7067 12 182 serves whiskey
+7067 64 182 has category whiskey
+7068 12 664 serves bubble tea
+7068 19 664 category bubble tea
+7080 5 134 is a wine
+7080 12 134 serves wine
+7081 5 9 is a bar
+7081 19 9 category bar
+7083 5 46 is a cafe
+7083 19 46 category cafe
+7083 10 1677 serves dish french toast
+7083 12 1677 serves french toast
+7083 10 4510 serves dish omelettes
+7083 12 4510 serves omelettes
+7083 10 14498 serves dish Croque Madame
+7083 12 14498 serves Croque Madame
+7084 12 664 serves bubble tea
+7084 19 664 category bubble tea
+7084 12 901 serves tea
+7084 19 901 category tea
+7085 12 397 serves sushi
+7085 40 397 specializes in sushi
+7092 6 178 has feature friendly staff
+7092 35 178 values friendly staff
+7092 6 2350 has feature cleanliness
+7092 35 2350 values cleanliness
+7092 6 4049 has feature art displays
+7092 35 4049 values art displays
+7092 6 14512 has feature open spaces
+7092 35 14512 values open spaces
+7092 6 14514 has feature Wi-Fi
+7092 35 14514 values Wi-Fi
+7101 12 2 serves beer
+7101 64 2 has category beer
+7103 1 5094 offers eyebrow threading
+7103 19 5094 category eyebrow threading
+7103 59 5094 has service eyebrow threading
+7105 12 363 serves small plates
+7105 19 363 category small plates
+7105 12 1331 serves wines
+7105 19 1331 category wines
+7112 12 275 serves ice cream
+7112 19 275 category ice cream
+7113 9 143 serves cuisine diner
+7113 12 143 serves diner
+7113 9 144 serves cuisine breakfast
+7113 12 144 serves breakfast
+7116 12 14548 serves American Revolution
+7116 20 14548 interests American Revolution
+7117 11 4359 presents theater
+7117 19 4359 category theater
+7126 12 4865 serves crab rangoon
+7126 19 4865 category crab rangoon
+7135 12 275 serves ice cream
+7135 19 275 category ice cream
+7135 12 664 serves bubble tea
+7135 19 664 category bubble tea
+7135 12 14585 serves sundae
+7135 19 14585 category sundae
+7141 12 34 serves pizza
+7141 19 34 category pizza
+7145 1 6374 offers event planning
+7145 19 6374 category event planning
+7149 12 830 serves gastropub
+7149 64 830 has category gastropub
+7160 5 10 is a restaurant
+7160 19 10 category restaurant
+7165 12 397 serves sushi
+7165 19 397 category sushi
+7171 6 153 has feature diverse menu
+7171 12 153 serves diverse menu
+7173 12 2 serves beer
+7173 68 2 serves category beer
+7185 12 930 serves sandwich
+7185 40 930 specializes in sandwich
+7185 12 3167 serves milkshake
+7185 40 3167 specializes in milkshake
+7186 5 369 is a pub
+7186 19 369 category pub
+7191 6 59 has feature reasonably priced
+7191 7 59 price range reasonably priced
+7195 8 144 suitable for breakfast
+7195 12 144 serves breakfast
+7213 17 2797 uses locally-sourced ingredients
+7213 20 2797 interests locally-sourced ingredients
+7217 12 34 serves pizza
+7217 40 34 specializes in pizza
+7223 5 10 is a restaurant
+7223 19 10 category restaurant
+7223 5 298 is a wine bar
+7223 19 298 category wine bar
+7224 6 882 has feature good customer service
+7224 35 882 values good customer service
+7224 6 14715 has feature table service
+7224 35 14715 values table service
+7224 6 14716 has feature service dog
+7224 75 14716 is dog-friendly service dog
+7224 12 95 serves pastries
+7224 21 95 enjoys pastries
+7235 12 830 serves gastropub
+7235 64 830 has category gastropub
+7241 6 718 has feature nightlife
+7241 8 718 suitable for nightlife
+7241 9 364 serves cuisine noodles
+7241 12 364 serves noodles
+7254 5 10 is a restaurant
+7254 19 10 category restaurant
+7260 12 34 serves pizza
+7260 64 34 has category pizza
+7263 12 2 serves beer
+7263 19 2 category beer
+7266 9 371 serves cuisine tapas
+7266 19 371 category tapas
+7266 9 428 serves cuisine American
+7266 19 428 category American
+7278 12 397 serves sushi
+7278 21 397 enjoys sushi
+7281 12 46 serves cafe
+7281 64 46 has category cafe
+7295 12 348 serves sandwiches
+7295 43 348 has selection of sandwiches
+7295 12 602 serves salads
+7295 56 602 food options category salads
+7296 12 397 serves sushi
+7296 19 397 category sushi
+7296 12 975 serves sushi rolls
+7296 43 975 has selection of sushi rolls
+7296 63 975 features sushi rolls
+7304 5 10 is a restaurant
+7304 19 10 category restaurant
+7317 12 397 serves sushi
+7317 40 397 specializes in sushi
+7321 6 211 has feature crepes
+7321 12 211 serves crepes
+7340 6 436 has feature happy hour
+7340 8 436 suitable for happy hour
+7343 2 14878 has atmosphere small seating areas
+7343 6 14878 has feature small seating areas
+7347 6 4448 has feature shareable plates
+7347 12 4448 serves shareable plates
+7357 5 46 is a cafe
+7357 19 46 category cafe
+7357 64 46 has category cafe
+7364 6 1034 has feature service
+7364 19 1034 category service
+7364 12 2 serves beer
+7364 19 2 category beer
+7364 12 9 serves bar
+7364 19 9 category bar
+7370 12 682 serves desserts
+7370 68 682 serves category desserts
+7371 6 274 has feature market
+7371 19 274 category market
+7376 12 34 serves pizza
+7376 68 34 serves category pizza
+7386 12 34 serves pizza
+7386 19 34 category pizza
+7388 12 351 serves beverages
+7388 64 351 has category beverages
+7391 5 46 is a cafe
+7391 19 46 category cafe
+7413 1 563 offers Spa services
+7413 19 563 category Spa services
+7413 1 2960 offers beauty services
+7413 19 2960 category beauty services
+7414 12 397 serves sushi
+7414 19 397 category sushi
+7422 0 509 located in neighborhood
+7422 2 509 has atmosphere neighborhood
+7424 5 295 is a casino
+7424 19 295 category casino
+7428 4 4 appeals to vegetarians
+7428 8 4 suitable for vegetarians
+7433 12 271 serves vegan
+7433 19 271 category vegan
+7433 12 282 serves vegetarian
+7433 19 282 category vegetarian
+7438 12 15010 serves Po' Boy
+7438 19 15010 category Po' Boy
+7444 5 10 is a restaurant
+7444 19 10 category restaurant
+7449 12 95 serves pastries
+7449 19 95 category pastries
+7466 5 8 is a Brewpub
+7466 19 8 category Brewpub
+7479 12 591 serves catering
+7479 19 591 category catering
+7482 12 3677 serves hot dogs
+7482 19 3677 category hot dogs
+7483 5 78 is a deli
+7483 19 78 category deli
+7489 5 1826 is a distillery
+7489 19 1826 category distillery
+7493 19 318 category music
+7493 24 318 sells music
+7493 19 5881 category records
+7493 24 5881 sells records
+7493 19 6039 category music genres
+7493 24 6039 sells music genres
+7493 19 6882 category vinyl
+7493 24 6882 sells vinyl
+7501 12 26 serves oysters
+7501 19 26 category oysters
+7501 12 134 serves wine
+7501 19 134 category wine
+7509 12 46 serves cafe
+7509 19 46 category cafe
+7509 12 2166 serves Vietnamese
+7509 19 2166 category Vietnamese
+7510 1 239 offers tacos
+7510 12 239 serves tacos
+7510 6 15113 has feature batting cages
+7510 20 15113 interests batting cages
+7511 6 348 has feature sandwiches
+7511 12 348 serves sandwiches
+7515 5 46 is a cafe
+7515 19 46 category cafe
+7540 5 10 is a restaurant
+7540 19 10 category restaurant
+7541 3 19 caters to Sports fans
+7541 4 19 appeals to Sports fans
+7541 3 316 caters to families
+7541 4 316 appeals to families
+7546 6 6337 has feature convenience store
+7546 19 6337 category convenience store
+7547 12 34 serves pizza
+7547 64 34 has category pizza
+7556 12 4478 serves stir fry
+7556 19 4478 category stir fry
+7564 12 78 serves deli
+7564 19 78 category deli
+7567 12 22 serves brunch
+7567 19 22 category brunch
+7578 12 901 serves tea
+7578 19 901 category tea
+7578 12 9682 serves boba
+7578 19 9682 category boba
+7583 1 12965 offers trivia night
+7583 47 12965 offers activity type trivia night
+7583 12 4635 serves specialty drinks
+7583 19 4635 category specialty drinks
+7591 12 739 serves meat
+7591 68 739 serves category meat
+7592 12 348 serves sandwiches
+7592 64 348 has category sandwiches
+7592 12 602 serves salads
+7592 64 602 has category salads
+7600 6 379 has feature excellent service
+7600 35 379 values excellent service
+7600 6 1814 has feature happy hours
+7600 21 1814 enjoys happy hours
+7600 12 737 serves steaks
+7600 35 737 values steaks
+7611 12 47 serves coffee
+7611 19 47 category coffee
+7623 12 2 serves beer
+7623 64 2 has category beer
+7640 4 271 appeals to vegan
+7640 12 271 serves vegan
+7640 4 282 appeals to vegetarian
+7640 12 282 serves vegetarian
+7643 19 621 category gifts
+7643 24 621 sells gifts
+7643 19 6705 category appliances
+7643 24 6705 sells appliances
+7644 19 15312 category religious items
+7644 24 15312 sells religious items
+7647 12 397 serves sushi
+7647 19 397 category sushi
+7656 5 2135 is a Tour
+7656 19 2135 category Tour
+7659 19 15330 category vampire-themed items
+7659 24 15330 sells vampire-themed items
+7659 19 15332 category goods
+7659 24 15332 sells goods
+7660 5 333 is a coffee shop
+7660 76 333 general category coffee shop
+7663 5 2783 is a Pet store
+7663 19 2783 category Pet store
+7664 8 270 suitable for gluten-free
+7664 12 270 serves gluten-free
+7664 8 271 suitable for vegan
+7664 12 271 serves vegan
+7664 8 282 suitable for vegetarian
+7664 12 282 serves vegetarian
+7666 6 167 has feature barbecue
+7666 12 167 serves barbecue
+7670 12 1964 serves eggs benedict
+7670 19 1964 category eggs benedict
+7693 12 78 serves deli
+7693 19 78 category deli
+7704 12 143 serves diner
+7704 19 143 category diner
+7711 12 1763 serves confectionery
+7711 19 1763 category confectionery
+7716 12 2 serves beer
+7716 19 2 category beer
+7718 9 466 serves cuisine steak
+7718 12 466 serves steak
+7720 12 55 serves comedy
+7720 64 55 has category comedy
+7723 1 3360 offers beauty products
+7723 19 3360 category beauty products
+7724 12 134 serves wine
+7724 19 134 category wine
+7741 2 39 has atmosphere casual dining
+7741 8 39 suitable for casual dining
+7748 5 296 is a hotel
+7748 19 296 category hotel
+7748 6 1941 has feature pool
+7748 61 1941 has service option pool
+7748 6 2003 has feature gym
+7748 59 2003 has service gym
+7756 1 15467 offers home products
+7756 35 15467 values home products
+7765 12 682 serves desserts
+7765 64 682 has category desserts
+7765 12 1486 serves snacks
+7765 64 1486 has category snacks
+7770 5 10 is a restaurant
+7770 19 10 category restaurant
+7775 12 167 serves barbecue
+7775 19 167 category barbecue
+7776 12 1470 serves local products
+7776 19 1470 category local products
+7782 4 316 appeals to families
+7782 8 316 suitable for families
+7782 12 2261 serves dim sum
+7782 19 2261 category dim sum
+7784 19 275 category ice cream
+7784 24 275 sells ice cream
+7785 12 34 serves pizza
+7785 19 34 category pizza
+7786 12 13903 serves escape games
+7786 20 13903 interests escape games
+7792 6 462 has feature toppings
+7792 12 462 serves toppings
+7792 12 275 serves ice cream
+7792 19 275 category ice cream
+7793 12 682 serves desserts
+7793 20 682 interests desserts
+7793 12 740 serves baked goods
+7793 20 740 interests baked goods
+7799 5 333 is a coffee shop
+7799 19 333 category coffee shop
+7808 12 397 serves sushi
+7808 19 397 category sushi
+7809 1 3542 offers haircuts
+7809 12 3542 serves haircuts
+7809 1 15543 offers color services
+7809 12 15543 serves color services
+7811 5 3838 is a Animal shelter
+7811 76 3838 general category Animal shelter
+7821 6 2318 has feature clothing
+7821 12 2318 serves clothing
+7821 40 2318 specializes in clothing
+7823 12 47 serves coffee
+7823 19 47 category coffee
+7832 5 830 is a gastropub
+7832 64 830 has category gastropub
+7839 5 46 is a cafe
+7839 19 46 category cafe
+7840 12 901 serves tea
+7840 19 901 category tea
+7848 12 95 serves pastries
+7848 92 95 has broad range pastries
+7853 5 94 is a Supermarket
+7853 19 94 category Supermarket
+7855 6 15605 has feature Delicious menus
+7855 12 15605 serves Delicious menus
+7863 19 2 category beer
+7863 20 2 interests beer
+7863 19 181 category burger
+7863 20 181 interests burger
+7869 12 466 serves steak
+7869 19 466 category steak
+7881 2 35 has atmosphere ambiance
+7881 91 35 prioritizes ambiance
+7882 12 47 serves coffee
+7882 19 47 category coffee
+7885 5 5025 is a escape room
+7885 12 5025 serves escape room
+7893 12 9 serves bar
+7893 19 9 category bar
+7894 12 1487 serves smoothies
+7894 92 1487 has broad range smoothies
+7894 24 263 sells bakery items
+7894 92 263 has broad range bakery items
+7898 2 39 has atmosphere casual dining
+7898 8 39 suitable for casual dining
+7898 6 1032 has feature grocery shopping
+7898 8 1032 suitable for grocery shopping
+7900 12 216 serves vegan options
+7900 19 216 category vegan options
+7900 12 680 serves vegetarian options
+7900 19 680 category vegetarian options
+7901 6 3989 has feature flavor
+7901 91 3989 prioritizes flavor
+7905 12 134 serves wine
+7905 19 134 category wine
+7910 12 34 serves pizza
+7910 19 34 category pizza
+7910 19 1653 category appetizers
+7910 81 1653 has food options appetizers
+7918 6 15688 has feature community outreach
+7918 35 15688 values community outreach
+7919 12 47 serves coffee
+7919 19 47 category coffee
+7919 12 275 serves ice cream
+7919 19 275 category ice cream
+7922 12 3945 serves fish and chips
+7922 19 3945 category fish and chips
+7924 12 2 serves beer
+7924 19 2 category beer
+7924 12 34 serves pizza
+7924 19 34 category pizza
+7929 12 2261 serves dim sum
+7929 19 2261 category dim sum
+7943 5 920 is a Café
+7943 19 920 category Café
+7945 1 3132 offers shared plates
+7945 6 3132 has feature shared plates
+7951 12 1074 serves arcade games
+7951 19 1074 category arcade games
+7953 19 15745 category sports equipment
+7953 24 15745 sells sports equipment
+7958 12 2261 serves dim sum
+7958 19 2261 category dim sum
+7966 2 166 has atmosphere sports bar
+7966 19 166 category sports bar
+7966 8 39 suitable for casual dining
+7966 12 39 serves casual dining
+7977 12 737 serves steaks
+7977 35 737 values steaks
+7982 5 8857 is a tea room
+7982 19 8857 category tea room
+7987 12 34 serves pizza
+7987 19 34 category pizza
+7992 12 15797 serves fruit-based desserts
+7992 19 15797 category fruit-based desserts
+8004 12 34 serves pizza
+8004 19 34 category pizza
+8004 12 127 serves cocktails
+8004 19 127 category cocktails
+8018 12 134 serves wine
+8018 19 134 category wine
+8019 12 741 serves steakhouse
+8019 19 741 category steakhouse
+8023 0 21 located in New Orleans
+8023 2 21 has atmosphere New Orleans
+8026 6 15839 has feature AUCE nights
+8026 53 15839 helps avoid AUCE nights
+8031 12 211 serves crepes
+8031 40 211 specializes in crepes
+8031 12 15837 serves fruit salads
+8031 40 15837 specializes in fruit salads
+8047 12 34 serves pizza
+8047 19 34 category pizza
+8051 12 260 serves buffet
+8051 64 260 has category buffet
+8053 12 47 serves coffee
+8053 49 47 focus on coffee
+8053 12 348 serves sandwiches
+8053 49 348 focus on sandwiches
+8053 12 460 serves yogurt
+8053 49 460 focus on yogurt
+8053 12 682 serves desserts
+8053 49 682 focus on desserts
+8056 1 11856 offers eyewear
+8056 12 11856 serves eyewear
+8070 12 3143 serves event venue
+8070 19 3143 category event venue
+8070 12 15886 serves Study space
+8070 19 15886 category Study space
+8072 8 429 suitable for dessert
+8072 19 429 category dessert
+8078 19 7092 category cooking classes
+8078 20 7092 interests cooking classes
+8103 19 2392 category accessories
+8103 24 2392 sells accessories
+8107 12 34 serves pizza
+8107 19 34 category pizza
+8123 4 4 appeals to vegetarians
+8123 22 4 cater to vegetarians
+8123 4 1181 appeals to vegans
+8123 22 1181 cater to vegans
+8123 4 2476 appeals to adventurous eaters
+8123 22 2476 cater to adventurous eaters
+8134 12 167 serves barbecue
+8134 19 167 category barbecue
+8136 4 1616 appeals to health-conscious individuals
+8136 107 1616 targets health-conscious individuals
+8136 12 1037 serves salad
+8136 19 1037 category salad
+8139 19 623 category jewelry
+8139 24 623 sells jewelry
+8153 12 1356 serves frozen treats
+8153 19 1356 category frozen treats
+8153 12 1867 serves ice
+8153 19 1867 category ice
+8160 6 178 has feature friendly staff
+8160 35 178 values friendly staff
+8163 6 2868 has feature parking challenges
+8163 15 2868 has issue parking challenges
+8180 12 144 serves breakfast
+8180 64 144 has category breakfast
+8187 1 134 offers wine
+8187 12 134 serves wine
+8205 4 7061 appeals to Fans of live entertainment
+8205 8 7061 suitable for Fans of live entertainment
+8205 4 16084 appeals to Fans of drag shows
+8205 8 16084 suitable for Fans of drag shows
+8224 6 16113 has feature Warmer store environment
+8224 15 16113 has issue Warmer store environment
+8224 6 16114 has feature Longer-lasting produce
+8224 15 16114 has issue Longer-lasting produce
+8251 19 4227 category home goods
+8251 24 4227 sells home goods
+8277 6 16186 has feature local experiences
+8277 8 16186 suitable for local experiences
+8292 5 560 is a spa
+8292 19 560 category spa
+8299 12 8080 serves condiments
+8299 19 8080 category condiments
+8302 12 318 serves music
+8302 19 318 category music
+8313 5 161 is a Brewery
+8313 64 161 has category Brewery
+8318 12 901 serves tea
+8318 19 901 category tea
+8321 3 1050 caters to Dog lovers
+8321 4 1050 appeals to Dog lovers
+8324 12 348 serves sandwiches
+8324 19 348 category sandwiches
+8347 12 47 serves coffee
+8347 19 47 category coffee
+8348 8 144 suitable for breakfast
+8348 12 144 serves breakfast
+8352 5 161 is a Brewery
+8352 19 161 category Brewery
+8357 58 1004 has policy high
+8357 59 1004 has service high
+8357 114 1004 has quality standard high
+8362 12 740 serves baked goods
+8362 19 740 category baked goods
+8367 12 664 serves bubble tea
+8367 68 664 serves category bubble tea
+8367 12 2708 serves poke bowls
+8367 68 2708 serves category poke bowls
+8369 12 167 serves barbecue
+8369 19 167 category barbecue
+8372 12 397 serves sushi
+8372 19 397 category sushi
+8384 5 9 is a bar
+8384 64 9 has category bar
+8385 1 46 offers cafe
+8385 19 46 category cafe
+8385 1 3070 offers butcher shop
+8385 19 3070 category butcher shop
+8389 4 19 appeals to Sports fans
+8389 8 19 suitable for Sports fans
+8389 4 5613 appeals to group gatherings
+8389 8 5613 suitable for group gatherings
+8393 12 1591 serves breakfast & brunch
+8393 68 1591 serves category breakfast & brunch
+8415 5 46 is a cafe
+8415 19 46 category cafe
+8415 5 625 is a bookstore
+8415 19 625 category bookstore
+8417 12 718 serves nightlife
+8417 19 718 category nightlife
+8421 1 34 offers pizza
+8421 12 34 serves pizza
+8438 12 239 serves tacos
+8438 19 239 category tacos
+8444 12 144 serves breakfast
+8444 19 144 category breakfast
+8445 12 740 serves baked goods
+8445 19 740 category baked goods
+8446 5 10 is a restaurant
+8446 19 10 category restaurant
+8452 12 2 serves beer
+8452 19 2 category beer
+8456 12 144 serves breakfast
+8456 84 144 serves genre breakfast
+8458 5 10 is a restaurant
+8458 19 10 category restaurant
+8459 12 3760 serves matcha
+8459 64 3760 has category matcha
+8471 4 1063 appeals to nature lovers
+8471 12 1063 serves nature lovers
+8473 12 47 serves coffee
+8473 92 47 has broad range coffee
+8473 12 901 serves tea
+8473 92 901 has broad range tea
+8487 6 363 has feature small plates
+8487 12 363 serves small plates
+8497 12 742 serves duck
+8497 19 742 category duck
+8503 12 275 serves ice cream
+8503 19 275 category ice cream
+8503 12 682 serves desserts
+8503 19 682 category desserts
+8503 12 8691 serves fudge
+8503 19 8691 category fudge
+8506 12 397 serves sushi
+8506 19 397 category sushi
+8510 2 29 has atmosphere cozy
+8510 6 29 has feature cozy
+8510 5 46 is a cafe
+8510 19 46 category cafe
+8512 3 4 caters to vegetarians
+8512 4 4 appeals to vegetarians
+8512 3 305 caters to Meat lovers
+8512 4 305 appeals to Meat lovers
+8531 12 47 serves coffee
+8531 19 47 category coffee
+8537 12 134 serves wine
+8537 19 134 category wine
+8539 12 682 serves desserts
+8539 19 682 category desserts
+8573 5 9 is a bar
+8573 19 9 category bar
+8579 4 13952 appeals to History lovers
+8579 12 13952 serves History lovers
+8579 4 16599 appeals to WWII enthusiasts
+8579 12 16599 serves WWII enthusiasts
+8594 12 34 serves pizza
+8594 84 34 serves genre pizza
+8596 19 2392 category accessories
+8596 24 2392 sells accessories
+8596 19 3432 category vintage items
+8596 24 3432 sells vintage items
+8601 12 34 serves pizza
+8601 19 34 category pizza
+8610 6 348 has feature sandwiches
+8610 12 348 serves sandwiches
+8611 2 39 has atmosphere casual dining
+8611 8 39 suitable for casual dining
+8619 1 10568 offers dry cleaning
+8619 19 10568 category dry cleaning
+8619 1 16659 offers tailoring
+8619 19 16659 category tailoring
+8619 19 204 category customer service
+8619 50 204 provides customer service
+8621 11 11218 presents performing arts
+8621 19 11218 category performing arts
+8644 12 901 serves tea
+8644 20 901 interests tea
+8653 12 307 serves fine dining
+8653 19 307 category fine dining
+8658 6 495 has feature wings
+8658 12 495 serves wings
+8663 12 1260 serves sauces
+8663 19 1260 category sauces
+8668 19 3716 category firearms
+8668 24 3716 sells firearms
+8668 19 10876 category outdoor gear
+8668 24 10876 sells outdoor gear
+8668 19 16727 category hunting supplies
+8668 24 16727 sells hunting supplies
+8672 12 930 serves sandwich
+8672 64 930 has category sandwich
+8684 1 2791 offers repair services
+8684 6 2791 has feature repair services
+8684 6 16756 has feature components
+8684 24 16756 sells components
+8685 5 9 is a bar
+8685 19 9 category bar
+8692 1 15887 offers workspace
+8692 19 15887 category workspace
+8699 12 275 serves ice cream
+8699 19 275 category ice cream
+8713 12 397 serves sushi
+8713 19 397 category sushi
+8717 12 47 serves coffee
+8717 64 47 has category coffee
+8724 12 11856 serves eyewear
+8724 19 11856 category eyewear
+8727 12 134 serves wine
+8727 64 134 has category wine
+8741 12 459 serves frozen yogurt
+8741 19 459 category frozen yogurt
+8744 9 397 serves cuisine sushi
+8744 12 397 serves sushi
+8745 12 375 serves bbq
+8745 19 375 category bbq
+8747 12 34 serves pizza
+8747 19 34 category pizza
+8751 12 34 serves pizza
+8751 19 34 category pizza
+8758 5 4490 is a dog park
+8758 76 4490 general category dog park
+8761 2 50 has atmosphere outdoor seating
+8761 6 50 has feature outdoor seating
+8774 12 22 serves brunch
+8774 19 22 category brunch
+8775 5 5893 is a airport
+8775 12 5893 serves airport
+8776 12 34 serves pizza
+8776 19 34 category pizza
+8778 8 22 suitable for brunch
+8778 12 22 serves brunch
+8778 8 144 suitable for breakfast
+8778 12 144 serves breakfast
+8787 12 134 serves wine
+8787 68 134 serves category wine
+8794 4 5180 appeals to Crowded seating
+8794 6 5180 has feature Crowded seating
+8799 12 135 serves live music
+8799 84 135 serves genre live music
+8809 12 397 serves sushi
+8809 19 397 category sushi
+8810 19 2318 category clothing
+8810 24 2318 sells clothing
+8810 19 2392 category accessories
+8810 24 2392 sells accessories
+8810 19 9938 category merchandise
+8810 24 9938 sells merchandise
+8814 5 10 is a restaurant
+8814 19 10 category restaurant
+8819 12 275 serves ice cream
+8819 19 275 category ice cream
+8847 1 166 offers sports bar
+8847 6 166 has feature sports bar
+8849 12 95 serves pastries
+8849 107 95 targets pastries
+8856 12 22 serves brunch
+8856 19 22 category brunch
+8864 6 341 has feature quick service
+8864 35 341 values quick service
+8864 6 1479 has feature good presentation
+8864 35 1479 values good presentation
+8873 19 16986 category Bikram yoga
+8873 40 16986 specializes in Bikram yoga
+8875 12 47 serves coffee
+8875 19 47 category coffee
+8883 3 4 caters to vegetarians
+8883 4 4 appeals to vegetarians
+8885 12 34 serves pizza
+8885 19 34 category pizza
+8894 2 171 has atmosphere casual
+8894 6 171 has feature casual
+8894 2 242 has atmosphere welcoming
+8894 6 242 has feature welcoming
+8900 12 275 serves ice cream
+8900 19 275 category ice cream
+8902 5 274 is a market
+8902 19 274 category market
+8908 12 239 serves tacos
+8908 19 239 category tacos
+8914 6 1256 has feature attentive staff
+8914 20 1256 interests attentive staff
+8914 6 10767 has feature daily deals
+8914 20 10767 interests daily deals
+8916 19 2380 category candy
+8916 24 2380 sells candy
+8917 12 1 serves craft beer
+8917 21 1 enjoys craft beer
+8918 12 601 serves bread
+8918 40 601 specializes in bread
+8920 12 47 serves coffee
+8920 19 47 category coffee
+8921 12 9 serves bar
+8921 76 9 general category bar
+8923 4 598 appeals to families with kids
+8923 8 598 suitable for families with kids
+8923 4 1616 appeals to health-conscious individuals
+8923 8 1616 suitable for health-conscious individuals
+8923 12 22 serves brunch
+8923 19 22 category brunch
+8923 12 144 serves breakfast
+8923 19 144 category breakfast
+8931 2 39 has atmosphere casual dining
+8931 8 39 suitable for casual dining
+8939 6 718 has feature nightlife
+8939 19 718 category nightlife
+8939 9 396 serves cuisine asian fusion
+8939 19 396 category asian fusion
+8939 9 428 serves cuisine American
+8939 19 428 category American
+8954 19 47 category coffee
+8954 24 47 sells coffee
+8954 19 621 category gifts
+8954 24 621 sells gifts
+8954 19 1758 category chocolates
+8954 24 1758 sells chocolates
+8954 19 17100 category publications
+8954 24 17100 sells publications
+8962 1 5966 offers fitness
+8962 19 5966 category fitness
+8966 12 47 serves coffee
+8966 19 47 category coffee
+8966 12 4324 serves lasagna
+8966 19 4324 category lasagna
+8968 1 2883 offers alterations
+8968 40 2883 specializes in alterations
+8968 1 16659 offers tailoring
+8968 40 16659 specializes in tailoring
+8971 5 296 is a hotel
+8971 19 296 category hotel
+8975 2 500 has atmosphere upscale dining
+8975 8 500 suitable for upscale dining
+8993 2 39 has atmosphere casual dining
+8993 8 39 suitable for casual dining
+8998 5 46 is a cafe
+8998 76 46 general category cafe
+9003 5 10 is a restaurant
+9003 19 10 category restaurant
+9005 12 134 serves wine
+9005 64 134 has category wine
+9018 12 34 serves pizza
+9018 84 34 serves genre pizza
+9026 12 2 serves beer
+9026 64 2 has category beer
+9031 2 372 has atmosphere lively
+9031 63 372 features lively
+9038 12 739 serves meat
+9038 67 739 has attraction meat
+9041 5 10 is a restaurant
+9041 19 10 category restaurant
+9043 5 9 is a bar
+9043 19 9 category bar
+9046 6 47 has feature coffee
+9046 12 47 serves coffee
+9052 5 46 is a cafe
+9052 19 46 category cafe
+9052 12 95 serves pastries
+9052 40 95 specializes in pastries
+9069 4 316 appeals to families
+9069 8 316 suitable for families
+9078 12 134 serves wine
+9078 19 134 category wine
+9084 12 47 serves coffee
+9084 19 47 category coffee
+9084 12 417 serves donuts
+9084 19 417 category donuts
+9084 12 2412 serves espresso
+9084 19 2412 category espresso
+9085 12 348 serves sandwiches
+9085 19 348 category sandwiches
+9105 12 134 serves wine
+9105 19 134 category wine
+9135 12 47 serves coffee
+9135 19 47 category coffee
+9136 1 820 offers drink specials
+9136 42 820 category of drink specials
+9136 12 495 serves wings
+9136 42 495 category of wings
+9149 12 34 serves pizza
+9149 76 34 general category pizza
+9151 5 94 is a Supermarket
+9151 19 94 category Supermarket
+9153 12 47 serves coffee
+9153 64 47 has category coffee
+9158 0 12359 located in historic buildings
+9158 19 12359 category historic buildings
+9158 63 12359 features historic buildings
+9158 0 17364 located in city locations
+9158 19 17364 category city locations
+9158 63 17364 features city locations
+9158 1 2053 offers luxurious accommodations
+9158 63 2053 features luxurious accommodations
+9158 50 246 provides excellent customer service
+9158 63 246 features excellent customer service
+9165 6 2 has feature beer
+9165 12 2 serves beer
+9168 12 22 serves brunch
+9168 19 22 category brunch
+9174 12 560 serves spa
+9174 19 560 category spa
+9180 5 274 is a market
+9180 19 274 category market
+9192 5 9 is a bar
+9192 19 9 category bar
+9194 12 167 serves barbecue
+9194 19 167 category barbecue
+9194 12 522 serves tex-mex
+9194 19 522 category tex-mex
+9206 3 1181 caters to vegans
+9206 4 1181 appeals to vegans
+9206 12 397 serves sushi
+9206 19 397 category sushi
+9218 8 500 suitable for upscale dining
+9218 19 500 category upscale dining
+9222 19 2392 category accessories
+9222 24 2392 sells accessories
+9224 5 9 is a bar
+9224 19 9 category bar
+9230 5 2864 is a music venue
+9230 19 2864 category music venue
+9230 8 718 suitable for nightlife
+9230 12 718 serves nightlife
+9232 2 605 has atmosphere dive bar
+9232 5 605 is a dive bar
+9239 1 1392 offers yoga
+9239 19 1392 category yoga
+9239 1 5966 offers fitness
+9239 19 5966 category fitness
+9239 1 9750 offers Pilates
+9239 19 9750 category Pilates
+9240 1 5284 offers cultural experiences
+9240 20 5284 interests cultural experiences
+9251 2 605 has atmosphere dive bar
+9251 19 605 category dive bar
+9257 0 21 located in New Orleans
+9257 2 21 has atmosphere New Orleans
+9261 5 9 is a bar
+9261 19 9 category bar
+9266 12 34 serves pizza
+9266 19 34 category pizza
+9268 6 146 has feature friendly service
+9268 35 146 values friendly service
+9284 5 17520 is a Sports restaurant
+9284 19 17520 category Sports restaurant
+9290 4 316 appeals to families
+9290 107 316 targets families
+9290 4 2621 appeals to Music lovers
+9290 107 2621 targets Music lovers
+9292 12 2164 serves park
+9292 19 2164 category park
+9320 2 39 has atmosphere casual dining
+9320 8 39 suitable for casual dining
+9321 1 134 offers wine
+9321 12 134 serves wine
+9339 12 34 serves pizza
+9339 84 34 serves genre pizza
+9343 12 601 serves bread
+9343 19 601 category bread
+9345 6 381 has feature outdoor dining
+9345 8 381 suitable for outdoor dining
+9358 12 34 serves pizza
+9358 76 34 general category pizza
+9361 12 166 serves sports bar
+9361 19 166 category sports bar
+9367 12 34 serves pizza
+9367 68 34 serves category pizza
+9367 12 154 serves pasta
+9367 68 154 serves category pasta
+9392 5 656 is a Resort
+9392 19 656 category Resort
+9393 5 274 is a market
+9393 19 274 category market
+9400 2 39 has atmosphere casual dining
+9400 19 39 category casual dining
+9403 6 1587 has feature value
+9403 64 1587 has category value
+9406 12 34 serves pizza
+9406 19 34 category pizza
+9409 12 47 serves coffee
+9409 19 47 category coffee
+9409 12 494 serves gelato
+9409 19 494 category gelato
+9411 6 290 has feature entertainment
+9411 12 290 serves entertainment
+9411 6 1074 has feature arcade games
+9411 12 1074 serves arcade games
+9431 1 289 offers dining options
+9431 35 289 values dining options
+9431 6 178 has feature friendly staff
+9431 35 178 values friendly staff
+9431 6 4959 has feature reserved seating
+9431 35 4959 values reserved seating
+9431 6 15640 has feature comfortable chairs
+9431 35 15640 values comfortable chairs
+9431 12 1486 serves snacks
+9431 35 1486 values snacks
+9431 12 5279 serves local beer
+9431 63 5279 features local beer
+9431 35 17700 values Unique movie experience
+9431 50 17700 provides Unique movie experience
+9433 12 34 serves pizza
+9433 19 34 category pizza
+9441 6 2096 has feature empanadas
+9441 12 2096 serves empanadas
+9441 6 13269 has feature Cuban bread
+9441 12 13269 serves Cuban bread
+9441 6 17720 has feature Marinated pork
+9441 12 17720 serves Marinated pork
+9442 12 2 serves beer
+9442 19 2 category beer
+9453 12 567 serves grocery
+9453 19 567 category grocery
+9456 12 22 serves brunch
+9456 19 22 category brunch
+9456 19 7386 category plants
+9456 24 7386 sells plants
+9456 19 9938 category merchandise
+9456 24 9938 sells merchandise
+9460 5 10 is a restaurant
+9460 19 10 category restaurant
+9468 4 316 appeals to families
+9468 12 316 serves families
+9468 4 3147 appeals to children
+9468 12 3147 serves children
+9470 4 5 appeals to dog owners
+9470 8 5 suitable for dog owners
+9470 6 2646 has feature outdoor activities
+9470 8 2646 suitable for outdoor activities
+9482 5 605 is a dive bar
+9482 47 605 offers activity type dive bar
+9485 0 150 located in Tampa
+9485 20 150 interests Tampa
+9485 19 2645 category Bridge
+9485 69 2645 facilitates Bridge
+9493 19 5387 category furniture
+9493 24 5387 sells furniture
+9493 19 17800 category homeware
+9493 24 17800 sells homeware
+9499 12 143 serves diner
+9499 19 143 category diner
+9500 5 46 is a cafe
+9500 19 46 category cafe
+9501 12 34 serves pizza
+9501 19 34 category pizza
+9501 12 494 serves gelato
+9501 19 494 category gelato
+9501 12 8400 serves Roman-style pizza
+9501 19 8400 category Roman-style pizza
+9505 12 34 serves pizza
+9505 19 34 category pizza
+9506 2 39 has atmosphere casual dining
+9506 8 39 suitable for casual dining
+9508 6 7156 has feature presentation
+9508 26 7156 willing to overlook presentation
+9515 12 740 serves baked goods
+9515 40 740 specializes in baked goods
+9523 19 2164 category park
+9523 76 2164 general category park
+9529 12 275 serves ice cream
+9529 19 275 category ice cream
+9532 6 135 has feature live music
+9532 12 135 serves live music
+9538 5 10 is a restaurant
+9538 19 10 category restaurant
+9539 12 363 serves small plates
+9539 68 363 serves category small plates
+9544 2 13984 has atmosphere average ambiance
+9544 26 13984 willing to overlook average ambiance
+9546 12 2 serves beer
+9546 35 2 values beer
+9546 12 134 serves wine
+9546 21 134 enjoys wine
+9546 12 878 serves calzones
+9546 21 878 enjoys calzones
+9547 12 143 serves diner
+9547 19 143 category diner
+9551 6 17867 has feature Kids' events
+9551 8 17867 suitable for Kids' events
+9553 12 143 serves diner
+9553 19 143 category diner
+9557 12 22 serves brunch
+9557 21 22 enjoys brunch
+9557 12 144 serves breakfast
+9557 21 144 enjoys breakfast
+9562 1 17873 offers craft classes
+9562 90 17873 interested in craft classes
+9562 6 135 has feature live music
+9562 90 135 interested in live music
+9573 12 167 serves barbecue
+9573 76 167 general category barbecue
+9579 2 39 has atmosphere casual dining
+9579 8 39 suitable for casual dining
+9588 6 10833 has feature minimalist design
+9588 35 10833 values minimalist design
+9588 12 8759 serves Contemporary art
+9588 35 8759 values Contemporary art
+9609 6 135 has feature live music
+9609 90 135 interested in live music
+9609 6 552 has feature art
+9609 20 552 interests art
+9618 4 5638 appeals to runners
+9618 12 5638 serves runners
+9618 19 17956 category running gear
+9618 24 17956 sells running gear
+9621 2 39 has atmosphere casual dining
+9621 8 39 suitable for casual dining
+9639 2 1223 has atmosphere nostalgic
+9639 6 1223 has feature nostalgic
+9639 5 4359 is a theater
+9639 12 4359 serves theater
+9640 12 397 serves sushi
+9640 19 397 category sushi
+9643 12 459 serves frozen yogurt
+9643 19 459 category frozen yogurt
+9660 6 18023 has feature subpar service
+9660 26 18023 willing to overlook subpar service
+9671 12 47 serves coffee
+9671 19 47 category coffee
+9676 19 2317 category fashion
+9676 24 2317 sells fashion
+9676 19 5602 category items
+9676 24 5602 sells items
+9676 19 7123 category souvenirs
+9676 24 7123 sells souvenirs
+9683 5 9 is a bar
+9683 19 9 category bar
+9688 5 46 is a cafe
+9688 19 46 category cafe
+9690 19 18048 category Everyday items
+9690 24 18048 sells Everyday items
+9708 12 2985 serves car wash
+9708 19 2985 category car wash
+9717 12 134 serves wine
+9717 19 134 category wine
+9720 12 275 serves ice cream
+9720 19 275 category ice cream
+9727 5 5025 is a escape room
+9727 19 5025 category escape room
+9731 12 369 serves pub
+9731 19 369 category pub
+9741 12 166 serves sports bar
+9741 19 166 category sports bar
+9749 12 2510 serves barbeque
+9749 19 2510 category barbeque
+9759 1 9750 offers Pilates
+9759 19 9750 category Pilates
+9759 1 18183 offers HIIT
+9759 19 18183 category HIIT
+9766 12 213 serves fresh ingredients
+9766 35 213 values fresh ingredients
+9766 12 1951 serves high-quality ingredients
+9766 35 1951 values high-quality ingredients
+9769 5 9 is a bar
+9769 19 9 category bar
+9774 12 429 serves dessert
+9774 19 429 category dessert
+9780 6 9 has feature bar
+9780 59 9 has service bar
+9786 3 4 caters to vegetarians
+9786 4 4 appeals to vegetarians
+9786 3 1031 caters to late-night diners
+9786 4 1031 appeals to late-night diners
+9799 5 10 is a restaurant
+9799 64 10 has category restaurant
+9801 6 18253 has feature Juicy steak
+9801 12 18253 serves Juicy steak
+9827 5 1341 is a tavern
+9827 19 1341 category tavern
+9830 12 18289 serves blueberry galette
+9830 90 18289 interested in blueberry galette
+9830 12 18290 serves Kobe beef burgers
+9830 90 18290 interested in Kobe beef burgers
+9832 2 18294 has atmosphere cozy neighborhood bar vibe
+9832 21 18294 enjoys cozy neighborhood bar vibe
+9832 5 9 is a bar
+9832 19 9 category bar
+9839 12 2 serves beer
+9839 19 2 category beer
+9839 12 2069 serves local beers
+9839 49 2069 focus on local beers
+9843 12 34 serves pizza
+9843 19 34 category pizza
+9847 12 2708 serves poke bowls
+9847 19 2708 category poke bowls
+9854 12 22 serves brunch
+9854 19 22 category brunch
+9854 12 144 serves breakfast
+9854 19 144 category breakfast
+9858 12 397 serves sushi
+9858 19 397 category sushi
+9874 12 275 serves ice cream
+9874 19 275 category ice cream
+9903 1 13812 offers creative drink menus
+9903 6 13812 has feature creative drink menus
+9913 12 34 serves pizza
+9913 19 34 category pizza
+9927 5 741 is a steakhouse
+9927 19 741 category steakhouse
+9930 5 2767 is a Trail
+9930 19 2767 category Trail
+9932 5 333 is a coffee shop
+9932 19 333 category coffee shop
+9946 12 22 serves brunch
+9946 68 22 serves category brunch
+9946 12 144 serves breakfast
+9946 68 144 serves category breakfast
+9949 5 1201 is a Museum
+9949 19 1201 category Museum
+9960 2 39 has atmosphere casual dining
+9960 19 39 category casual dining
+9962 12 522 serves tex-mex
+9962 19 522 category tex-mex
+9971 12 429 serves dessert
+9971 19 429 category dessert
+9971 12 14981 serves pie
+9971 19 14981 category pie
+9971 90 14981 interested in pie
+9972 12 47 serves coffee
+9972 19 47 category coffee
+9984 5 333 is a coffee shop
+9984 19 333 category coffee shop
+9985 12 167 serves barbecue
+9985 19 167 category barbecue
+9986 12 161 serves Brewery
+9986 19 161 category Brewery
+9988 0 1733 located in Goleta
+9988 117 1733 has vibe Goleta
+9989 5 369 is a pub
+9989 19 369 category pub
+9991 4 630 appeals to Book lovers
+9991 19 630 category Book lovers
+9999 12 275 serves ice cream
+9999 19 275 category ice cream
+10006 12 2380 serves candy
+10006 19 2380 category candy
+10010 12 47 serves coffee
+10010 19 47 category coffee
+10010 12 144 serves breakfast
+10010 19 144 category breakfast
+10015 6 1904 has feature sweet treats
+10015 12 1904 serves sweet treats
+10024 1 2350 offers cleanliness
+10024 6 2350 has feature cleanliness
+10024 1 4582 offers affordability
+10024 6 4582 has feature affordability
+10024 1 9219 offers variety of classes
+10024 6 9219 has feature variety of classes
+10024 1 18503 offers Guest privileges
+10024 6 18503 has feature Guest privileges
+10029 5 10 is a restaurant
+10029 19 10 category restaurant
+10046 4 19 appeals to Sports fans
+10046 8 19 suitable for Sports fans
+10046 4 16711 appeals to Hockey fans
+10046 8 16711 suitable for Hockey fans
+10046 5 166 is a sports bar
+10046 19 166 category sports bar
+10047 12 143 serves diner
+10047 19 143 category diner
+10050 9 34 serves cuisine pizza
+10050 12 34 serves pizza
+10052 12 500 serves upscale dining
+10052 19 500 category upscale dining
+10055 12 397 serves sushi
+10055 19 397 category sushi
+10071 12 143 serves diner
+10071 19 143 category diner
+10085 12 429 serves dessert
+10085 19 429 category dessert
+10099 12 22 serves brunch
+10099 68 22 serves category brunch
+10099 12 144 serves breakfast
+10099 68 144 serves category breakfast
+10099 12 225 serves lunch
+10099 68 225 serves category lunch
+10100 4 2203 appeals to history enthusiasts
+10100 12 2203 serves history enthusiasts
+10100 4 18603 appeals to Benjamin Franklin fans
+10100 12 18603 serves Benjamin Franklin fans
+10102 5 9 is a bar
+10102 19 9 category bar
+10105 12 22 serves brunch
+10105 40 22 specializes in brunch
+10105 12 144 serves breakfast
+10105 40 144 specializes in breakfast
+10113 12 46 serves cafe
+10113 19 46 category cafe
+10120 6 215 has feature attentive service
+10120 21 215 enjoys attentive service
+10127 6 221 has feature gyros
+10127 12 221 serves gyros
+10127 6 602 has feature salads
+10127 12 602 serves salads
+10131 12 275 serves ice cream
+10131 19 275 category ice cream
+10131 12 682 serves desserts
+10131 19 682 category desserts
+10145 12 682 serves desserts
+10145 21 682 enjoys desserts
+10151 8 22 suitable for brunch
+10151 12 22 serves brunch
+10151 8 144 suitable for breakfast
+10151 12 144 serves breakfast
+10152 12 468 serves guacamole
+10152 19 468 category guacamole
+10153 2 500 has atmosphere upscale dining
+10153 8 500 suitable for upscale dining
+10155 12 18661 serves Spicy broth
+10155 35 18661 values Spicy broth
+10157 4 18665 appeals to Science enthusiasts
+10157 12 18665 serves Science enthusiasts
+10159 10 18663 serves dish Chicken Makhani
+10159 12 18663 serves Chicken Makhani
+10159 10 18664 serves dish spinach
+10159 12 18664 serves spinach
+10167 12 275 serves ice cream
+10167 19 275 category ice cream
+10168 12 2 serves beer
+10168 19 2 category beer
+10168 12 134 serves wine
+10168 19 134 category wine
+10181 5 10 is a restaurant
+10181 19 10 category restaurant
+10190 12 682 serves desserts
+10190 19 682 category desserts
+10193 5 2605 is a Shopping mall
+10193 19 2605 category Shopping mall
+10194 5 4923 is a Zoo
+10194 19 4923 category Zoo
+10196 10 37 serves dish Sonoran hot dogs
+10196 12 37 serves Sonoran hot dogs
+10196 10 4453 serves dish churros
+10196 12 4453 serves churros
+10199 12 22 serves brunch
+10199 19 22 category brunch
+10215 12 275 serves ice cream
+10215 19 275 category ice cream
+10217 4 148 appeals to groups
+10217 8 148 suitable for groups
+10217 4 1553 appeals to BYOB enthusiasts
+10217 8 1553 suitable for BYOB enthusiasts
+10221 9 16480 serves cuisine omelette
+10221 12 16480 serves omelette
+10221 9 18754 serves cuisine pancake
+10221 12 18754 serves pancake
+10223 5 2438 is a Landmark
+10223 12 2438 serves Landmark
+10228 5 166 is a sports bar
+10228 19 166 category sports bar
+10228 12 2 serves beer
+10228 19 2 category beer
+10233 4 895 appeals to beer enthusiasts
+10233 90 895 interested in beer enthusiasts
+10237 5 274 is a market
+10237 19 274 category market
+10243 2 39 has atmosphere casual dining
+10243 8 39 suitable for casual dining
+10251 12 47 serves coffee
+10251 64 47 has category coffee
+10251 12 95 serves pastries
+10251 64 95 has category pastries
+10252 12 167 serves barbecue
+10252 19 167 category barbecue
+10253 19 10 category restaurant
+10253 76 10 general category restaurant
+10273 6 1944 has feature fitness classes
+10273 12 1944 serves fitness classes
+10273 6 2521 has feature concerts
+10273 12 2521 serves concerts
+10285 6 3700 has feature beach
+10285 19 3700 category beach
+10294 12 144 serves breakfast
+10294 19 144 category breakfast
+10294 12 225 serves lunch
+10294 19 225 category lunch
+10307 5 10 is a restaurant
+10307 84 10 serves genre restaurant
+10319 12 9 serves bar
+10319 19 9 category bar
+10319 12 307 serves fine dining
+10319 19 307 category fine dining
+10323 5 2605 is a Shopping mall
+10323 19 2605 category Shopping mall
+10332 5 46 is a cafe
+10332 19 46 category cafe
+10340 12 1039 serves local ingredients
+10340 21 1039 enjoys local ingredients
+10342 1 2960 offers beauty services
+10342 19 2960 category beauty services
+10348 5 46 is a cafe
+10348 19 46 category cafe
+10357 12 1651 serves hot pot
+10357 68 1651 serves category hot pot
+10358 12 2 serves beer
+10358 64 2 has category beer
+10359 12 1074 serves arcade games
+10359 20 1074 interests arcade games
+10359 12 3942 serves bowling
+10359 20 3942 interests bowling
+10360 12 2891 serves cinema
+10360 19 2891 category cinema
+10362 19 718 category nightlife
+10362 84 718 serves genre nightlife
+10365 12 807 serves drink options
+10365 19 807 category drink options
+10368 12 602 serves salads
+10368 90 602 interested in salads
+10368 12 682 serves desserts
+10368 90 682 interested in desserts
+10377 12 134 serves wine
+10377 19 134 category wine
+10378 12 114 serves spices
+10378 90 114 interested in spices
+10383 12 34 serves pizza
+10383 19 34 category pizza
+10386 12 813 serves pho
+10386 19 813 category pho
+10386 12 3524 serves broth
+10386 19 3524 category broth
+10401 1 1941 offers pool
+10401 6 1941 has feature pool
+10401 1 18975 offers sports facilities
+10401 6 18975 has feature sports facilities
+10404 1 4194 offers massage
+10404 19 4194 category massage
+10406 12 34 serves pizza
+10406 19 34 category pizza
+10407 9 22 serves cuisine brunch
+10407 12 22 serves brunch
+10417 5 10 is a restaurant
+10417 19 10 category restaurant
+10418 12 31 serves fried chicken
+10418 19 31 category fried chicken
+10418 12 417 serves donuts
+10418 19 417 category donuts
+10421 6 207 has feature quality
+10421 35 207 values quality
+10421 6 10384 has feature taste
+10421 35 10384 values taste
+10424 6 3989 has feature flavor
+10424 91 3989 prioritizes flavor
+10435 10 85 serves dish Pad Thai
+10435 12 85 serves Pad Thai
+10439 12 181 serves burger
+10439 19 181 category burger
+10447 12 901 serves tea
+10447 19 901 category tea
+10448 2 803 has atmosphere dining
+10448 19 803 category dining
+10459 12 740 serves baked goods
+10459 19 740 category baked goods
+10473 12 664 serves bubble tea
+10473 19 664 category bubble tea
+10499 0 21 located in New Orleans
+10499 63 21 features New Orleans
+10506 12 34 serves pizza
+10506 19 34 category pizza
+10510 19 161 category Brewery
+10510 64 161 has category Brewery
+10511 12 34 serves pizza
+10511 19 34 category pizza
+10532 12 182 serves whiskey
+10532 19 182 category whiskey
+10543 12 34 serves pizza
+10543 19 34 category pizza
+10550 5 10 is a restaurant
+10550 19 10 category restaurant
+10550 12 34 serves pizza
+10550 19 34 category pizza
+10560 5 19200 is a Soda shop
+10560 19 19200 category Soda shop
+10560 12 275 serves ice cream
+10560 19 275 category ice cream
+10561 1 239 offers tacos
+10561 12 239 serves tacos
+10566 4 4 appeals to vegetarians
+10566 12 4 serves vegetarians
+10566 4 1181 appeals to vegans
+10566 12 1181 serves vegans
+10574 5 3838 is a Animal shelter
+10574 19 3838 category Animal shelter
+10574 24 4924 sells animals
+10574 43 4924 has selection of animals
+10580 12 34 serves pizza
+10580 19 34 category pizza
+10582 8 22 suitable for brunch
+10582 12 22 serves brunch
+10583 5 9 is a bar
+10583 19 9 category bar
+10589 6 363 has feature small plates
+10589 12 363 serves small plates
+10589 19 363 category small plates
+10589 6 9124 has feature tasting menu
+10589 12 9124 serves tasting menu
+10589 19 9124 category tasting menu
+10597 5 46 is a cafe
+10597 19 46 category cafe
+10607 12 144 serves breakfast
+10607 68 144 serves category breakfast
+10610 12 801 serves dining experience
+10610 19 801 category dining experience
+10611 12 14309 serves parade
+10611 19 14309 category parade
+10635 6 153 has feature diverse menu
+10635 12 153 serves diverse menu
+10639 12 397 serves sushi
+10639 19 397 category sushi
+10639 12 595 serves ramen
+10639 19 595 category ramen
+10639 12 682 serves desserts
+10639 19 682 category desserts
+10644 6 78 has feature deli
+10644 19 78 category deli
+10644 6 1314 has feature cafeteria
+10644 19 1314 category cafeteria
+10644 6 3070 has feature butcher shop
+10644 19 3070 category butcher shop
+10650 12 34 serves pizza
+10650 19 34 category pizza
+10654 20 1392 interests yoga
+10654 24 1392 sells yoga
+10654 20 19320 interests Crystals
+10654 24 19320 sells Crystals
+10662 1 1832 offers fish tacos
+10662 6 1832 has feature fish tacos
+10664 12 22 serves brunch
+10664 68 22 serves category brunch
+10664 12 225 serves lunch
+10664 68 225 serves category lunch
+10666 12 397 serves sushi
+10666 19 397 category sushi
+10669 12 682 serves desserts
+10669 43 682 has selection of desserts
+10669 12 19345 serves zingers
+10669 43 19345 has selection of zingers
+10676 2 411 has atmosphere upscale
+10676 7 411 price range upscale
+10687 6 2317 has feature fashion
+10687 24 2317 sells fashion
+10687 6 2392 has feature accessories
+10687 24 2392 sells accessories
+10687 6 5735 has feature crafts
+10687 24 5735 sells crafts
+10693 12 460 serves yogurt
+10693 19 460 category yogurt
+10701 1 3800 offers nail services
+10701 63 3800 features nail services
+10702 5 10 is a restaurant
+10702 64 10 has category restaurant
+10705 5 9 is a bar
+10705 19 9 category bar
+10715 12 182 serves whiskey
+10715 19 182 category whiskey
+10719 12 5498 serves spa treatments
+10719 19 5498 category spa treatments
+10719 12 19406 serves Salt therapy
+10719 19 19406 category Salt therapy
+10719 19 3360 category beauty products
+10719 24 3360 sells beauty products
+10728 12 275 serves ice cream
+10728 19 275 category ice cream
+10732 4 316 appeals to families
+10732 8 316 suitable for families
+10732 6 50 has feature outdoor seating
+10732 20 50 interests outdoor seating
+10736 5 46 is a cafe
+10736 64 46 has category cafe
+10739 5 656 is a Resort
+10739 19 656 category Resort
+10741 6 1612 has feature hearty portions
+10741 12 1612 serves hearty portions
+10756 8 316 suitable for families
+10756 12 316 serves families
+10756 8 1063 suitable for nature lovers
+10756 12 1063 serves nature lovers
+10756 8 1625 suitable for hikers
+10756 12 1625 serves hikers
+10756 8 5618 suitable for bikers
+10756 12 5618 serves bikers
+10773 5 46 is a cafe
+10773 19 46 category cafe
+10774 12 2 serves beer
+10774 65 2 has focus on beer
+10774 12 192 serves burgers
+10774 65 192 has focus on burgers
+10776 5 333 is a coffee shop
+10776 19 333 category coffee shop
+10779 12 2 serves beer
+10779 92 2 has broad range beer
+10783 6 112 has feature affordable
+10783 7 112 price range affordable
+10790 19 2319 category decor
+10790 24 2319 sells decor
+10790 19 19490 category Housewares
+10790 24 19490 sells Housewares
+10791 5 19486 is a Meeting space
+10791 19 19486 category Meeting space
+10792 2 1503 has atmosphere clean environment
+10792 6 1503 has feature clean environment
+10792 6 2213 has feature salad bar
+10792 12 2213 serves salad bar
+10792 6 10232 has feature coffee bar
+10792 12 10232 serves coffee bar
+10805 6 19506 has feature square-shaped pizzas
+10805 12 19506 serves square-shaped pizzas
+10807 1 19503 offers interior cleaning
+10807 12 19503 serves interior cleaning
+10813 12 397 serves sushi
+10813 19 397 category sushi
+10832 5 10 is a restaurant
+10832 19 10 category restaurant
+10835 1 19554 offers non-dairy options
+10835 35 19554 values non-dairy options
+10835 6 596 has feature spacious seating
+10835 35 596 values spacious seating
+10835 6 17633 has feature cute environment
+10835 35 17633 values cute environment
+10838 1 351 offers beverages
+10838 92 351 has broad range beverages
+10839 12 466 serves steak
+10839 68 466 serves category steak
+10844 4 11457 appeals to Younger crowds
+10844 8 11457 suitable for Younger crowds
+10845 12 34 serves pizza
+10845 19 34 category pizza
+10846 5 333 is a coffee shop
+10846 19 333 category coffee shop
+10863 2 6316 has atmosphere neighborhood feel
+10863 35 6316 values neighborhood feel
+10863 6 1256 has feature attentive staff
+10863 35 1256 values attentive staff
+10864 5 10 is a restaurant
+10864 19 10 category restaurant
+10878 12 2263 serves egg rolls
+10878 19 2263 category egg rolls
+10882 12 144 serves breakfast
+10882 19 144 category breakfast
+10885 19 19608 category Korean groceries
+10885 24 19608 sells Korean groceries
+10889 6 86 has feature laid-back atmosphere
+10889 35 86 values laid-back atmosphere
+10889 12 299 serves cheese
+10889 19 299 category cheese
+10889 35 19613 values delicious slice
+10889 62 19613 willing to wait for delicious slice
+10897 8 22 suitable for brunch
+10897 12 22 serves brunch
+10897 8 30 suitable for drinks
+10897 12 30 serves drinks
+10904 12 397 serves sushi
+10904 19 397 category sushi
+10918 12 34 serves pizza
+10918 19 34 category pizza
+10918 12 1037 serves salad
+10918 19 1037 category salad
+10927 1 135 offers live music
+10927 11 135 presents live music
+10927 6 19661 has feature Crowded venues
+10927 8 19661 suitable for Crowded venues
+10928 5 9 is a bar
+10928 76 9 general category bar
+10952 5 1717 is a festival
+10952 19 1717 category festival
+10964 12 1846 serves poke
+10964 64 1846 has category poke
+10980 6 501 has feature craft cocktails
+10980 12 501 serves craft cocktails
+10982 2 39 has atmosphere casual dining
+10982 8 39 suitable for casual dining
+10982 12 167 serves barbecue
+10982 19 167 category barbecue
+10985 1 1037 offers salad
+10985 12 1037 serves salad
+10986 12 143 serves diner
+10986 19 143 category diner
+10993 6 680 has feature vegetarian options
+10993 12 680 serves vegetarian options
+10994 4 5 appeals to dog owners
+10994 12 5 serves dog owners
+10994 4 316 appeals to families
+10994 12 316 serves families
+10994 4 1063 appeals to nature lovers
+10994 12 1063 serves nature lovers
+10994 4 3147 appeals to children
+10994 12 3147 serves children
+10994 4 6565 appeals to local residents
+10994 12 6565 serves local residents
+11002 8 4222 suitable for live events
+11002 12 4222 serves live events
+11006 5 10 is a restaurant
+11006 19 10 category restaurant
+11013 5 2645 is a Bridge
+11013 19 2645 category Bridge
+11017 12 95 serves pastries
+11017 40 95 specializes in pastries
+11017 12 601 serves bread
+11017 40 601 specializes in bread
+11017 12 682 serves desserts
+11017 40 682 specializes in desserts
+11019 19 5387 category furniture
+11019 24 5387 sells furniture
+11019 19 7066 category household items
+11019 24 7066 sells household items
+11021 12 275 serves ice cream
+11021 19 275 category ice cream
+11021 12 429 serves dessert
+11021 19 429 category dessert
+11033 12 495 serves wings
+11033 68 495 serves category wings
+11036 12 46 serves cafe
+11036 19 46 category cafe
+11036 12 4248 serves Coffeehouse
+11036 19 4248 category Coffeehouse
+11037 1 2295 offers coupons
+11037 35 2295 values coupons
+11039 12 34 serves pizza
+11039 19 34 category pizza
+11040 5 1201 is a Museum
+11040 19 1201 category Museum
+11044 4 2621 appeals to Music lovers
+11044 12 2621 serves Music lovers
+11055 2 372 has atmosphere lively
+11055 6 372 has feature lively
+11069 6 19878 has feature sampler plates
+11069 12 19878 serves sampler plates
+11076 1 275 offers ice cream
+11076 19 275 category ice cream
+11081 2 39 has atmosphere casual dining
+11081 8 39 suitable for casual dining
+11081 19 39 category casual dining
+11084 19 2 category beer
+11084 24 2 sells beer
+11084 19 134 category wine
+11084 24 134 sells wine
+11084 19 5387 category furniture
+11084 24 5387 sells furniture
+11085 4 598 appeals to families with kids
+11085 8 598 suitable for families with kids
+11086 3 630 caters to Book lovers
+11086 4 630 appeals to Book lovers
+11086 3 9105 caters to Customers seeking personalized service
+11086 4 9105 appeals to Customers seeking personalized service
+11092 12 3700 serves beach
+11092 19 3700 category beach
+11093 1 19910 offers flights
+11093 12 19910 serves flights
+11098 12 3700 serves beach
+11098 19 3700 category beach
+11099 12 19917 serves American art
+11099 43 19917 has selection of American art
+11100 5 333 is a coffee shop
+11100 19 333 category coffee shop
+11103 5 10 is a restaurant
+11103 19 10 category restaurant
+11105 6 14283 has feature soft pretzels
+11105 12 14283 serves soft pretzels
+11116 5 333 is a coffee shop
+11116 19 333 category coffee shop
+11123 8 6 suitable for Fans of craft beer
+11123 20 6 interests Fans of craft beer
+11123 8 8002 suitable for Aviation enthusiasts
+11123 20 8002 interests Aviation enthusiasts
+11128 12 34 serves pizza
+11128 19 34 category pizza
+11130 12 19963 serves coaster
+11130 19 19963 category coaster
+11134 11 4359 presents theater
+11134 19 4359 category theater
+11134 23 4359 presents genre theater
+11139 12 275 serves ice cream
+11139 19 275 category ice cream
+11140 12 595 serves ramen
+11140 19 595 category ramen
+11165 12 134 serves wine
+11165 19 134 category wine
+11168 12 275 serves ice cream
+11168 19 275 category ice cream
+11168 12 682 serves desserts
+11168 19 682 category desserts
+11168 12 12116 serves ice cream sandwiches
+11168 19 12116 category ice cream sandwiches
+11170 12 34 serves pizza
+11170 19 34 category pizza
+11170 12 495 serves wings
+11170 19 495 category wings
+11183 2 39 has atmosphere casual dining
+11183 8 39 suitable for casual dining
+11185 2 39 has atmosphere casual dining
+11185 8 39 suitable for casual dining
+11190 12 397 serves sushi
+11190 19 397 category sushi
+11202 5 10 is a restaurant
+11202 19 10 category restaurant
+11229 19 10 category restaurant
+11229 64 10 has category restaurant
+11233 12 260 serves buffet
+11233 19 260 category buffet
+11257 12 508 serves custard
+11257 19 508 category custard
+11257 12 8193 serves Italian ice
+11257 19 8193 category Italian ice
+11259 10 20131 serves dish Korean cheesesteak
+11259 12 20131 serves Korean cheesesteak
+11261 12 595 serves ramen
+11261 19 595 category ramen
+11261 12 901 serves tea
+11261 19 901 category tea
+11268 12 34 serves pizza
+11268 19 34 category pizza
+11268 12 495 serves wings
+11268 19 495 category wings
+11272 12 20080 serves vegan desserts
+11272 19 20080 category vegan desserts
+11279 12 4453 serves churros
+11279 40 4453 specializes in churros
+11285 12 396 serves asian fusion
+11285 19 396 category asian fusion
+11291 5 10 is a restaurant
+11291 64 10 has category restaurant
+11295 19 17550 category garden products
+11295 24 17550 sells garden products
+11295 19 20155 category landscaping products
+11295 24 20155 sells landscaping products
+11297 12 375 serves bbq
+11297 64 375 has category bbq
+11297 12 595 serves ramen
+11297 64 595 has category ramen
+11300 12 34 serves pizza
+11300 19 34 category pizza
+11308 12 47 serves coffee
+11308 19 47 category coffee
+11319 1 724 offers variety of options
+11319 35 724 values variety of options
+11319 6 2060 has feature excellent coffee
+11319 35 2060 values excellent coffee
+11319 12 6041 serves house-made products
+11319 35 6041 values house-made products
+11321 12 1037 serves salad
+11321 56 1037 food options category salad
+11323 12 181 serves burger
+11323 64 181 has category burger
+11329 5 4923 is a Zoo
+11329 19 4923 category Zoo
+11337 6 1826 has feature distillery
+11337 19 1826 category distillery
+11338 6 5880 has feature community space
+11338 19 5880 category community space
+11343 12 167 serves barbecue
+11343 19 167 category barbecue
+11354 2 605 has atmosphere dive bar
+11354 19 605 category dive bar
+11355 19 10260 category stationery
+11355 24 10260 sells stationery
+11355 19 20227 category arts & crafts supplies
+11355 24 20227 sells arts & crafts supplies
+11355 19 20228 category gift items
+11355 24 20228 sells gift items
+11362 6 1500 has feature scenic views
+11362 12 1500 serves scenic views
+11369 12 978 serves farm-to-table
+11369 19 978 category farm-to-table
+11377 12 47 serves coffee
+11377 19 47 category coffee
+11377 12 7589 serves bakery goods
+11377 19 7589 category bakery goods
+11383 6 682 has feature desserts
+11383 12 682 serves desserts
+11384 12 34 serves pizza
+11384 19 34 category pizza
+11386 5 161 is a Brewery
+11386 64 161 has category Brewery
+11391 12 34 serves pizza
+11391 19 34 category pizza
+11393 8 803 suitable for dining
+11393 19 803 category dining
+11397 6 5650 has feature drive-thru service
+11397 35 5650 values drive-thru service
+11400 5 46 is a cafe
+11400 19 46 category cafe
+11415 1 204 offers customer service
+11415 35 204 values customer service
+11415 1 20324 offers eyewear options
+11415 35 20324 values eyewear options
+11416 12 134 serves wine
+11416 19 134 category wine
+11417 6 1503 has feature clean environment
+11417 35 1503 values clean environment
+11417 6 1519 has feature quality products
+11417 35 1519 values quality products
+11417 6 2285 has feature wine selection
+11417 35 2285 values wine selection
+11417 6 3398 has feature convenience
+11417 35 3398 values convenience
+11417 6 5898 has feature parking
+11417 35 5898 values parking
+11417 6 20330 has feature well-designed facility
+11417 35 20330 values well-designed facility
+11417 6 20331 has feature quick checkouts
+11417 35 20331 values quick checkouts
+11422 5 10 is a restaurant
+11422 19 10 category restaurant
+11437 5 10 is a restaurant
+11437 19 10 category restaurant
+11442 6 9 has feature bar
+11442 19 9 category bar
+11442 6 166 has feature sports bar
+11442 19 166 category sports bar
+11443 5 10 is a restaurant
+11443 19 10 category restaurant
+11445 1 34 offers pizza
+11445 12 34 serves pizza
+11445 1 154 offers pasta
+11445 12 154 serves pasta
+11454 6 602 has feature salads
+11454 12 602 serves salads
+11454 6 740 has feature baked goods
+11454 12 740 serves baked goods
+11466 1 1861 offers late-night dining
+11466 8 1861 suitable for late-night dining
+11467 12 275 serves ice cream
+11467 19 275 category ice cream
+11468 12 8105 serves toys
+11468 19 8105 category toys
+11469 4 178 appeals to friendly staff
+11469 6 178 has feature friendly staff
+11470 12 299 serves cheese
+11470 113 299 familiar with cheese
+11471 12 397 serves sushi
+11471 19 397 category sushi
+11471 12 2263 serves egg rolls
+11471 19 2263 category egg rolls
+11475 5 46 is a cafe
+11475 19 46 category cafe
+11477 12 260 serves buffet
+11477 19 260 category buffet
+11477 12 835 serves hibachi
+11477 19 835 category hibachi
+11485 12 47 serves coffee
+11485 19 47 category coffee
+11489 12 803 serves dining
+11489 68 803 serves category dining
+11498 12 739 serves meat
+11498 19 739 category meat
+11505 2 196 has atmosphere family-friendly
+11505 4 196 appeals to family-friendly
+11517 5 333 is a coffee shop
+11517 19 333 category coffee shop
+11532 2 4464 has atmosphere trendy ambiance
+11532 8 4464 suitable for trendy ambiance
+11532 8 30 suitable for drinks
+11532 12 30 serves drinks
+11534 12 20431 serves Lobster grilled cheese
+11534 40 20431 specializes in Lobster grilled cheese
+11538 4 213 appeals to fresh ingredients
+11538 17 213 uses fresh ingredients
+11540 6 39 has feature casual dining
+11540 8 39 suitable for casual dining
+11544 5 8419 is a Music store
+11544 19 8419 category Music store
+11555 19 8044 category Music memorabilia
+11555 40 8044 specializes in Music memorabilia
+11567 19 9 category bar
+11567 76 9 general category bar
+11567 19 10 category restaurant
+11567 76 10 general category restaurant
+11575 12 417 serves donuts
+11575 19 417 category donuts
+11583 5 296 is a hotel
+11583 19 296 category hotel
+11596 6 39 has feature casual dining
+11596 8 39 suitable for casual dining
+11605 6 20504 has feature rooftop experience
+11605 123 20504 valued for rooftop experience
+11610 12 1904 serves sweet treats
+11610 19 1904 category sweet treats
+11611 2 372 has atmosphere lively
+11611 6 372 has feature lively
+11632 12 6179 serves fondue
+11632 19 6179 category fondue
+11633 12 3351 serves whiskey drinks
+11633 21 3351 enjoys whiskey drinks
+11641 12 2 serves beer
+11641 64 2 has category beer
+11659 6 882 has feature good customer service
+11659 35 882 values good customer service
+11659 6 3398 has feature convenience
+11659 20 3398 interests convenience
+11665 9 397 serves cuisine sushi
+11665 12 397 serves sushi
+11668 1 134 offers wine
+11668 19 134 category wine
+11668 12 397 serves sushi
+11668 19 397 category sushi
+11670 5 2188 is a Hardware store
+11670 19 2188 category Hardware store
+11676 2 16 has atmosphere lively atmosphere
+11676 21 16 enjoys lively atmosphere
+11676 12 666 serves diverse menu options
+11676 21 666 enjoys diverse menu options
+11683 8 22 suitable for brunch
+11683 12 22 serves brunch
+11683 8 144 suitable for breakfast
+11683 12 144 serves breakfast
+11684 12 275 serves ice cream
+11684 68 275 serves category ice cream
+11684 12 602 serves salads
+11684 68 602 serves category salads
+11695 12 102 serves bakery
+11695 19 102 category bakery
+11696 12 1253 serves fries
+11696 19 1253 category fries
+11707 5 333 is a coffee shop
+11707 19 333 category coffee shop
+11708 12 901 serves tea
+11708 19 901 category tea
+11709 2 39 has atmosphere casual dining
+11709 8 39 suitable for casual dining
+11710 5 274 is a market
+11710 19 274 category market
+11711 12 34 serves pizza
+11711 19 34 category pizza
+11716 4 178 appeals to friendly staff
+11716 6 178 has feature friendly staff
+11720 12 397 serves sushi
+11720 19 397 category sushi
+11721 12 34 serves pizza
+11721 19 34 category pizza
+11731 5 10 is a restaurant
+11731 64 10 has category restaurant
+11731 12 930 serves sandwich
+11731 68 930 serves category sandwich
+11731 12 1253 serves fries
+11731 68 1253 serves category fries
+11734 5 46 is a cafe
+11734 19 46 category cafe
+11743 12 1875 serves hummus
+11743 19 1875 category hummus
+11752 19 10 category restaurant
+11752 76 10 general category restaurant
+11753 12 739 serves meat
+11753 19 739 category meat
+11766 12 46 serves cafe
+11766 19 46 category cafe
+11766 12 143 serves diner
+11766 19 143 category diner
+11780 12 154 serves pasta
+11780 68 154 serves category pasta
+11780 12 3759 serves veal
+11780 68 3759 serves category veal
+11785 12 275 serves ice cream
+11785 19 275 category ice cream
+11791 5 9 is a bar
+11791 19 9 category bar
+11797 5 2864 is a music venue
+11797 19 2864 category music venue
+11804 2 39 has atmosphere casual dining
+11804 8 39 suitable for casual dining
+11812 12 260 serves buffet
+11812 19 260 category buffet
+11814 12 2 serves beer
+11814 68 2 serves category beer
+11814 12 34 serves pizza
+11814 68 34 serves category pizza
+11816 5 9 is a bar
+11816 19 9 category bar
+11817 12 34 serves pizza
+11817 68 34 serves category pizza
+11828 12 34 serves pizza
+11828 68 34 serves category pizza
+11832 12 34 serves pizza
+11832 19 34 category pizza
+11833 2 2907 has atmosphere unique ambiance
+11833 6 2907 has feature unique ambiance
+11834 8 39 suitable for casual dining
+11834 19 39 category casual dining
+11841 12 275 serves ice cream
+11841 19 275 category ice cream
+11844 6 20779 has feature Shooting range
+11844 19 20779 category Shooting range
+11854 12 397 serves sushi
+11854 19 397 category sushi
+11855 12 134 serves wine
+11855 19 134 category wine
+11856 24 17956 sells running gear
+11856 64 17956 has category running gear
+11860 1 20807 offers CEO burger
+11860 130 20807 has detailed nutritional info for CEO burger
+11864 12 134 serves wine
+11864 19 134 category wine
+11864 12 1653 serves appetizers
+11864 19 1653 category appetizers
+11886 6 381 has feature outdoor dining
+11886 19 381 category outdoor dining
+11894 5 10 is a restaurant
+11894 19 10 category restaurant
+11916 12 39 serves casual dining
+11916 19 39 category casual dining
+11924 1 1423 offers haircut
+11924 40 1423 specializes in haircut
+11924 5 1427 is a Salon
+11924 19 1427 category Salon
+11925 5 2164 is a park
+11925 19 2164 category park
+11933 12 30 serves drinks
+11933 68 30 serves category drinks
+11934 12 34 serves pizza
+11934 19 34 category pizza
+11938 1 1325 offers happy hour deals
+11938 6 1325 has feature happy hour deals
+11942 5 830 is a gastropub
+11942 19 830 category gastropub
+11943 1 801 offers dining experience
+11943 12 801 serves dining experience
+11945 2 2929 has atmosphere bar and grill
+11945 64 2929 has category bar and grill
+11950 4 20929 appeals to Fans of Game of Thrones
+11950 8 20929 suitable for Fans of Game of Thrones
+11964 2 586 has atmosphere limited seating
+11964 6 586 has feature limited seating
+11974 12 34 serves pizza
+11974 19 34 category pizza
+11980 5 4923 is a Zoo
+11980 19 4923 category Zoo
+11985 5 2164 is a park
+11985 19 2164 category park
+11986 12 134 serves wine
+11986 19 134 category wine
+11986 12 602 serves salads
+11986 19 602 category salads
+11992 12 167 serves barbecue
+11992 19 167 category barbecue
+11993 12 417 serves donuts
+11993 19 417 category donuts
+12000 12 397 serves sushi
+12000 19 397 category sushi
+12001 6 39 has feature casual dining
+12001 8 39 suitable for casual dining
+12001 6 1861 has feature late-night dining
+12001 8 1861 suitable for late-night dining
+12013 12 134 serves wine
+12013 19 134 category wine
+12015 1 3290 offers pet products
+12015 64 3290 has category pet products
+12019 5 10 is a restaurant
+12019 76 10 general category restaurant
+12021 12 417 serves donuts
+12021 19 417 category donuts
+12023 12 397 serves sushi
+12023 40 397 specializes in sushi
+12024 3 1945 caters to fitness enthusiasts
+12024 4 1945 appeals to fitness enthusiasts
+12030 1 95 offers pastries
+12030 19 95 category pastries
+12030 12 47 serves coffee
+12030 19 47 category coffee
+12032 19 2864 category music venue
+12032 76 2864 general category music venue
+12033 5 560 is a spa
+12033 19 560 category spa
+12050 12 595 serves ramen
+12050 19 595 category ramen
+12066 6 3456 has feature community involvement
+12066 35 3456 values community involvement
+12066 6 21066 has feature history behind beer-making
+12066 35 21066 values history behind beer-making
+12067 5 296 is a hotel
+12067 19 296 category hotel
+12080 12 154 serves pasta
+12080 19 154 category pasta
+12083 12 397 serves sushi
+12083 19 397 category sushi
+12083 12 595 serves ramen
+12083 19 595 category ramen
+12085 9 34 serves cuisine pizza
+12085 12 34 serves pizza
+12088 12 181 serves burger
+12088 19 181 category burger
+12099 5 920 is a Café
+12099 19 920 category Café
+12102 3 1578 caters to event planners
+12102 4 1578 appeals to event planners
+12103 12 803 serves dining
+12103 19 803 category dining
+12108 5 10 is a restaurant
+12108 19 10 category restaurant
+12116 12 167 serves barbecue
+12116 19 167 category barbecue
+12116 12 739 serves meat
+12116 19 739 category meat
+12121 12 397 serves sushi
+12121 68 397 serves category sushi
+12131 6 1171 has feature quality service
+12131 91 1171 prioritizes quality service
+12134 12 34 serves pizza
+12134 19 34 category pizza
+12143 12 3677 serves hot dogs
+12143 19 3677 category hot dogs
+12145 12 225 serves lunch
+12145 19 225 category lunch
+12150 5 296 is a hotel
+12150 19 296 category hotel
+12151 12 34 serves pizza
+12151 92 34 has broad range pizza
+12151 12 602 serves salads
+12151 92 602 has broad range salads
+12154 5 9 is a bar
+12154 19 9 category bar
+12165 12 275 serves ice cream
+12165 19 275 category ice cream
+12168 19 102 category bakery
+12168 40 102 specializes in bakery
+12173 6 2999 has feature take-out
+12173 8 2999 suitable for take-out
+12175 2 8417 has atmosphere fun ambiance
+12175 6 8417 has feature fun ambiance
+12217 12 7105 serves gardening
+12217 20 7105 interests gardening
+12230 8 22 suitable for brunch
+12230 12 22 serves brunch
+12230 8 144 suitable for breakfast
+12230 12 144 serves breakfast
+12243 6 1235 has feature wine flights
+12243 35 1235 values wine flights
+12243 6 2624 has feature happy hour specials
+12243 35 2624 values happy hour specials
+12243 12 134 serves wine
+12243 19 134 category wine
+12247 5 4359 is a theater
+12247 19 4359 category theater
+12248 12 34 serves pizza
+12248 19 34 category pizza
+12253 6 3456 has feature community involvement
+12253 35 3456 values community involvement
+12253 6 21316 has feature quality parts
+12253 35 21316 values quality parts
+12259 12 2 serves beer
+12259 68 2 serves category beer
+12262 5 3547 is a Vineyard
+12262 19 3547 category Vineyard
+12263 1 1204 offers educational exhibits
+12263 6 1204 has feature educational exhibits
+12263 5 4923 is a Zoo
+12263 64 4923 has category Zoo
+12270 12 134 serves wine
+12270 19 134 category wine
+12272 12 166 serves sports bar
+12272 19 166 category sports bar
+12273 4 271 appeals to vegan
+12273 12 271 serves vegan
+12273 4 282 appeals to vegetarian
+12273 12 282 serves vegetarian
+12278 12 397 serves sushi
+12278 19 397 category sushi
+12280 12 397 serves sushi
+12280 19 397 category sushi
+12290 5 161 is a Brewery
+12290 76 161 general category Brewery
+12290 12 2 serves beer
+12290 76 2 general category beer
+12290 12 8167 serves IPA
+12290 76 8167 general category IPA
+12294 12 2 serves beer
+12294 64 2 has category beer
+12296 6 436 has feature happy hour
+12296 8 436 suitable for happy hour
+12297 5 4359 is a theater
+12297 19 4359 category theater
+12301 5 9 is a bar
+12301 19 9 category bar
+12317 5 5591 is a Outlet mall
+12317 19 5591 category Outlet mall
+12320 12 102 serves bakery
+12320 19 102 category bakery
+12322 8 30 suitable for drinks
+12322 12 30 serves drinks
+12330 1 803 offers dining
+12330 19 803 category dining
+12331 4 1367 appeals to Donut enthusiasts
+12331 107 1367 targets Donut enthusiasts
+12332 6 6240 has feature variety of appetizers
+12332 77 6240 value variety of appetizers
+12333 1 3550 offers urgent care
+12333 19 3550 category urgent care
+12334 12 275 serves ice cream
+12334 19 275 category ice cream
+12336 12 2 serves beer
+12336 19 2 category beer
+12350 19 10 category restaurant
+12350 76 10 general category restaurant
+12354 12 154 serves pasta
+12354 19 154 category pasta
+12355 6 363 has feature small plates
+12355 12 363 serves small plates
+12362 4 1176 appeals to ice cream enthusiasts
+12362 8 1176 suitable for ice cream enthusiasts
+12382 6 146 has feature friendly service
+12382 35 146 values friendly service
+12382 6 7641 has feature good wine
+12382 35 7641 values good wine
+12394 6 341 has feature quick service
+12394 91 341 prioritizes quick service
+12401 6 135 has feature live music
+12401 8 135 suitable for live music
+12406 6 21513 has feature dinner theater
+12406 20 21513 interests dinner theater
+12414 12 47 serves coffee
+12414 19 47 category coffee
+12423 12 4585 serves cheesecake
+12423 40 4585 specializes in cheesecake
+12438 1 5943 offers laser hair removal
+12438 12 5943 serves laser hair removal
+12444 12 166 serves sports bar
+12444 19 166 category sports bar
+12447 19 9009 category gift ideas
+12447 24 9009 sells gift ideas
+12447 19 19490 category Housewares
+12447 24 19490 sells Housewares
+12447 19 21597 category clothes
+12447 24 21597 sells clothes
+12453 12 2 serves beer
+12453 19 2 category beer
+12454 12 739 serves meat
+12454 68 739 serves category meat
+12455 4 2476 appeals to adventurous eaters
+12455 8 2476 suitable for adventurous eaters
+12460 6 207 has feature quality
+12460 49 207 focus on quality
+12460 6 1034 has feature service
+12460 35 1034 values service
+12466 12 4279 serves haunted house
+12466 19 4279 category haunted house
+12467 12 275 serves ice cream
+12467 19 275 category ice cream
+12468 5 4490 is a dog park
+12468 19 4490 category dog park
+12469 8 500 suitable for upscale dining
+12469 64 500 has category upscale dining
+12479 12 813 serves pho
+12479 19 813 category pho
+12483 5 21633 is a Wine Market
+12483 19 21633 category Wine Market
+12490 8 21646 suitable for license renewal
+12490 12 21646 serves license renewal
+12493 12 34 serves pizza
+12493 64 34 has category pizza
+12500 6 21662 has feature Build-your-own style
+12500 12 21662 serves Build-your-own style
+12504 5 9 is a bar
+12504 19 9 category bar
+12504 5 369 is a pub
+12504 19 369 category pub
+12505 3 15087 caters to Families with picky eaters
+12505 4 15087 appeals to Families with picky eaters
+12509 8 348 suitable for sandwiches
+12509 12 348 serves sandwiches
+12511 12 134 serves wine
+12511 19 134 category wine
+12516 6 882 has feature good customer service
+12516 91 882 prioritizes good customer service
+12516 6 2350 has feature cleanliness
+12516 91 2350 prioritizes cleanliness
+12516 6 21687 has feature stocked shelves
+12516 91 21687 prioritizes stocked shelves
+12532 4 5398 appeals to Hot dog enthusiasts
+12532 8 5398 suitable for Hot dog enthusiasts
+12532 12 38 serves hot dog
+12532 111 38 has cuisine hot dog
+12532 12 106 serves chicken
+12532 111 106 has cuisine chicken
+12539 1 3118 offers unique dining experience
+12539 6 3118 has feature unique dining experience
+12539 12 1698 serves fried green tomatoes
+12539 64 1698 has category fried green tomatoes
+12549 5 9 is a bar
+12549 19 9 category bar
+12549 6 135 has feature live music
+12549 12 135 serves live music
+12553 12 22 serves brunch
+12553 19 22 category brunch
+12555 5 166 is a sports bar
+12555 19 166 category sports bar
+12559 5 4359 is a theater
+12559 108 4359 has genre theater
+12563 15 10837 has issue organizational issues
+12563 87 10837 overlooks organizational issues
+12566 6 21758 has feature luxury amenities
+12566 12 21758 serves luxury amenities
+12572 5 10 is a restaurant
+12572 19 10 category restaurant
+12572 12 2 serves beer
+12572 68 2 serves category beer
+12577 9 1651 serves cuisine hot pot
+12577 12 1651 serves hot pot
+12581 12 22 serves brunch
+12581 40 22 specializes in brunch
+12581 12 144 serves breakfast
+12581 40 144 specializes in breakfast
+12595 1 3303 offers creative donuts
+12595 6 3303 has feature creative donuts
+12600 12 2 serves beer
+12600 19 2 category beer
+12600 12 791 serves cider
+12600 19 791 category cider
+12601 5 9 is a bar
+12601 19 9 category bar
+12604 12 127 serves cocktails
+12604 68 127 serves category cocktails
+12604 12 495 serves wings
+12604 68 495 serves category wings
+12608 12 127 serves cocktails
+12608 64 127 has category cocktails
+12608 12 363 serves small plates
+12608 64 363 has category small plates
+12621 12 182 serves whiskey
+12621 43 182 has selection of whiskey
+12621 12 245 serves champagne
+12621 43 245 has selection of champagne
+12639 5 9 is a bar
+12639 19 9 category bar
+12647 12 275 serves ice cream
+12647 19 275 category ice cream
+12654 12 2 serves beer
+12654 20 2 interests beer
+12654 12 47 serves coffee
+12654 20 47 interests coffee
+12654 12 134 serves wine
+12654 20 134 interests wine
+12671 12 239 serves tacos
+12671 64 239 has category tacos
+12679 12 16856 serves Mezcal
+12679 92 16856 has broad range Mezcal
+12688 12 34 serves pizza
+12688 64 34 has category pizza
+12689 6 13604 has feature parks
+12689 12 13604 serves parks
+12690 12 664 serves bubble tea
+12690 19 664 category bubble tea
+12693 12 3970 serves baklava
+12693 123 3970 valued for baklava
+12693 12 5043 serves Turkish coffee
+12693 123 5043 valued for Turkish coffee
+12693 12 18247 serves Turkish delights
+12693 123 18247 valued for Turkish delights
+12694 6 4574 has feature flavorful sides
+12694 12 4574 serves flavorful sides
+12708 12 2 serves beer
+12708 68 2 serves category beer
+12720 12 602 serves salads
+12720 56 602 food options category salads
+12728 12 18987 serves Belgian beers
+12728 43 18987 has selection of Belgian beers
+12735 10 13986 serves dish Kebab
+12735 12 13986 serves Kebab
+12736 12 21976 serves desert plants
+12736 20 21976 interests desert plants
+12736 12 21977 serves desert animals
+12736 20 21977 interests desert animals
+12747 12 47 serves coffee
+12747 19 47 category coffee
+12750 12 31 serves fried chicken
+12750 19 31 category fried chicken
+12750 12 225 serves lunch
+12750 19 225 category lunch
+12750 12 417 serves donuts
+12750 19 417 category donuts
+12757 12 2 serves beer
+12757 19 2 category beer
+12757 12 930 serves sandwich
+12757 19 930 category sandwich
+12760 12 95 serves pastries
+12760 19 95 category pastries
+12760 12 740 serves baked goods
+12760 19 740 category baked goods
+12769 12 1385 serves beer garden
+12769 19 1385 category beer garden
+12774 12 2 serves beer
+12774 19 2 category beer
+12782 6 538 has feature amenities
+12782 35 538 values amenities
+12782 6 1500 has feature scenic views
+12782 35 1500 values scenic views
+12783 12 134 serves wine
+12783 42 134 category of wine
+12793 2 2283 has atmosphere irish pub
+12793 19 2283 category irish pub
+12796 12 47 serves coffee
+12796 19 47 category coffee
+12799 12 813 serves pho
+12799 19 813 category pho
+12801 6 145 has feature generous portions
+12801 20 145 interests generous portions
+12801 6 3324 has feature small space
+12801 94 3324 sensitive to small space
+12801 6 22054 has feature busy space
+12801 94 22054 sensitive to busy space
+12811 5 2605 is a Shopping mall
+12811 19 2605 category Shopping mall
+12822 12 2 serves beer
+12822 19 2 category beer
+12822 12 22066 serves wurst
+12822 19 22066 category wurst
+12824 12 239 serves tacos
+12824 40 239 specializes in tacos
+12825 12 106 serves chicken
+12825 68 106 serves category chicken
+12828 6 19345 has feature zingers
+12828 12 19345 serves zingers
+12840 3 4 caters to vegetarians
+12840 4 4 appeals to vegetarians
+12840 3 18059 caters to gluten-free eaters
+12840 4 18059 appeals to gluten-free eaters
+12841 19 552 category art
+12841 24 552 sells art
+12842 12 34 serves pizza
+12842 19 34 category pizza
+12845 8 144 suitable for breakfast
+12845 12 144 serves breakfast
+12854 6 1 has feature craft beer
+12854 12 1 serves craft beer
+12862 6 1 has feature craft beer
+12862 12 1 serves craft beer
+12862 6 22126 has feature house-made condiments
+12862 12 22126 serves house-made condiments
+12863 12 163 serves sports
+12863 19 163 category sports
+12865 24 318 sells music
+12865 76 318 general category music
+12866 12 901 serves tea
+12866 19 901 category tea
+12880 12 2 serves beer
+12880 19 2 category beer
+12880 12 34 serves pizza
+12880 19 34 category pizza
+12884 17 1040 uses seasonal ingredients
+12884 35 1040 values seasonal ingredients
+12888 12 34 serves pizza
+12888 19 34 category pizza
+12889 12 34 serves pizza
+12889 19 34 category pizza
+12892 12 34 serves pizza
+12892 19 34 category pizza
+12895 8 22 suitable for brunch
+12895 12 22 serves brunch
+12895 8 144 suitable for breakfast
+12895 12 144 serves breakfast
+12907 6 1253 has feature fries
+12907 12 1253 serves fries
+12909 5 46 is a cafe
+12909 19 46 category cafe
+12911 12 275 serves ice cream
+12911 19 275 category ice cream
+12911 12 3297 serves chocolate
+12911 19 3297 category chocolate
+12912 1 2 offers beer
+12912 19 2 category beer
+12930 1 22 offers brunch
+12930 8 22 suitable for brunch
+12933 12 181 serves burger
+12933 19 181 category burger
+12946 12 127 serves cocktails
+12946 19 127 category cocktails
+12946 12 466 serves steak
+12946 19 466 category steak
+12949 12 167 serves barbecue
+12949 19 167 category barbecue
+12950 5 10 is a restaurant
+12950 76 10 general category restaurant
+12957 5 333 is a coffee shop
+12957 19 333 category coffee shop
+12960 12 275 serves ice cream
+12960 19 275 category ice cream
+12976 12 166 serves sports bar
+12976 19 166 category sports bar
+12976 12 2283 serves irish pub
+12976 19 2283 category irish pub
+12980 12 22 serves brunch
+12980 68 22 serves category brunch
+12980 17 2021 uses locally sourced ingredients
+12980 109 2021 sources locally sourced ingredients
+12984 5 2164 is a park
+12984 19 2164 category park
+12991 11 552 presents art
+12991 64 552 has category art
+13009 12 34 serves pizza
+13009 19 34 category pizza
+13018 12 34 serves pizza
+13018 19 34 category pizza
+13020 6 2864 has feature music venue
+13020 19 2864 category music venue
+13023 2 2632 has atmosphere fun dining
+13023 8 2632 suitable for fun dining
+13023 12 431 serves mac and cheese
+13023 19 431 category mac and cheese
+13026 15 469 has issue service issues
+13026 26 469 willing to overlook service issues
+13037 5 920 is a Café
+13037 64 920 has category Café
+13038 1 22324 offers great comedians
+13038 6 22324 has feature great comedians
+13047 12 3378 serves auto service
+13047 19 3378 category auto service
+13047 76 3378 general category auto service
+13056 8 2 suitable for beer
+13056 12 2 serves beer
+13058 0 6565 located in local residents
+13058 4 6565 appeals to local residents
+13070 12 460 serves yogurt
+13070 19 460 category yogurt
+13074 5 46 is a cafe
+13074 19 46 category cafe
+13079 12 34 serves pizza
+13079 19 34 category pizza
+13079 12 602 serves salads
+13079 19 602 category salads
+13084 5 2188 is a Hardware store
+13084 19 2188 category Hardware store
+13084 5 9381 is a Home goods store
+13084 19 9381 category Home goods store
+13097 19 4227 category home goods
+13097 24 4227 sells home goods
+13103 5 161 is a Brewery
+13103 19 161 category Brewery
+13122 12 1253 serves fries
+13122 19 1253 category fries
+13128 12 47 serves coffee
+13128 19 47 category coffee
+13129 1 567 offers grocery
+13129 76 567 general category grocery
+13131 35 204 values customer service
+13131 50 204 provides customer service
+13138 12 22 serves brunch
+13138 35 22 values brunch
+13138 12 95 serves pastries
+13138 35 95 values pastries
+13159 12 47 serves coffee
+13159 19 47 category coffee
+13166 5 161 is a Brewery
+13166 19 161 category Brewery
+13168 12 466 serves steak
+13168 19 466 category steak
+13176 12 682 serves desserts
+13176 68 682 serves category desserts
+13183 1 2611 offers organic products
+13183 19 2611 category organic products
+13185 12 34 serves pizza
+13185 56 34 food options category pizza
+13185 12 181 serves burger
+13185 56 181 food options category burger
+13189 12 167 serves barbecue
+13189 64 167 has category barbecue
+13195 1 1500 offers scenic views
+13195 19 1500 category scenic views
+13199 5 2767 is a Trail
+13199 19 2767 category Trail
+13201 5 46 is a cafe
+13201 19 46 category cafe
+13212 12 34 serves pizza
+13212 19 34 category pizza
+13220 8 316 suitable for families
+13220 12 316 serves families
+13224 3 5 caters to dog owners
+13224 4 5 appeals to dog owners
+13226 3 361 caters to pet owners
+13226 12 361 serves pet owners
+13226 5 2783 is a Pet store
+13226 19 2783 category Pet store
+13234 6 3653 has feature affordable dining
+13234 8 3653 suitable for affordable dining
+13234 12 34 serves pizza
+13234 19 34 category pizza
+13234 12 22527 serves bread sticks
+13234 19 22527 category bread sticks
+13242 6 22535 has feature better quality toppings
+13242 35 22535 values better quality toppings
+13242 6 22536 has feature better flavors
+13242 35 22536 values better flavors
+13242 12 34 serves pizza
+13242 19 34 category pizza
+13242 35 34 values pizza
+13242 12 495 serves wings
+13242 19 495 category wings
+13242 35 495 values wings
+13245 12 78 serves deli
+13245 19 78 category deli
+13252 5 741 is a steakhouse
+13252 19 741 category steakhouse
+13252 6 654 has feature vibrant nightlife
+13252 8 654 suitable for vibrant nightlife
+13254 12 2 serves beer
+13254 19 2 category beer
+13254 12 12515 serves pretzels
+13254 19 12515 category pretzels
+13256 5 656 is a Resort
+13256 19 656 category Resort
+13257 12 397 serves sushi
+13257 19 397 category sushi
+13261 2 39 has atmosphere casual dining
+13261 8 39 suitable for casual dining
+13264 4 427 appeals to great service
+13264 6 427 has feature great service
+13277 12 5592 serves shoes
+13277 24 5592 sells shoes
+13278 6 1796 has feature live performances
+13278 19 1796 category live performances
+13278 12 2 serves beer
+13278 19 2 category beer
+13279 12 34 serves pizza
+13279 19 34 category pizza
+13286 12 181 serves burger
+13286 68 181 serves category burger
+13297 12 2668 serves milkshakes
+13297 19 2668 category milkshakes
+13312 12 47 serves coffee
+13312 76 47 general category coffee
+13313 2 479 has atmosphere relaxing
+13313 8 479 suitable for relaxing
+13314 8 216 suitable for vegan options
+13314 12 216 serves vegan options
+13314 8 1513 suitable for meat options
+13314 12 1513 serves meat options
+13315 12 22 serves brunch
+13315 19 22 category brunch
+13320 5 10 is a restaurant
+13320 19 10 category restaurant
+13323 6 4051 has feature Italian sandwiches
+13323 12 4051 serves Italian sandwiches
+13325 1 134 offers wine
+13325 76 134 general category wine
+13325 5 93 is a grocery store
+13325 76 93 general category grocery store
+13327 12 46 serves cafe
+13327 19 46 category cafe
+13336 12 740 serves baked goods
+13336 19 740 category baked goods
+13346 6 2679 has feature drive-thru
+13346 19 2679 category drive-thru
+13350 5 46 is a cafe
+13350 76 46 general category cafe
+13353 12 134 serves wine
+13353 19 134 category wine
+13358 6 501 has feature craft cocktails
+13358 12 501 serves craft cocktails
+13359 12 363 serves small plates
+13359 19 363 category small plates
+13359 12 371 serves tapas
+13359 19 371 category tapas
+13365 12 47 serves coffee
+13365 21 47 enjoys coffee
+13375 12 34 serves pizza
+13375 19 34 category pizza
+13375 12 495 serves wings
+13375 19 495 category wings
+13389 12 32 serves waffles
+13389 19 32 category waffles
+13389 12 275 serves ice cream
+13389 19 275 category ice cream
+13391 2 29 has atmosphere cozy
+13391 103 29 has ambiance cozy
+13391 2 1407 has atmosphere chic
+13391 103 1407 has ambiance chic
+13391 8 500 suitable for upscale dining
+13391 19 500 category upscale dining
+13409 8 22 suitable for brunch
+13409 12 22 serves brunch
+13409 8 144 suitable for breakfast
+13409 12 144 serves breakfast
+13411 12 296 serves hotel
+13411 19 296 category hotel
+13419 5 161 is a Brewery
+13419 19 161 category Brewery
+13420 12 290 serves entertainment
+13420 19 290 category entertainment
+13426 9 397 serves cuisine sushi
+13426 12 397 serves sushi
+13434 1 1573 offers costumes
+13434 24 1573 sells costumes
+13434 1 3965 offers lingerie
+13434 24 3965 sells lingerie
+13434 1 22767 offers adult items
+13434 24 22767 sells adult items
+13437 12 134 serves wine
+13437 19 134 category wine
+13456 12 3072 serves nail care
+13456 19 3072 category nail care
+13457 5 333 is a coffee shop
+13457 19 333 category coffee shop
+13459 8 348 suitable for sandwiches
+13459 12 348 serves sandwiches
+13461 2 39 has atmosphere casual dining
+13461 8 39 suitable for casual dining
+13462 12 2 serves beer
+13462 68 2 serves category beer
+13462 12 791 serves cider
+13462 68 791 serves category cider
+13467 19 4348 category international products
+13467 24 4348 sells international products
+13467 19 5387 category furniture
+13467 24 5387 sells furniture
+13470 5 2164 is a park
+13470 64 2164 has category park
+13489 8 1195 suitable for socializing
+13489 29 1195 has activity socializing
+13492 4 539 appeals to business travelers
+13492 12 539 serves business travelers
+13492 4 22850 appeals to City explorers
+13492 12 22850 serves City explorers
+13494 12 134 serves wine
+13494 19 134 category wine
+13500 5 2929 is a bar and grill
+13500 19 2929 category bar and grill
+13505 6 22858 has feature Music equipment
+13505 90 22858 interested in Music equipment
+13510 6 16 has feature lively atmosphere
+13510 21 16 enjoys lively atmosphere
+13514 1 134 offers wine
+13514 12 134 serves wine
+13515 12 22 serves brunch
+13515 19 22 category brunch
+13517 5 296 is a hotel
+13517 19 296 category hotel
+13518 19 10 category restaurant
+13518 76 10 general category restaurant
+13520 5 2165 is a Historical site
+13520 64 2165 has category Historical site
+13520 8 2203 suitable for history enthusiasts
+13520 12 2203 serves history enthusiasts
+13521 19 5387 category furniture
+13521 24 5387 sells furniture
+13531 5 78 is a deli
+13531 19 78 category deli
+13534 12 144 serves breakfast
+13534 19 144 category breakfast
+13536 5 9 is a bar
+13536 19 9 category bar
+13536 5 977 is a bistro
+13536 19 977 category bistro
+13537 1 1861 offers late-night dining
+13537 8 1861 suitable for late-night dining
+13540 12 5385 serves draft beer
+13540 77 5385 value draft beer
+13546 3 361 caters to pet owners
+13546 8 361 suitable for pet owners
+13546 3 1221 caters to Travelers
+13546 8 1221 suitable for Travelers
+13546 12 1970 serves accommodation
+13546 19 1970 category accommodation
+13567 2 39 has atmosphere casual dining
+13567 8 39 suitable for casual dining
+13574 12 803 serves dining
+13574 19 803 category dining
+13577 12 212 serves soups
+13577 21 212 enjoys soups
+13578 12 102 serves bakery
+13578 21 102 enjoys bakery
+13578 12 299 serves cheese
+13578 35 299 values cheese
+13578 12 1689 serves produce
+13578 21 1689 enjoys produce
+13582 12 106 serves chicken
+13582 19 106 category chicken
+13582 12 602 serves salads
+13582 19 602 category salads
+13583 6 4448 has feature shareable plates
+13583 12 4448 serves shareable plates
+13590 1 682 offers desserts
+13590 21 682 enjoys desserts
+13619 12 22995 serves Car rental
+13619 19 22995 category Car rental
+13621 4 2621 appeals to Music lovers
+13621 19 2621 category Music lovers
+13621 4 23003 appeals to Vinyl enthusiasts
+13621 8 23003 suitable for Vinyl enthusiasts
+13621 19 23003 category Vinyl enthusiasts
+13621 4 23004 appeals to Fans of Jack White
+13621 19 23004 category Fans of Jack White
+13628 5 9 is a bar
+13628 19 9 category bar
+13632 5 10 is a restaurant
+13632 19 10 category restaurant
+13636 4 138 appeals to Wine lovers
+13636 12 138 serves Wine lovers
+13636 4 361 appeals to pet owners
+13636 12 361 serves pet owners
+13636 4 3009 appeals to Book enthusiasts
+13636 12 3009 serves Book enthusiasts
+13637 19 23013 category craft supplies
+13637 24 23013 sells craft supplies
+13641 1 1517 offers products
+13641 12 1517 serves products
+13641 1 1780 offers groceries
+13641 12 1780 serves groceries
+13646 12 397 serves sushi
+13646 19 397 category sushi
+13646 12 3919 serves alcohol
+13646 19 3919 category alcohol
+13660 12 22 serves brunch
+13660 19 22 category brunch
+13669 12 397 serves sushi
+13669 19 397 category sushi
+13673 19 11856 category eyewear
+13673 24 11856 sells eyewear
+13678 5 830 is a gastropub
+13678 12 830 serves gastropub
+13682 12 34 serves pizza
+13682 19 34 category pizza
+13689 5 656 is a Resort
+13689 19 656 category Resort
+13701 19 2392 category accessories
+13701 24 2392 sells accessories
+13701 19 5593 category handbags
+13701 24 5593 sells handbags
+13705 1 144 offers breakfast
+13705 12 144 serves breakfast
+13707 10 467 serves dish carne asada
+13707 12 467 serves carne asada
+13707 10 842 serves dish enchiladas
+13707 12 842 serves enchiladas
+13707 10 2968 serves dish menudo
+13707 12 2968 serves menudo
+13707 10 23090 serves dish albondigas soup
+13707 12 23090 serves albondigas soup
+13707 10 23091 serves dish Old Style Machaca tacos
+13707 12 23091 serves Old Style Machaca tacos
+13712 12 2 serves beer
+13712 19 2 category beer
+13717 8 34 suitable for pizza
+13717 12 34 serves pizza
+13717 79 34 reputation pizza
+13720 12 15414 serves Dog treats
+13720 19 15414 category Dog treats
+13721 12 8767 serves apple picking
+13721 19 8767 category apple picking
+13724 2 3700 has atmosphere beach
+13724 5 3700 is a beach
+13724 6 23124 has feature Beaches
+13724 12 23124 serves Beaches
+13733 12 1 serves craft beer
+13733 64 1 has category craft beer
+13733 12 2 serves beer
+13733 64 2 has category beer
+13739 19 5853 category Dental care
+13739 50 5853 provides Dental care
+13740 12 375 serves bbq
+13740 19 375 category bbq
+13749 12 34 serves pizza
+13749 111 34 has cuisine pizza
+13758 12 9 serves bar
+13758 19 9 category bar
+13765 12 429 serves dessert
+13765 19 429 category dessert
+13769 12 39 serves casual dining
+13769 19 39 category casual dining
+13769 12 500 serves upscale dining
+13769 19 500 category upscale dining
+13774 12 522 serves tex-mex
+13774 84 522 serves genre tex-mex
+13780 4 23200 appeals to Dinosaur enthusiasts
+13780 12 23200 serves Dinosaur enthusiasts
+13780 8 23201 suitable for Budget-friendly experience
+13780 12 23201 serves Budget-friendly experience
+13793 6 290 has feature entertainment
+13793 8 290 suitable for entertainment
+13795 12 417 serves donuts
+13795 19 417 category donuts
+13802 3 361 caters to pet owners
+13802 4 361 appeals to pet owners
+13806 12 664 serves bubble tea
+13806 19 664 category bubble tea
+13807 12 2112 serves hair salon
+13807 76 2112 general category hair salon
+13808 12 34 serves pizza
+13808 19 34 category pizza
+13809 12 47 serves coffee
+13809 76 47 general category coffee
+13821 2 372 has atmosphere lively
+13821 6 372 has feature lively
+13821 6 240 has feature modern
+13821 63 240 features modern
+13834 5 2283 is a irish pub
+13834 19 2283 category irish pub
+13836 5 46 is a cafe
+13836 19 46 category cafe
+13836 5 333 is a coffee shop
+13836 19 333 category coffee shop
+13837 5 10 is a restaurant
+13837 19 10 category restaurant
+13845 5 46 is a cafe
+13845 19 46 category cafe
+13851 2 23285 has atmosphere colorful lights
+13851 6 23285 has feature colorful lights
+13855 5 78 is a deli
+13855 19 78 category deli
+13866 12 47 serves coffee
+13866 68 47 serves category coffee
+13872 19 47 category coffee
+13872 24 47 sells coffee
+13872 19 114 category spices
+13872 24 114 sells spices
+13872 19 621 category gifts
+13872 24 621 sells gifts
+13872 19 901 category tea
+13872 24 901 sells tea
+13874 6 39 has feature casual dining
+13874 19 39 category casual dining
+13874 12 34 serves pizza
+13874 68 34 serves category pizza
+13874 12 1037 serves salad
+13874 68 1037 serves category salad
+13875 6 146 has feature friendly service
+13875 123 146 valued for friendly service
+13875 7 40 price range affordable prices
+13875 123 40 valued for affordable prices
+13882 12 181 serves burger
+13882 124 181 menu includes burger
+13882 12 1253 serves fries
+13882 124 1253 menu includes fries
+13882 12 1260 serves sauces
+13882 124 1260 menu includes sauces
+13884 12 296 serves hotel
+13884 19 296 category hotel
+13892 12 3463 serves sausage
+13892 40 3463 specializes in sausage
+13913 12 134 serves wine
+13913 19 134 category wine
+13913 12 1486 serves snacks
+13913 19 1486 category snacks
+13915 2 23361 has atmosphere seasonal celebrations
+13915 8 23361 suitable for seasonal celebrations
+13918 5 46 is a cafe
+13918 64 46 has category cafe
+13918 8 144 suitable for breakfast
+13918 12 144 serves breakfast
+13926 12 9 serves bar
+13926 19 9 category bar
+13926 12 34 serves pizza
+13926 19 34 category pizza
+13934 12 718 serves nightlife
+13934 19 718 category nightlife
+13935 19 620 category home decor
+13935 24 620 sells home decor
+13935 19 9014 category art supplies
+13935 24 9014 sells art supplies
+13935 19 23382 category hobby items
+13935 24 23382 sells hobby items
+13938 5 10 is a restaurant
+13938 19 10 category restaurant
+13940 12 34 serves pizza
+13940 111 34 has cuisine pizza
+13951 12 397 serves sushi
+13951 68 397 serves category sushi
+13953 12 211 serves crepes
+13953 19 211 category crepes
+13963 12 47 serves coffee
+13963 76 47 general category coffee
+13963 12 6229 serves barber services
+13963 76 6229 general category barber services
+13964 6 2 has feature beer
+13964 12 2 serves beer
+13964 64 2 has category beer
+13979 12 2261 serves dim sum
+13979 19 2261 category dim sum
+13984 12 2646 serves outdoor activities
+13984 20 2646 interests outdoor activities
+13988 1 95 offers pastries
+13988 56 95 food options category pastries
+13989 6 178 has feature friendly staff
+13989 35 178 values friendly staff
+13997 12 181 serves burger
+13997 19 181 category burger
+14008 12 1677 serves french toast
+14008 19 1677 category french toast
+14025 12 154 serves pasta
+14025 19 154 category pasta
+14039 12 239 serves tacos
+14039 19 239 category tacos
+14047 12 1825 serves spirits
+14047 19 1825 category spirits
+14049 19 1826 category distillery
+14049 90 1826 interested in distillery
+14053 12 4568 serves breakfast burritos
+14053 27 4568 has option breakfast burritos
+14053 12 23498 serves Reubens
+14053 27 23498 has option Reubens
+14064 5 333 is a coffee shop
+14064 19 333 category coffee shop
+14065 2 146 has atmosphere friendly service
+14065 6 146 has feature friendly service
+14068 12 2029 serves cocktail bar
+14068 19 2029 category cocktail bar
+14080 12 34 serves pizza
+14080 49 34 focus on pizza

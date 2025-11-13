@@ -1,0 +1,11742 @@
+[
+  {
+    "iid": "11285",
+    "triplets": [
+      [
+        "11285",
+        "category",
+        "cocktail bars"
+      ],
+      [
+        "11285",
+        "serves",
+        "cocktail bars"
+      ]
+    ]
+  },
+  {
+    "iid": "11307",
+    "triplets": [
+      [
+        "11307",
+        "offers",
+        "chocolate"
+      ],
+      [
+        "11307",
+        "presents",
+        "chocolate"
+      ]
+    ]
+  },
+  {
+    "iid": "11308",
+    "triplets": [
+      [
+        "11308",
+        "category",
+        "coffee"
+      ],
+      [
+        "11308",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "11339",
+    "triplets": [
+      [
+        "11339",
+        "category",
+        "wine"
+      ],
+      [
+        "11339",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "11360",
+    "triplets": [
+      [
+        "11360",
+        "appeals to",
+        "vegetarian-friendly options"
+      ],
+      [
+        "11360",
+        "serves",
+        "vegetarian-friendly options"
+      ]
+    ]
+  },
+  {
+    "iid": "11362",
+    "triplets": [
+      [
+        "11362",
+        "has feature",
+        "waterfront experiences"
+      ],
+      [
+        "11362",
+        "serves",
+        "waterfront experiences"
+      ]
+    ]
+  },
+  {
+    "iid": "11422",
+    "triplets": [
+      [
+        "11422",
+        "has feature",
+        "business meetings"
+      ],
+      [
+        "11422",
+        "suitable for",
+        "business meetings"
+      ]
+    ]
+  },
+  {
+    "iid": "11438",
+    "triplets": [
+      [
+        "11438",
+        "category",
+        "salad"
+      ],
+      [
+        "11438",
+        "serves",
+        "salad"
+      ]
+    ]
+  },
+  {
+    "iid": "1145",
+    "triplets": [
+      [
+        "1145",
+        "has feature",
+        "pizza"
+      ],
+      [
+        "1145",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "11470",
+    "triplets": [
+      [
+        "11470",
+        "serves",
+        "cheese"
+      ],
+      [
+        "11470",
+        "specializes in",
+        "cheese"
+      ]
+    ]
+  },
+  {
+    "iid": "11505",
+    "triplets": [
+      [
+        "11505",
+        "has atmosphere",
+        "family-friendly atmosphere"
+      ],
+      [
+        "11505",
+        "has feature",
+        "family-friendly atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "11589",
+    "triplets": [
+      [
+        "11589",
+        "has feature",
+        "drink specials"
+      ],
+      [
+        "11589",
+        "offers",
+        "drink specials"
+      ]
+    ]
+  },
+  {
+    "iid": "11597",
+    "triplets": [
+      [
+        "11597",
+        "category",
+        "sushi"
+      ],
+      [
+        "11597",
+        "serves",
+        "sushi"
+      ]
+    ]
+  },
+  {
+    "iid": "11601",
+    "triplets": [
+      [
+        "11601",
+        "has highlight",
+        "takeout"
+      ],
+      [
+        "11601",
+        "suitable for",
+        "takeout"
+      ]
+    ]
+  },
+  {
+    "iid": "11607",
+    "triplets": [
+      [
+        "11607",
+        "has feature",
+        "baked goods"
+      ],
+      [
+        "11607",
+        "serves",
+        "baked goods"
+      ]
+    ]
+  },
+  {
+    "iid": "11607",
+    "triplets": [
+      [
+        "11607",
+        "has feature",
+        "cakes"
+      ],
+      [
+        "11607",
+        "serves",
+        "cakes"
+      ]
+    ]
+  },
+  {
+    "iid": "11607",
+    "triplets": [
+      [
+        "11607",
+        "has feature",
+        "desserts"
+      ],
+      [
+        "11607",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "1161",
+    "triplets": [
+      [
+        "1161",
+        "appeals to",
+        "wildlife enthusiasts"
+      ],
+      [
+        "1161",
+        "serves",
+        "wildlife enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "11644",
+    "triplets": [
+      [
+        "11644",
+        "appeals to",
+        "outdoor activities"
+      ],
+      [
+        "11644",
+        "has feature",
+        "outdoor activities"
+      ]
+    ]
+  },
+  {
+    "iid": "11672",
+    "triplets": [
+      [
+        "11672",
+        "serves",
+        "doughnuts"
+      ],
+      [
+        "11672",
+        "specializes in",
+        "doughnuts"
+      ]
+    ]
+  },
+  {
+    "iid": "11684",
+    "triplets": [
+      [
+        "11684",
+        "has feature",
+        "soft-serve ice cream"
+      ],
+      [
+        "11684",
+        "serves",
+        "soft-serve ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "11712",
+    "triplets": [
+      [
+        "11712",
+        "offers",
+        "Apple products"
+      ],
+      [
+        "11712",
+        "serves",
+        "Apple products"
+      ]
+    ]
+  },
+  {
+    "iid": "11715",
+    "triplets": [
+      [
+        "11715",
+        "category",
+        "nail salon"
+      ],
+      [
+        "11715",
+        "serves",
+        "nail salon"
+      ]
+    ]
+  },
+  {
+    "iid": "11728",
+    "triplets": [
+      [
+        "11728",
+        "appeals to",
+        "local community members"
+      ],
+      [
+        "11728",
+        "located in",
+        "local community members"
+      ]
+    ]
+  },
+  {
+    "iid": "11754",
+    "triplets": [
+      [
+        "11754",
+        "category",
+        "brewery"
+      ],
+      [
+        "11754",
+        "is a",
+        "brewery"
+      ]
+    ]
+  },
+  {
+    "iid": "11762",
+    "triplets": [
+      [
+        "11762",
+        "category",
+        "deli sandwiches"
+      ],
+      [
+        "11762",
+        "serves",
+        "deli sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "11763",
+    "triplets": [
+      [
+        "11763",
+        "category",
+        "beer"
+      ],
+      [
+        "11763",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "11765",
+    "triplets": [
+      [
+        "11765",
+        "appeals to",
+        "Fans of pub ambiance"
+      ],
+      [
+        "11765",
+        "suitable for",
+        "Fans of pub ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": "11809",
+    "triplets": [
+      [
+        "11809",
+        "has feature",
+        "organic products"
+      ],
+      [
+        "11809",
+        "offers",
+        "organic products"
+      ]
+    ]
+  },
+  {
+    "iid": "11809",
+    "triplets": [
+      [
+        "11809",
+        "has feature",
+        "wine"
+      ],
+      [
+        "11809",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "11822",
+    "triplets": [
+      [
+        "11822",
+        "offers",
+        "pizza"
+      ],
+      [
+        "11822",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "11827",
+    "triplets": [
+      [
+        "11827",
+        "category",
+        "bagel"
+      ],
+      [
+        "11827",
+        "serves",
+        "bagel"
+      ]
+    ]
+  },
+  {
+    "iid": "11858",
+    "triplets": [
+      [
+        "11858",
+        "category",
+        "beer"
+      ],
+      [
+        "11858",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "11859",
+    "triplets": [
+      [
+        "11859",
+        "category",
+        "pizza"
+      ],
+      [
+        "11859",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "11859",
+    "triplets": [
+      [
+        "11859",
+        "category",
+        "salads"
+      ],
+      [
+        "11859",
+        "serves",
+        "salads"
+      ]
+    ]
+  },
+  {
+    "iid": "11859",
+    "triplets": [
+      [
+        "11859",
+        "category",
+        "wings"
+      ],
+      [
+        "11859",
+        "serves",
+        "wings"
+      ]
+    ]
+  },
+  {
+    "iid": "11882",
+    "triplets": [
+      [
+        "11882",
+        "has feature",
+        "specialty chocolates"
+      ],
+      [
+        "11882",
+        "offers",
+        "specialty chocolates"
+      ]
+    ]
+  },
+  {
+    "iid": "11891",
+    "triplets": [
+      [
+        "11891",
+        "category",
+        "Toy store"
+      ],
+      [
+        "11891",
+        "is a",
+        "Toy store"
+      ]
+    ]
+  },
+  {
+    "iid": "11980",
+    "triplets": [
+      [
+        "11980",
+        "is a",
+        "zoo"
+      ],
+      [
+        "11980",
+        "serves",
+        "zoo"
+      ]
+    ]
+  },
+  {
+    "iid": "12049",
+    "triplets": [
+      [
+        "12049",
+        "category",
+        "deli"
+      ],
+      [
+        "12049",
+        "serves",
+        "deli"
+      ]
+    ]
+  },
+  {
+    "iid": "12067",
+    "triplets": [
+      [
+        "12067",
+        "appeals to",
+        "business travelers"
+      ],
+      [
+        "12067",
+        "suitable for",
+        "business travelers"
+      ]
+    ]
+  },
+  {
+    "iid": "12067",
+    "triplets": [
+      [
+        "12067",
+        "appeals to",
+        "conference attendees"
+      ],
+      [
+        "12067",
+        "suitable for",
+        "conference attendees"
+      ]
+    ]
+  },
+  {
+    "iid": "12111",
+    "triplets": [
+      [
+        "12111",
+        "is a",
+        "theater"
+      ],
+      [
+        "12111",
+        "serves",
+        "theater"
+      ]
+    ]
+  },
+  {
+    "iid": "12122",
+    "triplets": [
+      [
+        "12122",
+        "has feature",
+        "generous portions"
+      ],
+      [
+        "12122",
+        "offers",
+        "generous portions"
+      ]
+    ]
+  },
+  {
+    "iid": "12156",
+    "triplets": [
+      [
+        "12156",
+        "has feature",
+        "fruit salads"
+      ],
+      [
+        "12156",
+        "serves",
+        "fruit salads"
+      ]
+    ]
+  },
+  {
+    "iid": "12156",
+    "triplets": [
+      [
+        "12156",
+        "has feature",
+        "smoothies"
+      ],
+      [
+        "12156",
+        "serves",
+        "smoothies"
+      ]
+    ]
+  },
+  {
+    "iid": "1216",
+    "triplets": [
+      [
+        "1216",
+        "offers",
+        "desserts"
+      ],
+      [
+        "1216",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "12176",
+    "triplets": [
+      [
+        "12176",
+        "has ingredient",
+        "meats"
+      ],
+      [
+        "12176",
+        "made from",
+        "meats"
+      ]
+    ]
+  },
+  {
+    "iid": "12194",
+    "triplets": [
+      [
+        "12194",
+        "has feature",
+        "creative cocktails"
+      ],
+      [
+        "12194",
+        "serves",
+        "creative cocktails"
+      ]
+    ]
+  },
+  {
+    "iid": "12208",
+    "triplets": [
+      [
+        "12208",
+        "category",
+        "cafe"
+      ],
+      [
+        "12208",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "12212",
+    "triplets": [
+      [
+        "12212",
+        "offers",
+        "herbs"
+      ],
+      [
+        "12212",
+        "serves",
+        "herbs"
+      ]
+    ]
+  },
+  {
+    "iid": "12238",
+    "triplets": [
+      [
+        "12238",
+        "category",
+        "casual dining"
+      ],
+      [
+        "12238",
+        "has feature",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "12238",
+    "triplets": [
+      [
+        "12238",
+        "category",
+        "friendly atmosphere"
+      ],
+      [
+        "12238",
+        "has atmosphere",
+        "friendly atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "12245",
+    "triplets": [
+      [
+        "12245",
+        "offers",
+        "organic products"
+      ],
+      [
+        "12245",
+        "specializes in",
+        "organic products"
+      ]
+    ]
+  },
+  {
+    "iid": "12258",
+    "triplets": [
+      [
+        "12258",
+        "appeals to",
+        "vintage bowling alley experience"
+      ],
+      [
+        "12258",
+        "has feature",
+        "vintage bowling alley experience"
+      ]
+    ]
+  },
+  {
+    "iid": "12260",
+    "triplets": [
+      [
+        "12260",
+        "category",
+        "pizza"
+      ],
+      [
+        "12260",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "1229",
+    "triplets": [
+      [
+        "1229",
+        "offers",
+        "chicken"
+      ],
+      [
+        "1229",
+        "serves",
+        "chicken"
+      ]
+    ]
+  },
+  {
+    "iid": "1229",
+    "triplets": [
+      [
+        "1229",
+        "offers",
+        "dessert"
+      ],
+      [
+        "1229",
+        "serves",
+        "dessert"
+      ]
+    ]
+  },
+  {
+    "iid": "1229",
+    "triplets": [
+      [
+        "1229",
+        "offers",
+        "pasta"
+      ],
+      [
+        "1229",
+        "serves",
+        "pasta"
+      ]
+    ]
+  },
+  {
+    "iid": "12323",
+    "triplets": [
+      [
+        "12323",
+        "offers",
+        "bagel"
+      ],
+      [
+        "12323",
+        "serves",
+        "bagel"
+      ]
+    ]
+  },
+  {
+    "iid": "12351",
+    "triplets": [
+      [
+        "12351",
+        "is a",
+        "deli"
+      ],
+      [
+        "12351",
+        "serves",
+        "deli"
+      ]
+    ]
+  },
+  {
+    "iid": "12413",
+    "triplets": [
+      [
+        "12413",
+        "has feature",
+        "consistency"
+      ],
+      [
+        "12413",
+        "prioritizes",
+        "consistency"
+      ]
+    ]
+  },
+  {
+    "iid": "12413",
+    "triplets": [
+      [
+        "12413",
+        "has feature",
+        "personalized service"
+      ],
+      [
+        "12413",
+        "prioritizes",
+        "personalized service"
+      ]
+    ]
+  },
+  {
+    "iid": "12430",
+    "triplets": [
+      [
+        "12430",
+        "has feature",
+        "interesting menus"
+      ],
+      [
+        "12430",
+        "serves",
+        "interesting menus"
+      ]
+    ]
+  },
+  {
+    "iid": "12430",
+    "triplets": [
+      [
+        "12430",
+        "has feature",
+        "well-chosen wines"
+      ],
+      [
+        "12430",
+        "serves",
+        "well-chosen wines"
+      ]
+    ]
+  },
+  {
+    "iid": "12442",
+    "triplets": [
+      [
+        "12442",
+        "category",
+        "car wash"
+      ],
+      [
+        "12442",
+        "serves",
+        "car wash"
+      ]
+    ]
+  },
+  {
+    "iid": "12453",
+    "triplets": [
+      [
+        "12453",
+        "category",
+        "beer"
+      ],
+      [
+        "12453",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "12453",
+    "triplets": [
+      [
+        "12453",
+        "category",
+        "deli sandwiches"
+      ],
+      [
+        "12453",
+        "serves",
+        "deli sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "12473",
+    "triplets": [
+      [
+        "12473",
+        "is a",
+        "steakhouse"
+      ],
+      [
+        "12473",
+        "specializes in",
+        "steakhouse"
+      ]
+    ]
+  },
+  {
+    "iid": "12483",
+    "triplets": [
+      [
+        "12483",
+        "appeals to",
+        "wine enthusiasts"
+      ],
+      [
+        "12483",
+        "serves",
+        "wine enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "12489",
+    "triplets": [
+      [
+        "12489",
+        "category",
+        "deli"
+      ],
+      [
+        "12489",
+        "serves",
+        "deli"
+      ]
+    ]
+  },
+  {
+    "iid": "12505",
+    "triplets": [
+      [
+        "12505",
+        "appeals to",
+        "families with picky eaters"
+      ],
+      [
+        "12505",
+        "suitable for",
+        "families with picky eaters"
+      ]
+    ]
+  },
+  {
+    "iid": "12508",
+    "triplets": [
+      [
+        "12508",
+        "category",
+        "restaurant"
+      ],
+      [
+        "12508",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "1252",
+    "triplets": [
+      [
+        "1252",
+        "has atmosphere",
+        "friendly staff"
+      ],
+      [
+        "1252",
+        "has feature",
+        "friendly staff"
+      ]
+    ]
+  },
+  {
+    "iid": "12532",
+    "triplets": [
+      [
+        "12532",
+        "category",
+        "hot dog"
+      ],
+      [
+        "12532",
+        "serves",
+        "hot dog"
+      ]
+    ]
+  },
+  {
+    "iid": "12549",
+    "triplets": [
+      [
+        "12549",
+        "features",
+        "live music"
+      ],
+      [
+        "12549",
+        "has feature",
+        "live music"
+      ]
+    ]
+  },
+  {
+    "iid": "12552",
+    "triplets": [
+      [
+        "12552",
+        "category",
+        "bakery"
+      ],
+      [
+        "12552",
+        "is a",
+        "bakery"
+      ]
+    ]
+  },
+  {
+    "iid": "12569",
+    "triplets": [
+      [
+        "12569",
+        "has feature",
+        "water stations"
+      ],
+      [
+        "12569",
+        "serves",
+        "water stations"
+      ]
+    ]
+  },
+  {
+    "iid": "1257",
+    "triplets": [
+      [
+        "1257",
+        "category",
+        "fish hoagies"
+      ],
+      [
+        "1257",
+        "serves",
+        "fish hoagies"
+      ]
+    ]
+  },
+  {
+    "iid": "12573",
+    "triplets": [
+      [
+        "12573",
+        "is a",
+        "massage therapy"
+      ],
+      [
+        "12573",
+        "serves",
+        "massage therapy"
+      ]
+    ]
+  },
+  {
+    "iid": "12577",
+    "triplets": [
+      [
+        "12577",
+        "has feature",
+        "vegetables"
+      ],
+      [
+        "12577",
+        "serves",
+        "vegetables"
+      ]
+    ]
+  },
+  {
+    "iid": "12581",
+    "triplets": [
+      [
+        "12581",
+        "category",
+        "cafe"
+      ],
+      [
+        "12581",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "12621",
+    "triplets": [
+      [
+        "12621",
+        "has variety of",
+        "champagne"
+      ],
+      [
+        "12621",
+        "serves",
+        "champagne"
+      ]
+    ]
+  },
+  {
+    "iid": "12621",
+    "triplets": [
+      [
+        "12621",
+        "has variety of",
+        "whiskey"
+      ],
+      [
+        "12621",
+        "serves",
+        "whiskey"
+      ]
+    ]
+  },
+  {
+    "iid": "12632",
+    "triplets": [
+      [
+        "12632",
+        "has atmosphere",
+        "vibrant atmosphere"
+      ],
+      [
+        "12632",
+        "has feature",
+        "vibrant atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "12677",
+    "triplets": [
+      [
+        "12677",
+        "has feature",
+        "convenience"
+      ],
+      [
+        "12677",
+        "provides",
+        "convenience"
+      ]
+    ]
+  },
+  {
+    "iid": "12720",
+    "triplets": [
+      [
+        "12720",
+        "has feature",
+        "dates"
+      ],
+      [
+        "12720",
+        "suitable for",
+        "dates"
+      ]
+    ]
+  },
+  {
+    "iid": "12720",
+    "triplets": [
+      [
+        "12720",
+        "has feature",
+        "small group dinners"
+      ],
+      [
+        "12720",
+        "suitable for",
+        "small group dinners"
+      ]
+    ]
+  },
+  {
+    "iid": "12723",
+    "triplets": [
+      [
+        "12723",
+        "appeals to",
+        "art enthusiasts"
+      ],
+      [
+        "12723",
+        "serves",
+        "art enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "12723",
+    "triplets": [
+      [
+        "12723",
+        "appeals to",
+        "families"
+      ],
+      [
+        "12723",
+        "serves",
+        "families"
+      ]
+    ]
+  },
+  {
+    "iid": "12723",
+    "triplets": [
+      [
+        "12723",
+        "appeals to",
+        "individuals"
+      ],
+      [
+        "12723",
+        "serves",
+        "individuals"
+      ]
+    ]
+  },
+  {
+    "iid": "12739",
+    "triplets": [
+      [
+        "12739",
+        "has feature",
+        "chic decor"
+      ],
+      [
+        "12739",
+        "has setting",
+        "chic decor"
+      ]
+    ]
+  },
+  {
+    "iid": "1280",
+    "triplets": [
+      [
+        "1280",
+        "category",
+        "clothing"
+      ],
+      [
+        "1280",
+        "offers",
+        "clothing"
+      ],
+      [
+        "1280",
+        "serves",
+        "clothing"
+      ]
+    ]
+  },
+  {
+    "iid": "1280",
+    "triplets": [
+      [
+        "1280",
+        "category",
+        "household goods"
+      ],
+      [
+        "1280",
+        "offers",
+        "household goods"
+      ],
+      [
+        "1280",
+        "serves",
+        "household goods"
+      ]
+    ]
+  },
+  {
+    "iid": "12814",
+    "triplets": [
+      [
+        "12814",
+        "has atmosphere",
+        "ocean-themed ambiance"
+      ],
+      [
+        "12814",
+        "has feature",
+        "ocean-themed ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": "12835",
+    "triplets": [
+      [
+        "12835",
+        "category",
+        "frozen yogurt"
+      ],
+      [
+        "12835",
+        "serves",
+        "frozen yogurt"
+      ]
+    ]
+  },
+  {
+    "iid": "12839",
+    "triplets": [
+      [
+        "12839",
+        "has atmosphere",
+        "casual pub atmosphere"
+      ],
+      [
+        "12839",
+        "has feature",
+        "casual pub atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "12843",
+    "triplets": [
+      [
+        "12843",
+        "category",
+        "bbq"
+      ],
+      [
+        "12843",
+        "serves",
+        "bbq"
+      ]
+    ]
+  },
+  {
+    "iid": "12856",
+    "triplets": [
+      [
+        "12856",
+        "serves",
+        "pizza"
+      ],
+      [
+        "12856",
+        "specializes in",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "12902",
+    "triplets": [
+      [
+        "12902",
+        "has feature",
+        "sandwiches"
+      ],
+      [
+        "12902",
+        "serves",
+        "sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "12919",
+    "triplets": [
+      [
+        "12919",
+        "offers",
+        "live entertainment"
+      ],
+      [
+        "12919",
+        "provides",
+        "live entertainment"
+      ]
+    ]
+  },
+  {
+    "iid": "12930",
+    "triplets": [
+      [
+        "12930",
+        "has feature",
+        "brunch"
+      ],
+      [
+        "12930",
+        "serves",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "1295",
+    "triplets": [
+      [
+        "1295",
+        "has feature",
+        "personalized chef's selections"
+      ],
+      [
+        "1295",
+        "offers",
+        "personalized chef's selections"
+      ]
+    ]
+  },
+  {
+    "iid": "12960",
+    "triplets": [
+      [
+        "12960",
+        "has feature",
+        "ice cream"
+      ],
+      [
+        "12960",
+        "serves",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "12963",
+    "triplets": [
+      [
+        "12963",
+        "has atmosphere",
+        "atmosphere"
+      ],
+      [
+        "12963",
+        "prioritizes",
+        "atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "12963",
+    "triplets": [
+      [
+        "12963",
+        "has feature",
+        "local sustainable ingredients"
+      ],
+      [
+        "12963",
+        "prioritizes",
+        "local sustainable ingredients"
+      ]
+    ]
+  },
+  {
+    "iid": "12967",
+    "triplets": [
+      [
+        "12967",
+        "category",
+        "popsicles"
+      ],
+      [
+        "12967",
+        "serves",
+        "popsicles"
+      ]
+    ]
+  },
+  {
+    "iid": "12996",
+    "triplets": [
+      [
+        "12996",
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        "12996",
+        "has staff",
+        "friendly staff"
+      ]
+    ]
+  },
+  {
+    "iid": "13011",
+    "triplets": [
+      [
+        "13011",
+        "has atmosphere",
+        "fun atmosphere"
+      ],
+      [
+        "13011",
+        "has feature",
+        "fun atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "13020",
+    "triplets": [
+      [
+        "13020",
+        "category",
+        "music venue"
+      ],
+      [
+        "13020",
+        "has feature",
+        "music venue"
+      ]
+    ]
+  },
+  {
+    "iid": "13071",
+    "triplets": [
+      [
+        "13071",
+        "category",
+        "sushi"
+      ],
+      [
+        "13071",
+        "serves",
+        "sushi"
+      ]
+    ]
+  },
+  {
+    "iid": "13102",
+    "triplets": [
+      [
+        "13102",
+        "appeals to",
+        "quick service"
+      ],
+      [
+        "13102",
+        "has feature",
+        "quick service"
+      ]
+    ]
+  },
+  {
+    "iid": "13168",
+    "triplets": [
+      [
+        "13168",
+        "offers",
+        "steak"
+      ],
+      [
+        "13168",
+        "serves",
+        "steak"
+      ]
+    ]
+  },
+  {
+    "iid": "13174",
+    "triplets": [
+      [
+        "13174",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "13174",
+        "has feature",
+        "cozy"
+      ]
+    ]
+  },
+  {
+    "iid": "13177",
+    "triplets": [
+      [
+        "13177",
+        "category",
+        "Irish pub"
+      ],
+      [
+        "13177",
+        "serves",
+        "Irish pub"
+      ]
+    ]
+  },
+  {
+    "iid": "13177",
+    "triplets": [
+      [
+        "13177",
+        "has feature",
+        "brunch"
+      ],
+      [
+        "13177",
+        "suitable for",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "13195",
+    "triplets": [
+      [
+        "13195",
+        "has feature",
+        "scenic views"
+      ],
+      [
+        "13195",
+        "offers",
+        "scenic views"
+      ]
+    ]
+  },
+  {
+    "iid": "13208",
+    "triplets": [
+      [
+        "13208",
+        "has atmosphere",
+        "reasonable prices"
+      ],
+      [
+        "13208",
+        "has price range",
+        "reasonable prices"
+      ]
+    ]
+  },
+  {
+    "iid": "13229",
+    "triplets": [
+      [
+        "13229",
+        "offers",
+        "merchandise"
+      ],
+      [
+        "13229",
+        "serves",
+        "merchandise"
+      ]
+    ]
+  },
+  {
+    "iid": "13248",
+    "triplets": [
+      [
+        "13248",
+        "category",
+        "sushi"
+      ],
+      [
+        "13248",
+        "serves",
+        "sushi"
+      ]
+    ]
+  },
+  {
+    "iid": "13253",
+    "triplets": [
+      [
+        "13253",
+        "has feature",
+        "small plates"
+      ],
+      [
+        "13253",
+        "serves",
+        "small plates"
+      ]
+    ]
+  },
+  {
+    "iid": "13256",
+    "triplets": [
+      [
+        "13256",
+        "category",
+        "Resort"
+      ],
+      [
+        "13256",
+        "is a",
+        "Resort"
+      ]
+    ]
+  },
+  {
+    "iid": "13278",
+    "triplets": [
+      [
+        "13278",
+        "offers",
+        "beer"
+      ],
+      [
+        "13278",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "13318",
+    "triplets": [
+      [
+        "13318",
+        "category",
+        "baked goods"
+      ],
+      [
+        "13318",
+        "serves",
+        "baked goods"
+      ]
+    ]
+  },
+  {
+    "iid": "13318",
+    "triplets": [
+      [
+        "13318",
+        "category",
+        "coffee"
+      ],
+      [
+        "13318",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "13332",
+    "triplets": [
+      [
+        "13332",
+        "has feature",
+        "shrimp soup"
+      ],
+      [
+        "13332",
+        "serves",
+        "shrimp soup"
+      ]
+    ]
+  },
+  {
+    "iid": "13377",
+    "triplets": [
+      [
+        "13377",
+        "category",
+        "restaurant"
+      ],
+      [
+        "13377",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "13386",
+    "triplets": [
+      [
+        "13386",
+        "has feature",
+        "diverse liquor selection"
+      ],
+      [
+        "13386",
+        "has issue",
+        "diverse liquor selection"
+      ]
+    ]
+  },
+  {
+    "iid": "13397",
+    "triplets": [
+      [
+        "13397",
+        "has atmosphere",
+        "lively setting"
+      ],
+      [
+        "13397",
+        "suitable for",
+        "lively setting"
+      ]
+    ]
+  },
+  {
+    "iid": "13405",
+    "triplets": [
+      [
+        "13405",
+        "has variety of",
+        "hoagies"
+      ],
+      [
+        "13405",
+        "serves",
+        "hoagies"
+      ]
+    ]
+  },
+  {
+    "iid": "13405",
+    "triplets": [
+      [
+        "13405",
+        "has variety of",
+        "strombolis"
+      ],
+      [
+        "13405",
+        "serves",
+        "strombolis"
+      ]
+    ]
+  },
+  {
+    "iid": "1341",
+    "triplets": [
+      [
+        "1341",
+        "has feature",
+        "rewards programs"
+      ],
+      [
+        "1341",
+        "offers",
+        "rewards programs"
+      ]
+    ]
+  },
+  {
+    "iid": "13417",
+    "triplets": [
+      [
+        "13417",
+        "offers",
+        "plants"
+      ],
+      [
+        "13417",
+        "specializes in",
+        "plants"
+      ]
+    ]
+  },
+  {
+    "iid": "13442",
+    "triplets": [
+      [
+        "13442",
+        "has experience",
+        "buffet"
+      ],
+      [
+        "13442",
+        "is a",
+        "buffet"
+      ]
+    ]
+  },
+  {
+    "iid": "13456",
+    "triplets": [
+      [
+        "13456",
+        "has feature",
+        "pink and white full set"
+      ],
+      [
+        "13456",
+        "serves",
+        "pink and white full set"
+      ]
+    ]
+  },
+  {
+    "iid": "13464",
+    "triplets": [
+      [
+        "13464",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "13464",
+        "has service",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "13470",
+    "triplets": [
+      [
+        "13470",
+        "has feature",
+        "park"
+      ],
+      [
+        "13470",
+        "is a",
+        "park"
+      ]
+    ]
+  },
+  {
+    "iid": "13473",
+    "triplets": [
+      [
+        "13473",
+        "has feature",
+        "organic drinks"
+      ],
+      [
+        "13473",
+        "serves",
+        "organic drinks"
+      ]
+    ]
+  },
+  {
+    "iid": "13483",
+    "triplets": [
+      [
+        "13483",
+        "has feature",
+        "catering options"
+      ],
+      [
+        "13483",
+        "offers",
+        "catering options"
+      ]
+    ]
+  },
+  {
+    "iid": "13483",
+    "triplets": [
+      [
+        "13483",
+        "has feature",
+        "lunch specials"
+      ],
+      [
+        "13483",
+        "offers",
+        "lunch specials"
+      ]
+    ]
+  },
+  {
+    "iid": "1349",
+    "triplets": [
+      [
+        "1349",
+        "has feature",
+        "fries"
+      ],
+      [
+        "1349",
+        "serves",
+        "fries"
+      ]
+    ]
+  },
+  {
+    "iid": "1350",
+    "triplets": [
+      [
+        "1350",
+        "category",
+        "breakfast"
+      ],
+      [
+        "1350",
+        "serves",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "13510",
+    "triplets": [
+      [
+        "13510",
+        "appeals to",
+        "lively atmosphere"
+      ],
+      [
+        "13510",
+        "has atmosphere",
+        "lively atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "13533",
+    "triplets": [
+      [
+        "13533",
+        "has atmosphere",
+        "friendly service"
+      ],
+      [
+        "13533",
+        "has feature",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "13533",
+    "triplets": [
+      [
+        "13533",
+        "has feature",
+        "trivia nights"
+      ],
+      [
+        "13533",
+        "suitable for",
+        "trivia nights"
+      ]
+    ]
+  },
+  {
+    "iid": "13542",
+    "triplets": [
+      [
+        "13542",
+        "appeals to",
+        "families"
+      ],
+      [
+        "13542",
+        "suitable for",
+        "families"
+      ]
+    ]
+  },
+  {
+    "iid": "13545",
+    "triplets": [
+      [
+        "13545",
+        "is a",
+        "pizza"
+      ],
+      [
+        "13545",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "13571",
+    "triplets": [
+      [
+        "13571",
+        "has feature",
+        "alcoholic slushies"
+      ],
+      [
+        "13571",
+        "serves",
+        "alcoholic slushies"
+      ]
+    ]
+  },
+  {
+    "iid": "13571",
+    "triplets": [
+      [
+        "13571",
+        "has feature",
+        "specialty coffee blends"
+      ],
+      [
+        "13571",
+        "serves",
+        "specialty coffee blends"
+      ]
+    ]
+  },
+  {
+    "iid": "13579",
+    "triplets": [
+      [
+        "13579",
+        "offers",
+        "coffee"
+      ],
+      [
+        "13579",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "13599",
+    "triplets": [
+      [
+        "13599",
+        "has feature",
+        "cheesy tacos"
+      ],
+      [
+        "13599",
+        "serves",
+        "cheesy tacos"
+      ]
+    ]
+  },
+  {
+    "iid": "1361",
+    "triplets": [
+      [
+        "1361",
+        "category",
+        "restaurant"
+      ],
+      [
+        "1361",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "13611",
+    "triplets": [
+      [
+        "13611",
+        "has feature",
+        "beer"
+      ],
+      [
+        "13611",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "13611",
+    "triplets": [
+      [
+        "13611",
+        "has feature",
+        "wine"
+      ],
+      [
+        "13611",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "13641",
+    "triplets": [
+      [
+        "13641",
+        "offers",
+        "groceries"
+      ],
+      [
+        "13641",
+        "serves",
+        "groceries"
+      ]
+    ]
+  },
+  {
+    "iid": "13673",
+    "triplets": [
+      [
+        "13673",
+        "offers",
+        "eyewear"
+      ],
+      [
+        "13673",
+        "serves",
+        "eyewear"
+      ]
+    ]
+  },
+  {
+    "iid": "13786",
+    "triplets": [
+      [
+        "13786",
+        "has feature",
+        "variety of flavors"
+      ],
+      [
+        "13786",
+        "serves",
+        "variety of flavors"
+      ]
+    ]
+  },
+  {
+    "iid": "13820",
+    "triplets": [
+      [
+        "13820",
+        "has feature",
+        "authentic flavors"
+      ],
+      [
+        "13820",
+        "serves",
+        "authentic flavors"
+      ]
+    ]
+  },
+  {
+    "iid": "13840",
+    "triplets": [
+      [
+        "13840",
+        "is a",
+        "hotel"
+      ],
+      [
+        "13840",
+        "serves",
+        "hotel"
+      ]
+    ]
+  },
+  {
+    "iid": "13853",
+    "triplets": [
+      [
+        "13853",
+        "has feature",
+        "beach views"
+      ],
+      [
+        "13853",
+        "located in",
+        "beach views"
+      ]
+    ]
+  },
+  {
+    "iid": "1386",
+    "triplets": [
+      [
+        "1386",
+        "is a",
+        "beauty lounge"
+      ],
+      [
+        "1386",
+        "located in",
+        "beauty lounge"
+      ]
+    ]
+  },
+  {
+    "iid": "13888",
+    "triplets": [
+      [
+        "13888",
+        "has feature",
+        "cheesesteaks"
+      ],
+      [
+        "13888",
+        "serves",
+        "cheesesteaks"
+      ]
+    ]
+  },
+  {
+    "iid": "13888",
+    "triplets": [
+      [
+        "13888",
+        "has feature",
+        "hoagies"
+      ],
+      [
+        "13888",
+        "serves",
+        "hoagies"
+      ]
+    ]
+  },
+  {
+    "iid": "13907",
+    "triplets": [
+      [
+        "13907",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "13907",
+        "suitable for",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "13913",
+    "triplets": [
+      [
+        "13913",
+        "category",
+        "wine"
+      ],
+      [
+        "13913",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "13924",
+    "triplets": [
+      [
+        "13924",
+        "has atmosphere",
+        "welcoming atmosphere"
+      ],
+      [
+        "13924",
+        "has feature",
+        "welcoming atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "13934",
+    "triplets": [
+      [
+        "13934",
+        "has feature",
+        "DJ nights"
+      ],
+      [
+        "13934",
+        "hosts",
+        "DJ nights"
+      ]
+    ]
+  },
+  {
+    "iid": "13934",
+    "triplets": [
+      [
+        "13934",
+        "has feature",
+        "art shows"
+      ],
+      [
+        "13934",
+        "hosts",
+        "art shows"
+      ]
+    ]
+  },
+  {
+    "iid": "13934",
+    "triplets": [
+      [
+        "13934",
+        "has",
+        "dart games"
+      ],
+      [
+        "13934",
+        "has feature",
+        "dart games"
+      ]
+    ]
+  },
+  {
+    "iid": "13934",
+    "triplets": [
+      [
+        "13934",
+        "has",
+        "pool tables"
+      ],
+      [
+        "13934",
+        "has feature",
+        "pool tables"
+      ]
+    ]
+  },
+  {
+    "iid": "13935",
+    "triplets": [
+      [
+        "13935",
+        "category",
+        "art supplies"
+      ],
+      [
+        "13935",
+        "offers",
+        "art supplies"
+      ]
+    ]
+  },
+  {
+    "iid": "13935",
+    "triplets": [
+      [
+        "13935",
+        "category",
+        "hobby items"
+      ],
+      [
+        "13935",
+        "offers",
+        "hobby items"
+      ]
+    ]
+  },
+  {
+    "iid": "13935",
+    "triplets": [
+      [
+        "13935",
+        "category",
+        "home decor"
+      ],
+      [
+        "13935",
+        "offers",
+        "home decor"
+      ]
+    ]
+  },
+  {
+    "iid": "13938",
+    "triplets": [
+      [
+        "13938",
+        "has feature",
+        "breakfast/brunch options"
+      ],
+      [
+        "13938",
+        "serves",
+        "breakfast/brunch options"
+      ]
+    ]
+  },
+  {
+    "iid": "13958",
+    "triplets": [
+      [
+        "13958",
+        "located in",
+        "neighborhood"
+      ],
+      [
+        "13958",
+        "suitable for",
+        "neighborhood"
+      ]
+    ]
+  },
+  {
+    "iid": "13976",
+    "triplets": [
+      [
+        "13976",
+        "has feature",
+        "homemade salsa"
+      ],
+      [
+        "13976",
+        "serves",
+        "homemade salsa"
+      ]
+    ]
+  },
+  {
+    "iid": "13988",
+    "triplets": [
+      [
+        "13988",
+        "offers",
+        "bakery items"
+      ],
+      [
+        "13988",
+        "serves",
+        "bakery items"
+      ]
+    ]
+  },
+  {
+    "iid": "13988",
+    "triplets": [
+      [
+        "13988",
+        "offers",
+        "pastries"
+      ],
+      [
+        "13988",
+        "serves",
+        "pastries"
+      ]
+    ]
+  },
+  {
+    "iid": "14024",
+    "triplets": [
+      [
+        "14024",
+        "category",
+        "cafe"
+      ],
+      [
+        "14024",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "14044",
+    "triplets": [
+      [
+        "14044",
+        "is a",
+        "pizza"
+      ],
+      [
+        "14044",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "1405",
+    "triplets": [
+      [
+        "1405",
+        "category",
+        "restaurant"
+      ],
+      [
+        "1405",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "14072",
+    "triplets": [
+      [
+        "14072",
+        "is a",
+        "steakhouse"
+      ],
+      [
+        "14072",
+        "serves",
+        "steakhouse"
+      ]
+    ]
+  },
+  {
+    "iid": "14080",
+    "triplets": [
+      [
+        "14080",
+        "serves",
+        "pizza"
+      ],
+      [
+        "14080",
+        "specializes in",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "1417",
+    "triplets": [
+      [
+        "1417",
+        "offers",
+        "breakfast"
+      ],
+      [
+        "1417",
+        "serves",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "1427",
+    "triplets": [
+      [
+        "1427",
+        "category",
+        "upscale dining"
+      ],
+      [
+        "1427",
+        "has atmosphere",
+        "upscale dining"
+      ]
+    ]
+  },
+  {
+    "iid": "1454",
+    "triplets": [
+      [
+        "1454",
+        "has feature",
+        "hot dogs"
+      ],
+      [
+        "1454",
+        "serves",
+        "hot dogs"
+      ]
+    ]
+  },
+  {
+    "iid": "1454",
+    "triplets": [
+      [
+        "1454",
+        "has feature",
+        "treats"
+      ],
+      [
+        "1454",
+        "serves",
+        "treats"
+      ]
+    ]
+  },
+  {
+    "iid": "1464",
+    "triplets": [
+      [
+        "1464",
+        "serves",
+        "cheesesteaks"
+      ],
+      [
+        "1464",
+        "specializes in",
+        "cheesesteaks"
+      ]
+    ]
+  },
+  {
+    "iid": "1464",
+    "triplets": [
+      [
+        "1464",
+        "serves",
+        "roast pork"
+      ],
+      [
+        "1464",
+        "specializes in",
+        "roast pork"
+      ]
+    ]
+  },
+  {
+    "iid": "1483",
+    "triplets": [
+      [
+        "1483",
+        "has atmosphere",
+        "beautiful venues"
+      ],
+      [
+        "1483",
+        "has feature",
+        "beautiful venues"
+      ]
+    ]
+  },
+  {
+    "iid": "1488",
+    "triplets": [
+      [
+        "1488",
+        "features",
+        "live music"
+      ],
+      [
+        "1488",
+        "has feature",
+        "live music"
+      ]
+    ]
+  },
+  {
+    "iid": "1491",
+    "triplets": [
+      [
+        "1491",
+        "has atmosphere",
+        "cozy ambiance"
+      ],
+      [
+        "1491",
+        "has feature",
+        "cozy ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": "1498",
+    "triplets": [
+      [
+        "1498",
+        "has atmosphere",
+        "upscale setting"
+      ],
+      [
+        "1498",
+        "has feature",
+        "upscale setting"
+      ]
+    ]
+  },
+  {
+    "iid": "1524",
+    "triplets": [
+      [
+        "1524",
+        "is a",
+        "pizza"
+      ],
+      [
+        "1524",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "1530",
+    "triplets": [
+      [
+        "1530",
+        "offers",
+        "moving services"
+      ],
+      [
+        "1530",
+        "serves",
+        "moving services"
+      ]
+    ]
+  },
+  {
+    "iid": "1535",
+    "triplets": [
+      [
+        "1535",
+        "presents",
+        "Fried Green Tomato"
+      ],
+      [
+        "1535",
+        "serves",
+        "Fried Green Tomato"
+      ]
+    ]
+  },
+  {
+    "iid": "1542",
+    "triplets": [
+      [
+        "1542",
+        "has feature",
+        "baked goods"
+      ],
+      [
+        "1542",
+        "serves",
+        "baked goods"
+      ]
+    ]
+  },
+  {
+    "iid": "1542",
+    "triplets": [
+      [
+        "1542",
+        "has feature",
+        "locally grown produce"
+      ],
+      [
+        "1542",
+        "serves",
+        "locally grown produce"
+      ]
+    ]
+  },
+  {
+    "iid": "1542",
+    "triplets": [
+      [
+        "1542",
+        "has feature",
+        "pick-your-own farms"
+      ],
+      [
+        "1542",
+        "serves",
+        "pick-your-own farms"
+      ]
+    ]
+  },
+  {
+    "iid": "157",
+    "triplets": [
+      [
+        "157",
+        "has feature",
+        "hibachi"
+      ],
+      [
+        "157",
+        "serves",
+        "hibachi"
+      ]
+    ]
+  },
+  {
+    "iid": "1572",
+    "triplets": [
+      [
+        "1572",
+        "has feature",
+        "generous portions"
+      ],
+      [
+        "1572",
+        "offers",
+        "generous portions"
+      ]
+    ]
+  },
+  {
+    "iid": "1572",
+    "triplets": [
+      [
+        "1572",
+        "has feature",
+        "low-sodium options"
+      ],
+      [
+        "1572",
+        "offers",
+        "low-sodium options"
+      ]
+    ]
+  },
+  {
+    "iid": "1581",
+    "triplets": [
+      [
+        "1581",
+        "offers",
+        "craft beers"
+      ],
+      [
+        "1581",
+        "serves",
+        "craft beers"
+      ]
+    ]
+  },
+  {
+    "iid": "1584",
+    "triplets": [
+      [
+        "1584",
+        "is a",
+        "botanical garden"
+      ],
+      [
+        "1584",
+        "serves",
+        "botanical garden"
+      ]
+    ]
+  },
+  {
+    "iid": "1592",
+    "triplets": [
+      [
+        "1592",
+        "serves",
+        "hot chicken"
+      ],
+      [
+        "1592",
+        "specializes in",
+        "hot chicken"
+      ]
+    ]
+  },
+  {
+    "iid": "1595",
+    "triplets": [
+      [
+        "1595",
+        "has feature",
+        "sides"
+      ],
+      [
+        "1595",
+        "serves",
+        "sides"
+      ]
+    ]
+  },
+  {
+    "iid": "1596",
+    "triplets": [
+      [
+        "1596",
+        "has atmosphere",
+        "crowded atmosphere"
+      ],
+      [
+        "1596",
+        "has feature",
+        "crowded atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "1596",
+    "triplets": [
+      [
+        "1596",
+        "is a",
+        "frozen yogurt"
+      ],
+      [
+        "1596",
+        "serves",
+        "frozen yogurt"
+      ]
+    ]
+  },
+  {
+    "iid": "1618",
+    "triplets": [
+      [
+        "1618",
+        "category",
+        "pizza"
+      ],
+      [
+        "1618",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "1630",
+    "triplets": [
+      [
+        "1630",
+        "has feature",
+        "Fitz's bottled soda"
+      ],
+      [
+        "1630",
+        "offers",
+        "Fitz's bottled soda"
+      ]
+    ]
+  },
+  {
+    "iid": "1630",
+    "triplets": [
+      [
+        "1630",
+        "has feature",
+        "gelato"
+      ],
+      [
+        "1630",
+        "offers",
+        "gelato"
+      ]
+    ]
+  },
+  {
+    "iid": "1657",
+    "triplets": [
+      [
+        "1657",
+        "category",
+        "accessories"
+      ],
+      [
+        "1657",
+        "serves",
+        "accessories"
+      ]
+    ]
+  },
+  {
+    "iid": "1657",
+    "triplets": [
+      [
+        "1657",
+        "category",
+        "fashion"
+      ],
+      [
+        "1657",
+        "serves",
+        "fashion"
+      ]
+    ]
+  },
+  {
+    "iid": "1657",
+    "triplets": [
+      [
+        "1657",
+        "category",
+        "sporting goods"
+      ],
+      [
+        "1657",
+        "serves",
+        "sporting goods"
+      ]
+    ]
+  },
+  {
+    "iid": "1672",
+    "triplets": [
+      [
+        "1672",
+        "category",
+        "Southern-style fried chicken"
+      ],
+      [
+        "1672",
+        "serves",
+        "Southern-style fried chicken"
+      ]
+    ]
+  },
+  {
+    "iid": "1769",
+    "triplets": [
+      [
+        "1769",
+        "has feature",
+        "menu variety"
+      ],
+      [
+        "1769",
+        "offers",
+        "menu variety"
+      ]
+    ]
+  },
+  {
+    "iid": "1780",
+    "triplets": [
+      [
+        "1780",
+        "has feature",
+        "brunch items"
+      ],
+      [
+        "1780",
+        "serves",
+        "brunch items"
+      ]
+    ]
+  },
+  {
+    "iid": "1780",
+    "triplets": [
+      [
+        "1780",
+        "has feature",
+        "fried green tomatoes"
+      ],
+      [
+        "1780",
+        "serves",
+        "fried green tomatoes"
+      ]
+    ]
+  },
+  {
+    "iid": "1805",
+    "triplets": [
+      [
+        "1805",
+        "category",
+        "great prices"
+      ],
+      [
+        "1805",
+        "has feature",
+        "great prices"
+      ]
+    ]
+  },
+  {
+    "iid": "1808",
+    "triplets": [
+      [
+        "1808",
+        "offers",
+        "sushi"
+      ],
+      [
+        "1808",
+        "serves",
+        "sushi"
+      ]
+    ]
+  },
+  {
+    "iid": "1820",
+    "triplets": [
+      [
+        "1820",
+        "has feature",
+        "diverse crowd"
+      ],
+      [
+        "1820",
+        "serves",
+        "diverse crowd"
+      ]
+    ]
+  },
+  {
+    "iid": "1835",
+    "triplets": [
+      [
+        "1835",
+        "name",
+        "pizza"
+      ],
+      [
+        "1835",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "1838",
+    "triplets": [
+      [
+        "1838",
+        "located in",
+        "natural surroundings"
+      ],
+      [
+        "1838",
+        "serves",
+        "natural surroundings"
+      ]
+    ]
+  },
+  {
+    "iid": "1852",
+    "triplets": [
+      [
+        "1852",
+        "has feature",
+        "age restrictions"
+      ],
+      [
+        "1852",
+        "has issue",
+        "age restrictions"
+      ]
+    ]
+  },
+  {
+    "iid": "1885",
+    "triplets": [
+      [
+        "1885",
+        "category",
+        "cafe"
+      ],
+      [
+        "1885",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "1886",
+    "triplets": [
+      [
+        "1886",
+        "offers",
+        "pub fare"
+      ],
+      [
+        "1886",
+        "serves",
+        "pub fare"
+      ]
+    ]
+  },
+  {
+    "iid": "1914",
+    "triplets": [
+      [
+        "1914",
+        "category",
+        "ice cream"
+      ],
+      [
+        "1914",
+        "serves",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "1923",
+    "triplets": [
+      [
+        "1923",
+        "offers",
+        "baked goods"
+      ],
+      [
+        "1923",
+        "serves",
+        "baked goods"
+      ]
+    ]
+  },
+  {
+    "iid": "1937",
+    "triplets": [
+      [
+        "1937",
+        "offers",
+        "coffee"
+      ],
+      [
+        "1937",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "1937",
+    "triplets": [
+      [
+        "1937",
+        "offers",
+        "crepes"
+      ],
+      [
+        "1937",
+        "serves",
+        "crepes"
+      ]
+    ]
+  },
+  {
+    "iid": "1956",
+    "triplets": [
+      [
+        "1956",
+        "is a",
+        "barbecue"
+      ],
+      [
+        "1956",
+        "serves",
+        "barbecue"
+      ]
+    ]
+  },
+  {
+    "iid": "1975",
+    "triplets": [
+      [
+        "1975",
+        "category",
+        "pizza"
+      ],
+      [
+        "1975",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "1979",
+    "triplets": [
+      [
+        "1979",
+        "serves",
+        "cookies"
+      ],
+      [
+        "1979",
+        "specializes in",
+        "cookies"
+      ]
+    ]
+  },
+  {
+    "iid": "2003",
+    "triplets": [
+      [
+        "2003",
+        "has feature",
+        "sandwiches"
+      ],
+      [
+        "2003",
+        "serves",
+        "sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "2038",
+    "triplets": [
+      [
+        "2038",
+        "has feature",
+        "personalized gift options"
+      ],
+      [
+        "2038",
+        "offers",
+        "personalized gift options"
+      ]
+    ]
+  },
+  {
+    "iid": "2059",
+    "triplets": [
+      [
+        "2059",
+        "has atmosphere",
+        "great service"
+      ],
+      [
+        "2059",
+        "has feature",
+        "great service"
+      ]
+    ]
+  },
+  {
+    "iid": "206",
+    "triplets": [
+      [
+        "206",
+        "has feature",
+        "pancakes"
+      ],
+      [
+        "206",
+        "serves",
+        "pancakes"
+      ]
+    ]
+  },
+  {
+    "iid": "2068",
+    "triplets": [
+      [
+        "2068",
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        "2068",
+        "has staff",
+        "friendly staff"
+      ]
+    ]
+  },
+  {
+    "iid": "2120",
+    "triplets": [
+      [
+        "2120",
+        "offers",
+        "coffee"
+      ],
+      [
+        "2120",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "2120",
+    "triplets": [
+      [
+        "2120",
+        "offers",
+        "cream cheese"
+      ],
+      [
+        "2120",
+        "serves",
+        "cream cheese"
+      ]
+    ]
+  },
+  {
+    "iid": "2132",
+    "triplets": [
+      [
+        "2132",
+        "has feature",
+        "fried pickles"
+      ],
+      [
+        "2132",
+        "serves",
+        "fried pickles"
+      ]
+    ]
+  },
+  {
+    "iid": "2162",
+    "triplets": [
+      [
+        "2162",
+        "category",
+        "pizza"
+      ],
+      [
+        "2162",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "2190",
+    "triplets": [
+      [
+        "2190",
+        "has atmosphere",
+        "vibrant atmosphere"
+      ],
+      [
+        "2190",
+        "has feature",
+        "vibrant atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "22",
+    "triplets": [
+      [
+        "22",
+        "is a",
+        "breakfast options"
+      ],
+      [
+        "22",
+        "serves",
+        "breakfast options"
+      ]
+    ]
+  },
+  {
+    "iid": "22",
+    "triplets": [
+      [
+        "22",
+        "is a",
+        "coffee"
+      ],
+      [
+        "22",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "22",
+    "triplets": [
+      [
+        "22",
+        "is a",
+        "crepes"
+      ],
+      [
+        "22",
+        "serves",
+        "crepes"
+      ]
+    ]
+  },
+  {
+    "iid": "22",
+    "triplets": [
+      [
+        "22",
+        "is a",
+        "soups"
+      ],
+      [
+        "22",
+        "serves",
+        "soups"
+      ]
+    ]
+  },
+  {
+    "iid": "2201",
+    "triplets": [
+      [
+        "2201",
+        "has atmosphere",
+        "casual atmosphere"
+      ],
+      [
+        "2201",
+        "has feature",
+        "casual atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "2220",
+    "triplets": [
+      [
+        "2220",
+        "serves",
+        "breakfast"
+      ],
+      [
+        "2220",
+        "suitable for",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "2235",
+    "triplets": [
+      [
+        "2235",
+        "offers",
+        "coffee"
+      ],
+      [
+        "2235",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "2238",
+    "triplets": [
+      [
+        "2238",
+        "appeals to",
+        "families with kids"
+      ],
+      [
+        "2238",
+        "caters to",
+        "families with kids"
+      ]
+    ]
+  },
+  {
+    "iid": "2263",
+    "triplets": [
+      [
+        "2263",
+        "has feature",
+        "customizable toppings"
+      ],
+      [
+        "2263",
+        "offers",
+        "customizable toppings"
+      ]
+    ]
+  },
+  {
+    "iid": "2263",
+    "triplets": [
+      [
+        "2263",
+        "has feature",
+        "variety of sauces"
+      ],
+      [
+        "2263",
+        "offers",
+        "variety of sauces"
+      ]
+    ]
+  },
+  {
+    "iid": "2264",
+    "triplets": [
+      [
+        "2264",
+        "category",
+        "restaurant"
+      ],
+      [
+        "2264",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "2268",
+    "triplets": [
+      [
+        "2268",
+        "has ambiance",
+        "upscale"
+      ],
+      [
+        "2268",
+        "has atmosphere",
+        "upscale"
+      ]
+    ]
+  },
+  {
+    "iid": "2286",
+    "triplets": [
+      [
+        "2286",
+        "has atmosphere",
+        "friendly staff"
+      ],
+      [
+        "2286",
+        "has feature",
+        "friendly staff"
+      ]
+    ]
+  },
+  {
+    "iid": "229",
+    "triplets": [
+      [
+        "229",
+        "has feature",
+        "desserts"
+      ],
+      [
+        "229",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "2294",
+    "triplets": [
+      [
+        "2294",
+        "category",
+        "small plates"
+      ],
+      [
+        "2294",
+        "serves",
+        "small plates"
+      ]
+    ]
+  },
+  {
+    "iid": "2311",
+    "triplets": [
+      [
+        "2311",
+        "has atmosphere",
+        "scenic waterfront setting"
+      ],
+      [
+        "2311",
+        "located in",
+        "scenic waterfront setting"
+      ]
+    ]
+  },
+  {
+    "iid": "2327",
+    "triplets": [
+      [
+        "2327",
+        "has atmosphere",
+        "local atmosphere"
+      ],
+      [
+        "2327",
+        "has feature",
+        "local atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "2330",
+    "triplets": [
+      [
+        "2330",
+        "category",
+        "restaurant"
+      ],
+      [
+        "2330",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "2355",
+    "triplets": [
+      [
+        "2355",
+        "has feature",
+        "diverse menu"
+      ],
+      [
+        "2355",
+        "serves",
+        "diverse menu"
+      ]
+    ]
+  },
+  {
+    "iid": "2363",
+    "triplets": [
+      [
+        "2363",
+        "has atmosphere",
+        "cozy, casual dining"
+      ],
+      [
+        "2363",
+        "suitable for",
+        "cozy, casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "2369",
+    "triplets": [
+      [
+        "2369",
+        "appeals to",
+        "health-conscious individuals"
+      ],
+      [
+        "2369",
+        "caters to",
+        "health-conscious individuals"
+      ]
+    ]
+  },
+  {
+    "iid": "2373",
+    "triplets": [
+      [
+        "2373",
+        "is a",
+        "children's museum"
+      ],
+      [
+        "2373",
+        "serves",
+        "children's museum"
+      ]
+    ]
+  },
+  {
+    "iid": "2376",
+    "triplets": [
+      [
+        "2376",
+        "seeks",
+        "building supplies"
+      ],
+      [
+        "2376",
+        "serves",
+        "building supplies"
+      ]
+    ]
+  },
+  {
+    "iid": "2411",
+    "triplets": [
+      [
+        "2411",
+        "category",
+        "cafe"
+      ],
+      [
+        "2411",
+        "serves",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "2483",
+    "triplets": [
+      [
+        "2483",
+        "category",
+        "bar"
+      ],
+      [
+        "2483",
+        "is a",
+        "bar"
+      ]
+    ]
+  },
+  {
+    "iid": "2491",
+    "triplets": [
+      [
+        "2491",
+        "has feature",
+        "seasonal menu"
+      ],
+      [
+        "2491",
+        "offers",
+        "seasonal menu"
+      ]
+    ]
+  },
+  {
+    "iid": "2498",
+    "triplets": [
+      [
+        "2498",
+        "category",
+        "fashion"
+      ],
+      [
+        "2498",
+        "serves",
+        "fashion"
+      ]
+    ]
+  },
+  {
+    "iid": "2498",
+    "triplets": [
+      [
+        "2498",
+        "category",
+        "vintage fashion"
+      ],
+      [
+        "2498",
+        "serves",
+        "vintage fashion"
+      ]
+    ]
+  },
+  {
+    "iid": "2501",
+    "triplets": [
+      [
+        "2501",
+        "has atmosphere",
+        "less decorative atmosphere"
+      ],
+      [
+        "2501",
+        "has feature",
+        "less decorative atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "2544",
+    "triplets": [
+      [
+        "2544",
+        "has feature",
+        "unique cocktails"
+      ],
+      [
+        "2544",
+        "serves",
+        "unique cocktails"
+      ]
+    ]
+  },
+  {
+    "iid": "2608",
+    "triplets": [
+      [
+        "2608",
+        "is a",
+        "museum"
+      ],
+      [
+        "2608",
+        "serves",
+        "museum"
+      ]
+    ]
+  },
+  {
+    "iid": "2617",
+    "triplets": [
+      [
+        "2617",
+        "appeals to",
+        "concert goers"
+      ],
+      [
+        "2617",
+        "serves",
+        "concert goers"
+      ]
+    ]
+  },
+  {
+    "iid": "2617",
+    "triplets": [
+      [
+        "2617",
+        "appeals to",
+        "event enthusiasts"
+      ],
+      [
+        "2617",
+        "serves",
+        "event enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "2617",
+    "triplets": [
+      [
+        "2617",
+        "appeals to",
+        "music lovers"
+      ],
+      [
+        "2617",
+        "serves",
+        "music lovers"
+      ]
+    ]
+  },
+  {
+    "iid": "263",
+    "triplets": [
+      [
+        "263",
+        "category",
+        "barbecue"
+      ],
+      [
+        "263",
+        "serves",
+        "barbecue"
+      ]
+    ]
+  },
+  {
+    "iid": "2642",
+    "triplets": [
+      [
+        "2642",
+        "has atmosphere",
+        "lively neighborhood setting"
+      ],
+      [
+        "2642",
+        "has feature",
+        "lively neighborhood setting"
+      ]
+    ]
+  },
+  {
+    "iid": "265",
+    "triplets": [
+      [
+        "265",
+        "appeals to",
+        "pizza enthusiasts"
+      ],
+      [
+        "265",
+        "suitable for",
+        "pizza enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "2668",
+    "triplets": [
+      [
+        "2668",
+        "offers",
+        "waxing services"
+      ],
+      [
+        "2668",
+        "serves",
+        "waxing services"
+      ]
+    ]
+  },
+  {
+    "iid": "2679",
+    "triplets": [
+      [
+        "2679",
+        "has feature",
+        "pizza"
+      ],
+      [
+        "2679",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "2697",
+    "triplets": [
+      [
+        "2697",
+        "category",
+        "ice cream"
+      ],
+      [
+        "2697",
+        "serves",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "2698",
+    "triplets": [
+      [
+        "2698",
+        "category",
+        "cafe"
+      ],
+      [
+        "2698",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "273",
+    "triplets": [
+      [
+        "273",
+        "serves",
+        "breakfast"
+      ],
+      [
+        "273",
+        "suitable for",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "2814",
+    "triplets": [
+      [
+        "2814",
+        "has feature",
+        "catering services"
+      ],
+      [
+        "2814",
+        "offers",
+        "catering services"
+      ]
+    ]
+  },
+  {
+    "iid": "2816",
+    "triplets": [
+      [
+        "2816",
+        "has feature",
+        "watching sports"
+      ],
+      [
+        "2816",
+        "suitable for",
+        "watching sports"
+      ]
+    ]
+  },
+  {
+    "iid": "2828",
+    "triplets": [
+      [
+        "2828",
+        "serves",
+        "square pizza"
+      ],
+      [
+        "2828",
+        "specializes in",
+        "square pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "2871",
+    "triplets": [
+      [
+        "2871",
+        "has atmosphere",
+        "lively atmosphere"
+      ],
+      [
+        "2871",
+        "has feature",
+        "lively atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "2905",
+    "triplets": [
+      [
+        "2905",
+        "has feature",
+        "reuben sandwiches"
+      ],
+      [
+        "2905",
+        "serves",
+        "reuben sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "2909",
+    "triplets": [
+      [
+        "2909",
+        "has feature",
+        "impressive architecture"
+      ],
+      [
+        "2909",
+        "serves",
+        "impressive architecture"
+      ]
+    ]
+  },
+  {
+    "iid": "2931",
+    "triplets": [
+      [
+        "2931",
+        "has atmosphere",
+        "occasional crowds and lines"
+      ],
+      [
+        "2931",
+        "has issue",
+        "occasional crowds and lines"
+      ]
+    ]
+  },
+  {
+    "iid": "2968",
+    "triplets": [
+      [
+        "2968",
+        "serves",
+        "breakfast"
+      ],
+      [
+        "2968",
+        "suitable for",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "2968",
+    "triplets": [
+      [
+        "2968",
+        "serves",
+        "brunch"
+      ],
+      [
+        "2968",
+        "suitable for",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "2973",
+    "triplets": [
+      [
+        "2973",
+        "category",
+        "ice cream"
+      ],
+      [
+        "2973",
+        "serves",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "2996",
+    "triplets": [
+      [
+        "2996",
+        "category",
+        "fine dining"
+      ],
+      [
+        "2996",
+        "serves",
+        "fine dining"
+      ]
+    ]
+  },
+  {
+    "iid": "3037",
+    "triplets": [
+      [
+        "3037",
+        "has feature",
+        "creative cocktails"
+      ],
+      [
+        "3037",
+        "serves",
+        "creative cocktails"
+      ]
+    ]
+  },
+  {
+    "iid": "3050",
+    "triplets": [
+      [
+        "3050",
+        "has variety of",
+        "small plates"
+      ],
+      [
+        "3050",
+        "serves",
+        "small plates"
+      ]
+    ]
+  },
+  {
+    "iid": "3065",
+    "triplets": [
+      [
+        "3065",
+        "category",
+        "deli"
+      ],
+      [
+        "3065",
+        "serves",
+        "deli"
+      ]
+    ]
+  },
+  {
+    "iid": "3101",
+    "triplets": [
+      [
+        "3101",
+        "has atmosphere",
+        "friendly service"
+      ],
+      [
+        "3101",
+        "has feature",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "3104",
+    "triplets": [
+      [
+        "3104",
+        "category",
+        "pizza"
+      ],
+      [
+        "3104",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "3105",
+    "triplets": [
+      [
+        "3105",
+        "category",
+        "Sandwich shop"
+      ],
+      [
+        "3105",
+        "is a",
+        "Sandwich shop"
+      ]
+    ]
+  },
+  {
+    "iid": "3126",
+    "triplets": [
+      [
+        "3126",
+        "has atmosphere",
+        "British pub experience"
+      ],
+      [
+        "3126",
+        "serves",
+        "British pub experience"
+      ]
+    ]
+  },
+  {
+    "iid": "3144",
+    "triplets": [
+      [
+        "3144",
+        "offers",
+        "hibachi"
+      ],
+      [
+        "3144",
+        "serves",
+        "hibachi"
+      ]
+    ]
+  },
+  {
+    "iid": "3145",
+    "triplets": [
+      [
+        "3145",
+        "category",
+        "cafe"
+      ],
+      [
+        "3145",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "3181",
+    "triplets": [
+      [
+        "3181",
+        "offers",
+        "breakfast"
+      ],
+      [
+        "3181",
+        "serves",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "3181",
+    "triplets": [
+      [
+        "3181",
+        "offers",
+        "brunch"
+      ],
+      [
+        "3181",
+        "serves",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "3206",
+    "triplets": [
+      [
+        "3206",
+        "appeals to",
+        "fun, lively atmosphere"
+      ],
+      [
+        "3206",
+        "has atmosphere",
+        "fun, lively atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "3206",
+    "triplets": [
+      [
+        "3206",
+        "appeals to",
+        "group events"
+      ],
+      [
+        "3206",
+        "offers",
+        "group events"
+      ]
+    ]
+  },
+  {
+    "iid": "3236",
+    "triplets": [
+      [
+        "3236",
+        "has reputation",
+        "Hawaiian specialties"
+      ],
+      [
+        "3236",
+        "serves",
+        "Hawaiian specialties"
+      ]
+    ]
+  },
+  {
+    "iid": "3250",
+    "triplets": [
+      [
+        "3250",
+        "category",
+        "pizza"
+      ],
+      [
+        "3250",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "3265",
+    "triplets": [
+      [
+        "3265",
+        "is a",
+        "children's museum"
+      ],
+      [
+        "3265",
+        "serves",
+        "children's museum"
+      ]
+    ]
+  },
+  {
+    "iid": "3276",
+    "triplets": [
+      [
+        "3276",
+        "category",
+        "Greek"
+      ],
+      [
+        "3276",
+        "serves",
+        "Greek"
+      ]
+    ]
+  },
+  {
+    "iid": "3276",
+    "triplets": [
+      [
+        "3276",
+        "category",
+        "Mediterranean"
+      ],
+      [
+        "3276",
+        "serves",
+        "Mediterranean"
+      ]
+    ]
+  },
+  {
+    "iid": "3276",
+    "triplets": [
+      [
+        "3276",
+        "category",
+        "Middle Eastern"
+      ],
+      [
+        "3276",
+        "serves",
+        "Middle Eastern"
+      ]
+    ]
+  },
+  {
+    "iid": "3287",
+    "triplets": [
+      [
+        "3287",
+        "offers",
+        "olive oil"
+      ],
+      [
+        "3287",
+        "serves",
+        "olive oil"
+      ]
+    ]
+  },
+  {
+    "iid": "3287",
+    "triplets": [
+      [
+        "3287",
+        "offers",
+        "wine"
+      ],
+      [
+        "3287",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "3325",
+    "triplets": [
+      [
+        "3325",
+        "has atmosphere",
+        "comfortable waiting areas"
+      ],
+      [
+        "3325",
+        "has feature",
+        "comfortable waiting areas"
+      ]
+    ]
+  },
+  {
+    "iid": "3337",
+    "triplets": [
+      [
+        "3337",
+        "category",
+        "market"
+      ],
+      [
+        "3337",
+        "is a",
+        "market"
+      ]
+    ]
+  },
+  {
+    "iid": "336",
+    "triplets": [
+      [
+        "336",
+        "category",
+        "party supplies"
+      ],
+      [
+        "336",
+        "offers",
+        "party supplies"
+      ]
+    ]
+  },
+  {
+    "iid": "3371",
+    "triplets": [
+      [
+        "3371",
+        "has feature",
+        "unique cocktails"
+      ],
+      [
+        "3371",
+        "serves",
+        "unique cocktails"
+      ]
+    ]
+  },
+  {
+    "iid": "3382",
+    "triplets": [
+      [
+        "3382",
+        "category",
+        "Nightclub"
+      ],
+      [
+        "3382",
+        "is a",
+        "Nightclub"
+      ]
+    ]
+  },
+  {
+    "iid": "3417",
+    "triplets": [
+      [
+        "3417",
+        "has variety of",
+        "fudge"
+      ],
+      [
+        "3417",
+        "serves",
+        "fudge"
+      ]
+    ]
+  },
+  {
+    "iid": "3417",
+    "triplets": [
+      [
+        "3417",
+        "has variety of",
+        "hot chocolate"
+      ],
+      [
+        "3417",
+        "serves",
+        "hot chocolate"
+      ]
+    ]
+  },
+  {
+    "iid": "3417",
+    "triplets": [
+      [
+        "3417",
+        "has variety of",
+        "ice cream"
+      ],
+      [
+        "3417",
+        "serves",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "3448",
+    "triplets": [
+      [
+        "3448",
+        "has feature",
+        "deli-style options"
+      ],
+      [
+        "3448",
+        "serves",
+        "deli-style options"
+      ]
+    ]
+  },
+  {
+    "iid": "3460",
+    "triplets": [
+      [
+        "3460",
+        "has feature",
+        "live music"
+      ],
+      [
+        "3460",
+        "presents",
+        "live music"
+      ]
+    ]
+  },
+  {
+    "iid": "3463",
+    "triplets": [
+      [
+        "3463",
+        "offers",
+        "local products"
+      ],
+      [
+        "3463",
+        "serves",
+        "local products"
+      ]
+    ]
+  },
+  {
+    "iid": "3463",
+    "triplets": [
+      [
+        "3463",
+        "has feature",
+        "seasonal activities"
+      ],
+      [
+        "3463",
+        "offers",
+        "seasonal activities"
+      ]
+    ]
+  },
+  {
+    "iid": "354",
+    "triplets": [
+      [
+        "354",
+        "category",
+        "Restaurant & Bar"
+      ],
+      [
+        "354",
+        "is a",
+        "Restaurant & Bar"
+      ]
+    ]
+  },
+  {
+    "iid": "3596",
+    "triplets": [
+      [
+        "3596",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "3596",
+        "suitable for",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "3619",
+    "triplets": [
+      [
+        "3619",
+        "category",
+        "cafe"
+      ],
+      [
+        "3619",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "3653",
+    "triplets": [
+      [
+        "3653",
+        "category",
+        "ice cream"
+      ],
+      [
+        "3653",
+        "serves",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "3660",
+    "triplets": [
+      [
+        "3660",
+        "located in",
+        "nail salon"
+      ],
+      [
+        "3660",
+        "serves",
+        "nail salon"
+      ]
+    ]
+  },
+  {
+    "iid": "3664",
+    "triplets": [
+      [
+        "3664",
+        "offers",
+        "beer"
+      ],
+      [
+        "3664",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "3664",
+    "triplets": [
+      [
+        "3664",
+        "offers",
+        "spirits"
+      ],
+      [
+        "3664",
+        "serves",
+        "spirits"
+      ]
+    ]
+  },
+  {
+    "iid": "3664",
+    "triplets": [
+      [
+        "3664",
+        "offers",
+        "wine"
+      ],
+      [
+        "3664",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "3665",
+    "triplets": [
+      [
+        "3665",
+        "has variety of",
+        "wine"
+      ],
+      [
+        "3665",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "3679",
+    "triplets": [
+      [
+        "3679",
+        "category",
+        "coffee"
+      ],
+      [
+        "3679",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "3706",
+    "triplets": [
+      [
+        "3706",
+        "offers",
+        "beauty treatments"
+      ],
+      [
+        "3706",
+        "serves",
+        "beauty treatments"
+      ]
+    ]
+  },
+  {
+    "iid": "3722",
+    "triplets": [
+      [
+        "3722",
+        "offers",
+        "bowling"
+      ],
+      [
+        "3722",
+        "serves",
+        "bowling"
+      ]
+    ]
+  },
+  {
+    "iid": "3726",
+    "triplets": [
+      [
+        "3726",
+        "caters to",
+        "bookstore junkies"
+      ],
+      [
+        "3726",
+        "serves",
+        "bookstore junkies"
+      ]
+    ]
+  },
+  {
+    "iid": "374",
+    "triplets": [
+      [
+        "374",
+        "category",
+        "bbq"
+      ],
+      [
+        "374",
+        "serves",
+        "bbq"
+      ]
+    ]
+  },
+  {
+    "iid": "3751",
+    "triplets": [
+      [
+        "3751",
+        "appeals to",
+        "pizza lovers"
+      ],
+      [
+        "3751",
+        "suitable for",
+        "pizza lovers"
+      ]
+    ]
+  },
+  {
+    "iid": "3760",
+    "triplets": [
+      [
+        "3760",
+        "category",
+        "asian fusion"
+      ],
+      [
+        "3760",
+        "serves",
+        "asian fusion"
+      ]
+    ]
+  },
+  {
+    "iid": "3764",
+    "triplets": [
+      [
+        "3764",
+        "category",
+        "theater"
+      ],
+      [
+        "3764",
+        "is a",
+        "theater"
+      ]
+    ]
+  },
+  {
+    "iid": "3788",
+    "triplets": [
+      [
+        "3788",
+        "has feature",
+        "boat ramps"
+      ],
+      [
+        "3788",
+        "serves",
+        "boat ramps"
+      ]
+    ]
+  },
+  {
+    "iid": "3788",
+    "triplets": [
+      [
+        "3788",
+        "has feature",
+        "picnic spots"
+      ],
+      [
+        "3788",
+        "serves",
+        "picnic spots"
+      ]
+    ]
+  },
+  {
+    "iid": "3788",
+    "triplets": [
+      [
+        "3788",
+        "has feature",
+        "playgrounds"
+      ],
+      [
+        "3788",
+        "serves",
+        "playgrounds"
+      ]
+    ]
+  },
+  {
+    "iid": "3788",
+    "triplets": [
+      [
+        "3788",
+        "has feature",
+        "scenic views"
+      ],
+      [
+        "3788",
+        "serves",
+        "scenic views"
+      ]
+    ]
+  },
+  {
+    "iid": "3791",
+    "triplets": [
+      [
+        "3791",
+        "is a",
+        "sports bar"
+      ],
+      [
+        "3791",
+        "serves",
+        "sports bar"
+      ]
+    ]
+  },
+  {
+    "iid": "3817",
+    "triplets": [
+      [
+        "3817",
+        "offers",
+        "desserts"
+      ],
+      [
+        "3817",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "382",
+    "triplets": [
+      [
+        "382",
+        "serves",
+        "craft beers"
+      ],
+      [
+        "382",
+        "specializes in",
+        "craft beers"
+      ]
+    ]
+  },
+  {
+    "iid": "3893",
+    "triplets": [
+      [
+        "3893",
+        "category",
+        "bbq"
+      ],
+      [
+        "3893",
+        "offers",
+        "bbq"
+      ]
+    ]
+  },
+  {
+    "iid": "3921",
+    "triplets": [
+      [
+        "3921",
+        "has variety of",
+        "Asian ingredients"
+      ],
+      [
+        "3921",
+        "offers",
+        "Asian ingredients"
+      ]
+    ]
+  },
+  {
+    "iid": "3923",
+    "triplets": [
+      [
+        "3923",
+        "category",
+        "airport"
+      ],
+      [
+        "3923",
+        "serves",
+        "airport"
+      ]
+    ]
+  },
+  {
+    "iid": "3946",
+    "triplets": [
+      [
+        "3946",
+        "offers",
+        "baked goods"
+      ],
+      [
+        "3946",
+        "serves",
+        "baked goods"
+      ]
+    ]
+  },
+  {
+    "iid": "3947",
+    "triplets": [
+      [
+        "3947",
+        "prioritizes",
+        "professional service"
+      ],
+      [
+        "3947",
+        "provides",
+        "professional service"
+      ]
+    ]
+  },
+  {
+    "iid": "3947",
+    "triplets": [
+      [
+        "3947",
+        "has activity",
+        "thorough work"
+      ],
+      [
+        "3947",
+        "prioritizes",
+        "thorough work"
+      ]
+    ]
+  },
+  {
+    "iid": "3969",
+    "triplets": [
+      [
+        "3969",
+        "offers",
+        "cookie"
+      ],
+      [
+        "3969",
+        "serves",
+        "cookie"
+      ]
+    ]
+  },
+  {
+    "iid": "3999",
+    "triplets": [
+      [
+        "3999",
+        "offers",
+        "nachos"
+      ],
+      [
+        "3999",
+        "serves",
+        "nachos"
+      ]
+    ]
+  },
+  {
+    "iid": "3999",
+    "triplets": [
+      [
+        "3999",
+        "offers",
+        "sliders"
+      ],
+      [
+        "3999",
+        "serves",
+        "sliders"
+      ]
+    ]
+  },
+  {
+    "iid": "3999",
+    "triplets": [
+      [
+        "3999",
+        "offers",
+        "specialty beers"
+      ],
+      [
+        "3999",
+        "serves",
+        "specialty beers"
+      ]
+    ]
+  },
+  {
+    "iid": "4023",
+    "triplets": [
+      [
+        "4023",
+        "has ambiance",
+        "bbq"
+      ],
+      [
+        "4023",
+        "has atmosphere",
+        "bbq"
+      ]
+    ]
+  },
+  {
+    "iid": "4111",
+    "triplets": [
+      [
+        "4111",
+        "offers",
+        "coffee"
+      ],
+      [
+        "4111",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "4121",
+    "triplets": [
+      [
+        "4121",
+        "has variety of",
+        "meats"
+      ],
+      [
+        "4121",
+        "serves",
+        "meats"
+      ]
+    ]
+  },
+  {
+    "iid": "4137",
+    "triplets": [
+      [
+        "4137",
+        "category",
+        "pizza"
+      ],
+      [
+        "4137",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "414",
+    "triplets": [
+      [
+        "414",
+        "has feature",
+        "creative breakfast options"
+      ],
+      [
+        "414",
+        "serves",
+        "creative breakfast options"
+      ]
+    ]
+  },
+  {
+    "iid": "414",
+    "triplets": [
+      [
+        "414",
+        "has feature",
+        "homemade drinks"
+      ],
+      [
+        "414",
+        "serves",
+        "homemade drinks"
+      ]
+    ]
+  },
+  {
+    "iid": "4143",
+    "triplets": [
+      [
+        "4143",
+        "appeals to",
+        "live music lovers"
+      ],
+      [
+        "4143",
+        "suitable for",
+        "live music lovers"
+      ]
+    ]
+  },
+  {
+    "iid": "4143",
+    "triplets": [
+      [
+        "4143",
+        "appeals to",
+        "sports enthusiasts"
+      ],
+      [
+        "4143",
+        "suitable for",
+        "sports enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "4173",
+    "triplets": [
+      [
+        "4173",
+        "has feature",
+        "book-related gift items"
+      ],
+      [
+        "4173",
+        "serves",
+        "book-related gift items"
+      ]
+    ]
+  },
+  {
+    "iid": "4191",
+    "triplets": [
+      [
+        "4191",
+        "category",
+        "ramen"
+      ],
+      [
+        "4191",
+        "serves",
+        "ramen"
+      ]
+    ]
+  },
+  {
+    "iid": "4191",
+    "triplets": [
+      [
+        "4191",
+        "category",
+        "sushi burrito"
+      ],
+      [
+        "4191",
+        "serves",
+        "sushi burrito"
+      ]
+    ]
+  },
+  {
+    "iid": "4203",
+    "triplets": [
+      [
+        "4203",
+        "offers",
+        "meat"
+      ],
+      [
+        "4203",
+        "serves",
+        "meat"
+      ]
+    ]
+  },
+  {
+    "iid": "4221",
+    "triplets": [
+      [
+        "4221",
+        "has atmosphere",
+        "Midwest burger chain experience"
+      ],
+      [
+        "4221",
+        "offers",
+        "Midwest burger chain experience"
+      ]
+    ]
+  },
+  {
+    "iid": "4227",
+    "triplets": [
+      [
+        "4227",
+        "offers",
+        "cookies"
+      ],
+      [
+        "4227",
+        "serves",
+        "cookies"
+      ]
+    ]
+  },
+  {
+    "iid": "4249",
+    "triplets": [
+      [
+        "4249",
+        "has feature",
+        "poke"
+      ],
+      [
+        "4249",
+        "serves",
+        "poke"
+      ]
+    ]
+  },
+  {
+    "iid": "4258",
+    "triplets": [
+      [
+        "4258",
+        "has attribute",
+        "burgers"
+      ],
+      [
+        "4258",
+        "serves",
+        "burgers"
+      ]
+    ]
+  },
+  {
+    "iid": "426",
+    "triplets": [
+      [
+        "426",
+        "has feature",
+        "craft cocktails"
+      ],
+      [
+        "426",
+        "serves",
+        "craft cocktails"
+      ]
+    ]
+  },
+  {
+    "iid": "426",
+    "triplets": [
+      [
+        "426",
+        "has feature",
+        "spirits"
+      ],
+      [
+        "426",
+        "serves",
+        "spirits"
+      ]
+    ]
+  },
+  {
+    "iid": "4270",
+    "triplets": [
+      [
+        "4270",
+        "has feature",
+        "cafe"
+      ],
+      [
+        "4270",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "4315",
+    "triplets": [
+      [
+        "4315",
+        "appeals to",
+        "crispy wings"
+      ],
+      [
+        "4315",
+        "offers",
+        "crispy wings"
+      ]
+    ]
+  },
+  {
+    "iid": "4315",
+    "triplets": [
+      [
+        "4315",
+        "appeals to",
+        "pan-seared dumplings"
+      ],
+      [
+        "4315",
+        "offers",
+        "pan-seared dumplings"
+      ]
+    ]
+  },
+  {
+    "iid": "4355",
+    "triplets": [
+      [
+        "4355",
+        "category",
+        "cafe"
+      ],
+      [
+        "4355",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "4359",
+    "triplets": [
+      [
+        "4359",
+        "features",
+        "sculpture garden"
+      ],
+      [
+        "4359",
+        "is a",
+        "sculpture garden"
+      ]
+    ]
+  },
+  {
+    "iid": "4368",
+    "triplets": [
+      [
+        "4368",
+        "has feature",
+        "slightly higher prices"
+      ],
+      [
+        "4368",
+        "price range",
+        "slightly higher prices"
+      ]
+    ]
+  },
+  {
+    "iid": "438",
+    "triplets": [
+      [
+        "438",
+        "is a",
+        "water ice"
+      ],
+      [
+        "438",
+        "serves",
+        "water ice"
+      ]
+    ]
+  },
+  {
+    "iid": "4384",
+    "triplets": [
+      [
+        "4384",
+        "appeals to",
+        "families"
+      ],
+      [
+        "4384",
+        "suitable for",
+        "families"
+      ]
+    ]
+  },
+  {
+    "iid": "4384",
+    "triplets": [
+      [
+        "4384",
+        "appeals to",
+        "families with kids"
+      ],
+      [
+        "4384",
+        "suitable for",
+        "families with kids"
+      ]
+    ]
+  },
+  {
+    "iid": "4400",
+    "triplets": [
+      [
+        "4400",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "4400",
+        "suitable for",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "4413",
+    "triplets": [
+      [
+        "4413",
+        "has feature",
+        "bars"
+      ],
+      [
+        "4413",
+        "serves",
+        "bars"
+      ]
+    ]
+  },
+  {
+    "iid": "4413",
+    "triplets": [
+      [
+        "4413",
+        "has feature",
+        "entertainment options"
+      ],
+      [
+        "4413",
+        "serves",
+        "entertainment options"
+      ]
+    ]
+  },
+  {
+    "iid": "4413",
+    "triplets": [
+      [
+        "4413",
+        "has feature",
+        "lounges"
+      ],
+      [
+        "4413",
+        "serves",
+        "lounges"
+      ]
+    ]
+  },
+  {
+    "iid": "4414",
+    "triplets": [
+      [
+        "4414",
+        "category",
+        "pizza"
+      ],
+      [
+        "4414",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "4425",
+    "triplets": [
+      [
+        "4425",
+        "serves",
+        "brunch"
+      ],
+      [
+        "4425",
+        "suitable for",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "4425",
+    "triplets": [
+      [
+        "4425",
+        "serves",
+        "dinner"
+      ],
+      [
+        "4425",
+        "suitable for",
+        "dinner"
+      ]
+    ]
+  },
+  {
+    "iid": "4425",
+    "triplets": [
+      [
+        "4425",
+        "has feature",
+        "happy hour"
+      ],
+      [
+        "4425",
+        "suitable for",
+        "happy hour"
+      ]
+    ]
+  },
+  {
+    "iid": "444",
+    "triplets": [
+      [
+        "444",
+        "has feature",
+        "fresh ingredients"
+      ],
+      [
+        "444",
+        "serves",
+        "fresh ingredients"
+      ]
+    ]
+  },
+  {
+    "iid": "4446",
+    "triplets": [
+      [
+        "4446",
+        "has feature",
+        "flavorful sauces"
+      ],
+      [
+        "4446",
+        "serves",
+        "flavorful sauces"
+      ]
+    ]
+  },
+  {
+    "iid": "445",
+    "triplets": [
+      [
+        "445",
+        "category",
+        "cafe"
+      ],
+      [
+        "445",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "4452",
+    "triplets": [
+      [
+        "4452",
+        "category",
+        "desserts"
+      ],
+      [
+        "4452",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "4452",
+    "triplets": [
+      [
+        "4452",
+        "category",
+        "pastries"
+      ],
+      [
+        "4452",
+        "serves",
+        "pastries"
+      ]
+    ]
+  },
+  {
+    "iid": "4453",
+    "triplets": [
+      [
+        "4453",
+        "appeals to",
+        "Fans of communal dining"
+      ],
+      [
+        "4453",
+        "caters to",
+        "Fans of communal dining"
+      ]
+    ]
+  },
+  {
+    "iid": "4453",
+    "triplets": [
+      [
+        "4453",
+        "has atmosphere",
+        "friendly and welcoming atmosphere"
+      ],
+      [
+        "4453",
+        "has feature",
+        "friendly and welcoming atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "4459",
+    "triplets": [
+      [
+        "4459",
+        "offers",
+        "breakfast"
+      ],
+      [
+        "4459",
+        "serves",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "4459",
+    "triplets": [
+      [
+        "4459",
+        "offers",
+        "coffee"
+      ],
+      [
+        "4459",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "4466",
+    "triplets": [
+      [
+        "4466",
+        "appeals to",
+        "pet owners"
+      ],
+      [
+        "4466",
+        "caters to",
+        "pet owners"
+      ]
+    ]
+  },
+  {
+    "iid": "448",
+    "triplets": [
+      [
+        "448",
+        "has feature",
+        "sweet treats"
+      ],
+      [
+        "448",
+        "serves",
+        "sweet treats"
+      ]
+    ]
+  },
+  {
+    "iid": "4500",
+    "triplets": [
+      [
+        "4500",
+        "has atmosphere",
+        "intimate atmosphere"
+      ],
+      [
+        "4500",
+        "has feature",
+        "intimate atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "4521",
+    "triplets": [
+      [
+        "4521",
+        "offers",
+        "desserts"
+      ],
+      [
+        "4521",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "4521",
+    "triplets": [
+      [
+        "4521",
+        "offers",
+        "specialty sweets"
+      ],
+      [
+        "4521",
+        "serves",
+        "specialty sweets"
+      ]
+    ]
+  },
+  {
+    "iid": "4531",
+    "triplets": [
+      [
+        "4531",
+        "offers",
+        "sushi"
+      ],
+      [
+        "4531",
+        "serves",
+        "sushi"
+      ]
+    ]
+  },
+  {
+    "iid": "4536",
+    "triplets": [
+      [
+        "4536",
+        "has feature",
+        "music events"
+      ],
+      [
+        "4536",
+        "serves",
+        "music events"
+      ]
+    ]
+  },
+  {
+    "iid": "4536",
+    "triplets": [
+      [
+        "4536",
+        "has feature",
+        "tater tot nachos"
+      ],
+      [
+        "4536",
+        "serves",
+        "tater tot nachos"
+      ]
+    ]
+  },
+  {
+    "iid": "4536",
+    "triplets": [
+      [
+        "4536",
+        "has feature",
+        "unique menu items"
+      ],
+      [
+        "4536",
+        "serves",
+        "unique menu items"
+      ]
+    ]
+  },
+  {
+    "iid": "4545",
+    "triplets": [
+      [
+        "4545",
+        "category",
+        "pizza"
+      ],
+      [
+        "4545",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "4594",
+    "triplets": [
+      [
+        "4594",
+        "category",
+        "market"
+      ],
+      [
+        "4594",
+        "is a",
+        "market"
+      ]
+    ]
+  },
+  {
+    "iid": "4625",
+    "triplets": [
+      [
+        "4625",
+        "has feature",
+        "dive bar"
+      ],
+      [
+        "4625",
+        "is a",
+        "dive bar"
+      ]
+    ]
+  },
+  {
+    "iid": "4649",
+    "triplets": [
+      [
+        "4649",
+        "features",
+        "live music"
+      ],
+      [
+        "4649",
+        "has feature",
+        "live music"
+      ]
+    ]
+  },
+  {
+    "iid": "4683",
+    "triplets": [
+      [
+        "4683",
+        "offers",
+        "platters"
+      ],
+      [
+        "4683",
+        "serves",
+        "platters"
+      ]
+    ]
+  },
+  {
+    "iid": "4683",
+    "triplets": [
+      [
+        "4683",
+        "offers",
+        "slices"
+      ],
+      [
+        "4683",
+        "serves",
+        "slices"
+      ]
+    ]
+  },
+  {
+    "iid": "4685",
+    "triplets": [
+      [
+        "4685",
+        "offers",
+        "haircuts"
+      ],
+      [
+        "4685",
+        "serves",
+        "haircuts"
+      ]
+    ]
+  },
+  {
+    "iid": "470",
+    "triplets": [
+      [
+        "470",
+        "serves",
+        "refreshing drinks"
+      ],
+      [
+        "470",
+        "suitable for",
+        "refreshing drinks"
+      ]
+    ]
+  },
+  {
+    "iid": "4701",
+    "triplets": [
+      [
+        "4701",
+        "has feature",
+        "unique drinks"
+      ],
+      [
+        "4701",
+        "serves",
+        "unique drinks"
+      ]
+    ]
+  },
+  {
+    "iid": "4718",
+    "triplets": [
+      [
+        "4718",
+        "appeals to",
+        "coffee enthusiasts"
+      ],
+      [
+        "4718",
+        "serves",
+        "coffee enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "4718",
+    "triplets": [
+      [
+        "4718",
+        "appeals to",
+        "gluten-free individuals"
+      ],
+      [
+        "4718",
+        "serves",
+        "gluten-free individuals"
+      ]
+    ]
+  },
+  {
+    "iid": "4720",
+    "triplets": [
+      [
+        "4720",
+        "serves",
+        "ice cream"
+      ],
+      [
+        "4720",
+        "specializes in",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "4728",
+    "triplets": [
+      [
+        "4728",
+        "appeals to",
+        "families with young children"
+      ],
+      [
+        "4728",
+        "has feature",
+        "families with young children"
+      ]
+    ]
+  },
+  {
+    "iid": "4732",
+    "triplets": [
+      [
+        "4732",
+        "has atmosphere",
+        "impressive ambiance"
+      ],
+      [
+        "4732",
+        "has feature",
+        "impressive ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": "4747",
+    "triplets": [
+      [
+        "4747",
+        "has feature",
+        "seasonal menu"
+      ],
+      [
+        "4747",
+        "serves",
+        "seasonal menu"
+      ]
+    ]
+  },
+  {
+    "iid": "4763",
+    "triplets": [
+      [
+        "4763",
+        "has atmosphere",
+        "colonial-era decor"
+      ],
+      [
+        "4763",
+        "has feature",
+        "colonial-era decor"
+      ]
+    ]
+  },
+  {
+    "iid": "4763",
+    "triplets": [
+      [
+        "4763",
+        "has atmosphere",
+        "historical settings"
+      ],
+      [
+        "4763",
+        "has feature",
+        "historical settings"
+      ]
+    ]
+  },
+  {
+    "iid": "4766",
+    "triplets": [
+      [
+        "4766",
+        "is a",
+        "cemetery"
+      ],
+      [
+        "4766",
+        "serves",
+        "cemetery"
+      ]
+    ]
+  },
+  {
+    "iid": "4775",
+    "triplets": [
+      [
+        "4775",
+        "offers",
+        "personal training"
+      ],
+      [
+        "4775",
+        "serves",
+        "personal training"
+      ]
+    ]
+  },
+  {
+    "iid": "4810",
+    "triplets": [
+      [
+        "4810",
+        "offers",
+        "affordable options"
+      ],
+      [
+        "4810",
+        "serves",
+        "affordable options"
+      ]
+    ]
+  },
+  {
+    "iid": "482",
+    "triplets": [
+      [
+        "482",
+        "caters to",
+        "membership perks"
+      ],
+      [
+        "482",
+        "has feature",
+        "membership perks"
+      ]
+    ]
+  },
+  {
+    "iid": "4831",
+    "triplets": [
+      [
+        "4831",
+        "category",
+        "brewery"
+      ],
+      [
+        "4831",
+        "is a",
+        "brewery"
+      ]
+    ]
+  },
+  {
+    "iid": "485",
+    "triplets": [
+      [
+        "485",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "485",
+        "suitable for",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "4851",
+    "triplets": [
+      [
+        "4851",
+        "offers",
+        "burger"
+      ],
+      [
+        "4851",
+        "serves",
+        "burger"
+      ]
+    ]
+  },
+  {
+    "iid": "4870",
+    "triplets": [
+      [
+        "4870",
+        "offers",
+        "pub fare"
+      ],
+      [
+        "4870",
+        "serves",
+        "pub fare"
+      ]
+    ]
+  },
+  {
+    "iid": "4878",
+    "triplets": [
+      [
+        "4878",
+        "has atmosphere",
+        "great atmosphere"
+      ],
+      [
+        "4878",
+        "has feature",
+        "great atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "4899",
+    "triplets": [
+      [
+        "4899",
+        "has atmosphere",
+        "stylish ambiance"
+      ],
+      [
+        "4899",
+        "has feature",
+        "stylish ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": "4935",
+    "triplets": [
+      [
+        "4935",
+        "has feature",
+        "live music"
+      ],
+      [
+        "4935",
+        "serves",
+        "live music"
+      ]
+    ]
+  },
+  {
+    "iid": "4953",
+    "triplets": [
+      [
+        "4953",
+        "has feature",
+        "live jazz music"
+      ],
+      [
+        "4953",
+        "serves",
+        "live jazz music"
+      ]
+    ]
+  },
+  {
+    "iid": "4989",
+    "triplets": [
+      [
+        "4989",
+        "category",
+        "café"
+      ],
+      [
+        "4989",
+        "is a",
+        "café"
+      ]
+    ]
+  },
+  {
+    "iid": "4990",
+    "triplets": [
+      [
+        "4990",
+        "has feature",
+        "karaoke"
+      ],
+      [
+        "4990",
+        "offers",
+        "karaoke"
+      ]
+    ]
+  },
+  {
+    "iid": "4997",
+    "triplets": [
+      [
+        "4997",
+        "has feature",
+        "live music"
+      ],
+      [
+        "4997",
+        "serves",
+        "live music"
+      ]
+    ]
+  },
+  {
+    "iid": "4999",
+    "triplets": [
+      [
+        "4999",
+        "category",
+        "cafe"
+      ],
+      [
+        "4999",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "5012",
+    "triplets": [
+      [
+        "5012",
+        "offers",
+        "book"
+      ],
+      [
+        "5012",
+        "serves",
+        "book"
+      ]
+    ]
+  },
+  {
+    "iid": "5028",
+    "triplets": [
+      [
+        "5028",
+        "is a",
+        "hotel"
+      ],
+      [
+        "5028",
+        "serves",
+        "hotel"
+      ]
+    ]
+  },
+  {
+    "iid": "5055",
+    "triplets": [
+      [
+        "5055",
+        "appeals to",
+        "fans of craft beer"
+      ],
+      [
+        "5055",
+        "suitable for",
+        "fans of craft beer"
+      ]
+    ]
+  },
+  {
+    "iid": "5074",
+    "triplets": [
+      [
+        "5074",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "5074",
+        "has feature",
+        "cozy"
+      ]
+    ]
+  },
+  {
+    "iid": "5084",
+    "triplets": [
+      [
+        "5084",
+        "category",
+        "italian restaurant"
+      ],
+      [
+        "5084",
+        "is a",
+        "italian restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "5114",
+    "triplets": [
+      [
+        "5114",
+        "appeals to",
+        "fashion-forward individuals"
+      ],
+      [
+        "5114",
+        "serves",
+        "fashion-forward individuals"
+      ]
+    ]
+  },
+  {
+    "iid": "5165",
+    "triplets": [
+      [
+        "5165",
+        "has atmosphere",
+        "welcoming atmosphere"
+      ],
+      [
+        "5165",
+        "has feature",
+        "welcoming atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "5189",
+    "triplets": [
+      [
+        "5189",
+        "has feature",
+        "cleanliness"
+      ],
+      [
+        "5189",
+        "has significance",
+        "cleanliness"
+      ]
+    ]
+  },
+  {
+    "iid": "5190",
+    "triplets": [
+      [
+        "5190",
+        "offers",
+        "brunch"
+      ],
+      [
+        "5190",
+        "serves",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "5190",
+    "triplets": [
+      [
+        "5190",
+        "category",
+        "cafe"
+      ],
+      [
+        "5190",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "5190",
+    "triplets": [
+      [
+        "5190",
+        "offers",
+        "sandwiches"
+      ],
+      [
+        "5190",
+        "serves",
+        "sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "5191",
+    "triplets": [
+      [
+        "5191",
+        "category",
+        "wine"
+      ],
+      [
+        "5191",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "5241",
+    "triplets": [
+      [
+        "5241",
+        "has feature",
+        "cupcakes"
+      ],
+      [
+        "5241",
+        "serves",
+        "cupcakes"
+      ]
+    ]
+  },
+  {
+    "iid": "5241",
+    "triplets": [
+      [
+        "5241",
+        "has feature",
+        "custom cakes"
+      ],
+      [
+        "5241",
+        "serves",
+        "custom cakes"
+      ]
+    ]
+  },
+  {
+    "iid": "5264",
+    "triplets": [
+      [
+        "5264",
+        "category",
+        "escape room"
+      ],
+      [
+        "5264",
+        "is a",
+        "escape room"
+      ]
+    ]
+  },
+  {
+    "iid": "5347",
+    "triplets": [
+      [
+        "5347",
+        "has feature",
+        "cakes"
+      ],
+      [
+        "5347",
+        "serves",
+        "cakes"
+      ]
+    ]
+  },
+  {
+    "iid": "5353",
+    "triplets": [
+      [
+        "5353",
+        "offers",
+        "burger"
+      ],
+      [
+        "5353",
+        "serves",
+        "burger"
+      ]
+    ]
+  },
+  {
+    "iid": "5353",
+    "triplets": [
+      [
+        "5353",
+        "offers",
+        "cheesesteak spring rolls"
+      ],
+      [
+        "5353",
+        "serves",
+        "cheesesteak spring rolls"
+      ]
+    ]
+  },
+  {
+    "iid": "5353",
+    "triplets": [
+      [
+        "5353",
+        "offers",
+        "fish & chips"
+      ],
+      [
+        "5353",
+        "serves",
+        "fish & chips"
+      ]
+    ]
+  },
+  {
+    "iid": "5356",
+    "triplets": [
+      [
+        "5356",
+        "has atmosphere",
+        "cozy diner"
+      ],
+      [
+        "5356",
+        "located in",
+        "cozy diner"
+      ]
+    ]
+  },
+  {
+    "iid": "5372",
+    "triplets": [
+      [
+        "5372",
+        "category",
+        "Historical Society"
+      ],
+      [
+        "5372",
+        "is a",
+        "Historical Society"
+      ]
+    ]
+  },
+  {
+    "iid": "538",
+    "triplets": [
+      [
+        "538",
+        "has feature",
+        "lower prices"
+      ],
+      [
+        "538",
+        "price range",
+        "lower prices"
+      ]
+    ]
+  },
+  {
+    "iid": "5400",
+    "triplets": [
+      [
+        "5400",
+        "offers",
+        "skin care"
+      ],
+      [
+        "5400",
+        "serves",
+        "skin care"
+      ]
+    ]
+  },
+  {
+    "iid": "541",
+    "triplets": [
+      [
+        "541",
+        "serves",
+        "breakfast"
+      ],
+      [
+        "541",
+        "suitable for",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "541",
+    "triplets": [
+      [
+        "541",
+        "serves",
+        "brunch"
+      ],
+      [
+        "541",
+        "suitable for",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "543",
+    "triplets": [
+      [
+        "543",
+        "has feature",
+        "gourmet ingredients"
+      ],
+      [
+        "543",
+        "serves",
+        "gourmet ingredients"
+      ]
+    ]
+  },
+  {
+    "iid": "5430",
+    "triplets": [
+      [
+        "5430",
+        "is a",
+        "coffee"
+      ],
+      [
+        "5430",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "5499",
+    "triplets": [
+      [
+        "5499",
+        "has feature",
+        "craft beer"
+      ],
+      [
+        "5499",
+        "serves",
+        "craft beer"
+      ]
+    ]
+  },
+  {
+    "iid": "5523",
+    "triplets": [
+      [
+        "5523",
+        "has feature",
+        "beer"
+      ],
+      [
+        "5523",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "5531",
+    "triplets": [
+      [
+        "5531",
+        "is a",
+        "cinema"
+      ],
+      [
+        "5531",
+        "serves",
+        "cinema"
+      ]
+    ]
+  },
+  {
+    "iid": "5549",
+    "triplets": [
+      [
+        "5549",
+        "has feature",
+        "extensive menu options"
+      ],
+      [
+        "5549",
+        "offers",
+        "extensive menu options"
+      ]
+    ]
+  },
+  {
+    "iid": "5549",
+    "triplets": [
+      [
+        "5549",
+        "has feature",
+        "fresh ingredients"
+      ],
+      [
+        "5549",
+        "uses",
+        "fresh ingredients"
+      ]
+    ]
+  },
+  {
+    "iid": "5555",
+    "triplets": [
+      [
+        "5555",
+        "category",
+        "candy"
+      ],
+      [
+        "5555",
+        "serves",
+        "candy"
+      ]
+    ]
+  },
+  {
+    "iid": "5628",
+    "triplets": [
+      [
+        "5628",
+        "has feature",
+        "small plates"
+      ],
+      [
+        "5628",
+        "serves",
+        "small plates"
+      ]
+    ]
+  },
+  {
+    "iid": "5629",
+    "triplets": [
+      [
+        "5629",
+        "category",
+        "pastries"
+      ],
+      [
+        "5629",
+        "serves",
+        "pastries"
+      ]
+    ]
+  },
+  {
+    "iid": "5629",
+    "triplets": [
+      [
+        "5629",
+        "is a",
+        "soup"
+      ],
+      [
+        "5629",
+        "serves",
+        "soup"
+      ]
+    ]
+  },
+  {
+    "iid": "5645",
+    "triplets": [
+      [
+        "5645",
+        "category",
+        "ramen"
+      ],
+      [
+        "5645",
+        "serves",
+        "ramen"
+      ]
+    ]
+  },
+  {
+    "iid": "5682",
+    "triplets": [
+      [
+        "5682",
+        "features",
+        "concerts"
+      ],
+      [
+        "5682",
+        "has activity",
+        "concerts"
+      ]
+    ]
+  },
+  {
+    "iid": "5682",
+    "triplets": [
+      [
+        "5682",
+        "features",
+        "craft beer tastings"
+      ],
+      [
+        "5682",
+        "has activity",
+        "craft beer tastings"
+      ]
+    ]
+  },
+  {
+    "iid": "5684",
+    "triplets": [
+      [
+        "5684",
+        "has atmosphere",
+        "fun atmosphere"
+      ],
+      [
+        "5684",
+        "has feature",
+        "fun atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "5711",
+    "triplets": [
+      [
+        "5711",
+        "has atmosphere",
+        "vibrant environment"
+      ],
+      [
+        "5711",
+        "has feature",
+        "vibrant environment"
+      ]
+    ]
+  },
+  {
+    "iid": "5737",
+    "triplets": [
+      [
+        "5737",
+        "serves",
+        "desserts"
+      ],
+      [
+        "5737",
+        "specializes in",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "576",
+    "triplets": [
+      [
+        "576",
+        "appeals to",
+        "Locals seeking seasonal activities"
+      ],
+      [
+        "576",
+        "suitable for",
+        "Locals seeking seasonal activities"
+      ]
+    ]
+  },
+  {
+    "iid": "576",
+    "triplets": [
+      [
+        "576",
+        "appeals to",
+        "families with young children"
+      ],
+      [
+        "576",
+        "suitable for",
+        "families with young children"
+      ]
+    ]
+  },
+  {
+    "iid": "5811",
+    "triplets": [
+      [
+        "5811",
+        "has feature",
+        "beer"
+      ],
+      [
+        "5811",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "5811",
+    "triplets": [
+      [
+        "5811",
+        "has feature",
+        "craft beer"
+      ],
+      [
+        "5811",
+        "serves",
+        "craft beer"
+      ]
+    ]
+  },
+  {
+    "iid": "5864",
+    "triplets": [
+      [
+        "5864",
+        "category",
+        "brunch"
+      ],
+      [
+        "5864",
+        "serves",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "5899",
+    "triplets": [
+      [
+        "5899",
+        "category",
+        "sushi"
+      ],
+      [
+        "5899",
+        "serves",
+        "sushi"
+      ]
+    ]
+  },
+  {
+    "iid": "5915",
+    "triplets": [
+      [
+        "5915",
+        "serves",
+        "Tex-Mex"
+      ],
+      [
+        "5915",
+        "specializes in",
+        "Tex-Mex"
+      ]
+    ]
+  },
+  {
+    "iid": "5922",
+    "triplets": [
+      [
+        "5922",
+        "has feature",
+        "local products"
+      ],
+      [
+        "5922",
+        "offers",
+        "local products"
+      ]
+    ]
+  },
+  {
+    "iid": "5951",
+    "triplets": [
+      [
+        "5951",
+        "is a",
+        "bakery"
+      ],
+      [
+        "5951",
+        "serves",
+        "bakery"
+      ]
+    ]
+  },
+  {
+    "iid": "5968",
+    "triplets": [
+      [
+        "5968",
+        "has feature",
+        "frozen treats"
+      ],
+      [
+        "5968",
+        "serves",
+        "frozen treats"
+      ]
+    ]
+  },
+  {
+    "iid": "5970",
+    "triplets": [
+      [
+        "5970",
+        "has feature",
+        "fondue"
+      ],
+      [
+        "5970",
+        "serves",
+        "fondue"
+      ]
+    ]
+  },
+  {
+    "iid": "599",
+    "triplets": [
+      [
+        "599",
+        "has atmosphere",
+        "friendly service"
+      ],
+      [
+        "599",
+        "has feature",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "6006",
+    "triplets": [
+      [
+        "6006",
+        "category",
+        "pizza"
+      ],
+      [
+        "6006",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "604",
+    "triplets": [
+      [
+        "604",
+        "has feature",
+        "kebabs"
+      ],
+      [
+        "604",
+        "specializes in",
+        "kebabs"
+      ]
+    ]
+  },
+  {
+    "iid": "6103",
+    "triplets": [
+      [
+        "6103",
+        "has feature",
+        "unique specialties"
+      ],
+      [
+        "6103",
+        "serves",
+        "unique specialties"
+      ]
+    ]
+  },
+  {
+    "iid": "6120",
+    "triplets": [
+      [
+        "6120",
+        "serves",
+        "French pastries"
+      ],
+      [
+        "6120",
+        "specializes in",
+        "French pastries"
+      ]
+    ]
+  },
+  {
+    "iid": "6128",
+    "triplets": [
+      [
+        "6128",
+        "has variety of",
+        "drink"
+      ],
+      [
+        "6128",
+        "serves",
+        "drink"
+      ]
+    ]
+  },
+  {
+    "iid": "613",
+    "triplets": [
+      [
+        "613",
+        "has atmosphere",
+        "good vibes"
+      ],
+      [
+        "613",
+        "has feature",
+        "good vibes"
+      ]
+    ]
+  },
+  {
+    "iid": "6137",
+    "triplets": [
+      [
+        "6137",
+        "category",
+        "coffee"
+      ],
+      [
+        "6137",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "6160",
+    "triplets": [
+      [
+        "6160",
+        "category",
+        "deli"
+      ],
+      [
+        "6160",
+        "serves",
+        "deli"
+      ]
+    ]
+  },
+  {
+    "iid": "6188",
+    "triplets": [
+      [
+        "6188",
+        "category",
+        "hot chicken"
+      ],
+      [
+        "6188",
+        "serves",
+        "hot chicken"
+      ]
+    ]
+  },
+  {
+    "iid": "6197",
+    "triplets": [
+      [
+        "6197",
+        "serves",
+        "breakfast"
+      ],
+      [
+        "6197",
+        "suitable for",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "6213",
+    "triplets": [
+      [
+        "6213",
+        "has feature",
+        "desserts"
+      ],
+      [
+        "6213",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "6214",
+    "triplets": [
+      [
+        "6214",
+        "category",
+        "hotel"
+      ],
+      [
+        "6214",
+        "is a",
+        "hotel"
+      ]
+    ]
+  },
+  {
+    "iid": "6228",
+    "triplets": [
+      [
+        "6228",
+        "serves",
+        "breakfast"
+      ],
+      [
+        "6228",
+        "suitable for",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "6244",
+    "triplets": [
+      [
+        "6244",
+        "has feature",
+        "music genres"
+      ],
+      [
+        "6244",
+        "serves",
+        "music genres"
+      ]
+    ]
+  },
+  {
+    "iid": "6258",
+    "triplets": [
+      [
+        "6258",
+        "has feature",
+        "facials"
+      ],
+      [
+        "6258",
+        "serves",
+        "facials"
+      ]
+    ]
+  },
+  {
+    "iid": "6258",
+    "triplets": [
+      [
+        "6258",
+        "has feature",
+        "skin care treatments"
+      ],
+      [
+        "6258",
+        "serves",
+        "skin care treatments"
+      ]
+    ]
+  },
+  {
+    "iid": "6270",
+    "triplets": [
+      [
+        "6270",
+        "has feature",
+        "pretzels"
+      ],
+      [
+        "6270",
+        "serves",
+        "pretzels"
+      ]
+    ]
+  },
+  {
+    "iid": "6299",
+    "triplets": [
+      [
+        "6299",
+        "has feature",
+        "deli options"
+      ],
+      [
+        "6299",
+        "offers",
+        "deli options"
+      ]
+    ]
+  },
+  {
+    "iid": "632",
+    "triplets": [
+      [
+        "632",
+        "has atmosphere",
+        "casual vibe"
+      ],
+      [
+        "632",
+        "has feature",
+        "casual vibe"
+      ]
+    ]
+  },
+  {
+    "iid": "6326",
+    "triplets": [
+      [
+        "6326",
+        "is a",
+        "cafe"
+      ],
+      [
+        "6326",
+        "serves",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "634",
+    "triplets": [
+      [
+        "634",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "634",
+        "offers",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "6345",
+    "triplets": [
+      [
+        "6345",
+        "appeals to",
+        "Plus-sized women"
+      ],
+      [
+        "6345",
+        "caters to",
+        "Plus-sized women"
+      ]
+    ]
+  },
+  {
+    "iid": "6345",
+    "triplets": [
+      [
+        "6345",
+        "appeals to",
+        "brides-to-be"
+      ],
+      [
+        "6345",
+        "caters to",
+        "brides-to-be"
+      ]
+    ]
+  },
+  {
+    "iid": "6356",
+    "triplets": [
+      [
+        "6356",
+        "category",
+        "burger"
+      ],
+      [
+        "6356",
+        "serves",
+        "burger"
+      ]
+    ]
+  },
+  {
+    "iid": "6359",
+    "triplets": [
+      [
+        "6359",
+        "category",
+        "Taiwanese snack"
+      ],
+      [
+        "6359",
+        "serves",
+        "Taiwanese snack"
+      ]
+    ]
+  },
+  {
+    "iid": "6360",
+    "triplets": [
+      [
+        "6360",
+        "offers",
+        "drink options"
+      ],
+      [
+        "6360",
+        "serves",
+        "drink options"
+      ]
+    ]
+  },
+  {
+    "iid": "6440",
+    "triplets": [
+      [
+        "6440",
+        "appeals to",
+        "donut enthusiasts"
+      ],
+      [
+        "6440",
+        "caters to",
+        "donut enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "6458",
+    "triplets": [
+      [
+        "6458",
+        "has feature",
+        "reclining seats"
+      ],
+      [
+        "6458",
+        "lacks feature",
+        "reclining seats"
+      ]
+    ]
+  },
+  {
+    "iid": "6480",
+    "triplets": [
+      [
+        "6480",
+        "appeals to",
+        "Arts enthusiasts"
+      ],
+      [
+        "6480",
+        "caters to",
+        "Arts enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "6493",
+    "triplets": [
+      [
+        "6493",
+        "has feature",
+        "unique drinks"
+      ],
+      [
+        "6493",
+        "serves",
+        "unique drinks"
+      ]
+    ]
+  },
+  {
+    "iid": "6503",
+    "triplets": [
+      [
+        "6503",
+        "is a",
+        "cemetery"
+      ],
+      [
+        "6503",
+        "serves",
+        "cemetery"
+      ]
+    ]
+  },
+  {
+    "iid": "6505",
+    "triplets": [
+      [
+        "6505",
+        "category",
+        "restaurant"
+      ],
+      [
+        "6505",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "6513",
+    "triplets": [
+      [
+        "6513",
+        "appeals to",
+        "diverse crowd"
+      ],
+      [
+        "6513",
+        "has feature",
+        "diverse crowd"
+      ]
+    ]
+  },
+  {
+    "iid": "6513",
+    "triplets": [
+      [
+        "6513",
+        "category",
+        "pub"
+      ],
+      [
+        "6513",
+        "serves",
+        "pub"
+      ]
+    ]
+  },
+  {
+    "iid": "6513",
+    "triplets": [
+      [
+        "6513",
+        "category",
+        "sports bar"
+      ],
+      [
+        "6513",
+        "serves",
+        "sports bar"
+      ]
+    ]
+  },
+  {
+    "iid": "6514",
+    "triplets": [
+      [
+        "6514",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "6514",
+        "has feature",
+        "cozy"
+      ]
+    ]
+  },
+  {
+    "iid": "6532",
+    "triplets": [
+      [
+        "6532",
+        "is a",
+        "hotel"
+      ],
+      [
+        "6532",
+        "serves",
+        "hotel"
+      ]
+    ]
+  },
+  {
+    "iid": "6555",
+    "triplets": [
+      [
+        "6555",
+        "category",
+        "bar"
+      ],
+      [
+        "6555",
+        "is a",
+        "bar"
+      ]
+    ]
+  },
+  {
+    "iid": "6584",
+    "triplets": [
+      [
+        "6584",
+        "caters to",
+        "outdoor gear"
+      ],
+      [
+        "6584",
+        "offers",
+        "outdoor gear"
+      ]
+    ]
+  },
+  {
+    "iid": "663",
+    "triplets": [
+      [
+        "663",
+        "category",
+        "coffee"
+      ],
+      [
+        "663",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "6641",
+    "triplets": [
+      [
+        "6641",
+        "offers",
+        "auto repair"
+      ],
+      [
+        "6641",
+        "serves",
+        "auto repair"
+      ]
+    ]
+  },
+  {
+    "iid": "6641",
+    "triplets": [
+      [
+        "6641",
+        "offers",
+        "automotive services"
+      ],
+      [
+        "6641",
+        "serves",
+        "automotive services"
+      ]
+    ]
+  },
+  {
+    "iid": "6641",
+    "triplets": [
+      [
+        "6641",
+        "offers",
+        "oil changes"
+      ],
+      [
+        "6641",
+        "serves",
+        "oil changes"
+      ]
+    ]
+  },
+  {
+    "iid": "6641",
+    "triplets": [
+      [
+        "6641",
+        "offers",
+        "tires"
+      ],
+      [
+        "6641",
+        "serves",
+        "tires"
+      ]
+    ]
+  },
+  {
+    "iid": "6655",
+    "triplets": [
+      [
+        "6655",
+        "offers",
+        "massage"
+      ],
+      [
+        "6655",
+        "serves",
+        "massage"
+      ]
+    ]
+  },
+  {
+    "iid": "6663",
+    "triplets": [
+      [
+        "6663",
+        "category",
+        "music venue"
+      ],
+      [
+        "6663",
+        "serves",
+        "music venue"
+      ]
+    ]
+  },
+  {
+    "iid": "6665",
+    "triplets": [
+      [
+        "6665",
+        "serves",
+        "breakfast"
+      ],
+      [
+        "6665",
+        "suitable for",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "669",
+    "triplets": [
+      [
+        "669",
+        "category",
+        "sandwiches"
+      ],
+      [
+        "669",
+        "serves",
+        "sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "6690",
+    "triplets": [
+      [
+        "6690",
+        "category",
+        "restaurant"
+      ],
+      [
+        "6690",
+        "serves",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "6721",
+    "triplets": [
+      [
+        "6721",
+        "features",
+        "desserts"
+      ],
+      [
+        "6721",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "6773",
+    "triplets": [
+      [
+        "6773",
+        "has variety of",
+        "books"
+      ],
+      [
+        "6773",
+        "offers",
+        "books"
+      ]
+    ]
+  },
+  {
+    "iid": "6773",
+    "triplets": [
+      [
+        "6773",
+        "has variety of",
+        "movies"
+      ],
+      [
+        "6773",
+        "offers",
+        "movies"
+      ]
+    ]
+  },
+  {
+    "iid": "6773",
+    "triplets": [
+      [
+        "6773",
+        "has variety of",
+        "music"
+      ],
+      [
+        "6773",
+        "offers",
+        "music"
+      ]
+    ]
+  },
+  {
+    "iid": "6783",
+    "triplets": [
+      [
+        "6783",
+        "is a",
+        "steakhouse"
+      ],
+      [
+        "6783",
+        "serves",
+        "steakhouse"
+      ]
+    ]
+  },
+  {
+    "iid": "6786",
+    "triplets": [
+      [
+        "6786",
+        "has atmosphere",
+        "casual environment"
+      ],
+      [
+        "6786",
+        "suitable for",
+        "casual environment"
+      ]
+    ]
+  },
+  {
+    "iid": "6803",
+    "triplets": [
+      [
+        "6803",
+        "appeals to",
+        "diverse crowds"
+      ],
+      [
+        "6803",
+        "has feature",
+        "diverse crowds"
+      ]
+    ]
+  },
+  {
+    "iid": "6874",
+    "triplets": [
+      [
+        "6874",
+        "category",
+        "supermarket"
+      ],
+      [
+        "6874",
+        "is a",
+        "supermarket"
+      ]
+    ]
+  },
+  {
+    "iid": "6883",
+    "triplets": [
+      [
+        "6883",
+        "has feature",
+        "happy hour"
+      ],
+      [
+        "6883",
+        "offers",
+        "happy hour"
+      ]
+    ]
+  },
+  {
+    "iid": "6907",
+    "triplets": [
+      [
+        "6907",
+        "is a",
+        "car wash"
+      ],
+      [
+        "6907",
+        "serves",
+        "car wash"
+      ]
+    ]
+  },
+  {
+    "iid": "6915",
+    "triplets": [
+      [
+        "6915",
+        "serves",
+        "sandwiches"
+      ],
+      [
+        "6915",
+        "specializes in",
+        "sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "6934",
+    "triplets": [
+      [
+        "6934",
+        "is a",
+        "steakhouse"
+      ],
+      [
+        "6934",
+        "offers",
+        "steakhouse"
+      ]
+    ]
+  },
+  {
+    "iid": "6948",
+    "triplets": [
+      [
+        "6948",
+        "has reputation",
+        "roast duck"
+      ],
+      [
+        "6948",
+        "serves",
+        "roast duck"
+      ]
+    ]
+  },
+  {
+    "iid": "6948",
+    "triplets": [
+      [
+        "6948",
+        "has reputation",
+        "salt and pepper chicken wings"
+      ],
+      [
+        "6948",
+        "serves",
+        "salt and pepper chicken wings"
+      ]
+    ]
+  },
+  {
+    "iid": "6948",
+    "triplets": [
+      [
+        "6948",
+        "has reputation",
+        "wonton noodle soup"
+      ],
+      [
+        "6948",
+        "serves",
+        "wonton noodle soup"
+      ]
+    ]
+  },
+  {
+    "iid": "6987",
+    "triplets": [
+      [
+        "6987",
+        "appeals to",
+        "families with kids"
+      ],
+      [
+        "6987",
+        "suitable for",
+        "families with kids"
+      ]
+    ]
+  },
+  {
+    "iid": "6987",
+    "triplets": [
+      [
+        "6987",
+        "has atmosphere",
+        "friendly service"
+      ],
+      [
+        "6987",
+        "has feature",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "6987",
+    "triplets": [
+      [
+        "6987",
+        "presents",
+        "hot dogs"
+      ],
+      [
+        "6987",
+        "serves",
+        "hot dogs"
+      ]
+    ]
+  },
+  {
+    "iid": "6987",
+    "triplets": [
+      [
+        "6987",
+        "presents",
+        "milkshakes"
+      ],
+      [
+        "6987",
+        "serves",
+        "milkshakes"
+      ]
+    ]
+  },
+  {
+    "iid": "70",
+    "triplets": [
+      [
+        "70",
+        "offers",
+        "beer"
+      ],
+      [
+        "70",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "7003",
+    "triplets": [
+      [
+        "7003",
+        "offers",
+        "bbq"
+      ],
+      [
+        "7003",
+        "serves",
+        "bbq"
+      ]
+    ]
+  },
+  {
+    "iid": "7008",
+    "triplets": [
+      [
+        "7008",
+        "serves",
+        "brunch"
+      ],
+      [
+        "7008",
+        "suitable for",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "7014",
+    "triplets": [
+      [
+        "7014",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "7014",
+        "suitable for",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "7029",
+    "triplets": [
+      [
+        "7029",
+        "has menu feature",
+        "Irish eggs"
+      ],
+      [
+        "7029",
+        "serves",
+        "Irish eggs"
+      ]
+    ]
+  },
+  {
+    "iid": "7029",
+    "triplets": [
+      [
+        "7029",
+        "has menu feature",
+        "beef stew"
+      ],
+      [
+        "7029",
+        "serves",
+        "beef stew"
+      ]
+    ]
+  },
+  {
+    "iid": "7029",
+    "triplets": [
+      [
+        "7029",
+        "has menu feature",
+        "fish and chips"
+      ],
+      [
+        "7029",
+        "serves",
+        "fish and chips"
+      ]
+    ]
+  },
+  {
+    "iid": "7029",
+    "triplets": [
+      [
+        "7029",
+        "has menu feature",
+        "mussels"
+      ],
+      [
+        "7029",
+        "serves",
+        "mussels"
+      ]
+    ]
+  },
+  {
+    "iid": "7067",
+    "triplets": [
+      [
+        "7067",
+        "category",
+        "speakeasy"
+      ],
+      [
+        "7067",
+        "serves",
+        "speakeasy"
+      ]
+    ]
+  },
+  {
+    "iid": "7068",
+    "triplets": [
+      [
+        "7068",
+        "category",
+        "bubble tea"
+      ],
+      [
+        "7068",
+        "serves",
+        "bubble tea"
+      ]
+    ]
+  },
+  {
+    "iid": "7084",
+    "triplets": [
+      [
+        "7084",
+        "offers",
+        "bubble tea"
+      ],
+      [
+        "7084",
+        "serves",
+        "bubble tea"
+      ]
+    ]
+  },
+  {
+    "iid": "711",
+    "triplets": [
+      [
+        "711",
+        "offers",
+        "cheesesteaks"
+      ],
+      [
+        "711",
+        "serves",
+        "cheesesteaks"
+      ]
+    ]
+  },
+  {
+    "iid": "711",
+    "triplets": [
+      [
+        "711",
+        "offers",
+        "fries"
+      ],
+      [
+        "711",
+        "serves",
+        "fries"
+      ]
+    ]
+  },
+  {
+    "iid": "711",
+    "triplets": [
+      [
+        "711",
+        "offers",
+        "milkshakes"
+      ],
+      [
+        "711",
+        "serves",
+        "milkshakes"
+      ]
+    ]
+  },
+  {
+    "iid": "711",
+    "triplets": [
+      [
+        "711",
+        "offers",
+        "soda"
+      ],
+      [
+        "711",
+        "serves",
+        "soda"
+      ]
+    ]
+  },
+  {
+    "iid": "7117",
+    "triplets": [
+      [
+        "7117",
+        "presents",
+        "theater"
+      ],
+      [
+        "7117",
+        "presents genre",
+        "theater"
+      ]
+    ]
+  },
+  {
+    "iid": "7124",
+    "triplets": [
+      [
+        "7124",
+        "category",
+        "restaurant"
+      ],
+      [
+        "7124",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "7203",
+    "triplets": [
+      [
+        "7203",
+        "category",
+        "pizza"
+      ],
+      [
+        "7203",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "7227",
+    "triplets": [
+      [
+        "7227",
+        "has",
+        "friendly staff"
+      ],
+      [
+        "7227",
+        "has feature",
+        "friendly staff"
+      ]
+    ]
+  },
+  {
+    "iid": "7242",
+    "triplets": [
+      [
+        "7242",
+        "offers",
+        "ice cream"
+      ],
+      [
+        "7242",
+        "serves",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "7256",
+    "triplets": [
+      [
+        "7256",
+        "has atmosphere",
+        "cozy and friendly environment"
+      ],
+      [
+        "7256",
+        "has setting",
+        "cozy and friendly environment"
+      ]
+    ]
+  },
+  {
+    "iid": "7295",
+    "triplets": [
+      [
+        "7295",
+        "has variety of",
+        "salads"
+      ],
+      [
+        "7295",
+        "serves",
+        "salads"
+      ]
+    ]
+  },
+  {
+    "iid": "7295",
+    "triplets": [
+      [
+        "7295",
+        "has menu feature",
+        "sandwiches"
+      ],
+      [
+        "7295",
+        "serves",
+        "sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "7305",
+    "triplets": [
+      [
+        "7305",
+        "has service",
+        "friendly service"
+      ],
+      [
+        "7305",
+        "suitable for",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "7305",
+    "triplets": [
+      [
+        "7305",
+        "has feature",
+        "generous portions"
+      ],
+      [
+        "7305",
+        "suitable for",
+        "generous portions"
+      ]
+    ]
+  },
+  {
+    "iid": "7305",
+    "triplets": [
+      [
+        "7305",
+        "has feature",
+        "reasonable prices"
+      ],
+      [
+        "7305",
+        "suitable for",
+        "reasonable prices"
+      ]
+    ]
+  },
+  {
+    "iid": "7357",
+    "triplets": [
+      [
+        "7357",
+        "category",
+        "cafe"
+      ],
+      [
+        "7357",
+        "presents",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "7371",
+    "triplets": [
+      [
+        "7371",
+        "category",
+        "market"
+      ],
+      [
+        "7371",
+        "has feature",
+        "market"
+      ]
+    ]
+  },
+  {
+    "iid": "7376",
+    "triplets": [
+      [
+        "7376",
+        "category",
+        "pizza"
+      ],
+      [
+        "7376",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "7411",
+    "triplets": [
+      [
+        "7411",
+        "offers",
+        "breakfast"
+      ],
+      [
+        "7411",
+        "serves",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "7411",
+    "triplets": [
+      [
+        "7411",
+        "offers",
+        "lunch"
+      ],
+      [
+        "7411",
+        "serves",
+        "lunch"
+      ]
+    ]
+  },
+  {
+    "iid": "7422",
+    "triplets": [
+      [
+        "7422",
+        "category",
+        "deli"
+      ],
+      [
+        "7422",
+        "serves",
+        "deli"
+      ]
+    ]
+  },
+  {
+    "iid": "7428",
+    "triplets": [
+      [
+        "7428",
+        "appeals to",
+        "vegetarians"
+      ],
+      [
+        "7428",
+        "caters to",
+        "vegetarians"
+      ]
+    ]
+  },
+  {
+    "iid": "7430",
+    "triplets": [
+      [
+        "7430",
+        "has atmosphere",
+        "waterside views"
+      ],
+      [
+        "7430",
+        "located in",
+        "waterside views"
+      ]
+    ]
+  },
+  {
+    "iid": "7448",
+    "triplets": [
+      [
+        "7448",
+        "has feature",
+        "great service"
+      ],
+      [
+        "7448",
+        "offers",
+        "great service"
+      ]
+    ]
+  },
+  {
+    "iid": "7469",
+    "triplets": [
+      [
+        "7469",
+        "is a",
+        "deli"
+      ],
+      [
+        "7469",
+        "serves",
+        "deli"
+      ]
+    ]
+  },
+  {
+    "iid": "7472",
+    "triplets": [
+      [
+        "7472",
+        "is a",
+        "baking supplies"
+      ],
+      [
+        "7472",
+        "serves",
+        "baking supplies"
+      ]
+    ]
+  },
+  {
+    "iid": "7472",
+    "triplets": [
+      [
+        "7472",
+        "category",
+        "snacks"
+      ],
+      [
+        "7472",
+        "serves",
+        "snacks"
+      ]
+    ]
+  },
+  {
+    "iid": "7493",
+    "triplets": [
+      [
+        "7493",
+        "offers",
+        "music"
+      ],
+      [
+        "7493",
+        "serves",
+        "music"
+      ]
+    ]
+  },
+  {
+    "iid": "7517",
+    "triplets": [
+      [
+        "7517",
+        "is a",
+        "hotel"
+      ],
+      [
+        "7517",
+        "serves",
+        "hotel"
+      ]
+    ]
+  },
+  {
+    "iid": "7523",
+    "triplets": [
+      [
+        "7523",
+        "category",
+        "cheeseburgers"
+      ],
+      [
+        "7523",
+        "serves",
+        "cheeseburgers"
+      ]
+    ]
+  },
+  {
+    "iid": "7523",
+    "triplets": [
+      [
+        "7523",
+        "category",
+        "milkshakes"
+      ],
+      [
+        "7523",
+        "serves",
+        "milkshakes"
+      ]
+    ]
+  },
+  {
+    "iid": "7552",
+    "triplets": [
+      [
+        "7552",
+        "category",
+        "ice cream"
+      ],
+      [
+        "7552",
+        "serves",
+        "ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": "758",
+    "triplets": [
+      [
+        "758",
+        "has feature",
+        "fries"
+      ],
+      [
+        "758",
+        "serves",
+        "fries"
+      ]
+    ]
+  },
+  {
+    "iid": "7593",
+    "triplets": [
+      [
+        "7593",
+        "category",
+        "bakery"
+      ],
+      [
+        "7593",
+        "serves",
+        "bakery"
+      ]
+    ]
+  },
+  {
+    "iid": "7623",
+    "triplets": [
+      [
+        "7623",
+        "category",
+        "bar"
+      ],
+      [
+        "7623",
+        "is a",
+        "bar"
+      ]
+    ]
+  },
+  {
+    "iid": "7629",
+    "triplets": [
+      [
+        "7629",
+        "is a",
+        "pizza"
+      ],
+      [
+        "7629",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "7650",
+    "triplets": [
+      [
+        "7650",
+        "has feature",
+        "outdoor accessories"
+      ],
+      [
+        "7650",
+        "offers",
+        "outdoor accessories"
+      ]
+    ]
+  },
+  {
+    "iid": "7650",
+    "triplets": [
+      [
+        "7650",
+        "has feature",
+        "outdoor clothing"
+      ],
+      [
+        "7650",
+        "offers",
+        "outdoor clothing"
+      ]
+    ]
+  },
+  {
+    "iid": "7658",
+    "triplets": [
+      [
+        "7658",
+        "has feature",
+        "cocktails"
+      ],
+      [
+        "7658",
+        "serves",
+        "cocktails"
+      ]
+    ]
+  },
+  {
+    "iid": "7679",
+    "triplets": [
+      [
+        "7679",
+        "has feature",
+        "wine"
+      ],
+      [
+        "7679",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "7713",
+    "triplets": [
+      [
+        "7713",
+        "category",
+        "dairy"
+      ],
+      [
+        "7713",
+        "serves",
+        "dairy"
+      ]
+    ]
+  },
+  {
+    "iid": "7736",
+    "triplets": [
+      [
+        "7736",
+        "offers",
+        "brunch"
+      ],
+      [
+        "7736",
+        "serves",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "7745",
+    "triplets": [
+      [
+        "7745",
+        "offers",
+        "pizza"
+      ],
+      [
+        "7745",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "7746",
+    "triplets": [
+      [
+        "7746",
+        "appeals to",
+        "fine dining enthusiasts"
+      ],
+      [
+        "7746",
+        "suitable for",
+        "fine dining enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "7752",
+    "triplets": [
+      [
+        "7752",
+        "offers",
+        "pastries"
+      ],
+      [
+        "7752",
+        "serves",
+        "pastries"
+      ]
+    ]
+  },
+  {
+    "iid": "7754",
+    "triplets": [
+      [
+        "7754",
+        "has feature",
+        "attentive service"
+      ],
+      [
+        "7754",
+        "provides",
+        "attentive service"
+      ]
+    ]
+  },
+  {
+    "iid": "7783",
+    "triplets": [
+      [
+        "7783",
+        "presents",
+        "art"
+      ],
+      [
+        "7783",
+        "serves",
+        "art"
+      ]
+    ]
+  },
+  {
+    "iid": "7783",
+    "triplets": [
+      [
+        "7783",
+        "presents",
+        "history"
+      ],
+      [
+        "7783",
+        "serves",
+        "history"
+      ]
+    ]
+  },
+  {
+    "iid": "7783",
+    "triplets": [
+      [
+        "7783",
+        "category",
+        "museum"
+      ],
+      [
+        "7783",
+        "is a",
+        "museum"
+      ]
+    ]
+  },
+  {
+    "iid": "7819",
+    "triplets": [
+      [
+        "7819",
+        "category",
+        "accessories"
+      ],
+      [
+        "7819",
+        "serves",
+        "accessories"
+      ]
+    ]
+  },
+  {
+    "iid": "7819",
+    "triplets": [
+      [
+        "7819",
+        "category",
+        "furniture"
+      ],
+      [
+        "7819",
+        "serves",
+        "furniture"
+      ]
+    ]
+  },
+  {
+    "iid": "7819",
+    "triplets": [
+      [
+        "7819",
+        "category",
+        "home decor"
+      ],
+      [
+        "7819",
+        "serves",
+        "home decor"
+      ]
+    ]
+  },
+  {
+    "iid": "7819",
+    "triplets": [
+      [
+        "7819",
+        "category",
+        "wine"
+      ],
+      [
+        "7819",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "7821",
+    "triplets": [
+      [
+        "7821",
+        "has feature",
+        "clothing"
+      ],
+      [
+        "7821",
+        "offers",
+        "clothing"
+      ]
+    ]
+  },
+  {
+    "iid": "7821",
+    "triplets": [
+      [
+        "7821",
+        "has feature",
+        "locally-themed gifts"
+      ],
+      [
+        "7821",
+        "offers",
+        "locally-themed gifts"
+      ]
+    ]
+  },
+  {
+    "iid": "7823",
+    "triplets": [
+      [
+        "7823",
+        "offers",
+        "coffee"
+      ],
+      [
+        "7823",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "7847",
+    "triplets": [
+      [
+        "7847",
+        "appeals to",
+        "families with kids"
+      ],
+      [
+        "7847",
+        "suitable for",
+        "families with kids"
+      ]
+    ]
+  },
+  {
+    "iid": "7894",
+    "triplets": [
+      [
+        "7894",
+        "has variety of",
+        "bakery items"
+      ],
+      [
+        "7894",
+        "serves",
+        "bakery items"
+      ]
+    ]
+  },
+  {
+    "iid": "7928",
+    "triplets": [
+      [
+        "7928",
+        "category",
+        "wine"
+      ],
+      [
+        "7928",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "7949",
+    "triplets": [
+      [
+        "7949",
+        "has feature",
+        "friendly service"
+      ],
+      [
+        "7949",
+        "offers",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "7949",
+    "triplets": [
+      [
+        "7949",
+        "has feature",
+        "reasonable prices"
+      ],
+      [
+        "7949",
+        "has price range",
+        "reasonable prices"
+      ]
+    ]
+  },
+  {
+    "iid": "7949",
+    "triplets": [
+      [
+        "7949",
+        "has feature",
+        "variety of pasta options"
+      ],
+      [
+        "7949",
+        "serves",
+        "variety of pasta options"
+      ]
+    ]
+  },
+  {
+    "iid": "7974",
+    "triplets": [
+      [
+        "7974",
+        "category",
+        "souvenirs"
+      ],
+      [
+        "7974",
+        "offers",
+        "souvenirs"
+      ]
+    ]
+  },
+  {
+    "iid": "7988",
+    "triplets": [
+      [
+        "7988",
+        "category",
+        "pizza"
+      ],
+      [
+        "7988",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "7999",
+    "triplets": [
+      [
+        "7999",
+        "has feature",
+        "big portions"
+      ],
+      [
+        "7999",
+        "serves",
+        "big portions"
+      ]
+    ]
+  },
+  {
+    "iid": "7999",
+    "triplets": [
+      [
+        "7999",
+        "has feature",
+        "moderate prices"
+      ],
+      [
+        "7999",
+        "price range",
+        "moderate prices"
+      ]
+    ]
+  },
+  {
+    "iid": "8019",
+    "triplets": [
+      [
+        "8019",
+        "category",
+        "steakhouse"
+      ],
+      [
+        "8019",
+        "serves",
+        "steakhouse"
+      ]
+    ]
+  },
+  {
+    "iid": "8031",
+    "triplets": [
+      [
+        "8031",
+        "serves",
+        "French press coffee"
+      ],
+      [
+        "8031",
+        "specializes in",
+        "French press coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "8031",
+    "triplets": [
+      [
+        "8031",
+        "serves",
+        "crepes"
+      ],
+      [
+        "8031",
+        "specializes in",
+        "crepes"
+      ]
+    ]
+  },
+  {
+    "iid": "8031",
+    "triplets": [
+      [
+        "8031",
+        "serves",
+        "fresh fruit salads"
+      ],
+      [
+        "8031",
+        "specializes in",
+        "fresh fruit salads"
+      ]
+    ]
+  },
+  {
+    "iid": "8047",
+    "triplets": [
+      [
+        "8047",
+        "appeals to",
+        "families with kids"
+      ],
+      [
+        "8047",
+        "caters to",
+        "families with kids"
+      ]
+    ]
+  },
+  {
+    "iid": "8063",
+    "triplets": [
+      [
+        "8063",
+        "has atmosphere",
+        "divey vibe"
+      ],
+      [
+        "8063",
+        "has feature",
+        "divey vibe"
+      ]
+    ]
+  },
+  {
+    "iid": "8086",
+    "triplets": [
+      [
+        "8086",
+        "has activity",
+        "kids activities"
+      ],
+      [
+        "8086",
+        "has feature",
+        "kids activities"
+      ]
+    ]
+  },
+  {
+    "iid": "809",
+    "triplets": [
+      [
+        "809",
+        "category",
+        "sweets"
+      ],
+      [
+        "809",
+        "offers",
+        "sweets"
+      ]
+    ]
+  },
+  {
+    "iid": "8105",
+    "triplets": [
+      [
+        "8105",
+        "is a",
+        "frozen custard"
+      ],
+      [
+        "8105",
+        "serves",
+        "frozen custard"
+      ]
+    ]
+  },
+  {
+    "iid": "8109",
+    "triplets": [
+      [
+        "8109",
+        "has activity",
+        "unique and exotic ingredients"
+      ],
+      [
+        "8109",
+        "has feature",
+        "unique and exotic ingredients"
+      ]
+    ]
+  },
+  {
+    "iid": "8120",
+    "triplets": [
+      [
+        "8120",
+        "category",
+        "desserts"
+      ],
+      [
+        "8120",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "8159",
+    "triplets": [
+      [
+        "8159",
+        "has feature",
+        "small plates"
+      ],
+      [
+        "8159",
+        "serves",
+        "small plates"
+      ]
+    ]
+  },
+  {
+    "iid": "8189",
+    "triplets": [
+      [
+        "8189",
+        "appeals to",
+        "hydrating drinks"
+      ],
+      [
+        "8189",
+        "has feature",
+        "hydrating drinks"
+      ]
+    ]
+  },
+  {
+    "iid": "8221",
+    "triplets": [
+      [
+        "8221",
+        "offers",
+        "grocery items"
+      ],
+      [
+        "8221",
+        "serves",
+        "grocery items"
+      ]
+    ]
+  },
+  {
+    "iid": "8231",
+    "triplets": [
+      [
+        "8231",
+        "category",
+        "confectionery"
+      ],
+      [
+        "8231",
+        "is a",
+        "confectionery"
+      ]
+    ]
+  },
+  {
+    "iid": "824",
+    "triplets": [
+      [
+        "824",
+        "has feature",
+        "pizza"
+      ],
+      [
+        "824",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "825",
+    "triplets": [
+      [
+        "825",
+        "offers",
+        "manicure"
+      ],
+      [
+        "825",
+        "serves",
+        "manicure"
+      ]
+    ]
+  },
+  {
+    "iid": "825",
+    "triplets": [
+      [
+        "825",
+        "offers",
+        "pedicure"
+      ],
+      [
+        "825",
+        "serves",
+        "pedicure"
+      ]
+    ]
+  },
+  {
+    "iid": "8276",
+    "triplets": [
+      [
+        "8276",
+        "has feature",
+        "soups"
+      ],
+      [
+        "8276",
+        "serves",
+        "soups"
+      ]
+    ]
+  },
+  {
+    "iid": "8313",
+    "triplets": [
+      [
+        "8313",
+        "category",
+        "brewery"
+      ],
+      [
+        "8313",
+        "is a",
+        "brewery"
+      ]
+    ]
+  },
+  {
+    "iid": "8333",
+    "triplets": [
+      [
+        "8333",
+        "category",
+        "restaurant"
+      ],
+      [
+        "8333",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "8344",
+    "triplets": [
+      [
+        "8344",
+        "has feature",
+        "recreational facilities"
+      ],
+      [
+        "8344",
+        "offers",
+        "recreational facilities"
+      ]
+    ]
+  },
+  {
+    "iid": "8344",
+    "triplets": [
+      [
+        "8344",
+        "has feature",
+        "scenic views"
+      ],
+      [
+        "8344",
+        "offers",
+        "scenic views"
+      ]
+    ]
+  },
+  {
+    "iid": "8345",
+    "triplets": [
+      [
+        "8345",
+        "category",
+        "sports bar"
+      ],
+      [
+        "8345",
+        "has feature",
+        "sports bar"
+      ]
+    ]
+  },
+  {
+    "iid": "8346",
+    "triplets": [
+      [
+        "8346",
+        "is a",
+        "park"
+      ],
+      [
+        "8346",
+        "serves",
+        "park"
+      ]
+    ]
+  },
+  {
+    "iid": "8396",
+    "triplets": [
+      [
+        "8396",
+        "has feature",
+        "interactive exhibits"
+      ],
+      [
+        "8396",
+        "offers",
+        "interactive exhibits"
+      ]
+    ]
+  },
+  {
+    "iid": "8403",
+    "triplets": [
+      [
+        "8403",
+        "offers",
+        "vegan"
+      ],
+      [
+        "8403",
+        "serves",
+        "vegan"
+      ]
+    ]
+  },
+  {
+    "iid": "8421",
+    "triplets": [
+      [
+        "8421",
+        "offers",
+        "pizza toppings"
+      ],
+      [
+        "8421",
+        "serves",
+        "pizza toppings"
+      ]
+    ]
+  },
+  {
+    "iid": "8427",
+    "triplets": [
+      [
+        "8427",
+        "offers",
+        "baked goods"
+      ],
+      [
+        "8427",
+        "serves",
+        "baked goods"
+      ]
+    ]
+  },
+  {
+    "iid": "8471",
+    "triplets": [
+      [
+        "8471",
+        "presents",
+        "sculptures"
+      ],
+      [
+        "8471",
+        "serves",
+        "sculptures"
+      ]
+    ]
+  },
+  {
+    "iid": "851",
+    "triplets": [
+      [
+        "851",
+        "offers",
+        "donuts"
+      ],
+      [
+        "851",
+        "serves",
+        "donuts"
+      ]
+    ]
+  },
+  {
+    "iid": "851",
+    "triplets": [
+      [
+        "851",
+        "offers",
+        "pastries"
+      ],
+      [
+        "851",
+        "serves",
+        "pastries"
+      ]
+    ]
+  },
+  {
+    "iid": "8513",
+    "triplets": [
+      [
+        "8513",
+        "has feature",
+        "premium flavors"
+      ],
+      [
+        "8513",
+        "serves",
+        "premium flavors"
+      ]
+    ]
+  },
+  {
+    "iid": "8534",
+    "triplets": [
+      [
+        "8534",
+        "category",
+        "bar"
+      ],
+      [
+        "8534",
+        "is a",
+        "bar"
+      ]
+    ]
+  },
+  {
+    "iid": "8537",
+    "triplets": [
+      [
+        "8537",
+        "offers",
+        "beers"
+      ],
+      [
+        "8537",
+        "serves",
+        "beers"
+      ]
+    ]
+  },
+  {
+    "iid": "8537",
+    "triplets": [
+      [
+        "8537",
+        "offers",
+        "craft beers"
+      ],
+      [
+        "8537",
+        "serves",
+        "craft beers"
+      ]
+    ]
+  },
+  {
+    "iid": "8537",
+    "triplets": [
+      [
+        "8537",
+        "offers",
+        "wine"
+      ],
+      [
+        "8537",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "8543",
+    "triplets": [
+      [
+        "8543",
+        "has feature",
+        "tasty sides"
+      ],
+      [
+        "8543",
+        "serves",
+        "tasty sides"
+      ]
+    ]
+  },
+  {
+    "iid": "8554",
+    "triplets": [
+      [
+        "8554",
+        "has feature",
+        "fair trade coffee"
+      ],
+      [
+        "8554",
+        "offers",
+        "fair trade coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "8562",
+    "triplets": [
+      [
+        "8562",
+        "has feature",
+        "happy hour"
+      ],
+      [
+        "8562",
+        "suitable for",
+        "happy hour"
+      ]
+    ]
+  },
+  {
+    "iid": "8569",
+    "triplets": [
+      [
+        "8569",
+        "has feature",
+        "sweet treats"
+      ],
+      [
+        "8569",
+        "serves",
+        "sweet treats"
+      ]
+    ]
+  },
+  {
+    "iid": "8583",
+    "triplets": [
+      [
+        "8583",
+        "has feature",
+        "produce"
+      ],
+      [
+        "8583",
+        "serves",
+        "produce"
+      ]
+    ]
+  },
+  {
+    "iid": "8603",
+    "triplets": [
+      [
+        "8603",
+        "has atmosphere",
+        "friendly staff"
+      ],
+      [
+        "8603",
+        "has feature",
+        "friendly staff"
+      ]
+    ]
+  },
+  {
+    "iid": "8611",
+    "triplets": [
+      [
+        "8611",
+        "provides",
+        "casual dining"
+      ],
+      [
+        "8611",
+        "suitable for",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "8611",
+    "triplets": [
+      [
+        "8611",
+        "offers",
+        "gluten-free items"
+      ],
+      [
+        "8611",
+        "serves",
+        "gluten-free items"
+      ]
+    ]
+  },
+  {
+    "iid": "8617",
+    "triplets": [
+      [
+        "8617",
+        "offers",
+        "wine"
+      ],
+      [
+        "8617",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "8647",
+    "triplets": [
+      [
+        "8647",
+        "has variety of",
+        "craft beer"
+      ],
+      [
+        "8647",
+        "serves",
+        "craft beer"
+      ]
+    ]
+  },
+  {
+    "iid": "8647",
+    "triplets": [
+      [
+        "8647",
+        "has variety of",
+        "wine"
+      ],
+      [
+        "8647",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "8691",
+    "triplets": [
+      [
+        "8691",
+        "has feature",
+        "fair prices"
+      ],
+      [
+        "8691",
+        "price range",
+        "fair prices"
+      ]
+    ]
+  },
+  {
+    "iid": "8704",
+    "triplets": [
+      [
+        "8704",
+        "category",
+        "coffee"
+      ],
+      [
+        "8704",
+        "serves",
+        "coffee"
+      ]
+    ]
+  },
+  {
+    "iid": "8738",
+    "triplets": [
+      [
+        "8738",
+        "offers",
+        "burgers"
+      ],
+      [
+        "8738",
+        "serves",
+        "burgers"
+      ]
+    ]
+  },
+  {
+    "iid": "8744",
+    "triplets": [
+      [
+        "8744",
+        "caters to",
+        "families with kids"
+      ],
+      [
+        "8744",
+        "has feature",
+        "families with kids"
+      ]
+    ]
+  },
+  {
+    "iid": "8744",
+    "triplets": [
+      [
+        "8744",
+        "caters to",
+        "groups"
+      ],
+      [
+        "8744",
+        "has feature",
+        "groups"
+      ]
+    ]
+  },
+  {
+    "iid": "8760",
+    "triplets": [
+      [
+        "8760",
+        "appeals to",
+        "sushi enthusiasts"
+      ],
+      [
+        "8760",
+        "caters to",
+        "sushi enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "8785",
+    "triplets": [
+      [
+        "8785",
+        "has feature",
+        "sweet treats"
+      ],
+      [
+        "8785",
+        "serves",
+        "sweet treats"
+      ]
+    ]
+  },
+  {
+    "iid": "8810",
+    "triplets": [
+      [
+        "8810",
+        "category",
+        "accessories"
+      ],
+      [
+        "8810",
+        "offers",
+        "accessories"
+      ]
+    ]
+  },
+  {
+    "iid": "8810",
+    "triplets": [
+      [
+        "8810",
+        "is a",
+        "clothing"
+      ],
+      [
+        "8810",
+        "offers",
+        "clothing"
+      ]
+    ]
+  },
+  {
+    "iid": "8810",
+    "triplets": [
+      [
+        "8810",
+        "category",
+        "merchandise"
+      ],
+      [
+        "8810",
+        "offers",
+        "merchandise"
+      ]
+    ]
+  },
+  {
+    "iid": "8885",
+    "triplets": [
+      [
+        "8885",
+        "has feature",
+        "beer"
+      ],
+      [
+        "8885",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "8885",
+    "triplets": [
+      [
+        "8885",
+        "has feature",
+        "wine"
+      ],
+      [
+        "8885",
+        "serves",
+        "wine"
+      ]
+    ]
+  },
+  {
+    "iid": "889",
+    "triplets": [
+      [
+        "889",
+        "category",
+        "book"
+      ],
+      [
+        "889",
+        "serves",
+        "book"
+      ]
+    ]
+  },
+  {
+    "iid": "8891",
+    "triplets": [
+      [
+        "8891",
+        "is a",
+        "barbecue"
+      ],
+      [
+        "8891",
+        "serves",
+        "barbecue"
+      ]
+    ]
+  },
+  {
+    "iid": "8921",
+    "triplets": [
+      [
+        "8921",
+        "has atmosphere",
+        "trendy decor"
+      ],
+      [
+        "8921",
+        "has feature",
+        "trendy decor"
+      ]
+    ]
+  },
+  {
+    "iid": "8924",
+    "triplets": [
+      [
+        "8924",
+        "serves",
+        "bbq"
+      ],
+      [
+        "8924",
+        "specializes in",
+        "bbq"
+      ]
+    ]
+  },
+  {
+    "iid": "8949",
+    "triplets": [
+      [
+        "8949",
+        "appeals to",
+        "vegans"
+      ],
+      [
+        "8949",
+        "suitable for",
+        "vegans"
+      ]
+    ]
+  },
+  {
+    "iid": "8949",
+    "triplets": [
+      [
+        "8949",
+        "appeals to",
+        "vegetarians"
+      ],
+      [
+        "8949",
+        "suitable for",
+        "vegetarians"
+      ]
+    ]
+  },
+  {
+    "iid": "8957",
+    "triplets": [
+      [
+        "8957",
+        "has feature",
+        "grocery store"
+      ],
+      [
+        "8957",
+        "is a",
+        "grocery store"
+      ]
+    ]
+  },
+  {
+    "iid": "8982",
+    "triplets": [
+      [
+        "8982",
+        "has feature",
+        "fried shrimp"
+      ],
+      [
+        "8982",
+        "serves",
+        "fried shrimp"
+      ]
+    ]
+  },
+  {
+    "iid": "8982",
+    "triplets": [
+      [
+        "8982",
+        "has feature",
+        "roast beef po-boys"
+      ],
+      [
+        "8982",
+        "serves",
+        "roast beef po-boys"
+      ]
+    ]
+  },
+  {
+    "iid": "8987",
+    "triplets": [
+      [
+        "8987",
+        "is a",
+        "restaurant"
+      ],
+      [
+        "8987",
+        "serves",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "8993",
+    "triplets": [
+      [
+        "8993",
+        "offers",
+        "salads"
+      ],
+      [
+        "8993",
+        "serves",
+        "salads"
+      ]
+    ]
+  },
+  {
+    "iid": "900",
+    "triplets": [
+      [
+        "900",
+        "features",
+        "ample parking"
+      ],
+      [
+        "900",
+        "has feature",
+        "ample parking"
+      ]
+    ]
+  },
+  {
+    "iid": "9009",
+    "triplets": [
+      [
+        "9009",
+        "has feature",
+        "Chicago-style pizza"
+      ],
+      [
+        "9009",
+        "serves",
+        "Chicago-style pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "9009",
+    "triplets": [
+      [
+        "9009",
+        "has feature",
+        "beef sandwiches"
+      ],
+      [
+        "9009",
+        "serves",
+        "beef sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "9010",
+    "triplets": [
+      [
+        "9010",
+        "offers",
+        "desserts"
+      ],
+      [
+        "9010",
+        "serves",
+        "desserts"
+      ]
+    ]
+  },
+  {
+    "iid": "9010",
+    "triplets": [
+      [
+        "9010",
+        "offers",
+        "pastries"
+      ],
+      [
+        "9010",
+        "serves",
+        "pastries"
+      ]
+    ]
+  },
+  {
+    "iid": "9031",
+    "triplets": [
+      [
+        "9031",
+        "has atmosphere",
+        "lively"
+      ],
+      [
+        "9031",
+        "has vibe",
+        "lively"
+      ]
+    ]
+  },
+  {
+    "iid": "904",
+    "triplets": [
+      [
+        "904",
+        "offers",
+        "Voodoo culture"
+      ],
+      [
+        "904",
+        "specializes in",
+        "Voodoo culture"
+      ]
+    ]
+  },
+  {
+    "iid": "9052",
+    "triplets": [
+      [
+        "9052",
+        "category",
+        "cafe"
+      ],
+      [
+        "9052",
+        "is a",
+        "cafe"
+      ]
+    ]
+  },
+  {
+    "iid": "9059",
+    "triplets": [
+      [
+        "9059",
+        "has feature",
+        "jewelry-making supplies"
+      ],
+      [
+        "9059",
+        "offers",
+        "jewelry-making supplies"
+      ]
+    ]
+  },
+  {
+    "iid": "9075",
+    "triplets": [
+      [
+        "9075",
+        "category",
+        "deli"
+      ],
+      [
+        "9075",
+        "is a",
+        "deli"
+      ]
+    ]
+  },
+  {
+    "iid": "9085",
+    "triplets": [
+      [
+        "9085",
+        "category",
+        "bubble tea"
+      ],
+      [
+        "9085",
+        "serves",
+        "bubble tea"
+      ]
+    ]
+  },
+  {
+    "iid": "9085",
+    "triplets": [
+      [
+        "9085",
+        "category",
+        "ramen"
+      ],
+      [
+        "9085",
+        "serves",
+        "ramen"
+      ]
+    ]
+  },
+  {
+    "iid": "9085",
+    "triplets": [
+      [
+        "9085",
+        "category",
+        "sandwiches"
+      ],
+      [
+        "9085",
+        "serves",
+        "sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "9085",
+    "triplets": [
+      [
+        "9085",
+        "category",
+        "sushi"
+      ],
+      [
+        "9085",
+        "serves",
+        "sushi"
+      ]
+    ]
+  },
+  {
+    "iid": "9109",
+    "triplets": [
+      [
+        "9109",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "9109",
+        "suitable for",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "9113",
+    "triplets": [
+      [
+        "9113",
+        "has",
+        "sculptures"
+      ],
+      [
+        "9113",
+        "presents",
+        "sculptures"
+      ]
+    ]
+  },
+  {
+    "iid": "9123",
+    "triplets": [
+      [
+        "9123",
+        "serves",
+        "Italian pastries"
+      ],
+      [
+        "9123",
+        "specializes in",
+        "Italian pastries"
+      ]
+    ]
+  },
+  {
+    "iid": "9126",
+    "triplets": [
+      [
+        "9126",
+        "offers",
+        "craft beer"
+      ],
+      [
+        "9126",
+        "serves",
+        "craft beer"
+      ]
+    ]
+  },
+  {
+    "iid": "9149",
+    "triplets": [
+      [
+        "9149",
+        "has feature",
+        "crispy pizza"
+      ],
+      [
+        "9149",
+        "serves",
+        "crispy pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "9178",
+    "triplets": [
+      [
+        "9178",
+        "offers",
+        "budget-friendly venue"
+      ],
+      [
+        "9178",
+        "suitable for",
+        "budget-friendly venue"
+      ]
+    ]
+  },
+  {
+    "iid": "918",
+    "triplets": [
+      [
+        "918",
+        "offers",
+        "auto care"
+      ],
+      [
+        "918",
+        "serves",
+        "auto care"
+      ]
+    ]
+  },
+  {
+    "iid": "9181",
+    "triplets": [
+      [
+        "9181",
+        "has variety of",
+        "subs"
+      ],
+      [
+        "9181",
+        "serves",
+        "subs"
+      ]
+    ]
+  },
+  {
+    "iid": "9245",
+    "triplets": [
+      [
+        "9245",
+        "has feature",
+        "fried items"
+      ],
+      [
+        "9245",
+        "offers",
+        "fried items"
+      ]
+    ]
+  },
+  {
+    "iid": "9251",
+    "triplets": [
+      [
+        "9251",
+        "is a",
+        "bar"
+      ],
+      [
+        "9251",
+        "serves",
+        "bar"
+      ]
+    ]
+  },
+  {
+    "iid": "9262",
+    "triplets": [
+      [
+        "9262",
+        "appeals to",
+        "history enthusiasts"
+      ],
+      [
+        "9262",
+        "serves",
+        "history enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": "9262",
+    "triplets": [
+      [
+        "9262",
+        "category",
+        "museum"
+      ],
+      [
+        "9262",
+        "is a",
+        "museum"
+      ]
+    ]
+  },
+  {
+    "iid": "9287",
+    "triplets": [
+      [
+        "9287",
+        "has feature",
+        "fried rice"
+      ],
+      [
+        "9287",
+        "serves",
+        "fried rice"
+      ]
+    ]
+  },
+  {
+    "iid": "9289",
+    "triplets": [
+      [
+        "9289",
+        "category",
+        "asian fusion"
+      ],
+      [
+        "9289",
+        "serves",
+        "asian fusion"
+      ]
+    ]
+  },
+  {
+    "iid": "9292",
+    "triplets": [
+      [
+        "9292",
+        "serves",
+        "outdoor activities"
+      ],
+      [
+        "9292",
+        "suitable for",
+        "outdoor activities"
+      ]
+    ]
+  },
+  {
+    "iid": "9333",
+    "triplets": [
+      [
+        "9333",
+        "offers",
+        "hoagies"
+      ],
+      [
+        "9333",
+        "serves",
+        "hoagies"
+      ]
+    ]
+  },
+  {
+    "iid": "9333",
+    "triplets": [
+      [
+        "9333",
+        "offers",
+        "pizza"
+      ],
+      [
+        "9333",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "9333",
+    "triplets": [
+      [
+        "9333",
+        "offers",
+        "salads"
+      ],
+      [
+        "9333",
+        "serves",
+        "salads"
+      ]
+    ]
+  },
+  {
+    "iid": "9333",
+    "triplets": [
+      [
+        "9333",
+        "offers",
+        "stromboli"
+      ],
+      [
+        "9333",
+        "serves",
+        "stromboli"
+      ]
+    ]
+  },
+  {
+    "iid": "935",
+    "triplets": [
+      [
+        "935",
+        "category",
+        "flowers"
+      ],
+      [
+        "935",
+        "offers",
+        "flowers"
+      ]
+    ]
+  },
+  {
+    "iid": "938",
+    "triplets": [
+      [
+        "938",
+        "is a",
+        "auto glass repair"
+      ],
+      [
+        "938",
+        "serves",
+        "auto glass repair"
+      ]
+    ]
+  },
+  {
+    "iid": "9408",
+    "triplets": [
+      [
+        "9408",
+        "category",
+        "coffee shop"
+      ],
+      [
+        "9408",
+        "is a",
+        "coffee shop"
+      ]
+    ]
+  },
+  {
+    "iid": "9428",
+    "triplets": [
+      [
+        "9428",
+        "offers",
+        "cakes"
+      ],
+      [
+        "9428",
+        "serves",
+        "cakes"
+      ]
+    ]
+  },
+  {
+    "iid": "9428",
+    "triplets": [
+      [
+        "9428",
+        "offers",
+        "dessert"
+      ],
+      [
+        "9428",
+        "suitable for",
+        "dessert"
+      ]
+    ]
+  },
+  {
+    "iid": "9440",
+    "triplets": [
+      [
+        "9440",
+        "has feature",
+        "supporting former foster kids"
+      ],
+      [
+        "9440",
+        "has purpose",
+        "supporting former foster kids"
+      ]
+    ]
+  },
+  {
+    "iid": "9485",
+    "triplets": [
+      [
+        "9485",
+        "connected to",
+        "Tampa"
+      ],
+      [
+        "9485",
+        "located in",
+        "Tampa"
+      ]
+    ]
+  },
+  {
+    "iid": "951",
+    "triplets": [
+      [
+        "951",
+        "category",
+        "bagel"
+      ],
+      [
+        "951",
+        "serves",
+        "bagel"
+      ]
+    ]
+  },
+  {
+    "iid": "9522",
+    "triplets": [
+      [
+        "9522",
+        "offers",
+        "beauty services"
+      ],
+      [
+        "9522",
+        "serves",
+        "beauty services"
+      ]
+    ]
+  },
+  {
+    "iid": "9570",
+    "triplets": [
+      [
+        "9570",
+        "offers",
+        "baked goods"
+      ],
+      [
+        "9570",
+        "serves",
+        "baked goods"
+      ]
+    ]
+  },
+  {
+    "iid": "9570",
+    "triplets": [
+      [
+        "9570",
+        "offers",
+        "cakes"
+      ],
+      [
+        "9570",
+        "serves",
+        "cakes"
+      ]
+    ]
+  },
+  {
+    "iid": "9570",
+    "triplets": [
+      [
+        "9570",
+        "offers",
+        "soups"
+      ],
+      [
+        "9570",
+        "serves",
+        "soups"
+      ]
+    ]
+  },
+  {
+    "iid": "9573",
+    "triplets": [
+      [
+        "9573",
+        "has feature",
+        "juicy ribs"
+      ],
+      [
+        "9573",
+        "serves",
+        "juicy ribs"
+      ]
+    ]
+  },
+  {
+    "iid": "9575",
+    "triplets": [
+      [
+        "9575",
+        "is a",
+        "beer"
+      ],
+      [
+        "9575",
+        "serves",
+        "beer"
+      ]
+    ]
+  },
+  {
+    "iid": "9575",
+    "triplets": [
+      [
+        "9575",
+        "is a",
+        "kielbasa"
+      ],
+      [
+        "9575",
+        "serves",
+        "kielbasa"
+      ]
+    ]
+  },
+  {
+    "iid": "9588",
+    "triplets": [
+      [
+        "9588",
+        "has feature",
+        "contemporary art"
+      ],
+      [
+        "9588",
+        "is a",
+        "contemporary art"
+      ]
+    ]
+  },
+  {
+    "iid": "9622",
+    "triplets": [
+      [
+        "9622",
+        "category",
+        "brewery"
+      ],
+      [
+        "9622",
+        "is a",
+        "brewery"
+      ]
+    ]
+  },
+  {
+    "iid": "9633",
+    "triplets": [
+      [
+        "9633",
+        "has feature",
+        "bustling location"
+      ],
+      [
+        "9633",
+        "located in",
+        "bustling location"
+      ]
+    ]
+  },
+  {
+    "iid": "9667",
+    "triplets": [
+      [
+        "9667",
+        "category",
+        "restaurant"
+      ],
+      [
+        "9667",
+        "is a",
+        "restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "967",
+    "triplets": [
+      [
+        "967",
+        "offers",
+        "pizza"
+      ],
+      [
+        "967",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "968",
+    "triplets": [
+      [
+        "968",
+        "category",
+        "bbq"
+      ],
+      [
+        "968",
+        "serves",
+        "bbq"
+      ]
+    ]
+  },
+  {
+    "iid": "9708",
+    "triplets": [
+      [
+        "9708",
+        "category",
+        "car wash"
+      ],
+      [
+        "9708",
+        "serves",
+        "car wash"
+      ]
+    ]
+  },
+  {
+    "iid": "9756",
+    "triplets": [
+      [
+        "9756",
+        "has feature",
+        "African American club culture and Mardi Gras traditions"
+      ],
+      [
+        "9756",
+        "presents genre",
+        "African American club culture and Mardi Gras traditions"
+      ]
+    ]
+  },
+  {
+    "iid": "9827",
+    "triplets": [
+      [
+        "9827",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "9827",
+        "has feature",
+        "cozy"
+      ]
+    ]
+  },
+  {
+    "iid": "9828",
+    "triplets": [
+      [
+        "9828",
+        "offers",
+        "sandwiches"
+      ],
+      [
+        "9828",
+        "serves",
+        "sandwiches"
+      ]
+    ]
+  },
+  {
+    "iid": "9889",
+    "triplets": [
+      [
+        "9889",
+        "category",
+        "fries"
+      ],
+      [
+        "9889",
+        "serves",
+        "fries"
+      ]
+    ]
+  },
+  {
+    "iid": "9933",
+    "triplets": [
+      [
+        "9933",
+        "category",
+        "casual dining"
+      ],
+      [
+        "9933",
+        "serves",
+        "casual dining"
+      ]
+    ]
+  },
+  {
+    "iid": "9933",
+    "triplets": [
+      [
+        "9933",
+        "category",
+        "sports bar"
+      ],
+      [
+        "9933",
+        "serves",
+        "sports bar"
+      ]
+    ]
+  },
+  {
+    "iid": "9936",
+    "triplets": [
+      [
+        "9936",
+        "category",
+        "grocery store"
+      ],
+      [
+        "9936",
+        "is a",
+        "grocery store"
+      ]
+    ]
+  },
+  {
+    "iid": "9991",
+    "triplets": [
+      [
+        "9991",
+        "appeals to",
+        "book lovers"
+      ],
+      [
+        "9991",
+        "serves",
+        "book lovers"
+      ]
+    ]
+  }
+]

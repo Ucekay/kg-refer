@@ -1,0 +1,516 @@
+[
+  {
+    "iid": 5,
+    "triplets": [
+      [
+        "5",
+        "serves",
+        "craft beer"
+      ],
+      [
+        "5",
+        "serves",
+        "beer"
+      ],
+      [
+        "5",
+        "serves",
+        "food"
+      ],
+      [
+        "5",
+        "serves",
+        "diverse food options"
+      ],
+      [
+        "5",
+        "has atmosphere",
+        "laid-back"
+      ],
+      [
+        "5",
+        "located in",
+        "Indianapolis"
+      ],
+      [
+        "5",
+        "is a",
+        "Brewpub"
+      ],
+      [
+        "5",
+        "caters to",
+        "vegetarians"
+      ],
+      [
+        "5",
+        "caters to",
+        "dog owners"
+      ]
+    ]
+  },
+  {
+    "iid": 7,
+    "triplets": [
+      [
+        "7",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "7",
+        "serves",
+        "variety of food options"
+      ],
+      [
+        "7",
+        "has feature",
+        "good facilities"
+      ],
+      [
+        "7",
+        "price range",
+        "reasonable ticket prices"
+      ],
+      [
+        "7",
+        "has atmosphere",
+        "lively"
+      ],
+      [
+        "7",
+        "has atmosphere",
+        "friendly crowds"
+      ],
+      [
+        "7",
+        "suitable for",
+        "Baseball fans"
+      ],
+      [
+        "7",
+        "suitable for",
+        "All ages"
+      ]
+    ]
+  },
+  {
+    "iid": 8,
+    "triplets": [
+      [
+        "8",
+        "appeals to",
+        "brunch options"
+      ],
+      [
+        "8",
+        "appeals to",
+        "delicious brunch options"
+      ],
+      [
+        "8",
+        "has feature",
+        "fried chicken"
+      ],
+      [
+        "8",
+        "has feature",
+        "waffles"
+      ],
+      [
+        "8",
+        "has feature",
+        "cane syrup"
+      ],
+      [
+        "8",
+        "has feature",
+        "gravy"
+      ],
+      [
+        "8",
+        "appeals to",
+        "oysters"
+      ],
+      [
+        "8",
+        "presents",
+        "liver pate"
+      ],
+      [
+        "8",
+        "appeals to",
+        "German pizza"
+      ],
+      [
+        "8",
+        "has atmosphere",
+        "cozy"
+      ],
+      [
+        "8",
+        "has feature",
+        "good drinks"
+      ],
+      [
+        "8",
+        "located in",
+        "New Orleans"
+      ]
+    ]
+  },
+  {
+    "iid": 0,
+    "triplets": [
+      [
+        "0",
+        "serves",
+        "Sonoran hot dogs"
+      ],
+      [
+        "0",
+        "serves",
+        "hot dogs"
+      ],
+      [
+        "0",
+        "serves",
+        "Mexican cuisine"
+      ],
+      [
+        "0",
+        "has feature",
+        "salsa bar"
+      ],
+      [
+        "0",
+        "has atmosphere",
+        "vibrant"
+      ],
+      [
+        "0",
+        "located in",
+        "Tucson"
+      ],
+      [
+        "0",
+        "has feature",
+        "near a college campus"
+      ],
+      [
+        "0",
+        "has atmosphere",
+        "casual dining"
+      ],
+      [
+        "0",
+        "price range",
+        "affordable prices"
+      ]
+    ]
+  },
+  {
+    "iid": 1,
+    "triplets": [
+      [
+        "1",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "1",
+        "serves",
+        "coffee"
+      ],
+      [
+        "1",
+        "serves",
+        "caffeinated beverages"
+      ],
+      [
+        "1",
+        "serves",
+        "food options"
+      ],
+      [
+        "1",
+        "serves",
+        "bagels"
+      ],
+      [
+        "1",
+        "has feature",
+        "cozy environment"
+      ],
+      [
+        "1",
+        "has feature",
+        "spacious environment"
+      ],
+      [
+        "1",
+        "has atmosphere",
+        "friendly"
+      ],
+      [
+        "1",
+        "has feature",
+        "dog-friendly"
+      ],
+      [
+        "1",
+        "has feature",
+        "outdoor seating"
+      ],
+      [
+        "1",
+        "appeals to",
+        "Users"
+      ],
+      [
+        "1",
+        "suitable for",
+        "studying"
+      ],
+      [
+        "1",
+        "suitable for",
+        "working"
+      ],
+      [
+        "1",
+        "is a",
+        "Cafe"
+      ]
+    ]
+  },
+  {
+    "iid": 2,
+    "triplets": [
+      [
+        "2",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "2",
+        "presents",
+        "interactive comedy shows"
+      ],
+      [
+        "2",
+        "has feature",
+        "intimate setting"
+      ],
+      [
+        "2",
+        "has feature",
+        "being part of the performance"
+      ],
+      [
+        "2",
+        "has feature",
+        "entertaining shows"
+      ],
+      [
+        "2",
+        "price range",
+        "reasonably priced"
+      ]
+    ]
+  },
+  {
+    "iid": 6,
+    "triplets": [
+      [
+        "6",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "6",
+        "is a",
+        "Cooperative store"
+      ],
+      [
+        "6",
+        "offers",
+        "community connections"
+      ],
+      [
+        "6",
+        "offers",
+        "locally grown produce"
+      ],
+      [
+        "6",
+        "offers",
+        "natural foods"
+      ],
+      [
+        "6",
+        "offers",
+        "preservative-free foods"
+      ],
+      [
+        "6",
+        "offers",
+        "fair prices"
+      ],
+      [
+        "6",
+        "caters to",
+        "Individuals who value community connections"
+      ],
+      [
+        "6",
+        "caters to",
+        "Individuals who prefer locally grown produce"
+      ],
+      [
+        "6",
+        "caters to",
+        "Individuals who prefer natural foods"
+      ],
+      [
+        "6",
+        "caters to",
+        "Individuals who prefer preservative-free foods"
+      ],
+      [
+        "6",
+        "caters to",
+        "Individuals seeking fair prices"
+      ],
+      [
+        "6",
+        "appeals to",
+        "people willing to contribute through work hours"
+      ]
+    ]
+  },
+  {
+    "iid": 9,
+    "triplets": [
+      [
+        "9",
+        "located in",
+        "New Orleans"
+      ],
+      [
+        "9",
+        "serves",
+        "Cajun/Creole cuisine"
+      ],
+      [
+        "9",
+        "serves",
+        "American cuisine"
+      ],
+      [
+        "9",
+        "has atmosphere",
+        "friendly atmosphere"
+      ],
+      [
+        "9",
+        "serves",
+        "duck gumbo"
+      ],
+      [
+        "9",
+        "serves",
+        "gumbo"
+      ],
+      [
+        "9",
+        "serves",
+        "shrimp clemenceau"
+      ],
+      [
+        "9",
+        "serves",
+        "Clemenceau"
+      ],
+      [
+        "9",
+        "has feature",
+        "unique twists on traditional dishes"
+      ],
+      [
+        "9",
+        "price range",
+        "decently priced"
+      ],
+      [
+        "9",
+        "appeals to",
+        "Fans of Cajun/Creole cuisine"
+      ],
+      [
+        "9",
+        "appeals to",
+        "Fans of American cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": 3,
+    "triplets": []
+  },
+  {
+    "iid": 4,
+    "triplets": [
+      [
+        "4",
+        "located in",
+        "Philadelphia"
+      ],
+      [
+        "4",
+        "serves",
+        "Thai cuisine"
+      ],
+      [
+        "4",
+        "has atmosphere",
+        "laid-back"
+      ],
+      [
+        "4",
+        "serves",
+        "duck green curry fried rice"
+      ],
+      [
+        "4",
+        "serves",
+        "green curry"
+      ],
+      [
+        "4",
+        "serves",
+        "fried rice"
+      ],
+      [
+        "4",
+        "serves",
+        "pad thai"
+      ],
+      [
+        "4",
+        "has feature",
+        "BYO wine"
+      ],
+      [
+        "4",
+        "has atmosphere",
+        "casual"
+      ],
+      [
+        "4",
+        "has feature",
+        "near Rittenhouse"
+      ]
+    ]
+  }
+]

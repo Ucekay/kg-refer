@@ -25,4 +25,4 @@ uv run --env-file .env --package edc python packages/edc/main.py \
     --refinement-iterations 0 \
     --enrich-schema \
     --enable-parallel-requests \
-    --output-dir ./packages/edc/output/yelp_test_with_schema_9 \
+    --output-dir ./packages/edc/output/yelp_test_with_schema_27 \

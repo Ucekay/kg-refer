@@ -94,6 +94,56 @@ class OpenAIAsyncExtractor:
         self.max_concurrent = max_concurrent
         self.max_req_per_sec = max_req_per_sec
 
+    async def extract_with_schema_async(
+        self,
+        input_text_list: List[str],
+        few_shot_examples_str: str,
+        instructions_template_str: str,
+        input_template_str: str,
+        entities_hint_list: Optional[List[str]] = None,
+        relations_hint_list: Optional[List[str]] = None,
+        input_ids_list: Optional[List] = None,
+    ):
+        filled_instructions = instructions_template_str.format_map(
+            {
+                "few_shot_examples": few_shot_examples_str,
+            }
+        )
+        filled_input_list = [
+            input_template_str.format_map(
+                {
+                    "input_text": input_text,
+                    "entities_hint": entities_hint_list[i]
+                    if entities_hint_list
+                    else None,
+                    "relations_hint": relations_hint_list[i]
+                    if relations_hint_list
+                    else None,
+                    "item_id": input_ids_list[i] if input_ids_list else "",
+                }
+            )
+            for i, input_text in enumerate(input_text_list)
+        ]
+
+        async_openai_processor = AsyncOpenAIProcessor(
+            max_concurrent=self.max_concurrent,
+            max_req_per_sec=self.max_req_per_sec,
+        )
+
+        tasks = [
+            async_openai_processor.get_parsed_triplets_async(
+                self.model_name,
+                instructions=filled_instructions,
+                input=filled_input,
+            )
+            for filled_input in filled_input_list
+        ]
+        results = await tqdm.gather(*tasks, desc="Extracting triplets asynchronously")
+        extracted_triplets_lists = [
+            llm_utils.parse_schema_triplets(result) for result in results
+        ]
+        return extracted_triplets_lists
+
     async def extract_async(
         self,
         input_text_list: List[str],

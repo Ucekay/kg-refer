@@ -6,6 +6,12 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "cyclopts>=4.1.0",
+    "kg-cleaner",
+    "kgat",
+    "numpy>=2.3.3",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
     "torch>=2.9.0",
     "torchvision>=0.24.0",
 ]
@@ -13,9 +19,18 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "packages/edc",
+    "entity-canonicalizer",
+    "packages/kgat-pt",
+    "packages/kgat",
+    "packages/kg-cleaner",
 ]
+
+[tool.uv.sources]
+kgat = { workspace = true }
+kg-cleaner = { workspace = true }
 
 [dependency-groups]
 dev = [
     "basedpyright>=1.32.1",
+    "ruff>=0.14.4",
 ]

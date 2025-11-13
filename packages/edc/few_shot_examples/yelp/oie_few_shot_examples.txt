@@ -1,7 +1,7 @@
 Example 1:
     Item ID: 92
     Text: Fans of authentic Thai street food, particularly spicy curries and Pad Thai, who value quick service and affordable prices in a no-frills setting would enjoy "Bangkok Station" in Los Angeles.
-    Triplets:[["92", "located in", "Los Angeles"], ["92", "serves", "authentic Thai street food"], ["92", "serves cuisine", "Thai food"], ["92", "serves", "spicy curries"], ["92", "serves", "Pad Thai"], ["92", "serves", "Curry"], ["92", "has feature", "quick service"], ["92", "price range", "affordable prices"], ["92", "has atmosphere", "no-frills setting"], ["92", "has atmosphere", "Casual dining"], ["92", "suitable for", "Quick meal"], ["92", "suitable for", "Budget dining"], ["92", "appeals to", "Thai food lovers"]]
+    Triplets:[["92", "located in", "Los Angeles"], ["92", "serves", "authentic Thai street food"], ["92", "serves", "Thai food"], ["92", "serves", "spicy curries"], ["92", "serves", "Pad Thai"], ["92", "serves", "curry"], ["92", "has feature", "quick service"], ["92", "price range", "affordable prices"], ["92", "has atmosphere", "no-frills setting"], ["92", "has atmosphere", "Casual dining"], ["92", "suitable for", "Quick meal"], ["92", "suitable for", "Budget dining"], ["92", "appeals to", "Thai food lovers"]]
 
 Example 2:
     Item ID: 8542
@@ -28,7 +28,17 @@ Example: 6
     Text: Travelers who prefer cozy accommodations, personalized service, homemade breakfast, and a quiet, romantic atmosphere would enjoy The Willow Creek Inn Bed & Breakfast in Maplewood.
     Triplets: [["2561", "located in", "Maplewood"], ["2561", "is a", "Bed & Breakfast"], ["2561", "is a", "Accommodation"], ["2561", "has feature", "cozy accommodations"], ["2561", "has feature", "personalized service"], ["2561", "serves", "homemade breakfast"], ["2561", "serves", "Breakfast"], ["2561", "has atmosphere", "Quiet"], ["2561", "has atmosphere", "Romantic"], ["2561", "has atmosphere", "Cozy"], ["2561", "appeals to", "Travelers"], ["2561", "appeals to", "Couples"], ["2561", "suitable for", "Romantic getaway"], ["2561", "suitable for", "Quiet retreat"]]
 
-Example 7
-    Item ID: 8542
-    Text: Diners seeking an upscale seafood experience, especially raw oysters and lobster, along with inventive cocktails and an elegant, waterfront view, would find "The Pearl Oyster Bar" in Seattle ideal for special occasions.
-    Triplets:[["8542", "located in", "Seattle"], ["8542", "serves", "seafood"], ["8542", "is a", "Seafood restaurant"], ["8542", "serves", "raw oysters"], ["8542", "serves", "oysters"], ["8542", "serves", "lobster"], ["8542", "serves", "inventive cocktails"], ["8542", "serves", "cocktails"], ["8542", "has atmosphere", "upscale"], ["8542", "has atmosphere", "elegant"], ["8542", "has feature", "waterfront view"], ["8542", "has feature", "waterfront dining"], ["8542", "suitable for", "special occasions"], ["8542", "suitable for", "Fine dining"], ["8542", "suitable for", "Scenic views"], ["8542", "price range", "Expensive"], ["8542", "appeals to", "Seafood lovers"]]
+Example 7:
+    Item ID: 4521
+    Text: "Green Leaf Bistro" serves fresh vegan dishes, gluten-free options, and organic salads, catering to health-conscious diners, vegans, and those with dietary restrictions who appreciate farm-to-table ingredients.
+    Triplets: [["4521", "serves", "vegan dishes"], ["4521", "serves", "gluten-free options"], ["4521", "serves", "organic salads"], ["4521", "serves", "Salads"], ["4521", "caters to", "health-conscious diners"], ["4521", "caters to", "vegans"], ["4521", "has feature", "farm-to-table ingredients"], ["4521", "appeals to", "Health-conscious people"], ["4521", "is a", "Bistro"], ["4521", "is a", "Vegan restaurant"]]
+
+Example 8:
+    Item ID: 5678
+    Text: Guests who appreciate handcrafted pasta varieties, premium wine collections, and live piano performances in an intimate candlelit setting would enjoy La Bella Trattoria.
+    Triplets: [["5678", "serves", "handcrafted pasta varieties"], ["5678", "serves", "pasta"], ["5678", "offers", "premium wine collections"], ["5678", "offers", "wine"], ["5678", "features", "live piano performances"], ["5678", "features", "piano music"], ["5678", "features", "live music"], ["5678", "has atmosphere", "intimate candlelit setting"], ["5678", "has atmosphere", "intimate"], ["5678", "has atmosphere", "candlelit"], ["5678", "appeals to", "Italian food lovers"], ["5678", "appeals to", "Wine enthusiasts"], ["5678", "is a", "Italian restaurant"], ["5678", "is a", "Trattoria"]]
+
+Example 9:
+    Item ID: 3456
+    Text: Coffee enthusiasts who value artisan espresso options, fresh pastry assortments, and cozy corner seating with free WiFi would appreciate The Daily Grind Café.
+    Triplets: [["3456", "serves", "artisan espresso options"], ["3456", "serves", "espresso"], ["3456", "serves", "coffee"], ["3456", "serves", "fresh pastry assortments"], ["3456", "serves", "pastries"], ["3456", "has feature", "cozy corner seating"], ["3456", "has feature", "seating"], ["3456", "has feature", "free WiFi"], ["3456", "has feature", "WiFi"], ["3456", "appeals to", "Coffee enthusiasts"], ["3456", "appeals to", "Remote workers"], ["3456", "is a", "Café"], ["3456", "is a", "Coffee shop"]]
