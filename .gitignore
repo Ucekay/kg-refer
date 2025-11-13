@@ -12,3 +12,4 @@ wheels/
 .env
 
 .DS_Store
+packages/kgat/trained_model/
