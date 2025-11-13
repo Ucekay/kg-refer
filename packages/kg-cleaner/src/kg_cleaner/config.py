@@ -40,5 +40,8 @@ class CleanerConfig:
     replace_combinations: bool = False
     "Replace specific (relation, tail) combinations based on predefined rules"
 
+    unify_relations: bool = False
+    "Unify relations for tails with multiple relations based on tail unification rules"
+
     verbose: bool = False
     "Enable verbose logging"

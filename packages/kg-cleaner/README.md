@@ -9,6 +9,7 @@ Knowledge Graph cleaning and normalization utilities for processing EDC output.
 - **Entity Expansion**: Expands one tail entity into multiple entities (e.g., "Cajun/Creole" → "Cajun" and "Creole")
 - **Entity Replacement**: Replace tail entities regardless of relation (e.g., "Food allergies" → "food allergies")
 - **Combination Replacement**: Replace specific (relation, tail) combinations based on predefined rules
+- **Relation Unification**: Unifies relations when the same tail appears with multiple relations in one iid, keeping only the preferred relation
 - **Smart Case Normalization**: Normalizes relations and tail entities to lowercase only when case variations exist (not a blanket lowercase conversion)
 - **Duplicate Removal**: Removes exact duplicate triplets (h, r, t)
 - **Conflict Detection**: Identifies (head, tail) pairs with multiple relations
@@ -33,11 +34,11 @@ uv pip install -e .
 ```bash
 # Enable all features
 kg-cleaner --input input.json --output cleaned.json --conflicts conflicts.json \
-  --filter-terms --filter-relations --expand-entities --replace-entities --replace-combinations --normalize --deduplicate --find-conflicts
+  --filter-terms --filter-relations --expand-entities --replace-entities --replace-combinations --unify-relations --normalize --deduplicate --find-conflicts
 
 # Shorter syntax
 kg-cleaner input.json output.json conflicts.json \
-  --filter-terms --filter-relations --expand-entities --replace-entities --replace-combinations --normalize --deduplicate --find-conflicts
+  --filter-terms --filter-relations --expand-entities --replace-entities --replace-combinations --unify-relations --normalize --deduplicate --find-conflicts
 ```
 
 ### Individual Features
@@ -60,6 +61,9 @@ kg-cleaner input.json output.json conflicts.json --replace-entities
 # Only replace combinations
 kg-cleaner input.json output.json conflicts.json --replace-combinations
 
+# Only unify relations
+kg-cleaner input.json output.json conflicts.json --unify-relations
+
 # Only normalize
 kg-cleaner input.json output.json conflicts.json --normalize
 
@@ -71,14 +75,14 @@ kg-cleaner input.json output.json conflicts.json --find-conflicts
 
 # Combine features as needed
 kg-cleaner input.json output.json conflicts.json \
-  --filter-terms --filter-relations --expand-entities --replace-entities --replace-combinations --normalize --deduplicate
+  --filter-terms --filter-relations --expand-entities --replace-entities --replace-combinations --unify-relations --normalize --deduplicate
 ```
 
 ### With Verbose Logging
 
 ```bash
 kg-cleaner input.json output.json conflicts.json \
-  --filter-terms --filter-relations --expand-entities --replace-entities --replace-combinations --normalize --deduplicate --verbose
+  --filter-terms --filter-relations --expand-entities --replace-entities --replace-combinations --unify-relations --normalize --deduplicate --verbose
 ```
 
 ### Help
@@ -102,6 +106,7 @@ All parameters can be set via command line:
 - `--expand-entities`: Expand tail entities into multiple triplets (e.g., "Cajun/Creole" → "Cajun" and "Creole")
 - `--replace-entities`: Replace tail entities regardless of relation (e.g., "Food allergies" → "food allergies")
 - `--replace-combinations`: Replace specific (relation, tail) combinations based on predefined rules (configured in code)
+- `--unify-relations`: Unify relations for tails with multiple relations based on tail unification rules (configured in code)
 - `--normalize`: Apply case normalization to relations and tails with variations
 - `--deduplicate`: Remove exact duplicate triplets (h, r, t)
 - `--find-conflicts`: Find and save (h, t) pairs with multiple relations
@@ -193,11 +198,13 @@ Features must be explicitly enabled via command-line flags:
 
 5. **Combination Replacement** (`--replace-combinations`): Replaces specific (relation, tail) combinations based on predefined rules. Rules are configured in the code via the `RELATION_TAIL_REPLACEMENTS` array. Example: replace `("serves", "Italian cuisine")` with `("serves", "Italian")`.
 
-6. **Normalization** (`--normalize`): Analyzes all relations and tail entities. If a value has multiple case variations (e.g., "Beer" and "beer"), it normalizes them to lowercase. Values with consistent casing are left unchanged.
+6. **Relation Unification** (`--unify-relations`): When the same tail appears with multiple relations in one iid, and a preferred (relation, tail) combination is specified in the rules, removes all other relations for that tail and keeps only the preferred one. Rules are configured in the code via the `TAIL_RELATION_UNIFICATION_RULES` dictionary. Example: if tail "big portions" appears with both "has feature" and "serves", and the rule specifies "serves" as preferred, removes "has feature" and keeps only "serves".
 
-7. **Deduplication** (`--deduplicate`): Removes exact duplicate triplets (h, r, t).
+7. **Normalization** (`--normalize`): Analyzes all relations and tail entities. If a value has multiple case variations (e.g., "Beer" and "beer"), it normalizes them to lowercase. Values with consistent casing are left unchanged.
 
-8. **Conflict Detection** (`--find-conflicts`): Identifies cases where the same (head, tail) pair has multiple different relations, which may indicate data quality issues or legitimate multi-relation scenarios.
+8. **Deduplication** (`--deduplicate`): Removes exact duplicate triplets (h, r, t).
+
+9. **Conflict Detection** (`--find-conflicts`): Identifies cases where the same (head, tail) pair has multiple different relations, which may indicate data quality issues or legitimate multi-relation scenarios.
 
 ## Example Workflow
 
@@ -212,6 +219,7 @@ kg-cleaner \
   --expand-entities \
   --replace-entities \
   --replace-combinations \
+  --unify-relations \
   --normalize \
   --deduplicate \
   --find-conflicts \
@@ -236,6 +244,7 @@ cleaner.clean_file(
     expand_entities=True,
     replace_entities=True,
     replace_combinations=True,
+    unify_relations=True,
     normalize=True,
     deduplicate=True,
     find_conflicts=True
@@ -254,6 +263,7 @@ cleaned_data, conflicts = cleaner.clean_kg_data(
     expand_entities=True,
     replace_entities=True,
     replace_combinations=True,
+    unify_relations=True,
     normalize=True,
     deduplicate=True,
     find_conflicts=True
@@ -331,6 +341,41 @@ RELATION_TAIL_REPLACEMENTS = [
 ]
 ```
 
+#### Relation Unification Rules
+
+```python
+# Tail-based relation unification rules
+# When the same tail appears with multiple relations in one iid,
+# if the specified (relation, tail) combination exists, keep only that one.
+TAIL_RELATION_UNIFICATION_RULES = {
+    # Format: {tail: preferred_relation}
+    "big portions": "serves",
+    "desserts": "serves",
+    "Italian": "serves",
+    "Italian cuisine": "serves",
+    "Mexican": "serves",
+    "beach hut": "is a",
+    "dinner theatre": "is a",
+    "families": "caters to",
+    "business travelers": "caters to",
+    "affordable": "price range",
+    # Add more unification rules as needed
+}
+```
+
+**Example:**
+- Input (in one iid):
+  - `["restaurant", "has feature", "big portions"]`
+  - `["restaurant", "serves", "big portions"]`
+- Output: `["restaurant", "serves", "big portions"]` (removed "has feature")
+
+**How it works:**
+1. Within each iid, identifies tails that appear with multiple relations
+2. If a tail matches a unification rule AND the preferred relation exists
+3. Removes all other relations for that tail, keeping only the preferred one
+
+This is useful for resolving semantic conflicts where the same concept is expressed with different relations, and you want to standardize to the most appropriate relation.
+
 ## Statistics
 
 After cleaning, kg-cleaner reports:
@@ -340,6 +385,7 @@ After cleaning, kg-cleaner reports:
 - Number of entities expanded
 - Number of entities replaced
 - Number of combinations replaced
+- Number of relations unified
 - Number of normalizations applied
 - Number of duplicates removed
 - Number of conflicts found
@@ -364,6 +410,7 @@ Example output:
 2024-01-15 10:30:03 - kg_cleaner.cleaner - INFO -   Entities expanded: 12
 2024-01-15 10:30:03 - kg_cleaner.cleaner - INFO -   Entities replaced: 34
 2024-01-15 10:30:03 - kg_cleaner.cleaner - INFO -   Combinations replaced: 87
+2024-01-15 10:30:03 - kg_cleaner.cleaner - INFO -   Relations unified: 45
 2024-01-15 10:30:03 - kg_cleaner.cleaner - INFO -   Normalized: 470
 2024-01-15 10:30:03 - kg_cleaner.cleaner - INFO -   Duplicates removed: 89
 2024-01-15 10:30:03 - kg_cleaner.cleaner - INFO -   Conflicts found: 23

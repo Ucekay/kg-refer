@@ -87,6 +87,22 @@ RELATION_TAIL_REPLACEMENTS = [
     ("serves", "Greek food", "serves", "Greek cuisine"),
 ]
 
+# Tail-based relation unification rules
+# When the same tail appears with multiple relations in one iid,
+# if the specified (relation, tail) combination exists, keep only that one.
+# Format: {tail: preferred_relation}
+# Example: {"big portions": "serves"} means:
+#   If tail "big portions" appears with multiple relations (e.g., "has feature" and "serves"),
+#   keep only the triplet with relation "serves" and remove others.
+TAIL_RELATION_UNIFICATION_RULES = {
+    # Add your tail-based unification rules here:
+    "coffee": "serves",
+    "cakes": "serves",
+    "soups": "serves",
+    "cozy": "has atmosphere",
+    "restaurant": "is a",
+}
+
 
 class KGCleaner:
     """Knowledge Graph cleaner for normalizing and deduplicating triplets."""
@@ -102,6 +118,7 @@ class KGCleaner:
             "filtered_relations_count": 0,
             "entity_replaced_count": 0,
             "expanded_count": 0,
+            "unified_count": 0,
         }
 
     def _should_normalize(self, value: str) -> bool:
@@ -251,12 +268,8 @@ class KGCleaner:
         filtered = []
 
         for h, r, t in triplets:
-            # Check if any field contains filtered terms
-            if (
-                any(term in h for term in FILTERED_TERMS)
-                or any(term in r for term in FILTERED_TERMS)
-                or any(term in t for term in FILTERED_TERMS)
-            ):
+            # Check if any field exactly matches filtered terms
+            if h in FILTERED_TERMS or r in FILTERED_TERMS or t in FILTERED_TERMS:
                 self.stats["filtered_count"] += 1
                 logger.debug(f"Filtered triplet: [{h}, {r}, {t}]")
                 continue
@@ -305,6 +318,65 @@ class KGCleaner:
         logger.info(f"Removed {self.stats['duplicate_count']} duplicate triplets")
         return deduplicated
 
+    def _unify_tail_relations(self, triplets: List[List[str]]) -> List[List[str]]:
+        """
+        Unify relations for tails that appear with multiple relations.
+        If a tail matches the unification rules and the preferred relation exists,
+        remove all other relations for that tail.
+
+        Example:
+            If TAIL_RELATION_UNIFICATION_RULES = {"big portions": "serves"}
+            and triplets contain:
+                ["Restaurant A", "has feature", "big portions"]
+                ["Restaurant A", "serves", "big portions"]
+            Then remove "has feature" and keep only "serves".
+        """
+        if not TAIL_RELATION_UNIFICATION_RULES:
+            return triplets
+
+        # Group triplets by tail to find tails with multiple relations
+        tail_to_triplets = defaultdict(list)
+        for h, r, t in triplets:
+            tail_to_triplets[t].append([h, r, t])
+
+        unified = []
+
+        for tail, tail_triplets in tail_to_triplets.items():
+            # If only one triplet for this tail, keep as is
+            if len(tail_triplets) == 1:
+                unified.extend(tail_triplets)
+                continue
+
+            # Multiple triplets with this tail - check for unification rule
+            if tail in TAIL_RELATION_UNIFICATION_RULES:
+                preferred_relation = TAIL_RELATION_UNIFICATION_RULES[tail]
+
+                # Check if the preferred relation exists
+                relations = {triplet[1] for triplet in tail_triplets}
+                if preferred_relation in relations:
+                    # Keep only triplets with the preferred relation
+                    for triplet in tail_triplets:
+                        if triplet[1] == preferred_relation:
+                            unified.append(triplet)
+                        else:
+                            self.stats["unified_count"] += 1
+                            logger.debug(
+                                f"Unified: [{triplet[0]}, {triplet[1]}, {triplet[2]}] -> prefer relation '{preferred_relation}'"
+                            )
+                else:
+                    # Preferred relation doesn't exist, keep all
+                    unified.extend(tail_triplets)
+            else:
+                # No unification rule for this tail, keep all
+                unified.extend(tail_triplets)
+
+        if self.stats["unified_count"] > 0:
+            logger.info(
+                f"Unified {self.stats['unified_count']} relations based on tail unification rules"
+            )
+
+        return unified
+
     def _find_conflicts(
         self, triplets: List[List[str]]
     ) -> Dict[Tuple[str, str], List[str]]:
@@ -340,6 +412,7 @@ class KGCleaner:
         expand_entities: bool = True,
         replace_entities: bool = True,
         replace_combinations: bool = True,
+        unify_relations: bool = True,
     ) -> Tuple[List[Dict[str, Any]], Dict[Tuple[str, str], List[str]]]:
         """
         Clean knowledge graph data.
@@ -354,6 +427,7 @@ class KGCleaner:
             expand_entities: Expand tail entities into multiple triplets
             replace_entities: Replace tail entities regardless of relation
             replace_combinations: Replace specific (relation, tail) combinations
+            unify_relations: Unify relations for tails with multiple relations
 
         Returns:
             Tuple of (cleaned_data, conflicts_dict)
@@ -406,7 +480,11 @@ class KGCleaner:
             if deduplicate:
                 triplets = self._deduplicate_triplets(triplets)
 
-            # Step 7: Find conflicts (optional)
+            # Step 7: Unify relations (optional)
+            if unify_relations:
+                triplets = self._unify_tail_relations(triplets)
+
+            # Step 8: Find conflicts (optional)
             if find_conflicts:
                 conflicts = self._find_conflicts(triplets)
                 if conflicts:
@@ -430,6 +508,7 @@ class KGCleaner:
         expand_entities: bool = True,
         replace_entities: bool = True,
         replace_combinations: bool = True,
+        unify_relations: bool = True,
     ):
         """
         Clean a KG file and save results.
@@ -442,6 +521,11 @@ class KGCleaner:
             deduplicate: Remove exact duplicate triplets
             find_conflicts: Find (h, t) pairs with multiple relations
             filter_terms: Remove triplets containing filtered terms
+            filter_relations: Remove triplets with specific relations
+            expand_entities: Expand tail entities into multiple triplets
+            replace_entities: Replace tail entities regardless of relation
+            replace_combinations: Replace specific (relation, tail) combinations
+            unify_relations: Unify relations for tails with multiple relations
         """
         logger.info(f"Loading data from {input_path}")
         with open(input_path, "r", encoding="utf-8") as f:
@@ -457,6 +541,7 @@ class KGCleaner:
             expand_entities=expand_entities,
             replace_entities=replace_entities,
             replace_combinations=replace_combinations,
+            unify_relations=unify_relations,
         )
 
         # Save cleaned data
@@ -503,5 +588,7 @@ class KGCleaner:
             logger.info(f"  Normalized: {self.stats['normalized_count']}")
         if deduplicate:
             logger.info(f"  Duplicates removed: {self.stats['duplicate_count']}")
+        if unify_relations:
+            logger.info(f"  Relations unified: {self.stats['unified_count']}")
         if find_conflicts:
             logger.info(f"  Conflicts found: {self.stats['conflict_count']}")

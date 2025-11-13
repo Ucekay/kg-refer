@@ -46,11 +46,12 @@ def main(config: CleanerConfig = CleanerConfig()):
         or config.expand_entities
         or config.replace_entities
         or config.replace_combinations
+        or config.unify_relations
     ):
         logger.error(
             "At least one feature must be enabled. "
             "Use --normalize, --deduplicate, --find-conflicts, --filter-terms, "
-            "--filter-relations, --expand-entities, --replace-entities, or --replace-combinations"
+            "--filter-relations, --expand-entities, --replace-entities, --replace-combinations, or --unify-relations"
         )
         sys.exit(1)
 
@@ -78,6 +79,7 @@ def main(config: CleanerConfig = CleanerConfig()):
             expand_entities=config.expand_entities,
             replace_entities=config.replace_entities,
             replace_combinations=config.replace_combinations,
+            unify_relations=config.unify_relations,
         )
         logger.info("✓ Cleaning completed successfully")
         sys.exit(0)
