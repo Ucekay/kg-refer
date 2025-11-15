@@ -9,6 +9,7 @@ logger = logging.getLogger(__name__)
 # Terms to filter out from entities
 FILTERED_TERMS = [
     "Unknown",
+    "unknown",
     "Cuisine",
     "cuisine",
     "Food",
@@ -89,6 +90,15 @@ RELATION_TAIL_REPLACEMENTS = [
     ("serves", "restaurant", "is a", "restaurant"),
     ("category", "restaurant", "is a", "restaurant"),
     ("category", "cafe", "is a", "cafe"),
+    ("category", "bar", "is a", "bar"),
+    ("category", "pub", "is a", "pub"),
+    ("has feature", "family-friendly atmosphere", "has atmosphere", "family-friendly"),
+    (
+        "has atmosphere",
+        "family-friendly atmosphere",
+        "has atmosphere",
+        "family-friendly",
+    ),
 ]
 
 # Tail-based relation unification rules
