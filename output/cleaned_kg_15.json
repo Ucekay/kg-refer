@@ -159393,7 +159393,6 @@
       ["11601", "is a", "Mexican restaurant"],
       ["11601", "has feature", "small, casual setting"],
       ["11601", "has feature", "limited seating"],
-      ["11601", "has highlight", "takeout"],
       ["11601", "suitable for", "takeout"]
     ]
   },
@@ -159462,10 +159461,8 @@
     "iid": 11607,
     "triplets": [
       ["11607", "serves", "desserts"],
-      ["11607", "has feature", "desserts"],
       ["11607", "serves", "cakes"],
       ["11607", "serves", "baked goods"],
-      ["11607", "has feature", "baked goods"],
       ["11607", "has feature", "delicious desserts"],
       ["11607", "has feature", "creatively designed desserts"],
       ["11607", "has atmosphere", "friendly service"],
