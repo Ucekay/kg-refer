@@ -32,6 +32,7 @@ FILTERED_RELATIONS = [
     # Add relations to filter here:
     "appreciates",
     "interested in",
+    "enjoys",
 ]
 
 # Entity-only replacement rules: Replace tail entity regardless of relation
@@ -42,6 +43,9 @@ ENTITY_REPLACEMENTS = {
     "Café": "Cafe",
     "beer": "beers",
     "craft beer": "craft beers",
+    "sweet": "sweets",
+    "Asian fusion food": "Asian fusion",
+    "asian fusion food": "Asian fusion",
 }
 
 # Entity expansion rules: Replace one tail entity with multiple tail entities
@@ -82,6 +86,7 @@ RELATION_TAIL_REPLACEMENTS = [
     ("serves", "French cuisine", "serves", "French"),
     ("serves", "French food", "serves", "French"),
     ("serves", "Japanese food", "serves", "Japanese cuisine"),
+    ("serves", "Japanese dishes", "serves", "Japanese cuisine"),
     ("serves", "seafood dishes", "serves", "seafood"),
     ("has atmosphere", "cozy atmosphere", "has atmosphere", "cozy"),
     ("has feature", "cozy atmosphere", "has atmosphere", "cozy"),
@@ -96,6 +101,7 @@ RELATION_TAIL_REPLACEMENTS = [
     ("offers", "Asian fusion cuisine", "serves", "Asian fusion"),
     ("price range", "reasonable prices", "price range", "reasonable"),
     ("price range", "reasonable price", "price range", "reasonable"),
+    ("has feature", "reasonable prices", "price range", "reasonable"),
     ("price range", "affordable prices", "price range", "affordable"),
     ("price range", "affordable price", "price range", "affordable"),
     ("has feature", "affordable prices", "price range", "affordable"),

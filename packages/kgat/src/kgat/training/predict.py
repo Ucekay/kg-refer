@@ -11,6 +11,15 @@ from kgat.utils.model_helper import load_model
 
 
 def predict(config: KGATConfig):
+    """
+    Prediction mode: Evaluate a trained model on the TEST set.
+
+    This mode is used for:
+    - Final performance evaluation on the test set
+    - Generating prediction scores for all user-item pairs
+
+    Note: This evaluates on TEST set (use_validation=False)
+    """
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     save_dir = "trained_model/KGAT/{}/embed-dim{}_relation-dim{}_{}_{}_{}_lr{}_pretrain{}/".format(
@@ -36,10 +45,11 @@ def predict(config: KGATConfig):
     k_min = min(Ks)
     k_max = max(Ks)
 
-    cf_scores, metrics_dict = evaluate(model, data, Ks, device)
+    # Evaluate on TEST set (use_validation=False)
+    cf_scores, metrics_dict = evaluate(model, data, Ks, device, use_validation=False)
     np.save(save_dir + "cf_scores.npy", cf_scores)
     print(
-        "CF Evaluation: Precision [{:.4f}, {:.4f}], Recall [{:.4f}, {:.4f}], NDCG [{:.4f}, {:.4f}]".format(
+        "TEST Set Evaluation: Precision [{:.4f}, {:.4f}], Recall [{:.4f}, {:.4f}], NDCG [{:.4f}, {:.4f}]".format(
             metrics_dict[k_min]["precision"],
             metrics_dict[k_max]["precision"],
             metrics_dict[k_min]["recall"],

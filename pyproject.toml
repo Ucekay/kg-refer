@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "cyclopts>=4.1.0",
     "kg-cleaner",
+    "kg-formatter",
     "kgat",
     "numpy>=2.3.3",
     "pandas>=2.3.3",
@@ -23,11 +24,13 @@ members = [
     "packages/kgat-pt",
     "packages/kgat",
     "packages/kg-cleaner",
+    "packages/kg-formatter",
 ]
 
 [tool.uv.sources]
-kgat = { workspace = true }
 kg-cleaner = { workspace = true }
+kgat = { workspace = true }
+kg-formatter = { workspace = true }
 
 [dependency-groups]
 dev = [

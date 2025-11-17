@@ -7,9 +7,8 @@ import numpy as np
 import pandas as pd
 import scipy.sparse as sp
 import torch
-from numpy.typing import NDArray
-
 from kgat.config import KGATConfig
+from numpy.typing import NDArray
 
 
 class DataLoader:
@@ -20,11 +19,14 @@ class DataLoader:
 
     data_dir: str
     train_file: str
+    val_file: str
     test_file: str
     kg_file: str
 
     cf_train_data: tuple[NDArray[np.int32], NDArray[np.int32]]
     train_user_dict: dict[int, list[int]]
+    cf_val_data: tuple[NDArray[np.int32], NDArray[np.int32]]
+    val_user_dict: dict[int, list[int]]
     cf_test_data: tuple[NDArray[np.int32], NDArray[np.int32]]
     test_user_dict: dict[int, list[int]]
 
@@ -37,6 +39,7 @@ class DataLoader:
     n_users: int
     n_items: int
     n_cf_train: int
+    n_cf_val: int
     n_cf_test: int
 
     kg_data: pd.DataFrame
@@ -58,10 +61,12 @@ class DataLoader:
 
         self.data_dir = os.path.join(config.data_dir, self.data_name)
         self.train_file = os.path.join(self.data_dir, "train.txt")
+        self.val_file = os.path.join(self.data_dir, "val.txt")
         self.test_file = os.path.join(self.data_dir, "test.txt")
         self.kg_file = os.path.join(self.data_dir, "kg_final.txt")
 
         self.cf_train_data, self.train_user_dict = self.load_cf(self.train_file)
+        self.cf_val_data, self.val_user_dict = self.load_cf(self.val_file)
         self.cf_test_data, self.test_user_dict = self.load_cf(self.test_file)
         self.rng = np.random.default_rng(seed=config.seed)
         self.statistic_cf()
@@ -105,9 +110,24 @@ class DataLoader:
         return (user_array, item_array), user_dict
 
     def statistic_cf(self):
-        self.n_users = max(max(self.cf_train_data[0]), max(self.cf_test_data[0])) + 1
-        self.n_items = max(max(self.cf_train_data[1]), max(self.cf_test_data[1])) + 1
+        self.n_users = (
+            max(
+                max(self.cf_train_data[0]),
+                max(self.cf_val_data[0]),
+                max(self.cf_test_data[0]),
+            )
+            + 1
+        )
+        self.n_items = (
+            max(
+                max(self.cf_train_data[1]),
+                max(self.cf_val_data[1]),
+                max(self.cf_test_data[1]),
+            )
+            + 1
+        )
         self.n_cf_train = len(self.cf_train_data[0])
+        self.n_cf_val = len(self.cf_val_data[0])
         self.n_cf_test = len(self.cf_test_data[0])
 
     def load_kg(self, filename: str):
@@ -280,6 +300,12 @@ class DataLoader:
             ).astype(np.int32),
             self.cf_train_data[1].astype(np.int32),
         )
+        self.cf_val_data = (
+            np.array(
+                list(map(lambda d: d + self.n_entities, self.cf_val_data[0]))
+            ).astype(np.int32),
+            self.cf_val_data[1].astype(np.int32),
+        )
         self.cf_test_data = (
             np.array(
                 list(map(lambda d: d + self.n_entities, self.cf_test_data[0]))
@@ -289,6 +315,9 @@ class DataLoader:
 
         self.train_user_dict = {
             k + self.n_entities: v for k, v in self.train_user_dict.items()
+        }
+        self.val_user_dict = {
+            k + self.n_entities: v for k, v in self.val_user_dict.items()
         }
         self.test_user_dict = {
             k + self.n_entities: v for k, v in self.test_user_dict.items()
@@ -402,6 +431,7 @@ class DataLoader:
         logger.info("n_r_list:          %d" % len(self.r_list))
 
         logger.info("n_cf_train:        %d" % self.n_cf_train)
+        logger.info("n_cf_val:          %d" % self.n_cf_val)
         logger.info("n_cf_test:         %d" % self.n_cf_test)
 
         logger.info("n_kg_train:        %d" % self.n_kg_train)

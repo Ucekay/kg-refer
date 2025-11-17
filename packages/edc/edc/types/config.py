@@ -86,6 +86,13 @@ class EDCConfig:
     target_schema_path: str = "./packages/edc/schemas/example_schema.csv"
     output_dir: str = "./packages/edc/output/tmp"
 
+    # KG filtering options
+    kg_file_path: Optional[str] = None
+    "Path to existing KG JSON file to filter items with empty triplets"
+
+    only_empty_triplets: bool = False
+    "Process only items with empty triplets from the KG file"
+
     # Processing options
     refinement_iterations: int = 0
     enrich_schema: bool = False

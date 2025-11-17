@@ -1,4 +1,5 @@
 import logging
+import os
 import random
 import sys
 from time import time
@@ -183,9 +184,10 @@ def train(config: KGATConfig):
 
         if (epoch % config.evaluate_every) == 0 or epoch == config.n_epoch:
             time6 = time()
-            _, metrics_dict = evaluate(model, data, Ks, device)
+            # Use VALIDATION set for early stopping (NOT test set)
+            _, metrics_dict = evaluate(model, data, Ks, device, use_validation=True)
             logging.info(
-                f"CF Evaluation: Epoch {epoch:04d} | Total time {time() - time6:1f}s | Precision [{metrics_dict[k_min]['precision']}, {metrics_dict[k_max]['precision']}], Recall [{metrics_dict[k_min]['recall']}, {metrics_dict[k_max]['recall']}], NDCG [{metrics_dict[k_min]['ndcg']}, {metrics_dict[k_max]['ndcg']}]"
+                f"Validation Evaluation: Epoch {epoch:04d} | Total time {time() - time6:1f}s | Precision [{metrics_dict[k_min]['precision']:.4f}, {metrics_dict[k_max]['precision']:.4f}], Recall [{metrics_dict[k_min]['recall']:.4f}, {metrics_dict[k_max]['recall']:.4f}], NDCG [{metrics_dict[k_min]['ndcg']:.4f}, {metrics_dict[k_max]['ndcg']:.4f}]"
             )
 
             epoch_list.append(epoch)
@@ -211,13 +213,13 @@ def train(config: KGATConfig):
             metrics_cols.append(f"{m}@{k}")
     metrics_df = pd.DataFrame(metrics_df).transpose()
     metrics_df.columns = metrics_cols
-    metrics_df.to_csv(save_dir + "/metrics.csv", sep="\t", index=False)
+    metrics_df.to_csv(save_dir + "/metrics_validation.csv", sep="\t", index=False)
 
     best_metrics = (
         metrics_df.loc[metrics_df["epoch_idx"] == best_epoch].iloc[0].to_dict()
     )
     logging.info(
-        "Best CF Evaluation: Epoch {:04d} | Precision [{:.4f}, {:.4f}], Recall [{:.4f}, {:.4f}], NDCG [{:.4f}, {:.4f}]".format(
+        "Best Validation Evaluation: Epoch {:04d} | Precision [{:.4f}, {:.4f}], Recall [{:.4f}, {:.4f}], NDCG [{:.4f}, {:.4f}]".format(
             int(best_metrics["epoch_idx"]),
             best_metrics["precision@{}".format(k_min)],
             best_metrics["precision@{}".format(k_max)],
@@ -227,3 +229,55 @@ def train(config: KGATConfig):
             best_metrics["ndcg@{}".format(k_max)],
         )
     )
+
+    # ============================================================
+    # FINAL TEST EVALUATION (only once, after training is complete)
+    # ============================================================
+    logging.info("\n" + "=" * 60)
+    logging.info("Performing FINAL evaluation on TEST set...")
+    logging.info("=" * 60)
+
+    # Load best model
+    best_model_path = os.path.join(save_dir, f"model_epoch{best_epoch}.pth")
+    if os.path.exists(best_model_path):
+        model = load_model(model, best_model_path)
+        model.to(device)
+        logging.info(f"Loaded best model from epoch {best_epoch}")
+    else:
+        logging.warning(f"Best model file not found: {best_model_path}")
+        logging.info("Using current model state for test evaluation")
+
+    # Evaluate on TEST set (use_validation=False)
+    test_time = time()
+    _, test_metrics_dict = evaluate(model, data, Ks, device, use_validation=False)
+
+    logging.info(
+        "FINAL Test Evaluation: Epoch {:04d} | Total time {:.1f}s | Precision [{:.4f}, {:.4f}], Recall [{:.4f}, {:.4f}], NDCG [{:.4f}, {:.4f}]".format(
+            best_epoch,
+            time() - test_time,
+            test_metrics_dict[k_min]["precision"],
+            test_metrics_dict[k_max]["precision"],
+            test_metrics_dict[k_min]["recall"],
+            test_metrics_dict[k_max]["recall"],
+            test_metrics_dict[k_min]["ndcg"],
+            test_metrics_dict[k_max]["ndcg"],
+        )
+    )
+
+    # Save test metrics
+    test_metrics_data = {
+        "epoch_idx": [best_epoch],
+        **{
+            f"{m}@{k}": [test_metrics_dict[k][m]]
+            for k in Ks
+            for m in ["precision", "recall", "ndcg"]
+        },
+    }
+    test_metrics_df = pd.DataFrame(test_metrics_data)
+    test_metrics_df.to_csv(save_dir + "/metrics_test.csv", sep="\t", index=False)
+
+    logging.info("=" * 60)
+    logging.info("Training and evaluation completed!")
+    logging.info(f"Validation metrics saved to: {save_dir}/metrics_validation.csv")
+    logging.info(f"Test metrics saved to: {save_dir}/metrics_test.csv")
+    logging.info("=" * 60)
