@@ -40,6 +40,8 @@ ENTITY_REPLACEMENTS = {
     # Example: "Food allergies" -> "food allergies" (normalize case)
     # Add your entity replacements here:
     "Café": "Cafe",
+    "beer": "beers",
+    "craft beer": "craft beers",
 }
 
 # Entity expansion rules: Replace one tail entity with multiple tail entities
@@ -50,6 +52,13 @@ ENTITY_EXPANSION_RULES = {
     # Add your expansion rules here:
     "Cajun/Creole": ["Cajun cuisine", "Creole cuisine"],
     "Cajun/Creole cuisine": ["Cajun cuisine", "Creole cuisine"],
+}
+
+# Relation replacement rules
+# Format: {old_relation: new_relation}
+RELATION_REPLACEMENTS = {
+    # Example: "has ambience": "has atmosphere",
+    "has price range": "price range",
 }
 
 # Replacement rules for (relation, tail) combinations
@@ -75,6 +84,7 @@ RELATION_TAIL_REPLACEMENTS = [
     ("serves", "Japanese food", "serves", "Japanese cuisine"),
     ("serves", "seafood dishes", "serves", "seafood"),
     ("has atmosphere", "cozy atmosphere", "has atmosphere", "cozy"),
+    ("has feature", "cozy atmosphere", "has atmosphere", "cozy"),
     ("serves", "American", "serves", "American cuisine"),
     ("serves", "American food", "serves", "American cuisine"),
     ("serves", "Mexican cuisine", "serves", "Mexican"),
@@ -86,6 +96,10 @@ RELATION_TAIL_REPLACEMENTS = [
     ("offers", "Asian fusion cuisine", "serves", "Asian fusion"),
     ("price range", "reasonable prices", "price range", "reasonable"),
     ("price range", "reasonable price", "price range", "reasonable"),
+    ("price range", "affordable prices", "price range", "affordable"),
+    ("price range", "affordable price", "price range", "affordable"),
+    ("has feature", "affordable prices", "price range", "affordable"),
+    ("has feature", "affordable price", "price range", "affordable"),
     ("serves", "Greek food", "serves", "Greek cuisine"),
     ("serves", "restaurant", "is a", "restaurant"),
     ("category", "restaurant", "is a", "restaurant"),
@@ -99,6 +113,37 @@ RELATION_TAIL_REPLACEMENTS = [
         "has atmosphere",
         "family-friendly",
     ),
+    ("category", "brewery", "is a", "brewery"),
+    ("category", "beer", "serves", "beer"),
+    ("category", "pizza", "serves", "pizza"),
+    ("offers", "comfort food", "serves", "comfort food"),
+    ("has feature", "generous portions", "offers", "generous portions"),
+    ("serves", "generous portions", "offers", "generous portions"),
+    ("offers", "desserts", "serves", "desserts"),
+    ("offers", "affordable prices", "price range", "affordable"),
+    ("price range", "lower prices", "price range", "lower"),
+    ("has feature", "lower prices", "price range", "lower"),
+    ("offers", "beer", "serves", "beers"),
+    ("serves", "beer", "serves", "beers"),
+    ("offers", "beers", "serves", "beers"),
+    ("offers", "Filipino dishes", "serves", "Filipino cuisine"),
+    ("offers", "Filipino cuisine", "serves", "Filipino cuisine"),
+    ("serves", "Filipino dishes", "serves", "Filipino cuisine"),
+    ("serves", "Filipino food", "serves", "Filipino cuisine"),
+    ("offers", "Filipino food", "serves", "Filipino cuisine"),
+    ("offers", "Chinese food", "serves", "Chinese cuisine"),
+    ("serves", "Chinese food", "serves", "Chinese cuisine"),
+    ("offers", "Chinese cuisine", "serves", "Chinese cuisine"),
+    ("serves", "Chinese", "serves", "Chinese cuisine"),
+    ("serves", "Japanese", "serves", "Japanese cuisine"),
+    ("offers", "creole cuisine", "serves", "creole cuisine"),
+    ("offers", "cajun cuisine", "serves", "cajun cuisine"),
+    ("features", "live music", "has feature", "live music"),
+    ("category", "bakery", "is a", "bakery"),
+    ("has atmosphere", "vibrant atmosphere", "has atmosphere", "vibrant"),
+    ("has staff", "friendly staff", "has feature", "friendly staff"),
+    ("has feature", "fun atmosphere", "has atmosphere", "fun atmosphere"),
+    ("serves", "British food", "serves", "British cuisine"),
 ]
 
 # Tail-based relation unification rules
@@ -132,6 +177,7 @@ class KGCleaner:
             "replaced_count": 0,
             "filtered_relations_count": 0,
             "entity_replaced_count": 0,
+            "relation_replaced_count": 0,
             "expanded_count": 0,
             "unified_count": 0,
         }
@@ -244,6 +290,28 @@ class KGCleaner:
 
         if self.stats["entity_replaced_count"] > 0:
             logger.info(f"Replaced {self.stats['entity_replaced_count']} tail entities")
+        return replaced
+
+    def _replace_relations(self, triplets: List[List[str]]) -> List[List[str]]:
+        """Replace relations based on relation replacement rules."""
+        if not RELATION_REPLACEMENTS:
+            return triplets
+
+        replaced = []
+
+        for h, r, t in triplets:
+            if r in RELATION_REPLACEMENTS:
+                new_r = RELATION_REPLACEMENTS[r]
+                replaced.append([h, new_r, t])
+                self.stats["relation_replaced_count"] += 1
+                logger.debug(
+                    f"Replaced relation: [{h}, {r}, {t}] → [{h}, {new_r}, {t}]"
+                )
+            else:
+                replaced.append([h, r, t])
+
+        if self.stats["relation_replaced_count"] > 0:
+            logger.info(f"Replaced {self.stats['relation_replaced_count']} relations")
         return replaced
 
     def _replace_relation_tail_combinations(
@@ -429,6 +497,7 @@ class KGCleaner:
         filter_relations: bool = True,
         expand_entities: bool = True,
         replace_entities: bool = True,
+        replace_relations: bool = True,
         replace_combinations: bool = True,
         unify_relations: bool = True,
     ) -> Tuple[List[Dict[str, Any]], Dict[Tuple[str, str], List[str]]]:
@@ -444,6 +513,7 @@ class KGCleaner:
             filter_relations: Remove triplets with specific relations
             expand_entities: Expand tail entities into multiple triplets
             replace_entities: Replace tail entities regardless of relation
+            replace_relations: Replace relations regardless of head or tail
             replace_combinations: Replace specific (relation, tail) combinations
             unify_relations: Unify relations for tails with multiple relations
 
@@ -484,25 +554,29 @@ class KGCleaner:
             if replace_entities:
                 triplets = self._replace_entities(triplets)
 
-            # Step 4: Replace combinations (optional)
+            # Step 4: Replace relations (optional)
+            if replace_relations:
+                triplets = self._replace_relations(triplets)
+
+            # Step 5: Replace combinations (optional)
             if replace_combinations:
                 triplets = self._replace_relation_tail_combinations(triplets)
 
-            # Step 5: Normalize relations and tails (optional)
+            # Step 6: Normalize relations and tails (optional)
             if normalize:
                 triplets = self._normalize_relation_and_tail(
                     triplets, relations_to_normalize, tails_to_normalize
                 )
 
-            # Step 6: Deduplicate (optional)
+            # Step 7: Deduplicate (optional)
             if deduplicate:
                 triplets = self._deduplicate_triplets(triplets)
 
-            # Step 7: Unify relations (optional)
+            # Step 8: Unify relations (optional)
             if unify_relations:
                 triplets = self._unify_tail_relations(triplets)
 
-            # Step 8: Find conflicts (optional)
+            # Step 9: Find conflicts (optional)
             if find_conflicts:
                 conflicts = self._find_conflicts(triplets)
                 if conflicts:
@@ -532,6 +606,7 @@ class KGCleaner:
         filter_relations: bool = True,
         expand_entities: bool = True,
         replace_entities: bool = True,
+        replace_relations: bool = True,
         replace_combinations: bool = True,
         unify_relations: bool = True,
     ):
@@ -549,6 +624,7 @@ class KGCleaner:
             filter_relations: Remove triplets with specific relations
             expand_entities: Expand tail entities into multiple triplets
             replace_entities: Replace tail entities regardless of relation
+            replace_relations: Replace relations regardless of head or tail
             replace_combinations: Replace specific (relation, tail) combinations
             unify_relations: Unify relations for tails with multiple relations
         """
@@ -565,6 +641,7 @@ class KGCleaner:
             filter_relations=filter_relations,
             expand_entities=expand_entities,
             replace_entities=replace_entities,
+            replace_relations=replace_relations,
             replace_combinations=replace_combinations,
             unify_relations=unify_relations,
         )
@@ -607,6 +684,10 @@ class KGCleaner:
             logger.info(f"  Entities expanded: {self.stats['expanded_count']}")
         if replace_entities:
             logger.info(f"  Entities replaced: {self.stats['entity_replaced_count']}")
+        if replace_relations:
+            logger.info(
+                f"  Relations replaced: {self.stats['relation_replaced_count']}"
+            )
         if replace_combinations:
             logger.info(f"  Combinations replaced: {self.stats['replaced_count']}")
         if normalize:

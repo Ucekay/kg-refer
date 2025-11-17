@@ -37,6 +37,9 @@ class CleanerConfig:
     replace_entities: bool = False
     "Replace tail entities regardless of relation (e.g., 'Food allergies' → 'food allergies')"
 
+    replace_relations: bool = False
+    "Replace relations regardless of head or tail (e.g., 'has ambience' → 'has atmosphere')"
+
     replace_combinations: bool = False
     "Replace specific (relation, tail) combinations based on predefined rules"
 
