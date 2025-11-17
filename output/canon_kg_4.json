@@ -1,0 +1,366 @@
+[
+  {
+    "iid": 1210,
+    "triplets": [
+      [
+        "1210",
+        "has feature",
+        "comfortable beds"
+      ],
+      [
+        "1210",
+        "has feature",
+        "clean rooms"
+      ],
+      [
+        "1210",
+        "has feature",
+        "friendly staff"
+      ],
+      [
+        "1210",
+        "has feature",
+        "bar/lounge"
+      ],
+      [
+        "1210",
+        "has feature",
+        "easy parking"
+      ],
+      [
+        "1210",
+        "has feature",
+        "nearby attractions"
+      ],
+      [
+        "1210",
+        "is a",
+        "hotel"
+      ]
+    ]
+  },
+  {
+    "iid": 2359,
+    "triplets": [
+      [
+        "2359",
+        "located in",
+        "Unknown"
+      ],
+      [
+        "2359",
+        "has feature",
+        "friendly bar setting"
+      ],
+      [
+        "2359",
+        "has feature",
+        "karaoke"
+      ],
+      [
+        "2359",
+        "has feature",
+        "affordable beer prices"
+      ],
+      [
+        "2359",
+        "serves",
+        "beer"
+      ],
+      [
+        "2359",
+        "serves",
+        "craft beer"
+      ],
+      [
+        "2359",
+        "serves",
+        "appetizers"
+      ],
+      [
+        "2359",
+        "has feature",
+        "variety of appetizers"
+      ],
+      [
+        "2359",
+        "has feature",
+        "wings"
+      ],
+      [
+        "2359",
+        "has feature",
+        "nachos"
+      ],
+      [
+        "2359",
+        "has atmosphere",
+        "fun party vibe"
+      ],
+      [
+        "2359",
+        "has feature",
+        "games"
+      ],
+      [
+        "2359",
+        "has feature",
+        "outdoor seating"
+      ]
+    ]
+  },
+  {
+    "iid": 2473,
+    "triplets": [
+      [
+        "2473",
+        "offers",
+        "family-friendly events"
+      ],
+      [
+        "2473",
+        "has feature",
+        "early morning outdoor activities"
+      ],
+      [
+        "2473",
+        "has feature",
+        "beautiful sights in the sky"
+      ],
+      [
+        "2473",
+        "has feature",
+        "local festivals"
+      ],
+      [
+        "2473",
+        "is a",
+        "Event"
+      ],
+      [
+        "2473",
+        "appeals to",
+        "Users who enjoy family-friendly events"
+      ],
+      [
+        "2473",
+        "appeals to",
+        "Users who enjoy outdoor activities"
+      ],
+      [
+        "2473",
+        "appeals to",
+        "Users who enjoy sights in the sky"
+      ],
+      [
+        "2473",
+        "appeals to",
+        "Users who enjoy festivals"
+      ]
+    ]
+  },
+  {
+    "iid": 4373,
+    "triplets": [
+      [
+        "4373",
+        "located in",
+        "University City"
+      ],
+      [
+        "4373",
+        "serves",
+        "ice cream"
+      ],
+      [
+        "4373",
+        "serves",
+        "ice cream"
+      ],
+      [
+        "4373",
+        "serves",
+        "Asian-inspired flavors"
+      ],
+      [
+        "4373",
+        "serves",
+        "toppings"
+      ],
+      [
+        "4373",
+        "serves",
+        "rolled ice cream"
+      ],
+      [
+        "4373",
+        "has atmosphere",
+        "playful"
+      ],
+      [
+        "4373",
+        "appeals to",
+        "Users who enjoy unique and fun ice cream experiences"
+      ],
+      [
+        "4373",
+        "appeals to",
+        "Users looking for a variety of toppings"
+      ],
+      [
+        "4373",
+        "appeals to",
+        "Users interested in rolled ice cream"
+      ]
+    ]
+  },
+  {
+    "iid": 6933,
+    "triplets": [
+      [
+        "6933",
+        "located in",
+        "New Orleans"
+      ],
+      [
+        "6933",
+        "serves",
+        "amusement park"
+      ],
+      [
+        "6933",
+        "appeals to",
+        "Families with young children"
+      ],
+      [
+        "6933",
+        "caters to",
+        "event planners for birthday parties"
+      ],
+      [
+        "6933",
+        "appeals to",
+        "nostalgic adults"
+      ],
+      [
+        "6933",
+        "appeals to",
+        "fairy tale enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": 8600,
+    "triplets": [
+      [
+        "8600",
+        "has feature",
+        "unique and flavorful dishes"
+      ],
+      [
+        "8600",
+        "appeals to",
+        "sharing meals"
+      ],
+      [
+        "8600",
+        "price range",
+        "high-quality dining experience"
+      ],
+      [
+        "8600",
+        "located in",
+        "Indianapolis"
+      ],
+      [
+        "8600",
+        "serves",
+        "food"
+      ],
+      [
+        "8600",
+        "is a",
+        "Restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": 8953,
+    "triplets": [
+      [
+        "8953",
+        "located in",
+        "Edmonton"
+      ],
+      [
+        "8953",
+        "serves",
+        "Italian cuisine"
+      ],
+      [
+        "8953",
+        "is a",
+        "Fine dining restaurant"
+      ],
+      [
+        "8953",
+        "has feature",
+        "reservations"
+      ],
+      [
+        "8953",
+        "appeals to",
+        "Fine dining enthusiasts"
+      ]
+    ]
+  },
+  {
+    "iid": 10124,
+    "triplets": [
+      [
+        "10124",
+        "appeals to",
+        "interactive dining experiences"
+      ],
+      [
+        "10124",
+        "has feature",
+        "unique experiences"
+      ],
+      [
+        "10124",
+        "has feature",
+        "interactive dining"
+      ],
+      [
+        "10124",
+        "likes",
+        "experimenting with different flavors"
+      ],
+      [
+        "10124",
+        "is open to",
+        "trying new cuisines"
+      ],
+      [
+        "10124",
+        "serves",
+        "Sichuan hot pot"
+      ],
+      [
+        "10124",
+        "serves",
+        "hot pot"
+      ],
+      [
+        "10124",
+        "located in",
+        "Nashville"
+      ]
+    ]
+  },
+  {
+    "iid": 12115,
+    "triplets": []
+  }
+]

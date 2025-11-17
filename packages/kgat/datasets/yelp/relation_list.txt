@@ -1,0 +1,115 @@
+"accepts payment" 0
+"adheres to" 1
+"appeals to" 2
+"avoids" 3
+"balanced by" 4
+"can overlook" 5
+"category" 6
+"cater to" 7
+"caters to" 8
+"caterst to" 9
+"compared to" 10
+"compares to" 11
+"competes with" 12
+"connected to" 13
+"cooking method" 14
+"creates" 15
+"discovers" 16
+"does not own" 17
+"does not specify" 18
+"educates about" 19
+"ensures" 20
+"features" 21
+"focuses on" 22
+"has" 23
+"has activity" 24
+"has ambiance" 25
+"has amenities" 26
+"has aspect" 27
+"has atmosphere" 28
+"has attribute" 29
+"has been renovated" 30
+"has characteristic" 31
+"has cuisine influence" 32
+"has dietary options" 33
+"has drawback" 34
+"has event" 35
+"has experience" 36
+"has feature" 37
+"has feedback" 38
+"has food options" 39
+"has highlight" 40
+"has hours" 41
+"has ingredient" 42
+"has issue" 43
+"has main ingredient" 44
+"has menu" 45
+"has menu feature" 46
+"has menu with" 47
+"has music genre" 48
+"has opportunity to see" 49
+"has overall experience" 50
+"has owner" 51
+"has payment method" 52
+"has policy" 53
+"has portion size" 54
+"has potential for" 55
+"has potential issue" 56
+"has purpose" 57
+"has quality" 58
+"has reputation" 59
+"has scene" 60
+"has service" 61
+"has service quality" 62
+"has setting" 63
+"has shopping options" 64
+"has significance" 65
+"has staff" 66
+"has strategy for" 67
+"has supervision by" 68
+"has theme" 69
+"has variety of" 70
+"has vibe" 71
+"historical age" 72
+"hosts" 73
+"includes" 74
+"interests include" 75
+"is a" 76
+"is open to" 77
+"lacks feature" 78
+"likes" 79
+"listens to" 80
+"located away from" 81
+"located in" 82
+"location" 83
+"made from" 84
+"may not be suitable for" 85
+"name" 86
+"off ers" 87
+"offeres" 88
+"offers" 89
+"owned by" 90
+"prefers payment method" 91
+"presents" 92
+"presents genre" 93
+"price range" 94
+"prioritizes" 95
+"provides" 96
+"reasons to revisit" 97
+"receives" 98
+"recommendation" 99
+"recommended visit" 100
+"seeks" 101
+"sees" 102
+"served in" 103
+"serves" 104
+"services" 105
+"specializes in" 106
+"spice levels range from" 107
+"suitable for" 108
+"suits" 109
+"supports" 110
+"surroundings include" 111
+"uses" 112
+"value proposition" 113
+"willing to" 114

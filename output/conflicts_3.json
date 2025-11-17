@@ -1,0 +1,137 @@
+[
+  {
+    "iid": "11466",
+    "triplets": [
+      [
+        "11466",
+        "offers",
+        "late-night dining"
+      ],
+      [
+        "11466",
+        "suitable for",
+        "late-night dining"
+      ]
+    ]
+  },
+  {
+    "iid": "2744",
+    "triplets": [
+      [
+        "2744",
+        "has atmosphere",
+        "bright and open space"
+      ],
+      [
+        "2744",
+        "has feature",
+        "bright and open space"
+      ]
+    ]
+  },
+  {
+    "iid": "4119",
+    "triplets": [
+      [
+        "4119",
+        "has feature",
+        "waterfront view"
+      ],
+      [
+        "4119",
+        "located in",
+        "waterfront view"
+      ]
+    ]
+  },
+  {
+    "iid": "4765",
+    "triplets": [
+      [
+        "4765",
+        "has feature",
+        "Szechuan flavors"
+      ],
+      [
+        "4765",
+        "serves",
+        "Szechuan flavors"
+      ]
+    ]
+  },
+  {
+    "iid": "5443",
+    "triplets": [
+      [
+        "5443",
+        "has feature",
+        "family-friendly dining"
+      ],
+      [
+        "5443",
+        "suitable for",
+        "family-friendly dining"
+      ]
+    ]
+  },
+  {
+    "iid": "6053",
+    "triplets": [
+      [
+        "6053",
+        "focuses on",
+        "nutritious food"
+      ],
+      [
+        "6053",
+        "serves",
+        "nutritious food"
+      ]
+    ]
+  },
+  {
+    "iid": "6252",
+    "triplets": [
+      [
+        "6252",
+        "caters to",
+        "Filipino cuisine"
+      ],
+      [
+        "6252",
+        "serves",
+        "Filipino cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": "6252",
+    "triplets": [
+      [
+        "6252",
+        "is a",
+        "street food"
+      ],
+      [
+        "6252",
+        "serves",
+        "street food"
+      ]
+    ]
+  },
+  {
+    "iid": "7913",
+    "triplets": [
+      [
+        "7913",
+        "is a",
+        "seafood"
+      ],
+      [
+        "7913",
+        "serves",
+        "seafood"
+      ]
+    ]
+  }
+]

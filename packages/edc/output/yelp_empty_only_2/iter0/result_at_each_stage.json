@@ -1,0 +1,800 @@
+[
+    {
+        "index": 0,
+        "item_id": 1210,
+        "input_text": "Users who enjoy comfortable beds, clean rooms, friendly staff, and convenient amenities like a bar/lounge, easy parking, and nearby attractions would appreciate this hotel.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "1210",
+                "has feature",
+                "comfortable beds"
+            ],
+            [
+                "1210",
+                "has feature",
+                "clean rooms"
+            ],
+            [
+                "1210",
+                "has feature",
+                "friendly staff"
+            ],
+            [
+                "1210",
+                "has feature",
+                "bar/lounge"
+            ],
+            [
+                "1210",
+                "has feature",
+                "easy parking"
+            ],
+            [
+                "1210",
+                "has feature",
+                "nearby attractions"
+            ],
+            [
+                "1210",
+                "is a",
+                "hotel"
+            ]
+        ],
+        "schema_definition": {
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "category": "The subject entity belongs to or is classified under the category specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {'is a': np.float32(0.9294591), 'has feature': np.float32(0.8218048), 'located in': np.float32(0.7751163), 'suitable for': np.float32(0.7702229), 'caters to': np.float32(0.76254964)}]",
+        "schema_canonicalizaiton": [
+            [
+                "1210",
+                "has feature",
+                "comfortable beds"
+            ],
+            [
+                "1210",
+                "has feature",
+                "clean rooms"
+            ],
+            [
+                "1210",
+                "has feature",
+                "friendly staff"
+            ],
+            [
+                "1210",
+                "has feature",
+                "bar/lounge"
+            ],
+            [
+                "1210",
+                "has feature",
+                "easy parking"
+            ],
+            [
+                "1210",
+                "has feature",
+                "nearby attractions"
+            ],
+            [
+                "1210",
+                "is a",
+                "hotel"
+            ]
+        ]
+    },
+    {
+        "index": 1,
+        "item_id": 2359,
+        "input_text": "Individuals who enjoy a friendly bar setting, karaoke, affordable beer prices, craft beer selections, variety of appetizers like wings and nachos, and a fun party vibe with games and outdoor seating would appreciate Gaspar's Patio Bar & Grille.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "2359",
+                "located in",
+                "Unknown"
+            ],
+            [
+                "2359",
+                "has feature",
+                "friendly bar setting"
+            ],
+            [
+                "2359",
+                "has feature",
+                "karaoke"
+            ],
+            [
+                "2359",
+                "has feature",
+                "affordable beer prices"
+            ],
+            [
+                "2359",
+                "serves",
+                "beer"
+            ],
+            [
+                "2359",
+                "serves",
+                "craft beer"
+            ],
+            [
+                "2359",
+                "serves",
+                "appetizers"
+            ],
+            [
+                "2359",
+                "has feature",
+                "variety of appetizers"
+            ],
+            [
+                "2359",
+                "has feature",
+                "wings"
+            ],
+            [
+                "2359",
+                "has feature",
+                "nachos"
+            ],
+            [
+                "2359",
+                "has atmosphere",
+                "fun party vibe"
+            ],
+            [
+                "2359",
+                "has feature",
+                "games"
+            ],
+            [
+                "2359",
+                "has feature",
+                "outdoor seating"
+            ]
+        ],
+        "schema_definition": {
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "has atmosphere": "The subject entity provides or is characterized by the ambiance or environment specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "serves": "The subject entity offers or provides the product, service, or item specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "2359",
+                "located in",
+                "Unknown"
+            ],
+            [
+                "2359",
+                "has feature",
+                "friendly bar setting"
+            ],
+            [
+                "2359",
+                "has feature",
+                "karaoke"
+            ],
+            [
+                "2359",
+                "has feature",
+                "affordable beer prices"
+            ],
+            [
+                "2359",
+                "serves",
+                "beer"
+            ],
+            [
+                "2359",
+                "serves",
+                "craft beer"
+            ],
+            [
+                "2359",
+                "serves",
+                "appetizers"
+            ],
+            [
+                "2359",
+                "has feature",
+                "variety of appetizers"
+            ],
+            [
+                "2359",
+                "has feature",
+                "wings"
+            ],
+            [
+                "2359",
+                "has feature",
+                "nachos"
+            ],
+            [
+                "2359",
+                "has atmosphere",
+                "fun party vibe"
+            ],
+            [
+                "2359",
+                "has feature",
+                "games"
+            ],
+            [
+                "2359",
+                "has feature",
+                "outdoor seating"
+            ]
+        ]
+    },
+    {
+        "index": 2,
+        "item_id": 2473,
+        "input_text": "Users who enjoy family-friendly events, early morning outdoor activities, beautiful sights in the sky, and local festivals would love the Great Reno Balloon Race.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "2473",
+                "offers",
+                "family-friendly events"
+            ],
+            [
+                "2473",
+                "has feature",
+                "early morning outdoor activities"
+            ],
+            [
+                "2473",
+                "has feature",
+                "beautiful sights in the sky"
+            ],
+            [
+                "2473",
+                "has feature",
+                "local festivals"
+            ],
+            [
+                "2473",
+                "is a",
+                "Event"
+            ],
+            [
+                "2473",
+                "appeals to",
+                "Users who enjoy family-friendly events"
+            ],
+            [
+                "2473",
+                "appeals to",
+                "Users who enjoy outdoor activities"
+            ],
+            [
+                "2473",
+                "appeals to",
+                "Users who enjoy sights in the sky"
+            ],
+            [
+                "2473",
+                "appeals to",
+                "Users who enjoy festivals"
+            ]
+        ],
+        "schema_definition": {
+            "has": "The subject entity possesses or contains the feature, attribute, or item specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "features": "The subject entity includes or showcases the specific feature, aspect, or characteristic indicated by the object entity.",
+            "offers": "The subject entity provides or makes available the service, activity, or item specified by the object entity.",
+            "is a": "The subject entity belongs to, is classified as, or is a type of the category or class specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {'has feature': np.float32(0.85107213), 'presents': np.float32(0.78252816), 'is a': np.float32(0.76401246), 'presents genre': np.float32(0.74484944), 'has atmosphere': np.float32(0.7427581)}, {'has feature': np.float32(0.9062003), 'is a': np.float32(0.8152316), 'located in': np.float32(0.78337127), 'presents': np.float32(0.7825303), 'suitable for': np.float32(0.77474713)}, {'has feature': np.float32(0.85107213), 'presents': np.float32(0.78252816), 'is a': np.float32(0.76401246), 'presents genre': np.float32(0.74484944), 'has atmosphere': np.float32(0.7427581)}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "2473",
+                "offers",
+                "family-friendly events"
+            ],
+            [
+                "2473",
+                "has feature",
+                "early morning outdoor activities"
+            ],
+            [
+                "2473",
+                "has feature",
+                "beautiful sights in the sky"
+            ],
+            [
+                "2473",
+                "has feature",
+                "local festivals"
+            ],
+            [
+                "2473",
+                "is a",
+                "Event"
+            ],
+            [
+                "2473",
+                "appeals to",
+                "Users who enjoy family-friendly events"
+            ],
+            [
+                "2473",
+                "appeals to",
+                "Users who enjoy outdoor activities"
+            ],
+            [
+                "2473",
+                "appeals to",
+                "Users who enjoy sights in the sky"
+            ],
+            [
+                "2473",
+                "appeals to",
+                "Users who enjoy festivals"
+            ]
+        ]
+    },
+    {
+        "index": 3,
+        "item_id": 4373,
+        "input_text": "Users who enjoy unique and fun ice cream experiences, Asian-inspired flavors, and playful atmospheres, as well as those looking for a variety of toppings and rolled ice cream options, would love Snow Factory in University City.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "4373",
+                "located in",
+                "University City"
+            ],
+            [
+                "4373",
+                "serves",
+                "ice cream"
+            ],
+            [
+                "4373",
+                "serves",
+                "ice cream"
+            ],
+            [
+                "4373",
+                "serves",
+                "Asian-inspired flavors"
+            ],
+            [
+                "4373",
+                "serves",
+                "toppings"
+            ],
+            [
+                "4373",
+                "serves",
+                "rolled ice cream"
+            ],
+            [
+                "4373",
+                "has atmosphere",
+                "playful"
+            ],
+            [
+                "4373",
+                "appeals to",
+                "Users who enjoy unique and fun ice cream experiences"
+            ],
+            [
+                "4373",
+                "appeals to",
+                "Users looking for a variety of toppings"
+            ],
+            [
+                "4373",
+                "appeals to",
+                "Users interested in rolled ice cream"
+            ]
+        ],
+        "schema_definition": {
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "has atmosphere": "The subject entity provides or is characterized by the ambiance or environment specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "serves": "The subject entity offers or provides the type of service, product, or item specified by the object entities."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "4373",
+                "located in",
+                "University City"
+            ],
+            [
+                "4373",
+                "serves",
+                "ice cream"
+            ],
+            [
+                "4373",
+                "serves",
+                "ice cream"
+            ],
+            [
+                "4373",
+                "serves",
+                "Asian-inspired flavors"
+            ],
+            [
+                "4373",
+                "serves",
+                "toppings"
+            ],
+            [
+                "4373",
+                "serves",
+                "rolled ice cream"
+            ],
+            [
+                "4373",
+                "has atmosphere",
+                "playful"
+            ],
+            [
+                "4373",
+                "appeals to",
+                "Users who enjoy unique and fun ice cream experiences"
+            ],
+            [
+                "4373",
+                "appeals to",
+                "Users looking for a variety of toppings"
+            ],
+            [
+                "4373",
+                "appeals to",
+                "Users interested in rolled ice cream"
+            ]
+        ]
+    },
+    {
+        "index": 4,
+        "item_id": 6933,
+        "input_text": "Families with young children, event planners for birthday parties, nostalgic adults, and fairy tale enthusiasts would enjoy Storyland amusement park in New Orleans.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "6933",
+                "located in",
+                "New Orleans"
+            ],
+            [
+                "6933",
+                "serves",
+                "amusement park"
+            ],
+            [
+                "6933",
+                "appeals to",
+                "Families with young children"
+            ],
+            [
+                "6933",
+                "caters to",
+                "event planners for birthday parties"
+            ],
+            [
+                "6933",
+                "appeals to",
+                "nostalgic adults"
+            ],
+            [
+                "6933",
+                "appeals to",
+                "fairy tale enthusiasts"
+            ]
+        ],
+        "schema_definition": {
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "has target audience": "The subject entity is designed for, appeals to, or is intended for the group of people specified by the object entity.",
+            "serves": "The subject entity provides or offers the service, function, or purpose indicated by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {'appeals to': np.float32(0.8153664), 'caters to': np.float32(0.80059516), 'suitable for': np.float32(0.769779), 'is a': np.float32(0.7445122), 'offers': np.float32(0.7219516)}, {'appeals to': np.float32(0.8153664), 'caters to': np.float32(0.80059516), 'suitable for': np.float32(0.769779), 'is a': np.float32(0.7445122), 'offers': np.float32(0.7219516)}, {'appeals to': np.float32(0.8153664), 'caters to': np.float32(0.80059516), 'suitable for': np.float32(0.769779), 'is a': np.float32(0.7445122), 'offers': np.float32(0.7219516)}, {'appeals to': np.float32(0.8153664), 'caters to': np.float32(0.80059516), 'suitable for': np.float32(0.769779), 'is a': np.float32(0.7445122), 'offers': np.float32(0.7219516)}]",
+        "schema_canonicalizaiton": [
+            [
+                "6933",
+                "located in",
+                "New Orleans"
+            ],
+            [
+                "6933",
+                "serves",
+                "amusement park"
+            ],
+            [
+                "6933",
+                "appeals to",
+                "Families with young children"
+            ],
+            [
+                "6933",
+                "caters to",
+                "event planners for birthday parties"
+            ],
+            [
+                "6933",
+                "appeals to",
+                "nostalgic adults"
+            ],
+            [
+                "6933",
+                "appeals to",
+                "fairy tale enthusiasts"
+            ]
+        ]
+    },
+    {
+        "index": 5,
+        "item_id": 8600,
+        "input_text": "Food enthusiasts who appreciate unique and flavorful dishes, enjoy sharing meals, and are willing to pay a bit more for a high-quality dining experience would enjoy Pioneer in Indianapolis.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "8600",
+                "has feature",
+                "unique and flavorful dishes"
+            ],
+            [
+                "8600",
+                "appeals to",
+                "sharing meals"
+            ],
+            [
+                "8600",
+                "price range",
+                "high-quality dining experience"
+            ],
+            [
+                "8600",
+                "located in",
+                "Indianapolis"
+            ],
+            [
+                "8600",
+                "serves",
+                "food"
+            ],
+            [
+                "8600",
+                "is a",
+                "Restaurant"
+            ]
+        ],
+        "schema_definition": {
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "appreciates": "The subject entity values or regards highly the object entity, often indicating a positive perception or enjoyment.",
+            "enjoys": "The subject entity derives pleasure or satisfaction from the object entity.",
+            "willing to pay for": "The subject entity is prepared to spend money or resources to obtain the object entity.",
+            "is a": "The subject entity belongs to or is classified under the category specified by the object entity.",
+            "serves": "The subject entity provides or offers the object entity, often referring to food, services, or other offerings."
+        },
+        "canonicalization_candidates": "[{'has feature': np.float32(0.7195522), 'suitable for': np.float32(0.7103659), 'appeals to': np.float32(0.70498395), 'is a': np.float32(0.69316214), 'presents': np.float32(0.69076127)}, {'suitable for': np.float32(0.7430589), 'appeals to': np.float32(0.7376117), 'has feature': np.float32(0.73442054), 'presents': np.float32(0.7275788), 'offers': np.float32(0.7155243)}, {'suitable for': np.float32(0.7328054), 'price range': np.float32(0.7215737), 'offers': np.float32(0.7189257), 'presents': np.float32(0.6967303), 'has feature': np.float32(0.6855165)}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "8600",
+                "has feature",
+                "unique and flavorful dishes"
+            ],
+            [
+                "8600",
+                "appeals to",
+                "sharing meals"
+            ],
+            [
+                "8600",
+                "price range",
+                "high-quality dining experience"
+            ],
+            [
+                "8600",
+                "located in",
+                "Indianapolis"
+            ],
+            [
+                "8600",
+                "serves",
+                "food"
+            ],
+            [
+                "8600",
+                "is a",
+                "Restaurant"
+            ]
+        ]
+    },
+    {
+        "index": 6,
+        "item_id": 8953,
+        "input_text": "Fine dining enthusiasts who appreciate Italian cuisine and are willing to plan ahead for reservations would enjoy Corso 32 in Edmonton.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "8953",
+                "located in",
+                "Edmonton"
+            ],
+            [
+                "8953",
+                "serves",
+                "Italian cuisine"
+            ],
+            [
+                "8953",
+                "is a",
+                "Fine dining restaurant"
+            ],
+            [
+                "8953",
+                "has feature",
+                "reservations"
+            ],
+            [
+                "8953",
+                "appeals to",
+                "Fine dining enthusiasts"
+            ]
+        ],
+        "schema_definition": {
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "appeals to": "The subject entity attracts or is attractive to the group or type of people specified by the object entity.",
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "is a": "The subject entity is classified as or belongs to the category specified by the object entity.",
+            "serves": "The subject entity offers or provides the type of cuisine, service, or product specified by the object entity."
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "8953",
+                "located in",
+                "Edmonton"
+            ],
+            [
+                "8953",
+                "serves",
+                "Italian cuisine"
+            ],
+            [
+                "8953",
+                "is a",
+                "Fine dining restaurant"
+            ],
+            [
+                "8953",
+                "has feature",
+                "reservations"
+            ],
+            [
+                "8953",
+                "appeals to",
+                "Fine dining enthusiasts"
+            ]
+        ]
+    },
+    {
+        "index": 7,
+        "item_id": 10124,
+        "input_text": "Users who enjoy unique and interactive dining experiences, like experimenting with different flavors, and are open to trying new cuisines, such as Sichuan hot pot, would appreciate this restaurant in Nashville.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "10124",
+                "appeals to",
+                "interactive dining experiences"
+            ],
+            [
+                "10124",
+                "has feature",
+                "unique experiences"
+            ],
+            [
+                "10124",
+                "has feature",
+                "interactive dining"
+            ],
+            [
+                "10124",
+                "likes",
+                "experimenting with different flavors"
+            ],
+            [
+                "10124",
+                "is open to",
+                "trying new cuisines"
+            ],
+            [
+                "10124",
+                "serves",
+                "Sichuan hot pot"
+            ],
+            [
+                "10124",
+                "serves",
+                "hot pot"
+            ],
+            [
+                "10124",
+                "located in",
+                "Nashville"
+            ]
+        ],
+        "schema_definition": {
+            "located in": "The subject entity is physically situated in or found in the location specified by the object entity.",
+            "enjoys": "The subject entity derives pleasure or satisfaction from the object entity or activity.",
+            "is open to": "The subject entity is receptive or willing to consider or try the object entity or activity.",
+            "has feature": "The subject entity possesses or is characterized by the feature specified by the object entity.",
+            "likes": "The subject entity finds the object entity appealing or has a preference for it.",
+            "serves": "The subject entity offers or provides the object entity or item."
+        },
+        "canonicalization_candidates": "[{'suitable for': np.float32(0.7294886), 'appeals to': np.float32(0.7233169), 'presents': np.float32(0.7202351), 'has feature': np.float32(0.71502936), 'has atmosphere': np.float32(0.7056991)}, {}, {}, {'appeals to': np.float32(0.79064095), 'suitable for': np.float32(0.7365341), 'has feature': np.float32(0.7333163), 'is a': np.float32(0.7082778), 'has atmosphere': np.float32(0.6982469)}, {'suitable for': np.float32(0.7479783), 'presents': np.float32(0.7175358), 'has atmosphere': np.float32(0.69145197), 'offers': np.float32(0.6892426), 'has feature': np.float32(0.68894327)}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "10124",
+                "appeals to",
+                "interactive dining experiences"
+            ],
+            [
+                "10124",
+                "has feature",
+                "unique experiences"
+            ],
+            [
+                "10124",
+                "has feature",
+                "interactive dining"
+            ],
+            [
+                "10124",
+                "likes",
+                "experimenting with different flavors"
+            ],
+            [
+                "10124",
+                "is open to",
+                "trying new cuisines"
+            ],
+            [
+                "10124",
+                "serves",
+                "Sichuan hot pot"
+            ],
+            [
+                "10124",
+                "serves",
+                "hot pot"
+            ],
+            [
+                "10124",
+                "located in",
+                "Nashville"
+            ]
+        ]
+    },
+    {
+        "index": 8,
+        "item_id": 12115,
+        "input_text": "Food enthusiasts, romantic couples, individuals looking for a peaceful atmosphere, and travelers seeking cozy and well-decorated accommodations in Tucson.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [],
+        "schema_definition": {},
+        "canonicalization_candidates": "[]",
+        "schema_canonicalizaiton": []
+    }
+]

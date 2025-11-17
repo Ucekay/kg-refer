@@ -8032,7 +8032,6 @@
             ["576", "is a", "farm"],
             ["576", "presents", "farm-related attractions"],
             ["576", "appeals to", "families with young children"],
-            ["576", "suitable for", "Locals seeking seasonal activities"],
             ["576", "appeals to", "Locals seeking seasonal activities"],
             [
                 "576",
@@ -8444,7 +8443,6 @@
             ["604", "serves", "Middle Eastern cuisine"],
             ["604", "has atmosphere", "cozy"],
             ["604", "has service quality", "friendly"],
-            ["604", "has feature", "kebabs"],
             ["604", "specializes in", "kebabs"],
             ["604", "has feature", "flavorful rice dishes"],
             ["604", "suitable for", "quality dining experience"],
@@ -8523,7 +8521,6 @@
             ["613", "serves", "American cuisine"],
             ["613", "has feature", "diverse menu options"],
             ["613", "has feature", "outdoor dining"],
-            ["613", "has feature", "good vibes"],
             ["613", "has atmosphere", "good vibes"],
             ["613", "has feature", "reasonable prices"],
             ["613", "has feature", "beautiful restaurant setting"],
@@ -8870,7 +8867,6 @@
             ["634", "has atmosphere", "romantic ambiance"],
             ["634", "has feature", "vintage decor"],
             ["634", "offers", "friendly service"],
-            ["634", "has feature", "friendly service"],
             ["634", "located in", "unspecified location"],
             ["634", "caters to", "nostalgic dining experience"],
             ["634", "price range", "reasonable"],
@@ -8887,7 +8883,6 @@
             ["632", "has atmosphere", "relaxed atmosphere"],
             ["632", "has feature", "friendly service"],
             ["632", "has atmosphere", "casual vibe"],
-            ["632", "has feature", "casual vibe"],
             ["632", "located in", "Philadelphia"],
             ["632", "is a", "tavern"]
         ]
@@ -9376,7 +9371,6 @@
         "triplets": [
             ["669", "serves", "hoagies"],
             ["669", "serves", "sandwiches"],
-            ["669", "category", "sandwiches"],
             ["669", "serves", "sides"],
             ["669", "has feature", "no-frills atmosphere"],
             ["669", "has feature", "fresh ingredients"],
@@ -9925,13 +9919,9 @@
         "triplets": [
             ["711", "located in", "Philadelphia"],
             ["711", "serves", "cheesesteaks"],
-            ["711", "offers", "cheesesteaks"],
             ["711", "serves", "milkshakes"],
-            ["711", "offers", "milkshakes"],
             ["711", "serves", "fries"],
-            ["711", "offers", "fries"],
             ["711", "serves", "soda"],
-            ["711", "offers", "soda"],
             ["711", "has atmosphere", "traditional diner setting"],
             ["711", "category", "diner"],
             ["711", "category", "fast food restaurant"]
@@ -76416,7 +76406,6 @@
         "triplets": [
             ["5531", "located in", "North Wales"],
             ["5531", "is a", "cinema"],
-            ["5531", "serves", "cinema"],
             ["5531", "has feature", "comfortable reclining seats"],
             ["5531", "has feature", "clean facilities"],
             ["5531", "offers", "custom soda machines"],
@@ -77832,7 +77821,6 @@
         "triplets": [
             ["5629", "located in", "Indianapolis"],
             ["5629", "serves", "soup"],
-            ["5629", "is a", "soup"],
             ["5629", "serves", "unique and creative dishes"],
             ["5629", "serves", "pastries"],
             ["5629", "uses", "locally sourced high-quality ingredients"],
@@ -82911,7 +82899,6 @@
         "iid": 6000,
         "triplets": [
             ["6000", "located in", "Mount Laurel"],
-            ["6000", "serves", "fast food"],
             ["6000", "category", "fast food"],
             ["6000", "has feature", "clean establishments"],
             ["6000", "has feature", "friendly staff"],
@@ -84189,7 +84176,6 @@
             ["6095", "serves", "creole cuisine"],
             ["6095", "serves", "southern cuisine"],
             ["6095", "serves", "vegan-friendly menu"],
-            ["6095", "serves", "unique dishes"],
             ["6095", "has feature", "unique dishes"],
             ["6095", "serves", "gator tail"],
             ["6095", "appeals to", "Fans of Cajun and Creole cuisine"],
@@ -84348,7 +84334,6 @@
             ["6103", "serves", "classic dishes"],
             ["6103", "serves", "French dishes"],
             ["6103", "has feature", "well-executed classics"],
-            ["6103", "serves", "unique specialties"],
             ["6103", "has feature", "unique specialties"],
             ["6103", "offers", "BYOB option"]
         ]
@@ -84589,7 +84574,6 @@
         "iid": 6120,
         "triplets": [
             ["6120", "serves", "French pastries"],
-            ["6120", "specializes in", "French pastries"],
             ["6120", "serves", "baked goods"],
             ["6120", "serves", "pastry"],
             ["6120", "has feature", "high-quality"],
@@ -84682,7 +84666,6 @@
             ["6128", "has feature", "ambiance"],
             ["6128", "has feature", "attentive service"],
             ["6128", "serves", "drink"],
-            ["6128", "has variety of", "drink"],
             ["6128", "appeals to", "Users who enjoy cozy and unique bars"]
         ]
     },
@@ -85115,8 +85098,7 @@
         "triplets": [
             ["6160", "located in", "Reno"],
             ["6160", "serves", "sandwiches"],
-            ["6160", "serves", "deli"],
-            ["6160", "category", "deli"],
+            ["6160", "is a", "deli"],
             ["6160", "has feature", "fresh sandwiches"],
             ["6160", "has feature", "diverse sandwiches"],
             ["6160", "offers", "generous portions"],
@@ -85524,7 +85506,6 @@
         "triplets": [
             ["6188", "located in", "Nashville"],
             ["6188", "serves", "hot chicken"],
-            ["6188", "category", "hot chicken"],
             ["6188", "serves", "chicken"],
             ["6188", "serves", "spicy chicken"],
             ["6188", "serves", "delicious sides"],
@@ -85589,7 +85570,6 @@
             ["6192", "located in", "beach"],
             ["6192", "serves", "seafood"],
             ["6192", "is a", "seafood restaurant"],
-            ["6192", "category", "seafood restaurant"],
             ["6192", "serves", "fried seafood"],
             ["6192", "has atmosphere", "beachy"],
             ["6192", "has feature", "specials"],
@@ -85637,7 +85617,6 @@
             ["6197", "has feature", "drive-thru window"],
             ["6197", "has feature", "quick service"],
             ["6197", "serves", "breakfast"],
-            ["6197", "suitable for", "breakfast"],
             ["6197", "has feature", "great variety of donuts"],
             ["6197", "price range", "reasonable"]
         ]
@@ -85734,7 +85713,6 @@
         "iid": 6204,
         "triplets": [
             ["6204", "offers", "craft beers"],
-            ["6204", "is a", "craft beers"],
             ["6204", "has feature", "wide selection of craft beers"],
             ["6204", "uses", "friendly staff"],
             ["6204", "has atmosphere", "welcoming atmosphere"],
@@ -85863,7 +85841,6 @@
         "triplets": [
             ["6213", "serves", "gelato"],
             ["6213", "serves", "desserts"],
-            ["6213", "has feature", "desserts"],
             ["6213", "has feature", "authentic gelato"],
             ["6213", "has feature", "unique dessert offerings"],
             ["6213", "has feature", "great customer service"],
@@ -85910,7 +85887,6 @@
         "triplets": [
             ["6214", "located in", "Nashville"],
             ["6214", "is a", "hotel"],
-            ["6214", "category", "hotel"],
             ["6214", "has feature", "exceptional service"],
             ["6214", "has atmosphere", "unique ambiance"],
             ["6214", "has feature", "top-notch amenities"],
@@ -86111,7 +86087,6 @@
         "triplets": [
             ["6228", "located in", "Riverview"],
             ["6228", "serves", "breakfast"],
-            ["6228", "suitable for", "breakfast"],
             ["6228", "serves", "delicious food"],
             ["6228", "serves", "organic breakfast options"],
             ["6228", "has feature", "cozy setting"],
@@ -86346,7 +86321,6 @@
             ["6244", "suitable for", "fans of live music"],
             ["6244", "suitable for", "Fans of nostalgic vibes"],
             ["6244", "suitable for", "Fans of energetic atmospheres"],
-            ["6244", "serves", "music genres"],
             ["6244", "has feature", "music genres"],
             ["6244", "has atmosphere", "vibrant nightlife scene"],
             ["6244", "has feature", "friendly service"]
@@ -86568,10 +86542,8 @@
         "iid": 6258,
         "triplets": [
             ["6258", "serves", "massage"],
-            ["6258", "serves", "facials"],
             ["6258", "has feature", "facials"],
-            ["6258", "serves", "skin care treatments"],
-            ["6258", "has feature", "skin care treatments"],
+            ["6258", "offers", "skin care treatments"],
             ["6258", "has feature", "quality massages"],
             ["6258", "has atmosphere", "no luxurious amenities"],
             ["6258", "has feature", "friendly staff"],
@@ -86665,7 +86637,6 @@
         "iid": 6270,
         "triplets": [
             ["6270", "serves", "pretzels"],
-            ["6270", "has feature", "pretzels"],
             ["6270", "has feature", "freshly made"],
             ["6270", "has feature", "variety of pretzel options"],
             ["6270", "located in", "Saint Louis"],
@@ -87113,7 +87084,6 @@
             ["6299", "has feature", "quality produce"],
             ["6299", "has feature", "convenience"],
             ["6299", "has feature", "professional pharmacy services"],
-            ["6299", "has feature", "deli options"],
             ["6299", "offers", "deli options"],
             ["6299", "offers", "meat"],
             ["6299", "offers", "produce"],
@@ -87698,9 +87668,7 @@
     {
         "iid": 6345,
         "triplets": [
-            ["6345", "caters to", "Plus-sized women"],
             ["6345", "appeals to", "Plus-sized women"],
-            ["6345", "caters to", "brides-to-be"],
             ["6345", "appeals to", "brides-to-be"],
             [
                 "6345",
@@ -87843,7 +87811,6 @@
             ["6356", "appeals to", "people who appreciate unique decor"],
             ["6356", "serves", "burgers"],
             ["6356", "serves", "burger"],
-            ["6356", "category", "burger"],
             ["6356", "has feature", "extensive beer selections"],
             ["6356", "has atmosphere", "motor-themed ambiance"],
             ["6356", "has feature", "quality ingredients"],
@@ -87927,7 +87894,6 @@
         "triplets": [
             ["6359", "serves", "bubble tea"],
             ["6359", "serves", "Taiwanese snack"],
-            ["6359", "category", "Taiwanese snack"],
             ["6359", "has feature", "adorable mascots"],
             ["6359", "serves", "fresh food"],
             ["6359", "serves", "specialty drinks"],
@@ -87987,7 +87953,6 @@
     {
         "iid": 6360,
         "triplets": [
-            ["6360", "serves", "drink options"],
             ["6360", "offers", "drink options"],
             ["6360", "located in", "Santa Barbara"],
             ["6360", "has atmosphere", "cozy and intimate setting"],
@@ -89017,7 +88982,6 @@
             ["6440", "has feature", "fresh donuts"],
             ["6440", "has feature", "not greasy donuts"],
             ["6440", "offers", "smaller fritters"],
-            ["6440", "caters to", "donut enthusiasts"],
             ["6440", "appeals to", "donut enthusiasts"],
             ["6440", "has atmosphere", "friendly, local atmosphere"]
         ]
@@ -89152,7 +89116,6 @@
         "iid": 6451,
         "triplets": [
             ["6451", "serves", "Mexican"],
-            ["6451", "category", "Mexican"],
             ["6451", "has feature", "generous portion sizes"],
             ["6451", "has feature", "great service"],
             ["6451", "offers", "tasty options"],
@@ -89169,7 +89132,6 @@
             ["6458", "has feature", "reasonable prices"],
             ["6458", "serves", "movies"],
             ["6458", "has feature", "good movie selection"],
-            ["6458", "has feature", "reclining seats"],
             ["6458", "lacks feature", "reclining seats"]
         ]
     },
@@ -89541,7 +89503,6 @@
             ["6480", "has feature", "attention to detail in set design"],
             ["6480", "has feature", "pleasant ambiance"],
             ["6480", "offers", "dining options nearby"],
-            ["6480", "caters to", "Arts enthusiasts"],
             ["6480", "appeals to", "Arts enthusiasts"],
             ["6480", "offers", "reduced tickets"],
             ["6480", "offers", "meet actors"]
@@ -89688,8 +89649,6 @@
             ["6493", "located in", "Santa Barbara"],
             ["6493", "serves", "Mexican"],
             ["6493", "serves", "authentic dishes"],
-            ["6493", "has feature", "authentic dishes"],
-            ["6493", "serves", "unique drinks"],
             ["6493", "has feature", "unique drinks"],
             ["6493", "serves", "drinks"],
             ["6493", "specializes in", "micheladas"],
@@ -89850,7 +89809,6 @@
         "iid": 6503,
         "triplets": [
             ["6503", "located in", "New Orleans"],
-            ["6503", "serves", "cemetery"],
             ["6503", "is a", "cemetery"],
             ["6503", "has feature", "historical sites"],
             ["6503", "has feature", "unique tombstones"],
@@ -89893,9 +89851,7 @@
         "triplets": [
             ["6508", "located in", "Philadelphia"],
             ["6508", "serves", "Turkish cuisine"],
-            ["6508", "category", "Turkish cuisine"],
             ["6508", "serves", "Mediterranean food"],
-            ["6508", "category", "Mediterranean food"],
             ["6508", "has atmosphere", "cozy"],
             ["6508", "has feature", "relaxed atmosphere"],
             ["6508", "offers", "BYOB options"],
@@ -89976,12 +89932,9 @@
         "iid": 6513,
         "triplets": [
             ["6513", "located in", "Philadelphia"],
-            ["6513", "serves", "sports bar"],
             ["6513", "category", "sports bar"],
-            ["6513", "serves", "pub"],
             ["6513", "is a", "pub"],
             ["6513", "has feature", "neighborhood vibe"],
-            ["6513", "has feature", "diverse crowd"],
             ["6513", "appeals to", "diverse crowd"],
             ["6513", "has feature", "friendly service"],
             ["6513", "serves", "beers"],
@@ -90247,7 +90200,6 @@
         "triplets": [
             ["6532", "located in", "French Quarter of New Orleans"],
             ["6532", "is a", "hotel"],
-            ["6532", "serves", "hotel"],
             ["6532", "has feature", "charming"],
             ["6532", "has feature", "great location"],
             ["6532", "has atmosphere", "potential noise"],
@@ -90869,7 +90821,6 @@
         "iid": 6574,
         "triplets": [
             ["6574", "located in", "Nashville"],
-            ["6574", "serves", "tasty dishes"],
             ["6574", "has feature", "tasty dishes"],
             ["6574", "serves", "Hawaiian seared tuna"],
             ["6574", "serves", "nachos"],
@@ -90950,7 +90901,6 @@
         "triplets": [
             ["6584", "located in", "Conshohocken"],
             ["6584", "offers", "outdoor gear"],
-            ["6584", "caters to", "outdoor gear"],
             ["6584", "is a", "Outdoor store"],
             ["6584", "offers", "wide selection of outdoor gear"],
             ["6584", "has feature", "expert advice"],
@@ -91824,13 +91774,9 @@
         "iid": 6641,
         "triplets": [
             ["6641", "located in", "Reno"],
-            ["6641", "serves", "tires"],
             ["6641", "offers", "tires"],
-            ["6641", "serves", "automotive services"],
             ["6641", "offers", "automotive services"],
-            ["6641", "serves", "auto repair"],
             ["6641", "offers", "auto repair"],
-            ["6641", "serves", "oil changes"],
             ["6641", "offers", "oil changes"],
             ["6641", "has feature", "comfortable waiting area"],
             ["6641", "has feature", "honest staff"],
@@ -91975,7 +91921,6 @@
         "triplets": [
             ["6655", "located in", "Tampa"],
             ["6655", "offers", "massage"],
-            ["6655", "serves", "massage"],
             ["6655", "offers", "facial spa"],
             ["6655", "has feature", "welcoming and tranquil environment"],
             ["6655", "has feature", "attention to detail"],
@@ -92134,7 +92079,6 @@
         "triplets": [
             ["6665", "located in", "Avon"],
             ["6665", "serves", "breakfast"],
-            ["6665", "suitable for", "breakfast"],
             ["6665", "has feature", "diverse breakfast menu"],
             ["6665", "has feature", "friendly staff"],
             ["6665", "has feature", "good service"],
@@ -92147,7 +92091,6 @@
         "iid": 6663,
         "triplets": [
             ["6663", "located in", "Saint Louis"],
-            ["6663", "serves", "music venue"],
             ["6663", "category", "music venue"],
             ["6663", "has feature", "great sound systems"],
             ["6663", "has atmosphere", "non-smoking atmosphere"],
@@ -92923,7 +92866,6 @@
             ["6721", "presents", "sweet treats"],
             ["6721", "serves", "strawberry shortcake"],
             ["6721", "serves", "desserts"],
-            ["6721", "features", "desserts"],
             ["6721", "has feature", "well-organized"],
             ["6721", "has feature", "fun tradition"],
             ["6721", "has feature", "reasonable prices"],
@@ -93611,11 +93553,8 @@
         "triplets": [
             ["6773", "located in", "Reno"],
             ["6773", "offers", "books"],
-            ["6773", "has variety of", "books"],
             ["6773", "offers", "movies"],
-            ["6773", "has variety of", "movies"],
             ["6773", "offers", "music"],
-            ["6773", "has variety of", "music"],
             ["6773", "has feature", "friendly staff"],
             ["6773", "has atmosphere", "welcoming atmosphere"],
             ["6773", "is a", "bookstore"]
@@ -93785,7 +93724,6 @@
         "iid": 6783,
         "triplets": [
             ["6783", "located in", "Reno"],
-            ["6783", "serves", "steakhouse"],
             ["6783", "is a", "steakhouse"],
             ["6783", "has feature", "table side presentations"],
             ["6783", "has feature", "attentive service"],
@@ -93844,7 +93782,6 @@
             ["6786", "serves", "good food"],
             ["6786", "serves", "drink"],
             ["6786", "has atmosphere", "casual environment"],
-            ["6786", "suitable for", "casual environment"],
             ["6786", "has atmosphere", "spacious environment"],
             ["6786", "has feature", "good food and drink specials"],
             ["6786", "appeals to", "sports enthusiasts"],
@@ -94062,7 +93999,6 @@
         "triplets": [
             ["6803", "located in", "Reno"],
             ["6803", "presents", "live music"],
-            ["6803", "has feature", "diverse crowds"],
             ["6803", "appeals to", "diverse crowds"],
             ["6803", "serves", "strong drinks"],
             ["6803", "has atmosphere", "cozy"],
@@ -95033,8 +94969,7 @@
             ["6874", "off ers", "imported food products"],
             ["6874", "offers", "food products"],
             ["6874", "located in", "Saint Louis"],
-            ["6874", "is a", "supermarket"],
-            ["6874", "category", "supermarket"]
+            ["6874", "is a", "supermarket"]
         ]
     },
     {
@@ -95196,7 +95131,6 @@
             ["6883", "price range", "affordable"],
             ["6883", "has feature", "best happy hour"],
             ["6883", "has feature", "happy hour"],
-            ["6883", "offers", "happy hour"],
             ["6883", "has feature", "cool bartenders"],
             ["6883", "has feature", "bartenders"]
         ]
@@ -95517,7 +95451,6 @@
         "triplets": [
             ["6907", "located in", "Santa Barbara"],
             ["6907", "serves", "car wash"],
-            ["6907", "is a", "car wash"],
             ["6907", "serves", "detailing"],
             ["6907", "serves", "automotive services"],
             ["6907", "has feature", "thoroughness"],
@@ -95619,7 +95552,6 @@
         "iid": 6915,
         "triplets": [
             ["6915", "serves", "sandwiches"],
-            ["6915", "specializes in", "sandwiches"],
             ["6915", "serves", "Italian"],
             ["6915", "serves", "quick bites"],
             ["6915", "has service", "friendly service"],
@@ -95851,7 +95783,6 @@
             ["6934", "has atmosphere", "friendly service"],
             ["6934", "located in", "Langhorne"],
             ["6934", "is a", "steakhouse"],
-            ["6934", "offers", "steakhouse"],
             ["6934", "offers", "hibachi"]
         ]
     },
@@ -96121,11 +96052,8 @@
             ["6948", "has feature", "friendly service"],
             ["6948", "has feature", "reasonable prices"],
             ["6948", "serves", "wonton noodle soup"],
-            ["6948", "has reputation", "wonton noodle soup"],
             ["6948", "serves", "salt and pepper chicken wings"],
-            ["6948", "has reputation", "salt and pepper chicken wings"],
             ["6948", "serves", "roast duck"],
-            ["6948", "has reputation", "roast duck"],
             ["6948", "category", "Asian restaurant"]
         ]
     },
@@ -96567,18 +96495,14 @@
             ["6987", "located in", "Nashville"],
             ["6987", "serves", "burgers"],
             ["6987", "serves", "hot dogs"],
-            ["6987", "presents", "hot dogs"],
             ["6987", "serves", "milkshakes"],
-            ["6987", "presents", "milkshakes"],
-            ["6987", "presents", "classic burgers"],
+            ["6987", "serves", "classic burgers"],
             ["6987", "has feature", "playground"],
             ["6987", "has feature", "play area"],
-            ["6987", "has atmosphere", "friendly service"],
             ["6987", "has feature", "friendly service"],
             ["6987", "has feature", "reasonable prices"],
             ["6987", "appeals to", "fans of burgers"],
-            ["6987", "appeals to", "families with kids"],
-            ["6987", "suitable for", "families with kids"]
+            ["6987", "appeals to", "families with kids"]
         ]
     },
     {
@@ -96874,7 +96798,6 @@
         "iid": 7003,
         "triplets": [
             ["7003", "located in", "Nashville"],
-            ["7003", "serves", "bbq"],
             ["7003", "offers", "bbq"],
             ["7003", "is a", "Barbeque restaurant"],
             ["7003", "has feature", "sweet and delicious BBQ"],
@@ -96891,7 +96814,6 @@
             ["7008", "located in", "Santa Barbara"],
             ["7008", "serves", "diner breakfast"],
             ["7008", "serves", "brunch"],
-            ["7008", "suitable for", "brunch"],
             ["7008", "has feature", "friendly service"],
             ["7008", "offers", "generous portions"],
             ["7008", "price range", "reasonable"],
@@ -97008,7 +96930,6 @@
             ["7014", "offers", "generous portions"],
             ["7014", "located in", "Tampa"],
             ["7014", "has atmosphere", "charming courtyard setting"],
-            ["7014", "has atmosphere", "casual dining"],
             ["7014", "suitable for", "casual dining"],
             ["7014", "suitable for", "Fans of Cuban cuisine"]
         ]
@@ -97241,19 +97162,15 @@
         "iid": 7029,
         "triplets": [
             ["7029", "located in", "Tampa"],
-            ["7029", "serves", "Irish pub"],
-            ["7029", "serves", "cocktail bar"],
-            ["7029", "serves", "pub"],
-            ["7029", "serves", "bar"],
+            ["7029", "category", "Irish pub"],
+            ["7029", "category", "cocktail bar"],
+            ["7029", "category", "pub"],
+            ["7029", "category", "bar"],
             ["7029", "has atmosphere", "great"],
             ["7029", "has service", "friendly"],
-            ["7029", "has menu feature", "Irish eggs"],
             ["7029", "serves", "Irish eggs"],
-            ["7029", "has menu feature", "mussels"],
             ["7029", "serves", "mussels"],
-            ["7029", "has menu feature", "fish and chips"],
             ["7029", "serves", "fish and chips"],
-            ["7029", "has menu feature", "beef stew"],
             ["7029", "serves", "beef stew"]
         ]
     },
@@ -97516,7 +97433,6 @@
         "triplets": [
             ["7055", "serves", "sushi"],
             ["7055", "serves", "Japanese cuisine"],
-            ["7055", "category", "Japanese cuisine"],
             ["7055", "serves", "Asian dishes"],
             ["7055", "serves", "beverages"],
             ["7055", "has feature", "fresh sushi"],
@@ -97733,7 +97649,6 @@
         "triplets": [
             ["7067", "located in", "Reno"],
             ["7067", "serves", "speakeasy"],
-            ["7067", "category", "speakeasy"],
             ["7067", "has atmosphere", "Prohibition-era vibe"],
             ["7067", "serves", "craft cocktails"],
             ["7067", "serves", "cocktails"],
@@ -97765,7 +97680,6 @@
             ["7068", "serves", "Taiwanese-style popcorn chicken"],
             ["7068", "serves", "popcorn chicken"],
             ["7068", "serves", "bubble tea"],
-            ["7068", "category", "bubble tea"],
             ["7068", "serves", "Asian finger foods"],
             ["7068", "serves", "finger foods"],
             ["7068", "serves", "takoyaki"],
@@ -97966,7 +97880,6 @@
         "iid": 7084,
         "triplets": [
             ["7084", "serves", "bubble tea"],
-            ["7084", "offers", "bubble tea"],
             ["7084", "has attribute", "pomegranate poppings"],
             ["7084", "located in", "St. Louis"],
             ["7084", "is a", "Bubble tea shop"]
@@ -98422,7 +98335,6 @@
             ["7117", "located in", "Indianapolis"],
             ["7117", "presents", "live music"],
             ["7117", "presents", "theater"],
-            ["7117", "presents genre", "theater"],
             ["7117", "has feature", "intimate shows"],
             ["7117", "has feature", "reasonably priced tickets"],
             ["7117", "has feature", "good sound quality"],
@@ -99966,7 +99878,6 @@
     {
         "iid": 7227,
         "triplets": [
-            ["7227", "has", "friendly staff"],
             ["7227", "has feature", "friendly staff"],
             ["7227", "has atmosphere", "lively atmosphere"],
             ["7227", "located in", "Santa Barbara"],
@@ -100177,7 +100088,6 @@
         "triplets": [
             ["7242", "located in", "Saint Louis"],
             ["7242", "serves", "ice cream"],
-            ["7242", "offers", "ice cream"],
             ["7242", "is a", "ice cream shop"],
             ["7242", "serves", "homemade ice cream"],
             ["7242", "serves", "rich flavors"],
@@ -100348,13 +100258,14 @@
     {
         "iid": 7256,
         "triplets": [
-            ["7256", "has setting", "cozy and friendly environment"],
-            ["7256", "has atmosphere", "cozy and friendly environment"],
+            ["7256", "has atmosphere", "cozy"],
+            ["7256", "has atmosphere", "fiendly environment"],
             ["7256", "has staff", "knowledgeable staff"],
             ["7256", "is a", "Tea establishment"],
             ["7256", "serves", "tea"],
             ["7256", "located in", "Nashville"],
-            ["7256", "has attribute", "authentic and caring"]
+            ["7256", "has attribute", "authentic"],
+            ["7256", "has attribute", "caring"]
         ]
     },
     {
@@ -100848,9 +100759,7 @@
         "iid": 7295,
         "triplets": [
             ["7295", "serves", "sandwiches"],
-            ["7295", "has menu feature", "sandwiches"],
             ["7295", "serves", "salads"],
-            ["7295", "has variety of", "salads"],
             ["7295", "has feature", "high-quality sandwiches"],
             ["7295", "has feature", "high-quality salads"],
             ["7295", "has feature", "friendly service"],
@@ -101021,11 +100930,10 @@
             ["7305", "has feature", "reasonable prices"],
             ["7305", "suitable for", "reasonable prices"],
             ["7305", "has service", "friendly service"],
-            ["7305", "suitable for", "friendly service"],
             ["7305", "offers", "vegetarian-friendly options"],
             ["7305", "is a", "Thai restaurant"],
             ["7305", "appeals to", "Fans of authentic Thai cuisine"],
-            ["7305", "has menu feature", "vegetarian options"]
+            ["7305", "has feature", "vegetarian options"]
         ]
     },
     {
