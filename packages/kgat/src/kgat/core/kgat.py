@@ -33,17 +33,21 @@ class KGAT(nn.Module):
         self.relation_dim = config.relation_dim
 
         self.aggregation_type = config.aggregation_type
-        self.conv_dim_list = (
+        # 元の実装に合わせる: embed_dimを先頭に追加
+        conv_dim_list_parsed = (
             config.conv_dim_list
             if isinstance(config.conv_dim_list, (list, tuple))
             else eval(config.conv_dim_list)
         )
+        self.conv_dim_list = [config.embed_dim] + conv_dim_list_parsed
+        
         self.mess_dropout = (
             config.mess_dropout
             if isinstance(config.mess_dropout, (list, tuple))
             else eval(config.mess_dropout)
         )
-        self.n_layers = len(self.conv_dim_list) - 1
+        # 元の実装に合わせる: パースしたリストの長さ
+        self.n_layers = len(conv_dim_list_parsed)
 
         self.kg_l2loss_lambda = config.kg_l2loss_lambda
         self.cf_l2loss_lambda = config.cf_l2loss_lambda
@@ -68,7 +72,7 @@ class KGAT(nn.Module):
             entity_user_embed = torch.cat(
                 [item_pre_embed, other_entity_embed, user_pre_embed], dim=0
             )
-            self.entity_user_embed = nn.Embedding.from_pretrained(entity_user_embed)
+            self.entity_user_embed = nn.Embedding.from_pretrained(entity_user_embed, freeze=False)
         else:
             nn.init.xavier_uniform_(self.entity_user_embed.weight)
 
@@ -135,11 +139,6 @@ class KGAT(nn.Module):
             + _L2_loss_mean(item_neg_embed)
         )
 
-        l2_loss = (
-            _L2_loss_mean(user_embed)
-            + _L2_loss_mean(item_pos_embed)
-            + _L2_loss_mean(item_neg_embed)
-        )
         loss = cf_loss + self.cf_l2loss_lambda * l2_loss
         return loss
 
@@ -178,11 +177,11 @@ class KGAT(nn.Module):
         loss = kg_loss + self.kg_l2loss_lambda * l2_loss
         return loss
 
-    def update_attention_batch(self, h_likst, t_list, r_idx):
+    def update_attention_batch(self, h_list, t_list, r_idx):
         r_embed = self.relation_embed.weight[r_idx]
         W_r = self.trans_M[r_idx]
 
-        h_embed = self.entity_user_embed.weight[h_likst]
+        h_embed = self.entity_user_embed.weight[h_list]
         t_embed = self.entity_user_embed.weight[t_list]
 
         r_mul_h = torch.matmul(h_embed, W_r)

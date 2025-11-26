@@ -1,0 +1,18 @@
+[project]
+name = "similarity-search"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ucekay", email = "Ucekay@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+"numpy>=2.3.5",
+"sentence-transformers>=5.1.2",
+"tqdm>=4.67.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"

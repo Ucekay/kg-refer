@@ -13,7 +13,7 @@ members = [
     "kg-formatter",
     "kg-refer",
     "kgat",
-    "light-gcn",
+    "kgat-explainer",
 ]
 
 [[package]]
@@ -417,6 +417,7 @@ dependencies = [
     { name = "kg-cleaner" },
     { name = "kg-formatter" },
     { name = "kgat" },
+    { name = "kgat-explainer" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "scikit-learn" },
@@ -437,6 +438,7 @@ requires-dist = [
     { name = "kg-cleaner", editable = "packages/kg-cleaner" },
     { name = "kg-formatter", editable = "packages/kg-formatter" },
     { name = "kgat", editable = "packages/kgat" },
+    { name = "kgat-explainer", editable = "packages/kgat-explainer" },
     { name = "numpy", specifier = ">=2.3.3" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
@@ -479,9 +481,27 @@ requires-dist = [
 ]
 
 [[package]]
-name = "light-gcn"
+name = "kgat-explainer"
 version = "0.1.0"
-source = { editable = "packages/light-gcn" }
+source = { editable = "packages/kgat-explainer" }
+dependencies = [
+    { name = "cyclopts" },
+    { name = "kgat" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scipy" },
+    { name = "torch" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "cyclopts", specifier = ">=4.1.0" },
+    { name = "kgat", editable = "packages/kgat" },
+    { name = "numpy", specifier = ">=2.3.3" },
+    { name = "pandas", specifier = ">=2.3.3" },
+    { name = "scipy", specifier = ">=1.16.3" },
+    { name = "torch", specifier = ">=2.9.0" },
+]
 
 [[package]]
 name = "markdown-it-py"

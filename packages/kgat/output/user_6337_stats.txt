@@ -1,0 +1,7 @@
+selected_user_id: 6337
+selected_user_id_internal: 51136
+total_test_items: 13352
+items_with_scores: 13352
+avg_score: -0.40181300044059753
+max_score: 1.2797285318374634
+min_score: -2.6844406127929688

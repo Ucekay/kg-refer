@@ -9,6 +9,7 @@ dependencies = [
     "kg-cleaner",
     "kg-formatter",
     "kgat",
+    "kgat-explainer",
     "numpy>=2.3.3",
     "pandas>=2.3.3",
     "scikit-learn>=1.7.2",
@@ -25,12 +26,15 @@ members = [
     "packages/kgat",
     "packages/kg-cleaner",
     "packages/kg-formatter",
+    "packages/kgat-explainer",
+    "packages/similarity-search",
 ]
 
 [tool.uv.sources]
 kg-cleaner = { workspace = true }
 kgat = { workspace = true }
 kg-formatter = { workspace = true }
+kgat-explainer = { workspace = true }
 
 [dependency-groups]
 dev = [

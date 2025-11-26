@@ -7,8 +7,9 @@ import numpy as np
 import pandas as pd
 import scipy.sparse as sp
 import torch
-from kgat.config import KGATConfig
 from numpy.typing import NDArray
+
+from kgat.config import KGATConfig
 
 
 class DataLoader:
@@ -24,11 +25,11 @@ class DataLoader:
     kg_file: str
 
     cf_train_data: tuple[NDArray[np.int32], NDArray[np.int32]]
-    train_user_dict: dict[int, list[int]]
+    train_user_dict: dict[int, NDArray[np.int32]]
     cf_val_data: tuple[NDArray[np.int32], NDArray[np.int32]]
-    val_user_dict: dict[int, list[int]]
+    val_user_dict: dict[int, NDArray[np.int32]]
     cf_test_data: tuple[NDArray[np.int32], NDArray[np.int32]]
-    test_user_dict: dict[int, list[int]]
+    test_user_dict: dict[int, NDArray[np.int32]]
 
     rng: np.random.Generator
 
@@ -89,7 +90,7 @@ class DataLoader:
     def load_cf(self, filename: str):
         user_list: list[int] = []
         item_list: list[int] = []
-        user_dict: dict[int, list[int]] = {}
+        user_dict: dict[int, NDArray[np.int32]] = {}
 
         lines = open(filename, "r", encoding="utf-8").readlines()
         for line in lines:
@@ -103,7 +104,7 @@ class DataLoader:
                 for item_id in item_ids:
                     user_list.append(user_id)
                     item_list.append(item_id)
-                user_dict[user_id] = item_ids
+                user_dict[user_id] = np.array(item_ids, dtype=np.int32)
 
         user_array = np.array(user_list, dtype=np.int32)
         item_array = np.array(item_list, dtype=np.int32)
@@ -314,13 +315,16 @@ class DataLoader:
         )
 
         self.train_user_dict = {
-            k + self.n_entities: v for k, v in self.train_user_dict.items()
+            k + self.n_entities: np.unique(v).astype(np.int32)
+            for k, v in self.train_user_dict.items()
         }
         self.val_user_dict = {
-            k + self.n_entities: v for k, v in self.val_user_dict.items()
+            k + self.n_entities: np.unique(v).astype(np.int32)
+            for k, v in self.val_user_dict.items()
         }
         self.test_user_dict = {
-            k + self.n_entities: v for k, v in self.test_user_dict.items()
+            k + self.n_entities: np.unique(v).astype(np.int32)
+            for k, v in self.test_user_dict.items()
         }
 
         cf2kg_train_data = pd.DataFrame(
@@ -415,7 +419,7 @@ class DataLoader:
         for r, adj in self.adjacency_dict.items():
             self.laplacian_dict[r] = norm_lap_func(adj)
 
-        A_in = sum(self.adjacency_dict.values())
+        A_in = sum(self.laplacian_dict.values())
         A_in = sp.coo_matrix(A_in)
         self.A_in = self.convert_coo2_tensor(A_in)
 

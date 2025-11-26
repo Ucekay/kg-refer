@@ -1,115 +1,139 @@
-"accepts payment" 0
-"adheres to" 1
-"appeals to" 2
-"avoids" 3
-"balanced by" 4
-"can overlook" 5
-"category" 6
-"cater to" 7
-"caters to" 8
-"caterst to" 9
-"compared to" 10
-"compares to" 11
-"competes with" 12
-"connected to" 13
-"cooking method" 14
-"creates" 15
-"discovers" 16
-"does not own" 17
-"does not specify" 18
-"educates about" 19
-"ensures" 20
-"features" 21
-"focuses on" 22
-"has" 23
-"has activity" 24
-"has ambiance" 25
-"has amenities" 26
-"has aspect" 27
-"has atmosphere" 28
-"has attribute" 29
-"has been renovated" 30
-"has characteristic" 31
-"has cuisine influence" 32
-"has dietary options" 33
-"has drawback" 34
-"has event" 35
-"has experience" 36
-"has feature" 37
-"has feedback" 38
-"has food options" 39
-"has highlight" 40
-"has hours" 41
-"has ingredient" 42
-"has issue" 43
-"has main ingredient" 44
-"has menu" 45
-"has menu feature" 46
-"has menu with" 47
-"has music genre" 48
-"has opportunity to see" 49
-"has overall experience" 50
-"has owner" 51
-"has payment method" 52
-"has policy" 53
-"has portion size" 54
-"has potential for" 55
-"has potential issue" 56
-"has purpose" 57
-"has quality" 58
-"has reputation" 59
-"has scene" 60
-"has service" 61
-"has service quality" 62
-"has setting" 63
-"has shopping options" 64
-"has significance" 65
-"has staff" 66
-"has strategy for" 67
-"has supervision by" 68
-"has theme" 69
-"has variety of" 70
-"has vibe" 71
-"historical age" 72
-"hosts" 73
-"includes" 74
-"interests include" 75
-"is a" 76
-"is open to" 77
-"lacks feature" 78
-"likes" 79
-"listens to" 80
-"located away from" 81
-"located in" 82
-"location" 83
-"made from" 84
-"may not be suitable for" 85
-"name" 86
-"off ers" 87
-"offeres" 88
-"offers" 89
-"owned by" 90
-"prefers payment method" 91
-"presents" 92
-"presents genre" 93
-"price range" 94
-"prioritizes" 95
-"provides" 96
-"reasons to revisit" 97
-"receives" 98
-"recommendation" 99
-"recommended visit" 100
-"seeks" 101
-"sees" 102
-"served in" 103
-"serves" 104
-"services" 105
-"specializes in" 106
-"spice levels range from" 107
-"suitable for" 108
-"suits" 109
-"supports" 110
-"surroundings include" 111
-"uses" 112
-"value proposition" 113
-"willing to" 114
+relation_name remap_id
+"located in" 0
+"offers" 1
+"has atmosphere" 2
+"caters to" 3
+"appeals to" 4
+"is a" 5
+"has feature" 6
+"price range" 7
+"suitable for" 8
+"serves cuisine" 9
+"serves dish" 10
+"presents" 11
+"serves" 12
+"serves drink" 13
+"has menu variety" 14
+"has issue" 15
+"has experience" 16
+"uses" 17
+"supports" 18
+"category" 19
+"interests" 20
+"enjoys" 21
+"cater to" 22
+"presents genre" 23
+"sells" 24
+"serves meal type" 25
+"willing to overlook" 26
+"has option" 27
+"has membership perk" 28
+"has activity" 29
+"has note" 30
+"has selection" 31
+"compared to" 32
+"has undergone" 33
+"has staff" 34
+"values" 35
+"preferred by" 36
+"has" 37
+"no prior skills required" 38
+"has influence" 39
+"specializes in" 40
+"teaches" 41
+"category of" 42
+"has selection of" 43
+"has flavor" 44
+"has reviews" 45
+"reviews mention" 46
+"offers activity type" 47
+"has service feature" 48
+"focus on" 49
+"provides" 50
+"alternative options" 51
+"may have mixed experiences for" 52
+"helps avoid" 53
+"type" 54
+"can be crowded" 55
+"food options category" 56
+"has setup" 57
+"has policy" 58
+"has service" 59
+"has owner" 60
+"has service option" 61
+"willing to wait for" 62
+"features" 63
+"has category" 64
+"has focus on" 65
+"does not offer" 66
+"has attraction" 67
+"serves category" 68
+"facilitates" 69
+"justified by" 70
+"has store category" 71
+"has hours" 72
+"promotes" 73
+"has texture" 74
+"is dog-friendly" 75
+"general category" 76
+"value" 77
+"has drink category" 78
+"reputation" 79
+"service quality" 80
+"has food options" 81
+"has event frequency" 82
+"potential for" 83
+"serves genre" 84
+"drink specials" 85
+"not typical" 86
+"overlooks" 87
+"history duration" 88
+"community includes" 89
+"interested in" 90
+"prioritizes" 91
+"has broad range" 92
+"hosted by" 93
+"sensitive to" 94
+"season" 95
+"portion size" 96
+"payment method" 97
+"has mission" 98
+"service" 99
+"requires" 100
+"open to" 101
+"evokes" 102
+"has ambiance" 103
+"special offer" 104
+"has communication options" 105
+"food quality" 106
+"targets" 107
+"has genre" 108
+"sources" 109
+"may be a" 110
+"has cuisine" 111
+"interacts with" 112
+"familiar with" 113
+"has quality standard" 114
+"willing to pay" 115
+"serves style" 116
+"has vibe" 117
+"guided by" 118
+"part of" 119
+"has dress code" 120
+"has customer service" 121
+"has dietary restriction" 122
+"valued for" 123
+"menu includes" 124
+"made from" 125
+"taste" 126
+"context" 127
+"overall experience" 128
+"has menu size" 129
+"has detailed nutritional info for" 130
+"may be" 131
+"contrast with" 132
+"delivery option" 133
+"has facilities" 134
+"has area for improvement" 135
+"insights into" 136
+"favored by" 137

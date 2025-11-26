@@ -117,7 +117,7 @@ def train(config: KGATConfig):
 
             if (iter % config.cf_print_every) == 0:
                 logging.info(
-                    f"CF Training: Epoch {epoch:04d} Total Iter {iter:04d} | Total Time {time() - time1:1f}s | Iter Mean Loss {cf_total_loss / n_cf_batch:.4f}"
+                    f"CF Training: Epoch {epoch:04d} Total Iter {iter:04d} | Total Time {time() - time1:1f}s | Iter Mean Loss {cf_total_loss / iter:.4f}"
                 )
 
         logging.info(
@@ -161,7 +161,7 @@ def train(config: KGATConfig):
 
             if (iter % config.kg_print_every) == 0:
                 logging.info(
-                    f"KG Training: Epoch {epoch:04d} Total Iter {iter:04d} | Iter Time {time() - time4:1f}s | Iter Mean Loss {kg_total_loss / n_kg_batch:.4f}"
+                    f"KG Training: Epoch {epoch:04d} Total Iter {iter:04d} | Iter Time {time() - time4:1f}s | Iter Mean Loss {kg_total_loss / iter:.4f}"
                 )
 
         logging.info(

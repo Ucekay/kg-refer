@@ -1,0 +1,882 @@
+[
+  {
+    "user_id": 30725,
+    "item_id": 1493,
+    "num_paths": 1,
+    "paths": [
+      {
+        "path": [
+          {
+            "head": 30725,
+            "relation": 0,
+            "tail": 12930,
+            "attention_score": 7.572046279907227
+          },
+          {
+            "head": 12930,
+            "relation": 78,
+            "tail": 1493,
+            "attention_score": 10.263999938964844
+          }
+        ],
+        "length": 2,
+        "total_score": 17.83604621887207,
+        "avg_score": 8.918023109436035
+      }
+    ],
+    "rank": 9,
+    "prediction_score": 4.6800336837768555
+  },
+  {
+    "user_id": 30725,
+    "item_id": 5755,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 4,
+    "prediction_score": 5.145069122314453
+  },
+  {
+    "user_id": 30725,
+    "item_id": 6012,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 5,
+    "prediction_score": 5.049450874328613
+  },
+  {
+    "user_id": 30726,
+    "item_id": 11527,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 9,
+    "prediction_score": 7.466312885284424
+  },
+  {
+    "user_id": 30726,
+    "item_id": 11612,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 7.424072742462158
+  },
+  {
+    "user_id": 30726,
+    "item_id": 10082,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 11,
+    "prediction_score": 7.405928611755371
+  },
+  {
+    "user_id": 30727,
+    "item_id": 12781,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 6,
+    "prediction_score": 6.520162582397461
+  },
+  {
+    "user_id": 30731,
+    "item_id": 1573,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 11,
+    "prediction_score": 6.507176399230957
+  },
+  {
+    "user_id": 30732,
+    "item_id": 8554,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 19,
+    "prediction_score": 7.441305160522461
+  },
+  {
+    "user_id": 30744,
+    "item_id": 6722,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 16,
+    "prediction_score": 6.822665214538574
+  },
+  {
+    "user_id": 30744,
+    "item_id": 10318,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 4,
+    "prediction_score": 7.259778022766113
+  },
+  {
+    "user_id": 30745,
+    "item_id": 2895,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 5,
+    "prediction_score": 9.461576461791992
+  },
+  {
+    "user_id": 30747,
+    "item_id": 5971,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 20,
+    "prediction_score": 7.981290340423584
+  },
+  {
+    "user_id": 30747,
+    "item_id": 23,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 1,
+    "prediction_score": 8.83603572845459
+  },
+  {
+    "user_id": 30748,
+    "item_id": 150,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 7,
+    "prediction_score": 6.422835350036621
+  },
+  {
+    "user_id": 30748,
+    "item_id": 5847,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 4,
+    "prediction_score": 6.540199279785156
+  },
+  {
+    "user_id": 30749,
+    "item_id": 10184,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 8,
+    "prediction_score": 8.031900405883789
+  },
+  {
+    "user_id": 30753,
+    "item_id": 295,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 1,
+    "prediction_score": 8.725488662719727
+  },
+  {
+    "user_id": 30753,
+    "item_id": 2385,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 5,
+    "prediction_score": 7.532421112060547
+  },
+  {
+    "user_id": 30755,
+    "item_id": 140,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 1,
+    "prediction_score": 6.395973205566406
+  },
+  {
+    "user_id": 30756,
+    "item_id": 5860,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 17,
+    "prediction_score": 8.957918167114258
+  },
+  {
+    "user_id": 30757,
+    "item_id": 1875,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 2,
+    "prediction_score": 9.616395950317383
+  },
+  {
+    "user_id": 30759,
+    "item_id": 10300,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 19,
+    "prediction_score": 7.043893337249756
+  },
+  {
+    "user_id": 30759,
+    "item_id": 11380,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 2,
+    "prediction_score": 7.990420341491699
+  },
+  {
+    "user_id": 30760,
+    "item_id": 11449,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 12,
+    "prediction_score": 8.329257011413574
+  },
+  {
+    "user_id": 30763,
+    "item_id": 8540,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 1,
+    "prediction_score": 12.42564582824707
+  },
+  {
+    "user_id": 30764,
+    "item_id": 9126,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 9,
+    "prediction_score": 7.687215328216553
+  },
+  {
+    "user_id": 30764,
+    "item_id": 12905,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 7.560340881347656
+  },
+  {
+    "user_id": 30764,
+    "item_id": 6007,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 18,
+    "prediction_score": 7.131545543670654
+  },
+  {
+    "user_id": 30768,
+    "item_id": 8860,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 7.255857467651367
+  },
+  {
+    "user_id": 30774,
+    "item_id": 364,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 19,
+    "prediction_score": 8.366598129272461
+  },
+  {
+    "user_id": 30774,
+    "item_id": 7340,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 3,
+    "prediction_score": 8.85464096069336
+  },
+  {
+    "user_id": 30776,
+    "item_id": 10556,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 8.044648170471191
+  },
+  {
+    "user_id": 30777,
+    "item_id": 433,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 19,
+    "prediction_score": 7.569595813751221
+  },
+  {
+    "user_id": 30779,
+    "item_id": 9890,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 11,
+    "prediction_score": 7.165008068084717
+  },
+  {
+    "user_id": 30783,
+    "item_id": 3939,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 17,
+    "prediction_score": 7.383099555969238
+  },
+  {
+    "user_id": 30785,
+    "item_id": 6706,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 17,
+    "prediction_score": 7.551138401031494
+  },
+  {
+    "user_id": 30785,
+    "item_id": 10716,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 3,
+    "prediction_score": 8.53472900390625
+  },
+  {
+    "user_id": 30796,
+    "item_id": 2947,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 13,
+    "prediction_score": 9.025137901306152
+  },
+  {
+    "user_id": 30798,
+    "item_id": 12726,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 8,
+    "prediction_score": 8.379205703735352
+  },
+  {
+    "user_id": 30799,
+    "item_id": 3036,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 3,
+    "prediction_score": 7.243043899536133
+  },
+  {
+    "user_id": 30801,
+    "item_id": 12800,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 15,
+    "prediction_score": 7.78956413269043
+  },
+  {
+    "user_id": 30801,
+    "item_id": 1565,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 2,
+    "prediction_score": 8.763642311096191
+  },
+  {
+    "user_id": 30801,
+    "item_id": 460,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 12,
+    "prediction_score": 7.974599361419678
+  },
+  {
+    "user_id": 30803,
+    "item_id": 3285,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 8,
+    "prediction_score": 7.930225372314453
+  },
+  {
+    "user_id": 30804,
+    "item_id": 3118,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 7.434807777404785
+  },
+  {
+    "user_id": 30808,
+    "item_id": 163,
+    "num_paths": 1,
+    "paths": [
+      {
+        "path": [
+          {
+            "head": 30808,
+            "relation": 0,
+            "tail": 11598,
+            "attention_score": 6.000832557678223
+          },
+          {
+            "head": 11598,
+            "relation": 221,
+            "tail": 163,
+            "attention_score": 1.5679367780685425
+          }
+        ],
+        "length": 2,
+        "total_score": 7.568769335746765,
+        "avg_score": 3.7843846678733826
+      }
+    ],
+    "rank": 3,
+    "prediction_score": 7.307584285736084
+  },
+  {
+    "user_id": 30808,
+    "item_id": 4566,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 9,
+    "prediction_score": 6.9369306564331055
+  },
+  {
+    "user_id": 30808,
+    "item_id": 11636,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 6,
+    "prediction_score": 7.000045299530029
+  },
+  {
+    "user_id": 30809,
+    "item_id": 10360,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 12,
+    "prediction_score": 8.12514591217041
+  },
+  {
+    "user_id": 30810,
+    "item_id": 915,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 7.567782878875732
+  },
+  {
+    "user_id": 30810,
+    "item_id": 3370,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 2,
+    "prediction_score": 7.864499568939209
+  },
+  {
+    "user_id": 30810,
+    "item_id": 1856,
+    "num_paths": 1,
+    "paths": [
+      {
+        "path": [
+          {
+            "head": 30810,
+            "relation": 0,
+            "tail": 10234,
+            "attention_score": 5.832311630249023
+          },
+          {
+            "head": 10234,
+            "relation": 221,
+            "tail": 1856,
+            "attention_score": 6.152041912078857
+          }
+        ],
+        "length": 2,
+        "total_score": 11.98435354232788,
+        "avg_score": 5.99217677116394
+      }
+    ],
+    "rank": 6,
+    "prediction_score": 7.7043328285217285
+  },
+  {
+    "user_id": 30811,
+    "item_id": 9447,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 18,
+    "prediction_score": 6.423206329345703
+  },
+  {
+    "user_id": 30812,
+    "item_id": 7461,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 7.802227973937988
+  },
+  {
+    "user_id": 30813,
+    "item_id": 3370,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 2,
+    "prediction_score": 7.967752456665039
+  },
+  {
+    "user_id": 30813,
+    "item_id": 2068,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 3,
+    "prediction_score": 7.933632850646973
+  },
+  {
+    "user_id": 30814,
+    "item_id": 3400,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 7,
+    "prediction_score": 7.700720310211182
+  },
+  {
+    "user_id": 30823,
+    "item_id": 3584,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 3,
+    "prediction_score": 7.060066223144531
+  },
+  {
+    "user_id": 30823,
+    "item_id": 2892,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 20,
+    "prediction_score": 6.673164367675781
+  },
+  {
+    "user_id": 30830,
+    "item_id": 3396,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 19,
+    "prediction_score": 7.703402996063232
+  },
+  {
+    "user_id": 30830,
+    "item_id": 2450,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 5,
+    "prediction_score": 8.252867698669434
+  },
+  {
+    "user_id": 30831,
+    "item_id": 1511,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 3,
+    "prediction_score": 8.819578170776367
+  },
+  {
+    "user_id": 30831,
+    "item_id": 9968,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 2,
+    "prediction_score": 8.849493026733398
+  },
+  {
+    "user_id": 30833,
+    "item_id": 10275,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 12,
+    "prediction_score": 6.1613545417785645
+  },
+  {
+    "user_id": 30834,
+    "item_id": 2880,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 9,
+    "prediction_score": 8.874271392822266
+  },
+  {
+    "user_id": 30835,
+    "item_id": 9044,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 15,
+    "prediction_score": 8.131794929504395
+  },
+  {
+    "user_id": 30836,
+    "item_id": 169,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 18,
+    "prediction_score": 8.396025657653809
+  },
+  {
+    "user_id": 30837,
+    "item_id": 1475,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 6.857503890991211
+  },
+  {
+    "user_id": 30838,
+    "item_id": 4352,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 4,
+    "prediction_score": 11.8185396194458
+  },
+  {
+    "user_id": 30838,
+    "item_id": 9902,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 1,
+    "prediction_score": 12.808123588562012
+  },
+  {
+    "user_id": 30840,
+    "item_id": 3769,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 11,
+    "prediction_score": 7.405610084533691
+  },
+  {
+    "user_id": 30841,
+    "item_id": 4489,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 4,
+    "prediction_score": 10.821330070495605
+  },
+  {
+    "user_id": 30842,
+    "item_id": 2896,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 7,
+    "prediction_score": 8.465765953063965
+  },
+  {
+    "user_id": 30842,
+    "item_id": 2932,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 20,
+    "prediction_score": 8.11085319519043
+  },
+  {
+    "user_id": 30843,
+    "item_id": 2880,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 13,
+    "prediction_score": 7.8921003341674805
+  },
+  {
+    "user_id": 30849,
+    "item_id": 2896,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 1,
+    "prediction_score": 8.344854354858398
+  },
+  {
+    "user_id": 30854,
+    "item_id": 3050,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 14,
+    "prediction_score": 7.903482913970947
+  },
+  {
+    "user_id": 30859,
+    "item_id": 7737,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 14,
+    "prediction_score": 8.41398811340332
+  },
+  {
+    "user_id": 30861,
+    "item_id": 12794,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 8,
+    "prediction_score": 7.872402667999268
+  },
+  {
+    "user_id": 30863,
+    "item_id": 7175,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 8,
+    "prediction_score": 8.505168914794922
+  },
+  {
+    "user_id": 30865,
+    "item_id": 321,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 9,
+    "prediction_score": 7.678893566131592
+  },
+  {
+    "user_id": 30872,
+    "item_id": 12794,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 5,
+    "prediction_score": 7.55141544342041
+  },
+  {
+    "user_id": 30877,
+    "item_id": 12333,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 5,
+    "prediction_score": 8.066648483276367
+  },
+  {
+    "user_id": 30882,
+    "item_id": 11484,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 4,
+    "prediction_score": 6.060959815979004
+  },
+  {
+    "user_id": 30884,
+    "item_id": 2036,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 17,
+    "prediction_score": 8.383209228515625
+  },
+  {
+    "user_id": 30887,
+    "item_id": 8652,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 16,
+    "prediction_score": 7.032112121582031
+  },
+  {
+    "user_id": 30888,
+    "item_id": 12764,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 2,
+    "prediction_score": 8.23001766204834
+  },
+  {
+    "user_id": 30891,
+    "item_id": 3229,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 9,
+    "prediction_score": 8.524154663085938
+  },
+  {
+    "user_id": 30892,
+    "item_id": 9907,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 20,
+    "prediction_score": 6.291878700256348
+  },
+  {
+    "user_id": 30892,
+    "item_id": 12728,
+    "num_paths": 1,
+    "paths": [
+      {
+        "path": [
+          {
+            "head": 30892,
+            "relation": 0,
+            "tail": 3481,
+            "attention_score": 8.889505386352539
+          },
+          {
+            "head": 3481,
+            "relation": 39,
+            "tail": 12728,
+            "attention_score": 4.930450439453125
+          }
+        ],
+        "length": 2,
+        "total_score": 13.819955825805664,
+        "avg_score": 6.909977912902832
+      }
+    ],
+    "rank": 11,
+    "prediction_score": 6.500679969787598
+  },
+  {
+    "user_id": 30892,
+    "item_id": 13039,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 6,
+    "prediction_score": 6.697709083557129
+  },
+  {
+    "user_id": 30893,
+    "item_id": 2403,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 15,
+    "prediction_score": 8.770404815673828
+  },
+  {
+    "user_id": 30894,
+    "item_id": 9302,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 19,
+    "prediction_score": 7.001231670379639
+  },
+  {
+    "user_id": 30895,
+    "item_id": 7154,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 8,
+    "prediction_score": 7.751743793487549
+  },
+  {
+    "user_id": 30895,
+    "item_id": 10042,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 10,
+    "prediction_score": 7.659467697143555
+  },
+  {
+    "user_id": 30896,
+    "item_id": 9899,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 5,
+    "prediction_score": 8.470382690429688
+  },
+  {
+    "user_id": 30897,
+    "item_id": 3040,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 17,
+    "prediction_score": 7.380190849304199
+  },
+  {
+    "user_id": 30898,
+    "item_id": 7088,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 5,
+    "prediction_score": 9.28774642944336
+  },
+  {
+    "user_id": 30898,
+    "item_id": 2052,
+    "num_paths": 0,
+    "paths": [],
+    "rank": 16,
+    "prediction_score": 8.995964050292969
+  }
+]

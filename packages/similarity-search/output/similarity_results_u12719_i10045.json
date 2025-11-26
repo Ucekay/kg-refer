@@ -1,0 +1,58 @@
+{
+    "target_user": "12719",
+    "target_item": "10045",
+    "similar_users": [
+        {
+            "id": "471",
+            "score": 0.9571099877357483,
+            "text_snippet": "{\n    \"summarization\": \"This user is likely to enj..."
+        },
+        {
+            "id": "6726",
+            "score": 0.9413244724273682,
+            "text_snippet": "{\n    \"summarization\": \"This user is likely to enj..."
+        },
+        {
+            "id": "1412",
+            "score": 0.9375801086425781,
+            "text_snippet": "{\n    \"summarization\": \"This user is likely to enj..."
+        },
+        {
+            "id": "1084",
+            "score": 0.8921442031860352,
+            "text_snippet": "{\n    \"summarization\": \"The user is likely to enjo..."
+        },
+        {
+            "id": "8881",
+            "score": 0.8705539107322693,
+            "text_snippet": "{\n    \"summarization\": \"This user is likely to enj..."
+        }
+    ],
+    "similar_items": [
+        {
+            "id": "13150",
+            "score": 0.7474483251571655,
+            "text_snippet": "{\n    \"summarization\": \"Fans of quick service, lar..."
+        },
+        {
+            "id": "13939",
+            "score": 0.6943105459213257,
+            "text_snippet": "{\n    \"summarization\": \"Fans of authentic Mexican ..."
+        },
+        {
+            "id": "3771",
+            "score": 0.679845929145813,
+            "text_snippet": "{\n    \"summarization\": \"Fans of delicious Italian ..."
+        },
+        {
+            "id": "2443",
+            "score": 0.6550586223602295,
+            "text_snippet": "{\n    \"summarization\": \"Fans of American tradition..."
+        },
+        {
+            "id": "13153",
+            "score": 0.6498277187347412,
+            "text_snippet": "{\n    \"summarization\": \"Fans of affordable drinks,..."
+        }
+    ]
+}

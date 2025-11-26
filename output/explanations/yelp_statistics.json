@@ -1,0 +1,72 @@
+{
+  "path_statistics": {
+    "total_pairs": 100,
+    "pairs_with_paths": 2,
+    "pairs_without_paths": 98,
+    "path_coverage": 0.02,
+    "avg_paths_per_pair": 2.0,
+    "avg_path_length": 2.0,
+    "min_path_length": 2,
+    "max_path_length": 2,
+    "total_paths": 4
+  },
+  "num_explanations": 100,
+  "important_edges": [
+    {
+      "head": 12930,
+      "relation": 78,
+      "tail": 1493,
+      "avg_score": 10.263999938964844,
+      "frequency": 1
+    },
+    {
+      "head": 30892,
+      "relation": 0,
+      "tail": 3481,
+      "avg_score": 8.889505386352539,
+      "frequency": 1
+    },
+    {
+      "head": 30725,
+      "relation": 0,
+      "tail": 12930,
+      "avg_score": 7.572046279907227,
+      "frequency": 1
+    },
+    {
+      "head": 10234,
+      "relation": 221,
+      "tail": 1856,
+      "avg_score": 6.152041912078857,
+      "frequency": 1
+    },
+    {
+      "head": 30808,
+      "relation": 0,
+      "tail": 11598,
+      "avg_score": 6.000832557678223,
+      "frequency": 1
+    },
+    {
+      "head": 30810,
+      "relation": 0,
+      "tail": 10234,
+      "avg_score": 5.832311630249023,
+      "frequency": 1
+    },
+    {
+      "head": 3481,
+      "relation": 39,
+      "tail": 12728,
+      "avg_score": 4.930450439453125,
+      "frequency": 1
+    },
+    {
+      "head": 11598,
+      "relation": 221,
+      "tail": 163,
+      "avg_score": 1.5679367780685425,
+      "frequency": 1
+    }
+  ]
+}
