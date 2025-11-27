@@ -139,11 +139,16 @@ class DataLoader:
                 names=["h", "r", "t"],
                 engine="python",
                 dtype={"h": int, "r": int, "t": int},
+                on_bad_lines="skip",  # 3列でない行はスキップ
             )
         except ValueError:
             # 型変換に失敗した場合は文字列として読み込んで変換
             kg_data = pd.read_csv(
-                filename, sep=" ", names=["h", "r", "t"], engine="python"
+                filename,
+                sep=" ",
+                names=["h", "r", "t"],
+                engine="python",
+                on_bad_lines="skip",  # 3列でない行はスキップ
             )
             kg_data = kg_data.drop_duplicates()
 

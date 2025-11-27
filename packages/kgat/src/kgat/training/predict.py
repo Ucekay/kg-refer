@@ -22,7 +22,7 @@ def predict(config: KGATConfig):
     """
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    save_dir = "trained_model/KGAT/{}/embed-dim{}_relation-dim{}_{}_{}_{}_lr{}_pretrain{}/".format(
+    save_dir = "packages/kgat/trained_model/KGAT/{}/embed-dim{}_relation-dim{}_{}_{}_{}_lr{}_pretrain{}/".format(
         config.data_name,
         config.embed_dim,
         config.relation_dim,

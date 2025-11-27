@@ -1,0 +1,303 @@
+item_id,entity_id,entity_name,score
+159,14093,Philadelphia,1.4937229
+159,14960,People who are willing to wait for a table,1.321135
+159,14959,People who enjoy local brunch spots,1.3193852
+159,14958,cash-only establishments,1.0619029
+159,14957,hip staff,0.8572297
+159,14962,Users who enjoy American cuisine,0.7844092
+159,14103,brunch,-0.103699096
+159,14956,American traditional cuisine,-0.51945704
+159,14961,Users who enjoy Southern cuisine,-0.6019511
+159,14955,southern cuisine,-0.60871506
+579,14093,Philadelphia,1.4937229
+579,16700,potential wait during peak times,1.4832379
+579,16697,bustling,0.6466552
+579,16043,classic diner food,-0.04351286
+579,14227,diner food,-0.3282221
+579,15397,welcoming,-0.43889657
+579,14982,hearty breakfast options,-0.7426174
+579,14226,breakfast,-0.7473149
+579,16699,diverse crowds,-0.9032503
+579,16698,big portions,-1.2263362
+788,14093,Philadelphia,1.4937229
+788,17428,plant-based sandwiches,1.3032591
+788,14090,vegetarians,0.8171588
+788,14797,desserts,0.5455618
+788,14120,affordable,0.44422165
+788,15907,vegans,0.3267635
+788,14276,burgers,0.25918198
+788,14375,health-conscious individuals,-0.055042658
+788,14113,restaurant,-0.29859957
+788,15838,trendy,-1.0874592
+788,14607,sandwich,-1.1605816
+963,18060,brown rice,1.6222427
+963,15846,Chinese dishes,1.0348984
+963,16993,spring rolls,0.9486131
+963,18061,fast delivery,0.60670185
+963,14228,generous portions,0.5566777
+963,15399,shrimp,0.11419085
+963,14259,friendly staff,-0.59349287
+963,18062,customers,-1.0781974
+963,14920,tasty food,-2.13258
+2045,14093,Philadelphia,1.4937229
+2045,21249,cozy spaces,0.6537141
+2045,14127,coffee,0.033093717
+2045,21251,coffee beverages,-0.008122207
+2045,14699,high-quality coffee,-0.27965683
+2045,21250,aesthetically pleasing spaces,-0.47604015
+2045,14414,coffee shop,-0.5141039
+2045,15158,delicious pastries,-0.77139163
+2880,14093,Philadelphia,1.4937229
+2880,23188,special dining experience,0.9615498
+2880,23304,Middle Eastern dishes,-0.020452524
+2880,14397,food enthusiasts,-0.09850853
+2880,23305,higher for quality,-0.113954335
+2880,14215,attentive service,-0.114467055
+2880,14117,vibrant,-0.37833068
+2894,14093,Philadelphia,1.4937229
+2894,23348,"lively, kitschy atmosphere",0.83015716
+2894,14757,Mexican restaurant,0.37857524
+2894,14122,Fans of Mexican cuisine,0.32346216
+2894,19607,affordable happy hour deals,-0.046114255
+2894,14115,Mexican,-0.28878814
+2894,14113,restaurant,-0.29859957
+2894,14267,bar,-0.41056994
+2894,14862,good value for money,-0.43826863
+2894,23349,Margarita lovers,-0.88340354
+2894,14949,margaritas,-1.122711
+2934,23441,flavorful ramen,3.0131826
+2934,23440,affordable ramen,2.9214234
+2934,23444,lean pork belly,2.4800007
+2934,23442,smaller portion options,2.1475244
+2934,14093,Philadelphia,1.4937229
+2934,23443,pork belly,0.43705913
+2934,14714,ramen,-0.51823556
+3111,14093,Philadelphia,1.4937229
+3111,23840,creative food options,1.4513099
+3111,23842,Individuals who appreciate desserts,1.271458
+3111,23843,Individuals who value friendly service,0.89623845
+3111,23841,Individuals who appreciate creative food options,0.82935256
+3111,17056,delicious desserts,0.16002007
+3111,14229,friendly service,-0.2504155
+3111,14855,casual,-0.81804717
+3139,14093,Philadelphia,1.4937229
+3139,23920,crab rolls,1.0369264
+3139,14119,casual dining,0.93718547
+3139,17131,crab,0.6726145
+3139,21790,lobster rolls,0.036950335
+3139,17473,premium prices,0.0037403123
+3139,14229,friendly service,-0.2504155
+3139,14799,lobster,-0.9535249
+3139,14424,quick service,-1.0776877
+3719,14093,Philadelphia,1.4937229
+3719,25256,personalized sorbet for celebrations,0.492466
+3719,14215,attentive service,-0.114467055
+3719,22096,parties,-0.13556163
+3719,14113,restaurant,-0.29859957
+3719,15030,event spaces,-0.42262384
+3719,21323,Users who enjoy unique dining experiences,-0.74056876
+3719,16504,unique dining experiences,-0.9861507
+3719,14911,waterfront views,-1.3698199
+3719,14087,diverse food options,-1.8649942
+4489,15847,Philadelphia's Chinatown,2.5524583
+4489,16648,dim sum,0.95238525
+4489,27011,BYO options,0.8546906
+4489,16654,fans of chinese cuisine,0.84476894
+4489,14489,Chinese cuisine,0.5746554
+4489,27012,Dim sum lovers,0.5651431
+4489,14120,affordable,0.44422165
+4489,14424,quick service,-1.0776877
+4624,27331,Groups looking for a great atmosphere and outstanding food for events,2.1914508
+4624,27330,minor delays,1.9589994
+4624,15127,outstanding food,0.5524724
+4624,14783,drinks,-0.039591376
+4624,27329,selection of drinks,-0.19779247
+4624,14257,flavorful food,-0.55156946
+4624,14208,good service,-0.7133812
+4624,15741,great atmosphere,-1.8328983
+4711,14093,Philadelphia,1.4937229
+4711,21296,variety of traditional dishes,1.0965682
+4711,14120,affordable,0.44422165
+4711,14916,Vietnamese cuisine,-0.033802785
+4711,16995,Fans of Vietnamese cuisine,-0.038327374
+4711,14157,traditional dishes,-0.5486626
+5756,14093,Philadelphia,1.4937229
+5756,29747,All-you-can-eat,0.765547
+5756,15914,hot pot,0.50254095
+5756,29745,create own broth,0.25623268
+5756,29746,sauce station,0.2375086
+5756,29744,debauercherous eating,0.22609577
+5756,29742,unlimited meats,0.19215004
+5756,14463,meat,0.14044115
+5756,29743,all-you-can-eat dining,0.109300196
+5858,15048,pleasant service,1.0595701
+5858,14812,BYOB options,0.73094827
+5858,14490,sushi,-0.058652524
+5858,14113,restaurant,-0.29859957
+5858,26484,variety of sushi,-0.8401272
+5858,15783,value for money,-1.1240606
+5858,14536,generous portion sizes,-1.276755
+5858,14316,fresh,-1.3432709
+6668,14093,Philadelphia,1.4937229
+6668,14120,affordable,0.44422165
+6668,31520,Mediterranean/Middle Eastern cuisine,-0.036063142
+6668,14773,fast service,-0.31456783
+6668,31521,variety of fresh menu items,-0.6442783
+7175,32512,chic and trendy dining experience,1.9103594
+7175,32513,Fans of Iron Chef Morimoto,1.6835086
+7175,32515,Individuals looking for a high-quality and flavorful dishes,1.6536427
+7175,14093,Philadelphia,1.4937229
+7175,32514,Japanese cuisine enthusiasts,0.62861854
+7175,14568,flavorful dishes,0.011775217
+7175,14643,Japanese cuisine,-0.25946814
+7175,14469,excellent service,-0.30129716
+7175,15777,high-quality dishes,-1.0792413
+7233,32609,no pretentiousness,2.1055558
+7233,14093,Philadelphia,1.4937229
+7233,16970,macarons,1.3802923
+7233,17960,affordable portions,1.2984396
+7233,14228,generous portions,0.5566777
+7233,14797,desserts,0.5455618
+7233,15274,food truck,-0.08044867
+7233,16538,treats,-0.16274212
+7388,14779,bubble tea,1.1450595
+7388,19887,bubble tea enthusiasts,0.9922926
+7388,14259,friendly staff,-0.59349287
+7388,25648,busy environment,-0.6452125
+7388,14369,variety of flavors,-0.6683519
+7388,14404,beverage,-0.70454067
+7388,31721,customizable drinks,-0.7323879
+7388,32905,quick experience,-0.82578844
+8487,33351,small plates for sharing,0.5588632
+8487,15602,asian fusion dishes,0.5566684
+8487,34956,those who enjoy small plates,0.44852278
+8487,14443,small plates,0.29854625
+8487,32285,adventurous dining experience,0.06262847
+8487,34958,high cleanliness standards,-0.05111806
+8487,34955,creative Asian fusion,-0.06295226
+8487,14397,food enthusiasts,-0.09850853
+8487,23085,plates,-0.25162792
+8487,24828,adventurous diners,-0.2796614
+8487,14424,quick service,-1.0776877
+8910,22204,cheese pizza,1.7736807
+8910,35740,casual standing-eating experience,1.768274
+8910,35741,South Street area of Philadelphia,1.370794
+8910,35739,high-quality cheese pizza,1.1611135
+8910,35738,simple cheese pizza,0.95188755
+8910,23989,huge slices,0.77873296
+8910,14304,pizza,-0.108260356
+8910,14424,quick service,-1.0776877
+8920,14093,Philadelphia,1.4937229
+8920,14703,variety of coffee options,0.37788832
+8920,14127,coffee,0.033093717
+8920,26750,espresso drinks,-0.39853558
+8920,14414,coffee shop,-0.5141039
+8920,35774,access to plugs,-0.61321884
+8920,35770,chemex,-0.6319624
+8920,35771,stumptown,-0.75035185
+8920,35773,people-watching opportunities,-0.7540159
+8920,14214,cozy,-0.84917074
+8920,14126,cafe,-1.074832
+8920,35772,reanimator,-1.0769012
+8920,15210,ample seating,-1.951057
+9026,14093,Philadelphia,1.4937229
+9026,35954,excellent beer options,0.42820624
+9026,35953,personalized drink recommendations,0.41399625
+9026,35952,extensive beer lists,0.27122298
+9026,14232,groups,-0.10689639
+9026,15350,friendly vibe,-0.20237269
+9026,14696,reasonable,-0.28791744
+9026,16823,German food,-0.2967098
+9026,14519,great service,-0.35319585
+9026,14086,beers,-0.40080783
+9026,14130,spacious environment,-1.0452645
+10064,14093,Philadelphia,1.4937229
+10064,17141,cheesesteaks,0.651394
+10064,16377,beef,0.45584297
+10064,37834,steak cheesesteaks,0.44564563
+10064,37837,Fans of steak cheesesteaks,-0.0737233
+10064,14229,friendly service,-0.2504155
+10064,37835,various cheese and topping options,-0.34044698
+10064,37836,good quality meat,-0.3846102
+10125,14093,Philadelphia,1.4937229
+10125,37944,Japanese-inspired dishes,0.8116414
+10125,16697,bustling,0.6466552
+10125,14113,restaurant,-0.29859957
+10125,14214,cozy,-0.84917074
+10125,14216,cocktails,-1.446175
+10230,14093,Philadelphia,1.4937229
+10230,17346,American comfort food,0.024660973
+10230,16260,atmosphere,-0.2761002
+10230,14214,cozy,-0.84917074
+10230,14802,comfort food,-1.0667346
+11365,14090,vegetarians,0.8171588
+11365,40164,"warm, welcoming",0.71872264
+11365,14167,Thai cuisine,0.30796787
+11365,21858,meat eaters,0.22831835
+11365,14826,flavorful,-0.23222154
+11365,14469,excellent service,-0.30129716
+11365,16018,Fans of flavorful Thai cuisine,-0.9276571
+11365,14216,cocktails,-1.446175
+11547,40469,modernized cuisine,1.2717236
+11547,19254,intimate dining experience,0.5850032
+11547,17016,creative cuisine,-0.08021339
+11547,14215,attentive service,-0.114467055
+11547,14113,restaurant,-0.29859957
+11547,14765,BYOB option,-0.39343262
+11547,17116,reasonable pricing,-0.80757594
+11640,40646,Users who enjoy beautifully decorated restaurants,1.3733026
+11640,27841,Huntingdon Valley,0.58052516
+11640,40645,beautifully decorated restaurant,0.4069984
+11640,14469,excellent service,-0.30129716
+11640,14235,diverse menu options,-0.31560272
+11640,14294,French,-0.873457
+11640,18171,Asian cuisine,-1.1693194
+11915,41138,sweet potent drinks,0.48564506
+11915,41137,touristy cocktails,0.4215582
+11915,41139,"Users who enjoy touristy cocktails, quick service, sweet potent drinks, and a lively nightlife atmosphere",0.29933262
+11915,18112,bourbon street,0.25807053
+11915,15348,lively nightlife atmosphere,-0.42804307
+11915,14112,New Orleans,-0.52114
+11915,14424,quick service,-1.0776877
+12764,14093,Philadelphia,1.4937229
+12764,17831,bustling market atmosphere,1.1568872
+12764,42636,wide array of specialty food items,0.36828047
+12764,15690,local products,0.3153145
+12764,42637,Users who enjoy exploring diverse food options,-0.3337924
+12764,17965,fresh groceries,-0.366356
+12764,14087,diverse food options,-1.8649942
+12768,14093,Philadelphia,1.4937229
+12768,14797,desserts,0.5455618
+12768,17208,ice cream lovers,0.4208214
+12768,14366,ice cream,-0.05984616
+12768,29497,old-fashioned charm,-0.18652943
+12768,14229,friendly service,-0.2504155
+12768,14522,dessert,-0.37420744
+12940,42903,Havana vibe,1.6447438
+12940,14093,Philadelphia,1.4937229
+12940,24687,mojitos,1.1824132
+12940,42902,salsa dancing,1.0033901
+12940,14539,Latin American cuisine,0.30147848
+12940,14113,restaurant,-0.29859957
+12940,14768,nightlife,-0.6675222
+12940,17092,vibrant nightlife,-0.7051645
+12940,14216,cocktails,-1.446175
+13083,43133,pickled cactus salad,1.8864925
+13083,43132,big tacos,1.8382118
+13083,14093,Philadelphia,1.4937229
+13083,24477,al pastor tacos,1.3752236
+13083,24984,Late-night food enthusiasts,1.1285539
+13083,14974,tacos,0.67322457
+13083,14228,generous portions,0.5566777
+13083,16240,taqueria,0.0015406385
+13083,14115,Mexican,-0.28878814
+13083,14535,unique menu items,-0.32336473
+13083,14369,variety of flavors,-0.6683519
+13083,21904,delicious tacos,-1.3229173
+13360,43578,premium dessert experience,2.5246615
+13360,43579,Individuals who appreciate unique frozen yogurt flavors,2.2461426
+13360,43580,Yogorino,2.01022
+13360,23679,a bit more,1.0486314
+13360,33524,high-quality toppings,1.0099015
+13360,16122,frozen yogurt flavors,0.29644883
+13360,14558,frozen yogurt,-0.27180684

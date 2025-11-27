@@ -79,7 +79,7 @@ def load_entity_names(entity_list_path: str) -> dict[int, str]:
 def main():
     # ===== ユーザーID指定 =====
     # 特定のユーザーを選択する場合はここでIDを指定、Noneの場合はランダム選択
-    uid = 12719  # ユーザーID（元の表現）。Noneにするとランダム選択
+    uid = 1326  # ユーザーID（元の表現）。Noneにするとランダム選択
     # =========================
 
     # ロギング設定
@@ -105,7 +105,7 @@ def main():
     config.mess_dropout = "[0.1,0.1,0.1]"  # 2層なので2つのdropout値
 
     # モデルパスを設定（最良のモデルを選択）
-    model_path = "trained_model/KGAT/yelp/embed-dim64_relation-dim64_random-walk_bi-interaction_64-32-16_lr0.0001_pretrain0/model_epoch900.pth"
+    model_path = "trained_model/KGAT/yelp/embed-dim64_relation-dim64_random-walk_bi-interaction_64-32-16_lr0.0001_pretrain0/model_epoch1000.pth"
     config.pretrain_model_path = model_path
 
     logger.info(f"モデルパス: {model_path}")

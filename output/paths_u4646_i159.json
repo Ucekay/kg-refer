@@ -1,0 +1,1808 @@
+{
+  "user_id": 4646,
+  "item_id": 159,
+  "item_name": "Unknown_159",
+  "num_paths_found": 50,
+  "paths": [
+    {
+      "rank": 1,
+      "total_score": 0.7992918711608952,
+      "avg_score": 0.2664306237202984,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1030,
+          "tail_name": "Entity_1030",
+          "attention_score": 0.0046671301765609805
+        },
+        {
+          "head_id": 1030,
+          "head_name": "Entity_1030",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.7941383925211696
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0047)]--> Entity_1030 --[located in (0.7941)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 2,
+      "total_score": 0.42607362160003176,
+      "avg_score": 0.14202454053334393,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1554,
+          "tail_name": "Entity_1554",
+          "attention_score": 0.0065115867471281196
+        },
+        {
+          "head_id": 1554,
+          "head_name": "Entity_1554",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.419075686389739
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0065)]--> Entity_1554 --[located in (0.4191)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 3,
+      "total_score": 0.37674157820938914,
+      "avg_score": 0.1255805260697964,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.3668515675637808
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[located in (0.3669)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 4,
+      "total_score": 0.23657379136656814,
+      "avg_score": 0.07885793045552271,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 8710,
+          "tail_name": "Entity_8710",
+          "attention_score": 0.0016236894633273454
+        },
+        {
+          "head_id": 8710,
+          "head_name": "Entity_8710",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.23446375344007617
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0016)]--> Entity_8710 --[located in (0.2345)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 5,
+      "total_score": 0.20847281414929922,
+      "avg_score": 0.0694909380497664,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.20549090973552026
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[located in (0.2055)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 6,
+      "total_score": 0.17301449414571213,
+      "avg_score": 0.05767149804857071,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 5144,
+          "tail_name": "Entity_5144",
+          "attention_score": 0.0022854604171457602
+        },
+        {
+          "head_id": 5144,
+          "head_name": "Entity_5144",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.17024268526540173
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0023)]--> Entity_5144 --[located in (0.1702)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 7,
+      "total_score": 0.06320979073308632,
+      "avg_score": 0.021069930244362104,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 8710,
+          "tail_name": "Entity_8710",
+          "attention_score": 0.0016236894633273454
+        },
+        {
+          "head_id": 8710,
+          "head_name": "Entity_8710",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 50076,
+          "tail_name": "User_5270",
+          "attention_score": 0.001650690799731255
+        },
+        {
+          "head_id": 50076,
+          "head_name": "User_5270",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.05993541047002772
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0016)]--> Entity_8710 --[InteractedBy (0.0017)]--> User_5270 --[Interact (0.0599)]--> Entity_159"
+    },
+    {
+      "rank": 8,
+      "total_score": 0.056955477663842485,
+      "avg_score": 0.01898515922128083,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 11793,
+          "tail_name": "Entity_11793",
+          "attention_score": 0.017883773911526415
+        },
+        {
+          "head_id": 11793,
+          "head_name": "Entity_11793",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 57110,
+          "tail_name": "User_12304",
+          "attention_score": 2.7107013901218047e-07
+        },
+        {
+          "head_id": 57110,
+          "head_name": "User_12304",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.039071432682177054
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0179)]--> Entity_11793 --[InteractedBy (0.0000)]--> User_12304 --[Interact (0.0391)]--> Entity_159"
+    },
+    {
+      "rank": 9,
+      "total_score": 0.05362357863449969,
+      "avg_score": 0.017874526211499896,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 49041,
+          "tail_name": "User_4235",
+          "attention_score": 0.0002041143152126778
+        },
+        {
+          "head_id": 49041,
+          "head_name": "User_4235",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.05092390836867268
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0002)]--> User_4235 --[Interact (0.0509)]--> Entity_159"
+    },
+    {
+      "rank": 10,
+      "total_score": 0.053037396427150586,
+      "avg_score": 0.01767913214238353,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 48683,
+          "tail_name": "User_3877",
+          "attention_score": 0.0002073750212190135
+        },
+        {
+          "head_id": 48683,
+          "head_name": "User_3877",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.04342635922348787
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0002)]--> User_3877 --[Interact (0.0434)]--> Entity_159"
+    },
+    {
+      "rank": 11,
+      "total_score": 0.05296747054913323,
+      "avg_score": 0.017655823516377744,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 47310,
+          "tail_name": "User_2504",
+          "attention_score": 3.526259415896546e-05
+        },
+        {
+          "head_id": 47310,
+          "head_name": "User_2504",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.04352854577253056
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_2504 --[Interact (0.0435)]--> Entity_159"
+    },
+    {
+      "rank": 12,
+      "total_score": 0.051791211190177634,
+      "avg_score": 0.017263737063392546,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 3079,
+          "tail_name": "Entity_3079",
+          "attention_score": 0.017118393759087934
+        },
+        {
+          "head_id": 3079,
+          "head_name": "Entity_3079",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.03418646896792504
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0171)]--> Entity_3079 --[located in (0.0342)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 13,
+      "total_score": 0.04351186861330856,
+      "avg_score": 0.014503956204436187,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 52219,
+          "tail_name": "User_7413",
+          "attention_score": 3.7818543578493364e-05
+        },
+        {
+          "head_id": 52219,
+          "head_name": "User_7413",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.03407038788728636
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_7413 --[Interact (0.0341)]--> Entity_159"
+    },
+    {
+      "rank": 14,
+      "total_score": 0.035224543788839935,
+      "avg_score": 0.011741514596279978,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1554,
+          "tail_name": "Entity_1554",
+          "attention_score": 0.0065115867471281196
+        },
+        {
+          "head_id": 1554,
+          "head_name": "Entity_1554",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 49192,
+          "tail_name": "User_4386",
+          "attention_score": 1.620992753721797e-05
+        },
+        {
+          "head_id": 49192,
+          "head_name": "User_4386",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.028696747114174595
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0065)]--> Entity_1554 --[InteractedBy (0.0000)]--> User_4386 --[Interact (0.0287)]--> Entity_159"
+    },
+    {
+      "rank": 15,
+      "total_score": 0.03441054823878484,
+      "avg_score": 0.011470182746261612,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 11793,
+          "tail_name": "Entity_11793",
+          "attention_score": 0.017883773911526415
+        },
+        {
+          "head_id": 11793,
+          "head_name": "Entity_11793",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 48986,
+          "tail_name": "User_4180",
+          "attention_score": 5.041598569777406e-08
+        },
+        {
+          "head_id": 48986,
+          "head_name": "User_4180",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.016526723911272728
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0179)]--> Entity_11793 --[InteractedBy (0.0000)]--> User_4180 --[Interact (0.0165)]--> Entity_159"
+    },
+    {
+      "rank": 16,
+      "total_score": 0.031764456042159606,
+      "avg_score": 0.010588152014053201,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 11793,
+          "tail_name": "Entity_11793",
+          "attention_score": 0.017883773911526415
+        },
+        {
+          "head_id": 11793,
+          "head_name": "Entity_11793",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45343,
+          "tail_name": "User_537",
+          "attention_score": 1.152050779293469e-07
+        },
+        {
+          "head_id": 45343,
+          "head_name": "User_537",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.013880566925555265
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0179)]--> Entity_11793 --[InteractedBy (0.0000)]--> User_537 --[Interact (0.0139)]--> Entity_159"
+    },
+    {
+      "rank": 17,
+      "total_score": 0.030304736936471892,
+      "avg_score": 0.010101578978823965,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 51106,
+          "tail_name": "User_6300",
+          "attention_score": 6.191038918519122e-05
+        },
+        {
+          "head_id": 51106,
+          "head_name": "User_6300",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.020839164364843
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0001)]--> User_6300 --[Interact (0.0208)]--> Entity_159"
+    },
+    {
+      "rank": 18,
+      "total_score": 0.028366076926349765,
+      "avg_score": 0.009455358975449921,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 3079,
+          "tail_name": "Entity_3079",
+          "attention_score": 0.017118393759087934
+        },
+        {
+          "head_id": 3079,
+          "head_name": "Entity_3079",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45435,
+          "tail_name": "User_629",
+          "attention_score": 1.2824748891665653e-05
+        },
+        {
+          "head_id": 45435,
+          "head_name": "User_629",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.011234858418370167
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0171)]--> Entity_3079 --[InteractedBy (0.0000)]--> User_629 --[Interact (0.0112)]--> Entity_159"
+    },
+    {
+      "rank": 19,
+      "total_score": 0.02738703864628479,
+      "avg_score": 0.009129012882094929,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 11793,
+          "tail_name": "Entity_11793",
+          "attention_score": 0.017883773911526415
+        },
+        {
+          "head_id": 11793,
+          "head_name": "Entity_11793",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 47001,
+          "tail_name": "User_2195",
+          "attention_score": 7.264525013988732e-07
+        },
+        {
+          "head_id": 47001,
+          "head_name": "User_2195",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.009502538282256973
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0179)]--> Entity_11793 --[InteractedBy (0.0000)]--> User_2195 --[Interact (0.0095)]--> Entity_159"
+    },
+    {
+      "rank": 20,
+      "total_score": 0.025733145781034306,
+      "avg_score": 0.008577715260344768,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 49205,
+          "tail_name": "User_4399",
+          "attention_score": 0.0003555599500253659
+        },
+        {
+          "head_id": 49205,
+          "head_name": "User_4399",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.015973923648565237
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0004)]--> User_4399 --[Interact (0.0160)]--> Entity_159"
+    },
+    {
+      "rank": 21,
+      "total_score": 0.02450888627006119,
+      "avg_score": 0.008169628756687064,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 11793,
+          "tail_name": "Entity_11793",
+          "attention_score": 0.017883773911526415
+        },
+        {
+          "head_id": 11793,
+          "head_name": "Entity_11793",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45077,
+          "tail_name": "User_271",
+          "attention_score": 2.7697052488360557e-07
+        },
+        {
+          "head_id": 45077,
+          "head_name": "User_271",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.006624835388009889
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0179)]--> Entity_11793 --[InteractedBy (0.0000)]--> User_271 --[Interact (0.0066)]--> Entity_159"
+    },
+    {
+      "rank": 22,
+      "total_score": 0.024205229014795156,
+      "avg_score": 0.008068409671598385,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12832,
+          "tail_name": "Entity_12832",
+          "attention_score": 0.004087860698272883
+        },
+        {
+          "head_id": 12832,
+          "head_name": "Entity_12832",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 44812,
+          "tail_name": "User_6",
+          "attention_score": 1.578531812781318e-05
+        },
+        {
+          "head_id": 44812,
+          "head_name": "User_6",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.02010158299839446
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0041)]--> Entity_12832 --[InteractedBy (0.0000)]--> User_6 --[Interact (0.0201)]--> Entity_159"
+    },
+    {
+      "rank": 23,
+      "total_score": 0.02336720416647539,
+      "avg_score": 0.0077890680554917975,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45560,
+          "tail_name": "User_754",
+          "attention_score": 8.878175675582711e-05
+        },
+        {
+          "head_id": 45560,
+          "head_name": "User_754",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.013874760227275863
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0001)]--> User_754 --[Interact (0.0139)]--> Entity_159"
+    },
+    {
+      "rank": 24,
+      "total_score": 0.020832835098770784,
+      "avg_score": 0.006944278366256928,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45037,
+          "tail_name": "User_231",
+          "attention_score": 2.9145625828041916e-05
+        },
+        {
+          "head_id": 45037,
+          "head_name": "User_231",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.011400027290499042
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_231 --[Interact (0.0114)]--> Entity_159"
+    },
+    {
+      "rank": 25,
+      "total_score": 0.01953479923454975,
+      "avg_score": 0.006511599744849917,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 47371,
+          "tail_name": "User_2565",
+          "attention_score": 2.986486384193547e-05
+        },
+        {
+          "head_id": 47371,
+          "head_name": "User_2565",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.010101272188264114
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_2565 --[Interact (0.0101)]--> Entity_159"
+    },
+    {
+      "rank": 26,
+      "total_score": 0.019229692163980953,
+      "avg_score": 0.0064098973879936514,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 48986,
+          "tail_name": "User_4180",
+          "attention_score": 0.00020741230209389894
+        },
+        {
+          "head_id": 48986,
+          "head_name": "User_4180",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.016526723911272728
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0002)]--> User_4180 --[Interact (0.0165)]--> Entity_159"
+    },
+    {
+      "rank": 27,
+      "total_score": 0.018944014394170993,
+      "avg_score": 0.006314671464723664,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12832,
+          "tail_name": "Entity_12832",
+          "attention_score": 0.004087860698272883
+        },
+        {
+          "head_id": 12832,
+          "head_name": "Entity_12832",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.014369805232733455
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0041)]--> Entity_12832 --[located in (0.0144)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 28,
+      "total_score": 0.018908357360062085,
+      "avg_score": 0.006302785786687362,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 47003,
+          "tail_name": "User_2197",
+          "attention_score": 3.6041977461143936e-05
+        },
+        {
+          "head_id": 47003,
+          "head_name": "User_2197",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.009468653200157242
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_2197 --[Interact (0.0095)]--> Entity_159"
+    },
+    {
+      "rank": 29,
+      "total_score": 0.018656678379456986,
+      "avg_score": 0.006218892793152329,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 11793,
+          "tail_name": "Entity_11793",
+          "attention_score": 0.017883773911526415
+        },
+        {
+          "head_id": 11793,
+          "head_name": "Entity_11793",
+          "relation_id": 2,
+          "relation_name": "located in",
+          "tail_id": 14093,
+          "tail_name": "Philadelphia",
+          "attention_score": 0.000286556004765918
+        },
+        {
+          "head_id": 14093,
+          "head_name": "Philadelphia",
+          "relation_id": 128,
+          "relation_name": "located in (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00048634846316465447
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0179)]--> Entity_11793 --[located in (0.0003)]--> Philadelphia --[located in (Inverse) (0.0005)]--> Entity_159"
+    },
+    {
+      "rank": 30,
+      "total_score": 0.018582186466412666,
+      "avg_score": 0.006194062155470889,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45212,
+          "tail_name": "User_406",
+          "attention_score": 8.100679865370322e-05
+        },
+        {
+          "head_id": 45212,
+          "head_name": "User_406",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.009097517485315261
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0001)]--> User_406 --[Interact (0.0091)]--> Entity_159"
+    },
+    {
+      "rank": 31,
+      "total_score": 0.01857104340086603,
+      "avg_score": 0.006190347800288677,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 44893,
+          "tail_name": "User_87",
+          "attention_score": 5.952697217760171e-05
+        },
+        {
+          "head_id": 44893,
+          "head_name": "User_87",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.009107854246244726
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0001)]--> User_87 --[Interact (0.0091)]--> Entity_159"
+    },
+    {
+      "rank": 32,
+      "total_score": 0.0184798499986603,
+      "avg_score": 0.006159949999553434,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 47013,
+          "tail_name": "User_2207",
+          "attention_score": 3.987857068183735e-05
+        },
+        {
+          "head_id": 47013,
+          "head_name": "User_2207",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.009036309245534764
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_2207 --[Interact (0.0090)]--> Entity_159"
+    },
+    {
+      "rank": 33,
+      "total_score": 0.017248883516249768,
+      "avg_score": 0.005749627838749923,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 10,
+          "relation_name": "suitable for",
+          "tail_id": 14103,
+          "tail_name": "brunch",
+          "attention_score": 0.007845221333221478
+        },
+        {
+          "head_id": 14103,
+          "head_name": "brunch",
+          "relation_id": 140,
+          "relation_name": "serves (Inverse)",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 5.845908745160184e-13
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[suitable for (0.0078)]--> brunch --[serves (Inverse) (0.0000)]--> Entity_159"
+    },
+    {
+      "rank": 34,
+      "total_score": 0.016890075519785885,
+      "avg_score": 0.0056300251732619615,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 47637,
+          "tail_name": "User_2831",
+          "attention_score": 1.576765554082265e-05
+        },
+        {
+          "head_id": 47637,
+          "head_name": "User_2831",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00747064568180136
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_2831 --[Interact (0.0075)]--> Entity_159"
+    },
+    {
+      "rank": 35,
+      "total_score": 0.016715460257757796,
+      "avg_score": 0.0055718200859192655,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 55797,
+          "tail_name": "User_10991",
+          "attention_score": 0.0072430195267030985
+        },
+        {
+          "head_id": 55797,
+          "head_name": "User_10991",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.006976884780440367
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0072)]--> User_10991 --[Interact (0.0070)]--> Entity_159"
+    },
+    {
+      "rank": 36,
+      "total_score": 0.01667993305969936,
+      "avg_score": 0.005559977686566454,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 44834,
+          "tail_name": "User_28",
+          "attention_score": 3.40621150889694e-05
+        },
+        {
+          "head_id": 44834,
+          "head_name": "User_28",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.007242208762166691
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_28 --[Interact (0.0072)]--> Entity_159"
+    },
+    {
+      "rank": 37,
+      "total_score": 0.01597263838697079,
+      "avg_score": 0.00532421279565693,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45142,
+          "tail_name": "User_336",
+          "attention_score": 1.6066803689507453e-05
+        },
+        {
+          "head_id": 45142,
+          "head_name": "User_336",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.006552909400837581
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_336 --[Interact (0.0066)]--> Entity_159"
+    },
+    {
+      "rank": 38,
+      "total_score": 0.015855115642830812,
+      "avg_score": 0.005285038547610271,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1554,
+          "tail_name": "Entity_1554",
+          "attention_score": 0.0065115867471281196
+        },
+        {
+          "head_id": 1554,
+          "head_name": "Entity_1554",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 44893,
+          "tail_name": "User_87",
+          "attention_score": 0.00023567464945796604
+        },
+        {
+          "head_id": 44893,
+          "head_name": "User_87",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.009107854246244726
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0065)]--> Entity_1554 --[InteractedBy (0.0002)]--> User_87 --[Interact (0.0091)]--> Entity_159"
+    },
+    {
+      "rank": 39,
+      "total_score": 0.0156571575842167,
+      "avg_score": 0.005219052528072234,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 53818,
+          "tail_name": "User_9012",
+          "attention_score": 9.35639979421673e-05
+        },
+        {
+          "head_id": 53818,
+          "head_name": "User_9012",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.006159931403830833
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0001)]--> User_9012 --[Interact (0.0062)]--> Entity_159"
+    },
+    {
+      "rank": 40,
+      "total_score": 0.015490439653513665,
+      "avg_score": 0.005163479884504555,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12832,
+          "tail_name": "Entity_12832",
+          "attention_score": 0.004087860698272883
+        },
+        {
+          "head_id": 12832,
+          "head_name": "Entity_12832",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45037,
+          "tail_name": "User_231",
+          "attention_score": 2.5516647417401505e-06
+        },
+        {
+          "head_id": 45037,
+          "head_name": "User_231",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.011400027290499042
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0041)]--> Entity_12832 --[InteractedBy (0.0000)]--> User_231 --[Interact (0.0114)]--> Entity_159"
+    },
+    {
+      "rank": 41,
+      "total_score": 0.014232818463729386,
+      "avg_score": 0.004744272821243129,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1554,
+          "tail_name": "Entity_1554",
+          "attention_score": 0.0065115867471281196
+        },
+        {
+          "head_id": 1554,
+          "head_name": "Entity_1554",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45328,
+          "tail_name": "User_522",
+          "attention_score": 5.115164954440333e-05
+        },
+        {
+          "head_id": 45328,
+          "head_name": "User_522",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.007670080067056862
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0065)]--> Entity_1554 --[InteractedBy (0.0001)]--> User_522 --[Interact (0.0077)]--> Entity_159"
+    },
+    {
+      "rank": 42,
+      "total_score": 0.014200829604285817,
+      "avg_score": 0.0047336098680952725,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1030,
+          "tail_name": "Entity_1030",
+          "attention_score": 0.0046671301765609805
+        },
+        {
+          "head_id": 1030,
+          "head_name": "Entity_1030",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 56571,
+          "tail_name": "User_11765",
+          "attention_score": 0.0017205881232592618
+        },
+        {
+          "head_id": 56571,
+          "head_name": "User_11765",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.007813111304465575
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0047)]--> Entity_1030 --[InteractedBy (0.0017)]--> User_11765 --[Interact (0.0078)]--> Entity_159"
+    },
+    {
+      "rank": 43,
+      "total_score": 0.013862394623493179,
+      "avg_score": 0.004620798207831059,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 50322,
+          "tail_name": "User_5516",
+          "attention_score": 2.182926270211488e-05
+        },
+        {
+          "head_id": 50322,
+          "head_name": "User_5516",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.011345009410176736
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0000)]--> User_5516 --[Interact (0.0113)]--> Entity_159"
+    },
+    {
+      "rank": 44,
+      "total_score": 0.013805110751115564,
+      "avg_score": 0.004601703583705188,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45435,
+          "tail_name": "User_629",
+          "attention_score": 7.469638213106875e-05
+        },
+        {
+          "head_id": 45435,
+          "head_name": "User_629",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.011234858418370167
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0001)]--> User_629 --[Interact (0.0112)]--> Entity_159"
+    },
+    {
+      "rank": 45,
+      "total_score": 0.013395035380849029,
+      "avg_score": 0.004465011793616343,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 1555,
+          "tail_name": "Entity_1555",
+          "attention_score": 0.009403662182443701
+        },
+        {
+          "head_id": 1555,
+          "head_name": "Entity_1555",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 45452,
+          "tail_name": "User_646",
+          "attention_score": 2.9416043602216724e-05
+        },
+        {
+          "head_id": 45452,
+          "head_name": "User_646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.003961957154803111
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0094)]--> Entity_1555 --[InteractedBy (0.0000)]--> User_646 --[Interact (0.0040)]--> Entity_159"
+    },
+    {
+      "rank": 46,
+      "total_score": 0.013298016522082902,
+      "avg_score": 0.004432672174027634,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 51895,
+          "tail_name": "User_7089",
+          "attention_score": 0.00018171407931034394
+        },
+        {
+          "head_id": 51895,
+          "head_name": "User_7089",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.01062074649215823
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0002)]--> User_7089 --[Interact (0.0106)]--> Entity_159"
+    },
+    {
+      "rank": 47,
+      "total_score": 0.011691855061164706,
+      "avg_score": 0.0038972850203882353,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 44893,
+          "tail_name": "User_87",
+          "attention_score": 8.844486430565246e-05
+        },
+        {
+          "head_id": 44893,
+          "head_name": "User_87",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.009107854246244726
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0001)]--> User_87 --[Interact (0.0091)]--> Entity_159"
+    },
+    {
+      "rank": 48,
+      "total_score": 0.010075388230752337,
+      "avg_score": 0.0033584627435841122,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 8710,
+          "tail_name": "Entity_8710",
+          "attention_score": 0.0016236894633273454
+        },
+        {
+          "head_id": 8710,
+          "head_name": "Entity_8710",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 50003,
+          "tail_name": "User_5197",
+          "attention_score": 0.0009181552418635188
+        },
+        {
+          "head_id": 50003,
+          "head_name": "User_5197",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.007533543525561473
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0016)]--> Entity_8710 --[InteractedBy (0.0009)]--> User_5197 --[Interact (0.0075)]--> Entity_159"
+    },
+    {
+      "rank": 49,
+      "total_score": 0.009981825991736342,
+      "avg_score": 0.0033272753305787807,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 47637,
+          "tail_name": "User_2831",
+          "attention_score": 1.5624359320654422e-05
+        },
+        {
+          "head_id": 47637,
+          "head_name": "User_2831",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.00747064568180136
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0000)]--> User_2831 --[Interact (0.0075)]--> Entity_159"
+    },
+    {
+      "rank": 50,
+      "total_score": 0.005521931565673212,
+      "avg_score": 0.001840643855224404,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 49452,
+          "head_name": "User_4646",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12826,
+          "tail_name": "Entity_12826",
+          "attention_score": 0.0024955559506143286
+        },
+        {
+          "head_id": 12826,
+          "head_name": "Entity_12826",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "tail_id": 56068,
+          "tail_name": "User_11262",
+          "attention_score": 0.00040194217938544164
+        },
+        {
+          "head_id": 56068,
+          "head_name": "User_11262",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 159,
+          "tail_name": "Entity_159",
+          "attention_score": 0.0026244334356734424
+        }
+      ],
+      "path_string": "User:4646 --[Interact (0.0025)]--> Entity_12826 --[InteractedBy (0.0004)]--> User_11262 --[Interact (0.0026)]--> Entity_159"
+    }
+  ]
+}
