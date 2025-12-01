@@ -1,0 +1,875 @@
+item_id,entity_id,entity_name,score
+12,14238,Tampa,6.230043
+12,14236,seafood dishes,2.3786688
+12,14234,fusion cuisine,0.8412405
+12,14235,diverse menu options,0.32763267
+12,14110,cozy ambiance,0.32119286
+12,14213,creative cocktails,-1.0984448
+12,14216,cocktails,-1.9568534
+12,14237,pasta dishes,-2.32635
+40,14238,Tampa,6.230043
+40,14387,modern,2.4223788
+40,14386,wine bar,1.9946691
+40,14385,wine,0.11757549
+40,14388,diverse menu,0.115594015
+40,14389,excellent wine selection,-0.06968526
+40,14214,cozy,-0.86678183
+40,14391,meats,-2.0362875
+40,14390,cheese,-2.342548
+41,14360,gluten-free food,5.8524475
+41,14195,St. Petersburg,4.8848944
+41,14364,grocery section,2.205961
+41,14363,variety of specialty items,1.7303723
+41,14359,organic food,1.5157198
+41,14361,vegan food,-0.20774895
+41,14362,health-conscious food,-0.8713655
+41,14365,market,-0.8809119
+41,14126,cafe,-0.9523962
+47,14238,Tampa,6.230043
+47,14383,Hotel & Casino,3.108286
+47,14382,DJ events,2.4758954
+47,14378,entertainment,2.1928396
+47,14380,late-night options,1.7222078
+47,14222,live music,1.1928816
+47,14377,dining options,0.810388
+47,14379,slot machines,0.68994594
+47,14384,casino,0.38007504
+47,14381,bars,0.110804066
+47,14376,variety of dining options,-0.22689013
+58,14473,Clearwater,5.268725
+58,14471,quaint,3.845434
+58,14277,fresh ingredients,0.5932561
+58,14472,outdoor dining,0.38699818
+58,14120,affordable,-0.946767
+58,14126,cafe,-0.9523962
+58,14470,vegetarian food,-1.3972644
+58,14324,charming,-1.9036422
+58,14113,restaurant,-2.5484624
+105,14733,diverse selection,0.885463
+105,14732,friendly but watchful staff,0.4959593
+105,14454,welcoming atmosphere,0.1390326
+123,14238,Tampa,6.230043
+123,14800,great prices,2.6447203
+123,14799,lobster,0.4648982
+123,14801,seafood lovers,-0.22478426
+123,14206,seafood,-1.2083306
+123,14332,casual dining setting,-2.2476285
+462,16243,Westchase,3.5903285
+462,14265,burger,0.12630537
+462,14259,friendly staff,-0.059740838
+462,14085,craft beers,-0.78838605
+462,14086,beers,-1.5317492
+462,14119,casual dining,-2.5426679
+462,14304,pizza,-3.4173787
+618,14195,St. Petersburg,4.8848944
+618,15451,vibrant nightlife scene,1.6467129
+618,14102,delicious food,0.45587713
+618,14539,Latin American cuisine,-0.21733099
+618,14613,upscale dining,-0.533469
+618,14096,lively atmosphere,-0.69201326
+618,14280,unique flavors,-1.9430422
+618,14115,Mexican,-2.3903136
+618,14113,restaurant,-2.5484624
+796,17452,St Petersburg,5.1573343
+796,15283,nice atmosphere,1.6757187
+796,17454,People who appreciate friendly staff,1.5786992
+796,14222,live music,1.1928816
+796,14259,friendly staff,-0.059740838
+796,14537,Fans of Southern cuisine,-0.2633601
+796,14955,southern cuisine,-1.0155207
+796,17453,fans of soul food,-1.2957394
+796,17455,people who enjoy live music,-1.6058569
+796,14533,soul food,-2.2789237
+1306,19199,veggies,2.9707823
+1306,19200,outstanding atmosphere,2.430623
+1306,19196,modern restaurants,1.9741018
+1306,19197,beautiful restaurants,1.4335746
+1306,19198,vegan-friendly options,0.31406534
+1306,15383,fish,-0.97262216
+1306,14442,asian fusion,-2.1900306
+1365,14911,waterfront views,5.5611963
+1365,14195,St. Petersburg,4.8848944
+1365,19370,bay views,2.5801134
+1365,14698,relaxed,1.9843764
+1365,14133,outdoor seating,1.5943633
+1365,14222,live music,1.1928816
+1365,14783,drinks,-0.32137352
+1365,14206,seafood,-1.2083306
+1419,14238,Tampa,6.230043
+1419,14797,desserts,3.3398018
+1419,19532,Premium price for high-quality baked goods,2.0585794
+1419,19530,elevated desserts,1.9229968
+1419,19531,entremet style desserts,1.7030085
+1419,19529,unique pastries,0.5327604
+1419,14397,food enthusiasts,-0.0031417508
+1419,15022,baked goods,-0.83199555
+1419,14181,pastries,-1.9356279
+1465,19647,organic options,5.6496315
+1465,14316,fresh,4.316622
+1465,14826,flavorful,0.8444743
+1465,15907,vegans,0.37451717
+1465,15179,clean environment,0.2423348
+1465,14229,friendly service,-0.9639968
+1465,15148,Middle Eastern cuisine,-1.4343295
+1465,14314,Mediterranean cuisine,-3.7024386
+1587,20028,hearty breakfast,2.4875937
+1587,14092,Indianapolis,1.87676
+1587,14823,variety of menu options,1.5263442
+1587,20029,Large restaurant,1.3045491
+1587,20030,Restaurant diners,0.55261284
+1587,14496,Fans of breakfast,-0.26401886
+1587,14229,friendly service,-0.9639968
+1691,14092,Indianapolis,1.87676
+1691,14414,coffee shop,1.7301313
+1691,15158,delicious pastries,1.544625
+1691,20311,good selection of tea,0.76211375
+1691,20310,good selection of coffee,0.46345496
+1691,14864,warm atmosphere,-1.2636911
+1691,14181,pastries,-1.9356279
+1807,14238,Tampa,6.230043
+1807,20603,"lively, modern atmosphere",3.3037014
+1807,15602,asian fusion dishes,1.1577567
+1807,16260,atmosphere,-0.73835146
+1807,14490,sushi,-0.8392986
+1807,14644,fresh sushi,-0.9902638
+1807,14208,good service,-1.2230145
+1807,14896,cocktail,-1.3536633
+1807,14216,cocktails,-1.9568534
+1807,14352,dish,-3.1275363
+1821,20650,cute bakery decor,3.8450024
+1821,17289,celebrations,1.4708018
+1821,14182,cake,1.4563148
+1821,19789,splurge,-1.6400635
+1821,15543,cupcakes,-2.3183107
+2035,14473,Clearwater,5.268725
+2035,16744,healthy options,1.8857635
+2035,21216,Pub & Grill,1.6090312
+2035,21215,great daily specials,1.5595163
+2035,14222,live music,1.1928816
+2035,15475,attentive staff,1.0318401
+2035,14245,good food,-0.43984383
+2035,21214,clean ambiance,-0.77666765
+2035,21217,neighborhood pub,-1.5869544
+2662,22771,made-from-scratch pasta,3.1600845
+2662,22774,People seeking upscale dining,2.7079518
+2662,22773,Those who appreciate high-quality food,2.5709317
+2662,22772,outstanding food quality,1.9220625
+2662,21786,romantic setting,1.2360157
+2662,19031,Trattoria,0.13474551
+2662,14469,excellent service,-0.28451017
+2662,14402,Italian,-0.8275438
+2662,17589,pasta,-1.0716233
+2662,14401,italian restaurant,-1.8312353
+2662,14693,Fans of Italian,-2.0010529
+2774,14238,Tampa,6.230043
+2774,23048,Spot for social gatherings,3.7359133
+2774,23046,trendy concepts,2.9200583
+2774,23050,taking photos,2.1888313
+2774,23047,outdoor spaces,1.99956
+2774,23049,unique food experiences,1.7440418
+2774,17165,variety in dining options,1.6226318
+2774,14222,live music,1.1928816
+2774,15082,events,1.0309918
+2797,23096,clean and well-maintained theater,4.4536996
+2797,15766,movies,2.7754529
+2797,23095,state-of-the-art sound and projection equipment,2.3701828
+2797,23098,Individuals seeking convenient and clean movie-going experience,1.9341965
+2797,23094,Countryside,1.5302879
+2797,23097,Fans of immersive movie experiences,1.4949036
+2797,16973,comfortable seating,0.28359514
+2797,14408,families,-0.26497892
+2892,14238,Tampa,6.230043
+2892,23341,popularity among the Asian community and non-Asians,3.8416915
+2892,23342,cleanliness concerns,3.224418
+2892,23343,Fans of authentic Vietnamese food,2.95757
+2892,18840,banh mi sandwiches,2.341855
+2892,23344,Vietnamese coffee enthusiasts,2.1215627
+2892,20629,Vietnamese coffee,1.8460363
+2892,15851,Vietnamese restaurant,-0.29399112
+2892,14918,pho,-1.5658765
+2892,14568,flavorful dishes,-2.1643243
+2892,15848,Vietnamese food,-2.3633578
+3063,15667,unique experience,3.2226014
+3063,20458,music lovers,1.9466968
+3063,18153,history enthusiasts,1.8961178
+3063,15222,tourists,1.3932831
+3063,23739,music memorabilia,0.7183181
+3063,14353,Nashville,0.685339
+3063,23738,Music museum,0.43833795
+3063,22075,country music,-0.23631309
+3063,23740,Fans of country music,-0.3849935
+3125,14130,spacious environment,3.7696984
+3125,23884,"People who enjoy a variety of breakfast, lunch, and snack options",3.6974173
+3125,23885,"People who value a good selection of baked goods, salads, sandwiches, and seasonal items",2.74617
+3125,14226,breakfast,2.6458127
+3125,17638,snacks,0.554676
+3125,15179,clean environment,0.2423348
+3125,14259,friendly staff,-0.059740838
+3125,15022,baked goods,-0.83199555
+3125,14719,sandwiches,-1.4534327
+3125,14718,salads,-1.5146813
+3125,23883,seasonal items,-1.5615928
+3125,14325,lunch,-1.7537113
+3251,16488,scenic views,3.9953587
+3251,24172,kayaking,2.9356968
+3251,24170,peaceful walks,1.9776438
+3251,14092,Indianapolis,1.87676
+3251,24173,paddleboating,0.7474591
+3251,24171,recreational opportunities,0.30705798
+3251,18208,biking,0.09647106
+3251,24174,aesthetically pleasing environment,-0.05490517
+3251,24175,Individuals seeking relaxing environment,-0.073908776
+3251,24176,Walk,-0.2758556
+3251,15212,outdoor activities,-0.7597707
+3251,15738,relaxing environment,-1.5018278
+3295,14238,Tampa,6.230043
+3295,18599,movie enthusiasts,2.8609996
+3295,24267,convenient mall locations,2.6268728
+3295,17826,ample parking,2.3201513
+3295,24268,clean theaters,1.7973539
+3295,16109,food and drink options,0.80353343
+3295,16291,drink,-0.54224986
+3295,18598,movie theater,-0.9608218
+3502,24785,beachfront dining,5.3222704
+3502,24232,wide selection of drinks,3.113741
+3502,14441,Treasure Island,2.6670513
+3502,22885,valet parking,2.37469
+3502,14698,relaxed,1.9843764
+3502,14245,good food,-0.43984383
+3551,14238,Tampa,6.230043
+3551,14651,sushi lovers,-0.11872898
+3551,14726,good quality food,-0.48449922
+3551,14490,sushi,-0.8392986
+3551,14120,affordable,-0.946767
+3551,14229,friendly service,-0.9639968
+4292,14238,Tampa,6.230043
+4292,14797,desserts,3.3398018
+4292,26545,Fans of savory items,1.7194847
+4292,26544,Fans of Asian baked goods,1.69298
+4292,26546,People exploring new flavors,1.3617066
+4292,26542,savory items,0.7511479
+4292,26541,Asian baked goods,0.57617253
+4292,26543,well-organized bakery,0.37769485
+4292,15022,baked goods,-0.83199555
+4292,16235,Fans of desserts,-1.3657415
+4292,22655,options,-1.9065585
+4292,14355,bakery items,-3.431129
+4338,14473,Clearwater,5.268725
+4338,25883,clean dining spaces,2.8596885
+4338,23536,Korean restaurant,-0.4358997
+4338,21181,Fans of Korean BBQ,-0.89585775
+4338,14229,friendly service,-0.9639968
+4338,14984,large portion sizes,-1.145601
+4338,17622,Korean BBQ,-4.164275
+4438,14238,Tampa,6.230043
+4438,20125,Japanese ramen,0.25418678
+4438,14715,Ramen restaurant,0.17884888
+4438,15348,lively nightlife atmosphere,-0.021472214
+4438,15067,unique cocktails,-1.002439
+4438,14714,ramen,-1.6258935
+4446,20032,lively dining atmosphere,1.3784796
+4446,14353,Nashville,0.685339
+4446,19415,smoked meats,-0.40489313
+4446,26911,variety of smoked meats,-0.7363639
+4446,16871,sauces,-1.5674788
+4446,20691,flavorful sauces,-1.6029581
+4446,14463,meat,-2.4701483
+4477,14473,Clearwater,5.268725
+4477,26978,formal,2.3399243
+4477,26979,spend more,0.9719874
+4477,14613,upscale dining,-0.533469
+4477,14853,steaks,-0.7141831
+4477,14206,seafood,-1.2083306
+4477,14616,special occasions,-1.7948983
+4477,14216,cocktails,-1.9568534
+4477,14113,restaurant,-2.5484624
+4737,14238,Tampa,6.230043
+4737,14567,steak,-0.009167575
+4737,20956,Users who enjoy upscale dining experiences,-0.8494597
+4737,14206,seafood,-1.2083306
+4737,17756,modern ambiance,-1.5665756
+4737,14215,attentive service,-1.6435133
+4737,21789,upscale restaurant,-1.8229302
+4843,18942,variety of beverages,5.9289823
+4843,14195,St. Petersburg,4.8848944
+4843,27764,sustainable business practices,1.5478678
+4843,14361,vegan food,-0.20774895
+4843,22382,LGBTQ+ community,-0.20830326
+4843,14214,cozy,-0.86678183
+4843,14126,cafe,-0.9523962
+4843,14470,vegetarian food,-1.3972644
+5056,14844,Saint Petersburg,5.7255607
+5056,16127,appetizers,4.6541395
+5056,28257,Crabby Patty appetizers,2.7024581
+5056,28256,creativity in menu options,2.4916437
+5056,15838,trendy,0.95271987
+5056,20065,mac n cheese,0.5400964
+5056,14102,delicious food,0.45587713
+5056,14614,craft cocktails,0.20696737
+5056,14354,menu options,-0.36952195
+5056,18508,creative menu,-0.8307628
+5056,14855,casual,-1.1652092
+5056,14216,cocktails,-1.9568534
+5056,14390,cheese,-2.342548
+5056,14276,burgers,-2.830809
+5129,16127,appetizers,4.6541395
+5129,28380,low calorie menu,1.2077444
+5129,28379,alcohol options,1.1318495
+5129,14388,diverse menu,0.115594015
+5129,16695,coupons,-0.05147279
+5129,14304,pizza,-3.4173787
+5322,14238,Tampa,6.230043
+5322,28812,Malabar Curry,2.2687182
+5322,28811,Chicken Sag,1.9183193
+5322,28810,extensive buffet options,1.4871185
+5322,28809,top-quality food,0.8216804
+5322,28813,relaxed ambiance,0.2707754
+5322,14229,friendly service,-0.9639968
+5322,14255,Indian cuisine,-1.0822889
+5322,14568,flavorful dishes,-2.1643243
+5322,15636,Indian food,-2.174778
+5322,14262,Indian restaurant,-2.3193393
+5560,14473,Clearwater,5.268725
+5560,29316,Users who appreciate premium bread,1.7724565
+5560,29317,Users who appreciate organic bread,1.3935213
+5560,29313,premium bread,0.984223
+5560,29312,organic bread,0.87535065
+5560,29315,no-frills bakery,0.34388575
+5560,29314,simple bakery experience,0.20793231
+5560,14259,friendly staff,-0.059740838
+5560,14717,bread,-1.859094
+5575,16735,Largo,4.403882
+5575,29333,tasty steaks,2.3897302
+5575,15476,steak lovers,0.98752224
+5575,14567,steak,-0.009167575
+5575,14853,steaks,-0.7141831
+5575,14208,good service,-1.2230145
+5575,16090,welcoming ambiance,-2.452587
+5575,15474,steakhouse,-3.3101711
+6140,14238,Tampa,6.230043
+6140,15387,lively nightlife,5.24968
+6140,21849,themed nights,2.0118911
+6140,30447,college football fans,1.7114977
+6140,14923,drink specials,1.689709
+6140,15112,sushi enthusiasts,0.13655242
+6140,16232,young adults,-0.36106715
+6140,14490,sushi,-0.8392986
+6140,14119,casual dining,-2.5426679
+6140,14643,Japanese cuisine,-2.734565
+6256,14844,Saint Petersburg,5.7255607
+6256,30709,customized orders,1.1488833
+6256,30710,cozy dining environment,-0.25624874
+6256,14167,Thai cuisine,-0.5279286
+6256,14696,reasonable,-0.8341286
+6256,14442,asian fusion,-2.1900306
+6474,14353,Nashville,0.685339
+6474,14259,friendly staff,-0.059740838
+6474,23670,tasty comfort food,-0.27234146
+6474,30828,artisanal cocktails,-0.41171587
+6474,31132,Lodge,-0.46070832
+6474,31130,mountain lodge vibe,-0.51767844
+6474,31131,crafted drinks,-1.0215427
+6474,31128,"laid-back, cozy atmosphere",-1.725118
+6474,31129,delicious appetizers,-1.9266059
+6504,15605,intimate dining,3.7312171
+6504,17307,Madeira Beach,3.4896622
+6504,14211,seafood enthusiasts,1.22553
+6504,14469,excellent service,-0.28451017
+6504,14206,seafood,-1.2083306
+6504,17133,fresh seafood,-1.262577
+6504,14210,seafood restaurant,-1.882452
+6779,14844,Saint Petersburg,5.7255607
+6779,31715,Coffee & Cocktails,3.1328359
+6779,31713,modern and minimalist setting,3.043267
+6779,31711,well-prepared cocktails,2.5662873
+6779,31714,hipster vibes,2.2646983
+6779,31712,reasonably priced cocktails,0.18659125
+6779,14469,excellent service,-0.28451017
+6779,14127,coffee,-1.0287168
+6779,14699,high-quality coffee,-1.2434986
+6779,14216,cocktails,-1.9568534
+6824,21427,tastings,4.7843084
+6824,31807,kombucha,3.4547737
+6824,14895,cider,3.2092617
+6824,14894,mead,3.1746056
+6824,22264,Florida,3.0535607
+6824,31808,cold brew coffee,2.9344015
+6824,31809,Elite brew weeks,2.128613
+6824,17404,knowledgeable,1.5236828
+6824,14733,diverse selection,0.885463
+6824,14154,friendly,-0.82720214
+6824,14086,beers,-1.5317492
+6860,19354,Oldsmar,5.4272037
+6860,22950,freshness,3.4071753
+6860,31892,innovative Chinese food,2.7674341
+6860,20779,high-quality Chinese food,2.26527
+6860,23510,clean and friendly environment,1.7673092
+6860,14185,flavor,1.2985678
+6860,14999,good customer service,1.1140527
+6860,25918,positive dining experience,0.83066046
+6860,14489,Chinese cuisine,-3.065983
+7024,14238,Tampa,6.230043
+7024,16278,Cuban cuisine,6.099879
+7024,32217,authentic Cuban food,2.2070875
+7024,32219,Medianoche,1.9305054
+7024,32220,Fans of authentic Cuban cuisine,1.8466142
+7024,32218,Ropa Vieja,1.8285879
+7024,14157,traditional dishes,-0.2692146
+7024,30604,plantains,-1.0395448
+7024,17943,flavorful meats,-1.5589398
+7111,14195,St. Petersburg,4.8848944
+7111,17541,beer lovers,4.1603785
+7111,32374,vegetarian-friendly dining options,2.689715
+7111,17092,vibrant nightlife,2.0690875
+7111,19150,cocktail enthusiasts,1.264832
+7111,14377,dining options,0.810388
+7111,14796,vegetarian diners,0.60591877
+7111,24365,Fans of vibrant nightlife,0.41116264
+7111,15202,diverse beer selection,-0.44689813
+7111,14086,beers,-1.5317492
+7111,14216,cocktails,-1.9568534
+7407,14238,Tampa,6.230043
+7407,14797,desserts,3.3398018
+7407,32936,various flavors,2.869794
+7407,32935,creative desserts,2.4171946
+7407,30959,tasty desserts,1.9928097
+7407,32934,gourmet doughnuts,1.7714307
+7407,17421,doughnuts,1.6684572
+7407,14999,good customer service,1.1140527
+7407,14522,dessert,0.8253817
+7407,15955,high-quality desserts,0.71645653
+7444,14238,Tampa,6.230043
+7444,33014,yummy desserts,4.0669436
+7444,14522,dessert,0.8253817
+7444,14235,diverse menu options,0.32763267
+7444,14228,generous portions,-0.3302747
+7444,16747,consistent quality,-0.85525507
+7444,14113,restaurant,-2.5484624
+7466,14473,Clearwater,5.268725
+7466,33061,clean and spacious,2.2762043
+7466,14133,outdoor seating,1.5943633
+7466,29718,brews,1.3610555
+7466,14458,lively,0.15523782
+7466,15499,indoor seating,-0.06248911
+7466,15165,beer enthusiasts,-0.06721726
+7466,14469,excellent service,-0.28451017
+7466,14086,beers,-1.5317492
+7509,14844,Saint Petersburg,5.7255607
+7509,14133,outdoor seating,1.5943633
+7509,14519,great service,1.5817645
+7509,14126,cafe,-0.9523962
+7509,14442,asian fusion,-2.1900306
+7509,15848,Vietnamese food,-2.3633578
+7624,19354,Oldsmar,5.4272037
+7624,33357,solid menu options,2.155104
+7624,15453,happy hour specials,2.0161057
+7624,15360,decent prices,0.12500735
+7624,14843,sushi restaurant,-0.3695968
+7624,14490,sushi,-0.8392986
+7624,17756,modern ambiance,-1.5665756
+8080,14238,Tampa,6.230043
+8080,16905,casual vibe,2.4430296
+8080,14369,variety of flavors,1.9135203
+8080,19770,reasonably priced drinks,1.8459783
+8080,15021,tea,0.7472527
+8080,18862,Tea shop,-0.27995488
+8080,14154,friendly,-0.82720214
+8224,34489,warmer store environment,2.6689734
+8224,34488,longer-lasting produce,1.369627
+8224,20498,customizable food options,1.3495486
+8224,34486,assistance with groceries,0.81033725
+8224,34487,helpful employees,0.36885387
+8224,14259,friendly staff,-0.059740838
+8224,14490,sushi,-0.8392986
+8224,21004,store,-0.92122746
+8390,14238,Tampa,6.230043
+8390,14316,fresh,4.316622
+8390,14226,breakfast,2.6458127
+8390,14424,quick service,1.6937225
+8390,14337,excellent customer service,1.0427725
+8390,16101,tasty,-0.15139659
+8390,14228,generous portions,-0.3302747
+8390,14510,breakfast sandwiches,-1.4016209
+8572,14238,Tampa,6.230043
+8572,35105,contemporary and clean restaurant,2.9646313
+8572,18840,banh mi sandwiches,2.341855
+8572,14203,foodies,0.6299427
+8572,14916,Vietnamese cuisine,-1.3056138
+8572,14918,pho,-1.5658765
+8572,14113,restaurant,-2.5484624
+8588,14473,Clearwater,5.268725
+8588,35152,comfortable and inviting ambiance,2.8695838
+8588,35151,fabulous desserts,2.253569
+8588,35150,buffet-style brunches,2.14943
+8588,14232,groups,1.5545853
+8588,20939,early bird specials,0.19394
+8588,14801,seafood lovers,-0.22478426
+8588,14085,craft beers,-0.78838605
+8588,14206,seafood,-1.2083306
+8588,14103,brunch,-3.0562727
+8685,14195,St. Petersburg,4.8848944
+8685,35328,laid-back yet sophisticated atmosphere,3.2280598
+8685,35327,vintage speakeasy vibe,3.199172
+8685,18067,community involvement,2.581404
+8685,27541,hand-crafted cocktails,0.5259814
+8685,19162,delicious drinks,-0.2643614
+8744,14238,Tampa,6.230043
+8744,35425,modern chic decor,2.6400301
+8744,35428,People seeking Thai food,2.3557394
+8744,35430,People on dates,1.9532084
+8744,35427,People seeking live music,1.9398485
+8744,35429,People seeking sushi,1.7846884
+8744,14232,groups,1.5545853
+8744,35426,People seeking upscale ambiance,1.384403
+8744,17047,People looking for happy hour,1.2933525
+8744,14222,live music,1.1928816
+8744,14891,dates,0.3557381
+8744,14524,happy hour,0.05785113
+8744,14878,families with kids,-0.12578113
+8744,14167,Thai cuisine,-0.5279286
+8744,14490,sushi,-0.8392986
+8744,16551,upscale ambiance,-0.9594461
+8887,14844,Saint Petersburg,5.7255607
+8887,35705,"Users who enjoy a mix of American cuisine, great atmosphere, attentive service, reasonable prices, and a variety of food and drink options",1.640193
+8887,15741,great atmosphere,0.7773245
+8887,15446,drink options,-0.5018496
+8887,14696,reasonable,-0.8341286
+8887,14215,attentive service,-1.6435133
+8887,14152,American cuisine,-1.9186769
+8974,19647,organic options,5.6496315
+8974,14517,Dunedin,3.5664444
+8974,35861,organic tortilla soup,2.466781
+8974,35860,vegan tiramisu,2.2139595
+8974,18071,healthy meals,1.6488471
+8974,34082,special menu items,1.627959
+8974,14264,gluten-free options,0.8722595
+8974,14306,vegan options,-0.27241164
+8974,14518,friendly atmosphere,-0.6262085
+9014,24057,locally sourced food,3.9679635
+9014,35936,People seeking great service,2.6973448
+9014,23035,Gulfport,2.4208052
+9014,14133,outdoor seating,1.5943633
+9014,14359,organic food,1.5157198
+9014,14110,cozy ambiance,0.32119286
+9014,15499,indoor seating,-0.06248911
+9014,15529,Italian food enthusiasts,-0.7022967
+9014,14402,Italian,-0.8275438
+9014,18557,people seeking cozy atmosphere,-0.8826719
+9014,18121,knowledgeable waitstaff,-1.1150814
+9014,15493,intimate dining experiences,-1.7194115
+9126,14238,Tampa,6.230043
+9126,14342,brewery tours,3.7294729
+9126,36139,large and relaxed,3.632069
+9126,36137,unique draft selections,2.18883
+9126,36138,rotating draft selections,1.488861
+9126,14085,craft beers,-0.78838605
+9126,14086,beers,-1.5317492
+9154,36205,trendy urban setting,3.0036445
+9154,20118,homemade dishes,0.7250805
+9154,14085,craft beers,-0.78838605
+9154,15067,unique cocktails,-1.002439
+9154,14955,southern cuisine,-1.0155207
+9154,19416,flavorful sides,-1.0389873
+9154,14086,beers,-1.5317492
+9154,16629,sides,-1.5383786
+9154,14215,attentive service,-1.6435133
+9154,14216,cocktails,-1.9568534
+9154,14802,comfort food,-2.1050744
+9607,14844,Saint Petersburg,5.7255607
+9607,16002,Vietnamese dishes,4.447563
+9607,20138,good food variety,2.9553673
+9607,36996,nicely decorated environment,1.5735116
+9607,20486,asian fusion restaurant,0.405772
+9607,14500,reasonably priced,0.3681938
+9607,15179,clean environment,0.2423348
+9607,15851,Vietnamese restaurant,-0.29399112
+9607,16741,Chinese restaurant,-0.5502925
+9607,15846,Chinese dishes,-0.67805314
+9607,14442,asian fusion,-2.1900306
+9607,16648,dim sum,-2.3452485
+9661,14238,Tampa,6.230043
+9661,37124,more for quality food,2.770859
+9661,37122,unique empanadas,1.6387134
+9661,37123,perfectly cooked dough,1.393205
+9661,37121,delicious empanadas,1.3591557
+9661,27960,flavorful fillings,1.0814484
+9661,16452,empanadas,-0.21666662
+9698,14473,Clearwater,5.268725
+9698,14797,desserts,3.3398018
+9698,14226,breakfast,2.6458127
+9698,14691,welcoming service,1.2008187
+9698,37191,locals seeking a comforting dining experience,1.1525956
+9698,14337,excellent customer service,1.0427725
+9698,14486,Fans of diverse menu options,0.46360362
+9698,37190,cozy 60s vibe,0.3638364
+9698,14235,diverse menu options,0.32763267
+9698,20961,fans of diner food,0.3104101
+9698,14227,diner food,-0.4158751
+9698,14206,seafood,-1.2083306
+9698,14719,sandwiches,-1.4534327
+9950,14238,Tampa,6.230043
+9950,37653,occasional promotions,3.0663548
+9950,14133,outdoor seating,1.5943633
+9950,21994,pet-friendly environment,0.5018053
+9950,14265,burger,0.12630537
+9950,16932,fun,-0.14701082
+9950,14267,bar,-0.57355946
+9950,14574,gourmet burgers,-0.8255339
+10054,37816,kid-friendly breakfast options,2.72552
+10054,20202,classic American diner food,2.0667644
+10054,14235,diverse menu options,0.32763267
+10054,17981,Fans of classic American diner food,-0.015291816
+10054,14408,families,-0.26497892
+10054,14228,generous portions,-0.3302747
+10054,14214,cozy,-0.86678183
+10054,15004,diner,-1.4536912
+10324,14238,Tampa,6.230043
+10324,16488,scenic views,3.9953587
+10324,14133,outdoor seating,1.5943633
+10324,14096,lively atmosphere,-0.69201326
+10324,14490,sushi,-0.8392986
+10324,14804,American dishes,-0.8435863
+10324,14208,good service,-1.2230145
+10372,26905,retro ambiance,2.5649164
+10372,15772,friendly customer service,0.08953764
+10372,18179,interactive dining experiences,-1.5453026
+10448,14844,Saint Petersburg,5.7255607
+10448,35030,food and drink enthusiasts,3.4058511
+10448,14415,cool ambiance,1.9312575
+10448,20032,lively dining atmosphere,1.3784796
+10448,14222,live music,1.1928816
+10448,14388,diverse menu,0.115594015
+10448,17710,great,-0.20841196
+10448,14215,attentive service,-1.6435133
+10448,14216,cocktails,-1.9568534
+10448,14113,restaurant,-2.5484624
+10775,14238,Tampa,6.230043
+10775,39068,"local, funky cafes",2.200718
+10775,14214,cozy,-0.86678183
+10775,14126,cafe,-0.9523962
+10775,14127,coffee,-1.0287168
+10775,14719,sandwiches,-1.4534327
+11084,39655,loyalty discount program,1.6380352
+11084,14337,excellent customer service,1.0427725
+11084,14385,wine,0.11757549
+11084,16439,international foods,-0.4715072
+11084,15949,decor,-0.5548544
+11084,14696,reasonable,-0.8341286
+11084,16721,home decor,-1.4111136
+11084,14086,beers,-1.5317492
+11084,20400,furniture,-1.7413456
+11084,20331,gifts,-2.0327396
+11084,17430,foods,-2.1269343
+11299,14517,Dunedin,3.5664444
+11299,40040,large beer and cocktail selection,1.1404923
+11299,14102,delicious food,0.45587713
+11299,40039,tastefully built atmosphere,0.44729364
+11299,14229,friendly service,-0.9639968
+11299,14086,beers,-1.5317492
+11299,14250,barbecue,-2.209112
+11311,40063,authentic Japanese environment,1.73011
+11311,14235,diverse menu options,0.32763267
+11311,15112,sushi enthusiasts,0.13655242
+11311,14300,food lovers,0.12179756
+11311,14651,sushi lovers,-0.11872898
+11311,14469,excellent service,-0.28451017
+11311,14490,sushi,-0.8392986
+11311,14206,seafood,-1.2083306
+11311,14643,Japanese cuisine,-2.734565
+11359,16778,Ybor City,3.052334
+11359,40152,those who appreciate a good beer menu,2.8125887
+11359,40151,diverse tap selections,2.635262
+11359,27019,pet-friendly outdoor seating,2.0439959
+11359,14133,outdoor seating,1.5943633
+11359,40153,convenient location for bar hopping,1.2238182
+11359,14096,lively atmosphere,-0.69201326
+11359,14085,craft beers,-0.78838605
+11359,14086,beers,-1.5317492
+11552,40482,unique and flavorful creations,1.4637829
+11552,14522,dessert,0.8253817
+11552,30664,casual visits,0.7951329
+11552,40483,affordable desserts,0.73770386
+11552,14353,Nashville,0.685339
+11552,14187,bakery,0.2790646
+11552,23723,gourmet desserts,-0.25189647
+11552,16344,special events,-1.8446828
+11552,14842,variety of options,-2.0490754
+12210,14238,Tampa,6.230043
+12210,14259,friendly staff,-0.059740838
+12210,19315,tasty sides,-0.6209784
+12210,16631,BBQ enthusiasts,-1.6407955
+12210,14463,meat,-2.4701483
+12210,14119,casual dining,-2.5426679
+12210,14464,bbq,-3.7325013
+12272,14130,spacious environment,3.7696984
+12272,14133,outdoor seating,1.5943633
+12272,36426,variety of TVs,1.0200704
+12272,14658,convenient location,0.57747746
+12272,14388,diverse menu,0.115594015
+12272,15698,unspecified location,-0.14877662
+12272,24928,modern environment,-0.9313033
+12281,14195,St. Petersburg,4.8848944
+12281,41768,homey dining experience,2.3294713
+12281,41770,Individuals interested in heritage and culture,2.2339377
+12281,41769,a touch of history,1.9454795
+12281,36506,Creole restaurant,1.8800513
+12281,41767,African American heritage and culture,1.7767892
+12281,41766,authentic Creole cuisine,1.6889983
+12281,17787,Fans of Creole cuisine,1.5440835
+12281,14397,food enthusiasts,-0.0031417508
+12281,14568,flavorful dishes,-2.1643243
+12281,14151,creole cuisine,-3.0009768
+12347,14473,Clearwater,5.268725
+12347,41888,groups seeking good value,2.7261422
+12347,41887,fresh seafood options,2.4871473
+12347,41886,homemade noodles,2.3803678
+12347,41885,Americanized favorites,2.3434234
+12347,26214,Chinese food enthusiasts,0.97792804
+12347,20540,Fans of Asian cuisine,0.77548516
+12347,15179,clean environment,0.2423348
+12347,14259,friendly staff,-0.059740838
+12347,25651,peking duck,-0.18120936
+12347,14801,seafood lovers,-0.22478426
+12347,14157,traditional dishes,-0.2692146
+12347,16741,Chinese restaurant,-0.5502925
+12347,14696,reasonable,-0.8341286
+12347,14206,seafood,-1.2083306
+12347,14113,restaurant,-2.5484624
+12347,14489,Chinese cuisine,-3.065983
+12587,14238,Tampa,6.230043
+12587,16746,Fans of Indian cuisine,1.286382
+12587,15475,attentive staff,1.0318401
+12587,14235,diverse menu options,0.32763267
+12587,25152,excellent food quality,-0.9896265
+12587,14255,Indian cuisine,-1.0822889
+12618,18665,fun shopping experience,2.579465
+12618,16486,unique experiences,1.4088511
+12618,42391,personalized products,1.1466146
+12618,28577,Candle shop,0.8670514
+12618,42390,creative activities,0.8378903
+12618,42392,different shopping experience,0.50137204
+12618,14891,dates,0.3557381
+12618,15316,interactive experiences,0.041065305
+12618,16196,group outings,-0.38905504
+12723,14844,Saint Petersburg,5.7255607
+12723,42579,The Dali Museum,2.4189022
+12723,42580,Salvador Dali's work,1.8863117
+12723,14410,individuals,1.5204484
+12723,16570,history,1.3136498
+12723,14664,art,1.2531406
+12723,38925,unique art,0.9277438
+12723,15616,art enthusiasts,0.8893661
+12723,15404,interactive exhibits,0.8501553
+12723,14408,families,-0.26497892
+12809,14238,Tampa,6.230043
+12809,42702,open 24/7 availability,3.2473676
+12809,14979,Fans of Mexican street food,2.9553456
+12809,16151,fresh and flavorful,1.755747
+12809,18375,quick bite,1.1329708
+12809,14973,Mexican street food,0.69694346
+12809,14235,diverse menu options,0.32763267
+12809,39155,customizable choices,-1.626915
+12948,14951,Safety Harbor,5.1368585
+12948,42914,Fans of delicious Southern comfort food,2.5413709
+12948,17713,warm service,2.1121595
+12948,32360,fried chicken enthusiasts,1.9939684
+12948,15518,southern comfort food,0.9002016
+12948,14110,cozy ambiance,0.32119286
+12948,14935,fried chicken,-2.111311
+12970,14844,Saint Petersburg,5.7255607
+12970,42958,"Users who enjoy fresh, healthy, gluten-free options",4.420912
+12970,14316,fresh,4.316622
+12970,17518,customizable bowls,3.110398
+12970,17632,healthy,2.7268515
+12970,42956,variety of proteins,1.7384131
+12970,14424,quick service,1.6937225
+12970,42955,variety of vegetables,1.5859282
+12970,42957,variety of bases,1.3175952
+12970,14264,gluten-free options,0.8722595
+12976,14238,Tampa,6.230043
+12976,42964,St. Patrick's Day,2.810709
+12976,14271,great food,2.72031
+12976,14923,drink specials,1.689709
+12976,16681,Irish pub,1.6824385
+12976,14133,outdoor seating,1.5943633
+12976,14458,lively,0.15523782
+12976,14259,friendly staff,-0.059740838
+12976,15499,indoor seating,-0.06248911
+12976,16779,sports bar,-0.8073851
+12976,16344,special events,-1.8446828
+13100,14195,St. Petersburg,4.8848944
+13100,43168,full liquor bar,2.6115353
+13100,43169,"modern, clean ambiance",2.3266091
+13100,43170,Downtown St. Pete,2.243908
+13100,26538,reasonably priced menu,2.0624766
+13100,17666,high-quality sushi,-0.106709495
+13100,38887,friendly and quick service,-0.15951498
+13100,14490,sushi,-0.8392986
+13100,14113,restaurant,-2.5484624
+13111,14238,Tampa,6.230043
+13111,43173,"friendly, welcoming atmosphere",4.501804
+13111,43172,American sandwiches,4.292734
+13111,43174,Fans of hearty American sandwiches,2.3728402
+13111,14228,generous portions,-0.3302747
+13111,14846,personalized service,-0.5875242
+13111,15389,Fans of American food,-2.5836902
+13588,14573,service issues,1.3770437
+13588,27257,Large portion lovers,0.9644559
+13588,14500,reasonably priced,0.3681938
+13588,14254,large portions,-0.22554266
+13588,16509,Fans of comfort food,-0.67576593
+13588,14696,reasonable,-0.8341286
+13588,16364,quick meal,-1.1913068
+13588,14802,comfort food,-2.1050744
+13588,14119,casual dining,-2.5426679
+13588,23937,slow service,-2.7804093
+13591,15619,energetic,2.3572295
+13591,14133,outdoor seating,1.5943633
+13591,14929,people watching,0.97330844
+13591,14799,lobster,0.4648982
+13591,14154,friendly,-0.82720214
+13591,14206,seafood,-1.2083306
+13807,14844,Saint Petersburg,5.7255607
+13807,39908,expert stylists,2.5688975
+13807,44383,Bumble & Bumble products,2.1608737
+13807,44385,consultations,1.9711822
+13807,44384,free bang trims for returning customers,1.6903936
+13807,36276,online booking,1.3790845
+13807,15475,attentive staff,1.0318401
+13807,14696,reasonable,-0.8341286
+13860,14238,Tampa,6.230043
+13860,44467,wide selection of meats,1.7311
+13860,44470,Users who enjoy friendly atmosphere,1.5971404
+13860,44468,Users who enjoy meats,1.5589528
+13860,44469,Users who appreciate good service,1.0817652
+13860,37670,Brazilian steak,0.55248135
+13860,14469,excellent service,-0.28451017
+13860,17116,reasonable pricing,-0.38277915
+13860,14518,friendly atmosphere,-0.6262085
+13860,14260,personalized recommendations,-1.6969593
+13860,21128,salad bar,-2.048453
+13860,24512,Users who enjoy flavorful food,-2.459397
+13860,14463,meat,-2.4701483
+13860,14257,flavorful food,-3.503966
+14008,14238,Tampa,6.230043
+14008,44699,Fans of fresh and tasty deli sandwiches,1.8965546
+14008,14295,breakfast options,1.5931709
+14008,44701,chocolate babka French toast,1.1915418
+14008,44700,pastrami Reuben,0.87059027
+14008,15772,friendly customer service,0.08953764
+14008,14397,food enthusiasts,-0.0031417508
+14008,14164,deli,-0.26228577
+14008,14228,generous portions,-0.3302747
+14008,16398,lunch options,-1.6564274
+14008,17062,deli sandwiches,-1.8588539
+14008,14113,restaurant,-2.5484624
+14008,14607,sandwich,-4.296996
+14075,14844,Saint Petersburg,5.7255607
+14075,19739,southern food,1.0500473
+14075,15518,southern comfort food,0.9002016
+14075,14147,fair prices,0.7118692
+14075,14102,delicious food,0.45587713
+14075,14228,generous portions,-0.3302747
+14075,16509,Fans of comfort food,-0.67576593
+14075,14229,friendly service,-0.9639968
+14075,14802,comfort food,-2.1050744

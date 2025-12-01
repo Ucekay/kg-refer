@@ -1,0 +1,257 @@
+item_id,entity_id,entity_name,score
+460,14092,Indianapolis,5.2117486
+460,16253,visually appealing desserts,3.2720184
+460,16255,French charm,2.6132464
+460,16254,luxurious experience,2.02972
+460,15955,high-quality desserts,0.017123729
+460,14522,dessert,-0.100145236
+460,14797,desserts,-2.730172
+541,15168,Carmel,5.090339
+541,16575,People who enjoy cute cafes,1.9712982
+541,14154,friendly,-0.45500252
+541,14120,affordable,-0.9880454
+541,14229,friendly service,-1.0717857
+541,14984,large portion sizes,-1.5071143
+541,14214,cozy,-1.9150378
+541,14103,brunch,-2.8061755
+541,14226,breakfast,-4.9920826
+1906,14092,Indianapolis,5.2117486
+1906,20861,Literary experiences,3.8801246
+1906,20858,literary-themed experiences,3.6532102
+1906,20860,variety of beers,3.2183359
+1906,20859,local artisan crafts,3.066684
+1906,16256,books,0.781769
+1906,15677,bookstore,-0.0340437
+1906,14878,families with kids,-0.6935519
+1906,15165,beer enthusiasts,-0.7022644
+1906,14086,beers,-0.8840967
+1906,14267,bar,-0.89383566
+1906,14739,book lovers,-2.0897546
+2419,14092,Indianapolis,5.2117486
+2419,22206,comfortable seating with recliners,3.341277
+2419,22207,online ticket booking,2.6380208
+2419,22208,updated facilities,2.4750037
+2419,17387,cinema,1.9467217
+2419,19876,reserved seating,1.8628008
+2893,14206,seafood,-0.017235916
+2893,14112,New Orleans,-0.58806854
+2893,14215,attentive service,-1.370708
+2893,14152,American cuisine,-1.52595
+2893,14110,cozy ambiance,-1.5671085
+2893,14150,cajun cuisine,-2.4791112
+2893,14151,creole cuisine,-2.7534263
+2893,14113,restaurant,-3.140863
+3045,14092,Indianapolis,5.2117486
+3045,23687,Fans of laid-back atmosphere,3.1810322
+3045,14378,entertainment,0.22370803
+3045,14089,laid-back atmosphere,0.16020086
+3045,22132,craft beer lovers,-0.033636715
+3045,15243,games,-0.15095545
+3045,14085,craft beers,-1.1686634
+3045,15828,fans of sports bars,-1.1801445
+3705,25228,"Users who enjoy friendly service, trendy atmosphere, a wide variety of food and drink options including froyo, smoothies, crepes, coffee, and tea, and are willing to pay a premium for quality",3.1851656
+3705,15715,smoothies,0.2602725
+3705,14558,frozen yogurt,0.21750514
+3705,15838,trendy,-0.36752823
+3705,14296,crepes,-0.9684799
+3705,14127,coffee,-0.9916709
+3705,14229,friendly service,-1.0717857
+3705,16733,premium,-1.1144307
+3705,15446,drink options,-1.543098
+3705,15021,tea,-2.2641463
+4484,14092,Indianapolis,5.2117486
+4484,27003,serene park setting,3.0047011
+4484,18477,park,2.9259553
+4484,27004,interactive art installations,2.2524238
+4484,26210,picnicking,1.3397712
+4484,15616,art enthusiasts,1.1257771
+4484,15213,hiking,0.88332975
+4484,15221,nature lovers,0.7824411
+4484,14408,families,-1.2338947
+4484,15220,outdoor enthusiasts,-1.8437781
+4725,14092,Indianapolis,5.2117486
+4725,27531,lively restaurant setting,4.2428
+4725,20038,Winery,3.0427306
+4725,14385,wine,-0.53101873
+4725,14113,restaurant,-3.140863
+4796,14092,Indianapolis,5.2117486
+4796,26059,rustic vibe,2.6009488
+4796,27680,"Individuals who appreciate fresh, made-to-order food",2.5601902
+4796,18594,flatbreads,1.6910362
+4796,16905,casual vibe,1.051535
+4796,15444,intimate,0.5953458
+4796,14718,salads,-0.21463083
+4796,14214,cozy,-1.9150378
+4796,14304,pizza,-5.787366
+5124,15330,Fishers,6.4957485
+5124,28384,conference rooms,5.461992
+5124,28382,study environment,4.5740914
+5124,28385,socially conscious,2.81476
+5124,28383,work environment,1.2291977
+5124,21106,artisanal pastries,0.9039678
+5124,18520,ethically sourced coffee,0.49827915
+5124,14705,coffee enthusiasts,-0.6088935
+5124,14414,coffee shop,-0.85416794
+5124,14127,coffee,-0.9916709
+5124,14214,cozy,-1.9150378
+6222,23188,special dining experience,4.123468
+6222,17539,Zionsville,3.7057254
+6222,30627,Steak aficionados,3.3934057
+6222,30626,excellent desserts,2.0497599
+6222,14216,cocktails,1.1948408
+6222,14206,seafood,-0.017235916
+6222,14567,steak,-0.7062025
+6222,21396,excellent cocktails,-1.3850267
+6222,14651,sushi lovers,-2.281141
+6222,14797,desserts,-2.730172
+6222,14490,sushi,-3.496188
+6222,14211,seafood enthusiasts,-3.8698828
+6791,15330,Fishers,6.4957485
+6791,31744,Users who value baby-related products,2.589639
+6791,31743,Users who enjoy a wide selection of products,2.2434306
+6791,31741,home & garden,1.7372967
+6791,22014,electronics,1.5903015
+6791,31742,baby items,1.238236
+6791,19115,products,1.1909791
+6791,16040,grocery,0.626872
+6791,16056,wide selection of products,-0.5498064
+7047,15330,Fishers,6.4957485
+7047,32266,Cookie bakery,2.132026
+7047,32267,variety of weekly changing flavors,2.0748415
+7047,32268,bustling bakery atmosphere,1.948568
+7047,21766,cookie,0.5990218
+7047,14424,quick service,-2.146743
+7047,32269,Cookie enthusiasts,-2.9100792
+8771,14092,Indianapolis,5.2117486
+8771,35474,Breakfast and brunch restaurant,1.5148664
+8771,21467,Hawaiian dishes,0.7908182
+8771,14228,generous portions,-1.1816994
+8771,14215,attentive service,-1.370708
+8771,14214,cozy,-1.9150378
+8771,14126,cafe,-2.0981455
+8771,14235,diverse menu options,-2.282084
+8771,14103,brunch,-2.8061755
+8771,14226,breakfast,-4.9920826
+9024,15168,Carmel,5.090339
+9024,35946,trendy and hip atmosphere,4.7225947
+9024,14208,good service,-1.1447773
+9024,14113,restaurant,-3.140863
+9024,15453,happy hour specials,-3.4513247
+9024,14490,sushi,-3.496188
+9930,15168,Carmel,5.090339
+9930,17997,convenience,3.0523396
+9930,17123,walking,2.2433221
+9930,37387,access to amenities,2.1093416
+9930,37627,strolling,1.9104916
+9930,37628,outdoor exercise,1.3968228
+9930,16367,safe environment,1.1437984
+9930,18208,biking,1.0607715
+9930,17122,running,0.4519084
+9930,15212,outdoor activities,-1.2913642
+9968,14092,Indianapolis,5.2117486
+9968,14584,craft beer enthusiasts,3.3090513
+9968,37686,casual beer drinkers,2.3252993
+9968,37687,lively brewery experience,2.2345624
+9968,21427,tastings,1.6117747
+9968,15082,events,-0.4836604
+9968,14086,beers,-0.8840967
+9968,14085,craft beers,-1.1686634
+10048,14092,Indianapolis,5.2117486
+10048,37807,unique performances,3.978998
+10048,37808,Symphony enthusiasts,3.0135334
+10048,25995,food and drinks,2.774184
+10048,37805,symphony performances,2.717108
+10048,15318,fans of live music,2.4392743
+10048,17815,theatre,2.4116645
+10048,37809,Happy hour events,1.7592516
+10048,37806,performance,1.7547212
+10048,14222,live music,1.7281253
+10048,27775,great acoustics,1.6872305
+10108,37927,bustling bar atmosphere,3.1592937
+10108,37928,variety in drink selection,2.4012191
+10108,29659,elegant dining,-0.17877829
+10108,14215,attentive service,-1.370708
+10108,14119,casual dining,-1.4895942
+10108,14113,restaurant,-3.140863
+10108,16127,appetizers,-4.704877
+10579,38730,social,4.9861054
+10579,26815,sports lovers,3.6796496
+10579,14678,entertainment options,3.462444
+10579,23642,social groups,2.8840132
+10579,14203,foodies,0.23767573
+10579,14388,diverse menu,-2.1527076
+11275,15330,Fishers,6.4957485
+11275,16090,welcoming ambiance,0.40356508
+11275,14102,delicious food,-0.2946199
+11275,14878,families with kids,-0.6935519
+11275,14208,good service,-1.1447773
+11275,15229,farm-to-table,-2.5055583
+11275,14113,restaurant,-3.140863
+11275,14163,fresh food,-3.2378647
+11275,14226,breakfast,-4.9920826
+11349,14092,Indianapolis,5.2117486
+11349,40127,"modern, open-kitchen concept",2.8600583
+11349,40128,"Fans of trendy, upscale Asian fusion cuisine",1.4176899
+11349,40130,"Those seeking a modern, unique dining experience",1.3452276
+11349,40129,Fans of innovative cocktails,1.2624834
+11349,14216,cocktails,1.1948408
+11349,31285,Fans of hip hop music,0.5411043
+11349,14415,cool ambiance,-0.89880407
+11349,18171,Asian cuisine,-1.5531578
+11349,14388,diverse menu,-2.1527076
+11349,14432,beverages,-2.6743014
+11349,14442,asian fusion,-3.5139933
+11349,14322,creative dishes,-4.932324
+12075,14092,Indianapolis,5.2117486
+12075,41419,Fans of affordable baseball games,3.4839284
+12075,31536,baseball games,2.8792012
+12075,20992,Stadium,2.547376
+12075,41418,Those looking for a fun evening out with family or friends,2.3997376
+12075,14095,reasonable ticket prices,0.55497706
+12075,14408,families,-1.2338947
+12075,14337,excellent customer service,-1.3567766
+12075,14920,tasty food,-2.0999575
+12297,41793,higher concession prices,3.9703603
+12297,25025,Castleton,3.5067122
+12297,41791,varied movie selection,3.008619
+12297,41792,upgraded experience,2.7390714
+12297,19876,reserved seating,1.8628008
+12297,21160,adult beverages,1.4502604
+12297,14594,clean facilities,0.9824991
+12297,16973,comfortable seating,-0.0071667894
+12297,14259,friendly staff,-1.7145671
+13392,43644,wide variety of cheese,2.5900178
+13392,43646,bag their groceries,2.1167595
+13392,43647,bring own bags,2.0256193
+13392,14179,supermarket,1.6845176
+13392,43645,eclectic food items,1.2527081
+13392,15751,shoppers,1.0611324
+13392,16040,grocery,0.626872
+13392,30809,quality produce,0.05649985
+13392,14120,affordable,-0.9880454
+13509,14092,Indianapolis,5.2117486
+13509,43891,great menu options,3.0049245
+13509,17290,date nights,2.46641
+13509,14222,live music,1.7281253
+13509,43890,top buffet lunch,1.6764526
+13509,17288,family dinners,-0.3150549
+13509,14454,welcoming atmosphere,-0.4832616
+13509,14880,gatherings with friends,-1.0040386
+13509,14214,cozy,-1.9150378
+13509,14793,Thai cioisine,-3.000828
+13509,16326,romantic,-3.2760327
+13712,44199,family-oriented vibes,3.8871067
+13712,26976,great beer,3.3583052
+13712,28624,Whitestown,2.6642835
+13712,44200,food for improvement,1.9167025
+13712,17811,historic setting,1.72888
+13712,14086,beers,-0.8840967
+13712,14920,tasty food,-2.0999575
+13712,16140,attention to detail,-3.8245788
+13756,14092,Indianapolis,5.2117486
+13756,44288,affordable and authentic,2.1868815
+13756,14120,affordable,-0.9880454
+13756,14696,reasonable,-1.4910834
+13756,14489,Chinese cuisine,-2.0849416
+13756,14778,Taiwanese cuisine,-3.6627634
+13756,14779,bubble tea,-6.976744

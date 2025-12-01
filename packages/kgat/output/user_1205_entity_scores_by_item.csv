@@ -1,0 +1,142 @@
+item_id,entity_id,entity_name,score
+387,15914,hot pot,6.3553157
+387,15995,North Wales,6.1344895
+387,15997,well-stocked buffet,4.706304
+387,15999,Family-friendly diners,4.2247458
+387,14490,sushi,1.178461
+387,15998,Hot pot enthusiasts,1.1730229
+387,14651,sushi lovers,1.0532546
+387,14499,buffet,0.052110307
+387,15996,family-friendly dining,-0.6255855
+1030,18274,high-quality macaroni and cheese,2.5654938
+1030,18275,cute and eco-friendly packaging,2.3427896
+1030,14093,Philadelphia,2.2449858
+1030,15468,macaroni and cheese,2.05165
+1030,14280,unique flavors,0.26957172
+1030,14162,efficient service,-0.78911304
+3080,22042,Philly cheesesteaks,5.847522
+3080,16078,hoagies,5.6133995
+3080,14719,sandwiches,0.45252952
+3080,19766,crowds,0.32867116
+3080,14229,friendly service,-0.4081734
+3080,14609,delicious sandwiches,-0.42835635
+3080,17390,bustling atmosphere,-0.9164849
+3080,16260,atmosphere,-2.1802657
+3248,24180,gluttonous comfort food,1.3632516
+3248,24177,Irish bar food,1.308234
+3248,24181,crabby logs,1.1501507
+3248,24182,Maryland crab soup,1.0790651
+3248,24179,Black and Tan beer,1.0780051
+3248,14608,wings,0.68716604
+3248,24178,laid-back neighborhood bar vibe,0.28614286
+3248,14229,friendly service,-0.4081734
+5154,17329,Doylestown,5.405776
+5154,28438,tasty menu,3.8024478
+5154,28437,delicious wings,3.5479426
+5154,16013,wide beer selection,2.586292
+5154,23186,unique burgers,2.390545
+5154,14086,beers,1.1804353
+5154,14608,wings,0.68716604
+5154,14695,relaxed atmosphere,0.4095433
+5154,14276,burgers,0.31669503
+5154,16710,fans of wings,-0.38942543
+5154,21763,Fans of beer,-1.0264117
+5154,20256,fans of burgers,-1.0469267
+5302,14550,brewery,1.9925507
+5302,21605,variety of food and drink options,1.883987
+5302,28763,small parties,1.8513805
+5302,14086,beers,1.1804353
+5302,14215,attentive service,-0.13937339
+5302,14102,delicious food,-0.2436454
+5302,14232,groups,-0.66761464
+5302,14855,casual,-1.5755903
+5302,14085,craft beers,-2.196072
+6189,30540,good deal on quality food,3.4854448
+6189,30539,complimentary tortilla chips,3.1374063
+6189,15563,Tex-Mex cuisine,2.600432
+6189,23938,combo options,0.8637655
+6189,14162,efficient service,-0.78911304
+6189,15265,strong margaritas,-1.6003458
+6189,14388,diverse menu,-1.7388663
+6372,30943,good value lunch specials,4.3535438
+6372,21669,Abington,4.3144703
+6372,14161,wide variety of menu options,2.456698
+6372,15635,strong drinks,2.2977738
+6372,14729,lunch specials,1.7820377
+6372,15269,Mexican food enthusiasts,1.3372508
+6372,14115,Mexican,0.6134442
+6372,14215,attentive service,-0.13937339
+6372,14228,generous portions,-1.2502807
+8584,14765,BYOB option,3.9084952
+8584,35138,"small, casual restaurant setting",3.5191178
+8584,15848,Vietnamese food,2.7295744
+8584,14163,fresh food,2.7260942
+8584,35140,Users who enjoy authentic Vietnamese cuisine,2.0213485
+8584,35141,Users who appreciate fresh food,2.0001154
+8584,35142,Users who enjoy hot food,1.9423716
+8584,35144,language barriers,1.8891301
+8584,35143,Users willing to try new dishes,1.8340536
+8584,35139,Telford,1.4178925
+8584,23908,hot food,0.8548782
+8584,14916,Vietnamese cuisine,-0.7318988
+10201,14660,cookies,3.648218
+10201,14093,Philadelphia,2.2449858
+10201,15363,delicious treats,1.8375665
+10201,38091,warm treats,1.8188903
+10201,17638,snacks,-0.33665502
+10201,19502,Cookie shop,-0.9386912
+11385,40188,fast-food style,3.0993836
+11385,14366,ice cream,2.8557236
+11385,14093,Philadelphia,2.2449858
+11385,14113,restaurant,1.4798294
+11385,14086,beers,1.1804353
+11385,14276,burgers,0.31669503
+11385,14259,friendly staff,0.24717924
+11385,18299,hot dogs,0.24097402
+11385,14385,wine,-1.3193127
+11675,17329,Doylestown,5.405776
+11675,40708,baked,3.6829214
+11675,40707,unique and flavorful empanadas,3.0735545
+11675,28261,changing menu,2.6687388
+11675,14113,restaurant,1.4798294
+11675,16452,empanadas,0.53413534
+11675,14229,friendly service,-0.4081734
+12126,41492,variety of hot dogs,5.77006
+12126,37730,variety of grilled cheese sandwiches,4.2568827
+12126,14429,grilled cheese sandwiches,3.990027
+12126,33629,Feasterville,3.9446545
+12126,41493,Fans of creative food combinations,3.684446
+12126,36956,Nostalgic diners,2.9089952
+12126,23800,hot dog enthusiasts,2.590858
+12126,18318,hot dog,0.9027856
+12126,18299,hot dogs,0.24097402
+12722,42570,crispy thin crusts,2.6945472
+12722,14279,byob,2.6462812
+12722,27624,gluten-free eaters,1.4429803
+12722,42572,Cedars,1.2439728
+12722,24863,unique pizza toppings,0.53709096
+12722,42571,"casual, laid-back dining experiences",0.33923984
+12722,14304,pizza,-0.2778236
+13141,14261,king of prussia,4.8776484
+13141,19597,unique dining experience,2.9329426
+13141,43215,Customers who enjoy indulging in gourmet burgers,2.1858773
+13141,14574,gourmet burgers,1.9430242
+13141,16546,shakes,1.8704638
+13141,14113,restaurant,1.4798294
+13141,14276,burgers,0.31669503
+13141,14621,frozen custard,-2.9804254
+13141,24899,premium ingredients,-3.1388776
+13322,14270,Glenside,5.8478837
+13322,22829,diverse drink selection,3.439814
+13322,33144,dining with family,2.762437
+13322,15936,dining with friends,1.5421866
+13322,14113,restaurant,1.4798294
+13322,14267,bar,1.2608095
+13322,14215,attentive service,-0.13937339
+13322,14102,delicious food,-0.2436454
+13322,14096,lively atmosphere,-2.1855907
+13700,22731,Horsham,6.493983
+13700,15004,diner,2.572184
+13700,14984,large portion sizes,1.9106902
+13700,16602,American diner food,-0.37187502
+13700,14229,friendly service,-0.4081734

@@ -1,0 +1,116 @@
+item_id,entity_id,entity_name,score
+25,14113,restaurant,0.10716638
+25,14263,comfortable bar setting,0.09865601
+25,14266,fancier burger choices,-0.19961467
+25,14268,Burger restaurant,-0.3006535
+25,14267,bar,-1.3206676
+25,14215,attentive service,-2.0888815
+25,14265,burger,-2.6877022
+25,14264,gluten-free options,-4.036927
+1366,15296,beignets,4.594404
+1366,18729,City Park,1.6023527
+1366,14126,cafe,1.2287457
+1366,14127,coffee,-0.6178944
+1366,14823,variety of menu options,-1.989305
+1366,14133,outdoor seating,-2.02472
+1366,15179,clean environment,-2.7173247
+1366,19385,peaceful,-3.1067986
+1436,14093,Philadelphia,3.0108135
+1436,17974,tapas bars,1.3580654
+1436,17252,charming ambiance,-1.0470135
+1436,14215,attentive service,-2.0888815
+1436,14568,flavorful dishes,-2.2251444
+1446,14093,Philadelphia,3.0108135
+1446,14361,vegan food,1.4809464
+1446,19606,diverse menu offerings,1.4137871
+1446,14113,restaurant,0.10716638
+1446,19605,kosher food,0.058324482
+1446,15662,dining,-0.14658159
+1446,15605,intimate dining,-0.4765351
+1446,14470,vegetarian food,-0.47719693
+1446,19607,affordable happy hour deals,-1.193395
+1446,14206,seafood,-1.6357515
+1446,14215,attentive service,-2.0888815
+1446,14456,tapas,-2.1247072
+1446,14232,groups,-2.1272538
+1446,14463,meat,-2.5529516
+2045,14093,Philadelphia,3.0108135
+2045,21249,cozy spaces,2.5752997
+2045,21250,aesthetically pleasing spaces,1.9407407
+2045,21251,coffee beverages,1.3671967
+2045,14699,high-quality coffee,0.42686912
+2045,14414,coffee shop,0.07354709
+2045,15158,delicious pastries,-0.57637876
+2045,14127,coffee,-0.6178944
+2666,22781,natural treats,3.470225
+2666,18295,homemade treats,1.9141119
+2666,19379,flavors,1.7233934
+2666,19212,Dessert shop,1.4680737
+2666,14238,Tampa,1.232355
+2666,22779,gourmet popsicles,0.60722184
+2666,14605,gelato,0.29227623
+2666,22780,popsicles,-0.20233515
+2666,14259,friendly staff,-2.650084
+3600,16286,wide selection of flavors,0.9674204
+3600,14366,ice cream,0.34380984
+3600,22229,creamy ice cream,0.17599653
+3600,14228,generous portions,-0.15536538
+3600,14773,fast service,-0.25376728
+3600,18322,picky eaters,-0.28205073
+3600,24991,old-fashioned ice cream,-0.46595946
+3600,14120,affordable,-0.5997027
+3600,14259,friendly staff,-2.650084
+3600,14408,families,-3.3903375
+3600,14522,dessert,-3.8090498
+4352,14112,New Orleans,4.829415
+4352,26682,specialty food shop,3.5974894
+4352,26681,meat-based dishes,1.1762631
+4352,17406,charcuterie,-0.17070095
+4352,14719,sandwiches,-2.1244957
+4352,14463,meat,-2.5529516
+8636,22540,fans of gastropubs,3.0222445
+8636,14093,Philadelphia,3.0108135
+8636,27798,business lunches,1.8457891
+8636,23888,British dishes,1.4670237
+8636,35236,fans of unique decor,1.3185698
+8636,14467,British cuisine,1.1914436
+8636,35237,traditional English fare,0.35397637
+8636,35235,fans of British cuisine,-0.020005962
+8636,35234,inventive drinks,-0.39724168
+8636,18625,fish and chips,-1.713945
+8636,14232,groups,-2.1272538
+8636,14110,cozy ambiance,-2.3289037
+8636,16357,gastropub,-2.9343941
+8636,15432,unique decor,-3.529827
+9021,14093,Philadelphia,3.0108135
+9021,35943,innovative drink options,1.6668192
+9021,23567,charming setting,0.5222449
+9021,14352,dish,0.20907357
+9021,18347,innovative drinks,-0.6694988
+9021,14933,delicious dishes,-1.5414987
+9021,15741,great atmosphere,-1.8890667
+11638,14093,Philadelphia,3.0108135
+11638,14210,seafood restaurant,0.7033255
+11638,17133,fresh seafood,0.03231316
+11638,14801,seafood lovers,-0.16586739
+11638,14211,seafood enthusiasts,-0.2832793
+11638,26718,specialty seafood dishes,-1.2144102
+11638,14206,seafood,-1.6357515
+11638,14119,casual dining,-2.2847328
+12794,31296,indulgent dishes,2.170465
+12794,21549,wide variety of food options,1.780966
+12794,14219,unique dishes,0.30097434
+12794,15888,brunch enthusiasts,-0.26725677
+12794,14203,foodies,-0.7042291
+12794,42686,people looking for a fun dining experience,-1.1190493
+12794,15569,lively ambiance,-1.2231047
+12794,14862,good value for money,-5.9066424
+12867,42784,delicious pancake options,3.487319
+12867,14093,Philadelphia,3.0108135
+12867,17440,hearty meals,2.8449264
+12867,42785,"bustling, popular setting",0.85753226
+12867,42786,Fans of breakfast and brunch meals,0.15433246
+12867,14103,brunch,-1.0845882
+12867,14254,large portions,-1.8947731
+12867,14226,breakfast,-2.4507048
+12867,14871,pancakes,-6.910466

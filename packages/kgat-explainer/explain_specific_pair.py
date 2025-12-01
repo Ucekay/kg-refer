@@ -141,8 +141,8 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Explain prediction for a specific user-item pair"
     )
-    parser.add_argument("--user_id", type=int, default=4646, help="Target User ID")
-    parser.add_argument("--item_id", type=int, default=159, help="Target Item ID")
+    parser.add_argument("--user_id", type=int, default=1301, help="Target User ID")
+    parser.add_argument("--item_id", type=int, default=8705, help="Target Item ID")
     parser.add_argument(
         "--max_hops", type=int, default=3, help="Maximum hops for path finding"
     )

@@ -1,0 +1,375 @@
+item_id,entity_id,entity_name,score
+291,15581,specials,3.3744009
+291,14093,Philadelphia,2.0616934
+291,14644,fresh sushi,0.64213306
+291,15583,fun presentations,0.034363315
+291,15579,sushi options,-0.08337232
+291,14490,sushi,-0.12888937
+291,15582,creative presentations,-0.60617894
+291,15580,rolls,-0.75727725
+291,15112,sushi enthusiasts,-2.4831765
+303,14936,donut,6.0207496
+303,15644,sliders,2.308679
+303,15647,those seeking savory options,0.5063958
+303,15646,donut lovers,0.18432394
+303,14935,fried chicken,0.13161637
+303,14112,New Orleans,0.11351281
+303,15645,unique culinary experiences,-0.003074551
+303,14397,food enthusiasts,-1.7900828
+771,14093,Philadelphia,2.0616934
+771,17336,variety of protein options,1.9364644
+771,14206,seafood,-1.0785686
+771,17186,poke bowls,-1.930052
+771,14229,friendly service,-2.0214765
+771,14113,restaurant,-2.1714807
+771,14516,Hawaiian cuisine,-2.674578
+771,14536,generous portion sizes,-2.6790965
+880,15760,creative drinks,3.5998955
+880,15889,Cocktail lovers,2.7803466
+880,14093,Philadelphia,2.0616934
+880,17780,Fans of intimate cocktail lounges,1.9016782
+880,16140,attention to detail,0.8082725
+880,17781,Fans of romantic venues,0.78076005
+880,15067,unique cocktails,-0.23260385
+880,17778,cocktail lounge,-0.45898458
+880,15444,intimate,-0.7792735
+880,16326,romantic,-1.6286445
+880,17779,superb service,-2.4188232
+1491,14294,French,2.1982367
+1491,14093,Philadelphia,2.0616934
+1491,19730,People who appreciate impeccable service,2.0589924
+1491,14303,French cuisine,1.4000729
+1491,18250,impeccable service,0.2870223
+1491,16356,wine enthusiasts,0.19578585
+1491,19729,Fans of French cuisine,-0.35084024
+1491,14110,cozy ambiance,-1.060153
+1491,14385,wine,-4.01868
+1990,14093,Philadelphia,2.0616934
+1990,21095,fun spot,1.7390426
+1990,21093,whiskey lovers,1.429088
+1990,21094,weekend goers,1.0466738
+1990,21091,cool crowds,-0.4619694
+1990,21092,retro music vibes,-0.54991764
+1990,14783,drinks,-1.0009651
+1990,14267,bar,-1.0894326
+1990,14696,reasonable,-1.3832192
+1990,14768,nightlife,-2.1209285
+1990,18423,dancing,-4.34499
+2880,23304,Middle Eastern dishes,4.8743887
+2880,23305,higher for quality,2.581691
+2880,14093,Philadelphia,2.0616934
+2880,14215,attentive service,-0.31754133
+2880,23188,special dining experience,-1.4472957
+2880,14397,food enthusiasts,-1.7900828
+2880,14117,vibrant,-3.9018257
+3054,17650,people seeking peaceful escape,3.619014
+3054,23708,vast property for leisurely strolls,2.9338272
+3054,23706,breathtaking conservatory,2.8635128
+3054,23707,musical performances,2.505476
+3054,20468,Christmas lights,2.2978652
+3054,17651,garden,2.2350314
+3054,23705,Longwood Gardens,2.124985
+3054,15221,nature lovers,0.3922625
+3054,23709,seasonal events,0.28089923
+3054,16097,music enthusiasts,-1.198376
+3099,23825,trendy ambience,6.3499722
+3099,23826,laid-back feel,3.5082963
+3099,23828,quick dinners,2.1737347
+3099,23827,special discounted deals,1.9934766
+3099,14519,great service,1.0617131
+3099,16196,group outings,0.85494107
+3099,14522,dessert,-0.46765357
+3099,17290,date nights,-0.5613271
+3099,14469,excellent service,-2.7374203
+3099,14271,great food,-3.496534
+3099,14385,wine,-4.01868
+3517,14765,BYOB option,6.042411
+3517,14294,French,2.1982367
+3517,24812,Interesting flavor combinations,2.1582992
+3517,14093,Philadelphia,2.0616934
+3517,14214,cozy,-2.0530946
+3517,15439,French restaurant,-2.3924267
+4118,14093,Philadelphia,2.0616934
+4118,26123,Arts enthusiasts,1.2490424
+4118,24821,sound system,0.52243555
+4118,24039,unique beer selection,0.4810419
+4118,15928,central location,0.2289847
+4118,26122,cool basement vibe,0.059073165
+4118,21758,arts,-0.52638775
+4118,14222,live music,-1.1418256
+4118,15318,fans of live music,-1.7044656
+4118,14086,beers,-1.8377777
+4293,16288,refreshing drinks,2.9956117
+4293,14093,Philadelphia,2.0616934
+4293,15148,Middle Eastern cuisine,0.54961425
+4293,15154,Fans of Middle Eastern cuisine,-0.87864166
+4293,14119,casual dining,-0.9934482
+4293,14718,salads,-2.079667
+4293,14469,excellent service,-2.7374203
+4293,14391,meats,-3.513778
+4417,14093,Philadelphia,2.0616934
+4417,26841,diverse flavor options,1.0771083
+4417,14605,gelato,0.744412
+4417,23679,a bit more,0.27378038
+4417,15134,high,-0.14789084
+4417,14522,dessert,-0.46765357
+4417,15954,Gelato shop,-1.6059722
+4417,14259,friendly staff,-2.2538772
+4624,27329,selection of drinks,2.819764
+4624,14257,flavorful food,1.4847357
+4624,27331,Groups looking for a great atmosphere and outstanding food for events,1.2595458
+4624,27330,minor delays,0.377723
+4624,15127,outstanding food,-0.6864768
+4624,15741,great atmosphere,-0.96753633
+4624,14783,drinks,-1.0009651
+4624,14208,good service,-1.78328
+5773,14093,Philadelphia,2.0616934
+5773,29771,cozy and modern,1.4858723
+5773,29770,high-end,1.4179054
+5773,14115,Mexican,1.1832002
+5773,29772,variety of tequilas,0.6581695
+5773,14113,restaurant,-2.1714807
+5773,14469,excellent service,-2.7374203
+5941,14093,Philadelphia,2.0616934
+5941,14533,soul food,0.6235373
+5941,14568,flavorful dishes,0.500846
+5941,14215,attentive service,-0.31754133
+5941,18269,pleasant ambiance,-0.3400815
+5941,14823,variety of menu options,-1.5266032
+6388,30962,hot hearty soups,5.763694
+6388,16185,specialty food,4.5230956
+6388,19732,fusion restaurant,3.4527633
+6388,14189,chicken wings,1.4134921
+6388,23536,Korean restaurant,0.9960293
+6388,14348,authentic flavors,-1.3647746
+6388,16417,top-notch service,-1.8741225
+6615,14093,Philadelphia,2.0616934
+6615,31416,casual and relaxed dining experience,1.4220867
+6615,17799,creative twists,0.110134825
+6615,15851,Vietnamese restaurant,-0.52887166
+6615,16002,Vietnamese dishes,-1.8164027
+6615,14229,friendly service,-2.0214765
+6615,14113,restaurant,-2.1714807
+6615,14085,craft beers,-3.0591152
+6759,14093,Philadelphia,2.0616934
+6759,22981,Saloon,0.6654495
+6759,14404,beverage,-0.35329556
+6759,14614,craft cocktails,-1.4245094
+6759,14096,lively atmosphere,-1.9883976
+6759,14229,friendly service,-2.0214765
+6759,14102,delicious food,-2.2612407
+6759,14085,craft beers,-3.0591152
+7013,32200,A memorable night out,2.1469753
+7013,14093,Philadelphia,2.0616934
+7013,14613,upscale dining,1.7963505
+7013,21238,Users who enjoy vibrant nightlife,1.4883587
+7013,32202,Users who like great cocktails,1.3179084
+7013,32201,Users who appreciate stunning views,1.1961668
+7013,14602,stunning views,0.7424594
+7013,14616,special occasions,0.5631628
+7013,19557,great cocktails,0.50288945
+7013,15662,dining,0.09844305
+7013,27965,Users who enjoy upscale dining,-0.62074906
+7013,14216,cocktails,-1.8482133
+7013,15451,vibrant nightlife scene,-2.0276084
+7013,17092,vibrant nightlife,-4.075193
+7120,14093,Philadelphia,2.0616934
+7120,32408,Individuals interested in human anatomy,1.4330024
+7120,32405,learning about human body's intricacies,1.4247159
+7120,28299,young children,1.3657357
+7120,32409,Individuals interested in macabre subjects,1.2347606
+7120,32404,macabre subjects,1.1276674
+7120,32407,Individuals interested in medical oddities,1.0733873
+7120,32406,squeamish people,1.0496744
+7120,32403,human anatomy,-0.12642585
+7120,32402,medical oddities,-0.14189032
+7120,15403,museum,-0.17598453
+7188,32534,Merchantville,4.801744
+7188,18883,informative service,3.1011484
+7188,24039,unique beer selection,0.4810419
+7188,32536,delicious gastropub food,0.3750319
+7188,32535,excellent tap list,0.08790742
+7188,15202,diverse beer selection,-0.6195057
+7188,16357,gastropub,-0.9570966
+7188,14110,cozy ambiance,-1.060153
+7188,14267,bar,-1.0894326
+7188,14086,beers,-1.8377777
+7188,14259,friendly staff,-2.2538772
+7188,19321,gastropub food,-2.9161017
+7291,29094,prix fixe menus,3.8256915
+7291,14093,Philadelphia,2.0616934
+7291,32723,special date night spots,1.6102718
+7291,16391,intimate atmosphere,-0.53913176
+7291,16504,unique dining experiences,-1.5803521
+7291,16705,dining experience,-1.8653569
+7291,15986,date night,-2.426289
+7297,14093,Philadelphia,2.0616934
+7297,32736,New England Style clam bake,0.584286
+7297,27592,classic dining experience,-0.32983944
+7297,15550,happy hour deals,-0.5134852
+7297,14206,seafood,-1.0785686
+7297,14801,seafood lovers,-2.5356896
+8560,14150,cajun cuisine,1.2496936
+8560,14151,creole cuisine,0.8937786
+8560,15383,fish,0.56302917
+8560,14568,flavorful dishes,0.500846
+8560,18140,pork,0.2720796
+8560,35094,chic and modern setting,0.1915033
+8560,14112,New Orleans,0.11351281
+8560,31384,alligator,-0.043801833
+8560,14159,Fans of Cajun/Creole cuisine,-0.6257749
+8560,35095,appreciate flavorful dishes,-0.87048155
+8560,14219,unique dishes,-0.97990197
+8636,14467,British cuisine,5.2164874
+8636,23888,British dishes,4.962761
+8636,22540,fans of gastropubs,3.7469356
+8636,27798,business lunches,3.6549733
+8636,35234,inventive drinks,3.1432328
+8636,35237,traditional English fare,2.5270057
+8636,14093,Philadelphia,2.0616934
+8636,35235,fans of British cuisine,1.9638847
+8636,18625,fish and chips,1.672221
+8636,35236,fans of unique decor,0.005991148
+8636,14232,groups,-0.22618477
+8636,15432,unique decor,-0.9281989
+8636,16357,gastropub,-0.9570966
+8636,14110,cozy ambiance,-1.060153
+9192,15135,gastropub fare,2.7811308
+9192,14093,Philadelphia,2.0616934
+9192,14519,great service,1.0617131
+9192,15550,happy hour deals,-0.5134852
+9192,36291,rotating draft selection,-0.72291857
+9192,14267,bar,-1.0894326
+9192,36290,impressive beer selection,-1.6313325
+9192,14214,cozy,-2.0530946
+9192,14102,delicious food,-2.2612407
+9939,37635,pub-style dishes,2.0010464
+9939,21221,good food options,-0.10317798
+9939,15202,diverse beer selection,-0.6195057
+9939,14267,bar,-1.0894326
+9939,15165,beer enthusiasts,-1.1033609
+9939,14086,beers,-1.8377777
+9939,14085,craft beers,-3.0591152
+9939,14458,lively,-3.6208897
+10240,14093,Philadelphia,2.0616934
+10240,38168,NoLibs/Fishtown,2.0435286
+10240,21771,lively bar scene,1.8576224
+10240,14896,cocktail,0.32191935
+10240,14086,beers,-1.8377777
+10240,14085,craft beers,-3.0591152
+10680,14314,Mediterranean cuisine,2.614144
+10680,14093,Philadelphia,2.0616934
+10680,38909,slightly awkward encounter,1.4829552
+10680,14759,Greek cuisine,0.6824085
+10680,14215,attentive service,-0.31754133
+10680,15575,Fans of Mediterranean cuisine,-1.1895192
+10680,14113,restaurant,-2.1714807
+10680,14102,delicious food,-2.2612407
+10680,14385,wine,-4.01868
+10708,14361,vegan food,6.190493
+10708,16231,good drink deals,3.433152
+10708,38960,"retro, funky atmosphere",2.2840261
+10708,14093,Philadelphia,2.0616934
+10708,15242,arcade games,0.25106683
+10708,14966,dive bar,-1.2929772
+11757,14093,Philadelphia,2.0616934
+11757,40832,casual yet sophisticated,1.4910398
+11757,14643,Japanese cuisine,0.7425386
+11757,14490,sushi,-0.12888937
+11757,14229,friendly service,-2.0214765
+11757,14162,efficient service,-3.5267434
+11797,14093,Philadelphia,2.0616934
+11797,26803,easy access,-0.45636234
+11797,17351,spacious venues,-0.4564278
+11797,17350,music venue,-0.89205474
+11797,16097,music enthusiasts,-1.198376
+11797,34120,great sound quality,-2.8203251
+11797,14085,craft beers,-3.0591152
+11797,14381,bars,-3.2453623
+11883,14205,Cherry Hill,5.706691
+11883,15013,Korean cuisine,3.194807
+11883,41076,international grocery items,2.822263
+11883,25796,prepared foods,2.7875702
+11883,41077,quality prepared foods,1.3461045
+11883,14147,fair prices,0.15355662
+11883,15509,wide variety of products,-0.3918204
+11883,30809,quality produce,-0.46571672
+11883,18171,Asian cuisine,-0.5988904
+11883,14206,seafood,-1.0785686
+11883,16440,produce,-1.5172267
+11883,16061,grocery store,-2.0439124
+11883,16955,quality meats,-2.6060185
+11883,18631,quality seafood,-3.315232
+11883,14391,meats,-3.513778
+11970,41235,individuals seeking alcohol options,2.3730326
+11970,24140,helpful,1.7762904
+11970,16356,wine enthusiasts,0.19578585
+11970,41234,wide variety of alcohol options,-0.092640355
+11970,15512,liquor store,-1.5537783
+11970,21142,well-organized,-1.7656605
+11970,14500,reasonably priced,-2.7141938
+11970,14385,wine,-4.01868
+12728,38417,Belgian beers,3.4130666
+12728,14093,Philadelphia,2.0616934
+12728,42589,wide selection of Belgian beers,0.4449292
+12728,14126,cafe,-0.65668577
+12728,14267,bar,-1.0894326
+12728,15165,beer enthusiasts,-1.1033609
+12728,16991,lively nightlife scene,-1.3673174
+12728,14086,beers,-1.8377777
+12728,14300,food lovers,-2.0400805
+12728,17824,Nightlife seekers,-2.2044597
+12728,14102,delicious food,-2.2612407
+12764,17831,bustling market atmosphere,4.5780144
+12764,17965,fresh groceries,2.5185893
+12764,14093,Philadelphia,2.0616934
+12764,42637,Users who enjoy exploring diverse food options,1.6270261
+12764,42636,wide array of specialty food items,-0.039103866
+12764,14087,diverse food options,-1.0207407
+12764,15690,local products,-1.9422424
+12981,14607,sandwich,2.5502362
+12981,14093,Philadelphia,2.0616934
+12981,27926,unique sandwich options,1.1298193
+12981,29259,"cozy, casual setting",-0.24656755
+12981,14719,sandwiches,-1.3339653
+12981,16280,sandwich enthusiasts,-1.9551948
+12981,14300,food lovers,-2.0400805
+13039,17410,pierogies,4.100476
+13039,14093,Philadelphia,2.0616934
+13039,43058,Beer connoisseurs,1.1970885
+13039,43059,Dive bar enthusiasts,0.54816526
+13039,17956,chill atmosphere,-0.21360375
+13039,15202,diverse beer selection,-0.6195057
+13039,14698,relaxed,-0.9321333
+13039,14966,dive bar,-1.2929772
+13039,14086,beers,-1.8377777
+13039,14259,friendly staff,-2.2538772
+13039,14102,delicious food,-2.2612407
+13501,14205,Cherry Hill,5.706691
+13501,14352,dish,4.7797036
+13501,14775,noodles,4.2657895
+13501,43839,Individuals who appreciate flavorful and authentic dishes,2.027988
+13501,18768,cozy and welcoming,1.7790139
+13501,20540,Fans of Asian cuisine,0.58487487
+13501,38796,Noodle enthusiasts,0.017422544
+13501,18171,Asian cuisine,-0.5988904
+13628,14093,Philadelphia,2.0616934
+13628,44076,People looking for a cool hang-out spot,1.7260364
+13628,15907,vegans,1.5392128
+13628,40779,wide variety of drinks,0.6238535
+13628,14432,beverages,-0.3660655
+13628,14783,drinks,-1.0009651
+13628,14267,bar,-1.0894326
+13628,14229,friendly service,-2.0214765
+13628,14214,cozy,-2.0530946
+13628,14102,delicious food,-2.2612407
+13628,19993,unpretentious,-5.3558393
+13663,14315,delicious,3.078987
+13663,44126,satisfying options,0.2930416
+13663,14974,tacos,-0.11266488
+13663,44125,flavor-packed,-0.21135682
+13663,15331,affordable options,-0.85268223
+13663,44124,Latin American street food,-1.1266044
+13663,16880,street food,-1.1354289
+13663,14719,sandwiches,-1.3339653
+13663,14500,reasonably priced,-2.7141938

@@ -1,0 +1,7 @@
+selected_user_id: 4122
+selected_user_id_internal: 48928
+num_user_items: 27
+total_entities: 220
+avg_score: 0.8795014023780823
+max_score: 7.031770706176758
+min_score: -4.8536057472229

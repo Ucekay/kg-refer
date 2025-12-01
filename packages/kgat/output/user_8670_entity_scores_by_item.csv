@@ -1,0 +1,32 @@
+item_id,entity_id,entity_name,score
+3622,14418,Santa Barbara,1.0895231
+3622,16488,scenic views,0.71265304
+3622,25044,quiet walks,0.065297835
+3622,25043,beautiful sunsets,-0.12232475
+3622,18297,nature enthusiasts,-0.19136666
+3622,15206,dog lovers,-0.9373018
+8540,35049,People who appreciate fast-casual dining,2.3545837
+8540,35048,Individuals who enjoy communal dining,2.1981328
+8540,35047,Fans of spicy food,1.9942538
+8540,29020,high spice levels,1.8692036
+8540,14353,Nashville,1.2239566
+8540,14827,spicy,0.7641035
+8540,26392,fast-casual dining,0.5490362
+8540,15303,communal dining,0.31599277
+8540,14519,great service,-0.11072796
+8540,35046,unique side dishes,-0.20226914
+8540,14154,friendly,-0.26949954
+8540,17788,adventurous eaters,-0.41266495
+8540,14826,flavorful,-0.74600506
+8540,14935,fried chicken,-0.74789053
+9622,18993,welcoming setting,0.9978168
+9622,14550,brewery,0.5490573
+9622,37033,"relaxed, cozy environment",0.059458494
+9622,37035,People who want good food,0.016579576
+9622,37034,People who like relaxed atmosphere,-0.12580234
+9622,16014,fans of craft beer,-0.14507306
+9622,14245,good food,-0.24698661
+9622,16357,gastropub,-0.6094108
+9622,20860,variety of beers,-0.7886144
+9622,14113,restaurant,-0.8263438
+9622,14085,craft beers,-1.575384

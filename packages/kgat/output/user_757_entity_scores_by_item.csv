@@ -1,0 +1,524 @@
+item_id,entity_id,entity_name,score
+298,14092,Indianapolis,5.306029
+298,15615,beer garden,3.9103656
+298,15613,outdoor gardens,3.8099883
+298,15082,events,3.1514761
+298,15614,outdoor movies,3.1414282
+298,14222,live music,2.8955173
+298,15612,art collections,2.1261299
+298,15616,art enthusiasts,1.621156
+298,15221,nature lovers,1.525846
+320,15736,ample portions,0.44634825
+320,14278,family-friendly,0.37511927
+320,15338,diverse wine selection,-0.3380553
+320,15737,higher,-0.53730625
+320,14402,Italian,-3.7985935
+541,15168,Carmel,6.634252
+541,14984,large portion sizes,2.5559416
+541,14154,friendly,2.1137724
+541,16575,People who enjoy cute cafes,1.2391714
+541,14229,friendly service,0.8064559
+541,14214,cozy,0.046024825
+541,14103,brunch,-1.1289425
+541,14120,affordable,-1.5097977
+541,14226,breakfast,-3.7526665
+885,15168,Carmel,6.634252
+885,16042,variety,4.1575766
+885,17785,innovative dishes,1.9678369
+885,14088,laid-back,0.95135695
+885,14229,friendly service,0.8064559
+885,17788,adventurous eaters,0.38730618
+885,17787,Fans of Creole cuisine,0.36813486
+885,17786,Fans of Cajun cuisine,-0.08431207
+885,14228,generous portions,-0.17598976
+885,14157,traditional dishes,-0.89329386
+885,14150,cajun cuisine,-1.0259248
+885,14151,creole cuisine,-2.5780647
+903,14092,Indianapolis,5.306029
+903,17838,local vendors,4.9838715
+903,14222,live music,2.8955173
+903,17841,Arts and crafts enthusiasts,1.9638085
+903,17837,arts and crafts,1.8965166
+903,17839,handmade products,1.8438551
+903,17840,shopping fairs,1.1618301
+903,14783,drinks,-0.78751916
+964,14092,Indianapolis,5.306029
+964,18067,community involvement,4.4783216
+964,18066,audience participation,2.8765109
+964,18064,improvisational comedy,2.5185719
+964,16932,fun,2.2733068
+964,18063,interactive comedy,2.2152886
+964,18065,ComedySportz,2.1315572
+964,15444,intimate,1.7325974
+964,18068,people of all ages,1.1008205
+1415,15168,Carmel,6.634252
+1415,19511,fun and casual dining experience,4.062759
+1415,19510,wide selection of tacos,2.5642865
+1415,19512,Fans of tacos,2.0413628
+1415,19514,Fans of margaritas,2.024472
+1415,14783,drinks,-0.78751916
+1415,19513,nightlife enthusiasts,-1.2828287
+1415,14122,Fans of Mexican cuisine,-1.7809907
+1415,14974,tacos,-1.7891821
+1415,14115,Mexican,-2.9892983
+1471,19673,upbeat customer service,1.5047281
+1471,14546,good drink options,1.4603024
+1471,19674,flavorful sushi rolls,1.031382
+1471,15619,energetic,0.9453435
+1471,14942,hibachi,-2.2593913
+1471,14643,Japanese cuisine,-2.2833233
+1471,14490,sushi,-4.871732
+1589,15168,Carmel,6.634252
+1589,20036,gatherings,5.0555468
+1589,20034,California wines,2.915932
+1589,14222,live music,2.8955173
+1589,20037,charitable contributions,2.04969
+1589,20038,Winery,1.5463815
+1589,16356,wine enthusiasts,1.1359105
+1589,20035,wine tastings,0.96440697
+1589,14214,cozy,0.046024825
+2237,14092,Indianapolis,5.306029
+2237,21757,culture,4.10428
+2237,21761,Fans of culture,1.7714651
+2237,14378,entertainment,1.6851183
+2237,14086,beers,1.6754658
+2237,21755,Halloween festival,1.55035
+2237,21764,Fans of arts,1.4178562
+2237,21759,Fans of Halloween,1.3603125
+2237,21756,community festivals,1.2849587
+2237,21760,Fans of community festivals,1.239117
+2237,16977,Fans of entertainment,0.86180514
+2237,21758,arts,0.44883013
+2237,21762,fans of food,0.31108344
+2237,21763,Fans of beer,-0.9169067
+2726,14092,Indianapolis,5.306029
+2726,22917,beautifully decorated areas,3.743532
+2726,22916,synchronized light displays,2.7733517
+2726,22915,arts and entertainment,2.5670793
+2726,22914,festive holiday lights,2.5646706
+2726,22920,Fans of festive holiday lights,2.5182812
+2726,22923,Individuals seeking unique events,2.4183607
+2726,22922,Families seeking magical experiences,2.1039917
+2726,22919,Enchanted event,2.0704894
+2726,22921,Arts and entertainment enthusiasts,1.9984789
+2726,22918,Magical experience,1.8469892
+2726,14408,families,-0.2934942
+2738,15168,Carmel,6.634252
+2738,22947,pay a bit more for a satisfying meal,3.9762888
+2738,22946,high-quality sandwiches,3.6385214
+2738,14280,unique flavors,3.4275293
+2738,14719,sandwiches,-0.0019954927
+2738,14113,restaurant,-3.55736
+2796,20337,history buffs,4.7448416
+2796,16532,historical significance,2.6425648
+2796,14664,art,2.5655077
+2796,23092,art lovers,0.81217784
+2796,14203,foodies,0.78367937
+2796,17065,recreational activities,0.18249314
+2796,21042,event seekers,-0.61040974
+2796,23091,Public space,-1.0614926
+2796,23090,markets,-1.5228355
+2796,19302,public art,-1.5314498
+2796,14093,Philadelphia,-2.4728665
+2836,15168,Carmel,6.634252
+2836,23184,customizable build-your-own entrees,3.417436
+2836,14306,vegan options,2.8980007
+2836,14984,large portion sizes,2.5559416
+2836,14423,vegetarian options,0.4205905
+2836,18808,Middle Eastern food,-0.19148955
+2836,15148,Middle Eastern cuisine,-0.8653759
+2836,14113,restaurant,-3.55736
+2914,15883,National Park,4.096622
+2914,23402,architecture,2.9758785
+2914,23384,historical sites,2.7215629
+2914,23401,unique attractions,2.6221826
+2914,23383,iconic landmarks,2.16672
+2914,14392,Saint Louis,-1.3584179
+2919,23406,high-quality services,2.8015752
+2919,23407,skincare services,2.7688322
+2919,18566,professional staff,1.5496862
+2919,21513,special offers,1.0584228
+2919,18485,waxing services,0.06582688
+2919,17198,Beauty salon,-2.1405766
+2942,16570,history,2.5710502
+2942,18153,history enthusiasts,2.1542008
+2942,14817,locals,1.6818273
+2942,14818,visitors,1.6254147
+2942,23451,Historical attraction,1.5392854
+2942,14093,Philadelphia,-2.4728665
+3404,14092,Indianapolis,5.306029
+3404,24545,cute and simple ambiance,4.0861673
+3404,15240,unique,3.4752133
+3404,24544,popsicle flavors,2.7915435
+3404,14977,refreshing,2.5270863
+3404,24546,popsicle,0.12085925
+3404,16068,ice cream shop,-0.4576089
+3404,14696,reasonable,-2.3492653
+3485,15222,tourists,3.3407776
+3485,18153,history enthusiasts,2.1542008
+3485,14921,St. Louis,0.1406413
+3485,24744,Old Courthouse,-0.43462992
+3992,15168,Carmel,6.634252
+3992,25832,modern and well-equipped,4.349552
+3992,25834,activities for kids,2.1280818
+3992,25833,digital resources,2.1024823
+3992,15677,bookstore,0.64587003
+3992,14259,friendly staff,0.4462131
+3992,20950,Library,-0.8017696
+3992,14126,cafe,-1.7533438
+4204,15168,Carmel,6.634252
+4204,26332,giving back aspect,3.4872363
+4204,23186,unique burgers,2.7208204
+4204,21477,variety of burgers,2.3735366
+4204,14208,good service,0.1816619
+4204,14265,burger,-1.3887051
+4204,16608,delicious burgers,-1.9279283
+4354,14092,Indianapolis,5.306029
+4354,26683,short security lines,4.3789983
+4354,26684,quick baggage handling,3.593396
+4354,14162,efficient service,2.7588859
+4354,23469,airport,1.8738298
+4354,26685,Frequent flyers,1.6689259
+4354,24537,convenient parking,1.0297649
+4354,14229,friendly service,0.8064559
+4440,17838,local vendors,4.9838715
+4440,26889,creative culinary concoctions,4.736437
+4440,26891,farm-to-fork experiences,3.2946334
+4440,26890,community-focused event,2.8394053
+4440,26888,Food festival,2.7437763
+4440,26892,festival lovers,1.408215
+4440,14789,variety of food options,0.9815209
+4440,26893,supporters of local businesses,0.91089475
+4440,14397,food enthusiasts,-0.43503904
+4719,14092,Indianapolis,5.306029
+4719,27518,variety of wine options,1.9311898
+4719,27519,Eddie Merlot's,1.7332578
+4719,14385,wine,0.78587085
+4719,27017,gourmet dishes,0.37857768
+4719,15442,high-quality food,0.26446646
+4719,14206,seafood,0.09325101
+4719,16762,upscale dining experiences,0.014496839
+4719,16417,top-notch service,-0.49737385
+4719,20851,dining enthusiasts,-0.55938137
+4719,14853,steaks,-1.7758807
+4719,14113,restaurant,-3.55736
+4725,14092,Indianapolis,5.306029
+4725,27531,lively restaurant setting,3.848535
+4725,20038,Winery,1.5463815
+4725,14385,wine,0.78587085
+4725,14113,restaurant,-3.55736
+4777,14092,Indianapolis,5.306029
+4777,27628,flavored comfort foods,4.2316427
+4777,27630,Canteen,3.7344356
+4777,27629,"modern, lively setting",2.9275203
+4777,14086,beers,1.6754658
+4777,14085,craft beers,1.3689529
+4777,14229,friendly service,0.8064559
+4777,14802,comfort food,0.21022756
+4777,14696,reasonable,-2.3492653
+4777,14113,restaurant,-3.55736
+4835,14092,Indianapolis,5.306029
+4835,14377,dining options,3.5002506
+4835,27755,Movie-goers,3.0812702
+4835,27751,a wide variety of shops,2.7198422
+4835,27752,entertainment choices,2.475981
+4835,27754,fashion enthusiasts,2.1559026
+4835,14378,entertainment,1.6851183
+4835,25794,tech-savvy individuals,1.5043486
+4835,14300,food lovers,0.286743
+4835,15662,dining,0.25540742
+4835,16434,shopping mall,-0.0972308
+4835,27753,shopping,-0.56858337
+5383,14092,Indianapolis,5.306029
+5383,28954,escape rooms,4.34904
+5383,14887,immersive experiences,2.7152946
+5383,17004,entertainment venue,2.5749903
+5383,28955,team building activities,2.3797507
+5383,28956,collaboration,1.0730901
+5383,28682,problem-solving,0.71996605
+5383,25379,fun experience,0.6024745
+5383,28681,challenging experience,-0.039391242
+5383,16196,group outings,-1.531865
+5555,29291,Fans of sweet treats,6.4144516
+5555,17077,candies,3.3948996
+5555,17886,candy,3.3944821
+5555,15321,sweet treats,3.3062243
+5555,29290,addictively delicious,3.3022554
+5555,29293,tasty gifts,3.225072
+5555,29292,support local business,3.1387453
+5555,29294,fun experiences while shopping,2.71474
+5555,21453,Fans of candies,2.2167146
+5555,21525,friendly owner,0.23171872
+5555,17987,gluten-free,-0.17865767
+5709,29665,personalized gifts,3.3099897
+5709,16932,fun,2.2733068
+5709,28577,Candle shop,2.1392558
+5709,29668,friendly gatherings,2.0599694
+5709,29669,family activities,1.8427596
+5709,16137,great customer service,0.0029552085
+5709,29666,scents,-0.08293617
+5709,29667,girls' nights,-0.18295656
+5709,17290,date nights,-0.29698244
+5893,14092,Indianapolis,5.306029
+5893,29986,creative Mexican cuisine,3.3633134
+5893,29987,vibrant nightlife spot,3.0135462
+5893,14086,beers,1.6754658
+5893,14085,craft beers,1.3689529
+5893,15036,great ambiance,1.3537016
+5893,14519,great service,-0.39001265
+5893,14115,Mexican,-2.9892983
+5893,14113,restaurant,-3.55736
+5898,15168,Carmel,6.634252
+5898,20358,casual restaurant,2.3907812
+5898,25183,helpful service,1.842993
+5898,14086,beers,1.6754658
+5898,14085,craft beers,1.3689529
+5898,16986,whiskey,1.2001355
+5898,14229,friendly service,0.8064559
+5898,21789,upscale restaurant,-1.4061092
+6165,17525,quick lunch,4.8309155
+6165,14726,good quality food,1.3309201
+6165,18267,families with children,0.83079964
+6165,14133,outdoor seating,-0.16292423
+6165,14366,ice cream,-0.339986
+6165,14265,burger,-1.3887051
+6165,14119,casual dining,-1.6050172
+6234,19710,beautiful venues,4.8607674
+6234,23047,outdoor spaces,4.0521383
+6234,30645,wood fire pizza,3.3615546
+6234,18160,Vineyard,3.3351886
+6234,15825,event planners,3.291868
+6234,22088,McCordsville,2.390901
+6234,16356,wine enthusiasts,1.1359105
+6516,14092,Indianapolis,5.306029
+6516,31210,s'mores,3.19234
+6516,31211,scenic canal view,2.7292902
+6516,14638,affordable drinks,2.04002
+6516,14789,variety of food options,0.9815209
+6516,31209,flatbread pizzas,0.39348647
+6516,14718,salads,0.30755392
+6516,14719,sandwiches,-0.0019954927
+6516,14133,outdoor seating,-0.16292423
+6516,14119,casual dining,-1.6050172
+6516,14402,Italian,-3.7985935
+6772,31704,communicative staff,3.323649
+6772,25965,Car dealership,2.7488427
+6772,31703,dealership experience,2.641484
+6772,14199,knowledgeable staff,1.6475428
+6772,31706,cars,1.1531903
+6772,31705,low-pressure sales approach,0.8506135
+6772,14259,friendly staff,0.4462131
+6772,31702,thorough service,0.31162643
+6772,14477,professional service,0.15278836
+6772,22960,Car enthusiasts,0.05896571
+7295,22946,high-quality sandwiches,3.6385214
+7295,14229,friendly service,0.8064559
+7295,14718,salads,0.30755392
+7295,14719,sandwiches,-0.0019954927
+7295,14388,diverse menu,-0.46728837
+7295,32732,high-quality salads,-0.67642075
+7295,14392,Saint Louis,-1.3584179
+7295,17032,Sandwich shop,-1.9075735
+7295,14297,soups,-2.37559
+7490,14124,college students,3.6054022
+7490,15222,tourists,3.3407776
+7490,33096,local attractions,2.4162092
+7490,17255,landmarks,2.3910062
+7490,18153,history enthusiasts,2.1542008
+7490,33098,visitor amenities,1.8486184
+7490,33099,Visitor center,1.6514524
+7490,33097,visitor services,1.5051627
+7490,33100,information,0.41942856
+7490,14093,Philadelphia,-2.4728665
+7523,15168,Carmel,6.634252
+7523,14089,laid-back atmosphere,3.511428
+7523,15812,cheeseburgers,3.3007684
+7523,33168,American cheeseburgers,2.7512445
+7523,14096,lively atmosphere,2.0216372
+7523,17142,milkshakes,-1.5013849
+7523,14113,restaurant,-3.55736
+7576,14092,Indianapolis,5.306029
+7576,15240,unique,3.4752133
+7576,16677,cool atmosphere,1.5632364
+7576,21327,familiar,1.5235331
+7576,14216,cocktails,1.4243729
+7576,14802,comfort food,0.21022756
+7576,25487,comfort foods,-0.61799705
+7576,19433,food establishment,-1.3308576
+7576,14213,creative cocktails,-4.3879833
+7885,15330,Fishers,5.581389
+7885,28954,escape rooms,4.34904
+7885,33866,challenging games,2.6593254
+7885,33865,team-building opportunities,2.5546305
+7885,33867,engaging experiences,2.5102088
+7885,33868,riddles,1.786695
+7885,33864,bar service,0.71501786
+7885,21487,escape room,0.4009685
+7885,21485,puzzles,0.05227843
+7885,16140,attention to detail,-0.040469885
+8098,22775,cooking classes,4.965731
+8098,34239,frozen meals,4.1488113
+8098,16791,sweets,2.1890142
+8098,23729,food items,1.6749876
+8098,34238,gourmet carry-out options,1.5562415
+8098,14719,sandwiches,-0.0019954927
+8646,15168,Carmel,6.634252
+8646,35255,gas station,4.3968573
+8646,35256,self-checkout,4.0256243
+8646,35254,High-end grocery store,3.0569246
+8646,16088,unique food options,2.9034445
+8646,16040,grocery,2.5524607
+8646,16185,specialty food,2.1679337
+8646,14183,pastry,2.1480248
+8646,22885,valet parking,1.5911771
+8646,14385,wine,0.78587085
+8646,14390,cheese,-0.30912337
+8646,16061,grocery store,-0.6618024
+9484,36777,real toppings,4.982204
+9484,14264,gluten-free options,3.3776493
+9484,14306,vegan options,2.8980007
+9484,14232,groups,2.3889284
+9484,26459,customizable food,2.1781487
+9484,14410,individuals,1.6954055
+9484,14469,excellent service,1.0657822
+9484,14408,families,-0.2934942
+9484,16340,welcoming staff,-0.89287627
+9484,15312,fresh toppings,-2.2719882
+9484,15171,fast food,-2.8306644
+9484,14304,pizza,-2.8723276
+9502,15404,interactive exhibits,5.7712765
+9502,20337,history buffs,4.7448416
+9502,36810,Symphony on the Prairie,4.062243
+9502,15537,Indiana,4.0236673
+9502,36811,Headless Horseman festival,3.275496
+9502,36796,baby animals,2.6828914
+9502,16485,historical tours,2.483636
+9502,36812,People who enjoy interactive educational experiences,2.4447896
+9502,23451,Historical attraction,1.5392854
+9502,14878,families with kids,1.4465843
+9502,23709,seasonal events,-0.010920305
+9615,37014,convenient checkout,3.1475372
+9615,37012,brand products,2.8917515
+9615,37015,tasty prepared foods,2.7144608
+9615,37018,people looking for good foods,2.631128
+9615,31717,name brands,2.5562115
+9615,15549,good deals,2.075945
+9615,37017,people looking for fresh foods,2.0024588
+9615,37016,variety of offerings,1.7654542
+9615,26350,bulk foods,1.648201
+9615,37013,clean and friendly shopping environment,1.540494
+9615,17430,foods,1.4353971
+9615,15959,fresh produce,1.3454322
+9615,25796,prepared foods,-0.6068858
+9615,16440,produce,-0.63615227
+9615,19647,organic options,-2.9130301
+10146,17251,Trail,5.4458184
+10146,14092,Indianapolis,5.306029
+10146,37991,murals,4.321493
+10146,37990,diverse attractions,4.241173
+10146,31954,rollerblading,4.1078396
+10146,37993,Users who enjoy outdoor activities and exploring nature,4.0297294
+10146,17123,walking,3.966529
+10146,37992,villages,3.8808622
+10146,25402,shaded areas,3.4417453
+10146,18208,biking,3.4358792
+10146,17122,running,0.22394116
+11089,39669,affordable performing arts,5.2001953
+11089,39670,quirky performing arts,5.0767198
+11089,39672,intimate theater,4.6186867
+11089,39671,diverse theater experiences,4.0798244
+11089,29798,local artists,2.8178813
+11187,15168,Carmel,6.634252
+11187,39852,great tenderloins,4.4733543
+11187,34858,delicious cuisine,3.9167056
+11187,39851,delicious American cuisine,3.8837664
+11187,39850,delicious Irish cuisine,3.688999
+11187,39853,tenderloins,3.6444483
+11187,15534,homemade desserts,3.0471013
+11187,14440,pet-friendly dining,2.3927395
+11187,17284,lively atmospheres,1.9030615
+11187,18720,Irish cuisine,0.17384036
+11187,21287,casual outings,-0.13475974
+11187,14133,outdoor seating,-0.16292423
+11187,14616,special occasions,-0.3321998
+11187,14152,American cuisine,-1.822497
+11836,15168,Carmel,6.634252
+11836,17997,convenience,4.237712
+11836,34585,quality car wash services,4.057229
+11836,40981,unlimited wash packages,3.1075182
+11836,40982,Users who prioritize convenience and quality,2.5257485
+11836,20720,car wash services,0.5122224
+11938,15168,Carmel,6.634252
+11938,41170,family-friendly dining experiences,3.8262255
+11938,39341,decent food quality,2.6537406
+11938,16206,tavern,-0.09139877
+11938,14235,diverse menu options,-0.63028824
+11938,15550,happy hour deals,-0.87126946
+11938,14215,attentive service,-0.9578768
+11938,14113,restaurant,-3.55736
+12263,14092,Indianapolis,5.306029
+12263,21719,variety of activities,5.162057
+12263,41736,interactive animal experiences,4.0881295
+12263,15405,educational exhibits,3.6036348
+12263,41738,Visitors looking for a variety of activities,2.7643232
+12263,41737,Individuals interested in educational exhibits,2.5433145
+12263,19829,zoo,2.3638566
+12263,14600,families with young children,1.4207537
+12446,14092,Indianapolis,5.306029
+12446,42070,excellent smoothie consistency,4.052321
+12446,16149,juices,3.5788677
+12446,15715,smoothies,2.91671
+12446,18779,acai bowls,2.0414898
+12446,18778,juice,1.551712
+12446,21391,smoothie,1.2378384
+12446,14259,friendly staff,0.4462131
+12446,35495,Juicery,0.36041608
+12764,17965,fresh groceries,2.2654977
+12764,42637,Users who enjoy exploring diverse food options,1.2058504
+12764,14087,diverse food options,0.33823174
+12764,17831,bustling market atmosphere,-0.069955096
+12764,42636,wide array of specialty food items,-0.5271375
+12764,15690,local products,-1.1611634
+12764,14093,Philadelphia,-2.4728665
+13185,43298,diverse portion options,3.726565
+13185,43299,generous portion options,3.253153
+13185,16951,panini,2.5604384
+13185,43300,fun Montana atmosphere,2.53669
+13185,14254,large portions,0.5503947
+13185,14215,attentive service,-0.9578768
+13185,14265,burger,-1.3887051
+13185,14120,affordable,-1.5097977
+13185,14304,pizza,-2.8723276
+13502,15168,Carmel,6.634252
+13502,14110,cozy ambiance,-0.28087297
+13502,14215,attentive service,-0.9578768
+13502,16018,Fans of flavorful Thai cuisine,-1.2500888
+13502,14167,Thai cuisine,-1.3096981
+13502,14120,affordable,-1.5097977
+13571,14872,omelets,3.2146423
+13571,43980,alcoholic slushies,2.5424893
+13571,43979,specialty coffee blends,2.3413029
+13571,43981,people looking for efficient catering services,1.7085075
+13571,14609,delicious sandwiches,1.3358684
+13571,19319,waffles,0.36106044
+13571,14719,sandwiches,-0.0019954927
+13571,14773,fast service,-0.8555911
+13571,14103,brunch,-1.1289425
+13571,14126,cafe,-1.7533438
+13571,14295,breakfast options,-1.8365138
+13660,44130,self-service coffee,4.002492
+13660,14229,friendly service,0.8064559
+13660,14802,comfort food,0.21022756
+13660,14214,cozy,0.046024825
+13660,14424,quick service,0.010969081
+13660,14103,brunch,-1.1289425
+13660,14696,reasonable,-2.3492653
+13660,14226,breakfast,-3.7526665
+14051,14536,generous portion sizes,2.0643795
+14051,44755,fried yuca,0.9105285
+14051,44754,Latin food,0.7186827
+14051,16451,arepas,0.6631233
+14051,22655,options,0.19787943
+14051,23510,clean and friendly environment,-0.7524586
+14051,43301,Venezuelan dishes,-0.7637649
+14051,24974,Latin dishes,-0.9434603

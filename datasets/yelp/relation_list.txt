@@ -1,139 +1,116 @@
 relation_name remap_id
-"located in" 0
+"serves" 0
 "offers" 1
 "has atmosphere" 2
-"caters to" 3
-"appeals to" 4
-"is a" 5
-"has feature" 6
-"price range" 7
+"has feature" 3
+"caters to" 4
+"located in" 5
+"is a" 6
+"appeals to" 7
 "suitable for" 8
-"serves cuisine" 9
-"serves dish" 10
+"price range" 9
+"name" 10
 "presents" 11
-"serves" 12
-"serves drink" 13
-"has menu variety" 14
-"has issue" 15
-"has experience" 16
-"uses" 17
-"supports" 18
+"features" 12
+"has policy" 13
+"has payment method" 14
+"specializes in" 15
+"served in" 16
+"has staff" 17
+"provides" 18
 "category" 19
-"interests" 20
-"enjoys" 21
-"cater to" 22
+"has service quality" 20
+"offeres" 21
+"seeks" 22
 "presents genre" 23
-"sells" 24
-"serves meal type" 25
-"willing to overlook" 26
-"has option" 27
-"has membership perk" 28
-"has activity" 29
-"has note" 30
-"has selection" 31
-"compared to" 32
-"has undergone" 33
-"has staff" 34
-"values" 35
-"preferred by" 36
-"has" 37
-"no prior skills required" 38
-"has influence" 39
-"specializes in" 40
-"teaches" 41
-"category of" 42
-"has selection of" 43
-"has flavor" 44
-"has reviews" 45
-"reviews mention" 46
-"offers activity type" 47
-"has service feature" 48
-"focus on" 49
-"provides" 50
-"alternative options" 51
-"may have mixed experiences for" 52
-"helps avoid" 53
-"type" 54
-"can be crowded" 55
-"food options category" 56
-"has setup" 57
-"has policy" 58
-"has service" 59
-"has owner" 60
-"has service option" 61
-"willing to wait for" 62
-"features" 63
-"has category" 64
-"has focus on" 65
-"does not offer" 66
-"has attraction" 67
-"serves category" 68
-"facilitates" 69
-"justified by" 70
-"has store category" 71
-"has hours" 72
-"promotes" 73
-"has texture" 74
-"is dog-friendly" 75
-"general category" 76
-"value" 77
-"has drink category" 78
-"reputation" 79
-"service quality" 80
-"has food options" 81
-"has event frequency" 82
-"potential for" 83
-"serves genre" 84
-"drink specials" 85
-"not typical" 86
-"overlooks" 87
-"history duration" 88
-"community includes" 89
-"interested in" 90
-"prioritizes" 91
-"has broad range" 92
-"hosted by" 93
-"sensitive to" 94
-"season" 95
-"portion size" 96
-"payment method" 97
-"has mission" 98
-"service" 99
-"requires" 100
-"open to" 101
-"evokes" 102
-"has ambiance" 103
-"special offer" 104
-"has communication options" 105
-"food quality" 106
-"targets" 107
-"has genre" 108
-"sources" 109
-"may be a" 110
-"has cuisine" 111
-"interacts with" 112
-"familiar with" 113
-"has quality standard" 114
-"willing to pay" 115
-"serves style" 116
-"has vibe" 117
-"guided by" 118
-"part of" 119
-"has dress code" 120
-"has customer service" 121
-"has dietary restriction" 122
-"valued for" 123
-"menu includes" 124
-"made from" 125
-"taste" 126
-"context" 127
-"overall experience" 128
-"has menu size" 129
-"has detailed nutritional info for" 130
-"may be" 131
-"contrast with" 132
-"delivery option" 133
-"has facilities" 134
-"has area for improvement" 135
-"insights into" 136
-"favored by" 137
+"has menu with" 24
+"recommended visit" 25
+"has reputation" 26
+"uses" 27
+"has feedback" 28
+"has been renovated" 29
+"has issue" 30
+"has activity" 31
+"focuses on" 32
+"has owner" 33
+"location" 34
+"has significance" 35
+"receives" 36
+"has strategy for" 37
+"has ingredient" 38
+"has scene" 39
+"has main ingredient" 40
+"has attribute" 41
+"has shopping options" 42
+"has setting" 43
+"has service" 44
+"supports" 45
+"has variety of" 46
+"located away from" 47
+"suits" 48
+"has characteristic" 49
+"has menu feature" 50
+"may not be suitable for" 51
+"prioritizes" 52
+"has ambiance" 53
+"hosts" 54
+"balanced by" 55
+"has purpose" 56
+"does not own" 57
+"has experience" 58
+"interests include" 59
+"has amenities" 60
+"has aspect" 61
+"compares to" 62
+"historical age" 63
+"has" 64
+"has supervision by" 65
+"has vibe" 66
+"owned by" 67
+"spice levels range from" 68
+"reasons to revisit" 69
+"has drawback" 70
+"accepts payment" 71
+"prefers payment method" 72
+"has event" 73
+"has food options" 74
+"compared to" 75
+"lacks feature" 76
+"avoids" 77
+"has hours" 78
+"has highlight" 79
+"has potential issue" 80
+"off ers" 81
+"surroundings include" 82
+"caterst to" 83
+"educates about" 84
+"cater to" 85
+"has opportunity to see" 86
+"adheres to" 87
+"discovers" 88
+"does not specify" 89
+"competes with" 90
+"connected to" 91
+"recommendation" 92
+"has music genre" 93
+"has overall experience" 94
+"has cuisine influence" 95
+"sees" 96
+"includes" 97
+"likes" 98
+"is open to" 99
+"ensures" 100
+"has dietary options" 101
+"made from" 102
+"services" 103
+"cooking method" 104
+"can overlook" 105
+"creates" 106
+"willing to" 107
+"has quality" 108
+"has theme" 109
+"listens to" 110
+"value proposition" 111
+"has portion size" 112
+"has menu" 113
+"has potential for" 114

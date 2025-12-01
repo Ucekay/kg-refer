@@ -1,0 +1,221 @@
+item_id,entity_id,entity_name,score
+18,14240,Bryn Mawr,7.0317707
+18,14239,Ardmore,5.2257104
+18,14244,brewery environment,3.2259123
+18,14243,generous food offerings,2.9543302
+18,14242,flavorful beers,1.1994785
+18,14241,funky beers,0.79865867
+18,14086,beers,0.62312096
+18,14199,knowledgeable staff,-1.4341464
+51,14426,bustling location,5.533461
+51,14093,Philadelphia,1.9698966
+51,14427,Vegetarian restaurant,-0.22031185
+51,14425,plant-based burgers,-0.5520158
+51,14428,Vegan restaurant,-2.6466901
+51,14423,vegetarian options,-2.9253185
+51,14424,quick service,-3.5176134
+51,14306,vegan options,-4.8536057
+1436,17252,charming ambiance,3.5828733
+1436,17974,tapas bars,3.1021416
+1436,14093,Philadelphia,1.9698966
+1436,14215,attentive service,0.05793543
+1436,14568,flavorful dishes,-1.2522727
+1668,20244,limited liquor selection,2.1030138
+1668,16608,delicious burgers,1.3058139
+1668,14086,beers,0.62312096
+1668,17797,unique appetizers,0.5385403
+1668,16014,fans of craft beer,-0.055737015
+1668,14265,burger,-0.05868081
+1668,20243,cozy pub atmosphere,-1.102457
+1668,14085,craft beers,-2.0629148
+1668,14208,good service,-2.4431443
+2194,21647,traditional classics,1.9847826
+2194,14093,Philadelphia,1.9698966
+2194,21648,value for money dining experiences,1.1979632
+2194,15529,Italian food enthusiasts,-0.04357124
+2194,14402,Italian,-4.5503173
+2255,14163,fresh food,4.616606
+2255,21824,pleasant overall dining experience,2.4852118
+2255,17800,clean establishments,1.7553508
+2255,14920,tasty food,-0.61130834
+2255,14113,restaurant,-1.3666644
+2255,14773,fast service,-1.6292832
+2255,14259,friendly staff,-2.0812328
+3029,23665,People looking for a cozy spot for a date,3.6663928
+3029,23666,lower calorie options,2.984745
+3029,15237,vegan dishes,-0.46943164
+3029,15497,healthy food,-1.2145917
+3029,14113,restaurant,-1.3666644
+3029,14469,excellent service,-1.6902257
+3029,19899,sophisticated,-1.7089792
+3029,14423,vegetarian options,-2.9253185
+3029,14306,vegan options,-4.8536057
+3118,14464,bbq,2.9366603
+3118,23868,Fans of smokehouse cuisine,2.4458196
+3118,23869,People who enjoy hearty portions,2.3000674
+3118,14093,Philadelphia,1.9698966
+3118,15867,hearty portions,1.7665483
+3118,23870,People seeking buffet options,1.618995
+3118,15642,people who enjoy flavorful dishes,1.6020396
+3118,23867,buffet on Monday nights,1.1228027
+3118,21622,fans of bbq,0.7698019
+3118,23866,smokehouse cuisine,-0.76388925
+3118,14568,flavorful dishes,-1.2522727
+4607,14239,Ardmore,5.2257104
+4607,27283,prepared Italian dinners,4.1683474
+4607,27285,cozy suburban market experience,3.994309
+4607,27284,bakery treats,3.9058907
+4607,27282,Italian specialty food,3.8923597
+4607,14337,excellent customer service,-1.5950775
+4607,15689,specialty grocery items,-2.3839018
+4607,14365,market,-2.490765
+4607,14402,Italian,-4.5503173
+6013,14390,cheese,6.876818
+6013,19130,interactive,4.82711
+6013,21412,fondue,2.6337428
+6013,14103,brunch,2.24679
+6013,18850,brunch lovers,2.2377527
+6013,14616,special occasions,1.1002928
+6013,17887,chocolate,0.9028764
+6013,22756,great deals,0.47235715
+6013,14409,couples,-0.1537172
+6013,16326,romantic,-0.3612303
+6013,15737,higher,-0.88581145
+6013,14214,cozy,-1.7847229
+6013,14335,mimosas,-2.6922433
+7306,32746,lively market atmosphere,3.085012
+7306,14093,Philadelphia,1.9698966
+7306,32745,Pennsylvania Dutch food,0.57557786
+7306,14120,affordable,-0.96102625
+7306,14295,breakfast options,-1.1272343
+7306,14113,restaurant,-1.3666644
+7401,17706,Berwyn,4.863804
+7401,16307,fans of ice cream,2.8521018
+7401,32916,abundant ice cream flavors,2.6699064
+7401,16068,ice cream shop,2.5153592
+7401,29754,unique ice cream flavors,1.6112735
+7401,14366,ice cream,1.3763926
+7401,32917,Fun outing,0.15433002
+7401,14408,families,-1.775346
+7401,23224,variety of seating options,-2.9266741
+7425,25639,Newtown Square,6.5710897
+7425,32973,top-notch food and drinks,4.397117
+7425,32974,buffet-style dining experiences,3.3251925
+7425,14783,drinks,2.1068995
+7425,14246,beer selection,1.8380551
+7425,14086,beers,0.62312096
+7425,14213,creative cocktails,-0.14127111
+7425,14216,cocktails,-1.0273513
+7425,14469,excellent service,-1.6902257
+7425,17022,ambiance,-1.764706
+8896,14093,Philadelphia,1.9698966
+8896,35714,Philly-centric items,1.6877495
+8896,35716,Midtown Village,1.4631324
+8896,35715,kitchen & bath products,1.3482788
+8896,30032,items,0.8354439
+8896,15949,decor,0.2295472
+8896,16721,home decor,0.07275768
+8896,15822,unique gifts,-0.93882823
+8896,19115,products,-0.9667405
+8896,20331,gifts,-1.4396023
+9202,16358,customizable menus,4.53563
+9202,36302,friendly dining,4.4362526
+9202,16863,fast dining,4.160037
+9202,14206,seafood,0.82526857
+9202,15082,events,0.38427556
+9202,16643,accommodating staff,0.029802043
+9202,14213,creative cocktails,-0.14127111
+9559,14875,cupcake,1.3807414
+9559,18575,gourmet cupcakes,0.7310595
+9559,14207,cozy setting,0.16219532
+9559,14696,reasonable,-0.40506774
+9559,14369,variety of flavors,-0.8447671
+9559,14277,fresh ingredients,-3.38195
+10012,37750,Philly sandwiches,3.0819745
+10012,28809,top-quality food,2.5497992
+10012,37751,"authentic, succulent, and flavorful",1.7178458
+10012,37752,Willing to wait in line,1.1826664
+10012,21479,Reading Terminal Market,1.147596
+10012,37753,Lovers of Philly sandwiches,0.8789314
+10012,14607,sandwich,0.16038099
+10012,14162,efficient service,-0.9913085
+10184,38064,vibrant energy,2.7051563
+10184,14783,drinks,2.1068995
+10184,38065,date,0.97065985
+10184,14935,fried chicken,0.15109612
+10184,14215,attentive service,0.05793543
+10184,14113,restaurant,-1.3666644
+10184,14351,variety of dishes,-1.581324
+10184,17407,unique ambiance,-3.0723472
+11184,18539,Drexel Hill,5.108771
+11184,39833,High-quality breakfast restaurant,3.6463535
+11184,39834,Breakfast/Brunch restaurant,3.4961655
+11184,14103,brunch,2.24679
+11184,14215,attentive service,0.05793543
+11184,14226,breakfast,-0.33832675
+11184,14823,variety of menu options,-0.51925397
+11184,14214,cozy,-1.7847229
+11401,14239,Ardmore,5.2257104
+11401,20855,Pastry shop,4.121464
+11401,40231,distinct cakes,4.1162133
+11401,40230,distinct pastries,4.043307
+11401,19051,high-quality cakes,3.6022239
+11401,14180,high-quality pastries,2.9359403
+11401,34723,taste,0.99306166
+11401,14659,cakes,-3.0228033
+11401,14181,pastries,-4.1559997
+11484,21252,fusion dishes,3.7769628
+11484,40372,"Users who enjoy upscale, creative Asian fusion dishes, exotic cocktails, and attentive service",3.248943
+11484,31794,energetic ambiance,3.183458
+11484,30195,exotic cocktails,2.9978118
+11484,40371,90s decor style,2.757875
+11484,14093,Philadelphia,1.9698966
+11484,16326,romantic,-0.3612303
+11484,15602,asian fusion dishes,-0.5232115
+12417,42007,drinks by a fire pit,2.7569044
+12417,42006,Christmas village,2.60112
+12417,14093,Philadelphia,1.9698966
+12417,42009,expensive rentals,1.9685858
+12417,42005,Christmas atmosphere,1.6271936
+12417,42008,bumpy ice surface,1.3878285
+12417,23486,outdoor games,-0.07890617
+12417,22493,ice skating,-0.8451595
+12570,37776,specialty sandwiches,5.185329
+12570,42307,lively food court atmosphere,4.4393516
+12570,14261,king of prussia,4.0641937
+12570,17142,milkshakes,3.9529142
+12570,17001,slightly higher prices,1.5710602
+12570,16260,atmosphere,1.4294932
+12570,14113,restaurant,-1.3666644
+12739,14322,creative dishes,3.9811752
+12739,17252,charming ambiance,3.5828733
+12739,15630,chic decor,1.759752
+12739,17290,date nights,1.3770738
+12739,14616,special occasions,1.1002928
+12739,19597,unique dining experience,1.0765227
+12739,14113,restaurant,-1.3666644
+12739,14469,excellent service,-1.6902257
+12739,15442,high-quality food,-2.5213542
+12780,14093,Philadelphia,1.9698966
+12780,42661,huge burgers,1.6772628
+12780,16608,delicious burgers,1.3058139
+12780,25994,colorful,0.35611367
+12780,14265,burger,-0.05868081
+12780,14696,reasonable,-0.40506774
+12780,14305,variety of toppings,-1.7175353
+12780,23299,quirky,-2.2971277
+12780,14306,vegan options,-4.8536057
+12946,15189,elegant ambiance,4.79619
+12946,14206,seafood,0.82526857
+12946,14469,excellent service,-1.6902257
+12946,14896,cocktail,-1.8311677
+12946,14567,steak,-2.014345
+13327,17735,Wynnewood,5.303335
+13327,14103,brunch,2.24679
+13327,15888,brunch enthusiasts,1.1833732
+13327,14110,cozy ambiance,0.5471753
+13327,16744,healthy options,0.15387875
+13327,14500,reasonably priced,-0.9084848
+13327,14126,cafe,-1.3007991
+13327,14229,friendly service,-1.5709916
+13327,14223,varied menu,-1.5740141

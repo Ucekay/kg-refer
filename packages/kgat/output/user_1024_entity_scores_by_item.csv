@@ -1,0 +1,507 @@
+item_id,entity_id,entity_name,score
+216,14921,St. Louis,2.7172186
+216,15242,arcade games,1.0670826
+216,14612,pizza restaurant,0.7503264
+216,15254,Chicago style pizza,0.24629492
+216,14304,pizza,0.14811505
+216,14787,pub,-0.5800886
+216,14089,laid-back atmosphere,-0.74574155
+216,15255,unique toppings,-1.3290207
+391,14392,Saint Louis,3.494081
+391,16017,options for varying spice levels,1.179106
+391,14793,Thai cioisine,0.08802108
+391,14167,Thai cuisine,-0.77686554
+391,14228,generous portions,-0.8151056
+391,16018,Fans of flavorful Thai cuisine,-1.0147697
+391,14229,friendly service,-1.3999692
+516,14392,Saint Louis,3.494081
+516,16481,free beer samples,2.4884565
+516,14342,brewery tours,0.30595356
+516,14550,brewery,-0.46367884
+516,14086,beers,-0.93625325
+731,14392,Saint Louis,3.494081
+731,17216,local food,2.6657517
+731,17218,homemade goods,1.6095799
+731,17219,vibrant market atmosphere,0.22683127
+731,14928,cheeses,0.19778506
+731,17220,food trucks,-0.11400654
+731,17217,artisan breads,-0.3426627
+731,14222,live music,-0.3509698
+731,15959,fresh produce,-0.43158475
+809,14392,Saint Louis,3.494081
+809,17492,cute bakery atmosphere,1.9405116
+809,17491,bright bakery atmosphere,1.8993886
+809,17493,homemade pastries,1.5250363
+809,16791,sweets,0.53712153
+809,14181,pastries,-0.094263375
+809,16538,treats,-0.75882065
+809,14187,bakery,-1.2986716
+809,14306,vegan options,-1.495815
+1296,19171,"cozy, charming",2.5595903
+1296,19170,malts,1.8117088
+1296,17892,candy store,0.95776784
+1296,14802,comfort food,-0.20816807
+1296,17886,candy,-0.840309
+1296,14366,ice cream,-1.3199018
+1321,14921,St. Louis,2.7172186
+1321,19242,variety of brews,0.8368772
+1321,15011,board games,0.78913754
+1321,14085,craft beers,0.25511897
+1321,14584,craft beer enthusiasts,-0.018203266
+1321,19244,aged beers,-0.107594274
+1321,19243,fruited sours,-0.24574815
+1321,15397,welcoming,-0.82168543
+1321,15240,unique,-0.863171
+1321,14086,beers,-0.93625325
+1658,14921,St. Louis,2.7172186
+1658,20218,delicious BBQ,1.6467677
+1658,20219,amazing sides,1.3099244
+1658,16629,sides,0.36759505
+1658,14424,quick service,-0.4693846
+1658,14454,welcoming atmosphere,-0.47191593
+1658,14464,bbq,-0.506136
+1658,14259,friendly staff,-1.4744133
+1729,20430,inviting dining experience,2.6444793
+1729,20429,excellent brews,2.4209552
+1729,20428,rustic atmosphere,0.6861372
+1729,14479,quality food,-0.024168314
+1729,14550,brewery,-0.46367884
+1729,14086,beers,-0.93625325
+1729,14229,friendly service,-1.3999692
+2075,14392,Saint Louis,3.494081
+2075,21357,zoos,2.6356425
+2075,21356,museums,2.509124
+2075,21358,scenery,2.5047643
+2075,19579,cultural activities,2.207283
+2075,18477,park,0.5701385
+2075,15212,outdoor activities,0.27250436
+2171,14392,Saint Louis,3.494081
+2171,21577,Brewery & Distillery,1.9218806
+2171,14085,craft beers,0.25511897
+2171,16762,upscale dining experiences,-0.08721047
+2171,14216,cocktails,-0.1887663
+2171,14213,creative cocktails,-0.26890016
+2171,14208,good service,-0.46890467
+2171,14214,cozy,-0.52112794
+2171,14245,good food,-0.5875772
+2171,14086,beers,-0.93625325
+2172,21592,intimate music venue,1.0641987
+2172,21590,jazz and blues music,0.8809513
+2172,21593,long bar,0.7105112
+2172,21594,close circuit TVs,0.6598067
+2172,18023,American traditional food,0.6392149
+2172,21522,late-night diners,0.5386081
+2172,21591,bar atmosphere,-0.08393806
+2172,14111,good drinks,-0.39405337
+2172,14719,sandwiches,-0.67039627
+2328,15871,St Louis,3.0806048
+2328,21975,bacon-wrapped stuffed chicken,1.9274848
+2328,21976,half-off wine Wednesdays,1.6780922
+2328,21974,salmon,1.0163722
+2328,14385,wine,0.95260704
+2328,20698,group gatherings,0.8877014
+2328,16356,wine enthusiasts,0.43885475
+2328,20082,extensive wine selection,-0.15883367
+2328,14300,food lovers,-0.48872823
+2328,14214,cozy,-0.52112794
+2948,23480,local brewery atmosphere,3.2451773
+2948,23479,German-style beers,3.1836214
+2948,14550,brewery,-0.46367884
+2948,14245,good food,-0.5875772
+2948,23481,variety of beer options,-0.8606862
+2948,14086,beers,-0.93625325
+2952,14392,Saint Louis,3.494081
+2952,21414,romantic date night,1.5898867
+2952,23485,girls' night out,0.89284545
+2952,21798,intimate settings,0.35556492
+2952,14216,cocktails,-0.1887663
+2952,20574,specialty desserts,-0.6808299
+2952,14797,desserts,-1.4019669
+3650,14392,Saint Louis,3.494081
+3650,25106,Cider brewpub,1.2699451
+3650,19158,craft ciders,0.097748965
+3650,14214,cozy,-0.52112794
+3650,14895,cider,-0.8095066
+3650,14469,excellent service,-1.009046
+3969,25789,variety of cookie options,2.3162932
+3969,25788,cozy bakery setting,1.418359
+3969,25790,gluten-free cookies,1.244276
+3969,23433,People seeking gluten-free options,1.0383689
+3969,25792,People who enjoy gooey cookies,0.9689723
+3969,25793,People who enjoy delicious cookies,0.92135066
+3969,20523,people who appreciate friendly service,0.8741761
+3969,25791,People who enjoy warm cookies,0.8391932
+3969,25786,gooey cookies,0.79734564
+3969,21766,cookie,0.74549675
+3969,14660,cookies,0.38342598
+3969,21052,warm cookies,-0.86390936
+3969,25787,delicious cookies,-1.1450069
+3969,14229,friendly service,-1.3999692
+3969,16445,unknown location,-1.4755076
+3990,14392,Saint Louis,3.494081
+3990,25831,traditional sports bar experience,1.4326187
+3990,14247,sports,0.5303191
+3990,16779,sports bar,0.4371488
+3990,14245,good food,-0.5875772
+3990,16016,burger lovers,-0.68713576
+3990,16319,service,-0.9444718
+3990,17367,sports enthusiasts,-1.3145145
+4003,14392,Saint Louis,3.494081
+4003,25877,Costco membership perks,1.8022823
+4003,25876,bulk shopping,1.5604856
+4003,18247,rewards program,1.3413705
+4003,15960,organic produce,1.1592752
+4003,15751,shoppers,0.52982825
+4003,16966,cafeteria,0.19316493
+4003,14179,supermarket,0.17351411
+4003,15549,good deals,0.04132009
+4003,14391,meats,-0.1948921
+4024,15179,clean environment,1.069384
+4024,14783,drinks,1.047757
+4024,14235,diverse menu options,0.7511144
+4024,15041,Wesley Chapel,0.37069446
+4024,14718,salads,0.3453255
+4024,14113,restaurant,0.2994272
+4024,25917,professional environment,0.2784744
+4024,17517,chicken dishes,-0.4791899
+4024,14719,sandwiches,-0.67039627
+4024,25918,positive dining experience,-1.2202919
+4024,14432,beverages,-1.271886
+4024,14229,friendly service,-1.3999692
+4041,14392,Saint Louis,3.494081
+4041,24735,grocery shopping,2.5493891
+4041,25954,artisanal selections,2.440491
+4041,25953,locally-sourced products,2.354526
+4041,25955,Grocery shoppers,2.230928
+4041,15791,wine options,2.0895717
+4041,17079,organic products,-0.15188994
+4041,14259,friendly staff,-1.4744133
+4372,14392,Saint Louis,3.494081
+4372,26732,community activities,2.1027424
+4372,26736,Users who enjoy cultural festivals,2.047153
+4372,26737,Users who enjoy outdoor environments,2.0127513
+4372,26734,Users who enjoy botanical gardens,2.0040743
+4372,26731,peaceful outdoor environments,1.9894323
+4372,26738,Users who enjoy community activities,1.9299996
+4372,26735,Users who enjoy live music events,1.8721752
+4372,26730,cultural festivals,1.8457016
+4372,26733,diverse offerings,0.5760749
+4372,17644,botanical garden,0.15251741
+4372,15629,live music events,-0.21088049
+4372,21727,botanical gardens,-0.3076368
+4508,14112,New Orleans,0.25521356
+4508,14216,cocktails,-0.1887663
+4508,27054,Tourists seeking unique experiences,-0.50159454
+4508,27053,grandeur,-0.50362736
+4508,27051,unique rotating carousel bar,-0.9844882
+4508,27050,historic significance,-1.04862
+4508,27052,iconic cocktails,-1.0505904
+4508,27049,Bar & Lounge,-1.4890248
+4968,14563,fun atmosphere,1.5687593
+4968,14637,tex-mex food,1.1247419
+4968,14115,Mexican,1.1094329
+4968,15688,Lutz,0.45469636
+4968,28056,hot sauce bar,0.20714976
+4968,14208,good service,-0.46890467
+4992,28119,West Olive,1.5040065
+4992,28121,in-theater dining,1.4646922
+4992,28123,family outing,1.3090901
+4992,28122,special date night,1.2999828
+4992,28120,Cinemas,0.89994824
+4992,16973,comfortable seating,-0.9474372
+4992,14846,personalized service,-0.96124685
+5777,14560,wide variety of flavors,-0.22534402
+5777,14238,Tampa,-0.4841957
+5777,16068,ice cream shop,-0.49005488
+5777,14133,outdoor seating,-0.97305703
+5777,14366,ice cream,-1.3199018
+5777,14229,friendly service,-1.3999692
+6146,14392,Saint Louis,3.494081
+6146,15451,vibrant nightlife scene,1.0518926
+6146,17451,pleasant dining experience,0.92032427
+6146,15747,diverse food,0.65039873
+6146,30454,focus on cocktails,0.45011562
+6146,14216,cocktails,-0.1887663
+6146,15446,drink options,-0.36856213
+6146,16705,dining experience,-0.3777098
+6146,27116,nightlife scene,-0.52711385
+6376,20247,live concerts,0.6623148
+6376,16976,Fans of concerts,0.5176444
+6376,14353,Nashville,0.26411107
+6376,16784,football games,-0.2911437
+6376,30945,easy accessibility,-0.63555104
+6376,25934,good amenities,-0.67722476
+6376,30946,Fans of football games,-0.69963866
+6376,30947,Fans of large-scale events,-0.88600093
+6376,14154,friendly,-1.0644774
+6376,30944,large-scale events,-1.0887469
+6768,14392,Saint Louis,3.494081
+6768,14113,restaurant,0.2994272
+6768,14454,welcoming atmosphere,-0.47191593
+6768,14314,Mediterranean cuisine,-0.6415868
+6768,14759,Greek cuisine,-0.80566037
+6768,14228,generous portions,-0.8151056
+6768,14229,friendly service,-1.3999692
+6788,31740,various grain options,2.536423
+6788,31739,various protein options,2.2531645
+6788,28086,fresh meals,1.4644725
+6788,14718,salads,0.3453255
+6788,14113,restaurant,0.2994272
+6788,15709,bowls,0.06299948
+6788,17441,customizable meals,-0.035294205
+6788,17589,pasta,-0.16090612
+6788,14424,quick service,-0.4693846
+6788,16172,wraps,-1.1800325
+6788,14259,friendly staff,-1.4744133
+7294,32729,Users who enjoy elegant ambiance,2.548256
+7294,32731,Users who enjoy laid-back atmosphere,2.4163032
+7294,32730,Users who enjoy extensive wine selection,2.2307613
+7294,15928,central location,1.1717184
+7294,14088,laid-back,0.0886311
+7294,20082,extensive wine selection,-0.15883367
+7294,26566,Users who enjoy delicious food,-0.8196742
+7294,14133,outdoor seating,-0.97305703
+7294,15189,elegant ambiance,-0.9825566
+7294,14102,delicious food,-1.6062734
+7412,14392,Saint Louis,3.494081
+7412,32951,individuals seeking a quiet and creative retreat,1.8757222
+7412,24900,public park,1.2135768
+7412,32952,urban park,1.2000642
+7412,32950,urban experience,1.0759937
+7412,14664,art,1.0191939
+7412,23092,art lovers,0.6883364
+7412,18477,park,0.5701385
+7412,19699,nature,0.18351516
+7412,15221,nature lovers,0.1120415
+7412,18267,families with children,-0.51384157
+7625,14921,St. Louis,2.7172186
+7625,33363,Fans of gourmet cupcakes,1.5787666
+7625,14369,variety of flavors,1.4580818
+7625,33364,Fans of dessert experiences,1.3835369
+7625,33362,boutique atmosphere,1.301412
+7625,14522,dessert,0.3036796
+7625,15543,cupcakes,0.18788278
+7625,15321,sweet treats,-0.41546506
+7625,16538,treats,-0.75882065
+7677,14921,St. Louis,2.7172186
+7677,33462,Individuals who enjoy vibrant local flavors,1.9159054
+7677,33461,eclectic shopping centers,1.8081319
+7677,33463,Individuals who enjoy eclectic shopping centers,1.8075918
+7677,33460,vibrant local flavors,1.6782061
+7677,15747,diverse food,0.65039873
+7677,14096,lively atmosphere,0.60418516
+7677,14678,entertainment options,0.027462143
+7677,14458,lively,-0.48071402
+7677,27099,Individuals who enjoy lively atmospheres,-1.1557672
+7880,14150,cajun cuisine,1.0955979
+7880,33862,lively and entertaining dining experience,1.0853038
+7880,14151,creole cuisine,0.5735742
+7880,14113,restaurant,0.2994272
+7880,14112,New Orleans,0.25521356
+7880,14206,seafood,-0.33109644
+7880,17829,Cajun/Creole dishes,-0.48005515
+8163,34377,innovative take-out boxes,1.7199987
+8163,21463,St. Charles,1.6156251
+8163,14115,Mexican,1.1094329
+8163,15348,lively nightlife atmosphere,0.40917507
+8163,14229,friendly service,-1.3999692
+8191,14921,St. Louis,2.7172186
+8191,34423,swimming pool,1.7833844
+8191,34424,family-friendly facilities,1.7255198
+8191,26070,fitness activities,1.5777415
+8191,14177,helpful staff,-0.2774193
+8191,24337,services,-1.0213274
+8352,14921,St. Louis,2.7172186
+8352,34717,Filipino-inspired food,1.7921944
+8352,34720,non-beer drinkers,0.9784808
+8352,34718,roomy taproom,0.7679139
+8352,34719,rotating guest taps,0.7568684
+8352,23293,IPA,0.12884045
+8352,14584,craft beer enthusiasts,-0.018203266
+8352,14550,brewery,-0.46367884
+8352,14086,beers,-0.93625325
+8505,14921,St. Louis,2.7172186
+8505,34991,brewery visit,1.2576374
+8505,16114,happy hours,1.1640284
+8505,22096,parties,0.82469964
+8505,14086,beers,-0.93625325
+8505,14698,relaxed,-1.0167851
+9209,36313,Fans of gyro,1.7879473
+9209,36312,delicious and affordable,1.6131806
+9209,18649,gyro meat,1.5695643
+9209,14773,fast service,0.7821094
+9209,15575,Fans of Mediterranean cuisine,-0.01859974
+9209,14454,welcoming atmosphere,-0.47191593
+9209,14314,Mediterranean cuisine,-0.6415868
+9399,14392,Saint Louis,3.494081
+9399,36622,St. Paul sandwiches,2.3351126
+9399,36621,hot braised chicken,2.3168685
+9399,28750,general tso's chicken,2.0981023
+9399,22592,sesame chicken,1.0107654
+9399,14489,Chinese cuisine,-0.30578697
+9399,14208,good service,-0.46890467
+9399,14658,convenient location,-0.5978249
+9399,14842,variety of options,-1.2067713
+9399,16654,fans of chinese cuisine,-1.3210742
+9571,14392,Saint Louis,3.494081
+9571,36935,wide aisles,2.805297
+9571,36934,variety of product selections,2.754025
+9571,36936,Convenient shopping,2.5937417
+9571,20797,shopping environment,2.375556
+9571,15179,clean environment,1.069384
+9571,33488,covered parking,-0.60605145
+9571,18544,retail store,-0.6315216
+9571,16184,friendly environment,-1.1938213
+10335,14392,Saint Louis,3.494081
+10335,38299,arts & entertainment,2.4920247
+10335,38302,casual lounge feel,1.7267587
+10335,38300,"lively, crowded atmosphere",1.6967753
+10335,29021,pinball machines,1.637102
+10335,38301,skee ball machines,1.6191106
+10335,14381,bars,1.2393082
+10335,14768,nightlife,0.55219215
+10335,28107,arcades,-0.40026274
+10360,14392,Saint Louis,3.494081
+10360,38357,Users who enjoy unique cinema experiences,2.3993812
+10360,38352,cinema experiences,2.0596209
+10360,38354,leather couches,2.0375228
+10360,38353,full bars,1.909357
+10360,38355,theme nights,1.5096438
+10360,38356,panel discussions,1.3511221
+10360,14381,bars,1.2393082
+10360,16973,comfortable seating,-0.9474372
+10362,18547,alcoholic beverages,1.5170143
+10362,38360,"Fans of unique, themed nightlife experiences",1.3582176
+10362,38359,secretive,1.167019
+10362,38361,Adventurous spirits,1.1289221
+10362,16765,absinthe,0.8746402
+10362,21805,Nightlife venue,0.28964964
+10362,14112,New Orleans,0.25521356
+10362,18153,history enthusiasts,0.21855293
+10362,14267,bar,0.06534164
+10362,14214,cozy,-0.52112794
+10362,14846,personalized service,-0.96124685
+10370,38371,Individuals who appreciate,2.39314
+10370,15179,clean environment,1.069384
+10370,15047,convenient locations,0.49124306
+10370,17806,Fans of fast food,0.4337266
+10370,14337,excellent customer service,-0.11560455
+10370,19802,play areas,-0.32078674
+10370,17061,Brentwood,-0.6655844
+10370,15171,fast food,-0.77529746
+10370,14878,families with kids,-0.96251667
+10910,14921,St. Louis,2.7172186
+10910,39324,moderately-sized cupcakes,2.2276237
+10910,39326,people who prefer unique flavors,2.1766622
+10910,39325,not overly sweet cupcakes,1.761518
+10910,28860,local bakery,1.5616
+10910,15179,clean environment,1.069384
+10910,19665,fans of cupcakes,0.8617405
+10910,15274,food truck,0.6857037
+10910,15873,cozy environment,0.20876746
+10910,15543,cupcakes,0.18788278
+10910,14187,bakery,-1.2986716
+11343,14392,Saint Louis,3.494081
+11343,40113,top-notch barbecue,2.3889298
+11343,40115,Hunters of delicious food,2.386907
+11343,40114,Fans of top-notch barbecue,2.3444767
+11343,18504,Meat enthusiasts,2.1757493
+11343,14250,barbecue,0.8413878
+11343,14463,meat,0.22633624
+11343,15905,Barbecue restaurant,-0.97057176
+11343,14102,delicious food,-1.6062734
+11413,40259,people who appreciate creative pie flavors,2.748952
+11413,40256,creative pie flavors,2.600286
+11413,40257,flaky crust,2.4501233
+11413,40258,different pie sizes,2.446662
+11413,17456,Maplewood,2.366022
+11413,38698,pie lovers,1.8391155
+11413,15486,unique selections,1.7173743
+11413,15367,pie,0.87307584
+11413,18466,pies,-0.4119819
+11413,19575,charming atmosphere,-1.0778687
+11413,14187,bakery,-1.2986716
+11413,14229,friendly service,-1.3999692
+11713,40767,Fans of cozy coffee shops,1.517999
+11713,40765,cozy atmosphere,1.3068198
+11713,17910,good coffee options,1.1800159
+11713,40766,variety of gooey butter treats,1.090807
+11713,30959,tasty desserts,0.47176924
+11713,15022,baked goods,0.403639
+11713,14414,coffee shop,0.13877247
+11713,16988,neighborhood hangout spot,-0.8099789
+11713,14127,coffee,-1.2163787
+11713,14797,desserts,-1.4019669
+11981,14277,fresh ingredients,0.6216898
+11981,14696,reasonable,0.48644364
+11981,15041,Wesley Chapel,0.37069446
+11981,25871,Greek food lovers,0.31592545
+11981,14113,restaurant,0.2994272
+11981,14759,Greek cuisine,-0.80566037
+11981,14228,generous portions,-0.8151056
+12737,14392,Saint Louis,3.494081
+12737,42597,spending more for quality,1.8671219
+12737,42596,flavorful Thai food,1.3480685
+12737,14479,quality food,-0.024168314
+12737,17531,authentic Thai food,-0.27714357
+12737,14254,large portions,-0.3988936
+12737,14167,Thai cuisine,-0.77686554
+12737,14229,friendly service,-1.3999692
+12763,14392,Saint Louis,3.494081
+12763,14897,variety of events,0.72751045
+12763,18053,brewing company,0.7180641
+12763,14085,craft beers,0.25511897
+12763,15721,variety of games,-0.54620206
+12763,14086,beers,-0.93625325
+12763,14102,delicious food,-1.6062734
+12843,14921,St. Louis,2.7172186
+12843,42757,BBQ and catering,1.7346102
+12843,42756,heated BBQ sauce,1.6710119
+12843,20218,delicious BBQ,1.6467677
+12843,14709,catering,1.5195277
+12843,30827,Fans of delicious BBQ,1.4029297
+12843,16073,variety of sauce options,0.20676482
+12843,14464,bbq,-0.506136
+12843,14188,casual setting,-0.7439518
+12843,14259,friendly staff,-1.4744133
+12843,17943,flavorful meats,-2.0497541
+12908,14392,Saint Louis,3.494081
+12908,14612,pizza restaurant,0.7503264
+12908,14402,Italian,0.23204833
+12908,14388,diverse menu,-1.3488617
+12908,15036,great ambiance,-1.3662281
+12908,21742,good value for the price,-1.3905576
+13223,14392,Saint Louis,3.494081
+13223,34132,pasta lovers,0.68570334
+13223,14277,fresh ingredients,0.6216898
+13223,23180,Fast casual restaurant,0.4908569
+13223,17589,pasta,-0.16090612
+13223,40329,pasta bowls,-1.0622991
+13223,14842,variety of options,-1.2067713
+13470,14392,Saint Louis,3.494081
+13470,17647,gardens,2.585938
+13470,43796,People seeking romantic atmosphere,2.5466502
+13470,43795,People seeking peaceful atmosphere,2.43716
+13470,43794,historic statues,2.1792011
+13470,23483,walking paths,0.9544834
+13470,19385,peaceful,0.7939048
+13470,18477,park,0.5701385
+13470,23482,playgrounds,0.39010108
+13470,18153,history enthusiasts,0.21855293
+13470,15221,nature lovers,0.1120415
+13470,16326,romantic,-0.21358198
+13470,18267,families with children,-0.51384157
+13470,21231,activities,-0.56223506
+13470,15081,beautiful gardens,-0.8036027
+13470,17878,pet owners,-0.81524163
+13734,44248,spiked lemonade,2.911258
+13734,44247,endless fries,2.7270458
+13734,44251,People who appreciate playful dining experiences,2.2753832
+13734,44249,playful dining experiences,2.1313274
+13734,44250,Fans of family-friendly dining,2.0055661
+13734,14783,drinks,1.047757
+13734,18023,American traditional food,0.6392149
+13734,18690,unique drinks,0.46555638
+13734,15524,fries,-0.30541813
+13734,14228,generous portions,-0.8151056
+13734,14102,delicious food,-1.6062734

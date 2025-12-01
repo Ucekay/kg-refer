@@ -1,0 +1,340 @@
+item_id,entity_id,entity_name,score
+236,15340,Vito the mooch sandwich,4.577321
+236,14216,cocktails,3.5560405
+236,14443,small plates,3.410635
+236,14385,wine,3.0285401
+236,14219,unique dishes,2.2744195
+236,15339,cozy atmospheres,2.224261
+236,15338,diverse wine selection,0.96720326
+236,14113,restaurant,-1.1692659
+519,16497,comfort food lovers,3.7219353
+519,16494,lunch outings,2.749994
+519,16496,flavor enthusiasts,2.6643846
+519,14297,soups,2.4296227
+519,14719,sandwiches,1.268331
+519,14669,well-prepared dishes,1.0146773
+519,16184,friendly environment,0.75549567
+519,14802,comfort food,0.1379859
+519,16495,brunch outings,0.11246869
+519,14519,great service,-0.37128168
+519,15873,cozy environment,-0.37898302
+519,14113,restaurant,-1.1692659
+1396,14921,St. Louis,5.678349
+1396,19470,outdoor seating options,4.292754
+1396,15451,vibrant nightlife scene,4.1129575
+1396,19471,rooftop patios,3.8574247
+1396,19472,bottomless mimosa brunches,3.6692567
+1396,14102,delicious food,3.5717885
+1396,14216,cocktails,3.5560405
+1396,19477,People who enjoy rooftop patios,2.8005307
+1396,19474,Fans of trendy atmospheres,2.7731926
+1396,19475,Fans of outdoor seating,2.609539
+1396,19476,People who enjoy vibrant nightlife,2.2616403
+1396,15838,trendy,2.233755
+1396,19478,People who enjoy bottomless mimosa brunches,1.9980721
+1396,14213,creative cocktails,1.5736035
+1396,19473,Fans of delicious food,1.5672404
+1396,15786,Fans of creative cocktails,-0.018897364
+1744,14921,St. Louis,5.678349
+1744,19057,inviting ambiance,2.657371
+1744,19790,coffee drinks,2.637397
+1744,14605,gelato,2.5544088
+1744,20473,Fans of authentic Italian pastries,2.510375
+1744,15697,Gelato lovers,2.2953176
+1744,20472,Italian desserts,2.1562247
+1744,20471,Italian pastries,1.8125259
+1744,20474,diverse cannoli flavors,1.6454288
+1744,15361,cannoli,1.6179202
+1744,20475,traditional Italian cookies,1.5033497
+1744,14214,cozy,1.4929996
+1744,14181,pastries,1.1653275
+1744,14229,friendly service,0.6236063
+1744,14127,coffee,0.27338588
+1744,14705,coffee enthusiasts,-0.78884095
+1744,14797,desserts,-1.0441557
+1744,14660,cookies,-1.1509788
+1965,21031,breakfast sushi,3.8894217
+1965,20237,avocado toast,3.6182883
+1965,21030,shorter waits on weekdays,3.4453044
+1965,20815,nice staff,2.5774603
+1965,14356,long wait times,1.8567021
+1965,14127,coffee,0.27338588
+1965,17450,bustling environment,0.156515
+1965,14271,great food,-0.2945981
+1965,14226,breakfast,-2.9220695
+2937,20601,diverse food menu,5.73373
+2937,14392,Saint Louis,5.5726604
+2937,14502,welcoming environment,4.474169
+2937,23450,Coffee shop,4.000014
+2937,23448,Parents with young children,2.3125606
+2937,23449,individuals seeking cozy environment,2.134615
+2937,15310,variety of drink options,1.1536416
+2937,15446,drink options,1.0488778
+2937,14432,beverages,0.7383456
+2937,14127,coffee,0.27338588
+2937,14110,cozy ambiance,0.17356369
+2937,14705,coffee enthusiasts,-0.78884095
+2960,14392,Saint Louis,5.5726604
+2960,23498,intimate dining atmospheres,3.5346224
+2960,23499,"high-quality, beautifully presented dishes",3.3874123
+2960,23497,elegant and diverse menus,2.662459
+3083,14392,Saint Louis,5.5726604
+3083,23772,non-smoking environment,4.509407
+3083,23771,smoke-filled environment,3.4034414
+3083,23773,People who enjoy hot wings,2.5770915
+3083,23775,Patrons who prefer non-smoking environments,2.571849
+3083,23768,sports bars,2.3272035
+3083,23770,hot wings,2.3225825
+3083,23774,Patrons sensitive to smoke,2.074298
+3083,23769,above-average food,1.3246834
+3083,15828,fans of sports bars,-1.1956288
+3159,23982,minor seating inconveniences,4.5481257
+3159,23981,basement setting,4.2917204
+3159,15301,hip,2.2346067
+3159,22885,valet parking,2.2156143
+3159,16248,classy,1.7540815
+3159,16504,unique dining experiences,0.43087724
+3159,15890,dairy-free options,-0.5717351
+3159,14113,restaurant,-1.1692659
+3307,14392,Saint Louis,5.5726604
+3307,24299,warm and homely,4.4889402
+3307,24298,creative and delicious,3.431724
+3307,14576,quality ingredients,0.3579696
+3307,14402,Italian,-0.57984596
+3307,18777,noisy environment,-1.0580599
+3480,17632,healthy,4.769515
+3480,22314,wide selection of food items,3.9605308
+3480,24735,grocery shopping,3.5012848
+3480,14259,friendly staff,1.7996057
+3480,14359,organic food,1.4436479
+3480,17061,Brentwood,1.2613472
+3480,18787,convenient,1.042218
+3480,16061,grocery store,0.23034626
+3480,14120,affordable,-0.3445791
+3480,17113,unique food items,-1.5009084
+3606,16903,romantic atmosphere,2.7544065
+3606,25011,"dim, romantic atmosphere",2.6451364
+3606,25012,excellent margaritas,2.515954
+3606,14479,quality food,2.2345626
+3606,15413,kids,2.1346302
+3606,14208,good service,0.6619734
+3606,14949,margaritas,-0.14020172
+3606,14616,special occasions,-1.094785
+3606,17290,date nights,-1.4381751
+3606,14115,Mexican,-1.8441539
+4723,27524,cozy neighborhood bar atmospheres,3.9784048
+4723,27527,Aged 30+,3.5550156
+4723,27526,Fans of homestyle cooking,2.3402774
+4723,18867,homestyle cooking,0.7765126
+4723,14229,friendly service,0.6236063
+4723,27525,traditional pizza,0.19276026
+4723,23185,unique pizza,0.13540983
+4723,15014,family-owned restaurant,0.0026053677
+4723,15371,pizza lovers,-0.18507694
+4723,14254,large portions,-0.50739723
+4723,14696,reasonable,-1.2077235
+4723,14304,pizza,-1.4050528
+4889,22073,"Central West End, Saint Louis",3.8776197
+4889,27880,Fans of hip restaurants,3.7843807
+4889,14718,salads,3.7003398
+4889,27881,Fans of family-friendly restaurants,3.335788
+4889,27879,Fans of accessible restaurants,2.9997618
+4889,14245,good food,1.9510878
+4889,25825,Chicago-style pizza,1.6294165
+4889,14214,cozy,1.4929996
+4889,14208,good service,0.6619734
+4889,14278,family-friendly,-1.0112593
+4889,14304,pizza,-1.4050528
+6028,14392,Saint Louis,5.5726604
+6028,30228,coffe,4.236614
+6028,20580,working,3.8084023
+6028,30227,high quality coffees,3.5372276
+6028,30229,chatting,2.004264
+6028,15365,Pastry lovers,1.8835273
+6028,14414,coffee shop,1.6984668
+6028,14181,pastries,1.1653275
+6028,26629,teas,0.50458384
+6028,16195,Tea lovers,0.071130805
+6028,15873,cozy environment,-0.37898302
+6028,18207,social gatherings,-0.46993938
+6028,14705,coffee enthusiasts,-0.78884095
+6029,15284,Clayton,7.428162
+6029,22993,Creamery,3.1909509
+6029,30226,decadent and unique ice cream flavors,2.813362
+6029,15907,vegans,0.7443965
+6029,14203,foodies,0.71660334
+6029,14366,ice cream,-0.48495427
+6029,15890,dairy-free options,-0.5717351
+6252,30704,Fans of diverse and flavorful street food,3.2431092
+6252,16880,street food,2.9763696
+6252,30705,People interested in Filipino cuisine,2.1486442
+6252,30702,diverse and flavorful street food,1.6489646
+6252,30706,Individuals looking for unique meal options,1.3016626
+6252,30703,unique meal options,1.2167809
+6252,18041,Filipino cuisine,1.0783583
+6468,14921,St. Louis,5.678349
+6468,14127,coffee,0.27338588
+6468,16488,scenic views,0.09415682
+6468,19912,expensive,-0.0075041987
+6468,14941,coffee lovers,-0.38720897
+7091,32347,"cozy, southern-style setting",4.296796
+7091,16089,fresh dishes,3.940933
+7091,22329,Creve Coeur,3.9018633
+7091,24217,seasonal dishes,3.1869676
+7091,14469,excellent service,2.061687
+7091,14801,seafood lovers,0.7880837
+7091,14211,seafood enthusiasts,-0.78985804
+7091,14206,seafood,-1.0527704
+7091,15383,fish,-1.6687975
+7177,14392,Saint Louis,5.5726604
+7177,32507,upscale tapas,3.304357
+7177,14085,craft beers,2.9692583
+7177,15539,sophisticated ambiance,2.0294304
+7177,14086,beers,1.9133147
+7177,14456,tapas,1.6108296
+7177,14215,attentive service,-0.43419537
+7261,16426,local beers,4.600648
+7261,32669,good selection of local beers,3.655391
+7261,32670,fun drink menu,3.579307
+7261,32668,unique twists on southern cuisine,3.5681207
+7261,14216,cocktails,3.5560405
+7261,23144,quality cocktails,3.2830822
+7261,14469,excellent service,2.061687
+7261,14113,restaurant,-1.1692659
+7261,14955,southern cuisine,-1.8800547
+7294,14102,delicious food,3.5717885
+7294,20082,extensive wine selection,3.5024488
+7294,32730,Users who enjoy extensive wine selection,2.787004
+7294,32729,Users who enjoy elegant ambiance,2.6570811
+7294,15189,elegant ambiance,2.0458748
+7294,32731,Users who enjoy laid-back atmosphere,2.0241807
+7294,14088,laid-back,1.6683201
+7294,26566,Users who enjoy delicious food,0.7488408
+7294,14133,outdoor seating,-0.4795653
+7294,15928,central location,-1.1994717
+7307,18067,community involvement,4.799048
+7307,32757,welcoming LGBTQ+ friendly environment,4.60411
+7307,14423,vegetarian options,2.5674167
+7307,14388,diverse menu,0.50070643
+7307,21212,local businesses,0.42131943
+7307,14133,outdoor seating,-0.4795653
+7329,14392,Saint Louis,5.5726604
+7329,32808,comfortable experience overall,5.1423707
+7329,32805,seafood dish,4.5592103
+7329,16612,shellfish,4.1702995
+7329,32807,quality shellfish,3.9932525
+7329,32809,a bit more for lobster,3.196473
+7329,14219,unique dishes,2.2744195
+7329,14469,excellent service,2.061687
+7329,32806,genuine atmosphere,1.3871917
+7329,14206,seafood,-1.0527704
+7329,14210,seafood restaurant,-1.1411631
+8673,14392,Saint Louis,5.5726604
+8673,35308,limited table space,3.6564448
+8673,35310,Fans of inventive Mexican cuisine,3.4613876
+8673,35309,reservation challenge,3.4493685
+8673,17041,menu,1.2202321
+8673,33755,Fans of unique cocktails,0.75114715
+8673,14117,vibrant,0.72688144
+8673,14235,diverse menu options,-0.082204156
+8673,17962,food quality,-0.5438729
+8673,14115,Mexican,-1.8441539
+8901,15871,St Louis,6.739221
+8901,29998,unique sauces,3.9701655
+8901,33268,Fans of Asian fusion dishes,2.889821
+8901,14423,vegetarian options,2.5674167
+8901,14442,asian fusion,2.2056692
+8901,15602,asian fusion dishes,-1.0048467
+8901,21252,fusion dishes,-1.3372465
+9072,17456,Maplewood,6.5350184
+9072,25938,laid back,3.3974702
+9072,18690,unique drinks,3.0561805
+9072,14783,drinks,1.3254607
+9072,14181,pastries,1.1653275
+9072,14128,good coffee,1.1200897
+9072,22645,coffeehouse,0.34218487
+9072,14127,coffee,0.27338588
+9072,14133,outdoor seating,-0.4795653
+9072,14126,cafe,-0.60803217
+11234,14921,St. Louis,5.678349
+11234,16481,free beer samples,0.9239896
+11234,18484,animal lovers,0.5935108
+11234,15316,interactive experiences,0.49336204
+11234,14878,families with kids,-0.12606074
+11291,15444,intimate,4.610799
+11291,15760,creative drinks,4.501813
+11291,14102,delicious food,3.5717885
+11291,14216,cocktails,3.5560405
+11291,40019,experienced bartenders,3.513292
+11291,19150,cocktail enthusiasts,2.8027782
+11291,40021,safe dining experience,2.6642997
+11291,39972,great flavor,2.5071292
+11291,40020,strict COVID protocols,2.4496944
+11291,14214,cozy,1.4929996
+11291,15698,unspecified location,0.25079638
+11291,14397,food enthusiasts,-0.48727605
+11291,14113,restaurant,-1.1692659
+11294,38735,pastrami sandwiches,3.0220568
+11294,14574,gourmet burgers,2.5131562
+11294,40018,Fans of Mediterranean dishes,2.067234
+11294,26076,dog-friendly patio,1.8647512
+11294,15174,Mediterranean dishes,1.4294133
+11294,14580,Fans of gourmet burgers,1.4199374
+11294,14188,casual setting,0.38458592
+11294,14424,quick service,-0.84428686
+11294,14113,restaurant,-1.1692659
+11725,14921,St. Louis,5.678349
+11725,14296,crepes,1.2334452
+11725,16198,breakfast and brunch options,1.1851354
+11725,14127,coffee,0.27338588
+11725,16260,atmosphere,0.24822572
+11725,14101,brunch options,-0.12968229
+11725,17390,bustling atmosphere,-0.64659995
+11725,14113,restaurant,-1.1692659
+11725,14226,breakfast,-2.9220695
+12977,14392,Saint Louis,5.5726604
+12977,27974,friendly and accommodating service,1.7388027
+12977,14862,good value for money,0.33241922
+12977,14643,Japanese cuisine,-0.4371951
+12977,14167,Thai cuisine,-0.71165025
+12977,14352,dish,-2.2183754
+13101,14921,St. Louis,5.678349
+13101,15556,quality drinks,4.9983997
+13101,21631,memorable dining experience,3.7576628
+13101,43156,Fans of Irish pub,2.272661
+13101,14479,quality food,2.2345626
+13101,43155,Fans of British pub,1.8813266
+13101,31917,British pub,1.5483042
+13101,26609,unique menus,1.0186698
+13101,16681,Irish pub,-0.3446774
+13101,15397,welcoming,-0.97756684
+13284,40539,Richmond Heights,4.8736496
+13284,26704,fans of fresh ingredients,2.8011718
+13284,43466,quality menu items,2.7077355
+13284,43468,fans of vegetarian choices,2.3980231
+13284,43469,fans of unique milkshakes,2.1458116
+13284,43467,fans of diverse sandwich options,2.0034878
+13284,14214,cozy,1.4929996
+13284,17227,milkshake,-1.5297308
+13284,14607,sandwich,-1.6797374
+13313,43507,"quiet, relaxing atmosphere",4.483024
+13313,43506,creatively crafted beverages,2.476917
+13313,14842,variety of options,2.4221754
+13313,43508,helpful recommendations,2.0433698
+13313,14229,friendly service,0.6236063
+13339,14392,Saint Louis,5.5726604
+13339,14842,variety of options,2.4221754
+13339,14277,fresh ingredients,0.8435554
+13339,14229,friendly service,0.6236063
+13339,14164,deli,0.30158398
+13339,16662,high-quality,0.08915888
+13339,14696,reasonable,-1.2077235
+13339,14607,sandwich,-1.6797374
+13339,17062,deli sandwiches,-3.5191193
+13960,14921,St. Louis,5.678349
+13960,44625,beautifully decorated setting,3.979075
+13960,14933,delicious dishes,2.671154
+13960,14314,Mediterranean cuisine,0.80289173
+13960,14229,friendly service,0.6236063
+13960,15148,Middle Eastern cuisine,0.34354228
+13960,19079,authentic dishes,-1.8851373
