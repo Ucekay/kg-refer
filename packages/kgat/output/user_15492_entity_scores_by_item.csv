@@ -1,0 +1,29 @@
+item_id,entity_id,entity_name,score
+4667,14206,seafood,3.6593332
+4667,25045,martinis,3.281947
+4667,23038,rich dishes,2.3866801
+4667,18708,high prices,1.4003098
+4667,15607,fun dining experience,1.3230495
+4667,14211,seafood enthusiasts,0.8760642
+4667,14573,service issues,0.6780464
+4667,17155,quality of food,0.35096264
+4667,15387,lively nightlife,0.24673335
+4667,14568,flavorful dishes,0.035357498
+4667,19485,specialty drinks,-1.3704627
+5910,14092,Indianapolis,5.951819
+5910,24376,Those who appreciate generous portions,2.6179492
+5910,20680,deli food,2.353381
+5910,14228,generous portions,2.0587385
+5910,20682,Fans of deli food,1.8713008
+5910,30016,Those who appreciate friendly service,1.7039608
+5910,14164,deli,1.5096084
+5910,14309,Fans of casual dining,1.239211
+5910,14229,friendly service,0.33387008
+5910,14119,casual dining,-0.3565686
+7523,15168,Carmel,7.1121483
+7523,15812,cheeseburgers,4.787309
+7523,33168,American cheeseburgers,2.9896197
+7523,14089,laid-back atmosphere,2.7802496
+7523,14096,lively atmosphere,1.2637768
+7523,17142,milkshakes,0.4232694
+7523,14113,restaurant,-0.35079718

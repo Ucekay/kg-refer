@@ -14,6 +14,7 @@ dependencies = [
     "pandas>=2.3.3",
     "scikit-learn>=1.7.2",
     "scipy>=1.16.3",
+    "similarity-search",
     "torch>=2.9.0",
     "torchvision>=0.24.0",
 ]
@@ -35,6 +36,7 @@ kg-cleaner = { workspace = true }
 kgat = { workspace = true }
 kg-formatter = { workspace = true }
 kgat-explainer = { workspace = true }
+similarity-search = { workspace = true }
 
 [dependency-groups]
 dev = [

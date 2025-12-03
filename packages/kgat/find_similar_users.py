@@ -11,7 +11,7 @@ from src.kgat.data.dataloader import DataLoader
 
 def main():
     # ターゲットユーザーID
-    target_uid = 12719
+    target_uid = 10088
     
     # ロギング設定
     logging.basicConfig(
@@ -34,7 +34,7 @@ def main():
     config.mess_dropout = "[0.1,0.1,0.1]"
 
     # モデルパス
-    model_path = "trained_model/KGAT/yelp/embed-dim64_relation-dim64_random-walk_bi-interaction_64-32-16_lr0.0001_pretrain0/model_epoch900.pth"
+    model_path = "trained_model/KGAT/yelp/embed-dim64_relation-dim64_random-walk_bi-interaction_64-32-16_lr0.001_pretrain0/model_epoch700.pth"
     config.pretrain_model_path = model_path
 
     logger.info(f"モデルパス: {model_path}")

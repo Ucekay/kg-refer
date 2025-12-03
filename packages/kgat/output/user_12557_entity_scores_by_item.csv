@@ -1,0 +1,116 @@
+item_id,entity_id,entity_name,score
+351,14178,Reno,12.505889
+351,15840,Weekend dining,3.325617
+351,14259,friendly staff,3.2601128
+351,15141,diverse menu selection,3.1205444
+351,14119,casual dining,0.4376228
+351,15392,Tex-Mex,0.3364934
+351,14424,quick service,0.0459473
+351,14152,American cuisine,-0.05691704
+351,14640,Users who enjoy casual dining experiences,-0.17786998
+351,14120,affordable,-0.6548204
+892,14178,Reno,12.505889
+892,17806,Fans of fast food,6.4126425
+892,14162,efficient service,1.7805394
+892,15566,fast food restaurant,1.717359
+892,15171,fast food,0.5756382
+892,14424,quick service,0.0459473
+892,14278,family-friendly,-0.6709509
+892,14576,quality ingredients,-1.2294396
+3375,14178,Reno,12.505889
+3375,16653,Fans of Cantonese cuisine,4.572816
+3375,14524,happy hour,2.789722
+3375,14229,friendly service,2.1895893
+3375,14102,delicious food,0.6862954
+3375,14729,lunch specials,-0.074463844
+3375,14206,seafood,-0.40712184
+3375,14159,Fans of Cajun/Creole cuisine,-0.578559
+3375,14254,large portions,-1.8713651
+3375,14449,fans of asian fusion cuisine,-2.7842803
+3754,25346,unlimited ice cream samples,4.2102637
+3754,25345,creative ice cream flavors,3.8659067
+3754,22993,Creamery,3.6513019
+3754,14259,friendly staff,3.2601128
+3754,25347,Icecream shop,3.144455
+3754,14717,bread,2.263702
+3754,14366,ice cream,0.68219006
+3754,14518,friendly atmosphere,0.6169371
+3754,14719,sandwiches,0.21811071
+3754,14397,food enthusiasts,-0.2325782
+4081,15758,Sparks,11.8186
+4081,26051,terrific food,4.3270326
+4081,16903,romantic atmosphere,3.9972053
+4081,14469,excellent service,2.3125062
+4081,26052,high quality ingredients,2.2508147
+4081,14405,live entertainment,-0.52039015
+6442,14178,Reno,12.505889
+6442,15273,creative,4.8259254
+6442,14113,restaurant,0.61314523
+6442,14423,vegetarian options,0.2191214
+6442,14306,vegan options,-0.69747925
+6442,14315,delicious,-0.9970381
+6442,14226,breakfast,-1.1635731
+6442,14873,excellent,-1.7483242
+6442,14103,brunch,-2.0186484
+8050,14178,Reno,12.505889
+8050,34139,humble and family-owned,3.408697
+8050,14164,deli,2.5731087
+8050,34141,People who are willing to wait for freshly cooked meals,2.2840285
+8050,34140,People who appreciate Greek food,1.9751828
+8050,14759,Greek cuisine,1.3618263
+8050,14228,generous portions,-0.9358647
+9115,14178,Reno,12.505889
+9115,36123,friendly and sunny atmosphere,3.9779985
+9115,36125,"fresh, organic food",3.923705
+9115,14297,soups,3.3485155
+9115,36126,"People who appreciate fresh, organic food",3.1786506
+9115,14371,vegetarian choices,2.0405345
+9115,36124,catering options,1.7790687
+9115,14719,sandwiches,0.21811071
+9115,14718,salads,-1.117426
+9634,14178,Reno,12.505889
+9634,16328,inviting atmosphere,5.403385
+9634,25218,chile relleno,4.9444346
+9634,37067,all-day happy hour,4.753818
+9634,37066,nacho fries,2.4999619
+9634,16772,tasty dishes,2.388272
+9634,24477,al pastor tacos,2.1797137
+9634,14115,Mexican,1.1085241
+9634,14228,generous portions,-0.9358647
+9634,14208,good service,-1.5957825
+9901,24149,funky atmosphere,6.4483294
+9901,16594,diverse breakfast options,5.008238
+9901,37576,customer interactions,4.174534
+9901,23117,generous food portions,2.74161
+9901,14229,friendly service,2.1895893
+11705,14178,Reno,12.505889
+11705,29248,family-oriented atmosphere,1.5703528
+11705,14518,friendly atmosphere,0.6169371
+11705,18641,community,0.42771873
+11705,16671,Italian pizza,-0.3216667
+11705,14304,pizza,-0.896905
+11814,24805,sports bar atmosphere,6.037471
+11814,40940,televisions,4.070272
+11814,40939,accommodating service for large parties,3.0388908
+11814,14152,American cuisine,-0.05691704
+11814,14086,beers,-0.6967375
+11814,14304,pizza,-0.896905
+12552,42277,People seeking allergy-friendly options,3.8013635
+12552,42276,Individuals with gluten sensitivities,2.763634
+12552,42275,town,2.483017
+12552,30824,inconsistent quality,2.1040597
+12552,14264,gluten-free options,-0.19672649
+12552,14846,personalized service,-0.29645607
+12552,35867,bakery products,-0.41045827
+12552,14187,bakery,-0.8637961
+13373,14178,Reno,12.505889
+13373,43606,drive-through locations,3.9133437
+13373,14229,friendly service,2.1895893
+13373,20762,unique drink options,2.0737486
+13373,14127,coffee,0.5770043
+13394,14178,Reno,12.505889
+13394,16779,sports bar,2.979356
+13394,20320,New York style pizza,1.2575163
+13394,15056,pizzeria,0.70516455
+13394,14304,pizza,-0.896905
+13394,14228,generous portions,-0.9358647

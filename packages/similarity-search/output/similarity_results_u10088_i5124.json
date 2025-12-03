@@ -1,0 +1,58 @@
+{
+    "target_user": "10088",
+    "target_item": "5124",
+    "similar_users": [
+        {
+            "id": "910",
+            "score": 0.9523941278457642,
+            "text_snippet": "{\n    \"summarization\": \"This user is likely to enj..."
+        },
+        {
+            "id": "5931",
+            "score": 0.9416351914405823,
+            "text_snippet": "{\n    \"summarization\": \"This user is likely to enj..."
+        },
+        {
+            "id": "3673",
+            "score": 0.9388017058372498,
+            "text_snippet": "{\n    \"summarization\": \"This user is likely to enj..."
+        },
+        {
+            "id": "6359",
+            "score": 0.9336856603622437,
+            "text_snippet": "{\n    \"summarization\": \"This user is likely to enj..."
+        },
+        {
+            "id": "14627",
+            "score": 0.9215267896652222,
+            "text_snippet": "{\n    \"summarization\": \"The user is likely to enjo..."
+        }
+    ],
+    "similar_items": [
+        {
+            "id": "5988",
+            "score": 0.7124942541122437,
+            "text_snippet": "{\n    \"summarization\": \"People who enjoy a cozy at..."
+        },
+        {
+            "id": "231",
+            "score": 0.688240647315979,
+            "text_snippet": "{\n    \"summarization\": \"Users who enjoy affordable..."
+        },
+        {
+            "id": "4168",
+            "score": 0.6637203693389893,
+            "text_snippet": "{\n    \"summarization\": \"Coffee enthusiasts looking..."
+        },
+        {
+            "id": "4125",
+            "score": 0.6620482206344604,
+            "text_snippet": "{\n    \"summarization\": \"Breakfast lovers who enjoy..."
+        },
+        {
+            "id": "6231",
+            "score": 0.6570491790771484,
+            "text_snippet": "{\n    \"summarization\": \"Fans of specialty crafted ..."
+        }
+    ]
+}

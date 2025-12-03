@@ -79,7 +79,7 @@ def load_entity_names(entity_list_path: str) -> dict[int, str]:
 def main():
     # ===== ユーザーID指定 =====
     # 特定のユーザーを選択する場合はここでIDを指定、Noneの場合はランダム選択
-    uid = 6360  # ユーザーID（元の表現）。Noneにするとランダム選択
+    uid = 12557 # ユーザーID（元の表現）。Noneにするとランダム選択
     # =========================
 
     # ロギング設定

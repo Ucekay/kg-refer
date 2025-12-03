@@ -1,13 +1,18 @@
 """Attention score calculation for KGAT edges."""
 
-from typing import Dict, Tuple
+from typing import Dict, List, Optional, Tuple
 
 import torch
 import torch.nn as nn
 
 
 class AttentionCalculator:
-    """Calculates attention scores for edges in the knowledge graph."""
+    """Calculates attention scores for edges in the knowledge graph.
+
+    Supports two modes:
+    1. Raw attention scores: Calculated from embeddings (not normalized)
+    2. Normalized attention scores: Retrieved from A_in matrix (softmax normalized)
+    """
 
     def __init__(
         self,
@@ -15,6 +20,7 @@ class AttentionCalculator:
         relation_embed: nn.Embedding,
         trans_M: nn.Parameter,
         device: torch.device = torch.device("cpu"),
+        A_in: Optional[torch.Tensor] = None,
     ):
         """Initialize the attention calculator.
 
@@ -23,11 +29,133 @@ class AttentionCalculator:
             relation_embed: Relation embedding layer
             trans_M: Transformation matrices for each relation
             device: Device to run computations on
+            A_in: Optional normalized attention matrix (sparse tensor from trained model)
         """
         self.entity_user_embed = entity_user_embed
         self.relation_embed = relation_embed
         self.trans_M = trans_M
         self.device = device
+        self._A_in = A_in.coalesce() if A_in is not None else None
+
+    @property
+    def has_A_in(self) -> bool:
+        """Check if A_in matrix is available."""
+        return self._A_in is not None
+
+    def set_A_in(self, A_in: torch.Tensor) -> None:
+        """Set the A_in matrix.
+
+        Args:
+            A_in: Normalized attention matrix (sparse tensor)
+        """
+        self._A_in = A_in.coalesce()
+
+    @torch.no_grad()
+    def get_normalized_attention(self, h: int, t: int) -> float:
+        """Get normalized attention score from A_in for a single edge.
+
+        Args:
+            h: Head entity/user ID
+            t: Tail entity/user ID
+
+        Returns:
+            Normalized attention score (0.0 if edge not found or A_in not set)
+
+        Raises:
+            ValueError: If A_in is not set
+        """
+        if self._A_in is None:
+            raise ValueError("A_in matrix is not set. Use set_A_in() or pass A_in to constructor.")
+
+        indices = self._A_in.indices()  # [2, num_edges]
+        values = self._A_in.values()
+
+        mask = (indices[0] == h) & (indices[1] == t)
+        if mask.any():
+            return values[mask].item()
+        return 0.0
+
+    @torch.no_grad()
+    def get_normalized_attention_batch(
+        self, h_list: List[int], t_list: List[int]
+    ) -> List[float]:
+        """Get normalized attention scores from A_in for multiple edges.
+
+        Args:
+            h_list: List of head entity/user IDs
+            t_list: List of tail entity/user IDs
+
+        Returns:
+            List of normalized attention scores (0.0 for edges not found)
+
+        Raises:
+            ValueError: If A_in is not set
+        """
+        if self._A_in is None:
+            raise ValueError("A_in matrix is not set. Use set_A_in() or pass A_in to constructor.")
+
+        indices = self._A_in.indices()
+        values = self._A_in.values()
+
+        results = []
+        for h, t in zip(h_list, t_list):
+            mask = (indices[0] == h) & (indices[1] == t)
+            if mask.any():
+                results.append(values[mask].item())
+            else:
+                results.append(0.0)
+
+        return results
+
+    @torch.no_grad()
+    def get_outgoing_edges(self, head_id: int) -> Dict[int, float]:
+        """Get all outgoing edges and their normalized attention scores for a node.
+
+        Args:
+            head_id: Head entity/user ID
+
+        Returns:
+            Dictionary mapping tail_id -> normalized attention score
+
+        Raises:
+            ValueError: If A_in is not set
+        """
+        if self._A_in is None:
+            raise ValueError("A_in matrix is not set. Use set_A_in() or pass A_in to constructor.")
+
+        indices = self._A_in.indices()
+        values = self._A_in.values()
+
+        mask = indices[0] == head_id
+        tail_ids = indices[1][mask].tolist()
+        scores = values[mask].tolist()
+
+        return dict(zip(tail_ids, scores))
+
+    @torch.no_grad()
+    def get_incoming_edges(self, tail_id: int) -> Dict[int, float]:
+        """Get all incoming edges and their normalized attention scores for a node.
+
+        Args:
+            tail_id: Tail entity/user ID
+
+        Returns:
+            Dictionary mapping head_id -> normalized attention score
+
+        Raises:
+            ValueError: If A_in is not set
+        """
+        if self._A_in is None:
+            raise ValueError("A_in matrix is not set. Use set_A_in() or pass A_in to constructor.")
+
+        indices = self._A_in.indices()
+        values = self._A_in.values()
+
+        mask = indices[1] == tail_id
+        head_ids = indices[0][mask].tolist()
+        scores = values[mask].tolist()
+
+        return dict(zip(head_ids, scores))
 
     @torch.no_grad()
     def calculate_edge_attention(self, h: int, t: int, r: int) -> float:

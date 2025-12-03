@@ -1,0 +1,368 @@
+{
+  "user_id": 10088,
+  "item_id": 5127,
+  "item_name": "Unknown_5127",
+  "num_paths_found": 10,
+  "paths": [
+    {
+      "rank": 1,
+      "total_score": 1.036324734118524,
+      "avg_score": 0.345441578039508,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 4777,
+          "tail_name": "Entity_4777",
+          "attention_score": 0.036340287739638134
+        },
+        {
+          "head_id": 4777,
+          "head_name": "Entity_4777",
+          "relation_id": 11,
+          "relation_name": "price range",
+          "tail_id": 14696,
+          "tail_name": "reasonable",
+          "attention_score": 0.999984446378886
+        },
+        {
+          "head_id": 14696,
+          "head_name": "reasonable",
+          "relation_id": 126,
+          "relation_name": "price range (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 1.6142034922845188e-19
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0363)]--> Entity_4777 --[price range (1.0000)]--> reasonable --[price range (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 2,
+      "total_score": 0.9997174170635994,
+      "avg_score": 0.3332391390211998,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 5532,
+          "tail_name": "Entity_5532",
+          "attention_score": 6.0667787043287524e-05
+        },
+        {
+          "head_id": 5532,
+          "head_name": "Entity_5532",
+          "relation_id": 9,
+          "relation_name": "appeals to",
+          "tail_id": 15705,
+          "tail_name": "fans of sushi",
+          "attention_score": 0.9996567492427386
+        },
+        {
+          "head_id": 15705,
+          "head_name": "fans of sushi",
+          "relation_id": 124,
+          "relation_name": "appeals to (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 3.3817463565036215e-11
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0001)]--> Entity_5532 --[appeals to (0.9997)]--> fans of sushi --[appeals to (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 3,
+      "total_score": 0.9588150068845228,
+      "avg_score": 0.31960500229484096,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 7487,
+          "tail_name": "Entity_7487",
+          "attention_score": 8.725315929710571e-06
+        },
+        {
+          "head_id": 7487,
+          "head_name": "Entity_7487",
+          "relation_id": 11,
+          "relation_name": "price range",
+          "tail_id": 14696,
+          "tail_name": "reasonable",
+          "attention_score": 0.9588062815685932
+        },
+        {
+          "head_id": 14696,
+          "head_name": "reasonable",
+          "relation_id": 126,
+          "relation_name": "price range (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 1.6142034922845188e-19
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0000)]--> Entity_7487 --[price range (0.9588)]--> reasonable --[price range (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 4,
+      "total_score": 0.021886954755783224,
+      "avg_score": 0.007295651585261075,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 6392,
+          "tail_name": "Entity_6392",
+          "attention_score": 0.0014519488474221852
+        },
+        {
+          "head_id": 6392,
+          "head_name": "Entity_6392",
+          "relation_id": 11,
+          "relation_name": "price range",
+          "tail_id": 14696,
+          "tail_name": "reasonable",
+          "attention_score": 0.02043500590836104
+        },
+        {
+          "head_id": 14696,
+          "head_name": "reasonable",
+          "relation_id": 126,
+          "relation_name": "price range (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 1.6142034922845188e-19
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0015)]--> Entity_6392 --[price range (0.0204)]--> reasonable --[price range (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 5,
+      "total_score": 0.021193113689633978,
+      "avg_score": 0.007064371229877992,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 9886,
+          "tail_name": "Entity_9886",
+          "attention_score": 0.007146197469485749
+        },
+        {
+          "head_id": 9886,
+          "head_name": "Entity_9886",
+          "relation_id": 11,
+          "relation_name": "price range",
+          "tail_id": 14696,
+          "tail_name": "reasonable",
+          "attention_score": 0.014046916220148229
+        },
+        {
+          "head_id": 14696,
+          "head_name": "reasonable",
+          "relation_id": 126,
+          "relation_name": "price range (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 1.6142034922845188e-19
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0071)]--> Entity_9886 --[price range (0.0140)]--> reasonable --[price range (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 6,
+      "total_score": 0.008992450441365547,
+      "avg_score": 0.0029974834804551826,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 11565,
+          "tail_name": "Entity_11565",
+          "attention_score": 0.00899245044136111
+        },
+        {
+          "head_id": 11565,
+          "head_name": "Entity_11565",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "tail_id": 14490,
+          "tail_name": "sushi",
+          "attention_score": 4.437002194616418e-15
+        },
+        {
+          "head_id": 14490,
+          "head_name": "sushi",
+          "relation_id": 117,
+          "relation_name": "serves (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 2.674918340796386e-24
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0090)]--> Entity_11565 --[serves (0.0000)]--> sushi --[serves (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 7,
+      "total_score": 0.0006927913489671512,
+      "avg_score": 0.00023093044965571705,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 7125,
+          "tail_name": "Entity_7125",
+          "attention_score": 0.0006927887627743985
+        },
+        {
+          "head_id": 7125,
+          "head_name": "Entity_7125",
+          "relation_id": 11,
+          "relation_name": "price range",
+          "tail_id": 14696,
+          "tail_name": "reasonable",
+          "attention_score": 2.5861927525564627e-09
+        },
+        {
+          "head_id": 14696,
+          "head_name": "reasonable",
+          "relation_id": 126,
+          "relation_name": "price range (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 1.6142034922845188e-19
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0007)]--> Entity_7125 --[price range (0.0000)]--> reasonable --[price range (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 8,
+      "total_score": 7.95507661481558e-05,
+      "avg_score": 2.6516922049385267e-05,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 13600,
+          "tail_name": "Entity_13600",
+          "attention_score": 7.950952370096259e-05
+        },
+        {
+          "head_id": 13600,
+          "head_name": "Entity_13600",
+          "relation_id": 3,
+          "relation_name": "offers",
+          "tail_id": 14479,
+          "tail_name": "quality food",
+          "attention_score": 4.124244719322097e-08
+        },
+        {
+          "head_id": 14479,
+          "head_name": "quality food",
+          "relation_id": 120,
+          "relation_name": "has feature (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 7.499490113692495e-29
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0001)]--> Entity_13600 --[offers (0.0000)]--> quality food --[has feature (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 9,
+      "total_score": 6.066783902054398e-05,
+      "avg_score": 2.0222613006847994e-05,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 5532,
+          "tail_name": "Entity_5532",
+          "attention_score": 6.0667787043287524e-05
+        },
+        {
+          "head_id": 5532,
+          "head_name": "Entity_5532",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "tail_id": 14490,
+          "tail_name": "sushi",
+          "attention_score": 5.197725645837202e-11
+        },
+        {
+          "head_id": 14490,
+          "head_name": "sushi",
+          "relation_id": 117,
+          "relation_name": "serves (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 2.674918340796386e-24
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0001)]--> Entity_5532 --[serves (0.0000)]--> sushi --[serves (Inverse) (0.0000)]--> Entity_5127"
+    },
+    {
+      "rank": 10,
+      "total_score": 4.518978157894878e-05,
+      "avg_score": 1.506326052631626e-05,
+      "length": 3,
+      "path_sequence": [
+        {
+          "head_id": 54894,
+          "head_name": "User_10088",
+          "relation_id": 0,
+          "relation_name": "Interact",
+          "tail_id": 12883,
+          "tail_name": "Entity_12883",
+          "attention_score": 4.443535074748506e-05
+        },
+        {
+          "head_id": 12883,
+          "head_name": "Entity_12883",
+          "relation_id": 11,
+          "relation_name": "price range",
+          "tail_id": 14696,
+          "tail_name": "reasonable",
+          "attention_score": 7.544308314635575e-07
+        },
+        {
+          "head_id": 14696,
+          "head_name": "reasonable",
+          "relation_id": 126,
+          "relation_name": "price range (Inverse)",
+          "tail_id": 5127,
+          "tail_name": "Entity_5127",
+          "attention_score": 1.6142034922845188e-19
+        }
+      ],
+      "path_string": "User:10088 --[Interact (0.0000)]--> Entity_12883 --[price range (0.0000)]--> reasonable --[price range (Inverse) (0.0000)]--> Entity_5127"
+    }
+  ]
+}

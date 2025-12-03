@@ -21,6 +21,7 @@ class KGATExplainer:
         kg_dict_by_relation: Dict[int, List[Tuple[int, int]]],
         device: torch.device = torch.device("cpu"),
         precompute_attention: bool = True,
+        use_model_A_in: bool = False,
     ):
         """Initialize the explainer.
 
@@ -31,6 +32,9 @@ class KGATExplainer:
             kg_dict_by_relation: KG dictionary mapping relation -> [(head, tail), ...]
             device: Device to run computations on
             precompute_attention: Whether to precompute all attention scores
+            use_model_A_in: If True, use normalized attention scores from model's A_in matrix
+                           instead of computing from embeddings. Note: A_in scores are
+                           (head, tail) pairs only (relation-agnostic).
         """
         self.model = model
         self.data_loader = data_loader
@@ -40,22 +44,29 @@ class KGATExplainer:
         self.n_items = data_loader.n_items
         self.n_entities = data_loader.n_entities
         self.device = device
+        self.use_model_A_in = use_model_A_in
 
         # Initialize components
         self.predictor = KGATPredictor(model, data_loader, device)
 
+        # Initialize attention calculator with A_in if requested
+        A_in = model.A_in if use_model_A_in else None
         self.attention_calculator = AttentionCalculator(
             model.entity_user_embed,
             model.relation_embed,
             model.trans_M,
             device,
+            A_in=A_in,
         )
 
         self.path_finder = PathFinder(kg_dict, self.n_entities)
 
-        # Precompute attention scores if requested
+        # Precompute attention scores if requested (only when not using A_in)
         self.attention_scores = {}
-        if precompute_attention:
+        if use_model_A_in:
+            print("Using model's A_in matrix for normalized attention scores")
+            print(f"  A_in has {model.A_in._nnz()} non-zero entries")
+        elif precompute_attention:
             print("Precomputing attention scores...")
             raw_scores = (
                 self.attention_calculator.precompute_attention_scores_by_relation(
@@ -104,13 +115,16 @@ class KGATExplainer:
 
         Args:
             h: Head entity/user ID
-            r: Relation ID
+            r: Relation ID (ignored when use_model_A_in=True)
             t: Tail entity/user ID
 
         Returns:
-            Attention score
+            Attention score (normalized if use_model_A_in=True or precompute_attention=True)
         """
-        if (h, r, t) in self.attention_scores:
+        if self.use_model_A_in:
+            # Get normalized score from A_in (relation-agnostic)
+            return self.attention_calculator.get_normalized_attention(h, t)
+        elif (h, r, t) in self.attention_scores:
             return self.attention_scores[(h, r, t)]
         else:
             # Compute on-the-fly if not precomputed
@@ -122,6 +136,7 @@ class KGATExplainer:
         item_id: int,
         max_hops: int = 3,
         max_paths: int = 10,
+        score_mode: str = "sum",
     ) -> Dict:
         """Explain a prediction by finding paths and their attention scores.
 
@@ -130,10 +145,16 @@ class KGATExplainer:
             item_id: Item ID
             max_hops: Maximum number of hops to search
             max_paths: Maximum number of paths to return
+            score_mode: How to aggregate edge scores along a path.
+                       "sum" (default): sum of all edge scores
+                       "product": product of all edge scores
 
         Returns:
             Dictionary containing paths and their scores
         """
+        if score_mode not in ("sum", "product"):
+            raise ValueError(f"score_mode must be 'sum' or 'product', got '{score_mode}'")
+
         # Find paths
         paths = self.path_finder.find_paths(user_id, item_id, max_hops, max_paths)
 
@@ -141,7 +162,7 @@ class KGATExplainer:
         path_explanations = []
         for path in paths:
             edges_with_scores = []
-            path_score = 0.0
+            edge_scores = []
 
             for h, r, t in path:
                 attention_score = self.get_attention_score(h, r, t)
@@ -153,7 +174,15 @@ class KGATExplainer:
                         "attention_score": attention_score,
                     }
                 )
-                path_score += attention_score
+                edge_scores.append(attention_score)
+
+            # Calculate path score based on mode
+            if score_mode == "sum":
+                path_score = sum(edge_scores)
+            else:  # product
+                path_score = 1.0
+                for score in edge_scores:
+                    path_score *= score
 
             path_explanations.append(
                 {
@@ -161,6 +190,7 @@ class KGATExplainer:
                     "length": len(path),
                     "total_score": path_score,
                     "avg_score": path_score / len(path) if path else 0.0,
+                    "score_mode": score_mode,
                 }
             )
 
@@ -181,6 +211,7 @@ class KGATExplainer:
         max_paths_per_pair: int = 10,
         top_k: int = 100,
         min_rank: int = 1,
+        score_mode: str = "sum",
     ) -> List[Dict]:
         """Explain all correct predictions in the test set.
 
@@ -190,6 +221,7 @@ class KGATExplainer:
             max_paths_per_pair: Maximum paths per user-item pair
             top_k: Top-K predictions to consider
             min_rank: Minimum rank to consider as correct
+            score_mode: How to aggregate edge scores along a path ("sum" or "product")
 
         Returns:
             List of explanations for correct predictions
@@ -208,7 +240,7 @@ class KGATExplainer:
                 print(f"Explaining prediction {i + 1}/{len(correct_predictions)}")
 
             explanation = self.explain_prediction(
-                user_id, item_id, max_hops, max_paths_per_pair
+                user_id, item_id, max_hops, max_paths_per_pair, score_mode
             )
             explanation["rank"] = rank
             explanation["prediction_score"] = score
@@ -222,6 +254,7 @@ class KGATExplainer:
         max_hops: int = 3,
         max_paths_per_item: int = 10,
         top_k: int = 10,
+        score_mode: str = "sum",
     ) -> List[Dict]:
         """Explain top-k predictions for a user.
 
@@ -230,6 +263,7 @@ class KGATExplainer:
             max_hops: Maximum number of hops to search
             max_paths_per_item: Maximum paths per item
             top_k: Number of top predictions to explain
+            score_mode: How to aggregate edge scores along a path ("sum" or "product")
 
         Returns:
             List of explanations for top predictions
@@ -244,7 +278,7 @@ class KGATExplainer:
         explanations = []
         for rank, (item_id, score) in enumerate(zip(predicted_items, scores), 1):
             explanation = self.explain_prediction(
-                adjusted_user_id, item_id, max_hops, max_paths_per_item
+                adjusted_user_id, item_id, max_hops, max_paths_per_item, score_mode
             )
             explanation["rank"] = rank
             explanation["prediction_score"] = float(score)

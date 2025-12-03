@@ -1,0 +1,2191 @@
+{
+  "attention_mode": "A_in (normalized, relation-agnostic)",
+  "note": "Attention scores are retrieved from model's A_in matrix. A_in integrates all relations, so the same (head, tail) pair has the same score regardless of relation type. Scores are already normalized via softmax. Edges are sorted by attention score (descending).",
+  "normalized": true,
+  "num_items_analyzed": 10,
+  "items": [
+    {
+      "item_id": 10476,
+      "item_name": "Unknown_10476",
+      "num_edges": 53,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 14178,
+          "tail_name": "Reno",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.9887657761573792
+        },
+        {
+          "tail_id": 49246,
+          "tail_name": "User_4440",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.002407427877187729
+        },
+        {
+          "tail_id": 14612,
+          "tail_name": "pizza restaurant",
+          "relation_id": 8,
+          "relation_name": "is a",
+          "attention_score": 0.002306482521817088
+        },
+        {
+          "tail_id": 60445,
+          "tail_name": "User_15639",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0020549448672682047
+        },
+        {
+          "tail_id": 55648,
+          "tail_name": "User_10842",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00037861496093682945
+        },
+        {
+          "tail_id": 56967,
+          "tail_name": "User_12161",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0003506274370010942
+        },
+        {
+          "tail_id": 50103,
+          "tail_name": "User_5297",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.000300107232760638
+        },
+        {
+          "tail_id": 57927,
+          "tail_name": "User_13121",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00027351980679668486
+        },
+        {
+          "tail_id": 46182,
+          "tail_name": "User_1376",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0002672466798685491
+        },
+        {
+          "tail_id": 51501,
+          "tail_name": "User_6695",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0001810039539122954
+        },
+        {
+          "tail_id": 14304,
+          "tail_name": "pizza",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.00017941392434295267
+        },
+        {
+          "tail_id": 48893,
+          "tail_name": "User_4087",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00017650068912189454
+        },
+        {
+          "tail_id": 49665,
+          "tail_name": "User_4859",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0001633688370930031
+        },
+        {
+          "tail_id": 52548,
+          "tail_name": "User_7742",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00016159770893864334
+        },
+        {
+          "tail_id": 56916,
+          "tail_name": "User_12110",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00015865387103985995
+        },
+        {
+          "tail_id": 59499,
+          "tail_name": "User_14693",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00014632461534347385
+        },
+        {
+          "tail_id": 60308,
+          "tail_name": "User_15502",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00013913385919295251
+        },
+        {
+          "tail_id": 54670,
+          "tail_name": "User_9864",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00013744851457886398
+        },
+        {
+          "tail_id": 52655,
+          "tail_name": "User_7849",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00012069543299730867
+        },
+        {
+          "tail_id": 50420,
+          "tail_name": "User_5614",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00011291132250335068
+        },
+        {
+          "tail_id": 60639,
+          "tail_name": "User_15833",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 9.202590445056558e-05
+        },
+        {
+          "tail_id": 56570,
+          "tail_name": "User_11764",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 8.720768528291956e-05
+        },
+        {
+          "tail_id": 48546,
+          "tail_name": "User_3740",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 7.44884746382013e-05
+        },
+        {
+          "tail_id": 51745,
+          "tail_name": "User_6939",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 7.073448796290904e-05
+        },
+        {
+          "tail_id": 54050,
+          "tail_name": "User_9244",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 6.944532651687041e-05
+        },
+        {
+          "tail_id": 56909,
+          "tail_name": "User_12103",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 6.649961869698018e-05
+        },
+        {
+          "tail_id": 55713,
+          "tail_name": "User_10907",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 6.209954153746367e-05
+        },
+        {
+          "tail_id": 51263,
+          "tail_name": "User_6457",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.949429760221392e-05
+        },
+        {
+          "tail_id": 51166,
+          "tail_name": "User_6360",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.736513412557542e-05
+        },
+        {
+          "tail_id": 58542,
+          "tail_name": "User_13736",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.640321978717111e-05
+        },
+        {
+          "tail_id": 54897,
+          "tail_name": "User_10091",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.5570089898537844e-05
+        },
+        {
+          "tail_id": 48214,
+          "tail_name": "User_3408",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.524127482203767e-05
+        },
+        {
+          "tail_id": 53673,
+          "tail_name": "User_8867",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 4.692913353210315e-05
+        },
+        {
+          "tail_id": 52313,
+          "tail_name": "User_7507",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 4.362844629213214e-05
+        },
+        {
+          "tail_id": 46114,
+          "tail_name": "User_1308",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.963284325436689e-05
+        },
+        {
+          "tail_id": 58235,
+          "tail_name": "User_13429",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.255162664572708e-05
+        },
+        {
+          "tail_id": 47312,
+          "tail_name": "User_2506",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.152632780256681e-05
+        },
+        {
+          "tail_id": 14214,
+          "tail_name": "cozy",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 2.7530235456652008e-05
+        },
+        {
+          "tail_id": 45852,
+          "tail_name": "User_1046",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.7470126951811835e-05
+        },
+        {
+          "tail_id": 51611,
+          "tail_name": "User_6805",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.9913160940632224e-05
+        },
+        {
+          "tail_id": 56184,
+          "tail_name": "User_11378",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.98175275727408e-05
+        },
+        {
+          "tail_id": 60069,
+          "tail_name": "User_15263",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.712506309559103e-05
+        },
+        {
+          "tail_id": 53563,
+          "tail_name": "User_8757",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.6062625945778564e-05
+        },
+        {
+          "tail_id": 14277,
+          "tail_name": "fresh ingredients",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 1.462490763515234e-05
+        },
+        {
+          "tail_id": 50904,
+          "tail_name": "User_6098",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.2576823792187497e-05
+        },
+        {
+          "tail_id": 55437,
+          "tail_name": "User_10631",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.1759089829865843e-05
+        },
+        {
+          "tail_id": 46774,
+          "tail_name": "User_1968",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.1111748790426645e-05
+        },
+        {
+          "tail_id": 46476,
+          "tail_name": "User_1670",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.1028547305613756e-05
+        },
+        {
+          "tail_id": 21981,
+          "tail_name": "wood-fired pizzas",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 6.790597581129987e-06
+        },
+        {
+          "tail_id": 51023,
+          "tail_name": "User_6217",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 6.3215397858584765e-06
+        },
+        {
+          "tail_id": 54873,
+          "tail_name": "User_10067",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.808300556964241e-06
+        },
+        {
+          "tail_id": 15371,
+          "tail_name": "pizza lovers",
+          "relation_id": 9,
+          "relation_name": "appeals to",
+          "attention_score": 4.678647201217245e-06
+        },
+        {
+          "tail_id": 25198,
+          "tail_name": "creative flavor combinations",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 4.659557816921733e-06
+        }
+      ]
+    },
+    {
+      "item_id": 1824,
+      "item_name": "Unknown_1824",
+      "num_edges": 47,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 20666,
+          "tail_name": "Outlet mall",
+          "relation_id": 8,
+          "relation_name": "is a",
+          "attention_score": 0.558567225933075
+        },
+        {
+          "tail_id": 14238,
+          "tail_name": "Tampa",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.1252492070198059
+        },
+        {
+          "tail_id": 56265,
+          "tail_name": "User_11459",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.04400956630706787
+        },
+        {
+          "tail_id": 51152,
+          "tail_name": "User_6346",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.039690759032964706
+        },
+        {
+          "tail_id": 16805,
+          "tail_name": "clothing",
+          "relation_id": 3,
+          "relation_name": "offers",
+          "attention_score": 0.034161318093538284
+        },
+        {
+          "tail_id": 59594,
+          "tail_name": "User_14788",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.029785973951220512
+        },
+        {
+          "tail_id": 48560,
+          "tail_name": "User_3754",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.02707689255475998
+        },
+        {
+          "tail_id": 20667,
+          "tail_name": "shoes",
+          "relation_id": 3,
+          "relation_name": "offers",
+          "attention_score": 0.014066195115447044
+        },
+        {
+          "tail_id": 54910,
+          "tail_name": "User_10104",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.012597702443599701
+        },
+        {
+          "tail_id": 44901,
+          "tail_name": "User_95",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.011572765186429024
+        },
+        {
+          "tail_id": 49548,
+          "tail_name": "User_4742",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.009251055307686329
+        },
+        {
+          "tail_id": 47521,
+          "tail_name": "User_2715",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.009230379946529865
+        },
+        {
+          "tail_id": 55979,
+          "tail_name": "User_11173",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.006450570188462734
+        },
+        {
+          "tail_id": 50051,
+          "tail_name": "User_5245",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0062129613943398
+        },
+        {
+          "tail_id": 20668,
+          "tail_name": "handbags",
+          "relation_id": 3,
+          "relation_name": "offers",
+          "attention_score": 0.006201299838721752
+        },
+        {
+          "tail_id": 53736,
+          "tail_name": "User_8930",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.006107492372393608
+        },
+        {
+          "tail_id": 47726,
+          "tail_name": "User_2920",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.005320251453667879
+        },
+        {
+          "tail_id": 20669,
+          "tail_name": "stores",
+          "relation_id": 21,
+          "relation_name": "category",
+          "attention_score": 0.005060552153736353
+        },
+        {
+          "tail_id": 48085,
+          "tail_name": "User_3279",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.004408742766827345
+        },
+        {
+          "tail_id": 51696,
+          "tail_name": "User_6890",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.003748169168829918
+        },
+        {
+          "tail_id": 51602,
+          "tail_name": "User_6796",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0037076047156006098
+        },
+        {
+          "tail_id": 53359,
+          "tail_name": "User_8553",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.003330360632389784
+        },
+        {
+          "tail_id": 55685,
+          "tail_name": "User_10879",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.003308350220322609
+        },
+        {
+          "tail_id": 60178,
+          "tail_name": "User_15372",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.003216970944777131
+        },
+        {
+          "tail_id": 46314,
+          "tail_name": "User_1508",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.003201967105269432
+        },
+        {
+          "tail_id": 45676,
+          "tail_name": "User_870",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0031496176961809397
+        },
+        {
+          "tail_id": 57701,
+          "tail_name": "User_12895",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0024246780667454004
+        },
+        {
+          "tail_id": 47808,
+          "tail_name": "User_3002",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0023589320480823517
+        },
+        {
+          "tail_id": 47842,
+          "tail_name": "User_3036",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0020561220590025187
+        },
+        {
+          "tail_id": 51910,
+          "tail_name": "User_7104",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0017437987262383103
+        },
+        {
+          "tail_id": 48825,
+          "tail_name": "User_4019",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0013074555899947882
+        },
+        {
+          "tail_id": 49728,
+          "tail_name": "User_4922",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0013051347341388464
+        },
+        {
+          "tail_id": 14408,
+          "tail_name": "families",
+          "relation_id": 10,
+          "relation_name": "suitable for",
+          "attention_score": 0.0012287880526855588
+        },
+        {
+          "tail_id": 48401,
+          "tail_name": "User_3595",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0012191127752885222
+        },
+        {
+          "tail_id": 46049,
+          "tail_name": "User_1243",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0010195160284638405
+        },
+        {
+          "tail_id": 54778,
+          "tail_name": "User_9972",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0009631489519961178
+        },
+        {
+          "tail_id": 51083,
+          "tail_name": "User_6277",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00089613301679492
+        },
+        {
+          "tail_id": 56776,
+          "tail_name": "User_11970",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00087838462786749
+        },
+        {
+          "tail_id": 20671,
+          "tail_name": "spacious",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 0.0007623463752679527
+        },
+        {
+          "tail_id": 58595,
+          "tail_name": "User_13789",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0007257674005813897
+        },
+        {
+          "tail_id": 45670,
+          "tail_name": "User_864",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0006893243989907205
+        },
+        {
+          "tail_id": 20672,
+          "tail_name": "welcoming place",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 0.0006771024200133979
+        },
+        {
+          "tail_id": 59200,
+          "tail_name": "User_14394",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0004664371663238853
+        },
+        {
+          "tail_id": 14596,
+          "tail_name": "secure environment",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.00021888036280870438
+        },
+        {
+          "tail_id": 20670,
+          "tail_name": "well-kept amenities",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.00018327745783608407
+        },
+        {
+          "tail_id": 17826,
+          "tail_name": "ample parking",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.00014779942284803838
+        },
+        {
+          "tail_id": 15308,
+          "tail_name": "comfortable environment",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 4.38261340605095e-05
+        }
+      ]
+    },
+    {
+      "item_id": 409,
+      "item_name": "Unknown_409",
+      "num_edges": 39,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 16083,
+          "tail_name": "bourbon enthusiasts",
+          "relation_id": 6,
+          "relation_name": "caters to",
+          "attention_score": 0.9688498377799988
+        },
+        {
+          "tail_id": 16084,
+          "tail_name": "St Charles",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.004947131033986807
+        },
+        {
+          "tail_id": 45484,
+          "tail_name": "User_678",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0032090381719172
+        },
+        {
+          "tail_id": 14214,
+          "tail_name": "cozy",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 0.002790838247165084
+        },
+        {
+          "tail_id": 56897,
+          "tail_name": "User_12091",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0027185294311493635
+        },
+        {
+          "tail_id": 50026,
+          "tail_name": "User_5220",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0024614406283944845
+        },
+        {
+          "tail_id": 52992,
+          "tail_name": "User_8186",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0016841753385961056
+        },
+        {
+          "tail_id": 53497,
+          "tail_name": "User_8691",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0012302105315029621
+        },
+        {
+          "tail_id": 53300,
+          "tail_name": "User_8494",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.001216256176121533
+        },
+        {
+          "tail_id": 58049,
+          "tail_name": "User_13243",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0011235333513468504
+        },
+        {
+          "tail_id": 47323,
+          "tail_name": "User_2517",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.000952495145611465
+        },
+        {
+          "tail_id": 52017,
+          "tail_name": "User_7211",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0009193453006446362
+        },
+        {
+          "tail_id": 45897,
+          "tail_name": "User_1091",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0007043072837404907
+        },
+        {
+          "tail_id": 53457,
+          "tail_name": "User_8651",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0006721341633237898
+        },
+        {
+          "tail_id": 57820,
+          "tail_name": "User_13014",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0006210476858541369
+        },
+        {
+          "tail_id": 46379,
+          "tail_name": "User_1573",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0006118567544035614
+        },
+        {
+          "tail_id": 49216,
+          "tail_name": "User_4410",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0005916631198488176
+        },
+        {
+          "tail_id": 53853,
+          "tail_name": "User_9047",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00048659410094842315
+        },
+        {
+          "tail_id": 48522,
+          "tail_name": "User_3716",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00045129426871426404
+        },
+        {
+          "tail_id": 54703,
+          "tail_name": "User_9897",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00042159712756983936
+        },
+        {
+          "tail_id": 47410,
+          "tail_name": "User_2604",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00040259165689349174
+        },
+        {
+          "tail_id": 49889,
+          "tail_name": "User_5083",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0003971764526795596
+        },
+        {
+          "tail_id": 16081,
+          "tail_name": "fans of southern comfort food",
+          "relation_id": 6,
+          "relation_name": "caters to",
+          "attention_score": 0.0003693089238367975
+        },
+        {
+          "tail_id": 16082,
+          "tail_name": "Whiskey enthusiasts",
+          "relation_id": 6,
+          "relation_name": "caters to",
+          "attention_score": 0.0002772426523733884
+        },
+        {
+          "tail_id": 46398,
+          "tail_name": "User_1592",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0002699982142075896
+        },
+        {
+          "tail_id": 49250,
+          "tail_name": "User_4444",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00026594765949994326
+        },
+        {
+          "tail_id": 53979,
+          "tail_name": "User_9173",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00020953094644937664
+        },
+        {
+          "tail_id": 45335,
+          "tail_name": "User_529",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00018916586122941226
+        },
+        {
+          "tail_id": 14208,
+          "tail_name": "good service",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.0001651612255955115
+        },
+        {
+          "tail_id": 16080,
+          "tail_name": "fans of barbecue",
+          "relation_id": 6,
+          "relation_name": "caters to",
+          "attention_score": 0.00014301884220913053
+        },
+        {
+          "tail_id": 14250,
+          "tail_name": "barbecue",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.00013736750406678766
+        },
+        {
+          "tail_id": 48740,
+          "tail_name": "User_3934",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00013532425509765744
+        },
+        {
+          "tail_id": 46299,
+          "tail_name": "User_1493",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 8.631965465610847e-05
+        },
+        {
+          "tail_id": 15518,
+          "tail_name": "southern comfort food",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 7.02413308317773e-05
+        },
+        {
+          "tail_id": 45956,
+          "tail_name": "User_1150",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.332311047823168e-05
+        },
+        {
+          "tail_id": 53461,
+          "tail_name": "User_8655",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.113051156513393e-05
+        },
+        {
+          "tail_id": 52109,
+          "tail_name": "User_7303",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.967178054153919e-05
+        },
+        {
+          "tail_id": 50277,
+          "tail_name": "User_5471",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.717143044923432e-05
+        },
+        {
+          "tail_id": 48340,
+          "tail_name": "User_3534",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.6729681596625596e-05
+        }
+      ]
+    },
+    {
+      "item_id": 12149,
+      "item_name": "Unknown_12149",
+      "num_edges": 21,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 14353,
+          "tail_name": "Nashville",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.9896966218948364
+        },
+        {
+          "tail_id": 14222,
+          "tail_name": "live music",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.0034399565774947405
+        },
+        {
+          "tail_id": 41522,
+          "tail_name": "multilevel entertainment venues",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.0022041392512619495
+        },
+        {
+          "tail_id": 14783,
+          "tail_name": "drinks",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.0009501996682956815
+        },
+        {
+          "tail_id": 53454,
+          "tail_name": "User_8648",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.000668996712192893
+        },
+        {
+          "tail_id": 41523,
+          "tail_name": "multi-level entertainment venues",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.0004998300573788583
+        },
+        {
+          "tail_id": 58440,
+          "tail_name": "User_13634",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.000424057652708143
+        },
+        {
+          "tail_id": 54122,
+          "tail_name": "User_9316",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0003937249712180346
+        },
+        {
+          "tail_id": 54053,
+          "tail_name": "User_9247",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0002625594206620008
+        },
+        {
+          "tail_id": 49019,
+          "tail_name": "User_4213",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00024127698270604014
+        },
+        {
+          "tail_id": 52631,
+          "tail_name": "User_7825",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0002275973092764616
+        },
+        {
+          "tail_id": 16699,
+          "tail_name": "diverse crowds",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 0.0001700116554275155
+        },
+        {
+          "tail_id": 55182,
+          "tail_name": "User_10376",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00016439826868008822
+        },
+        {
+          "tail_id": 53864,
+          "tail_name": "User_9058",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0001459311752114445
+        },
+        {
+          "tail_id": 54014,
+          "tail_name": "User_9208",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00012213429727125913
+        },
+        {
+          "tail_id": 57506,
+          "tail_name": "User_12700",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00011799836647696793
+        },
+        {
+          "tail_id": 58139,
+          "tail_name": "User_13333",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 7.962223753565922e-05
+        },
+        {
+          "tail_id": 45932,
+          "tail_name": "User_1126",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 6.661410589003935e-05
+        },
+        {
+          "tail_id": 14271,
+          "tail_name": "great food",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 6.0890972235938534e-05
+        },
+        {
+          "tail_id": 59554,
+          "tail_name": "User_14748",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.5572138585848734e-05
+        },
+        {
+          "tail_id": 55787,
+          "tail_name": "User_10981",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.7952408345299773e-05
+        }
+      ]
+    },
+    {
+      "item_id": 4506,
+      "item_name": "Unknown_4506",
+      "num_edges": 23,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 14118,
+          "tail_name": "Tucson",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.95921790599823
+        },
+        {
+          "tail_id": 27044,
+          "tail_name": "Fans of reasonably priced food",
+          "relation_id": 9,
+          "relation_name": "appeals to",
+          "attention_score": 0.01860084757208824
+        },
+        {
+          "tail_id": 16592,
+          "tail_name": "students",
+          "relation_id": 6,
+          "relation_name": "caters to",
+          "attention_score": 0.009255515411496162
+        },
+        {
+          "tail_id": 14214,
+          "tail_name": "cozy",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 0.0028889933601021767
+        },
+        {
+          "tail_id": 55719,
+          "tail_name": "User_10913",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0018644954543560743
+        },
+        {
+          "tail_id": 60695,
+          "tail_name": "User_15889",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.001758576137945056
+        },
+        {
+          "tail_id": 14306,
+          "tail_name": "vegan options",
+          "relation_id": 6,
+          "relation_name": "caters to",
+          "attention_score": 0.0014537789393216372
+        },
+        {
+          "tail_id": 51646,
+          "tail_name": "User_6840",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0014519832329824567
+        },
+        {
+          "tail_id": 14793,
+          "tail_name": "Thai cioisine",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.0006356637459248304
+        },
+        {
+          "tail_id": 54515,
+          "tail_name": "User_9709",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0006144027574919164
+        },
+        {
+          "tail_id": 55503,
+          "tail_name": "User_10697",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0004631386254914105
+        },
+        {
+          "tail_id": 27045,
+          "tail_name": "Fans of vegan options",
+          "relation_id": 9,
+          "relation_name": "appeals to",
+          "attention_score": 0.000402104458771646
+        },
+        {
+          "tail_id": 52831,
+          "tail_name": "User_8025",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00032769489916972816
+        },
+        {
+          "tail_id": 47468,
+          "tail_name": "User_2662",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00030072752269916236
+        },
+        {
+          "tail_id": 27043,
+          "tail_name": "Fans of flavorful Thai food",
+          "relation_id": 9,
+          "relation_name": "appeals to",
+          "attention_score": 0.0001982606336241588
+        },
+        {
+          "tail_id": 27042,
+          "tail_name": "slow",
+          "relation_id": 3,
+          "relation_name": "offers",
+          "attention_score": 0.00015587054076604545
+        },
+        {
+          "tail_id": 55199,
+          "tail_name": "User_10393",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0001234711817232892
+        },
+        {
+          "tail_id": 45002,
+          "tail_name": "User_196",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00011801292566815391
+        },
+        {
+          "tail_id": 48023,
+          "tail_name": "User_3217",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00010095990728586912
+        },
+        {
+          "tail_id": 14826,
+          "tail_name": "flavorful",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 4.956142220180482e-05
+        },
+        {
+          "tail_id": 14500,
+          "tail_name": "reasonably priced",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 9.470191798754968e-06
+        },
+        {
+          "tail_id": 25527,
+          "tail_name": "unassuming",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 5.9775388763227966e-06
+        },
+        {
+          "tail_id": 27041,
+          "tail_name": "Thai",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 2.6043946945719654e-06
+        }
+      ]
+    },
+    {
+      "item_id": 4012,
+      "item_name": "Unknown_4012",
+      "num_edges": 26,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 14696,
+          "tail_name": "reasonable",
+          "relation_id": 11,
+          "relation_name": "price range",
+          "attention_score": 0.9999593496322632
+        },
+        {
+          "tail_id": 14119,
+          "tail_name": "casual dining",
+          "relation_id": 10,
+          "relation_name": "suitable for",
+          "attention_score": 2.1784524506074376e-05
+        },
+        {
+          "tail_id": 25887,
+          "tail_name": "Irish-American tavern",
+          "relation_id": 8,
+          "relation_name": "is a",
+          "attention_score": 7.1260201366385445e-06
+        },
+        {
+          "tail_id": 14891,
+          "tail_name": "dates",
+          "relation_id": 10,
+          "relation_name": "suitable for",
+          "attention_score": 6.814861080783885e-06
+        },
+        {
+          "tail_id": 14228,
+          "tail_name": "generous portions",
+          "relation_id": 3,
+          "relation_name": "offers",
+          "attention_score": 1.6474798485432984e-06
+        },
+        {
+          "tail_id": 50194,
+          "tail_name": "User_5388",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 8.518499612364394e-07
+        },
+        {
+          "tail_id": 16206,
+          "tail_name": "tavern",
+          "relation_id": 21,
+          "relation_name": "category",
+          "attention_score": 6.713248126288818e-07
+        },
+        {
+          "tail_id": 46000,
+          "tail_name": "User_1194",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.589174752960389e-07
+        },
+        {
+          "tail_id": 15397,
+          "tail_name": "welcoming",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 3.200395610747364e-07
+        },
+        {
+          "tail_id": 51330,
+          "tail_name": "User_6524",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.693112435281364e-07
+        },
+        {
+          "tail_id": 45614,
+          "tail_name": "User_808",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.4484006644343026e-07
+        },
+        {
+          "tail_id": 59483,
+          "tail_name": "User_14677",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.0803932443413942e-07
+        },
+        {
+          "tail_id": 55655,
+          "tail_name": "User_10849",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.7392997619936068e-07
+        },
+        {
+          "tail_id": 52626,
+          "tail_name": "User_7820",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.1982830017132073e-07
+        },
+        {
+          "tail_id": 54323,
+          "tail_name": "User_9517",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 4.617815108076684e-08
+        },
+        {
+          "tail_id": 58200,
+          "tail_name": "User_13394",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 4.008852627634951e-08
+        },
+        {
+          "tail_id": 22344,
+          "tail_name": "friends' gatherings",
+          "relation_id": 10,
+          "relation_name": "suitable for",
+          "attention_score": 3.645621049486181e-08
+        },
+        {
+          "tail_id": 47759,
+          "tail_name": "User_2953",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.3007133026785596e-08
+        },
+        {
+          "tail_id": 57427,
+          "tail_name": "User_12621",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.1443466497194095e-08
+        },
+        {
+          "tail_id": 50537,
+          "tail_name": "User_5731",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.9617497787626235e-08
+        },
+        {
+          "tail_id": 46210,
+          "tail_name": "User_1404",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.792221387437621e-08
+        },
+        {
+          "tail_id": 45166,
+          "tail_name": "User_360",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.1005595485235062e-08
+        },
+        {
+          "tail_id": 49071,
+          "tail_name": "User_4265",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.1039463565509777e-08
+        },
+        {
+          "tail_id": 54726,
+          "tail_name": "User_9920",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 9.605788164890328e-09
+        },
+        {
+          "tail_id": 47013,
+          "tail_name": "User_2207",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 6.773822391892281e-09
+        },
+        {
+          "tail_id": 49096,
+          "tail_name": "User_4290",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 4.695491551132136e-09
+        }
+      ]
+    },
+    {
+      "item_id": 3657,
+      "item_name": "Unknown_3657",
+      "num_edges": 16,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 14092,
+          "tail_name": "Indianapolis",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.9944586753845215
+        },
+        {
+          "tail_id": 14102,
+          "tail_name": "delicious food",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.001854100963100791
+        },
+        {
+          "tail_id": 25134,
+          "tail_name": "fun atmosphere with music and dancing",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 0.0014110805932432413
+        },
+        {
+          "tail_id": 14759,
+          "tail_name": "Greek cuisine",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.0003825635649263859
+        },
+        {
+          "tail_id": 53242,
+          "tail_name": "User_8436",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0003728339506778866
+        },
+        {
+          "tail_id": 45563,
+          "tail_name": "User_757",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00024337983631994575
+        },
+        {
+          "tail_id": 48527,
+          "tail_name": "User_3721",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00022204579727258533
+        },
+        {
+          "tail_id": 25135,
+          "tail_name": "family and friends",
+          "relation_id": 10,
+          "relation_name": "suitable for",
+          "attention_score": 0.00019617985526565462
+        },
+        {
+          "tail_id": 48390,
+          "tail_name": "User_3584",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00016332909581251442
+        },
+        {
+          "tail_id": 22108,
+          "tail_name": "free admission",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.00012206086103105918
+        },
+        {
+          "tail_id": 50429,
+          "tail_name": "User_5623",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00012005485041299835
+        },
+        {
+          "tail_id": 47979,
+          "tail_name": "User_3173",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00010972374002449214
+        },
+        {
+          "tail_id": 21719,
+          "tail_name": "variety of activities",
+          "relation_id": 3,
+          "relation_name": "offers",
+          "attention_score": 0.00010827325604623184
+        },
+        {
+          "tail_id": 51676,
+          "tail_name": "User_6870",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 8.550527127226815e-05
+        },
+        {
+          "tail_id": 50593,
+          "tail_name": "User_5787",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 7.801828905940056e-05
+        },
+        {
+          "tail_id": 53533,
+          "tail_name": "User_8727",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 7.204758003354073e-05
+        }
+      ]
+    },
+    {
+      "item_id": 2286,
+      "item_name": "Unknown_2286",
+      "num_edges": 19,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 14353,
+          "tail_name": "Nashville",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.9615429043769836
+        },
+        {
+          "tail_id": 21888,
+          "tail_name": "unique ordering system",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.007179035805165768
+        },
+        {
+          "tail_id": 21890,
+          "tail_name": "People who enjoy customizing their sandwiches",
+          "relation_id": 9,
+          "relation_name": "appeals to",
+          "attention_score": 0.007096892688423395
+        },
+        {
+          "tail_id": 14259,
+          "tail_name": "friendly staff",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.0064050424844026566
+        },
+        {
+          "tail_id": 56972,
+          "tail_name": "User_12166",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.003840608987957239
+        },
+        {
+          "tail_id": 14719,
+          "tail_name": "sandwiches",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.0035545886494219303
+        },
+        {
+          "tail_id": 21889,
+          "tail_name": "slightly longer wait time",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.0024414993822574615
+        },
+        {
+          "tail_id": 58464,
+          "tail_name": "User_13658",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.002361014951020479
+        },
+        {
+          "tail_id": 14163,
+          "tail_name": "fresh food",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.0014454000629484653
+        },
+        {
+          "tail_id": 48828,
+          "tail_name": "User_4022",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0010048443218693137
+        },
+        {
+          "tail_id": 46672,
+          "tail_name": "User_1866",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0006222925730980933
+        },
+        {
+          "tail_id": 46784,
+          "tail_name": "User_1978",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.000593850389122963
+        },
+        {
+          "tail_id": 45281,
+          "tail_name": "User_475",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00045033052447251976
+        },
+        {
+          "tail_id": 46408,
+          "tail_name": "User_1602",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0004035329620819539
+        },
+        {
+          "tail_id": 48486,
+          "tail_name": "User_3680",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0003847761545330286
+        },
+        {
+          "tail_id": 45407,
+          "tail_name": "User_601",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0002800605143420398
+        },
+        {
+          "tail_id": 55145,
+          "tail_name": "User_10339",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0002781576185952872
+        },
+        {
+          "tail_id": 46570,
+          "tail_name": "User_1764",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 8.427799912169576e-05
+        },
+        {
+          "tail_id": 14609,
+          "tail_name": "delicious sandwiches",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 3.079603993683122e-05
+        }
+      ]
+    },
+    {
+      "item_id": 12066,
+      "item_name": "Unknown_12066",
+      "num_edges": 38,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 18053,
+          "tail_name": "brewing company",
+          "relation_id": 8,
+          "relation_name": "is a",
+          "attention_score": 0.9055753350257874
+        },
+        {
+          "tail_id": 41403,
+          "tail_name": "friendly and communal atmosphere",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 0.06906399875879288
+        },
+        {
+          "tail_id": 14353,
+          "tail_name": "Nashville",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.0229179710149765
+        },
+        {
+          "tail_id": 56324,
+          "tail_name": "User_11518",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0009638129849918187
+        },
+        {
+          "tail_id": 57530,
+          "tail_name": "User_12724",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00028325809398666024
+        },
+        {
+          "tail_id": 41404,
+          "tail_name": "female-led breweries",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.0001677635736996308
+        },
+        {
+          "tail_id": 41405,
+          "tail_name": "history behind the beer-making process",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.00011073478526668623
+        },
+        {
+          "tail_id": 52599,
+          "tail_name": "User_7793",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 8.803165110293776e-05
+        },
+        {
+          "tail_id": 51117,
+          "tail_name": "User_6311",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 7.580636156490073e-05
+        },
+        {
+          "tail_id": 14086,
+          "tail_name": "beers",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 7.014607399469241e-05
+        },
+        {
+          "tail_id": 14085,
+          "tail_name": "craft beers",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 5.968648110865615e-05
+        },
+        {
+          "tail_id": 51829,
+          "tail_name": "User_7023",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.958115798421204e-05
+        },
+        {
+          "tail_id": 46417,
+          "tail_name": "User_1611",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.636309288092889e-05
+        },
+        {
+          "tail_id": 52169,
+          "tail_name": "User_7363",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.15160099894274e-05
+        },
+        {
+          "tail_id": 50622,
+          "tail_name": "User_5816",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 4.16654183936771e-05
+        },
+        {
+          "tail_id": 58659,
+          "tail_name": "User_13853",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.869665306410752e-05
+        },
+        {
+          "tail_id": 52542,
+          "tail_name": "User_7736",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.521858525346033e-05
+        },
+        {
+          "tail_id": 22839,
+          "tail_name": "wide selection of craft beers",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 3.175468373228796e-05
+        },
+        {
+          "tail_id": 49740,
+          "tail_name": "User_4934",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.9882072340114973e-05
+        },
+        {
+          "tail_id": 45333,
+          "tail_name": "User_527",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.857890103769023e-05
+        },
+        {
+          "tail_id": 50334,
+          "tail_name": "User_5528",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.8098664188291878e-05
+        },
+        {
+          "tail_id": 58256,
+          "tail_name": "User_13450",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.36096020671539e-05
+        },
+        {
+          "tail_id": 47962,
+          "tail_name": "User_3156",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.0718693122034892e-05
+        },
+        {
+          "tail_id": 49990,
+          "tail_name": "User_5184",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.8883160009863786e-05
+        },
+        {
+          "tail_id": 56210,
+          "tail_name": "User_11404",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.8421613276586868e-05
+        },
+        {
+          "tail_id": 60439,
+          "tail_name": "User_15633",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.8341641407459974e-05
+        },
+        {
+          "tail_id": 56391,
+          "tail_name": "User_11585",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.6784128092695028e-05
+        },
+        {
+          "tail_id": 49229,
+          "tail_name": "User_4423",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.6740948922233656e-05
+        },
+        {
+          "tail_id": 46164,
+          "tail_name": "User_1358",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.4389326679520309e-05
+        },
+        {
+          "tail_id": 49723,
+          "tail_name": "User_4917",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.2900354704470374e-05
+        },
+        {
+          "tail_id": 18067,
+          "tail_name": "community involvement",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 1.1383165656297933e-05
+        },
+        {
+          "tail_id": 51740,
+          "tail_name": "User_6934",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.075548425433226e-05
+        },
+        {
+          "tail_id": 51187,
+          "tail_name": "User_6381",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 1.0687479516491294e-05
+        },
+        {
+          "tail_id": 46033,
+          "tail_name": "User_1227",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 8.427934517385438e-06
+        },
+        {
+          "tail_id": 57549,
+          "tail_name": "User_12743",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 8.355269528692588e-06
+        },
+        {
+          "tail_id": 51546,
+          "tail_name": "User_6740",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 5.3114740694582e-06
+        },
+        {
+          "tail_id": 52969,
+          "tail_name": "User_8163",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 3.888107585225953e-06
+        },
+        {
+          "tail_id": 48984,
+          "tail_name": "User_4178",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 2.6635557333065663e-06
+        }
+      ]
+    },
+    {
+      "item_id": 1679,
+      "item_name": "Unknown_1679",
+      "num_edges": 17,
+      "normalized": true,
+      "note": "A_in scores are relation-agnostic. Sorted by attention score (descending).",
+      "edges": [
+        {
+          "tail_id": 14239,
+          "tail_name": "Ardmore",
+          "relation_id": 7,
+          "relation_name": "located in",
+          "attention_score": 0.7185477614402771
+        },
+        {
+          "tail_id": 14085,
+          "tail_name": "craft beers",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.08283548802137375
+        },
+        {
+          "tail_id": 14086,
+          "tail_name": "beers",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.04119083285331726
+        },
+        {
+          "tail_id": 14154,
+          "tail_name": "friendly",
+          "relation_id": 4,
+          "relation_name": "has atmosphere",
+          "attention_score": 0.037071097642183304
+        },
+        {
+          "tail_id": 58782,
+          "tail_name": "User_13976",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.035553447902202606
+        },
+        {
+          "tail_id": 58310,
+          "tail_name": "User_13504",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.022620880976319313
+        },
+        {
+          "tail_id": 52916,
+          "tail_name": "User_8110",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.01296085026115179
+        },
+        {
+          "tail_id": 45132,
+          "tail_name": "User_326",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.010242927819490433
+        },
+        {
+          "tail_id": 46884,
+          "tail_name": "User_2078",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.007662276271730661
+        },
+        {
+          "tail_id": 53397,
+          "tail_name": "User_8591",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.007387419696897268
+        },
+        {
+          "tail_id": 15202,
+          "tail_name": "diverse beer selection",
+          "relation_id": 5,
+          "relation_name": "has feature",
+          "attention_score": 0.006582197733223438
+        },
+        {
+          "tail_id": 54622,
+          "tail_name": "User_9816",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.004555278457701206
+        },
+        {
+          "tail_id": 47626,
+          "tail_name": "User_2820",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.004438998177647591
+        },
+        {
+          "tail_id": 58476,
+          "tail_name": "User_13670",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.00413107592612505
+        },
+        {
+          "tail_id": 48181,
+          "tail_name": "User_3375",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0017025306588038802
+        },
+        {
+          "tail_id": 48596,
+          "tail_name": "User_3790",
+          "relation_id": 1,
+          "relation_name": "InteractedBy",
+          "attention_score": 0.0014639567816630006
+        },
+        {
+          "tail_id": 18299,
+          "tail_name": "hot dogs",
+          "relation_id": 2,
+          "relation_name": "serves",
+          "attention_score": 0.0010529839200899005
+        }
+      ]
+    }
+  ]
+}

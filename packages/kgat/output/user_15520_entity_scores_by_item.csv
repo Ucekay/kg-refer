@@ -1,0 +1,29 @@
+item_id,entity_id,entity_name,score
+7109,14092,Indianapolis,4.691471
+7109,32375,large servings,2.5707657
+7109,14855,casual,0.76319665
+7109,14268,Burger restaurant,0.30783176
+7109,14276,burgers,0.07147345
+7109,26397,flavorful burgers,-0.010166509
+7109,15255,unique toppings,-0.18481983
+7109,14088,laid-back,-0.5544361
+7184,14092,Indianapolis,4.691471
+7184,32526,50s-style setting,3.4992552
+7184,32525,charming 50s-style setting,3.104019
+7184,14264,gluten-free options,2.3620574
+7184,16319,service,1.5285357
+7184,14229,friendly service,1.4545561
+7184,17987,gluten-free,-0.15278624
+7184,22066,Fans of hearty breakfasts,-0.24778013
+7184,16727,hearty breakfasts,-0.42085806
+7184,14226,breakfast,-1.0944142
+8778,14092,Indianapolis,4.691471
+8778,35497,Fans of hearty breakfast,4.3901014
+8778,35496,cozy café atmosphere,2.874996
+8778,26704,fans of fresh ingredients,1.997847
+8778,16362,locally sourced ingredients,1.9652942
+8778,14479,quality food,1.9052091
+8778,14497,Fans of brunch,1.0189248
+8778,14277,fresh ingredients,0.11419702
+8778,14103,brunch,-0.22136804
+8778,14226,breakfast,-1.0944142

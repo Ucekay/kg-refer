@@ -1,0 +1,36 @@
+item_id,entity_id,entity_name,score
+6815,14353,Nashville,5.1030917
+6815,30421,honky-tonk atmosphere,3.6807353
+6815,31793,country covers,2.7122955
+6815,31795,Honky tonk enthusiasts,2.4746277
+6815,15318,fans of live music,1.9900081
+6815,31794,energetic ambiance,1.66519
+6815,17350,music venue,1.4338093
+6815,17824,Nightlife seekers,1.2713599
+6815,14259,friendly staff,0.9912758
+6815,17092,vibrant nightlife,-0.15932995
+6815,22006,Nightclub,-1.0830855
+8540,14353,Nashville,5.1030917
+8540,35046,unique side dishes,2.9835832
+8540,15303,communal dining,2.4949574
+8540,35048,Individuals who enjoy communal dining,2.4870713
+8540,35049,People who appreciate fast-casual dining,2.4287856
+8540,14935,fried chicken,2.1953292
+8540,35047,Fans of spicy food,2.1207032
+8540,29020,high spice levels,1.9943595
+8540,14519,great service,1.2195773
+8540,26392,fast-casual dining,1.1498978
+8540,14154,friendly,1.0534866
+8540,14826,flavorful,0.78347796
+8540,17788,adventurous eaters,0.4506422
+8540,14827,spicy,-0.8712519
+9296,14955,southern cuisine,4.3040013
+9296,14151,creole cuisine,2.9000587
+9296,14112,New Orleans,2.5936322
+9296,14150,cajun cuisine,2.477001
+9296,36442,excellent beer selection,1.1990918
+9296,14113,restaurant,1.0393982
+9296,36444,lively sports bar experience,1.0145384
+9296,36443,multiple rooms for groups,0.7857817
+9296,16779,sports bar,0.6178167
+9296,14086,beers,-0.12259658

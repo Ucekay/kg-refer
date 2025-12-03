@@ -75,6 +75,7 @@ def load_trained_model(
     data_loader: DataLoader,
     device: torch.device,
     model_path: str = None,
+    epoch: int = None,
 ):
     """学習済みモデルをロード"""
     if model_path:
@@ -88,6 +89,31 @@ def load_trained_model(
                 model_path_obj = Path("../kgat") / model_path
             else:
                 raise FileNotFoundError(f"Specified model not found: {model_path}")
+        model_path = str(model_path_obj)
+    elif epoch is not None:
+        # エポック番号が指定された場合
+        # モデルディレクトリのパスを調整
+        model_dir = Path("../kgat/trained_model/KGAT") / config.data_name
+        if not model_dir.exists():
+            model_dir = Path("packages/kgat/trained_model/KGAT") / config.data_name
+        
+        if not model_dir.exists():
+            raise FileNotFoundError(f"Model directory not found: {model_dir}")
+        
+        # エポック番号からモデルファイル名を構築
+        model_filename = f"model_epoch{epoch}.pth"
+        model_path_obj = model_dir / model_filename
+        
+        # サブディレクトリも探索
+        if not model_path_obj.exists():
+            model_files = list(model_dir.rglob(model_filename))
+            if model_files:
+                model_path_obj = model_files[0]
+            else:
+                raise FileNotFoundError(
+                    f"Model file not found: {model_filename} in {model_dir}"
+                )
+        
         model_path = str(model_path_obj)
     else:
         # モデルディレクトリのパスを調整
@@ -141,8 +167,8 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Explain prediction for a specific user-item pair"
     )
-    parser.add_argument("--user_id", type=int, default=1301, help="Target User ID")
-    parser.add_argument("--item_id", type=int, default=8705, help="Target Item ID")
+    parser.add_argument("--user_id", type=int, default=10088, help="Target User ID")
+    parser.add_argument("--item_id", type=int, default=5124, help="Target Item ID")
     parser.add_argument(
         "--max_hops", type=int, default=3, help="Maximum hops for path finding"
     )
@@ -155,6 +181,24 @@ def parse_args():
         type=str,
         default=None,
         help="Path to specific model file (.pth)",
+    )
+    parser.add_argument(
+        "--epoch",
+        type=int,
+        default=None,
+        help="Epoch number to load model (e.g., 700 for model_epoch700.pth). Overrides auto-selection.",
+    )
+    parser.add_argument(
+        "--use_a_in",
+        action="store_true",
+        help="Use model's A_in matrix for normalized attention scores (relation-agnostic)",
+    )
+    parser.add_argument(
+        "--score_mode",
+        type=str,
+        default="sum",
+        choices=["sum", "product"],
+        help="How to aggregate edge scores along a path: 'sum' (default) or 'product'",
     )
     return parser.parse_args()
 
@@ -281,7 +325,7 @@ def main():
 
     # モデルロード
     logger.info("Loading trained model...")
-    model = load_trained_model(config, data_loader, device, args.model_path)
+    model = load_trained_model(config, data_loader, device, args.model_path, args.epoch)
 
     # KG辞書の準備（Attention計算用）
     logger.info("Preparing KG data structures...")
@@ -290,14 +334,18 @@ def main():
         kg_dict_by_relation[relation] = ht_list
 
     # Explainer初期化
-    logger.info("Initializing KGAT Explainer...")
+    if args.use_a_in:
+        logger.info("Initializing KGAT Explainer with model's A_in matrix...")
+    else:
+        logger.info("Initializing KGAT Explainer with computed attention scores...")
     explainer = KGATExplainer(
         model=model,
         data_loader=data_loader,
         kg_dict=data_loader.train_kg_dict,
         kg_dict_by_relation=kg_dict_by_relation,
         device=device,
-        precompute_attention=True,
+        precompute_attention=not args.use_a_in,  # A_in使用時は事前計算不要
+        use_model_A_in=args.use_a_in,
     )
 
     # ユーザーIDの調整（エンティティ数だけオフセットを加算）
@@ -313,6 +361,7 @@ def main():
         item_id=TARGET_IID,
         max_hops=MAX_HOPS,
         max_paths=TOP_K_PATHS,
+        score_mode=args.score_mode,
     )
 
     logger.info(f"Found {explanation['num_paths']} paths.")
@@ -377,13 +426,17 @@ def main():
         "user_id": TARGET_UID,
         "item_id": TARGET_IID,
         "item_name": entity_names.get(TARGET_IID, f"Unknown_{TARGET_IID}"),
+        "attention_mode": "A_in (normalized, relation-agnostic)" if args.use_a_in else "computed (per-relation, normalized)",
+        "score_mode": args.score_mode,
         "num_paths_found": explanation["num_paths"],
         "paths": formatted_paths,
     }
 
     output_dir = Path("output")
     output_dir.mkdir(exist_ok=True)
-    output_file = output_dir / f"paths_u{TARGET_UID}_i{TARGET_IID}.json"
+    suffix = "_ain" if args.use_a_in else ""
+    score_suffix = f"_{args.score_mode}" if args.score_mode != "sum" else ""
+    output_file = output_dir / f"paths_u{TARGET_UID}_i{TARGET_IID}{suffix}{score_suffix}.json"
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)

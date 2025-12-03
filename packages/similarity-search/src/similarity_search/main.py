@@ -107,8 +107,8 @@ def compute_similarity(embedding1, embedding2):
 
 def main():
     parser = argparse.ArgumentParser(description="Similarity Search for KG-Refer")
-    parser.add_argument("--target_user", type=str, default="12719", help="Target User ID (Org)")
-    parser.add_argument("--target_item", type=str, default="10045", help="Target Item ID")
+    parser.add_argument("--target_user", type=str, default="10088", help="Target User ID (Org)")
+    parser.add_argument("--target_item", type=str, default="5124", help="Target Item ID")
     parser.add_argument("--train_file", type=str, 
                         default="../../packages/kgat/datasets/yelp/train.txt", 
                         help="Path to train.txt")

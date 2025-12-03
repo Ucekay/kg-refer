@@ -1,0 +1,38 @@
+item_id,entity_id,entity_name,score
+5040,23469,airport,4.7104273
+5040,19932,Trenton,2.5926821
+5040,25691,small airport,1.7169199
+5040,28205,airport experience,1.6355761
+5040,28204,no-frills airport,1.4500268
+5040,24537,convenient parking,0.5998396
+5040,28203,affordable flights,0.29179937
+5040,28202,easy travel,-0.050877832
+5040,28201,quick travel,-0.16215551
+5906,18153,history enthusiasts,4.2005777
+5906,30008,rich historical significance,4.1851315
+5906,19591,engaging tours,3.4398444
+5906,30009,Tourists interested in US history,3.0763211
+5906,30010,Locals wanting to learn more about their city's heritage,2.7362165
+5906,27587,historic site,1.4855983
+5906,14093,Philadelphia,0.508151
+7490,17255,landmarks,5.9422555
+7490,33096,local attractions,4.568935
+7490,18153,history enthusiasts,4.2005777
+7490,15222,tourists,3.9207795
+7490,33099,Visitor center,3.1628006
+7490,33098,visitor amenities,3.0792043
+7490,33100,information,2.5471375
+7490,33097,visitor services,1.9986358
+7490,14124,college students,1.2588214
+7490,14093,Philadelphia,0.508151
+10100,18153,history enthusiasts,4.2005777
+10100,37908,informative displays,4.1205053
+10100,16570,history,3.3077173
+10100,37909,Fans of Benjamin Franklin,1.7977679
+10100,37910,People interested in American history,1.615351
+10100,37907,Museum experience,1.5445421
+10100,25376,Benjamin Franklin,1.3953874
+10100,37911,Museum visitors,1.3343253
+10100,15404,interactive exhibits,0.83352244
+10100,14093,Philadelphia,0.508151
+10100,15403,museum,0.35728392
