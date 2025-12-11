@@ -10,6 +10,7 @@ dependencies = [
     "kg-formatter",
     "kgat",
     "kgat-explainer",
+    "matplotlib>=3.10.7",
     "numpy>=2.3.3",
     "pandas>=2.3.3",
     "scikit-learn>=1.7.2",
@@ -29,6 +30,7 @@ members = [
     "packages/kg-formatter",
     "packages/kgat-explainer",
     "packages/similarity-search",
+    "packages/light-kg",
 ]
 
 [tool.uv.sources]
