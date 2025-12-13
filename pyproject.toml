@@ -10,6 +10,7 @@ dependencies = [
     "kg-formatter",
     "kgat",
     "kgat-explainer",
+    "light-kg",
     "matplotlib>=3.10.7",
     "numpy>=2.3.3",
     "pandas>=2.3.3",
@@ -39,6 +40,7 @@ kgat = { workspace = true }
 kg-formatter = { workspace = true }
 kgat-explainer = { workspace = true }
 similarity-search = { workspace = true }
+light-kg = { workspace = true }
 
 [dependency-groups]
 dev = [

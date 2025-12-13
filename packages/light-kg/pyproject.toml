@@ -1,0 +1,28 @@
+[project]
+name = "light-kg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ucekay", email = "Ucekay@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "cyclopts>=4.1.0",
+    "lightgbm>=4.6.0",
+    "numpy>=2.3.5",
+    "ray>=2.6.3",
+    "recbole>=1.2.1",
+    "thop>=0.1.1.post2209072238",
+    "torch",
+    "torch-scatter>=2.1.2",
+    "torch-sparse>=0.6.18",
+    "xgboost>=3.1.2",
+]
+
+[project.scripts]
+light-kg = "light_kg.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
