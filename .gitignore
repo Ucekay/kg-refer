@@ -13,3 +13,4 @@ wheels/
 
 .DS_Store
 packages/kgat/trained_model/
+packages/kg-attribute-embedder/output/
