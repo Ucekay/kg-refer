@@ -33,6 +33,7 @@ class KGAT(nn.Module):
         self.relation_dim = config.relation_dim
 
         self.aggregation_type = config.aggregation_type
+        self.fix_attention_weights = config.fix_attention_weights
         # 元の実装に合わせる: embed_dimを先頭に追加
         conv_dim_list_parsed = (
             config.conv_dim_list
@@ -201,9 +202,13 @@ class KGAT(nn.Module):
             batch_h_list = h_list[index_list]
             batch_t_list = t_list[index_list]
 
-            batch_v_list = self.update_attention_batch(
-                batch_h_list, batch_t_list, r_idx
-            )
+            # If fix_attention_weights is True, set all attention weights to 1
+            if self.fix_attention_weights:
+                batch_v_list = torch.ones(len(batch_h_list), device=device)
+            else:
+                batch_v_list = self.update_attention_batch(
+                    batch_h_list, batch_t_list, r_idx
+                )
             rows.append(batch_h_list)
             cols.append(batch_t_list)
             vals.append(batch_v_list)
@@ -216,7 +221,11 @@ class KGAT(nn.Module):
         shape = self.A_in.shape
         A_in = torch.sparse_coo_tensor(indices, vals, torch.Size(shape))
 
-        A_in = torch.sparse.softmax(A_in.cpu(), dim=1)
+        # If fix_attention_weights is True, skip softmax normalization
+        if self.fix_attention_weights:
+            A_in = A_in.coalesce()
+        else:
+            A_in = torch.sparse.softmax(A_in.cpu(), dim=1)
         self.A_in.data = A_in.to(device)
 
     def calc_score(self, user_ids, item_ids):

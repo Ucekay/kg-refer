@@ -1,10 +1,15 @@
 embedding_size: 64
 layer: 2
-learning_rate: 0.0001
-mess_dropout: 0.1
+learning_rate: 0.0005
+mess_dropout_rate: 0.1
 weight_decay: 1e-5
-cos_loss: True
-user_loss: 1e-07
-item_loss: 1e-07
-train_neg_sample_num: 5
+cos_loss: 1
+user_loss: 1e-05
+item_loss: 1e-05
+train_neg_sample_args: {'sample_num':5}
 stopping_steps: 20
+benchmark_filename: ['train','valid','test']
+
+# Evaluation metrics
+metrics: ['Recall', 'Precision', 'NDCG', 'Hit', 'MRR']
+topk: [10, 20]

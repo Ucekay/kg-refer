@@ -1,0 +1,32 @@
+[
+  {
+    "iid": "4063",
+    "triplets": [
+      [
+        "4063",
+        "category",
+        "spa"
+      ],
+      [
+        "4063",
+        "is a",
+        "spa"
+      ]
+    ]
+  },
+  {
+    "iid": "5540",
+    "triplets": [
+      [
+        "5540",
+        "has atmosphere",
+        "roomy dining spaces"
+      ],
+      [
+        "5540",
+        "has feature",
+        "roomy dining spaces"
+      ]
+    ]
+  }
+]

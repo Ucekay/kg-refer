@@ -1,0 +1,12 @@
+Thu 18 Dec 2025 21:26:57 INFO  yelp
+The number of users: 15963
+Average actions of users: 24.663575992983336
+The number of items: 14086
+Average actions of items: 27.95030173943912
+The number of inters: 393680
+The sparsity of the dataset: 99.82491813895666%
+Remain Fields: ['entity_id', 'user_id', 'item_id', 'rating', 'head_id', 'relation_id', 'tail_id']
+The number of entities: 44804
+The number of relations: 117
+The number of triples: 121540
+The number of items that have been linked to KG: 14085

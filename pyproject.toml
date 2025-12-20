@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "cyclopts>=4.1.0",
+    "kg-attribute-embedder",
     "kg-cleaner",
     "kg-formatter",
     "kgat",
@@ -14,6 +15,7 @@ dependencies = [
     "matplotlib>=3.10.7",
     "numpy>=2.3.3",
     "pandas>=2.3.3",
+    "relation-scalars",
     "scikit-learn>=1.7.2",
     "scipy>=1.16.3",
     "similarity-search",
@@ -32,15 +34,20 @@ members = [
     "packages/kgat-explainer",
     "packages/similarity-search",
     "packages/light-kg",
+    "packages/grease",
+    "packages/relation-scalars",
+    "packages/kg-attribute-embedder",
 ]
 
 [tool.uv.sources]
+kg-attribute-embedder = { workspace = true }
 kg-cleaner = { workspace = true }
 kgat = { workspace = true }
 kg-formatter = { workspace = true }
 kgat-explainer = { workspace = true }
 similarity-search = { workspace = true }
 light-kg = { workspace = true }
+relation-scalars = { workspace = true, editable = true }
 
 [dependency-groups]
 dev = [

@@ -1,0 +1,167 @@
+[
+  {
+    "iid": "11508",
+    "triplets": [
+      [
+        "11508",
+        "offers",
+        "drinks"
+      ],
+      [
+        "11508",
+        "serves",
+        "drinks"
+      ]
+    ]
+  },
+  {
+    "iid": "13075",
+    "triplets": [
+      [
+        "13075",
+        "has atmosphere",
+        "friendly atmosphere"
+      ],
+      [
+        "13075",
+        "has feature",
+        "friendly atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "13268",
+    "triplets": [
+      [
+        "13268",
+        "has feature",
+        "high-quality food"
+      ],
+      [
+        "13268",
+        "serves",
+        "high-quality food"
+      ]
+    ]
+  },
+  {
+    "iid": "13881",
+    "triplets": [
+      [
+        "13881",
+        "has atmosphere",
+        "cozy setting"
+      ],
+      [
+        "13881",
+        "has feature",
+        "cozy setting"
+      ]
+    ]
+  },
+  {
+    "iid": "3711",
+    "triplets": [
+      [
+        "3711",
+        "category",
+        "brunch"
+      ],
+      [
+        "3711",
+        "serves",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "3934",
+    "triplets": [
+      [
+        "3934",
+        "category",
+        "breakfast"
+      ],
+      [
+        "3934",
+        "serves",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "3934",
+    "triplets": [
+      [
+        "3934",
+        "category",
+        "brunch"
+      ],
+      [
+        "3934",
+        "serves",
+        "brunch"
+      ]
+    ]
+  },
+  {
+    "iid": "5168",
+    "triplets": [
+      [
+        "5168",
+        "offers",
+        "drinks"
+      ],
+      [
+        "5168",
+        "serves",
+        "drinks"
+      ]
+    ]
+  },
+  {
+    "iid": "8183",
+    "triplets": [
+      [
+        "8183",
+        "has feature",
+        "friendly atmosphere"
+      ],
+      [
+        "8183",
+        "offers",
+        "friendly atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "8343",
+    "triplets": [
+      [
+        "8343",
+        "category",
+        "breakfast"
+      ],
+      [
+        "8343",
+        "serves",
+        "breakfast"
+      ]
+    ]
+  },
+  {
+    "iid": "8343",
+    "triplets": [
+      [
+        "8343",
+        "category",
+        "brunch"
+      ],
+      [
+        "8343",
+        "serves",
+        "brunch"
+      ]
+    ]
+  }
+]

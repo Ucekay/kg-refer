@@ -1,0 +1,247 @@
+[
+  {
+    "iid": "10142",
+    "triplets": [
+      [
+        "10142",
+        "appeals to",
+        "people"
+      ],
+      [
+        "10142",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "10344",
+    "triplets": [
+      [
+        "10344",
+        "appeals to",
+        "people"
+      ],
+      [
+        "10344",
+        "suits",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "10444",
+    "triplets": [
+      [
+        "10444",
+        "appeals to",
+        "people"
+      ],
+      [
+        "10444",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "10588",
+    "triplets": [
+      [
+        "10588",
+        "appeals to",
+        "people"
+      ],
+      [
+        "10588",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "11417",
+    "triplets": [
+      [
+        "11417",
+        "appeals to",
+        "people"
+      ],
+      [
+        "11417",
+        "has significance",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "11565",
+    "triplets": [
+      [
+        "11565",
+        "appeals to",
+        "people"
+      ],
+      [
+        "11565",
+        "may not be suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "12216",
+    "triplets": [
+      [
+        "12216",
+        "appeals to",
+        "people"
+      ],
+      [
+        "12216",
+        "may not be suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "159",
+    "triplets": [
+      [
+        "159",
+        "appeals to",
+        "people"
+      ],
+      [
+        "159",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "2207",
+    "triplets": [
+      [
+        "2207",
+        "appeals to",
+        "people"
+      ],
+      [
+        "2207",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "4119",
+    "triplets": [
+      [
+        "4119",
+        "appeals to",
+        "people"
+      ],
+      [
+        "4119",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "4908",
+    "triplets": [
+      [
+        "4908",
+        "appeals to",
+        "people"
+      ],
+      [
+        "4908",
+        "has significance",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "5582",
+    "triplets": [
+      [
+        "5582",
+        "appeals to",
+        "people"
+      ],
+      [
+        "5582",
+        "may not be suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "6207",
+    "triplets": [
+      [
+        "6207",
+        "appeals to",
+        "people"
+      ],
+      [
+        "6207",
+        "may not be suitable for",
+        "people"
+      ],
+      [
+        "6207",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "7769",
+    "triplets": [
+      [
+        "7769",
+        "appeals to",
+        "people"
+      ],
+      [
+        "7769",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "8008",
+    "triplets": [
+      [
+        "8008",
+        "appeals to",
+        "people"
+      ],
+      [
+        "8008",
+        "suitable for",
+        "people"
+      ]
+    ]
+  },
+  {
+    "iid": "9213",
+    "triplets": [
+      [
+        "9213",
+        "appeals to",
+        "people"
+      ],
+      [
+        "9213",
+        "suitable for",
+        "people"
+      ]
+    ]
+  }
+]

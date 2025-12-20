@@ -1,0 +1,21 @@
+[project]
+name = "relation-scalars"
+version = "0.1.0"
+description = "LightKGモデルからリレーションスカラーを抽出"
+readme = "README.md"
+authors = [
+    { name = "Ucekay", email = "Ucekay@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "light-kg",
+]
+
+[project.scripts]
+export-relation-scalars = "relation_scalars.export:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"

@@ -1,0 +1,22 @@
+[project]
+name = "kg-attribute-embedder"
+version = "0.1.0"
+description = "知識グラフの属性埋め込みと類似性分析"
+readme = "README.md"
+authors = [
+    { name = "Ucekay", email = "Ucekay@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.5",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.2",
+]
+
+[project.scripts]
+kg-attribute-embedder = "kg_attribute_embedder.cli:main"
+kg-attribute-embedder-sort = "kg_attribute_embedder.sort_only:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"

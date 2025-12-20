@@ -11,8 +11,10 @@ class KGATConfig:
     "Random seed"
     data_name: str = "yelp"
     "Cheese a dataset"
-    data_dir: str = "datasets/"
-    "Directory to load data"
+    data_dir: str = "packages/kgat/datasets/"
+    "Directory to load data (base directory; dataset name is appended internally)"
+    file_prefix: str = ""
+    "Prefix for train/test/val files (e.g., 'total_' for total_train.txt, total_test.txt, total_val.txt). Does not apply to kg_final.txt"
 
     use_pretrain: int = 1
     "0: No pretrain, 1: Pretrain with the learned embeddings, 2: Pretrain with stores model"
@@ -68,3 +70,6 @@ class KGATConfig:
     "Training mode"
     predict: bool = False
     "Prediction mode"
+    
+    fix_attention_weights: bool = False
+    "If True, fix all attention weights to 1 (skip attention mechanism)"

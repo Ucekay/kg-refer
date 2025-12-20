@@ -76,9 +76,9 @@ def verify_conversion(input_file, converted_file, sample_lines=5):
 if __name__ == "__main__":
     # Files to convert
     files_to_convert = [
-        ("train.csv", "train.txt"),
-        ("test.csv", "test.txt"),
-        ("val.csv", "val.txt"),
+        ("total_trn.csv", "total_train.txt"),
+        ("total_tst.csv", "total_test.txt"),
+        ("total_val.csv", "total_val.txt"),
     ]
 
     print("Converting CSV files to user-item list format...")

@@ -1,0 +1,482 @@
+[
+  {
+    "iid": "11348",
+    "triplets": [
+      [
+        "11348",
+        "has atmosphere",
+        "casual"
+      ],
+      [
+        "11348",
+        "has overall experience",
+        "casual"
+      ]
+    ]
+  },
+  {
+    "iid": "11348",
+    "triplets": [
+      [
+        "11348",
+        "has atmosphere",
+        "romantic"
+      ],
+      [
+        "11348",
+        "has overall experience",
+        "romantic"
+      ]
+    ]
+  },
+  {
+    "iid": "1280",
+    "triplets": [
+      [
+        "1280",
+        "category",
+        "household goods"
+      ],
+      [
+        "1280",
+        "offers",
+        "household goods"
+      ]
+    ]
+  },
+  {
+    "iid": "12843",
+    "triplets": [
+      [
+        "12843",
+        "category",
+        "catering"
+      ],
+      [
+        "12843",
+        "is a",
+        "catering"
+      ]
+    ]
+  },
+  {
+    "iid": "13155",
+    "triplets": [
+      [
+        "13155",
+        "has feature",
+        "creative dishes"
+      ],
+      [
+        "13155",
+        "serves",
+        "creative dishes"
+      ]
+    ]
+  },
+  {
+    "iid": "13603",
+    "triplets": [
+      [
+        "13603",
+        "category",
+        "Bavarian cuisine"
+      ],
+      [
+        "13603",
+        "serves",
+        "Bavarian cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": "13603",
+    "triplets": [
+      [
+        "13603",
+        "category",
+        "German cuisine"
+      ],
+      [
+        "13603",
+        "serves",
+        "German cuisine"
+      ]
+    ]
+  },
+  {
+    "iid": "13756",
+    "triplets": [
+      [
+        "13756",
+        "has atmosphere",
+        "affordable"
+      ],
+      [
+        "13756",
+        "price range",
+        "affordable"
+      ]
+    ]
+  },
+  {
+    "iid": "1527",
+    "triplets": [
+      [
+        "1527",
+        "category",
+        "Vegan restaurant"
+      ],
+      [
+        "1527",
+        "is a",
+        "Vegan restaurant"
+      ]
+    ]
+  },
+  {
+    "iid": "2077",
+    "triplets": [
+      [
+        "2077",
+        "has atmosphere",
+        "artistic setting"
+      ],
+      [
+        "2077",
+        "has feature",
+        "artistic setting"
+      ]
+    ]
+  },
+  {
+    "iid": "2077",
+    "triplets": [
+      [
+        "2077",
+        "has atmosphere",
+        "vibrant setting"
+      ],
+      [
+        "2077",
+        "has feature",
+        "vibrant setting"
+      ]
+    ]
+  },
+  {
+    "iid": "2823",
+    "triplets": [
+      [
+        "2823",
+        "has feature",
+        "burritos"
+      ],
+      [
+        "2823",
+        "serves",
+        "burritos"
+      ]
+    ]
+  },
+  {
+    "iid": "3262",
+    "triplets": [
+      [
+        "3262",
+        "is a",
+        "bar"
+      ],
+      [
+        "3262",
+        "serves",
+        "bar"
+      ]
+    ]
+  },
+  {
+    "iid": "3909",
+    "triplets": [
+      [
+        "3909",
+        "is a",
+        "pizza"
+      ],
+      [
+        "3909",
+        "serves",
+        "pizza"
+      ]
+    ]
+  },
+  {
+    "iid": "4158",
+    "triplets": [
+      [
+        "4158",
+        "has atmosphere",
+        "accommodating service"
+      ],
+      [
+        "4158",
+        "has feature",
+        "accommodating service"
+      ]
+    ]
+  },
+  {
+    "iid": "4158",
+    "triplets": [
+      [
+        "4158",
+        "has atmosphere",
+        "friendly service"
+      ],
+      [
+        "4158",
+        "has feature",
+        "friendly service"
+      ]
+    ]
+  },
+  {
+    "iid": "4472",
+    "triplets": [
+      [
+        "4472",
+        "has atmosphere",
+        "dive bar"
+      ],
+      [
+        "4472",
+        "presents",
+        "dive bar"
+      ]
+    ]
+  },
+  {
+    "iid": "4949",
+    "triplets": [
+      [
+        "4949",
+        "has feature",
+        "authentic boudin"
+      ],
+      [
+        "4949",
+        "offers",
+        "authentic boudin"
+      ]
+    ]
+  },
+  {
+    "iid": "4961",
+    "triplets": [
+      [
+        "4961",
+        "is a",
+        "bakery"
+      ],
+      [
+        "4961",
+        "serves",
+        "bakery"
+      ]
+    ]
+  },
+  {
+    "iid": "540",
+    "triplets": [
+      [
+        "540",
+        "has feature",
+        "Western Art"
+      ],
+      [
+        "540",
+        "is a",
+        "Western Art"
+      ]
+    ]
+  },
+  {
+    "iid": "5778",
+    "triplets": [
+      [
+        "5778",
+        "accepts payment",
+        "cash"
+      ],
+      [
+        "5778",
+        "prefers payment method",
+        "cash"
+      ]
+    ]
+  },
+  {
+    "iid": "5778",
+    "triplets": [
+      [
+        "5778",
+        "accepts payment",
+        "check"
+      ],
+      [
+        "5778",
+        "prefers payment method",
+        "check"
+      ]
+    ]
+  },
+  {
+    "iid": "6838",
+    "triplets": [
+      [
+        "6838",
+        "has feature",
+        "friendly"
+      ],
+      [
+        "6838",
+        "has staff",
+        "friendly"
+      ]
+    ]
+  },
+  {
+    "iid": "6857",
+    "triplets": [
+      [
+        "6857",
+        "has atmosphere",
+        "artistic atmosphere"
+      ],
+      [
+        "6857",
+        "has feature",
+        "artistic atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "725",
+    "triplets": [
+      [
+        "725",
+        "offers",
+        "wellness treatments"
+      ],
+      [
+        "725",
+        "serves",
+        "wellness treatments"
+      ]
+    ]
+  },
+  {
+    "iid": "745",
+    "triplets": [
+      [
+        "745",
+        "has atmosphere",
+        "simple ambiance"
+      ],
+      [
+        "745",
+        "has feature",
+        "simple ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": "7596",
+    "triplets": [
+      [
+        "7596",
+        "has feature",
+        "courteous service"
+      ],
+      [
+        "7596",
+        "offers",
+        "courteous service"
+      ]
+    ]
+  },
+  {
+    "iid": "7596",
+    "triplets": [
+      [
+        "7596",
+        "has feature",
+        "quick service"
+      ],
+      [
+        "7596",
+        "offers",
+        "quick service"
+      ]
+    ]
+  },
+  {
+    "iid": "7915",
+    "triplets": [
+      [
+        "7915",
+        "has atmosphere",
+        "modern ambiance"
+      ],
+      [
+        "7915",
+        "has feature",
+        "modern ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": "7915",
+    "triplets": [
+      [
+        "7915",
+        "has atmosphere",
+        "warm ambiance"
+      ],
+      [
+        "7915",
+        "has feature",
+        "warm ambiance"
+      ]
+    ]
+  },
+  {
+    "iid": "8180",
+    "triplets": [
+      [
+        "8180",
+        "has feature",
+        "newer locations"
+      ],
+      [
+        "8180",
+        "located in",
+        "newer locations"
+      ]
+    ]
+  },
+  {
+    "iid": "8180",
+    "triplets": [
+      [
+        "8180",
+        "has feature",
+        "spacious locations"
+      ],
+      [
+        "8180",
+        "located in",
+        "spacious locations"
+      ]
+    ]
+  }
+]

@@ -7,10 +7,7 @@ from cyclopts import App
 from kg_cleaner.cleaner import KGCleaner
 from kg_cleaner.config import CleanerConfig
 
-app = App(
-    name="kg-cleaner",
-    help="Clean and normalize Knowledge Graph triplets",
-)
+app = App()
 
 
 def setup_logging(verbose: bool = False):
@@ -48,11 +45,13 @@ def main(config: CleanerConfig = CleanerConfig()):
         or config.replace_relations
         or config.replace_combinations
         or config.unify_relations
+        or config.normalize_accents
+        or config.normalize_people
     ):
         logger.error(
             "At least one feature must be enabled. "
             "Use --normalize, --deduplicate, --find-conflicts, --filter-terms, "
-            "--filter-relations, --expand-entities, --replace-entities, --replace-relations, --replace-combinations, or --unify-relations"
+            "--filter-relations, --expand-entities, --replace-entities, --replace-relations, --replace-combinations, --unify-relations, --normalize-accents, or --normalize-people"
         )
         sys.exit(1)
 
@@ -82,6 +81,8 @@ def main(config: CleanerConfig = CleanerConfig()):
             replace_relations=config.replace_relations,
             replace_combinations=config.replace_combinations,
             unify_relations=config.unify_relations,
+            normalize_accents=config.normalize_accents,
+            normalize_people=config.normalize_people,
         )
         logger.info("✓ Cleaning completed successfully")
         sys.exit(0)

@@ -61,9 +61,10 @@ class DataLoader:
         self.pretrain_embedding_dir = config.pretrain_embedding_dir
 
         self.data_dir = os.path.join(config.data_dir, self.data_name)
-        self.train_file = os.path.join(self.data_dir, "train.txt")
-        self.val_file = os.path.join(self.data_dir, "val.txt")
-        self.test_file = os.path.join(self.data_dir, "test.txt")
+        prefix = config.file_prefix
+        self.train_file = os.path.join(self.data_dir, f"{prefix}train.txt")
+        self.val_file = os.path.join(self.data_dir, f"{prefix}val.txt")
+        self.test_file = os.path.join(self.data_dir, f"{prefix}test.txt")
         self.kg_file = os.path.join(self.data_dir, "kg_final.txt")
 
         self.cf_train_data, self.train_user_dict = self.load_cf(self.train_file)

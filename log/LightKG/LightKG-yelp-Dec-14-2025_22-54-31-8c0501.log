@@ -1,0 +1,3 @@
+Sun 14 Dec 2025 22:54:31 INFO  Prepare to download dataset [yelp] from [https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Yelp/yelp.zip].
+Sun 14 Dec 2025 22:54:31 INFO  Downloading https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Yelp/yelp.zip
+Sun 14 Dec 2025 22:54:41 INFO  Extracting dataset/yelp/yelp.zip

@@ -1,0 +1,122 @@
+[
+  {
+    "iid": "11243",
+    "triplets": [
+      [
+        "11243",
+        "has feature",
+        "limited vegetarian options"
+      ],
+      [
+        "11243",
+        "serves",
+        "limited vegetarian options"
+      ]
+    ]
+  },
+  {
+    "iid": "12679",
+    "triplets": [
+      [
+        "12679",
+        "has feature",
+        "seasonal ingredients"
+      ],
+      [
+        "12679",
+        "uses",
+        "seasonal ingredients"
+      ]
+    ]
+  },
+  {
+    "iid": "13646",
+    "triplets": [
+      [
+        "13646",
+        "has atmosphere",
+        "romantic atmosphere"
+      ],
+      [
+        "13646",
+        "has feature",
+        "romantic atmosphere"
+      ]
+    ]
+  },
+  {
+    "iid": "2399",
+    "triplets": [
+      [
+        "2399",
+        "offers",
+        "fish"
+      ],
+      [
+        "2399",
+        "serves",
+        "fish"
+      ]
+    ]
+  },
+  {
+    "iid": "4747",
+    "triplets": [
+      [
+        "4747",
+        "has feature",
+        "local ingredients"
+      ],
+      [
+        "4747",
+        "uses",
+        "local ingredients"
+      ]
+    ]
+  },
+  {
+    "iid": "5540",
+    "triplets": [
+      [
+        "5540",
+        "has atmosphere",
+        "clean dining spaces"
+      ],
+      [
+        "5540",
+        "has feature",
+        "clean dining spaces"
+      ]
+    ]
+  },
+  {
+    "iid": "660",
+    "triplets": [
+      [
+        "660",
+        "category",
+        "seafood"
+      ],
+      [
+        "660",
+        "serves",
+        "seafood"
+      ]
+    ]
+  },
+  {
+    "iid": "7139",
+    "triplets": [
+      [
+        "7139",
+        "is a",
+        "grill"
+      ],
+      [
+        "7139",
+        "offers",
+        "grill"
+      ]
+    ]
+  }
+]

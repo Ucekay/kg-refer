@@ -1,0 +1,116 @@
+relation_name remap_id
+"serves" 0
+"offers" 1
+"has atmosphere" 2
+"has feature" 3
+"caters to" 4
+"located in" 5
+"is a" 6
+"appeals to" 7
+"suitable for" 8
+"price range" 9
+"name" 10
+"presents" 11
+"features" 12
+"has policy" 13
+"has payment method" 14
+"specializes in" 15
+"served in" 16
+"has staff" 17
+"provides" 18
+"category" 19
+"has service quality" 20
+"offeres" 21
+"seeks" 22
+"presents genre" 23
+"has menu with" 24
+"recommended visit" 25
+"has reputation" 26
+"uses" 27
+"has feedback" 28
+"has been renovated" 29
+"has issue" 30
+"has activity" 31
+"focuses on" 32
+"has owner" 33
+"location" 34
+"has significance" 35
+"receives" 36
+"has strategy for" 37
+"has ingredient" 38
+"has scene" 39
+"has main ingredient" 40
+"has attribute" 41
+"has shopping options" 42
+"has setting" 43
+"has service" 44
+"supports" 45
+"has variety of" 46
+"located away from" 47
+"suits" 48
+"has characteristic" 49
+"has menu feature" 50
+"may not be suitable for" 51
+"prioritizes" 52
+"has ambiance" 53
+"hosts" 54
+"balanced by" 55
+"has purpose" 56
+"does not own" 57
+"has experience" 58
+"interests include" 59
+"has amenities" 60
+"has aspect" 61
+"compares to" 62
+"historical age" 63
+"has" 64
+"has supervision by" 65
+"has vibe" 66
+"owned by" 67
+"spice levels range from" 68
+"reasons to revisit" 69
+"has drawback" 70
+"accepts payment" 71
+"prefers payment method" 72
+"has event" 73
+"has food options" 74
+"compared to" 75
+"lacks feature" 76
+"avoids" 77
+"has hours" 78
+"has highlight" 79
+"has potential issue" 80
+"off ers" 81
+"surroundings include" 82
+"caterst to" 83
+"educates about" 84
+"cater to" 85
+"has opportunity to see" 86
+"adheres to" 87
+"discovers" 88
+"does not specify" 89
+"competes with" 90
+"connected to" 91
+"recommendation" 92
+"has music genre" 93
+"has overall experience" 94
+"has cuisine influence" 95
+"sees" 96
+"includes" 97
+"likes" 98
+"is open to" 99
+"ensures" 100
+"has dietary options" 101
+"made from" 102
+"services" 103
+"cooking method" 104
+"can overlook" 105
+"creates" 106
+"willing to" 107
+"has quality" 108
+"has theme" 109
+"listens to" 110
+"value proposition" 111
+"has portion size" 112
+"has menu" 113
+"has potential for" 114
