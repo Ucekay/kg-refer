@@ -1,3 +1,4 @@
+import ast
 import collections
 import logging
 import os
@@ -167,6 +168,14 @@ class DataLoader:
 
         kg_data = kg_data.drop_duplicates()
         kg_data = kg_data.drop_duplicates()
+        
+        # Filter out ignored relations if specified
+        ignore_relations = ast.literal_eval(self.config.ignore_relations)
+        if ignore_relations:
+            original_size = len(kg_data)
+            kg_data = kg_data[~kg_data["r"].isin(ignore_relations)]
+            filtered_size = len(kg_data)
+            print(f"Filtered out {original_size - filtered_size} triples with ignored relations {ignore_relations}")
 
         return kg_data
 

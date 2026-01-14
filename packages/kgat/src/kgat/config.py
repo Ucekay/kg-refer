@@ -73,3 +73,6 @@ class KGATConfig:
     
     fix_attention_weights: bool = False
     "If True, fix all attention weights to 1 (skip attention mechanism)"
+    
+    ignore_relations: str = "[]"
+    "List of relation IDs to ignore when loading KG data (e.g., '[5]' to ignore 'located in')"

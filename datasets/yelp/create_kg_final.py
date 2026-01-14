@@ -81,7 +81,7 @@ def create_kg_final(json_file_path, entity_mapping, relation_mapping, output_fil
 
 def main():
     """メイン関数"""
-    json_file = "merged_kg_2.json"
+    json_file = "cleaned_kg_20251222_173441.json"
     entity_file = "entity_list.txt"
     relation_file = "relation_list.txt"
     output_file = "kg_final.txt"

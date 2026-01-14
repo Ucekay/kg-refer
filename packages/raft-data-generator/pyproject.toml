@@ -1,0 +1,29 @@
+[project]
+name = "raft-data-generator"
+version = "0.1.0"
+description = "Generate fine-tuning data in RAFT format for explainable recommendation"
+readme = "README.md"
+authors = [
+    { name = "Ucekay", email = "Ucekay@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "cyclopts>=4.1.0",
+    "openai>=2.6.1",
+    "pandas>=2.3.3",
+    "torch>=2.9.0",
+    "tqdm>=4.67.1",
+    "explainable-rec-prompt-generator",
+    "explanation-generator",
+]
+
+[project.scripts]
+raft-data-generator = "raft_data_generator.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+explainable-rec-prompt-generator = { workspace = true }
+explanation-generator = { workspace = true }

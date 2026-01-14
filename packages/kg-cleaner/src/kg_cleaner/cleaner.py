@@ -30,6 +30,9 @@ FILTERED_TERMS = [
     "User",
     "drinks",
     "drink",
+    "produce",
+    'customers',
+    'Customers',
 ]
 
 # Relations to filter out (remove triplets with these relations)
@@ -126,6 +129,1499 @@ ENTITY_EXPANSION_RULES = {
     "food and drinks": ["food", "drinks"],
     "friendly and attentive service": ["friendly service", "attentive service"],
     "quick and efficient service": ["quick service", "efficient service"],
+    # New expansion rules derived from unique_tails_comma_and.txt (first 100 lines)
+    "Customers who enjoy casual, affordable drinks": [
+        "Customers who enjoy casual drinks",
+        "Customers who enjoy affordable drinks",
+    ],
+    "Customers who enjoy casual, affordable food": [
+        "Customers who enjoy casual food",
+        "Customers who enjoy affordable food",
+    ],
+    "Customers who enjoy exploring different options and brands": [
+        "Customers who enjoy exploring different options",
+        "Customers who enjoy exploring brands",
+    ],
+    "Customers who enjoy fast, high-quality nail services": [
+        "Customers who enjoy fast nail services",
+        "Customers who enjoy high-quality nail services",
+    ],
+    "Fans of affordable and delicious American and Korean bar food": [
+        "Fans of affordable American bar food",
+        "Fans of delicious American bar food",
+        "Fans of affordable Korean bar food",
+        "Fans of delicious Korean bar food",
+    ],
+    "Fans of affordable and high-quality chicken wings, ribs, and sandwiches": [
+        "Fans of affordable and high-quality chicken wings",
+        "Fans of affordable and high-quality ribs",
+        "Fans of affordable and high-quality sandwiches",
+    ],
+    "Fans of charming, hole-in-the-wall eateries": [
+        "Fans of charming eateries",
+        "Fans of hole-in-the-wall eateries",
+    ],
+    "Fans of creative and flavorful dumplings and noodles": [
+        "Fans of creative and flavorful dumplings",
+        "Fans of creative and flavorful noodles",
+    ],
+    "Fans of creative and well-cooked Asian fusion dishes": [
+        "Fans of creative Asian fusion dishes",
+        "Fans of well-cooked Asian fusion dishes",
+    ],
+    "Fans of diverse, high-quality drinks": [
+        "Fans of diverse drinks",
+        "Fans of high-quality drinks",
+    ],
+    "Fans of diverse, high-quality food": [
+        "Fans of diverse food",
+        "Fans of high-quality food",
+    ],
+    "Fans of flavorful, tender seafood": [
+        "Fans of flavorful seafood",
+        "Fans of tender seafood",
+    ],
+    "Fans of flavorful, tender steaks": [
+        "Fans of flavorful steaks",
+        "Fans of tender steaks",
+    ],
+    "Fans of fresh and high-quality ingredients": [
+        "Fans of fresh ingredients",
+        "Fans of high-quality ingredients",
+    ],
+    "Fans of fresh, high-quality Pan-Asian cuisine": [
+        "Fans of fresh Pan-Asian cuisine",
+        "Fans of high-quality Pan-Asian cuisine",
+    ],
+    "Fans of nostalgic drive-in experiences with simple, delicious food and unique root beer": [
+        "Fans of nostalgic drive-in experiences with simple, delicious food",
+        "Fans of nostalgic drive-in experiences with unique root beer",
+    ],
+    "Individuals and groups seeking fun and challenging team-building activities": [
+        "Individuals seeking fun and challenging team-building activities",
+        "Groups seeking fun and challenging team-building activities",
+    ],
+    "Mixed reviews on pricing and flavor": [
+        "Mixed reviews on pricing",
+        "Mixed reviews on flavor",
+    ],
+    "Shoppers looking for deals on fashion and accessories": [
+        "Shoppers looking for deals on fashion",
+        "Shoppers looking for deals on accessories",
+    ],
+    "affordable shopping and dining experience": [
+        "affordable shopping experience",
+        "affordable dining experience",
+    ],
+    "beet and goat cheese sandwich": [
+        "beet sandwich",
+        "goat cheese sandwich",
+    ],
+    "bubbles and berries martini": [
+        "bubbles martini",
+        "berries martini",
+    ],
+    "cheap and tasty breakfast and lunch options": [
+        "cheap breakfast and lunch options",
+        "tasty breakfast and lunch options",
+    ],
+    "creative and innovative food and drink options": [
+        "creative food and drink options",
+        "innovative food and drink options",
+    ],
+    "creatively named food and drinks": [
+        "creatively named food",
+        "creatively named drinks",
+    ],
+    "difficult choice between burritos and nachos": [
+        "difficult choice between burritos",
+        "difficult choice between nachos",
+    ],
+    "discounts for teachers, military, and first responders": [
+        "discounts for teachers",
+        "discounts for military",
+        "discounts for first responders",
+    ],
+    "event hosting with beer and wine": [
+        "event hosting with beer",
+        "event hosting with wine",
+    ],
+    "festive lights and activities": [
+        "festive lights",
+        "festive activities",
+    ],
+    "flavorful, crispy and diverse Korean food options": [
+        "flavorful Korean food options",
+        "crispy Korean food options",
+        "diverse Korean food options",
+    ],
+    "fresh, authentic flavors": [
+        "fresh flavors",
+        "authentic flavors",
+    ],
+    "fresh, creative rolls": [
+        "fresh rolls",
+        "creative rolls",
+    ],
+    "fresh, flavorful Greek fast food": [
+        "fresh Greek fast food",
+        "flavorful Greek fast food",
+    ],
+    "fresh, handmade dishes": [
+        "fresh dishes",
+        "handmade dishes",
+    ],
+    "friendly, welcoming salon atmosphere": [
+        "friendly salon atmosphere",
+        "welcoming salon atmosphere",
+    ],
+    "fun shopping and dining experience": [
+        "fun shopping experience",
+        "fun dining experience",
+    ],
+    "great variety and flavor choices": [
+        "great variety choices",
+        "great flavor choices",
+    ],
+    "groups seeking a fun, lively dining experience": [
+        "groups seeking a fun dining experience",
+        "groups seeking a lively dining experience",
+    ],
+    "half-off wines and margaritas": [
+        "half-off wines",
+        "half-off margaritas",
+    ],
+    "handmade beauty and skincare products": [
+        "handmade beauty products",
+        "handmade skincare products",
+    ],
+    "healthy, clean eating": [
+        "healthy eating",
+        "clean eating",
+    ],
+    "healthy, cooked-to-order meals": [
+        "healthy meals",
+        "cooked-to-order meals",
+    ],
+    "hearty, affordable breakfasts": [
+        "hearty breakfasts",
+        "affordable breakfasts",
+    ],
+    "hearty, delicious soul food": [
+        "hearty soul food",
+        "delicious soul food",
+    ],
+    "hidden gems and insider recommendations": [
+        "hidden gems",
+        "insider recommendations",
+    ],
+    "learning and fun": [
+        "learning",
+        "fun",
+    ],
+    "light, crispy beignets": [
+        "light beignets",
+        "crispy beignets",
+    ],
+    "literacy and language development": [
+        "literacy development",
+        "language development",
+    ],
+    "market for fresh produce and spices": [
+        "market for fresh produce",
+        "market for spices",
+    ],
+    "massive, clean hookahs": [
+        "massive hookahs",
+        "clean hookahs",
+    ],
+    "massive, flavorful burgers": [
+        "massive burgers",
+        "flavorful burgers",
+    ],
+    "messy and juicy chipotle chicken sub": [
+        "messy chipotle chicken sub",
+        "juicy chipotle chicken sub",
+    ],
+    "modern, open-kitchen concept": [
+        "modern concept",
+        "open-kitchen concept",
+    ],
+    "modern, well-designed bars": [
+        "modern bars",
+        "well-designed bars",
+    ],
+    "no-frills, cozy atmosphere": [
+        "no-frills atmosphere",
+        "cozy atmosphere",
+    ],
+    "no-frills, friendly atmosphere": [
+        "no-frills atmosphere",
+        "friendly atmosphere",
+    ],
+    "no-frills, fun atmosphere": [
+        "no-frills atmosphere",
+        "fun atmosphere",
+    ],
+    "no-frills, industrial setting": [
+        "no-frills setting",
+        "industrial setting",
+    ],
+    "no-frills, vintage setting": [
+        "no-frills setting",
+        "vintage setting",
+    ],
+    "occasional crowds and lines": [
+        "occasional crowds",
+        "occasional lines",
+    ],
+    "occasional highs and lows in taste": [
+        "occasional highs in taste",
+        "occasional lows in taste",
+    ],
+    "occasional lapses in food and attention": [
+        "occasional lapses in food",
+        "occasional lapses in attention",
+    ],
+    "occasional sales and deals": [
+        "occasional sales",
+        "occasional deals",
+    ],
+    "open, airy spaces": [
+        "open spaces",
+        "airy spaces",
+    ],
+    "open, clean atmospheres": [
+        "open atmospheres",
+        "clean atmospheres",
+    ],
+    "people looking for a casual, family-friendly dining experience": [
+        "people looking for a casual dining experience",
+        "people looking for a family-friendly dining experience",
+    ],
+    "people looking for fresh, delicious gyro and salad options": [
+        "people looking for fresh, delicious gyro options",
+        "people looking for fresh, delicious salad options",
+    ],
+    "people looking for gluten-free and fresh American cuisine": [
+        "people looking for gluten-free American cuisine",
+        "people looking for fresh American cuisine",
+    ],
+    "people looking for good bar food and drinks": [
+        "people looking for good bar food",
+        "people looking for good bar drinks",
+    ],
+    "people seeking a blend of Japanese and Thai cuisines": [
+        "people seeking Japanese cuisine",
+        "people seeking Thai cuisine",
+    ],
+    "people seeking a modern, unique dining experience": [
+        "people seeking a modern dining experience",
+        "people seeking a unique dining experience",
+    ],
+    "people seeking a quaint, flavorful dining experience": [
+        "people seeking a quaint dining experience",
+        "people seeking a flavorful dining experience",
+    ],
+    "people seeking affordable, substantial meals": [
+        "people seeking affordable meals",
+        "people seeking substantial meals",
+    ],
+    "people seeking charming, small cafes": [
+        "people seeking charming cafes",
+        "people seeking small cafes",
+    ],
+    "people seeking fresh, tasty Mexican food": [
+        "people seeking fresh Mexican food",
+        "people seeking tasty Mexican food",
+    ],
+    "people shopping for creative, hipster-inspired pieces": [
+        "people shopping for creative pieces",
+        "people shopping for hipster-inspired pieces",
+    ],
+    "people who appreciate a clean and tranquil environment": [
+        "people who appreciate a clean environment",
+        "people who appreciate a tranquil environment",
+    ],
+    "people who appreciate a clean and vibrant dining environment": [
+        "people who appreciate a clean dining environment",
+        "people who appreciate a vibrant dining environment",
+    ],
+    "people who appreciate a cozy, intimate bar setting": [
+        "people who appreciate a cozy bar setting",
+        "people who appreciate an intimate bar setting",
+    ],
+    "people who appreciate attention to detail, luxury services, and a welcoming staff": [
+        "people who appreciate attention to detail",
+        "people who appreciate luxury services",
+        "people who appreciate a welcoming staff",
+    ],
+    "people who appreciate efficient and organized service": [
+        "people who appreciate efficient service",
+        "people who appreciate organized service",
+    ],
+    "people who appreciate efficient, friendly, and professional movers": [
+        "people who appreciate efficient movers",
+        "people who appreciate friendly movers",
+        "people who appreciate professional movers",
+    ],
+    "people who appreciate enthusiastic and friendly service": [
+        "people who appreciate enthusiastic service",
+        "people who appreciate friendly service",
+    ],
+    "people who appreciate fast and efficient service": [
+        "people who appreciate fast service",
+        "people who appreciate efficient service",
+    ],
+    "people who appreciate fast and friendly service": [
+        "people who appreciate fast service",
+        "people who appreciate friendly service",
+    ],
+    "people who appreciate fresh, local, and unique food": [
+        "people who appreciate fresh food",
+        "people who appreciate local food",
+        "people who appreciate unique food",
+    ],
+    "people who appreciate fresh, made-to-order food": [
+        "people who appreciate fresh food",
+        "people who appreciate made-to-order food",
+    ],
+    "people who appreciate fresh, organic food": [
+        "people who appreciate fresh food",
+        "people who appreciate organic food",
+    ],
+    "people who appreciate fresh, tasty, and inexpensive burgers": [
+        "people who appreciate fresh burgers",
+        "people who appreciate tasty burgers",
+        "people who appreciate inexpensive burgers",
+    ],
+    "people who appreciate friendly owners and staff": [
+        "people who appreciate friendly owners",
+        "people who appreciate friendly staff",
+    ],
+    "people who appreciate friendly service and quality food": [
+        "people who appreciate friendly service",
+        "people who appreciate quality food",
+    ],
+    "people who appreciate good food and beer pairings": [
+        "people who appreciate good food",
+        "people who appreciate beer pairings",
+    ],
+    "people who appreciate good, affordable Cuban food with generous portions and a diverse menu": [
+        "people who appreciate good, affordable Cuban food",
+        "people who appreciate generous portions",
+        "people who appreciate a diverse menu",
+    ],
+    "people who appreciate great food, quality dining experiences, cozy atmosphere, upscale but not pretentious environment": [
+        "people who appreciate great food",
+        "people who appreciate quality dining experiences",
+        "people who appreciate cozy atmosphere",
+        "people who appreciate upscale but not pretentious environment",
+    ],
+    "people who appreciate high-quality burgers, unique burger toppings": [
+        "people who appreciate high-quality burgers",
+        "people who appreciate unique burger toppings",
+    ],
+    "people who appreciate unique and creative dining experiences": [
+        "people who appreciate unique dining experiences",
+        "people who appreciate creative dining experiences",
+    ],
+    "people who appreciate unique and flavorful combinations": [
+        "people who appreciate unique combinations",
+        "people who appreciate flavorful combinations",
+    ],
+    "people who appreciate unique, diverse, and well-priced menus": [
+        "people who appreciate unique menus",
+        "people who appreciate diverse menus",
+        "people who appreciate well-priced menus",
+    ],
+    "people who appreciate unique, handmade gifts": [
+        "people who appreciate unique gifts",
+        "people who appreciate handmade gifts",
+    ],
+    "people who enjoy Hawaiian and Japanese cuisine": [
+        "people who enjoy Hawaiian cuisine",
+        "people who enjoy Japanese cuisine",
+    ],
+    "Activities like kayaking, hiking, and wildlife spotting": [
+        "Activities like kayaking",
+        "Activities like hiking",
+        "Activities like wildlife spotting",
+    ],
+    "Clients seeking high-quality manicures and pedicures": [
+        "Clients seeking high-quality manicures",
+        "Clients seeking high-quality pedicures",
+    ],
+    "Customers seeking white pizza, vegetarian, or gluten-free options": [
+        "Customers seeking white pizza options",
+        "Customers seeking vegetarian options",
+        "Customers seeking gluten-free options",
+    ],
+    "Customers who enjoy casual, affordable drinks and food": [
+        "Customers who enjoy casual, affordable drinks",
+        "Customers who enjoy casual, affordable food",
+    ],
+    "Fans of Italian cuisine with preference for quality food, good service, and a nice atmosphere": [
+        "Fans of Italian cuisine with preference for quality food",
+        "Fans of Italian cuisine with preference for good service",
+        "Fans of Italian cuisine with preference for a nice atmosphere",
+    ],
+    "Fans of diverse, high-quality food and drinks": [
+        "Fans of diverse, high-quality food",
+        "Fans of diverse, high-quality drinks",
+    ],
+    "Fans of flavorful, tender steaks and seafood": [
+        "Fans of flavorful, tender steaks",
+        "Fans of flavorful, tender seafood",
+    ],
+    "Fans of unique flavors and mix-ins": [
+        "Fans of unique flavors",
+        "Fans of unique mix-ins",
+    ],
+    "Guests who appreciate service and location": [
+        "Guests who appreciate service",
+        "Guests who appreciate location",
+    ],
+    "Individuals interested in desert plants and animals": [
+        "Individuals interested in desert plants",
+        "Individuals interested in desert animals",
+    ],
+    "Individuals interested in farm-related attractions and food": [
+        "Individuals interested in farm-related attractions",
+        "Individuals interested in farm-related food",
+    ],
+    "People interested in a variety of coffee, beer, and wine options": [
+        "People interested in a variety of coffee options",
+        "People interested in a variety of beer options",
+        "People interested in a variety of wine options",
+    ],
+    "People interested in food and drink": [
+        "People interested in food",
+        "People interested in drink",
+    ],
+    "People open to trying new flavors and dishes": [
+        "People open to trying new flavors",
+        "People open to trying new dishes",
+    ],
+    "Users that enjoy bowling and arcades": [
+        "Users that enjoy bowling",
+        "Users that enjoy arcades",
+    ],
+    "a bit more for quality food and service": [
+        "a bit more for quality food",
+        "a bit more for quality service",
+    ],
+    "all ages and abilities": [
+        "all ages",
+        "all abilities",
+    ],
+    "anxiety and stress": [
+        "anxiety",
+        "stress",
+    ],
+    "benefits and services": [
+        "benefits",
+        "services",
+    ],
+    "blend of classy and divey atmosphere": [
+        "classy atmosphere",
+        "divey atmosphere",
+    ],
+    # New expansion rules derived from unique_tails_comma_and.txt (lines 241-360)
+    "hearty, flavorful meals": [
+        "hearty meals",
+        "flavorful meals",
+    ],
+    "hearty, flavorful steaks": [
+        "hearty steaks",
+        "flavorful steaks",
+    ],
+    "hearty, oversized portions": [
+        "hearty portions",
+        "oversized portions",
+    ],
+    "humble and family-owned": [
+        "humble",
+        "family-owned",
+    ],
+    "humorous and entertaining staff": [
+        "humorous staff",
+        "entertaining staff",
+    ],
+    "impressive variety of rolls and sashimi": [
+        "impressive variety of rolls",
+        "impressive variety of sashimi",
+    ],
+    "individuals interested in Asian cuisine and culture": [
+        "individuals interested in Asian cuisine",
+        "individuals interested in Asian culture",
+    ],
+    "insightful and well-researched information": [
+        "insightful information",
+        "well-researched information",
+    ],
+    "interesting and varied menu options": [
+        "interesting menu options",
+        "varied menu options",
+    ],
+    "lively bar and restaurant atmosphere": [
+        "lively bar atmosphere",
+        "lively restaurant atmosphere",
+    ],
+    "lively bar and restaurant setting": [
+        "lively bar setting",
+        "lively restaurant setting",
+    ],
+    "lively lobby and bar area": [
+        "lively lobby area",
+        "lively bar area",
+    ],
+    "local artists and authors": [
+        "local artists",
+        "local authors",
+    ],
+    "local bar and grill atmosphere": [
+        "local bar atmosphere",
+        "local grill atmosphere",
+    ],
+    "local mom and pop vibe": [
+        "local vibe",
+        "mom and pop vibe",
+    ],
+    "mature and chill atmosphere": [
+        "mature atmosphere",
+        "chill atmosphere",
+    ],
+    "memberships and discounts": [
+        "memberships",
+        "discounts",
+    ],
+    "menu including pasta and salads": [
+        "menu including pasta",
+        "menu including salads",
+    ],
+    "menu with sweet and savory dishes": [
+        "menu with sweet dishes",
+        "menu with savory dishes",
+    ],
+    "military and first responders": [
+        "military",
+        "first responders",
+    ],
+    "milk and cookies treats": [
+        "milk treats",
+        "cookies treats",
+    ],
+    "minor errors in orders and preparation": [
+        "minor errors in orders",
+        "minor errors in preparation",
+    ],
+    "minor imperfections in food quality and service": [
+        "minor imperfections in food quality",
+        "minor imperfections in service",
+    ],
+    "mix and match different combinations": [
+        "mix different combinations",
+        "match different combinations",
+    ],
+    "mix of classic and unique options": [
+        "classic options",
+        "unique options",
+    ],
+    "modern European and Mexican fusion setting": [
+        "modern European setting",
+        "modern Mexican fusion setting",
+    ],
+    "mom and pop atmosphere": [
+        "mom and pop",
+        "atmosphere",
+    ],
+    "mom and pop feel": [
+        "mom and pop",
+        "feel",
+    ],
+    "mom and pop restaurant vibe": [
+        "mom and pop restaurant",
+        "vibe",
+    ],
+    "mom and pop style pizzerias": [
+        "mom and pop pizzerias",
+        "style pizzerias",
+    ],
+    "motivating and fun atmosphere": [
+        "motivating atmosphere",
+        "fun atmosphere",
+    ],
+    "nature and entertainment blend": [
+        "nature blend",
+        "entertainment blend",
+    ],
+    "neat and clean environment": [
+        "neat environment",
+        "clean environment",
+    ],
+    "neat and organized store": [
+        "neat store",
+        "organized store",
+    ],
+    "neat and picture-worthy ambiance": [
+        "neat ambiance",
+        "picture-worthy ambiance",
+    ],
+    "nostalgic and consistent dining experiences": [
+        "nostalgic dining experiences",
+        "consistent dining experiences",
+    ],
+    "older and more chic attire": [
+        "older attire",
+        "more chic attire",
+    ],
+    "options for adults and children": [
+        "options for adults",
+        "options for children",
+    ],
+    "organic and natural products": [
+        "organic products",
+        "natural products",
+    ],
+    "organic and specialty foods": [
+        "organic foods",
+        "specialty foods",
+    ],
+    "organic and wholefood options": [
+        "organic options",
+        "wholefood options",
+    ],
+    "owner and staff": [
+        "owner",
+        "staff",
+    ],
+    "painting and sipping drinks": [
+        "painting",
+        "sipping drinks",
+    ],
+    "parking and traffic congestion": [
+        "parking congestion",
+        "traffic congestion",
+    ],
+    "partygoers of all ages and backgrounds": [
+        "partygoers of all ages",
+        "partygoers of all backgrounds",
+    ],
+    "people interested in trying new and exciting dishes": [
+        "people interested in trying new dishes",
+        "people interested in trying exciting dishes",
+    ],
+    "people interested in unique and educational tours": [
+        "people interested in unique tours",
+        "people interested in educational tours",
+    ],
+    "people looking for a fun and friendly atmosphere": [
+        "people looking for a fun atmosphere",
+        "people looking for a friendly atmosphere",
+    ],
+    "people looking for a fun and interactive experience": [
+        "people looking for a fun experience",
+        "people looking for an interactive experience",
+    ],
+    "people looking for a fun and tasty treat": [
+        "people looking for a fun treat",
+        "people looking for a tasty treat",
+    ],
+    # New expansion rules derived from unique_tails_comma_and.txt (lines 361-480)
+    "people looking for affordable and generous portion sizes": [
+        "people looking for affordable portion sizes",
+        "people looking for generous portion sizes",
+    ],
+    "people looking for healthy and flavorful food options": [
+        "people looking for healthy food options",
+        "people looking for flavorful food options",
+    ],
+    "people looking for lively and colorful restaurant experience": [
+        "people looking for lively restaurant experience",
+        "people looking for colorful restaurant experience",
+    ],
+    "people prioritizing quick service and high cleanliness standards": [
+        "people prioritizing quick service",
+        "people prioritizing high cleanliness standards",
+    ],
+    "people prioritizing quick service and reasonable prices": [
+        "people prioritizing quick service",
+        "people prioritizing reasonable prices",
+    ],
+    "people seeking a cozy and comfortable atmosphere": [
+        "people seeking a cozy atmosphere",
+        "people seeking a comfortable atmosphere",
+    ],
+    "people seeking a cozy and friendly atmosphere": [
+        "people seeking a cozy atmosphere",
+        "people seeking a friendly atmosphere",
+    ],
+    "people seeking a cozy and intimate dining atmosphere": [
+        "people seeking a cozy dining atmosphere",
+        "people seeking an intimate dining atmosphere",
+    ],
+    "people seeking a creative and exciting menu": [
+        "people seeking a creative menu",
+        "people seeking an exciting menu",
+    ],
+    "people seeking a mix of comfort food and creative dishes": [
+        "people seeking comfort food",
+        "people seeking creative dishes",
+    ],
+    "people seeking a mix of healthy and indulgent dishes": [
+        "people seeking healthy dishes",
+        "people seeking indulgent dishes",
+    ],
+    "people seeking a mix of traditional and creative Mexican dishes": [
+        "people seeking traditional Mexican dishes",
+        "people seeking creative Mexican dishes",
+    ],
+    "people seeking a nurturing, holistic experience": [
+        "people seeking a nurturing experience",
+        "people seeking a holistic experience",
+    ],
+    "people seeking a quick and upscale lunch spot": [
+        "people seeking a quick lunch spot",
+        "people seeking an upscale lunch spot",
+    ],
+    "people seeking a quiet and creative retreat": [
+        "people seeking a quiet retreat",
+        "people seeking a creative retreat",
+    ],
+    "people seeking a relaxed and intimate movie experience": [
+        "people seeking a relaxed movie experience",
+        "people seeking an intimate movie experience",
+    ],
+    "people seeking a unique and intimate music experience": [
+        "people seeking a unique music experience",
+        "people seeking an intimate music experience",
+    ],
+    "people seeking a unique and modern sports bar experience": [
+        "people seeking a unique sports bar experience",
+        "people seeking a modern sports bar experience",
+    ],
+    "people seeking a unique, off-the-beaten-path dining experience": [
+        "people seeking a unique dining experience",
+        "people seeking an off-the-beaten-path dining experience",
+    ],
+    "people seeking flavorful and affordable Asian cuisine": [
+        "people seeking flavorful Asian cuisine",
+        "people seeking affordable Asian cuisine",
+    ],
+    "people seeking fresh and flavorful meals": [
+        "people seeking fresh meals",
+        "people seeking flavorful meals",
+    ],
+    "people seeking fresh and tasty options": [
+        "people seeking fresh options",
+        "people seeking tasty options",
+    ],
+    "people seeking fresh, organic, and locally sourced food": [
+        "people seeking fresh food",
+        "people seeking organic food",
+        "people seeking locally sourced food",
+    ],
+    "people seeking fun and unique experiences": [
+        "people seeking fun experiences",
+        "people seeking unique experiences",
+    ],
+    "people seeking good food and drinks": [
+        "people seeking good food",
+        "people seeking good drinks",
+    ],
+    "people seeking guilt-free, satisfying meals": [
+        "people seeking guilt-free meals",
+        "people seeking satisfying meals",
+    ],
+    "people seeking informative and emotional experiences": [
+        "people seeking informative experiences",
+        "people seeking emotional experiences",
+    ],
+    "people seeking local pet-related resources and services": [
+        "people seeking local pet-related resources",
+        "people seeking local pet-related services",
+    ],
+    "people seeking new and exciting burger experiences": [
+        "people seeking new burger experiences",
+        "people seeking exciting burger experiences",
+    ],
+    "people seeking quick and delicious meals": [
+        "people seeking quick meals",
+        "people seeking delicious meals",
+    ],
+    "people seeking quick and painless dental procedures": [
+        "people seeking quick dental procedures",
+        "people seeking painless dental procedures",
+    ],
+    "people seeking quick, casual dining": [
+        "people seeking quick dining",
+        "people seeking casual dining",
+    ],
+    "people seeking thorough, caring, and efficient healthcare": [
+        "people seeking thorough healthcare",
+        "people seeking caring healthcare",
+        "people seeking efficient healthcare",
+    ],
+    "people seeking unique and creative pizza options": [
+        "people seeking unique pizza options",
+        "people seeking creative pizza options",
+    ],
+    "people seeking unique, eclectic items": [
+        "people seeking unique items",
+        "people seeking eclectic items",
+    ],
+    "people seeking variety of food and drink options": [
+        "people seeking variety of food options",
+        "people seeking variety of drink options",
+    ],
+    # New expansion rules derived from unique_tails_comma_and.txt (lines 481-600)
+    "people who appreciate warm and efficient service": [
+        "people who appreciate warm service",
+        "people who appreciate efficient service",
+    ],
+    "people who cannot handle spice and oil": [
+        "people who cannot handle spice",
+        "people who cannot handle oil",
+    ],
+    "people who don't mind crowds and lines": [
+        "people who don't mind crowds",
+        "people who don't mind lines",
+    ],
+    "people who enjoy Pilates, yoga, and fitness classes": [
+        "people who enjoy Pilates classes",
+        "people who enjoy yoga classes",
+        "people who enjoy fitness classes",
+    ],
+    "people who enjoy Thai and Japanese cuisine": [
+        "people who enjoy Thai cuisine",
+        "people who enjoy Japanese cuisine",
+    ],
+    "people who enjoy a clean and comfortable dining atmosphere": [
+        "people who enjoy a clean dining atmosphere",
+        "people who enjoy a comfortable dining atmosphere",
+    ],
+    "people who enjoy a cozy and charming atmosphere": [
+        "people who enjoy a cozy atmosphere",
+        "people who enjoy a charming atmosphere",
+    ],
+    "people who enjoy a cozy and intimate atmosphere": [
+        "people who enjoy a cozy atmosphere",
+        "people who enjoy an intimate atmosphere",
+    ],
+    "people who enjoy a cozy and relaxed atmosphere": [
+        "people who enjoy a cozy atmosphere",
+        "people who enjoy a relaxed atmosphere",
+    ],
+    "people who enjoy a fun and busy environment": [
+        "people who enjoy a fun environment",
+        "people who enjoy a busy environment",
+    ],
+    "people who enjoy a fun and creative social experience": [
+        "people who enjoy a fun social experience",
+        "people who enjoy a creative social experience",
+    ],
+    "people who enjoy a fun and energetic atmosphere": [
+        "people who enjoy a fun atmosphere",
+        "people who enjoy an energetic atmosphere",
+    ],
+    "people who enjoy a fun and relaxed setting": [
+        "people who enjoy a fun setting",
+        "people who enjoy a relaxed setting",
+    ],
+    "people who enjoy a warm and welcoming atmosphere": [
+        "people who enjoy a warm atmosphere",
+        "people who enjoy a welcoming atmosphere",
+    ],
+    "people who enjoy a welcoming and friendly environment": [
+        "people who enjoy a welcoming environment",
+        "people who enjoy a friendly environment",
+    ],
+    "people who enjoy affordable, high-quality nail services": [
+        "people who enjoy affordable nail services",
+        "people who enjoy high-quality nail services",
+    ],
+    "people who enjoy breakfast and brunch options": [
+        "people who enjoy breakfast options",
+        "people who enjoy brunch options",
+    ],
+    "people who enjoy brunch and drinks": [
+        "people who enjoy brunch",
+        "people who enjoy drinks",
+    ],
+    "people who enjoy chic and sleek upscale restaurants": [
+        "people who enjoy chic upscale restaurants",
+        "people who enjoy sleek upscale restaurants",
+    ],
+    "people who enjoy chic and trendy bars": [
+        "people who enjoy chic bars",
+        "people who enjoy trendy bars",
+    ],
+    "people who enjoy classic breakfast and brunch options": [
+        "people who enjoy classic breakfast options",
+        "people who enjoy classic brunch options",
+    ],
+    "people who enjoy cozy and friendly coffee shops": [
+        "people who enjoy cozy coffee shops",
+        "people who enjoy friendly coffee shops",
+    ],
+    "people who enjoy cozy and unique bars": [
+        "people who enjoy cozy bars",
+        "people who enjoy unique bars",
+    ],
+    "people who enjoy cute and unique dining experiences": [
+        "people who enjoy cute dining experiences",
+        "people who enjoy unique dining experiences",
+    ],
+    "people who enjoy dark and romantic atmospheres": [
+        "people who enjoy dark atmospheres",
+        "people who enjoy romantic atmospheres",
+    ],
+    "people who enjoy delicious food and drinks": [
+        "people who enjoy delicious food",
+        "people who enjoy delicious drinks",
+    ],
+    "people who enjoy dining, nightlife, and a hip atmosphere": [
+        "people who enjoy dining",
+        "people who enjoy nightlife",
+        "people who enjoy a hip atmosphere",
+    ],
+    "people who enjoy exploring and cooking with Asian foods": [
+        "people who enjoy exploring Asian foods",
+        "people who enjoy cooking with Asian foods",
+    ],
+    "people who enjoy exploring diverse and international foods": [
+        "people who enjoy exploring diverse foods",
+        "people who enjoy exploring international foods",
+    ],
+    "people who enjoy fresh and tasty food": [
+        "people who enjoy fresh food",
+        "people who enjoy tasty food",
+    ],
+    "people who enjoy fresh, bold flavors": [
+        "people who enjoy fresh flavors",
+        "people who enjoy bold flavors",
+    ],
+    "people who enjoy fresh, healthy vegan food options": [
+        "people who enjoy fresh vegan food options",
+        "people who enjoy healthy vegan food options",
+    ],
+    "people who enjoy fresh, light lunches": [
+        "people who enjoy fresh lunches",
+        "people who enjoy light lunches",
+    ],
+    "people who enjoy fresh, healthy, gluten-free options": [
+        "people who enjoy fresh options",
+        "people who enjoy healthy options",
+        "people who enjoy gluten-free options",
+    ],
+    "people who enjoy friendly service and quality food": [
+        "people who enjoy friendly service",
+        "people who enjoy quality food",
+    ],
+    "people who enjoy live music, comedy nights, standing venues, good drink specials, and a laid-back atmosphere": [
+        "people who enjoy live music",
+        "people who enjoy comedy nights",
+        "people who enjoy standing venues",
+        "people who enjoy good drink specials",
+        "people who enjoy a laid-back atmosphere",
+    ],
+    # New expansion rules derived from unique_tails_comma_and.txt (lines 601-848)
+    "people who enjoy outdoor activities and exploring nature": [
+        "people who enjoy outdoor activities",
+        "people who enjoy exploring nature",
+    ],
+    "people who enjoy spicy and savory flavors": [
+        "people who enjoy spicy flavors",
+        "people who enjoy savory flavors",
+    ],
+    "people who enjoy sweets, desserts, coffee, tea, alcohol": [
+        "people who enjoy sweets",
+        "people who enjoy desserts",
+        "people who enjoy coffee",
+        "people who enjoy tea",
+        "people who enjoy alcohol",
+    ],
+    "people who enjoy trendy and lively atmospheres": [
+        "people who enjoy trendy atmospheres",
+        "people who enjoy lively atmospheres",
+    ],
+    "people who enjoy trying different food and drink options": [
+        "people who enjoy trying different food options",
+        "people who enjoy trying different drink options",
+    ],
+    "people who enjoy trying new and creative dishes": [
+        "people who enjoy trying new dishes",
+        "people who enjoy trying creative dishes",
+    ],
+    "people who enjoy trying unique and culturally diverse foods": [
+        "people who enjoy trying unique foods",
+        "people who enjoy trying culturally diverse foods",
+    ],
+    "people who enjoy unique and creative cocktails": [
+        "people who enjoy unique cocktails",
+        "people who enjoy creative cocktails",
+    ],
+    "people who enjoy unique and creative food and drink offerings": [
+        "people who enjoy unique food and drink offerings",
+        "people who enjoy creative food and drink offerings",
+    ],
+    "people who enjoy unique and fun ice cream experiences": [
+        "people who enjoy unique ice cream experiences",
+        "people who enjoy fun ice cream experiences",
+    ],
+    "people who enjoy unique and trendy dessert experiences": [
+        "people who enjoy unique dessert experiences",
+        "people who enjoy trendy dessert experiences",
+    ],
+    "people who enjoy unique and trendy dining experiences": [
+        "people who enjoy unique dining experiences",
+        "people who enjoy trendy dining experiences",
+    ],
+    "people who enjoy unique and upscale dining experiences": [
+        "people who enjoy unique dining experiences",
+        "people who enjoy upscale dining experiences",
+    ],
+    "people who enjoy vibrant and fun atmospheres": [
+        "people who enjoy vibrant atmospheres",
+        "people who enjoy fun atmospheres",
+    ],
+    "people who enjoy warm and welcoming atmospheres": [
+        "people who enjoy warm atmospheres",
+        "people who enjoy welcoming atmospheres",
+    ],
+    "people who prefer spacious seating and less crowded environments": [
+        "people who prefer spacious seating",
+        "people who prefer less crowded environments",
+    ],
+    "people who prioritize convenience and quality": [
+        "people who prioritize convenience",
+        "people who prioritize quality",
+    ],
+    "people who prioritize ethical and eco-friendly choices": [
+        "people who prioritize ethical choices",
+        "people who prioritize eco-friendly choices",
+    ],
+    "people who value quaint and cozy atmospheres": [
+        "people who value quaint atmospheres",
+        "people who value cozy atmospheres",
+    ],
+    "people who value taste and quality": [
+        "people who value taste",
+        "people who value quality",
+    ],
+    "people who value variety and quality": [
+        "people who value variety",
+        "people who value quality",
+    ],
+    "people who value variety and prices": [
+        "people who value variety",
+        "people who value prices",
+    ],
+    "relaxed and luxurious": [
+        "relaxed",
+        "luxurious",
+    ],
+    "safe and convenient location": [
+        "safe location",
+        "convenient location",
+    ],
+    "safe and friendly environment": [
+        "safe environment",
+        "friendly environment",
+    ],
+    "safe and spacious venue": [
+        "safe venue",
+        "spacious venue",
+    ],
+    "safe and well-organized dining environment": [
+        "safe dining environment",
+        "well-organized dining environment",
+    ],
+    "simple and homey atmosphere": [
+        "simple atmosphere",
+        "homey atmosphere",
+    ],
+    "simple and juicy": [
+        "simple",
+        "juicy",
+    ],
+    "smooth and flavorful coffee": [
+        "smooth coffee",
+        "flavorful coffee",
+    ],
+    "smooth and rich": [
+        "smooth",
+        "rich",
+    ],
+    "solid and tasty dishes": [
+        "solid dishes",
+        "tasty dishes",
+    ],
+    "stylish and beautiful restaurant": [
+        "stylish restaurant",
+        "beautiful restaurant",
+    ],
+    "stylish and charming ambiance": [
+        "stylish ambiance",
+        "charming ambiance",
+    ],
+    "stylish and lively atmosphere": [
+        "stylish atmosphere",
+        "lively atmosphere",
+    ],
+    "taste and spiciness balance": [
+        "taste balance",
+        "spiciness balance",
+    ],
+    "tasty and original coffee drinks": [
+        "tasty coffee drinks",
+        "original coffee drinks",
+    ],
+    "tasty and slightly fancy": [
+        "tasty",
+        "slightly fancy",
+    ],
+    "tasty sauces and sides": [
+        "tasty sauces",
+        "tasty sides",
+    ],
+    "thick and chewy noodles": [
+        "thick noodles",
+        "chewy noodles",
+    ],
+    "thick and crunchy pizza": [
+        "thick pizza",
+        "crunchy pizza",
+    ],
+    "unique beer and wine selections": [
+        "unique beer selections",
+        "unique wine selections",
+    ],
+    "unique breakfast and brunch offerings": [
+        "unique breakfast offerings",
+        "unique brunch offerings",
+    ],
+    "unique gifts and cards": [
+        "unique gifts",
+        "unique cards",
+    ],
+    "unique mac and cheese creations": [
+        "unique mac and cheese",
+        "unique mac and cheese creations",
+    ],
+    "unique twists on traditional breakfast and lunch items": [
+        "unique twists on traditional breakfast items",
+        "unique twists on traditional lunch items",
+    ],
+    "upbeat and homey": [
+        "upbeat",
+        "homey",
+    ],
+    "vegetarian and vegan southwestern cuisine": [
+        "vegetarian southwestern cuisine",
+        "vegan southwestern cuisine",
+    ],
+    "vibrant bar and grill setting": [
+        "vibrant bar setting",
+        "vibrant grill setting",
+    ],
+    "vibrant dining and drinking experience": [
+        "vibrant dining experience",
+        "vibrant drinking experience",
+    ],
+    "vibrant pub and nightlife": [
+        "vibrant pub",
+        "vibrant nightlife",
+    ],
+    "vitamins and supplements": [
+        "vitamins",
+        "supplements",
+    ],
+    "wide selection of coffee and tea options": [
+        "wide selection of coffee options",
+        "wide selection of tea options",
+    ],
+    "wide selection of flavors and toppings": [
+        "wide selection of flavors",
+        "wide selection of toppings",
+    ],
+    "wide selection of food and beverages": [
+        "wide selection of food",
+        "wide selection of beverages",
+    ],
+    "wide selection of wines and spirits": [
+        "wide selection of wines",
+        "wide selection of spirits",
+    ],
+    "wide variety of flavors and toppings": [
+        "wide variety of flavors",
+        "wide variety of toppings",
+    ],
+    "wide variety of sweet and savory flavors": [
+        "wide variety of sweet flavors",
+        "wide variety of savory flavors",
+    ],
+    "young and vibrant crowd": [
+        "young crowd",
+        "vibrant crowd",
+    ],
+    "youthful and fun dining experience": [
+        "youthful dining experience",
+        "fun dining experience",
+    ],
+    # New expansion rules derived from unique_tails_comma_and.txt (lines 121-240)
+    "engaging and rewarding experience": [
+        "engaging experience",
+        "rewarding experience",
+    ],
+    "experienced and attentive professionals": [
+        "experienced professionals",
+        "attentive professionals",
+    ],
+    "families, couples, and groups": [
+        "families",
+        "couples",
+        "groups",
+    ],
+    "flavorful and affordable Asian cuisine": [
+        "flavorful Asian cuisine",
+        "affordable Asian cuisine",
+    ],
+    "flavorful and generous Thai dishes": [
+        "flavorful Thai dishes",
+        "generous Thai dishes",
+    ],
+    "flavorful and well-spiced Thai cuisine": [
+        "flavorful Thai cuisine",
+        "well-spiced Thai cuisine",
+    ],
+    "fluffy, flavorful donuts": [
+        "fluffy donuts",
+        "flavorful donuts",
+    ],
+    "fresh and flavorful Indian dishes": [
+        "fresh Indian dishes",
+        "flavorful Indian dishes",
+    ],
+    "fresh and flavorful ingredients": [
+        "fresh ingredients",
+        "flavorful ingredients",
+    ],
+    "fresh and flavorful options": [
+        "fresh options",
+        "flavorful options",
+    ],
+    "fresh and generous portions": [
+        "fresh portions",
+        "generous portions",
+    ],
+    "fresh and generous toppings": [
+        "fresh toppings",
+        "generous toppings",
+    ],
+    "fresh and healthy food options": [
+        "fresh food options",
+        "healthy food options",
+    ],
+    "fresh and high-quality fish": [
+        "fresh fish",
+        "high-quality fish",
+    ],
+    "fresh and locally sourced food": [
+        "fresh food",
+        "locally sourced food",
+    ],
+    "fresh and mouth-watering food": [
+        "fresh food",
+        "mouth-watering food",
+    ],
+    "fresh and quality": [
+        "fresh",
+        "quality",
+    ],
+    "fresh and seasonal cocktails": [
+        "fresh cocktails",
+        "seasonal cocktails",
+    ],
+    "fresh and unique dishes": [
+        "fresh dishes",
+        "unique dishes",
+    ],
+    "fresh and unique rolls": [
+        "fresh rolls",
+        "unique rolls",
+    ],
+    "fresh and varied crepes": [
+        "fresh crepes",
+        "varied crepes",
+    ],
+    "fresh and well-prepared dishes": [
+        "fresh dishes",
+        "well-prepared dishes",
+    ],
+    "fresh herbs and vegetables": [
+        "fresh herbs",
+        "fresh vegetables",
+    ],
+    "fresh produce and treats": [
+        "fresh produce",
+        "fresh treats",
+    ],
+    "fresh, flavorful, and balanced meals": [
+        "fresh meals",
+        "flavorful meals",
+        "balanced meals",
+    ],
+    "fresh, flavorful, and perfectly portioned baked goods": [
+        "fresh baked goods",
+        "flavorful baked goods",
+        "perfectly portioned baked goods",
+    ],
+    "fresh, flavorful, and perfectly portioned sandwiches": [
+        "fresh sandwiches",
+        "flavorful sandwiches",
+        "perfectly portioned sandwiches",
+    ],
+    "fresh, healthy and varied menu options": [
+        "fresh menu options",
+        "healthy menu options",
+        "varied menu options",
+    ],
+    "fresh, healthy, and customizable options": [
+        "fresh options",
+        "healthy options",
+        "customizable options",
+    ],
+    "fresh, healthy, and diverse menu options": [
+        "fresh menu options",
+        "healthy menu options",
+        "diverse menu options",
+    ],
+    "fresh, high-quality ingredients": [
+        "fresh ingredients",
+        "high-quality ingredients",
+    ],
+    "fresh, high-quality sandwiches": [
+        "fresh sandwiches",
+        "high-quality sandwiches",
+    ],
+    "fresh, homemade food": [
+        "fresh food",
+        "homemade food",
+    ],
+    "fresh, homemade pasta": [
+        "fresh pasta",
+        "homemade pasta",
+    ],
+    "fresh, house-made food": [
+        "fresh food",
+        "house-made food",
+    ],
+    "fresh, juicy chicken": [
+        "fresh chicken",
+        "juicy chicken",
+    ],
+    "fresh, local, and seasonal dishes": [
+        "fresh dishes",
+        "local dishes",
+        "seasonal dishes",
+    ],
+    "fresh, locally grown produce": [
+        "fresh produce",
+        "locally grown produce",
+    ],
+    "fresh, made-from-scratch sandwiches": [
+        "fresh sandwiches",
+        "made-from-scratch sandwiches",
+    ],
+    "fresh, made-to-order seafood": [
+        "fresh seafood",
+        "made-to-order seafood",
+    ],
+    "fresh, organic and healthy food options": [
+        "fresh food options",
+        "organic food options",
+        "healthy food options",
+    ],
+    "fresh, organic food": [
+        "fresh food",
+        "organic food",
+    ],
+    "fresh, plentiful food": [
+        "fresh food",
+        "plentiful food",
+    ],
+    "fresh, quality ingredients": [
+        "fresh ingredients",
+        "quality ingredients",
+    ],
+    "fresh, seasonal menus": [
+        "fresh menus",
+        "seasonal menus",
+    ],
+    "fresh, seasonal, and diverse": [
+        "fresh",
+        "seasonal",
+        "diverse",
+    ],
+    "fresh, tasty American cuisine": [
+        "fresh American cuisine",
+        "tasty American cuisine",
+    ],
+    "fresh, traditional offerings": [
+        "fresh offerings",
+        "traditional offerings",
+    ],
+    "fresh, unique and natural flavors": [
+        "fresh flavors",
+        "unique flavors",
+        "natural flavors",
+    ],
+    "fresh, unique pizzas": [
+        "fresh pizzas",
+        "unique pizzas",
+    ],
+    "fresh, upscale dishes": [
+        "fresh dishes",
+        "upscale dishes",
+    ],
+    "fresh, wholesome meals": [
+        "fresh meals",
+        "wholesome meals",
+    ],
+    "fun activities like games and local events": [
+        "fun activities like games",
+        "fun activities like local events",
+    ],
+    "fun and affordable shopping and dining experience": [
+        "fun shopping and dining experience",
+        "affordable shopping and dining experience",
+    ],
+    "fun atmosphere with music and dancing": [
+        "fun atmosphere with music",
+        "fun atmosphere with dancing",
+    ],
+    "funny and engaging tour guides": [
+        "funny tour guides",
+        "engaging tour guides",
+    ],
+    "great deals on fruits and vegetables": [
+        "great deals on fruits",
+        "great deals on vegetables",
+    ],
+    "great options for sides and veggies": [
+        "great options for sides",
+        "great options for veggies",
+    ],
+    "great selection of local meats and beverages": [
+        "great selection of local meats",
+        "great selection of beverages",
+    ],
+    "great value and variety in wing flavors": [
+        "great value in wing flavors",
+        "great variety in wing flavors",
+    ],
     "quick and friendly service": ["quick service", "friendly service"],
     "quick, friendly service": ["quick service", "friendly service"],
     "attentive and friendly service": ["attentive service", "friendly service"],
@@ -2651,6 +4147,13 @@ ENTITY_EXPANSION_RULES = {
     "wine and cocktail selection": ["wine selection", "cocktail selection"],
     "wide variety of meats and cheeses": ["wide variety of meats", "wide variety of cheeses"],
     "with friends and family": ["with friends", "with family"],
+    "people who enjoy breakfast and brunch": ["people who enjoy breakfast", "people who enjoy brunch"],
+    "newly popular and understaffed location": ["newly popular location", "understaffed location"],
+    "Fans of unique flavors and mix-ins": ["Fans of unique flavors", "Fans of mix-ins"],
+    "fresh and flavorful options": ["fresh options", "flavorful options"],
+    "people seeking a unique, lively, and alternative nightlife experience": ["people who seek a unique nightlife experience", "people who seek a lively nightlife experience", "people who seek an alternative nightlife experience"],
+    "occasional inconsistencies in appetizers and service": ["occasional inconsistencies in appetizers", "occasional inconsistencies in service"],
+     "fresh and diverse menu options": ["fresh menu options", "diverse menu options"],
 }
 
 # Entity addition rules: Add multiple tail entities while keeping the original entity
@@ -2837,6 +4340,67 @@ RELATION_TAIL_REPLACEMENTS = [
     ("category", "seafood", "serves", "seafood"),
     ("category", "spa", "is a", "spa"),
     ("has atmosphere", "roomy dining spaces", "has feature", "roomy dining spaces"),
+    ("serves", "limited vegetarian options", "has feature", "limited vegetarian options"),
+    ("has overall experience", "casual", "has atmosphere", "casual"),
+    ("has overall experience", "romantic", "has atmosphere", "romantic"),
+    ("suitable for", "travelers", "appeals to", "travelers"),
+    ("serves", "creative dishes", "has feature", "creative dishes"),
+    ("serves", "high-quality food", "has feature", "high-quality food"),
+    ("has atmosphere", "affordable", "price range", "affordable"),
+    ("has feature", "vibrant setting", "has atmosphere", "vibrant setting"),
+    ("offers", "fish", "serves", "fish"),
+    ("has feature", "burritos", "serves", "burritos"),
+    ("is a", "pizza", "serves", "pizza"),
+    ("has atmosphere", "accommodating service", "has feature", "accommodating service"),
+    ("has atmosphere", "friendly service", "has feature", "friendly service"),
+    ("offers","authentic boudin", "serves", "authentic boudin"),
+    ("serves", "bakery", "is a", "bakery"),
+    ("serves", "wellness treatments", "offers", "wellness treatments"),
+    ("has feature", "simple ambiance", "has atmosphere", "simple ambiance"),
+    ("offers", "courteous service", "has feature", "courteous service"),
+    ("offers", "quick service", "has feature", "quick service"),
+    ("is a", "bbq", "category", "bbq"),
+    ("has feature", "modern ambiance", "has atmosphere", "modern ambiance"),
+    ("has feature", "warm ambiance", "has atmosphere", "warm ambiance"),
+    ("located in", "newer locations", "has feature", "newer locations"),
+    ("located in", "spacious locations", "has feature", "spacious locations"),
+    ("is a", "ice cream", "serves", "ice cream"),
+    ("category", "breakfast", "serves", "breakfast"),
+    ("is a", "pasta", "serves", "pasta"),
+    ("is a", "sushi", "serves", "sushi"),
+    ("category", "clothing", "offers", "clothing"),
+    ("category", "seafood", "serves", "seafood"),
+    ("category", "steaks", "serves", "steaks"),
+    ("is a", "wine", "serves", "wine"),
+    ("category", "vegetarian restaurant", "is a", "vegetarian restaurant"),
+    ("category", "buffet", "serves", "buffet"),
+    ("is a", "frozen yogurt", "serves", "frozen yogurt"),
+    ("is a", "smoothies", "serves", "smoothies"),
+    ("is a", "breakfast", "serves", "breakfast"),
+    ("category", "tea", "serves", "tea"),
+    ("is a", "meat", "serves", "meat"),
+    ("has feature", "western art", "presents", "western art"),
+    ("category", "wellness center", "is a", "wellness center"),
+    ("category", "burgers", "serves", "burgers"),
+    ("is a", "breakfast", "serves", "breakfast"),
+    ("is a", "lunch", "serves", "lunch"),
+    ("is a", "bagel", "serves", "bagel"),
+    ("serves", "bagel", "is a", "bagel"),
+    ("category", "deli", "is a", "deli"),
+    ("is a", "cocktails", "serves", "cocktails"),
+    ("has feature", "artistic atmosphere", "has atmosphere", "artistic atmosphere"),
+    ("is a", "hot pot", "serves", "hot pot"),
+    ("is a", "gelato", "serves", "gelato"),
+    ("is a", "message", "offers", "message"),
+    ("is a", "wellness", "offers", "wellness"),
+    ("category", "pizza", "serves", "pizza"),
+    ("name", "auto repair", "is a", "auto repair"),
+    ("category", "bagel", "serves", "bagel"),
+    ("is a", "seafood", "serves", "seafood"),
+    ("is a", "message", "offers", "message"),
+    ("serves", "seasonal dishes", "has feature", "seasonal dishes"),
+    ("serves", "upscale dishes", "has feature", "upscale dishes"),
+    ("serves", "seasonal cocktails", "has feature", "seasonal cocktails"),
 ]
 
 # Tail-based relation unification rules
@@ -3080,29 +4644,43 @@ class KGCleaner:
     def _normalize_people_terms(self, triplets: List[List[str]]) -> List[List[str]]:
         """Normalize tail entities: 'Users'/'People'/'users' to 'people', 'those ~ing' to 'people ~ing', 'those who ~' to 'people who ~'."""
         normalized = []
-        # Terms to look for (case-sensitive as specified)
-        people_terms = ["Users", "People", "users"]
 
         for h, r, t in triplets:
             normalized_t = t
             should_normalize = False
             
-            # Check if tail contains any of the people terms -> convert to "people"
-            if any(term in t for term in people_terms):
-                normalized_t = "people"
+            # すでに小文字 "people" で始まるものはそのまま残す
+            if re.match(r"^people(\s|$)", t):
+                normalized.append([h, r, t])
+                continue
+            
+            # Check if tail starts with "People who", "Users who", etc. -> replace prefix only
+            # Use regex to match case-insensitively
+            if re.match(r"^(People|Users|users|Individuals|customers|Customers) who ", t, re.IGNORECASE):
+                # Pattern: "People who X" -> "people who X"
+                normalized_t = re.sub(r"^(People|Users|users|Individuals|customers|Customers) who ", "people who ", t, flags=re.IGNORECASE)
+                should_normalize = True
+            # Check if tail starts with "People ~ing", "Users ~ing", "Customers ~ing", etc. -> replace prefix only
+            elif re.match(r"^(People|Users|users|Individuals|customers|Customers) \w+ing", t, re.IGNORECASE):
+                # Pattern: "Users seeking X" / "Customers seeking X" -> "people seeking X" (ing形をそのまま)
+                normalized_t = re.sub(
+                    r"^(People|Users|users|Individuals|customers|Customers) ",
+                    "people ",
+                    t,
+                    flags=re.IGNORECASE,
+                )
                 should_normalize = True
             # Check if tail starts with "those" or "Those"
-            elif t.startswith("those ") or t.startswith("Those "):
+            elif re.match(r"^(those|Those) who ", t, re.IGNORECASE):
                 # Pattern 1: "those who X" -> "people who X"
-                if re.match(r"^(those|Those) who ", t, re.IGNORECASE):
-                    normalized_t = re.sub(r"^(those|Those) who ", "people who ", t, flags=re.IGNORECASE)
-                    should_normalize = True
+                normalized_t = re.sub(r"^(those|Those) who ", "people who ", t, flags=re.IGNORECASE)
+                should_normalize = True
+            elif re.match(r"^(those|Those) \w+ing", t, re.IGNORECASE):
                 # Pattern 2: "those ~ing X" -> "people ~ing X" (ing形をそのまま)
-                elif re.match(r"^(those|Those) \w+ing", t, re.IGNORECASE):
-                    # "those/Those" を "people" に置き換え（ing形はそのまま）
-                    normalized_t = re.sub(r"^(those|Those) ", "people ", t, flags=re.IGNORECASE)
-                    should_normalize = True
-                # それ以外の "those" で始まるものは置き換えない
+                # "those/Those" を "people" に置き換え（ing形はそのまま）
+                normalized_t = re.sub(r"^(those|Those) ", "people ", t, flags=re.IGNORECASE)
+                should_normalize = True
+            # それ以外の "those" で始まるものは置き換えない
             
             if should_normalize:
                 normalized.append([h, r, normalized_t])

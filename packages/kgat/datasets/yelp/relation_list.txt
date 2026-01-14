@@ -71,46 +71,45 @@ relation_name remap_id
 "reasons to revisit" 69
 "has drawback" 70
 "accepts payment" 71
-"prefers payment method" 72
-"has event" 73
-"has food options" 74
-"compared to" 75
-"lacks feature" 76
-"avoids" 77
-"has hours" 78
-"has highlight" 79
-"has potential issue" 80
-"off ers" 81
-"surroundings include" 82
-"caterst to" 83
-"educates about" 84
-"cater to" 85
-"has opportunity to see" 86
-"adheres to" 87
-"discovers" 88
-"does not specify" 89
-"competes with" 90
-"connected to" 91
-"recommendation" 92
-"has music genre" 93
-"has overall experience" 94
-"has cuisine influence" 95
-"sees" 96
-"includes" 97
-"likes" 98
-"is open to" 99
-"ensures" 100
-"has dietary options" 101
-"made from" 102
-"services" 103
-"cooking method" 104
-"can overlook" 105
-"creates" 106
-"willing to" 107
-"has quality" 108
-"has theme" 109
-"listens to" 110
-"value proposition" 111
-"has portion size" 112
-"has menu" 113
-"has potential for" 114
+"has event" 72
+"has food options" 73
+"compared to" 74
+"lacks feature" 75
+"avoids" 76
+"has hours" 77
+"has highlight" 78
+"has potential issue" 79
+"off ers" 80
+"surroundings include" 81
+"caterst to" 82
+"educates about" 83
+"cater to" 84
+"has opportunity to see" 85
+"adheres to" 86
+"discovers" 87
+"does not specify" 88
+"competes with" 89
+"connected to" 90
+"recommendation" 91
+"has music genre" 92
+"has overall experience" 93
+"has cuisine influence" 94
+"sees" 95
+"includes" 96
+"likes" 97
+"is open to" 98
+"ensures" 99
+"has dietary options" 100
+"made from" 101
+"services" 102
+"cooking method" 103
+"can overlook" 104
+"creates" 105
+"willing to" 106
+"has quality" 107
+"has theme" 108
+"listens to" 109
+"value proposition" 110
+"has portion size" 111
+"has menu" 112
+"has potential for" 113

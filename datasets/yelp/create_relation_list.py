@@ -55,7 +55,7 @@ def create_relation_list(relations, output_file_path):
 
 def main():
     """メイン関数"""
-    input_file = "merged_kg_2.json"
+    input_file = "cleaned_kg_20251222_173441.json"
     output_file = "relation_list.txt"
 
     print(f"JSONファイル '{input_file}' からリレーションを抽出中...")

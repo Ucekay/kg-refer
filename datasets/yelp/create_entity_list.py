@@ -92,7 +92,7 @@ def create_entity_list(entities, output_file_path, start_id):
 
 def main():
     """メイン関数"""
-    input_file = "merged_kg_2.json"
+    input_file = "cleaned_kg_20251222_173441.json"
     total_csv_file = "total.csv"
     output_file = "entity_list.txt"
 

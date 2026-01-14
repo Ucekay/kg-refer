@@ -12,5 +12,28 @@ wheels/
 .env
 
 .DS_Store
+#
+# Model outputs
 packages/kgat/trained_model/
+
+# Package outputs
 packages/kg-attribute-embedder/output/
+packages/raft-data-generator/output/
+packages/raft-data-generator/temp/
+
+# Root output directory (large generated files)
+output/
+subgraph_*.json
+unique_tails*.txt
+
+# Datasets - generated/large files
+datasets/yelp/cleaned_kg_*.json
+datasets/yelp/interactions_yelp_*.txt
+datasets/gen_explanations/
+
+# Analysis scripts output
+analyze_subgraph_candidates.py
+extract_comma_and.py
+
+# Plot outputs
+*.png

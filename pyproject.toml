@@ -5,22 +5,27 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "business-profile-verifier",
     "cyclopts>=4.1.0",
+    "explainable-rec-prompt-generator",
     "kg-attribute-embedder",
     "kg-cleaner",
     "kg-formatter",
     "kgat",
-    "kgat-explainer",
     "light-kg",
     "matplotlib>=3.10.7",
     "numpy>=2.3.3",
     "pandas>=2.3.3",
+    "path-importance-calculator",
+    "raft-data-generator",
     "relation-scalars",
     "scikit-learn>=1.7.2",
     "scipy>=1.16.3",
+    "semantic-similarity-retriever",
     "similarity-search",
     "torch>=2.9.0",
     "torchvision>=0.24.0",
+    "user-item-attribute-scorer",
 ]
 
 [tool.uv.workspace]
@@ -31,23 +36,35 @@ members = [
     "packages/kgat",
     "packages/kg-cleaner",
     "packages/kg-formatter",
-    "packages/kgat-explainer",
     "packages/similarity-search",
     "packages/light-kg",
     "packages/grease",
     "packages/relation-scalars",
     "packages/kg-attribute-embedder",
+    "packages/user-item-attribute-scorer",
+    "packages/path-importance-calculator",
+    "packages/semantic-similarity-retriever",
+    "packages/explainable-rec-prompt-generator",
+    "packages/explanation-generator",
+    "packages/raft-data-generator",
+    "packages/alignscore-calculator",
+    "packages/business-profile-verifier",
 ]
 
 [tool.uv.sources]
+explainable-rec-prompt-generator = { workspace = true }
 kg-attribute-embedder = { workspace = true }
 kg-cleaner = { workspace = true }
 kgat = { workspace = true }
 kg-formatter = { workspace = true }
-kgat-explainer = { workspace = true }
 similarity-search = { workspace = true }
 light-kg = { workspace = true }
 relation-scalars = { workspace = true, editable = true }
+path-importance-calculator = { workspace = true }
+business-profile-verifier = { workspace = true }
+raft-data-generator = { workspace = true }
+semantic-similarity-retriever = { workspace = true }
+user-item-attribute-scorer = { workspace = true }
 
 [dependency-groups]
 dev = [
